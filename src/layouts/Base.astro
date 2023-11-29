@@ -1,0 +1,10 @@
+---
+import Hero from '../components/hero/Hero.astro'
+
+const { frontmatter } = Astro.props
+---
+
+<Hero
+  bookshop:live
+  {...frontmatter.hero_component}
+/>
