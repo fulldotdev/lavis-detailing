@@ -5,6 +5,7 @@ import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
 import UnoCSS from 'unocss/astro'
 
+// test git
 export default defineConfig({
   output: 'static',
   compressHTML: true,
