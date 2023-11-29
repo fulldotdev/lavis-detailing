@@ -4,19 +4,29 @@ const components: any = {}
 const componentImports = import.meta.glob('../../components/**/*.astro', {
   eager: true,
 })
+
+const toCamelCase = (s: string) => s.charAt(0).toLowerCase() + s.slice(1)
+const toPascalCase = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
+
 Object.entries(componentImports).forEach(([path, obj]: any) => {
-  const parts = path.replace('../../components/', '').split('.')[0].split('/')
-  if (parts[parts.length - 1] === parts[parts.length - 2]) {
+  const parts: string[] = path
+    .replace('../../components/', '')
+    .split('.')[0]
+    .split('/')
+  const camelParts = parts.map((part) => toCamelCase(part))
+  if (camelParts[camelParts.length - 1] === camelParts[camelParts.length - 2]) {
     parts.pop()
   }
-  const bookshopName = parts.join('/')
-  components[bookshopName] = obj.default
+  let bookshopName = parts.join('/')
+  const pascalBookshopName = toPascalCase(bookshopName)
+  components[pascalBookshopName] = obj.default
 })
 ---
 
 <main>
   {
     blocks.map((block: any) => {
+      console.log('block', block)
       const Component = components[block._bookshop_name]
       return <Component {...block} />
     })
