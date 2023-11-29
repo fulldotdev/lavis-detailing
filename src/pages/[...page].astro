@@ -1,0 +1,28 @@
+---
+import Layout from '@layouts/Layout.astro'
+import RenderBlocks from '@shared/astro/RenderBlocks.astro'
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages')
+  return pages.map((page) => {
+    return {
+      params: {
+        page: page.slug === 'index' ? undefined : page.slug,
+      },
+      props: {
+        frontmatter: page.data,
+      },
+    }
+  })
+}
+
+const page = Astro.props.frontmatter
+---
+
+<Layout>
+  <RenderBlocks
+    bookshop:live
+    {...page}
+  />
+</Layout>

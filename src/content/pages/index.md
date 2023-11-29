@@ -1,7 +1,5 @@
 ---
-layout: ../layouts/PageLayout.astro
-content_blocks:
-
+blocks:
   - _bookshop_name: hero
     title: Kākā
     desciption: The New Zealand kākā is a large species of parrot
