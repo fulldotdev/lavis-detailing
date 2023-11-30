@@ -19,7 +19,6 @@ Object.entries(componentImports).forEach(([path, object]: any) => {
   if (partsAreEqual) camelParts.pop()
   let bookshopName = camelParts.join('/')
   const pascalBookshopName = toPascalCase(bookshopName)
-  console.log('pascalBookshopName', pascalBookshopName)
   components[pascalBookshopName] = object.default
 })
 ---
@@ -28,8 +27,6 @@ Object.entries(componentImports).forEach(([path, object]: any) => {
   {
     blocks.map((block: any) => {
       const Component = components[block._bookshop_name]
-      console.log('Component type:', typeof Component)
-
       return <Component {...block} />
     })
   }

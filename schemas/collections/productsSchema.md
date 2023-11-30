@@ -4,22 +4,18 @@ _stripe_price_id:
 
 title:
 description:
-image:
-
-price:
-
-prose:
-
 images:
   - src:
     alt:
 
+price:
 categories:
-
 brand:
 
 seo:
   title:
   description:
   image:
+    src:
+    alt:
 ---

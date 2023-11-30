@@ -2,5 +2,7 @@
 name:
 tagline:
 description:
-avatar: 
+image:
+  src:
+  alt:
 ---

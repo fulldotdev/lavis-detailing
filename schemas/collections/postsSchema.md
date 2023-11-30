@@ -2,11 +2,13 @@
 title:
 description:
 image:
-
-blocks:
+  src:
+  alt:
 
 seo:
   title:
   description:
   image:
+    src:
+    alt:
 ---

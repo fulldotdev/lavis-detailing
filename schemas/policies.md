@@ -1,6 +1,0 @@
----
-seo:
-  title:
-  description:
-  image:
----
