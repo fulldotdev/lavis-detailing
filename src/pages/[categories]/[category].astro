@@ -1,5 +1,6 @@
 ---
 import Layout from '@layouts/Layout.astro'
+import RenderBlocks from '@shared/astro/RenderBlocks.astro'
 import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
@@ -17,10 +18,12 @@ export async function getStaticPaths() {
   })
 }
 
-let entry = Astro.props.frontmatter
-entry = {}
+const entry = Astro.props.frontmatter
 ---
 
 <Layout>
-  <!--  -->
+  <RenderBlocks
+    bookshop:live
+    {...entry}
+  />
 </Layout>

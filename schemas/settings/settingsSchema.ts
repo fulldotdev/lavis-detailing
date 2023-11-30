@@ -1,15 +1,15 @@
-import { z } from 'astro:content'
+// import { z } from 'astro:content'
 
-const settingsSchema = z.object({
-  colors: z.object({
-    base: z.string(),
-    brand: z.string(),
-    accent: z.string(),
-    scheme: z.string(),
-    texture: z.string(),
-    contrast: z.boolean(),
-  }),
-})
+// const settingsSchema = z.object({
+//   colors: z.object({
+//     base: z.string(),
+//     brand: z.string(),
+//     accent: z.string(),
+//     scheme: z.string(),
+//     texture: z.string(),
+//     contrast: z.boolean(),
+//   }),
+// })
 // typography: z.object({
 //   font: z.string(),
 //   size: z.string(),

@@ -7,19 +7,20 @@ import { Fixture, Generator } from 'zod-fixture'
 
 const execAsync = promisify(exec)
 
-const collections = [
-  'brands',
-  'categories',
-  'employees',
-  'pages',
-  'policies',
-  'posts',
-  'products',
-  'reviews',
-  'services',
-]
+// const collections = [
+//   'brands',
+//   'categories',
+//   'employees',
+//   'pages',
+//   'policies',
+//   'posts',
+//   'products',
+//   'reviews',
+//   'services',
+// ]
 
 async function generateSchemas(collection) {
+  if (!collection) return
   try {
     // Run the 'ts-to-zod' command synchronously
 
@@ -58,4 +59,4 @@ async function generateSchemas(collection) {
   }
 }
 
-// generateSchemas('brands')
+generateSchemas()

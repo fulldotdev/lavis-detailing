@@ -2,7 +2,6 @@
 import Layout from '@layouts/Layout.astro'
 import RenderBlocks from '@shared/astro/RenderBlocks.astro'
 import { getCollection } from 'astro:content'
-import { createFixture } from 'zod-fixture'
 
 export async function getStaticPaths() {
   const collection = await getCollection('pages')
@@ -19,12 +18,6 @@ export async function getStaticPaths() {
 }
 
 const entry = Astro.props.frontmatter
-
-import yaml from 'js-yaml'
-import { myTestSchemaSchema } from '../../schemas/test-schema'
-const fixture = createFixture(myTestSchemaSchema)
-const yamlFixture = yaml.dump(fixture)
-console.log('yaml', yamlFixture)
 ---
 
 <Layout>
