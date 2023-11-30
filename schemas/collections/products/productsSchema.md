@@ -1,21 +1,19 @@
 ---
-_stripe_product_id:
-_stripe_price_id:
-
-title:
-description:
+_stripe_product_id: null
+_stripe_price_id: null
+title: null
+description: null
 images:
-  - src:
-    alt:
-
-price:
+  - src: null
+    alt: null
+price: null
 categories:
-brand:
-
+  - null
+brand: null
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
-    src:
-    alt:
+    src: null
+    alt: null
 ---

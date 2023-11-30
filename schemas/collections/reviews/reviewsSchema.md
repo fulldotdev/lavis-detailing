@@ -1,8 +1,9 @@
 ---
-title:
-description:
+title: null
+description: null
+rating: null
 author:
-  name:
-  tagline:
-  avatar:
+  name: null
+  tagline: null
+  avatar: null
 ---

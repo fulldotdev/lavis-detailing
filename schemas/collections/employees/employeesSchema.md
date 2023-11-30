@@ -1,8 +1,8 @@
 ---
-name:
-tagline:
-description:
+name: null
+tagline: null
+description: null
 image:
-  src:
-  alt:
+  src: null
+  alt: null
 ---

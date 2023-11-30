@@ -1,16 +1,16 @@
 export interface Posts {
-  title?: string | null
-  description?: string | null
+  title: string | null
+  description: string | null
   image: {
-    src?: string | null
-    alt?: string | null
+    src: string | null
+    alt: string | null
   }
   seo: {
-    title?: string | null
-    description?: string | null
+    title: string | null
+    description: string | null
     image: {
-      src?: string | null
-      alt?: string | null
+      src: string | null
+      alt: string | null
     }
   }
 }

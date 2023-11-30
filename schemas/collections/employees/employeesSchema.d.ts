@@ -1,9 +1,9 @@
 export interface Employees {
-  name?: string | null
-  tagline?: string | null
-  description?: string | null
+  name: string | null
+  tagline: string | null
+  description: string | null
   image: {
-    src?: string | null
-    alt?: string | null
+    src: string | null
+    alt: string | null
   }
 }

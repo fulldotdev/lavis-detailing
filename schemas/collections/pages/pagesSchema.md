@@ -1,10 +1,9 @@
 ---
-blocks:
-
+blocks: null
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
-    src:
-    alt:
+    src: null
+    alt: null
 ---

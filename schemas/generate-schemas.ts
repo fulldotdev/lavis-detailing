@@ -2,22 +2,18 @@ import { exec } from 'child_process'
 import fs from 'fs'
 import yaml from 'js-yaml'
 import { promisify } from 'util'
-import { ZodString } from 'zod'
+import { ZodAny, ZodNumber, ZodString } from 'zod'
 import { Fixture, Generator } from 'zod-fixture'
 
-const execAsync = promisify(exec)
+interface Defaults {
+  seed?: 99
+  array: {
+    min: 1
+    max: 1
+  }
+}
 
-// const collections = [
-//   'brands',
-//   'categories',
-//   'employees',
-//   'pages',
-//   'policies',
-//   'posts',
-//   'products',
-//   'reviews',
-//   'services',
-// ]
+const execAsync = promisify(exec)
 
 async function generateSchemas(collection) {
   if (!collection) return
@@ -36,13 +32,31 @@ async function generateSchemas(collection) {
     const schema = zodSchema[collection + 'Schema']
 
     // Custom generator for nullable strings
-    const nullableStringGenerator = Generator({
+    const stringGenerator = Generator({
       schema: ZodString,
-      output: () => '',
+      output: () => null,
+    })
+
+    // Custom generator for any
+    const anyGenerator = Generator({
+      schema: ZodAny,
+      output: () => null,
+    })
+
+    // Custom generator for any
+    const numberGenerator = Generator({
+      schema: ZodNumber,
+      output: () => null,
     })
 
     // Create a fixture with the custom generator
-    const fixture = new Fixture().extend([nullableStringGenerator])
+    const fixture = new Fixture({
+      seed: 1,
+      array: {
+        min: 1,
+        max: 1,
+      },
+    }).extend([stringGenerator, anyGenerator, numberGenerator])
     const fixtureSchema = fixture.fromSchema(schema)
 
     // Convert to YAML
@@ -59,4 +73,16 @@ async function generateSchemas(collection) {
   }
 }
 
-generateSchemas()
+const collections = [
+  'brands',
+  'categories',
+  'employees',
+  'pages',
+  'policies',
+  'posts',
+  'products',
+  'reviews',
+  'services',
+]
+
+collections.forEach((collection) => generateSchemas(collection))

@@ -1,0 +1,26 @@
+theme:
+  colors:
+    base: slate
+    brand: blue
+    accent: red
+    scheme: dark
+    texture: solid
+    contrast: 
+  fonts:
+    heading:
+      family: 
+      weight: 
+      class: 
+      className: 
+    subheading:
+      family: 
+      weight: 
+    text:
+      family: 
+      weight: 
+    button:
+      family: 
+      weight: 
+  sizes:
+    scale: 
+    rounded:

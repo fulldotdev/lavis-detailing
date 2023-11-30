@@ -1,14 +1,11 @@
 ---
-title:
-description:
+description: null
 image:
-  src:
-  alt:
-
+  src: null
+  alt: null
 seo:
-  title:
-  description:
+  description: null
   image:
-    src:
-    alt:
+    src: null
+    alt: null
 ---
