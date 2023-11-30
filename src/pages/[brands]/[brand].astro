@@ -7,7 +7,8 @@ export async function getStaticPaths() {
   return collection.map((entry) => {
     return {
       params: {
-        product: entry.slug,
+        brands: 'merken',
+        brand: entry.slug,
       },
       props: {
         frontmatter: entry.data,
@@ -16,9 +17,10 @@ export async function getStaticPaths() {
   })
 }
 
-const entry = Astro.props.frontmatter
+let entry = Astro.props.frontmatter
+entry = {}
 ---
 
 <Layout>
-  {entry}
+  <!--  -->
 </Layout>
