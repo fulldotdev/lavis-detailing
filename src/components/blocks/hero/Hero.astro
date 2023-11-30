@@ -1,15 +1,13 @@
 ---
-import Buttons from '@shared/elements/Buttons.astro'
-import Image from '@shared/elements/Image.astro'
-import Writeup from '@shared/elements/Writeup.astro'
-import Group from '@shared/wrappers/Group.astro'
-import Section from '@shared/wrappers/Section.astro'
-import Segment from '@shared/wrappers/Segment.astro'
-import type { HeroBlock, HeroBlockSettings } from '@types'
+import Buttons from '@components/elements/Buttons.astro'
+import Image from '@components/elements/Image.astro'
+import Writeup from '@components/elements/Writeup.astro'
+import Group from '@components/wrappers/Group.astro'
+import Section from '@components/wrappers/Section.astro'
+import Segment from '@components/wrappers/Segment.astro'
 
 interface Props {
-  block: HeroBlock
-  setting: HeroBlockSettings
+  writeup: 
 }
 
 const { block, setting } = Astro.props
