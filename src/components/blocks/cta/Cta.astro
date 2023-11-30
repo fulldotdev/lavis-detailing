@@ -23,13 +23,7 @@ type Props = {
   image: ImageProps
 }
 
-const {
-  section = {},
-  segment = {},
-  writeup = {},
-  buttons,
-  image = {},
-} = Astro.props
+const { section, segment, writeup, buttons, image } = Astro.props
 ---
 
 <Section {...section}>

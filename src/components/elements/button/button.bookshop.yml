@@ -1,6 +1,19 @@
 spec:
+  structures:
+    - blocks
   label: Button
+  description:
+  icon: 
 
 blueprint:
   label: Click me
   href: '#'
+
+preview:
+
+_inputs:
+  label:
+    comment: De tekst in de knop
+  href:
+    type: url
+    comment: Waar de knop naar toe linkt

@@ -1,0 +1,14 @@
+spec:
+  structures:
+    - blocks
+  label: Cta
+  description: 
+  icon: 
+
+blueprint:
+  writeup: bookshop:writeup
+  buttons: [bookshop:button]
+
+preview:
+
+_inputs:

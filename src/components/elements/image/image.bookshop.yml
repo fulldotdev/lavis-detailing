@@ -1,6 +1,14 @@
 spec:
+  structures:
+    - blocks
   label: Image
+  description:
+  icon: 
 
 blueprint:
   src: https://via.placeholder.com/150
   alt: Description of the image
+
+preview:
+
+_inputs:
