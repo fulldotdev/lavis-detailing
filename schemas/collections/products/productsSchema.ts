@@ -1,5 +1,5 @@
 import { z } from 'astro:content'
-import { brand, categories, description, images, price, title } from '..'
+import { brand, categories, description, images, price, title } from '../..'
 
 export const productsSchema = z.object({
   _stripe_product_id: z.string(),

@@ -1,10 +1,10 @@
 import transformerDirectives from '@unocss/transformer-directives'
 import transformerVariantGroup from '@unocss/transformer-variant-group'
 import { defineConfig, presetIcons, presetUno } from 'unocss'
-import presetColors from './src/core/settings/settingsPresetColors'
-import presetFonts from './src/core/settings/settingsPresetFonts'
-import presetSizes from './src/core/settings/settingsPresetSizes'
-import presetStyles from './src/core/settings/settingsPresetStyles'
+// import presetColors from './src/core/settings/settingsPresetColors'
+// import presetFonts from './src/core/settings/settingsPresetFonts'
+// import presetSizes from './src/core/settings/settingsPresetSizes'
+// import presetStyles from './src/core/settings/settingsPresetStyles'
 
 export default defineConfig({
   presets: [
@@ -18,10 +18,10 @@ export default defineConfig({
           ),
       },
     }),
-    presetSizes(settings.theme.sizes),
-    presetColors(settings.theme.colors),
-    presetFonts(settings.theme.fonts),
-    presetStyles(),
+    // presetSizes(settings.theme.sizes),
+    // presetColors(settings.theme.colors),
+    // presetFonts(settings.theme.fonts),
+    // presetStyles(),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
 })
