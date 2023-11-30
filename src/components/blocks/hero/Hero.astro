@@ -7,6 +7,7 @@ import Section from '@components/wrappers/Section.astro'
 import Segment from '@components/wrappers/Segment.astro'
 import type {
   ButtonProps,
+  GroupProps,
   ImageProps,
   SectionProps,
   SegmentProps,
@@ -19,6 +20,7 @@ type Props = {
   section: SectionProps
   segment: SegmentProps
   writeup: WriteupProps
+  group: GroupProps
   buttons: ButtonProps[]
   image: ImageProps
 }
@@ -26,16 +28,17 @@ type Props = {
 const {
   section = {},
   segment = {},
-  writeup = {},
+  writeup,
+  group = {},
   buttons,
-  image = {},
+  image,
 } = Astro.props
 ---
 
 <Section {...section}>
   <Segment {...segment}>
     <Writeup {...writeup} />
-    <Group {...section}>
+    <Group {...group}>
       {buttons?.map((button) => <Button {...button} />)}
     </Group>
   </Segment>

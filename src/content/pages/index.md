@@ -1,8 +1,13 @@
 ---
 blocks: 
   - _bookshop_name: Hero
-    test: Hello world
-
+    writeup: Hello world
+    buttons:
+      - label: Click me
+        href: /about
+    image:
+      src: /images/hero.jpg
+      alt: Hero image
 
 seo:
   title: 

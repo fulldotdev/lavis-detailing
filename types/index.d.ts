@@ -3,7 +3,7 @@ export * from 'astro/types'
 export { VariantProps } from 'cva'
 
 // WRAPPERS
-export * from '@components/wrappers/Group.astrp'
+export * from '@components/wrappers/Group.astro'
 export * from '@components/wrappers/Section.astro'
 export * from '@components/wrappers/Segment.astro'
 
