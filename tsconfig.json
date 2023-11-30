@@ -6,7 +6,9 @@
       "@*": ["src/*"],
       "@compponents/*": ["src/components/*"],
       "@layouts/*": ["src/layouts/*"],
+      "@variants": ["src/variants"],
       "@schemas": ["schemas"],
+      "@types": ["types/index.d.ts"],
     }
   }
 }

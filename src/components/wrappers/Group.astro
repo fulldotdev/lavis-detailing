@@ -1,0 +1,38 @@
+---
+import type { HTMLAttributes, VariantProps } from '@types'
+import { size } from '@variants'
+import { cva } from 'cva'
+
+export interface Props
+  extends VariantProps<typeof variant>,
+    HTMLAttributes<'div'> {
+  exclude?: boolean | null
+}
+
+const variant = cva({
+  base: 'gap-x-size3 gap-y-size2 justify-stretch',
+  variants: {
+    layout: {
+      row: 'flex',
+      col: 'flex flex-col',
+    },
+    size: size,
+  },
+  defaultVariants: {
+    layout: 'row',
+  },
+})
+
+const { exclude } = Astro.props
+---
+
+{
+  !exclude && Astro.slots.has('default') && (
+    <div
+      class={variant(Astro.props)}
+      {...Astro.props}
+    >
+      <slot />
+    </div>
+  )
+}

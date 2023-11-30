@@ -1,0 +1,34 @@
+---
+import type { ButtonSettings, Buttons } from '@types'
+import { getSettingsElement } from 'api'
+import type { Props as ButtonProps } from './Button.astro'
+import Button from './Button.astro'
+
+interface Props extends ButtonProps {
+  buttons: Buttons | undefined
+  setting?: ButtonSettings
+}
+
+const { buttons, setting, ...restProps } = Astro.props
+const defaultSetting = await getSettingsElement('buttons')
+
+function getHref(button) {
+  if (button.hrefSource === 'doc' && typeof button.doc === 'object')
+    return button.doc?.value?.path
+  else if (button.source === 'custom') return button.href
+}
+---
+
+{
+  buttons &&
+    buttons.length > 0 &&
+    buttons?.map((button, i) => (
+      <Button
+        href={getHref(button)}
+        {...button}
+        {...defaultSetting?.[i]}
+        {...setting?.[i]}
+        {...restProps}
+      />
+    ))
+}

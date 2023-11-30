@@ -1,0 +1,25 @@
+---
+import type { Settings } from '@types'
+import { getCompany, getSettingsElement } from 'api'
+import Channel from './Channel.astro'
+
+interface Props {
+  setting?: Settings['elements']['channels']
+}
+
+const { channels } = await getCompany()
+const defaultSetting = await getSettingsElement('channels')
+const { setting, ...restProps } = Astro.props
+---
+
+{
+  Object.entries(channels || {}).map(([key, value]) => (
+    <Channel
+      key={key as 'email' | 'phone' | 'whatsapp' | 'address'}
+      value={value}
+      {...defaultSetting}
+      {...setting}
+      {...restProps}
+    />
+  ))
+}

@@ -1,0 +1,62 @@
+---
+import look from '@shared/variants/look'
+import type { HTMLAttributes } from '@types'
+import { hue, scheme, size } from '@variants'
+import { cva, type VariantProps } from 'cva'
+
+export interface Props
+  extends VariantProps<typeof variant>,
+    HTMLAttributes<'a'> {
+  url: string
+  platform:
+    | 'facebook'
+    | 'instagram'
+    | 'twitter'
+    | 'youtube'
+    | 'linkedin'
+    | 'pinterest'
+    | 'tiktok'
+    | 'snapchat'
+    | 'twitch'
+    | 'reddit'
+    | 'telegram'
+}
+
+const variant = cva({
+  base: 'button p-size2 look-soft mode-compact size-small',
+  variants: {
+    hue: hue,
+    scheme: scheme,
+    look: look,
+    size: size,
+  },
+})
+
+let { platform, url, ...restProps } = Astro.props
+
+const iconMap: Record<Props['platform'], string> = {
+  facebook: 'icon:brand-facebook',
+  instagram: 'icon:brand-instagram',
+  twitter: 'icon:brand-twitter',
+  youtube: 'icon:brand-youtube',
+  linkedin: 'icon:brand-linkedin',
+  pinterest: 'icon:brand-pinterest',
+  tiktok: 'icon:brand-tiktok',
+  snapchat: 'icon:brand-snapchat',
+  twitch: 'icon:brand-twitch',
+  reddit: 'icon:brand-reddit',
+  telegram: 'icon:brand-telegram',
+}
+---
+
+<a
+  class={variant(restProps)}
+  href={url}
+  target="_blank"
+  {...restProps}
+>
+  <i
+    class="h-1.4em w-1.4em relative block text-inherit"
+    class:list={iconMap[platform]}
+  ></i>
+</a>

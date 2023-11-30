@@ -1,0 +1,29 @@
+---
+import type { HTMLAttributes } from '@types'
+import { serialize } from '@utils/richtext'
+import { cva, type VariantProps } from 'cva'
+
+export interface Props
+  extends VariantProps<typeof variant>,
+    HTMLAttributes<'a'> {
+  prose: any
+  exclude?: boolean | null
+}
+
+const variant = cva({
+  base: '',
+})
+
+const { prose, class: className } = Astro.props
+const html = serialize(prose?.root?.children)
+---
+
+{
+  prose && (
+    <div
+      class="prose"
+      class:list={[className]}
+      set:html={html}
+    />
+  )
+}

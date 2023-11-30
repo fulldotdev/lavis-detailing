@@ -1,0 +1,33 @@
+---
+import type { HTMLAttributes } from '@types'
+import { hue, size } from '@variants'
+import { cva, type VariantProps } from 'cva'
+
+export interface Props
+  extends VariantProps<typeof variant>,
+    HTMLAttributes<'li'> {
+  label: string
+}
+
+const variant = cva({
+  base: 'spec text text-hue12 flex gap-.5em',
+  variants: {
+    size: size,
+    hue: hue,
+  },
+})
+
+const { label, ...restProps } = Astro.props
+---
+
+<li
+  class={variant(restProps)}
+  {...restProps}
+>
+  <i class="icon:check hue-brand text w-1.5em h-1.5em inline-block">
+    checkmark
+  </i>
+  <span class="text-hue12">
+    {label}
+  </span>
+</li>

@@ -1,0 +1,60 @@
+---
+import Buttons from '@shared/elements/Buttons.astro'
+import Image from '@shared/elements/Image.astro'
+import Writeup from '@shared/elements/Writeup.astro'
+import Group from '@shared/wrappers/Group.astro'
+import Section from '@shared/wrappers/Section.astro'
+import Segment from '@shared/wrappers/Segment.astro'
+import type { HeroBlock, HeroBlockSettings } from '@types'
+
+interface Props {
+  block: HeroBlock
+  setting: HeroBlockSettings
+}
+
+const { block, setting } = Astro.props
+---
+
+<Section
+  {...setting.section}
+  x-data="{ show: false }"
+  x-intersect.half="show = true"
+>
+  <Segment {...setting.segment}>
+    <Writeup
+      {...setting.writeup}
+      richtext={block.writeup}
+      x-show="show"
+      x-cloak
+      x-transition:enter="duration-1250 [&_*:first-child]:(transition duration-1250 delay-0) [&_h1]:(transition duration-1250 delay-150) [&_p]:(transition duration-1250 delay-300)"
+      x-transition:enter-start="[&_*]:opacity-0"
+      x-transition:enter-end="[&_*]:opacity-100"
+    />
+    <Group {...setting.group}>
+      <Buttons
+        buttons={block.buttons}
+        setting={setting.buttons}
+        x-show="show"
+        x-cloak
+        x-transition:enter="duration-1250 first:(transition duration-1500 delay-500) transition duration-1250 delay-650"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+      />
+    </Group>
+  </Segment>
+  <Image
+    image={block.image}
+    {...setting.image}
+  />
+</Section>
+
+<style>
+  .gradient {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 40%,
+      rgba(0, 212, 255, 0) 100%
+    );
+  }
+</style>

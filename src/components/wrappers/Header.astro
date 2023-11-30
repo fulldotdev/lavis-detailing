@@ -1,0 +1,40 @@
+---
+import type { HTMLAttributes, VariantProps } from '@types'
+import { hue, scheme, size } from '@variants'
+import { cva } from 'cva'
+
+interface Props
+  extends VariantProps<typeof variant>,
+    HTMLAttributes<'header'> {}
+
+const variant = cva({
+  base: 'header mode-compact size-medium gap-size5 z-80 flex items-center !sticky top-0 justify-between backdrop-blur-3xl',
+  variants: {
+    frame: {
+      fill: 'px-wrapper py-size2 border-t-0 border-l-0 border-r-0',
+      float: 'mx-wrapper py-size2 border-b border-t-0 border-l-0 border-r-0',
+      panel: 'mx-wrapper my-size2 p-size3',
+    },
+    look: {
+      solid: 'bg-hue9 !text-hue-fg',
+      soft: 'bg-hue2',
+      surface: 'bg-hue2 border border-hue6',
+      outline: 'border border-hue6',
+    },
+    size: size,
+    scheme: scheme,
+    hue: hue,
+  },
+  defaultVariants: {
+    frame: 'fill',
+    size: 'medium',
+  },
+})
+---
+
+<header
+  class={variant(Astro.props)}
+  {...Astro.props}
+>
+  <slot />
+</header>
