@@ -20,8 +20,9 @@ collection_groups:
   - heading: Data
     collections:
       - data
-      - policies
       - employees
+      - reviews
+
 # -----------------------------------------------
 # Collection configuration
 # -----------------------------------------------
@@ -42,7 +43,7 @@ collections_config:
     path: src/content/services
     url: /diensten/[full_slug]/
     output: true
-    icon: wysiwyg
+    icon: home_repair_service
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
@@ -52,7 +53,7 @@ collections_config:
     path: src/content/products
     url: /producten/[full_slug]/
     output: true
-    icon: wysiwyg
+    icon: package_2
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
@@ -62,7 +63,7 @@ collections_config:
     path: src/content/categories
     url: /categorieen/[full_slug]/
     output: true
-    icon: wysiwyg
+    icon: category
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
@@ -72,7 +73,7 @@ collections_config:
     path: src/content/brands
     url: /merken/[full_slug]/
     output: true
-    icon: wysiwyg
+    icon: draw_collage
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
@@ -82,7 +83,7 @@ collections_config:
     path: src/content/posts
     url: /posts/[full_slug]/
     output: true
-    icon: wysiwyg
+    icon: edit_document
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
@@ -92,7 +93,7 @@ collections_config:
     path: src/content/policies
     url: /beleid/[full_slug]/
     output: true
-    icon: wysiwyg
+    icon: policy
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
@@ -100,13 +101,14 @@ collections_config:
 
   data:
     path: src/data
+    icon: 
     disable_add: true
     disable_add_folder: true
 
   reviews:
     path: src/content/reviews
     output: false
-    icon: wysiwyg
+    icon: reviews
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
@@ -115,7 +117,7 @@ collections_config:
   employees:
     path: src/content/employees
     output: false
-    icon: wysiwyg
+    icon: diversity_3
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
