@@ -26,7 +26,8 @@ Object.entries(componentImports).forEach(([path, object]: any) => {
 <main>
   {
     blocks.map((block: any) => {
-      const Component = components[block._bookshop_name]
+      const pascalBookshopName = toPascalCase(block._bookshop_name)
+      const Component = components[pascalBookshopName]
       return <Component {...block} />
     })
   }
