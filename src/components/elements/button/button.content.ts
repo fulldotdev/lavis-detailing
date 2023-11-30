@@ -1,6 +1,6 @@
-import { z } from 'astro:content'
+import { z } from 'zod'
 
-export const button = z.object({
-  label: z.string(),
-  href: z.string().url(),
+export const buttonContent = z.object({
+  label: z.string().nullable(),
+  href: z.string().nullable(),
 })

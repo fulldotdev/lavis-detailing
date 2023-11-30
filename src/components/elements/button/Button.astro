@@ -2,13 +2,13 @@
 import type { HTMLAttributes } from '@types'
 import { hue, scheme, size } from '@variants'
 import { cva, type VariantProps } from 'cva'
+export { type Props as ButtonProps }
 
-export interface Props
-  extends VariantProps<typeof variant>,
-    HTMLAttributes<'a'> {
-  label: string
-  href: string
-}
+type Props = VariantProps<typeof variant> &
+  HTMLAttributes<'a'> & {
+    label: string | null
+    href: string | null
+  }
 
 const variant = cva({
   base: 'gap-xs inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded-size1 p-size3 text-center text-button transition active:scale-95 disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed',
@@ -31,13 +31,12 @@ const variant = cva({
   },
 })
 
-const { href, label, ...restProps } = Astro.props
+const { label, href, ...restProps } = Astro.props
 ---
 
 <a
-  x-on=`rudderanalytics.track('buttonPressed',{href: ${href}}`
-  href={href}
   class={variant(restProps)}
+  href={href}
   {...restProps}
 >
   {label}

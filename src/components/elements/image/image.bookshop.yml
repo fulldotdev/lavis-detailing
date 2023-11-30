@@ -1,0 +1,6 @@
+spec:
+  label: Image
+
+blueprint:
+  src: https://via.placeholder.com/150
+  alt: Description of the image

@@ -3,11 +3,8 @@ import type { HTMLAttributes, VariantProps } from '@types'
 import { hue, size } from '@variants'
 import { cva } from 'cva'
 
-export interface Props
-  extends VariantProps<typeof variant>,
-    HTMLAttributes<'div'> {
-  exclude?: boolean | null
-}
+export type SegmentProps = Props
+type Props = VariantProps<typeof variant> & HTMLAttributes<'div'>
 
 const variant = cva({
   base: 'segment gap-size4 relative z-10',
@@ -35,12 +32,10 @@ const variant = cva({
     y: 'start',
   },
 })
-
-const { exclude } = Astro.props
 ---
 
 {
-  !exclude && Astro.slots.has('default') && (
+  Astro.slots.has('default') && (
     <div
       class={variant(Astro.props)}
       {...Astro.props}

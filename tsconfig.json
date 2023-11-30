@@ -1,6 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
+    "strictNullChecks": false, // turned off, against Astro docs: https://docs.astro.build/en/guides/content-collections/#setting-up-typescript
     "baseUrl": ".",
     "paths": {
       "@*": ["src/*"],

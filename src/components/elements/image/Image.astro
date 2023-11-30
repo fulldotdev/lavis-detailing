@@ -1,21 +1,21 @@
 ---
-import type { HTMLAttributes, Image } from '@types'
+import type { HTMLAttributes } from '@types'
 import { cva, type VariantProps } from 'cva'
+export { type Props as ImageProps }
 
-export interface Props
-  extends VariantProps<typeof variant>,
-    Omit<HTMLAttributes<'img'>, 'sizes'> {
-  exclude?: boolean | null
-  image: Image | string | undefined | null
-  sizes?: {
-    base: string
-    sm?: string
-    md?: string
-    lg?: string
-    xl?: string
-    '2xl'?: string
+type Props = VariantProps<typeof variant> &
+  HTMLAttributes<'img'> & {
+    src: string | null
+    alt: string | null
+    sizes?: {
+      base: string
+      sm?: string
+      md?: string
+      lg?: string
+      xl?: string
+      '2xl'?: string
+    }
   }
-}
 
 const variant = cva({
   base: 'image',
@@ -27,6 +27,8 @@ const variant = cva({
     },
     orientation: {
       square: 'aspect-square',
+      landscape: 'aspect-4/3',
+      portrait: 'aspect-3/4',
     },
   },
   defaultVariants: {
@@ -35,8 +37,8 @@ const variant = cva({
 })
 
 const {
-  exclude,
-  image,
+  src,
+  alt,
   loading = 'lazy',
   sizes = {
     base: '100vw',
@@ -56,28 +58,14 @@ function getSizes() {
   const joined = mapped.join(', ')
   return joined
 }
-
-function getSrcset() {
-  if (typeof image !== 'object') return
-  if (!image?.sizes) return
-  const webpSizes = Object.values(image.sizes).filter(
-    (size) => size.mimeType === 'image/webp'
-  )
-  const mapped = webpSizes.map((size) => `${size?.url} ${size?.width}w`)
-  const joined = mapped.join(', ')
-  return joined
-}
 ---
 
 {
-  !exclude && typeof image === 'object' && image?.url && (
+  src && (
     <img
       class:list={[variant(restProps)]}
-      src={image.url}
-      alt={image.alt}
-      height={image.height}
-      width={image.width}
-      srcset={getSrcset()}
+      src={src}
+      alt={alt}
       sizes={getSizes()}
       loading={loading}
       decoding={loading === 'lazy' ? 'async' : 'sync'}

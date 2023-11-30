@@ -6,8 +6,10 @@ export * from './fields/description'
 export * from './fields/image'
 export * from './fields/images'
 export * from './fields/price'
-export * from './fields/seo'
 export * from './fields/title'
+
+// MISC
+export * from './fields/seo'
 
 // COLLECTIONS
 export * from './collections/brandsSchema'

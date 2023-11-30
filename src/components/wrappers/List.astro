@@ -3,11 +3,8 @@ import type { HTMLAttributes, VariantProps } from '@types'
 import { size } from '@variants'
 import { cva } from 'cva'
 
-export interface Props
-  extends VariantProps<typeof variant>,
-    HTMLAttributes<'div'> {
-  exclude?: boolean | null
-}
+export type ListProps = Props
+type Props = VariantProps<typeof variant> & HTMLAttributes<'div'>
 
 const variant = cva({
   base: 'gap-y-size4 gap-x-size5',
@@ -35,12 +32,10 @@ const variant = cva({
     y: 'start',
   },
 })
-
-const { exclude } = Astro.props
 ---
 
 {
-  !exclude && Astro.slots.has('default') && (
+  Astro.slots.has('default') && (
     <ul
       class={variant(Astro.props)}
       {...Astro.props}

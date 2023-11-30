@@ -3,9 +3,8 @@ import type { HTMLAttributes, VariantProps } from '@types'
 import { hue, order, scheme, size } from '@variants'
 import { cva } from 'cva'
 
-interface Props
-  extends VariantProps<typeof variant>,
-    HTMLAttributes<'section'> {}
+export type SectionProps = Props
+type Props = VariantProps<typeof variant> & HTMLAttributes<'section'>
 
 const variant = cva({
   // ! WARNING: overflow-x-hidden is a hack to prevent horizontal scroll.

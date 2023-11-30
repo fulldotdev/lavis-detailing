@@ -1,58 +1,36 @@
 ---
-import Buttons from '@components/elements/Buttons.astro'
-import Image from '@components/elements/Image.astro'
-import Writeup from '@components/elements/Writeup.astro'
+import Button from '@components/elements/button/Button.astro'
+import Image from '@components/elements/image/Image.astro'
+import Writeup from '@components/elements/writeup/Writeup.astro'
 import Group from '@components/wrappers/Group.astro'
 import Section from '@components/wrappers/Section.astro'
 import Segment from '@components/wrappers/Segment.astro'
+import type {
+  ButtonProps,
+  ImageProps,
+  SectionProps,
+  SegmentProps,
+  WriteupProps,
+} from '@types'
 
-interface Props {
-  writeup: any
+export type HeroProps = Props
+type Props = {
+  section: SectionProps
+  segment: SegmentProps
+  writeup: WriteupProps
+  buttons: ButtonProps[]
+  image: ImageProps
 }
 
-const { block, setting } = Astro.props
+const { section, segment, writeup, buttons, image } = Astro.props
 ---
 
-<Section
-  {...setting.section}
-  x-data="{ show: false }"
-  x-intersect.half="show = true"
->
-  <Segment {...setting.segment}>
-    <Writeup
-      {...setting.writeup}
-      richtext={block.writeup}
-      x-show="show"
-      x-cloak
-      x-transition:enter="duration-1250 [&_*:first-child]:(transition duration-1250 delay-0) [&_h1]:(transition duration-1250 delay-150) [&_p]:(transition duration-1250 delay-300)"
-      x-transition:enter-start="[&_*]:opacity-0"
-      x-transition:enter-end="[&_*]:opacity-100"
-    />
-    <Group {...setting.group}>
-      <Buttons
-        buttons={block.buttons}
-        setting={setting.buttons}
-        x-show="show"
-        x-cloak
-        x-transition:enter="duration-1250 first:(transition duration-1500 delay-500) transition duration-1250 delay-650"
-        x-transition:enter-start="opacity-0"
-        x-transition:enter-end="opacity-100"
-      />
+<Section {...section}>
+  <Segment {...segment}>
+    <Writeup {...writeup} />
+    <Group {...writeup}>
+      {buttons?.map((button) => <Button {...button} />)}
     </Group>
+    <Image {...image} />
   </Segment>
-  <Image
-    image={block.image}
-    {...setting.image}
-  />
 </Section>
-
-<style>
-  .gradient {
-    background: rgb(2, 0, 36);
-    background: radial-gradient(
-      circle,
-      rgba(2, 0, 36, 1) 40%,
-      rgba(0, 212, 255, 0) 100%
-    );
-  }
-</style>
