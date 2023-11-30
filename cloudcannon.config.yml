@@ -53,7 +53,7 @@ collections_config:
     path: src/content/products
     url: /producten/[full_slug]/
     output: true
-    icon: package_2
+    icon: shopping_cart
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
@@ -73,7 +73,7 @@ collections_config:
     path: src/content/brands
     url: /merken/[full_slug]/
     output: true
-    icon: draw_collage
+    icon: shape_line
     disable_add: true
     disable_add_folder: true
     _enabled_editors:
