@@ -2,7 +2,8 @@
 const { title, description, layout = false } = Astro.props
 ---
 
-<section class:list={[{ 'bg-red flex': layout }]}>
+<!-- bg-blue -->
+<section class:list={[{ 'bg-red flex': layout }, title, description]}>
   <p>{Astro.props.title}</p>
   <p>
     <p>{Astro.props.description}</p>
