@@ -1,0 +1,34 @@
+<!-- ---
+import Image from '@components/elements/Image.astro'
+import Price from '@components/elements/Price.astro'
+import Writeup from '@components/elements/writeup/Writeup.astro'
+import Card from '@components/wrappers/Card.astro'
+import Segment from '@components/wrappers/segment/Segment.astro'
+import type { Product,ProductsCardsSettings } from '@types'
+import { getSettingsCard } from 'api'
+
+interface Props {
+  card: Product
+}
+
+const { card } = Astro.props
+const setting: ProductsCardsSettings = await getSettingsCard('products')
+---
+
+<Card
+  {...setting?.card}
+  href={card.path}
+>
+  <Image
+    sizes={{ base: '470px' }}
+    orientation="square"
+    image={card?.images?.[0]?.image}
+    {...setting?.image}
+  />
+  <Segment {...setting.segment}>
+    <Writeup {...setting.writeup}>
+      <h4 class="heading-secondary">{card.title}</h4>
+      {card.price && <Price price={card.price} />}
+    </Writeup>
+  </Segment>
+</Card> -->

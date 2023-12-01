@@ -1,0 +1,13 @@
+spec:
+  structures:
+    - specs
+  label: Spec
+
+blueprint:
+  label:
+  size:
+  hue:
+
+preview:
+
+_inputs:

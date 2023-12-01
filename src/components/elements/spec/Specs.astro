@@ -1,0 +1,12 @@
+---
+import type { SpecProps } from './Spec.astro'
+import Spec from './Spec.astro'
+
+interface Props {
+  specs: SpecProps[]
+}
+
+const { specs } = Astro.props
+---
+
+{specs?.map((spec) => <Spec {...spec} />)}

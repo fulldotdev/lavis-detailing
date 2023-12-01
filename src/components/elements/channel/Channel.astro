@@ -1,0 +1,50 @@
+---
+import { hue, look, scheme, size } from '@variants'
+import { cva, type VariantProps } from 'cva'
+
+export type ChannelProps = Props
+type Props = VariantProps<typeof variant> & {
+  key: 'email' | 'phone' | 'address' | 'whatsapp'
+  value: string | number
+}
+
+const variant = cva({
+  base: 'flex items-center gap-size3 button look-soft',
+  variants: {
+    hue: hue,
+    scheme: scheme,
+    look: look,
+    size: size,
+  },
+})
+
+let { key, value, ...restProps } = Astro.props
+
+const iconMap: Record<Props['key'], string> = {
+  email: 'icon:mail',
+  phone: 'icon:phone',
+  address: 'icon:location',
+  whatsapp: 'icon:brand-whatsapp',
+}
+
+const urlMap: Record<Props['key'], string> = {
+  email: `mailto:${value}`,
+  phone: `tel:${value}`,
+  address: `https://www.google.com/maps/search/?api=1&query=${value}`,
+  whatsapp: `https://wa.me/${value}`,
+}
+---
+
+<div class="gap-size4 flex items-center">
+  <a
+    href={urlMap[key]}
+    class={variant(restProps)}
+    target="_blank"
+  >
+    <i
+      class="h-1.4em w-1.4em block"
+      class:list={iconMap[key]}
+    ></i>
+  </a>
+  <p class="hue-base">{value}</p>
+</div>

@@ -1,0 +1,31 @@
+<!-- ---
+import Image from '@components/elements/Image.astro'
+import Writeup from '@components/elements/writeup/Writeup.astro'
+import Card from '@components/wrappers/Card.astro'
+import Segment from '@components/wrappers/segment/Segment.astro'
+import type { CategoriesCardsSettings,Category } from '@types'
+import { getSettingsCard } from 'api'
+
+interface Props {
+  card: Category
+}
+
+const { card } = Astro.props
+const setting: CategoriesCardsSettings = await getSettingsCard('categories')
+---
+
+<Card
+  href={card.path}
+  {...setting?.card}
+>
+  <Image
+    image={card.image}
+    {...setting?.image}
+  />
+  <Segment>
+    <Writeup {...setting?.writeup}>
+      {card.title && <h4>{card.title}</h4>}
+      {card.description && <p>{card.description}</p>}
+    </Writeup>
+  </Segment>
+</Card> -->

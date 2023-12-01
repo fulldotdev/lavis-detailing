@@ -1,7 +1,8 @@
 ---
+import Hero from '@components/blocks/hero/Hero.astro'
 import Layout from '@layouts/Layout.astro'
-import RenderBlocks from '@shared/astro/RenderBlocks.astro'
 import { getCollection } from 'astro:content'
+import RenderBlocks from '../shared/astro/RenderBlocks.astro'
 
 export async function getStaticPaths() {
   const collection = await getCollection('pages')
@@ -25,4 +26,5 @@ const entry = Astro.props.frontmatter
     bookshop:live
     blocks={entry.blocks}
   />
+  <Hero />
 </Layout>

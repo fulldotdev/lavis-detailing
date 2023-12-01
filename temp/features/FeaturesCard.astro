@@ -1,0 +1,54 @@
+---
+// import Icon from '@components/elements/icon/Icon.astro'
+import Buttons from '@components/elements/button/Buttons.astro'
+import Image from '@components/elements/image/Image.astro'
+import Writeup from '@components/elements/writeup/Writeup.astro'
+import Card from '@components/wrappers/card/Card.astro'
+import Group from '@components/wrappers/group/Group.astro'
+import Segment from '@components/wrappers/segment/Segment.astro'
+import type {
+  ButtonProps,
+  CardProps,
+  GroupProps,
+  ImageProps,
+  SegmentProps,
+  WriteupProps,
+} from '@types'
+
+export type FeaturesCardProps = Props
+interface Props {
+  card?: CardProps
+  image?: ImageProps
+  segment?: SegmentProps
+  // icon: IconProps
+  writeup?: WriteupProps
+  group?: GroupProps
+  buttons?: ButtonProps[]
+}
+
+const {
+  card = {},
+  image = {},
+  segment = {},
+  writeup = {},
+  group = {},
+  buttons = [],
+} = Astro.props
+---
+
+<Card {...card}>
+  <Image
+    sizes={{ base: '470px' }}
+    {...image}
+  />
+  <Segment {...segment}>
+    <!-- <Icon
+      iconName={card.icon}
+      {...Icon}
+    /> -->
+    <Writeup {...writeup} />
+    <Group {...group}>
+      <Buttons {buttons} />
+    </Group>
+  </Segment>
+</Card>

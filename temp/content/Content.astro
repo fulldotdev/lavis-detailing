@@ -1,0 +1,19 @@
+---
+import Image from '@components/elements/image/Image.astro'
+import Prose from '@components/elements/prose/Prose.astro'
+import Section from '@components/wrappers/section/Section.astro'
+import type { ImageProps, ProseProps, SectionProps } from '@types'
+
+type Props = {
+  section: SectionProps
+  prose: ProseProps
+  image: ImageProps
+}
+
+const { section = {}, prose = {}, image = {} } = Astro.props
+---
+
+<Section {...section}>
+  <Prose {...prose} />
+  <Image {...image} />
+</Section>

@@ -1,5 +1,5 @@
 ---
-import Button from '@components/elements/button/Button.astro'
+import Buttons from '@components/elements/button/Buttons.astro'
 import Image from '@components/elements/image/Image.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
 import Group from '@components/wrappers/group/Group.astro'
@@ -15,12 +15,12 @@ import type {
 } from '@types'
 
 type Props = {
-  section: SectionProps
-  segment: SegmentProps
-  writeup: WriteupProps
-  group: GroupProps
-  buttons: ButtonProps[]
-  image: ImageProps
+  section?: SectionProps
+  segment?: SegmentProps
+  writeup?: WriteupProps
+  group?: GroupProps
+  buttons?: ButtonProps[]
+  image?: ImageProps
 }
 
 const {
@@ -37,7 +37,7 @@ const {
   <Segment {...segment}>
     <Writeup {...writeup} />
     <Group {...group}>
-      {buttons?.map((button) => <Button {...button} />)}
+      <Buttons {buttons} />
     </Group>
   </Segment>
   <Image {...image} />

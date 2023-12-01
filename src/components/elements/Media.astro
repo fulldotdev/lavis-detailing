@@ -1,0 +1,19 @@
+---
+import Image from './Image.astro';
+import Video from './Video.astro';
+const { video, source, image, setting } = Astro.props
+---
+
+{
+  source !== 'video' ? (
+    <Image
+      {...setting?.image}
+      image={image}
+    />
+  ) : (
+    <Video
+      {...setting?.video}
+      video={video}
+    />
+  )
+}

@@ -1,0 +1,14 @@
+spec:
+  structures:
+    - links
+  label: Link
+
+blueprint:
+  label:
+  href:
+  size:
+  hue:
+
+preview:
+
+_inputs:

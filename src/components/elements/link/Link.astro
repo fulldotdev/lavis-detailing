@@ -1,0 +1,29 @@
+---
+import type { HTMLAttributes, VariantProps } from '@types'
+import { hue, size } from '@variants'
+import { cva } from 'cva'
+
+export type LinkProps = Props
+type Props = VariantProps<typeof variant> & {
+  label: string | null
+  href: HTMLAttributes<'a'>['href']
+}
+
+const variant = cva({
+  base: 'link',
+  variants: {
+    size: size,
+    hue: hue,
+  },
+})
+
+const { href, label, ...restProps } = Astro.props
+---
+
+<a
+  href={href}
+  class:list={[variant(restProps)]}
+  {...restProps}
+>
+  {label}
+</a>

@@ -1,0 +1,38 @@
+<!-- ---
+import Buttons from '@components/elements/button/Buttons.astro'
+import Writeup from '@components/elements/writeup/Writeup.astro'
+import Deck from '@components/wrappers/deck/Deck.astro'
+import Group from '@components/wrappers/group/Group.astro'
+import Section from '@components/wrappers/section/Section.astro'
+import Segment from '@components/wrappers/segment/Segment.astro'
+import type { PostsBlock,PostsBlockSettings } from '@types'
+import PostsCards from './PostsCards.astro'
+
+interface Props {
+  block: PostsBlock
+  setting: PostsBlockSettings
+}
+
+const { block, setting } = Astro.props
+---
+
+<Section
+  {...setting.section}
+  id={block.blockName}
+>
+  <Segment {...setting.segment}>
+    <Writeup
+      richtext={block.writeup}
+      {...setting.writeup}
+    />
+    <Group {...setting.group}>
+      <Buttons
+        buttons={block.buttons}
+        setting={setting.buttons}
+      />
+    </Group>
+  </Segment>
+  <Deck {...setting?.deck}>
+    <PostsCards cards={block.posts} />
+  </Deck>
+</Section> -->

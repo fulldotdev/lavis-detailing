@@ -1,0 +1,12 @@
+---
+import type { SocialProps } from './Social.astro'
+import Social from './Social.astro'
+
+interface Props {
+  socials: SocialProps[]
+}
+
+const { socials } = Astro.props
+---
+
+{socials?.map((social) => <Social {...social} />)}

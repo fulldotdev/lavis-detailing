@@ -1,0 +1,16 @@
+spec:
+  structures:
+    - channels
+  label: Channel
+
+blueprint:
+  key:
+  value:
+  hue:
+  scheme:
+  look:
+  size:
+
+preview:
+
+_inputs:

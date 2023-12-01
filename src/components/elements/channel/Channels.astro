@@ -1,0 +1,12 @@
+---
+import type { ChannelProps } from './Channel.astro'
+import Channel from './Channel.astro'
+
+interface Props {
+  channels: ChannelProps[]
+}
+
+const { channels } = Astro.props
+---
+
+{channels?.map((channel) => <Channel {...channel} />)}

@@ -1,0 +1,27 @@
+---
+import type { Settings, Specs } from '@types'
+import { getSettings } from 'api'
+import Spec from './Spec.astro'
+
+interface Props {
+  specs: Specs | undefined
+  setting?: Settings['elements']['specs']
+}
+
+const { specs, setting, ...restProps } = Astro.props
+
+const defaultSetting = await getSettings().then(
+  ({ elements }) => elements.specs
+)
+---
+
+{
+  specs?.map((spec, i) => (
+    <Spec
+      {...spec}
+      {...defaultSetting}
+      {...setting}
+      {...restProps}
+    />
+  ))
+}

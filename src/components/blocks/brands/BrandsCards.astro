@@ -1,0 +1,12 @@
+---
+import type { BrandsCardProps } from './BrandsCard.astro'
+import BrandsCard from './BrandsCard.astro'
+
+interface Props {
+  brands: BrandsCardProps[]
+}
+
+const { brands } = Astro.props
+---
+
+{brands?.map((brand) => <BrandsCard {...brand} />)}

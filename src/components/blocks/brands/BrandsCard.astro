@@ -1,0 +1,30 @@
+---
+import Image from '@components/elements/image/Image.astro'
+import Writeup from '@components/elements/writeup/Writeup.astro'
+import Card from '@components/wrappers/card/Card.astro'
+import Segment from '@components/wrappers/segment/Segment.astro'
+import type { CardProps, ImageProps, SegmentProps } from '@types'
+
+export type BrandsCardProps = Props
+interface Props {
+  card?: CardProps
+  image?: ImageProps
+  segment?: SegmentProps
+  brand: any
+}
+
+const { card, image, segment, brand } = Astro.props
+---
+
+<Card
+  href={'/merken/' + brand.slug}
+  {...card}
+>
+  <Image {...image} />
+  <Segment {...segment}>
+    <Writeup>
+      <!-- {brand.title && <h4>{brand.title}</h4>}
+      {brand.description && <p>{brand.description}</p>} -->
+    </Writeup>
+  </Segment>
+</Card>

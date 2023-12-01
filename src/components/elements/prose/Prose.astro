@@ -1,0 +1,24 @@
+---
+import { cva, type VariantProps } from 'cva'
+
+export type ProseProps = Props
+type Props = VariantProps<typeof variant> & {
+  html?: any
+}
+
+const variant = cva({
+  base: 'prose',
+})
+
+const { html, ...restProps } = Astro.props
+---
+
+{
+  html && (
+    <div
+      class={variant(restProps)}
+      {...restProps}
+      set:html={html}
+    />
+  )
+}

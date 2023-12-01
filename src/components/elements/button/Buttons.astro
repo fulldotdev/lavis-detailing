@@ -1,0 +1,12 @@
+---
+import type { ButtonProps } from './Button.astro'
+import Button from './Button.astro'
+
+interface Props {
+  buttons: ButtonProps[]
+}
+
+const { buttons } = Astro.props
+---
+
+{buttons?.map((button) => <Button {...button} />)}

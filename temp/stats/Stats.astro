@@ -1,0 +1,35 @@
+<!-- ---
+import Buttons from '@components/elements/button/Buttons.astro'
+import Writeup from '@components/elements/writeup/Writeup.astro'
+import Deck from '@components/wrappers/deck/Deck.astro'
+import Group from '@components/wrappers/group/Group.astro'
+import Section from '@components/wrappers/section/Section.astro'
+import Segment from '@components/wrappers/segment/Segment.astro'
+import type { StatsBlock,StatsBlockSettings } from '@types'
+import StatsCards from './StatsCards.astro'
+
+interface Props {
+  block: StatsBlock
+  setting: StatsBlockSettings
+}
+
+const { block, setting } = Astro.props
+---
+
+<Section {...setting.section}>
+  <Segment {...setting.segment}>
+    <Writeup
+      {...setting.writeup}
+      richtext={block.writeup}
+    />
+    <Group {...setting.group}>
+      <Buttons
+        buttons={block.buttons}
+        setting={setting.buttons}
+      />
+    </Group>
+  </Segment>
+  <Deck {...setting?.deck}>
+    <StatsCards cards={block.stats} />
+  </Deck>
+</Section> -->
