@@ -23,6 +23,6 @@ const entry = Astro.props.frontmatter
 <Layout>
   <RenderBlocks
     bookshop:live
-    {...entry}
+    blocks={entry.blocks}
   />
 </Layout>
