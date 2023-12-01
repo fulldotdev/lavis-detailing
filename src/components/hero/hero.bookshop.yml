@@ -10,9 +10,8 @@ spec:
 blueprint:
   title: "Hello title!"
   description: "hello description"
-  html:
-  sample: bookshop:sample
   button: bookshop:button
+  button_2: bookshop:button
 
 
 # The preview section is used in the Bookshop component browser and doesn't affect visual editing. We can ignore this key for now

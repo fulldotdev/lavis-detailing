@@ -6,6 +6,8 @@ spec:
 blueprint:
   label: Click me
   href: https://full.dev
+  color: red
+  look: outline
 
 
 # The preview section is used in the Bookshop component browser and doesn't affect visual editing. We can ignore this key for now
