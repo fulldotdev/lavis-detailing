@@ -39,6 +39,10 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - visual
+    schemas: 
+      default: 
+        path: schemas/pages.md
+        remove_empty_inputs: true
 
   services:
     path: src/content/services
@@ -49,6 +53,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - visual
+    schemas: 
+      default: 
+        path: schemas/services.md
 
   products:
     path: src/content/products
@@ -59,6 +66,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
+    schemas: 
+      default: 
+        path: schemas/products.md
 
   categories:
     path: src/content/categories
@@ -69,7 +79,10 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-
+    schemas: 
+      default: 
+        path: schemas/categories.md
+        
   brands:
     path: src/content/brands
     url: /merken/[full_slug]/
@@ -99,7 +112,10 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - content
-
+    schemas: 
+      default: 
+        path: schemas/policies.md
+        
   data:
     path: src/data
     icon: 
@@ -114,7 +130,10 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-
+    schemas: 
+      default: 
+        path: schemas/reviews.md
+        
   employees:
     path: src/content/employees
     output: false
@@ -123,7 +142,10 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-
+    schemas: 
+      default: 
+        path: schemas/employees.md
+        
 # -----------------------------------------------
 # Input customization
 # -----------------------------------------------
