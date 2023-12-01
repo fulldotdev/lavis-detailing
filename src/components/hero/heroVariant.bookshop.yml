@@ -2,7 +2,7 @@
 spec:
   structures:
     - blocks
-  label: Hero
+  label: Hero Variant
   description: A hero component
   icon: nature_people
 
