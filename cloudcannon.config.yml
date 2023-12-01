@@ -175,3 +175,6 @@ _inputs:
   href:
     type: url
     label: Link
+
+  look:
+    hidden: true
