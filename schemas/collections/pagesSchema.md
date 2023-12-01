@@ -7,8 +7,4 @@ seo:
   image:
     src:
     alt:
-
-_inputs: 
-  button.color:
-    hidden: true
 ---
