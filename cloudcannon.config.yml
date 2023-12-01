@@ -197,3 +197,8 @@ _inputs:
   href:
     type: url
     label: Link
+
+_structures:
+  blocks:
+    id_key: myblocks
+    remove_empty_inputs: true
