@@ -36,7 +36,6 @@ collections_config:
     url: /[full_slug]/
     output: true
     icon: wysiwyg
-    disable_add: true
     disable_add_folder: true
     _enabled_editors:
       - visual
