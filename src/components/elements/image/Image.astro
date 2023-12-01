@@ -3,10 +3,14 @@ import type { HTMLAttributes } from '@types'
 import { cva, type VariantProps } from 'cva'
 export { type Props as ImageProps }
 
-type Props = VariantProps<typeof variant> &
+export type ImageContent = {
+  src: string | null
+  alt: string | null
+}
+export type ImageVariant = VariantProps<typeof variant>
+type Props = ImageContent &
+  ImageVariant &
   HTMLAttributes<'img'> & {
-    src: string | null
-    alt: string | null
     sizes?: {
       base: string
       sm?: string

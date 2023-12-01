@@ -5,14 +5,6 @@ import { promisify } from 'util'
 import { ZodAny, ZodNumber, ZodString } from 'zod'
 import { Fixture, Generator } from 'zod-fixture'
 
-interface Defaults {
-  seed?: 99
-  array: {
-    min: 1
-    max: 1
-  }
-}
-
 const execAsync = promisify(exec)
 
 async function generateSchemas(collection) {
