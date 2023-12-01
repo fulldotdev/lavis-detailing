@@ -2,8 +2,6 @@ spec:
   structures:
     - blocks
   label: Hero
-  description:
-  icon:
 
 blueprint:
   section: bookshop:wrappers/section

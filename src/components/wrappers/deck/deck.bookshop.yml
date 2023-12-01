@@ -1,12 +1,11 @@
 spec:
   structures:
-  label: Segment
+  label: Deck
 
 blueprint:
   layout:
-  x:
-  y:
   size:
+  scheme:
   hue:
 
 preview:

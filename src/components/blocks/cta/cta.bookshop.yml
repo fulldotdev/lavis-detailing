@@ -2,8 +2,6 @@ spec:
   structures:
     - blocks
   label: Cta
-  description:
-  icon:
 
 blueprint:
   section: bookshop:wrappers/section

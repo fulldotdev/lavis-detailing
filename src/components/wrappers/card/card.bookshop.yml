@@ -1,12 +1,11 @@
 spec:
   structures:
-  label: Segment
+  label: Card
 
 blueprint:
-  layout:
-  x:
-  y:
-  size:
+  frame:
+  look:
+  scheme:
   hue:
 
 preview:

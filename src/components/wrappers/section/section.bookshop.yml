@@ -1,6 +1,6 @@
 spec:
   structures:
-  label: Button
+  label: Section
 
 blueprint:
   frame:
