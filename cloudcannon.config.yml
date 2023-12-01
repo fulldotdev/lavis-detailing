@@ -14,7 +14,8 @@ collection_groups:
       - services
       - posts
       - policies
-    - heading: Producten
+  - heading: Producten
+    collections:
       - products
       - categories
       - brands
