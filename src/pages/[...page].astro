@@ -1,5 +1,4 @@
 ---
-import Hero from '@components/hero/Hero.astro'
 import Layout from '@layouts/Layout.astro'
 import RenderBlocks from '@shared/astro/RenderBlocks.astro'
 import { getCollection } from 'astro:content'
@@ -25,14 +24,5 @@ const entry = Astro.props.frontmatter
   <RenderBlocks
     bookshop:live
     blocks={entry.blocks}
-  />
-  <Hero
-    title="Hello"
-    description="World"
-    button={{
-      label: 'Click me',
-      href: '/about',
-      color: 'purple',
-    }}
   />
 </Layout>

@@ -3,16 +3,18 @@ spec:
   structures:
     - blocks
   label: Hero
-  description: A hero component
-  icon: nature_people
+  description:
+  icon:
 
 # The blueprint section defines the data your component needs and provides the default values when a new component is created.
 blueprint:
-  title: "Hello title!"
-  description: "hello description"
-  button: bookshop:button
-  button_2: bookshop:button
-
+  section: bookshop:wrappers/section
+  segment: bookshop:wrappers/segment
+  writeup: bookshop:elements/writeup
+  group: bookshop:wrappers/group
+  buttons:
+    - bookshop:elements/button
+  image: bookshop:elements/image
 
 # The preview section is used in the Bookshop component browser and doesn't affect visual editing. We can ignore this key for now
 preview:

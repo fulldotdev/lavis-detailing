@@ -2,14 +2,12 @@
 import type { HTMLAttributes } from '@types'
 import { hue, scheme, size } from '@variants'
 import { cva, type VariantProps } from 'cva'
-export { type Props as ButtonProps }
 
-export type ButtonContent = {
+export type ButtonProps = Props
+type Props = VariantProps<typeof variant> & {
   label: string | null
-  href: string | null
+  href: HTMLAttributes<'a'>['href']
 }
-export type ButtonVariant = VariantProps<typeof variant>
-type Props = ButtonContent & ButtonVariant & HTMLAttributes<'a'>
 
 const variant = cva({
   base: 'gap-xs inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded-size1 p-size3 text-center text-button transition active:scale-95 disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed',

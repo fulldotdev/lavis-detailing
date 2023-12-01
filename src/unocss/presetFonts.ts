@@ -1,4 +1,4 @@
-import type { Settings } from 'types'
+import type { Settings } from '@types'
 import type { Preset } from 'unocss'
 import { presetWebFonts } from 'unocss'
 

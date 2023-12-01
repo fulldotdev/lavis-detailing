@@ -3,12 +3,16 @@ spec:
   label: Button
 
 blueprint:
-  label:
-  href:
+  frame:
   look:
+  layout:
+  x:
+  y:
   size:
-  scheme:
+  order:
+  size:
   hue:
+  scheme:
 
 preview:
 

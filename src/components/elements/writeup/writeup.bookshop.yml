@@ -1,12 +1,9 @@
 spec:
   structures:
-    - blocks
   label: Writeup
-  description:
-  icon: 
 
 blueprint:
-  html: Html goes here...
+  html:
 
 preview:
 

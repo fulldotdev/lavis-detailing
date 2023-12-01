@@ -1,4 +1,4 @@
-import type { Settings } from 'types'
+import type { Settings } from '@types'
 import type { Preset } from 'unocss'
 import { presetRadix } from 'unocss-preset-radix'
 

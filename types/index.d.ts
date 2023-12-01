@@ -3,9 +3,10 @@ export * from 'astro/types'
 export { VariantProps } from 'cva'
 
 // WRAPPERS
-export * from '@components/wrappers/Group.astro'
-export * from '@components/wrappers/Section.astro'
-export * from '@components/wrappers/Segment.astro'
+export * from '@components/wrappers/group/Group.astro'
+export * from '@components/wrappers/list/List.astro'
+export * from '@components/wrappers/section/Section.astro'
+export * from '@components/wrappers/segment/Segment.astro'
 
 // ELEMENTS
 export * from '@components/elements/button/Button.astro'

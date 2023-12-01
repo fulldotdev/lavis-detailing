@@ -1,0 +1,11 @@
+---
+description: 
+image:
+  src: 
+  alt: 
+seo:
+  description: 
+  image:
+    src: 
+    alt: 
+---

@@ -1,25 +1,21 @@
 ---
 import type { HTMLAttributes } from '@types'
 import { cva, type VariantProps } from 'cva'
-export { type Props as ImageProps }
 
-export type ImageContent = {
-  src: string | null
-  alt: string | null
-}
-export type ImageVariant = VariantProps<typeof variant>
-type Props = ImageContent &
-  ImageVariant &
-  HTMLAttributes<'img'> & {
-    sizes?: {
-      base: string
-      sm?: string
-      md?: string
-      lg?: string
-      xl?: string
-      '2xl'?: string
-    }
+export type ImageProps = Props
+type Props = VariantProps<typeof variant> & {
+  src?: HTMLAttributes<'img'>['src']
+  alt?: HTMLAttributes<'img'>['alt']
+  loading?: HTMLAttributes<'img'>['loading']
+  sizes?: {
+    base: string
+    sm?: string
+    md?: string
+    lg?: string
+    xl?: string
+    '2xl'?: string
   }
+}
 
 const variant = cva({
   base: 'image',
