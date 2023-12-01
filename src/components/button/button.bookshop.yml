@@ -15,3 +15,5 @@ preview:
 
 # The _inputs section is passed through as CloudCannon's input configuration, allowing you to customize the fields specified in the blueprint.
 _inputs:
+  color:
+    hidden: true
