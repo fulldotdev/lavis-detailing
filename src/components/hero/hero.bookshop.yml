@@ -11,6 +11,11 @@ blueprint:
   title: "Hello title!"
   description: "hello description"
   layout: false
+  variant:
+    type: select
+    options:
+      - primary
+      - secondary
 
 # The preview section is used in the Bookshop component browser and doesn't affect visual editing. We can ignore this key for now
 preview:

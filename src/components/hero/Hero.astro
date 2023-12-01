@@ -1,9 +1,18 @@
 ---
-const { title, description, layout = false } = Astro.props
+import { variants } from '../../data/variants'
+const { title, description, layout = false, variant = 'primary' } = Astro.props
 ---
 
-<!-- bg-blue -->
-<section class:list={[{ 'bg-red flex': layout }, title, description]}>
+<!-- primary: 'bg-blue p-100px',
+secondary: 'bg-gray p-10px', --><!-- bg-blue -->
+<section
+  class:list={[
+    { 'bg-red flex': layout },
+    title,
+    description,
+    variants[variant],
+  ]}
+>
   <p>{Astro.props.title}</p>
   <p>
     <p>{Astro.props.description}</p>
