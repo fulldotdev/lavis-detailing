@@ -1,17 +1,17 @@
 ---
-interface Props {
-  input: {
-    label: string
-    type?: 'text' | 'email' | 'number' | 'password' | 'tel' | 'url'
-    required?: boolean
-  }
-  class?: string
-}
+// interface Props {
+//   input: {
+//     label: string
+//     type?: 'text' | 'email' | 'number' | 'password' | 'tel' | 'url'
+//     required?: boolean
+//   }
+//   class?: string
+// }
 
-const { input, class: className } = Astro.props
+// const { input, class: className } = Astro.props
 ---
 
-{
+<!-- {
   typeof input === 'object' && (
     <div
       class="flex w-full flex-col"
@@ -31,4 +31,4 @@ const { input, class: className } = Astro.props
       />
     </div>
   )
-}
+} -->

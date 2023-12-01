@@ -1,15 +1,12 @@
 ---
-import { getCompany } from 'api'
+// interface Props {
+//   class?: string
+// }
 
-interface Props {
-  class?: string
-}
-
-const { class: className } = Astro.props
-const company = await getCompany()
+// const { class: className } = Astro.props
 ---
 
-{
+<!-- {
   company?.logo && typeof company?.logo === 'object' && (
     <a
       class:list={className}
@@ -25,4 +22,4 @@ const company = await getCompany()
       />
     </a>
   )
-}
+} -->

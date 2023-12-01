@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   export let name
   export let labelText
   export let options
@@ -18,4 +18,4 @@
       <option value={option.value}>{option.name}</option>
     {/each}
   </select>
-</div>
+</div> -->

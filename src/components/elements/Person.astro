@@ -1,20 +1,19 @@
 ---
-import type { Image as ImageType } from '@types'
-import Image from './Image.astro'
+import Image from '@components/elements/image/Image.astro'
 
-interface Props {
-  person?: {
-    name?: string | null
-    tagline?: string | null
-    avatar?: string | ImageType | null
-  }
-  exclude?: boolean | null
-}
+// interface Props {
+//   person?: {
+//     name?: string | null
+//     tagline?: string | null
+//     avatar?: string | ImageType | null
+//   }
+//   exclude?: boolean | null
+// }
 
-const { person, exclude } = Astro.props
+// const { person, exclude } = Astro.props
 ---
 
-{
+<!-- {
   !exclude && typeof person === 'object' && (
     <div class="gap-size3 flex items-center">
       {typeof person.avatar === 'object' && (
@@ -31,4 +30,4 @@ const { person, exclude } = Astro.props
       </div>
     </div>
   )
-}
+} -->
