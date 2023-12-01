@@ -8,10 +8,7 @@ spec:
 
 # The blueprint section defines the data your component needs and provides the default values when a new component is created.
 blueprint:
-  title: "Hello title!"
-  description: "hello description"
-  button: bookshop:button
-
+  button: bookshop:button.variant
 
 # The preview section is used in the Bookshop component browser and doesn't affect visual editing. We can ignore this key for now
 preview:

@@ -1,6 +1,14 @@
 ---
 import { variants } from '../../data/variants'
-const { title, description, layout = false, variant = 'primary' } = Astro.props
+import Button from '../button/Button.astro'
+const {
+  title,
+  description,
+  button = {},
+  layout = false,
+  variant = 'primary',
+} = Astro.props
+console.log(button)
 ---
 
 <!-- primary: 'bg-blue p-100px',
@@ -17,4 +25,8 @@ secondary: 'bg-gray p-10px', --><!-- bg-blue -->
   <p>
     <p>{Astro.props.description}</p>
   </p>
+  <Button
+    label="test"
+    {...button}
+  />
 </section>
