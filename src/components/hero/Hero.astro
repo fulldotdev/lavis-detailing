@@ -1,4 +1,8 @@
-<section>
+---
+const { title, description, layout = false } = Astro.props
+---
+
+<section class:list={[{ 'bg-red flex': layout }]}>
   <p>{Astro.props.title}</p>
   <p>
     <p>{Astro.props.description}</p>
