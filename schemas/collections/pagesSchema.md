@@ -9,6 +9,6 @@ seo:
     alt:
 
 _inputs: 
-  color:
+  button.color:
     hidden: true
 ---
