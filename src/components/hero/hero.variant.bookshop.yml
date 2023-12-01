@@ -1,12 +1,15 @@
 # The spec section names this component and tells CloudCannon where you can place this component on your site.
 spec:
-  label: Button
+  structures:
+    - blocks
+  label: Hero Variant
+  description: A hero component
+  icon: nature_people
 
 # The blueprint section defines the data your component needs and provides the default values when a new component is created.
 blueprint:
-  color: red
-  look: outline
-
+  button: bookshop:button/button.variant
+  button_2: bookshop:button/button.variant
 
 # The preview section is used in the Bookshop component browser and doesn't affect visual editing. We can ignore this key for now
 preview:

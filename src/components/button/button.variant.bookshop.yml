@@ -1,0 +1,4 @@
+# The blueprint section defines the data your component needs and provides the default values when a new component is created.
+blueprint:
+  color: red
+  look: outline
