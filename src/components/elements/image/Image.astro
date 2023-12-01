@@ -1,0 +1,90 @@
+---
+import type { HTMLAttributes } from '@types'
+import { cva, type VariantProps } from 'cva'
+export { type Props as ImageProps }
+
+export type ImageContent = {
+  src: string | null
+  alt: string | null
+}
+export type ImageVariant = VariantProps<typeof variant>
+type Props = ImageContent &
+  ImageVariant &
+  HTMLAttributes<'img'> & {
+    sizes?: {
+      base: string
+      sm?: string
+      md?: string
+      lg?: string
+      xl?: string
+      '2xl'?: string
+    }
+  }
+
+const variant = cva({
+  base: 'image',
+  variants: {
+    position: {
+      relative: 'w-full h-auto relative',
+      background: 'object-cover absolute inset-0 !h-full w-full',
+      cover: 'object-cover h-full w-full',
+    },
+    orientation: {
+      square: 'aspect-square',
+      landscape: 'aspect-4/3',
+      portrait: 'aspect-3/4',
+    },
+  },
+  defaultVariants: {
+    position: 'relative',
+  },
+})
+
+const {
+  src,
+  alt,
+  loading = 'lazy',
+  sizes = {
+    base: '100vw',
+  },
+  ...restProps
+} = Astro.props
+
+function getSizes() {
+  const mapped = Object.entries(sizes).map(([key, value]) => {
+    if (key === 'base') return value
+    if (key === 'sm') return `(min-width: 640px) ${value}`
+    if (key === 'md') return `(min-width: 768px) ${value}`
+    if (key === 'lg') return `(min-width: 1024px) ${value}`
+    if (key === 'xl') return `(min-width: 1280px) ${value}`
+    if (key === '2xl') return `(min-width: 1536px) ${value}`
+  })
+  const joined = mapped.join(', ')
+  return joined
+}
+---
+
+{
+  src && (
+    <img
+      class:list={[variant(restProps)]}
+      src={src}
+      alt={alt}
+      sizes={getSizes()}
+      loading={loading}
+      decoding={loading === 'lazy' ? 'async' : 'sync'}
+      {...restProps}
+    />
+  )
+}
+
+<style>
+  .mask {
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
+    mask-image: linear-gradient(to top, transparent 0%, black 30%);
+  }
+  .mask-lg {
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+    mask-image: linear-gradient(to top, transparent 0%, black 100%);
+  }
+</style>

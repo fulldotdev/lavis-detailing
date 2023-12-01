@@ -1,12 +1,15 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
+    "strictNullChecks": false, // turned off, against Astro docs: https://docs.astro.build/en/guides/content-collections/#setting-up-typescript
     "baseUrl": ".",
     "paths": {
       "@*": ["src/*"],
       "@compponents/*": ["src/components/*"],
       "@layouts/*": ["src/layouts/*"],
+      "@variants": ["src/variants"],
       "@schemas": ["schemas"],
+      "@types": ["types/index.d.ts"],
     }
   }
 }

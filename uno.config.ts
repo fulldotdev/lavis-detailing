@@ -1,7 +1,6 @@
 import transformerDirectives from '@unocss/transformer-directives'
 import transformerVariantGroup from '@unocss/transformer-variant-group'
 import { defineConfig, presetIcons, presetUno } from 'unocss'
-// import settings from './.payload/.payload-settings'
 // import presetColors from './src/core/settings/settingsPresetColors'
 // import presetFonts from './src/core/settings/settingsPresetFonts'
 // import presetSizes from './src/core/settings/settingsPresetSizes'

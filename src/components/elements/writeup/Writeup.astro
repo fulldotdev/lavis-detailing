@@ -1,0 +1,26 @@
+---
+import type { HTMLAttributes } from '@types'
+import { cva, type VariantProps } from 'cva'
+
+export type WriteupContent = {
+  html: any
+}
+export type WriteupVariant = VariantProps<typeof variant>
+type Props = WriteupContent & WriteupVariant & HTMLAttributes<'a'>
+
+const variant = cva({
+  base: '[&_p]:mt-size2 [&_h1,&_h2,&_h3]:my-size3 [&_*:first-child]:mt-0 [&_*:last-child]:mb-0 [&_p:first-child:not(:last-child)]:(hue-brand text-size1)',
+})
+
+const { html, ...restProps } = Astro.props
+---
+
+{
+  html && (
+    <div
+      class={variant(restProps)}
+      {...restProps}
+      set:html={html}
+    />
+  )
+}

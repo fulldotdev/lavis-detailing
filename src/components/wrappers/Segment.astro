@@ -1,0 +1,46 @@
+---
+import type { HTMLAttributes, VariantProps } from '@types'
+import { hue, size } from '@variants'
+import { cva } from 'cva'
+
+export type SegmentProps = Props
+type Props = VariantProps<typeof variant> & HTMLAttributes<'div'>
+
+const variant = cva({
+  base: 'segment gap-size4 relative z-10',
+  variants: {
+    layout: {
+      col: 'grid',
+      row: 'grid lg:grid-flow-col',
+    },
+    x: {
+      start: 'justify-start justify-items-start',
+      center: 'justify-center justify-items-center text-center',
+      between: 'justify-between',
+    },
+    y: {
+      start: 'items-start',
+      center: 'items-center',
+      end: 'items-end',
+    },
+    size: size,
+    hue: hue,
+  },
+  defaultVariants: {
+    layout: 'col',
+    x: 'start',
+    y: 'start',
+  },
+})
+---
+
+{
+  Astro.slots.has('default') && (
+    <div
+      class={variant(Astro.props)}
+      {...Astro.props}
+    >
+      <slot />
+    </div>
+  )
+}

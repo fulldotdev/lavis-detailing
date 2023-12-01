@@ -1,33 +1,31 @@
 ---
 const { blocks } = Astro.props
 const components: any = {}
-const componentImports = import.meta.glob('../../components/**/*.astro', {
-  eager: true,
-})
+const componentImports = import.meta.glob(
+  '../../components/blocks/**/*.astro',
+  {
+    eager: true,
+  }
+)
 
-const toCamelCase = (s: string) => s.charAt(0).toLowerCase() + s.slice(1)
 const toPascalCase = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
 
 Object.entries(componentImports).forEach(([path, object]: any) => {
-  const parts: string[] = path
-    .replace('../../components/', '')
-    .split('.')[0]
-    .split('/')
-  const camelParts = parts.map((part) => toCamelCase(part))
-  const partsAreEqual: boolean =
-    camelParts[camelParts.length - 1] === camelParts[camelParts.length - 2]
-  if (partsAreEqual) camelParts.pop()
-  let bookshopName = camelParts.join('/')
-  const pascalBookshopName = toPascalCase(bookshopName)
-  components[pascalBookshopName] = object.default
+  const fileName = path.split('/').pop()
+  const componentName = fileName.split('.')[0]
+  components[componentName] = object.default
 })
 ---
 
 <main>
   {
-    blocks.map((block: any) => {
+    blocks?.map((block: any) => {
       const pascalBookshopName = toPascalCase(block._bookshop_name)
       const Component = components[pascalBookshopName]
+      if (!Component) {
+        console.log(`No component found for ${pascalBookshopName}`)
+        return null
+      }
       return <Component {...block} />
     })
   }
