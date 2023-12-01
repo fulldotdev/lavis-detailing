@@ -5,6 +5,9 @@ blocks:
     writeup:
       _bookshop_name: elements/writeup
       html: <p>Hello there sir</p>
+  - _bookshop_name: blocks/brands
+    brands:
+      - src/content/brands/test.md
 seo:
   image: {}
 ---
