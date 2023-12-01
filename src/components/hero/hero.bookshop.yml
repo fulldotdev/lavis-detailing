@@ -11,9 +11,9 @@ blueprint:
   title: "Hello title!"
   description: "hello description"
   layout: false
-  variant:
-    type: select
-    options:
+  variant: primary
+  _select_data:
+    variant:
       - primary
       - secondary
 
