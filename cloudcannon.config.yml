@@ -12,11 +12,12 @@ collection_groups:
     collections:
       - pages
       - services
+      - posts
+      - policies
+    - heading: Producten
       - products
       - categories
       - brands
-      - posts
-      - policies
   - heading: Data
     collections:
       - data
