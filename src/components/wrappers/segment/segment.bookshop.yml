@@ -1,13 +1,11 @@
 spec:
   structures:
-  label: Button
 
 blueprint:
-  label:
-  href:
-  look:
+  layout:
+  x:
+  y:
   size:
-  scheme:
   hue:
 
 preview:
