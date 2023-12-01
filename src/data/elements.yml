@@ -1,0 +1,10 @@
+button:
+  primary:
+    hue: Primary Button
+    href: button
+  secondary:
+    label: Secondary Button
+    href: button
+  tertiary:
+    label: Tertiary Button
+    href: button

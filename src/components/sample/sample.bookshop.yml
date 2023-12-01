@@ -1,7 +1,5 @@
 # The spec section names this component and tells CloudCannon where you can place this component on your site.
 spec:
-  structures:
-    - blocks
   label: Sample
   description: A sample component
   icon: nature_people

@@ -10,6 +10,7 @@ spec:
 blueprint:
   title: "Hello title!"
   description: "hello description"
+  sample: bookshop:sample
   button: bookshop:button
 
 
