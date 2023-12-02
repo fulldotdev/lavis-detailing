@@ -202,3 +202,8 @@ _structures:
   blocks:
     id_key: myblocks
     remove_empty_inputs: true
+
+  section:
+    id_key: mysection
+    remove_empty_inputs: true
+  
