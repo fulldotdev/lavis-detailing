@@ -32,6 +32,29 @@ blocks:
     writeup:
       _bookshop_name: elements/writeup
       html: <p>Hello there sir</p>
+    channels:
+      - _bookshop_name: elements/channel
+        key:
+        value:
+        hue:
+        scheme:
+        look:
+        size:
+  - _bookshop_name: blocks/content
+    section:
+      _bookshop_name: wrappers/section
+      frame: hoi
+      look:
+      layout:
+      x:
+      'y':
+      size:
+      order:
+      hue:
+      scheme:
+    prose:
+      _bookshop_name: elements/prose
+      html: <p>hello proes</p>
 seo:
   image: {}
 ---
