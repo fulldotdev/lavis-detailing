@@ -153,6 +153,10 @@ collections_config:
 _inputs:
   layout:
     hidden: true
+  scheme:
+    hidden: true
+  section:
+    remove_empty_inputs: true
 
   seo:
     label: SEO
