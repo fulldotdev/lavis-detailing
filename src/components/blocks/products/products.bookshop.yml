@@ -1,0 +1,12 @@
+spec:
+  structures:
+    - blocks
+  label: Products
+
+blueprint:
+  writeup: bookshop:elements/writeup
+  buttons:
+    - bookshop:elements/button
+  brands:
+
+preview:

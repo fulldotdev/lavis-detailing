@@ -1,0 +1,15 @@
+spec:
+  structures:
+    - blocks
+  label: Offers
+
+blueprint:
+  writeup: bookshop:elements/writeup
+  offers:
+    - writeup: bookshop:elements/writeup
+      specs: 
+      buttons: 
+
+preview:
+
+_inputs:

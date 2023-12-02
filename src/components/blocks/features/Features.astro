@@ -1,5 +1,5 @@
 ---
-import FeaturesCard from '@components/blocks/features/FeaturesCard.astro'
+import FeaturesCards from '@components/blocks/features/FeaturesCards.astro'
 import Buttons from '@components/elements/button/Buttons.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
 import Deck from '@components/wrappers/deck/Deck.astro'
@@ -23,7 +23,7 @@ interface Props {
   group: GroupProps
   buttons: ButtonProps[]
   deck: DeckProps
-  features: FeaturesCardProps
+  features: FeaturesCardProps[]
 }
 
 const {
@@ -33,7 +33,7 @@ const {
   group = {},
   buttons = [],
   deck = {},
-  features = {},
+  features = [],
 } = Astro.props
 ---
 
@@ -45,6 +45,6 @@ const {
     </Group>
   </Segment>
   <Deck {...deck}>
-    <FeaturesCard {...features} />
+    <FeaturesCards {features} />
   </Deck>
 </Section>
