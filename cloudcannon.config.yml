@@ -42,7 +42,6 @@ collections_config:
     schemas: 
       default: 
         path: schemas/pages.md
-        remove_empty_inputs: true
 
   services:
     path: src/content/services
