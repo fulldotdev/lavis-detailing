@@ -4,16 +4,9 @@ spec:
   label: Contact
 
 blueprint:
-  section: bookshop:wrappers/section
-  segment: bookshop:wrappers/segment
   writeup: bookshop:elements/writeup
-  group: bookshop:wrappers/group
-  channels:
-    - bookshop:elements/channel
-  list: bookshop:wrappers/list
-  socials: 
-    - bookshop:elements/social
-
+  form: 
+  
 preview:
 
 _inputs:

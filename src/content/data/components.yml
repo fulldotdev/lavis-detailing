@@ -227,7 +227,6 @@ _block_card:
   class:
 blocks:
   hero:
-    _bookshop_name: blocks/cta
     section:
       frame:
       look:
@@ -256,7 +255,6 @@ blocks:
     image:
       class:
   cta:
-    _bookshop_name: blocks/cta
     section:
       frame:
       look:

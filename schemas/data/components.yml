@@ -46,29 +46,30 @@ elements:
   form: &form
     class:
     
-
-    
-# -----------------------------------------------
-# CARD WRAPPERS
-# -----------------------------------------------
-_card_card: &card
-  frame:
-  look:
-  hue:
-  scheme:
-  class:
-_card_segment: &segment
-  class:
-_card_group: &group
-  size:
-  class:
-_card_list: &list
-  class:
-
 # -----------------------------------------------
 # CARDS 
 # -----------------------------------------------
 cards:
+  offers:
+    card: &card
+      frame:
+      look:
+      hue:
+      scheme:
+      class:
+    image: *image
+    segment: &segment
+      class:
+    writeup: *writeup
+    list: &list
+      class:
+    specs:
+      - *spec
+    group: &group
+      class:
+    buttons:
+      - *button
+
   brands:
     card: *card
     image: *image
@@ -100,18 +101,6 @@ cards:
       - *button
     icon: *icon
 
-  offers:
-    card: *card
-    image: *image
-    segment: *segment
-    writeup: *writeup
-    list: *list
-    specs:
-      - *spec
-    group: *group
-    buttons:
-      - *button
-
   posts:
     card: *card
     image: *image
@@ -140,40 +129,40 @@ cards:
     writeup: *writeup
 
 # -----------------------------------------------
-# BLOCK WRAPPERS
-# -----------------------------------------------
-_block_section: &section
-  frame:
-  look:
-  hue:
-  scheme:
-  class:
-_block_segment: &segment
-  layout:
-  x:
-  y:
-  size:
-  class:
-_block_group: &group
-  layout:
-  x:
-  y:
-  size: 
-  class:
-_block_list: &list
-  layout:
-  size:
-  class:
-_block_card: &deck
-  layout:
-  size:
-  class:
-
-# -----------------------------------------------
-# BLOCKS 
+# BLOCKS
 # -----------------------------------------------
 
 blocks:
+  contact:
+    section: &section
+      frame:
+      look:
+      hue:
+      scheme:
+      class:
+    segment: &segment
+      layout:
+      x:
+      y:
+      size:
+      class:
+    writeup: *writeup
+    group: &group
+      layout:
+      x:
+      y:
+      size: 
+      class:
+    channels:
+      - *channel
+    list: &list
+      layout:
+      size:
+      class:
+    socials:
+      - *social
+    form: *form
+
   hero: &hero
     section: *section
     segment: *segment
@@ -184,19 +173,6 @@ blocks:
     image: *image
 
   cta: *hero
-
-
-  contact:
-    section: *section
-    segment: *segment
-    writeup: *writeup
-    group: *group
-    channels:
-      - *channel
-    list: *list
-    socials:
-      - *social
-    form: *form
 
   content:
     section: *section
@@ -218,7 +194,10 @@ blocks:
     group: *group
     buttons:
       - *button
-    deck: *deck
+    deck: &deck
+      layout:
+      size:
+      class:
 
   categories: *block_with_deck
   posts: *block_with_deck

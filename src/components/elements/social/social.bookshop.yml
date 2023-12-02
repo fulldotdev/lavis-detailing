@@ -6,10 +6,6 @@ spec:
 blueprint:
   platform:
   url:
-  hue:
-  scheme:
-  look:
-  size:
 
 preview:
 

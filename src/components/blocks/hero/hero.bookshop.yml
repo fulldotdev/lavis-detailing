@@ -4,10 +4,7 @@ spec:
   label: Hero
 
 blueprint:
-  section: bookshop:wrappers/section
-  segment: bookshop:wrappers/segment
   writeup: bookshop:elements/writeup
-  group: bookshop:wrappers/group
   buttons:
     - bookshop:elements/button
   image: bookshop:elements/image

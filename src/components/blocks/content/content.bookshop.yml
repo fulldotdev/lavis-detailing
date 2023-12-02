@@ -4,7 +4,6 @@ spec:
   label: Content
 
 blueprint:
-  section: bookshop:wrappers/section
   prose: bookshop:elements/prose
   image: bookshop:elements/image
 
