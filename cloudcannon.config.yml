@@ -156,7 +156,7 @@ _inputs:
   scheme:
     hidden: true
   section:
-    remove_empty_inputs: true
+    hidden: true
 
   seo:
     label: SEO
