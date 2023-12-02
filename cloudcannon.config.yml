@@ -208,6 +208,15 @@ _inputs:
     type: url
     label: Link
 
+  brands:
+    value_key: name
+
+
+
+# -----------------------------------------------
+#  Structures
+# -----------------------------------------------
+
 _structures:
   blocks:
     id_key: myblocks

@@ -1,12 +1,16 @@
 ---
-import type { BrandsCardProps } from './BrandsCard.astro'
+import { getCollection } from 'astro:content'
 import BrandsCard from './BrandsCard.astro'
 
 interface Props {
-  brands: BrandsCardProps[]
+  brands: string[]
 }
+
+const entries = await getCollection('brands', (entry: any) => {
+  brands.includes(entry.slug)
+})
 
 const { brands } = Astro.props
 ---
 
-{brands?.map((brand) => <BrandsCard {...brand} />)}
+{entries?.map((entry) => <BrandsCard brand={entry} />)}
