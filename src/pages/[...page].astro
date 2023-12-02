@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content'
 import RenderBlocks from '../shared/astro/RenderBlocks.astro'
 
 export async function getStaticPaths() {
-  const collection = await getCollection('pages')
+  const collection = (await getCollection('pages')) || null
   if (!collection) return []
   return collection.map((entry: any) => ({
     params: {
