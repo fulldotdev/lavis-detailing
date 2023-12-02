@@ -119,8 +119,13 @@ collections_config:
   data:
     path: src/data
     icon: 
-    disable_add: true
-    disable_add_folder: true
+    # disable_add: true
+    # disable_add_folder: true
+    schemas: 
+      theme: 
+        path: schemas/theme.yml
+      elements: 
+        path: schemas/elements.yml
 
   reviews:
     path: src/content/reviews
@@ -210,7 +215,3 @@ _structures:
   section:
     id_key: mysection
     remove_empty_inputs: true
-  
-define: &mybutton
-  label: lbb
-  value: vll
