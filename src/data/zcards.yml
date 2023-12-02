@@ -1,5 +1,6 @@
-define: &mycard
-  test: 
+define:
+  test:
   hello:
-
-card: *mycard
+card:
+  test: test
+  hello: testjyyy
