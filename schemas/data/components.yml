@@ -182,11 +182,6 @@ blocks:
   calendar:
     section: *section
 
-  offers:
-    section: *section
-    writeup: *writeup
-    deck: *deck
-
   features: &block_with_deck
     section: *section
     segment: *segment
@@ -198,6 +193,11 @@ blocks:
       layout:
       size:
       class:
+
+  offers:
+    section: *section
+    writeup: *writeup
+    deck: *deck
 
   categories: *block_with_deck
   posts: *block_with_deck
