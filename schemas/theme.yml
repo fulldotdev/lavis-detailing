@@ -29,6 +29,7 @@ fonts:
 sizes:
   scale: 1
   rounded: small
+myawesomefield: hoi
 
 # -----------------------------------------------
 # Inputs configuration
