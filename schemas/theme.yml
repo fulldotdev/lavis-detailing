@@ -1,10 +1,11 @@
 colors:
   base: slate
   brand: blue
-  accent: red
-  scheme: dark
+  accent: indigo
+  scheme: light
   texture: solid
   contrast: false
+
 fonts:
   heading:
     family: Inter
@@ -25,11 +26,11 @@ fonts:
     family: Inter 
     weight: 500
     italic: false
-    class: 
+    class:
+
 sizes:
   scale: 1
   rounded: small
-myawesomefield: hoi
 
 # -----------------------------------------------
 # Inputs configuration

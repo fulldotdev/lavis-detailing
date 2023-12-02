@@ -1,0 +1,230 @@
+# -----------------------------------------------
+# ELEMENTS 
+# -----------------------------------------------
+elements:
+  button: &button
+    look:
+    hue:
+    scheme:
+    class:
+
+  channel: &channel
+    look:
+    hue:
+    class:
+
+  social: &social
+    look:
+    hue:
+    class:
+
+  link: &link
+    hue:
+    class:
+
+  image: &image
+    class:
+
+  writeup: &writeup
+    class:
+
+  prose: &prose
+    class:
+
+  spec: &spec
+    class:
+
+  rating: &rating
+    class:
+
+  person: &person
+    class:
+
+  icon: &icon
+    class:
+
+  form: &form
+    class:
+    
+
+    
+# -----------------------------------------------
+# CARD WRAPPERS
+# -----------------------------------------------
+_card_card: &card
+  frame:
+  look:
+  hue:
+  scheme:
+  class:
+_card_segment: &segment
+  class:
+_card_group: &group
+  size:
+  class:
+_card_list: &list
+  class:
+
+# -----------------------------------------------
+# CARDS 
+# -----------------------------------------------
+cards:
+  brands:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+
+  categories:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+
+  employees:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+    group: *group
+    buttons:
+      - *button
+
+  features:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+    group: *group
+    buttons:
+      - *button
+    icon: *icon
+
+  offers:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+    list: *list
+    specs:
+      - *spec
+    group: *group
+    buttons:
+      - *button
+
+  posts:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+    person: *person
+
+  products:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+
+  reviews:
+    card: *card
+    image: *image
+    segment: *segment
+    rating: *rating
+    person: *person
+    writeup: *writeup
+
+  services:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+
+# -----------------------------------------------
+# BLOCK WRAPPERS
+# -----------------------------------------------
+_block_section: &section
+  frame:
+  look:
+  hue:
+  scheme:
+  class:
+_block_segment: &segment
+  layout:
+  x:
+  y:
+  size:
+  class:
+_block_group: &group
+  layout:
+  x:
+  y:
+  size: 
+  class:
+_block_list: &list
+  layout:
+  size:
+  class:
+_block_card: &deck
+  layout:
+  size:
+  class:
+
+# -----------------------------------------------
+# BLOCKS 
+# -----------------------------------------------
+
+blocks:
+  hero: &hero
+    section: *section
+    segment: *segment
+    writeup: *writeup
+    group: *group
+    buttons:
+      - *button
+    image: *image
+
+  cta: *hero
+
+
+  contact:
+    section: *section
+    segment: *segment
+    writeup: *writeup
+    group: *group
+    channels:
+      - *channel
+    list: *list
+    socials:
+      - *social
+    form: *form
+
+  content:
+    section: *section
+    image: *image
+    prose: *prose
+
+  calendar:
+    section: *section
+
+  offers:
+    section: *section
+    writeup: *writeup
+    deck: *deck
+
+  features: &block_with_deck
+    section: *section
+    segment: *segment
+    writeup: *writeup
+    group: *group
+    buttons:
+      - *button
+    deck: *deck
+
+  categories: *block_with_deck
+  posts: *block_with_deck
+  brands: *block_with_deck
+  products: *block_with_deck
+  reviews: *block_with_deck
+  services: *block_with_deck
+  stats: *block_with_deck
+  employees: *block_with_deck
