@@ -1,0 +1,137 @@
+_schema: theme
+colors:
+  base: slate
+  brand: blue
+  accent: red
+  scheme: dark
+  texture: solid
+  contrast: false
+fonts:
+  heading:
+    family: Inter
+    weight: 700
+    italic: false
+    class:
+  subheading:
+    family: Inter
+    weight: 500
+    italic: false
+    class:
+  text:
+    family: Inter
+    weight: 400
+    italic: false
+    class:
+  button:
+    family: Inter
+    weight: 500
+    italic: false
+    class:
+sizes:
+  scale: 1
+  rounded: small
+_inputs:
+  colors.base:
+    type: select
+    options:
+      values:
+        - gray
+        - mauve
+        - slate
+        - sage
+        - olive
+        - sand
+  colors.brand:
+    type: select
+    options:
+      values:
+        - tomato
+        - red
+        - ruby
+        - crimson
+        - pink
+        - plum
+        - purple
+        - violet
+        - iris
+        - indigo
+        - blue
+        - cyan
+        - teal
+        - jade
+        - green
+        - grass
+        - bronze
+        - gold
+        - brown
+        - orange
+        - amber
+        - yellow
+        - lime
+        - mint
+        - sky
+  colors.accent:
+    type: select
+    options:
+      values:
+        - tomato
+        - red
+        - ruby
+        - crimson
+        - pink
+        - plum
+        - purple
+        - violet
+        - iris
+        - indigo
+        - blue
+        - cyan
+        - teal
+        - jade
+        - green
+        - grass
+        - bronze
+        - gold
+        - brown
+        - orange
+        - amber
+        - yellow
+        - lime
+        - mint
+        - sky
+  scheme:
+    type: choice
+    options:
+      values:
+        - light
+        - dark
+  texture:
+    type: choice
+    options:
+      values:
+        - solid
+        - translucent
+  weight:
+    type: range
+    options:
+      min: 100
+      max: 900
+      step: 100
+  scale:
+    type: range
+    options:
+      min: 0.9
+      max: 1.1
+      step: 0.1
+  contrast:
+    type: checkbox
+    label: Increased contrast
+  rounded:
+    type: select
+    options:
+      values:
+        - none
+        - tiny
+        - small
+        - medium
+        - large
