@@ -49,7 +49,6 @@ collections_config:
     url: /diensten/[full_slug]/
     output: true
     icon: home_repair_service
-    disable_add: true
     disable_add_folder: true
     _enabled_editors:
       - visual
@@ -62,7 +61,6 @@ collections_config:
     url: /producten/[full_slug]/
     output: true
     icon: shopping_cart
-    disable_add: true
     disable_add_folder: true
     _enabled_editors:
       - data
@@ -75,7 +73,6 @@ collections_config:
     url: /categorieen/[full_slug]/
     output: true
     icon: category
-    disable_add: true
     disable_add_folder: true
     _enabled_editors:
       - data
@@ -88,7 +85,6 @@ collections_config:
     url: /merken/[full_slug]/
     output: true
     icon: shape_line
-    disable_add: true
     disable_add_folder: true
     _enabled_editors:
       - data
@@ -98,7 +94,6 @@ collections_config:
     url: /posts/[full_slug]/
     output: true
     icon: edit_document
-    disable_add: true
     disable_add_folder: true
     _enabled_editors:
       - content
@@ -108,7 +103,6 @@ collections_config:
     url: /beleid/[full_slug]/
     output: true
     icon: policy
-    disable_add: true
     disable_add_folder: true
     _enabled_editors:
       - content
@@ -118,6 +112,7 @@ collections_config:
         
   data:
     path: src/content/data
+    output: false
     icon: 
     disable_add_folder: true
     schemas: 
@@ -132,7 +127,6 @@ collections_config:
     path: src/content/reviews
     output: false
     icon: reviews
-    disable_add: true
     disable_add_folder: true
     _enabled_editors:
       - data
@@ -144,7 +138,6 @@ collections_config:
     path: src/content/employees
     output: false
     icon: diversity_3
-    disable_add: true
     disable_add_folder: true
     _enabled_editors:
       - data
