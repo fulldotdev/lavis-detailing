@@ -119,15 +119,14 @@ collections_config:
   data:
     path: src/content/data
     icon: 
-    disable_add: true
     disable_add_folder: true
     schemas: 
       theme: 
-        path: schemas/theme.yml
+        path: schemas/data/theme.yml
       elements: 
-        path: schemas/components.yml
+        path: schemas/data/components.yml
       company: 
-        path: schemas/company.yml
+        path: schemas/data/company.yml
 
   reviews:
     path: src/content/reviews
