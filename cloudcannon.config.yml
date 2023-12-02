@@ -211,3 +211,6 @@ _structures:
     id_key: mysection
     remove_empty_inputs: true
   
+define: &mybutton
+  label: lbb
+  value: vll

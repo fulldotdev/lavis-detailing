@@ -1,2 +1,1 @@
-products:
-  image: *image
+testbutton: *mybutton
