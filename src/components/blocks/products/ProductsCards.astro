@@ -1,0 +1,15 @@
+---
+import BrandsCard from './ProductsCard.astro'
+
+interface Props {
+  products: string[]
+}
+
+// const entries = await getCollection('products', (entry: any) => {
+//   products.includes(entry.slug)
+// })
+
+const { products } = Astro.props
+---
+
+<!-- {entries?.map((entry) => <BrandsCard brand={entry} />)} -->

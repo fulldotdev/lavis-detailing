@@ -1,34 +1,39 @@
-<!-- ---
-import Image from '@components/elements/Image.astro'
+---
 import Price from '@components/elements/Price.astro'
+import Image from '@components/elements/image/Image.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
-import Card from '@components/wrappers/Card.astro'
+import Card from '@components/wrappers/card/Card.astro'
 import Segment from '@components/wrappers/segment/Segment.astro'
-import type { Product,ProductsCardsSettings } from '@types'
-import { getSettingsCard } from 'api'
+import type { CardProps, ImageProps, SegmentProps, WriteupProps } from '@types'
 
+export type BrandsCardProps = Props
 interface Props {
-  card: Product
+  card?: CardProps
+  image?: ImageProps
+  segment?: SegmentProps
+  writeup?: WriteupProps
+  product: any
 }
 
-const { card } = Astro.props
-const setting: ProductsCardsSettings = await getSettingsCard('products')
+const {
+  card = {},
+  image = {},
+  segment = {},
+  writeup = {},
+  product = {},
+} = Astro.props
 ---
 
-<Card
-  {...setting?.card}
-  href={card.path}
->
+<Card {...card}>
   <Image
     sizes={{ base: '470px' }}
     orientation="square"
-    image={card?.images?.[0]?.image}
-    {...setting?.image}
+    {...image}
   />
-  <Segment {...setting.segment}>
-    <Writeup {...setting.writeup}>
-      <h4 class="heading-secondary">{card.title}</h4>
-      {card.price && <Price price={card.price} />}
+  <Segment {...segment}>
+    <Writeup {...writeup}>
+      <h4 class="heading-secondary">{product.title}</h4>
+      {product.price && <Price price={product.price} />}
     </Writeup>
   </Segment>
-</Card> -->
+</Card>

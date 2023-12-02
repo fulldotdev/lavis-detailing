@@ -1,35 +1,49 @@
-<!-- ---
+---
 import Buttons from '@components/elements/button/Buttons.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
 import Deck from '@components/wrappers/deck/Deck.astro'
 import Group from '@components/wrappers/group/Group.astro'
 import Section from '@components/wrappers/section/Section.astro'
 import Segment from '@components/wrappers/segment/Segment.astro'
-import type { ProductsBlock,ProductsBlockSettings } from '@types'
+import type {
+  ButtonProps,
+  DeckProps,
+  GroupProps,
+  SectionProps,
+  SegmentProps,
+  WriteupProps,
+} from '@types'
 import ProductsCards from './ProductsCards.astro'
 
 interface Props {
-  block: ProductsBlock
-  setting: ProductsBlockSettings
+  section?: SectionProps
+  segment?: SegmentProps
+  writeup?: WriteupProps
+  group?: GroupProps
+  buttons?: ButtonProps[]
+  deck?: DeckProps
+  products: any[]
 }
 
-const { block, setting } = Astro.props
+const {
+  section = {},
+  segment = {},
+  writeup = {},
+  group = {},
+  buttons = [],
+  deck = {},
+  products = [],
+} = Astro.props
 ---
 
-<Section {...setting.section}>
-  <Segment {...setting.segment}>
-    <Writeup
-      richtext={block.writeup}
-      {...setting.writeup}
-    />
-    <Group {...setting.group}>
-      <Buttons
-        buttons={block.buttons}
-        setting={setting.buttons}
-      />
+<Section {...section}>
+  <Segment {...segment}>
+    <Writeup {...writeup} />
+    <Group {...group}>
+      <Buttons {buttons} />
     </Group>
   </Segment>
-  <Deck {...setting?.deck}>
-    <ProductsCards cards={block.products} />
+  <Deck {...deck}>
+    <ProductsCards {products} />
   </Deck>
-</Section> -->
+</Section>

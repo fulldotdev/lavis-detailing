@@ -149,13 +149,6 @@ collections_config:
 # -----------------------------------------------
 
 _inputs:
-  layout:
-    hidden: true
-  scheme:
-    hidden: true
-  section:
-    hidden: true
-
   seo:
     label: SEO
     comment: Search engine optimization
@@ -202,18 +195,3 @@ _inputs:
 
   brands:
     value_key: name
-
-
-
-# -----------------------------------------------
-#  Structures
-# -----------------------------------------------
-
-_structures:
-  blocks:
-    id_key: myblocks
-    remove_empty_inputs: true
-
-  section:
-    id_key: mysection
-    remove_empty_inputs: true
