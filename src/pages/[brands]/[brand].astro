@@ -1,22 +1,20 @@
 ---
-import RenderBlocks from '../../shared/astro/RenderBlocks.astro'
-
 import Layout from '@layouts/Layout.astro'
 import { getCollection } from 'astro:content'
+import RenderBlocks from '../../shared/astro/RenderBlocks.astro'
 
 export async function getStaticPaths() {
   const collection = await getCollection('brands')
-  return collection.map((entry) => {
-    return {
-      params: {
-        brands: 'merken',
-        brand: entry.slug,
-      },
-      props: {
-        frontmatter: entry.data,
-      },
-    }
-  })
+  if (!collection) return []
+  return collection.map((entry: any) => ({
+    params: {
+      brands: 'merken',
+      brand: entry.slug,
+    },
+    props: {
+      frontmatter: entry.data,
+    },
+  }))
 }
 
 const entry = Astro.props.frontmatter
