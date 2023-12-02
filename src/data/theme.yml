@@ -11,30 +11,26 @@ fonts:
     family: Inter
     weight: 700
     italic: false
-    class: 
+    class:
   subheading:
     family: Inter
     weight: 500
     italic: false
-    class: 
+    class:
   text:
     family: Inter
     weight: 400
     italic: false
-    class: 
+    class:
   button:
-    family: Inter 
+    family: Inter
     weight: 500
     italic: false
-    class: 
+    class:
 sizes:
   scale: 1
   rounded: small
-
-# -----------------------------------------------
-# Inputs configuration
-# -----------------------------------------------
-
+myawesomefield: hoiiii
 _inputs:
   colors.base:
     type: select
@@ -46,11 +42,11 @@ _inputs:
         - sage
         - olive
         - sand
-  colors.brand: &brand
+  colors.brand:
     type: select
     options:
       values:
-        - tomato 
+        - tomato
         - red
         - ruby
         - crimson
@@ -75,7 +71,35 @@ _inputs:
         - lime
         - mint
         - sky
-  colors.accent: *brand
+  colors.accent:
+    type: select
+    options:
+      values:
+        - tomato
+        - red
+        - ruby
+        - crimson
+        - pink
+        - plum
+        - purple
+        - violet
+        - iris
+        - indigo
+        - blue
+        - cyan
+        - teal
+        - jade
+        - green
+        - grass
+        - bronze
+        - gold
+        - brown
+        - orange
+        - amber
+        - yellow
+        - lime
+        - mint
+        - sky
   scheme:
     type: choice
     options:
@@ -94,7 +118,7 @@ _inputs:
       min: 100
       max: 900
       step: 100
-  scale: 
+  scale:
     type: range
     options:
       min: 0.9
@@ -103,7 +127,7 @@ _inputs:
   contrast:
     type: checkbox
     label: Increased contrast
-  rounded:  
+  rounded:
     type: select
     options:
       values:
