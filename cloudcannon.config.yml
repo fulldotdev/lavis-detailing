@@ -21,9 +21,9 @@ collection_groups:
       - brands
   - heading: Data
     collections:
-      - data
-      - employees
       - reviews
+      - employees
+      - data
 
 # -----------------------------------------------
 # Collection configuration

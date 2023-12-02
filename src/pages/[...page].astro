@@ -1,5 +1,4 @@
 ---
-import Hero from '@components/blocks/hero/Hero.astro'
 import Layout from '@layouts/Layout.astro'
 import { getCollection } from 'astro:content'
 import RenderBlocks from '../shared/astro/RenderBlocks.astro'
@@ -26,5 +25,4 @@ const entry = Astro.props.frontmatter
     bookshop:live
     blocks={entry.blocks}
   />
-  <Hero />
 </Layout>

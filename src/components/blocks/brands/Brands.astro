@@ -13,7 +13,7 @@ import type {
   SegmentProps,
   WriteupProps,
 } from '@types'
-import BrandsCard from './BrandsCard.astro'
+import BrandsCards from './BrandsCards.astro'
 
 interface Props {
   section?: SectionProps
@@ -44,6 +44,6 @@ const {
     </Group>
   </Segment>
   <Deck {...deck}>
-    {brands?.map((brand) => <BrandsCard brand={brand} />)}
+    <BrandsCards {brands} />
   </Deck>
 </Section>
