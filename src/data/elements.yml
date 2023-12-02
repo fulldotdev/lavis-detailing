@@ -1,77 +1,41 @@
-button: &button
-  look:
-  hue:
+button:
+  look: mybutton
+  hue: mybutton
   scheme:
   class:
-
-channel: &channel
+channel:
+  look: channell
+  hue: channell
+  class:
+social:
   look:
   hue:
   class:
-
-social: &social
-  look:
+link:
   hue:
   class:
-
-link: &link
-  hue:
+image:
   class:
-
-image: &image
+writeup:
   class:
-
-writeup: &writeup
+spec:
   class:
-
-spec: &spec
+rating:
   class:
-
-rating: &rating
-  class:
-
-# -----------------------------------------------
-
 mycard:
-  button: *button
-  channel: *channel
-  social: *social
-  link: *link
-
-# _structures:
-#   elements:
-#     values:
-#       - label: Button
-#         value:
-#           look:
-#           hue:
-#           scheme:
-#           class:
-#       - label: Channel
-#         value:
-#           look:
-#           hue:
-#           class:
-#       - label: Social
-#         value:
-#           look:
-#           hue:
-#           class:
-#       - label: Link
-#         value:
-#           hue:
-#           class:
-#       - label: Image
-#         value:
-#           class:
-#       - label: Writeup
-#         value:
-#           class:
-#       - label: Spec
-#         value:
-#           class:
-#       - label: Rating
-#         value:
-#           class:
-
-
+  button:
+    look: Mybutton
+    hue: test
+    scheme:
+    class:
+  channel:
+    look:
+    hue:
+    class:
+  social:
+    look:
+    hue:
+    class:
+  link:
+    hue:
+    class:
