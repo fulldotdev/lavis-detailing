@@ -117,7 +117,7 @@ collections_config:
         path: schemas/policies.md
         
   data:
-    path: src/data
+    path: src/content/data
     icon: 
     disable_add: true
     disable_add_folder: true
