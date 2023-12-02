@@ -123,7 +123,7 @@ collections_config:
     schemas: 
       theme: 
         path: schemas/data/theme.yml
-      elements: 
+      components: 
         path: schemas/data/components.yml
       company: 
         path: schemas/data/company.yml
