@@ -13,6 +13,9 @@ blocks:
       order:
       hue:
       scheme:
+    segment:
+      layout: row
+      class: bg-red-500
 seo:
   image: {}
 ---

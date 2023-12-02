@@ -5,22 +5,71 @@ theme:
     accent: red
     scheme: dark
     texture: solid
-    contrast: 
+    contrast: false
   fonts:
     heading:
-      family: 
-      weight: 
+      family: Inter
+      weight: 700
       class: 
-      className: 
     subheading:
-      family: 
-      weight: 
+      family: Inter
+      weight: 500
+      class: 
     text:
-      family: 
-      weight: 
+      family: Inter
+      weight: 400
+      class: 
     button:
-      family: 
-      weight: 
+      family: Inter 
+      weight: 500
+      class: 
   sizes:
-    scale: 
-    rounded:
+    scale: 1
+    rounded: small
+
+# -----------------------------------------------
+# Inputs configuration
+# -----------------------------------------------
+
+_inputs:
+  colors.base:
+    type: select
+  scheme:
+    hidden: true
+  section:
+    hidden: true
+_select_data:
+  colors.base:
+    - gray
+    - mauve
+    - slate
+    - sage
+    - olive
+    - sand
+  colors.brand: &brand_colors
+    - tomato 
+    - red
+    - ruby
+    - crimson
+    - pink
+    - plum
+    - purple
+    - violet
+    - iris
+    - indigo
+    - blue
+    - cyan
+    - teal
+    - jade
+    - green
+    - grass
+    - bronze
+    - gold
+    - brown
+    - orange
+    - amber
+    - yellow
+    - lime
+    - mint
+    - sky
+  colors.accent: *brand_colors
