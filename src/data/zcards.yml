@@ -1,1 +1,5 @@
-testbutton: *mybutton
+define: &mycard
+  test: 
+  hello:
+
+card: *mycard
