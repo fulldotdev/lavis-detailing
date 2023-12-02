@@ -1,5 +1,6 @@
 spec:
   structures:
+    - section
   label: Section
 
 blueprint:
