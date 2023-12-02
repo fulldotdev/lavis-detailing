@@ -1,6 +1,10 @@
 ---
 _schema: default
 blocks:
+  - _bookshop_name: blocks/hero
+    writeup:
+      _bookshop_name: elements/writeup
+      html: <p>Hello there sir</p>
   - _bookshop_name: blocks/content
     section:
       _bookshop_name: wrappers/section
@@ -51,6 +55,24 @@ blocks:
     prose:
       _bookshop_name: elements/prose
       html: <p>hello proes</p>
+    image:
+      _bookshop_name: elements/image
+      src:
+      alt:
+      position:
+      orientation:
+  - _bookshop_name: blocks/content
+    section:
+      _bookshop_name: wrappers/section
+      frame: test
+      look:
+      layout:
+      x:
+      'y':
+      size:
+      order:
+      hue:
+      scheme:
 seo:
   image: {}
 ---
