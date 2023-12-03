@@ -1,11 +1,10 @@
 ---
 import { SEO } from 'astro-seo'
-import type { Image } from 'types'
 
 interface Props {
   title?: string
   description?: string
-  image?: string | Image
+  image?: string | object
   noindex?: boolean
   nofollow?: boolean
   canonical?: string
@@ -32,17 +31,17 @@ const seo = {
   },
 }
 
-if (typeof image === 'object' && image.url) {
-  seo.openGraph.basic.image = image.url
-  seo.openGraph.image = {
-    url: image.url,
-    secureUrl: image.url,
-    type: image.mimeType,
-    width: image.width,
-    height: image.height,
-    alt: image.alt,
-  }
-}
+// if (typeof image === 'object' && image?.url) {
+//   seo.openGraph.basic.image = image?.url
+//   seo.openGraph.image = {
+//     url: image.url,
+//     secureUrl: image.url,
+//     type: image.mimeType,
+//     width: image.width,
+//     height: image.height,
+//     alt: image.alt,
+//   }
+// }
 ---
 
 <meta
