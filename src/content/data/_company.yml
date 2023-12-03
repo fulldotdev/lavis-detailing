@@ -1,0 +1,16 @@
+name:
+description:
+logo:
+icon:
+kvk:
+channels:
+socials:
+
+# -----------------------------------------------
+# Inputs configuration
+# -----------------------------------------------
+_inputs:
+  logo:
+    type: image
+  icon:
+    type: image

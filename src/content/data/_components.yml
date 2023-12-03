@@ -1,0 +1,249 @@
+# -----------------------------------------------
+# ELEMENTS 
+# -----------------------------------------------
+elements:
+  buttons: &buttons
+    - look:
+      hue:
+      class:
+
+  channel: &channel
+    look:
+    hue:
+    class:
+
+  social: &social
+    look:
+    hue:
+    class:
+
+  link: &link
+    class:
+
+  image: &image
+    class:
+
+  writeup: &writeup
+    class:
+
+  prose: &prose
+    class:
+
+  spec: &spec
+    class:
+
+  rating: &rating
+    class:
+
+  person: &person
+    class:
+
+  icon: &icon
+    class:
+
+  form: &form
+    class:
+    
+# -----------------------------------------------
+# CARDS 
+# -----------------------------------------------
+cards:
+  offers:
+    card: &card
+      frame:
+      look:
+      hue:
+      scheme:
+      class:
+    image: *image
+    segment: &segment
+      class:
+    writeup: *writeup
+    list: &list
+      class:
+    specs:
+      - *spec
+    group: &group
+      class:
+    buttons: *buttons
+
+  brands:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+
+  categories:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+
+  employees:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+    group: *group
+    buttons: *buttons
+
+  features:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+    group: *group
+    buttons: *buttons
+    icon: *icon
+
+  posts:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+    person: *person
+
+  products:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+
+  reviews:
+    card: *card
+    image: *image
+    segment: *segment
+    rating: *rating
+    person: *person
+    writeup: *writeup
+
+  services:
+    card: *card
+    image: *image
+    segment: *segment
+    writeup: *writeup
+
+# -----------------------------------------------
+# BLOCKS
+# -----------------------------------------------
+
+blocks:
+  contact:
+    section: &section
+      frame:
+      look:
+      hue:
+      scheme:
+      class:
+    segment: &segment
+      layout:
+      x:
+      y:
+      size:
+      class:
+    writeup: *writeup
+    group: &group
+      layout:
+      x:
+      y:
+      size: 
+      class:
+    channel: *channel
+    list: &list
+      layout:
+      size:
+      class:
+    social: *social
+    form: *form
+
+  hero:
+    primary: &hero
+      section: *section
+      segment: *segment
+      writeup: *writeup
+      group: *group
+      buttons: *button
+      image: *image
+    secondary: *hero
+
+  cta: *hero
+
+  content:
+    section: *section
+    image: *image
+    prose: *prose
+
+  calendar:
+    section: *section
+
+  offers:
+    section: *section
+    writeup: *writeup
+    deck: &deck
+      layout:
+      size:
+      class:
+
+  features:
+    primary: &block_with_deck
+      section: *section
+      segment: *segment
+      writeup: *writeup
+      group: *group
+      buttons: *buttons
+      deck: *deck
+    secondary: *block_with_deck
+
+  categories: *block_with_deck
+  posts: *block_with_deck
+  brands: *block_with_deck
+  products: *block_with_deck
+  reviews: *block_with_deck
+  services: *block_with_deck
+  stats: *block_with_deck
+  employees: *block_with_deck
+
+# -----------------------------------------------
+# Inputs configuration
+# -----------------------------------------------
+_inputs:
+  hue:
+    type: choice
+    options:
+      values:
+        - none
+        - base
+        - brand
+        - accent
+  scheme:
+    type: choice
+    options:
+      values:
+        - none 
+        - light
+        - dark
+  size:
+    type: choice
+    options:
+      values:
+        - none 
+        - small
+        - medium
+        - large
+  look:
+    type: choice
+    options:
+      values:
+        - solid
+        - surface
+        - soft
+        - outline
+        - ghost
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
