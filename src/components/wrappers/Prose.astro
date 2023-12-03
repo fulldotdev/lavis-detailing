@@ -1,0 +1,18 @@
+---
+import { cva, type VariantProps } from 'cva'
+
+export type ProseProps = Props
+type Props = VariantProps<typeof variant>
+
+const variant = cva({
+  base: 'prose',
+})
+---
+
+{
+  Astro.slots.has('default') && (
+    <div class={variant(Astro.props)}>
+      <slot />
+    </div>
+  )
+}

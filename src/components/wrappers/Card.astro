@@ -39,16 +39,12 @@ const { href } = Astro.props
   href ? (
     <a
       class={variant(Astro.props)}
-      {...Astro.props}
       href={href}
     >
       <slot />
     </a>
   ) : (
-    <div
-      class={variant(Astro.props)}
-      {...Astro.props}
-    >
+    <div class={variant(Astro.props)}>
       <slot />
     </div>
   )

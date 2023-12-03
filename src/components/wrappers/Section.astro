@@ -56,9 +56,10 @@ const variant = cva({
 })
 ---
 
-<section
-  class={variant(Astro.props)}
-  {...Astro.props}
->
-  <slot />
-</section>
+{
+  Astro.slots.has('default') && (
+    <section class={variant(Astro.props)}>
+      <slot />
+    </section>
+  )
+}

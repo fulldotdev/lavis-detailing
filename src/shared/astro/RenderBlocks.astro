@@ -1,6 +1,7 @@
 ---
 const { blocks } = Astro.props
 import { toPascalCase } from '@utils'
+import RenderBlock from './RenderBlock.astro'
 const components: any = {}
 const componentImports = import.meta.glob(
   '../../components/blocks/**/*.astro',
@@ -25,7 +26,7 @@ Object.entries(componentImports).forEach(([path, object]: any) => {
         console.log(`No component found for ${pascalBookshopName}`)
         return null
       }
-      return <Component {...block} />
+      return <RenderBlock {...block} />
     })
   }
 </main>

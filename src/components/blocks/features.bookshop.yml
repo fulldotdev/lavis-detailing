@@ -1,0 +1,16 @@
+spec:
+  structures:
+    - blocks
+  label: Features
+
+blueprint:
+  writeup:
+  buttons:
+  features:
+    - writeup:
+      specs: 
+      buttons: 
+
+preview:
+
+_inputs:

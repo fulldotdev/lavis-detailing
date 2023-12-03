@@ -1,9 +1,0 @@
----
-import { getEntriesByPaths } from '@utils'
-import EmployeesCard from './EmployeesCard.astro'
-
-const { employees } = Astro.props
-const entries = await getEntriesByPaths(employees)
----
-
-{entries?.map((entry) => <EmployeesCard {entry} />)}

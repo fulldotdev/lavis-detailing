@@ -1,0 +1,68 @@
+---
+import Buttons from '@components/elements/button/Buttons.astro'
+import Channels from '@components/elements/channel/Channels.astro'
+import Image from '@components/elements/image/Image.astro'
+import Socials from '@components/elements/social/Socials.astro'
+import Deck from '@components/wrappers/Deck.astro'
+import Form from '@components/wrappers/Form.astro'
+import Group from '@components/wrappers/Group.astro'
+import List from '@components/wrappers/List.astro'
+import Prose from '@components/wrappers/Prose.astro'
+import Section from '@components/wrappers/Section.astro'
+import Segment from '@components/wrappers/Segment.astro'
+import Writeup from '@components/wrappers/Writeup.astro'
+import type { ButtonProps, ImageProps } from '@types'
+import { getEntry } from 'astro:content'
+import type { RenderCardsProps } from './RenderCards.astro'
+import RenderCards from './RenderCards.astro'
+
+interface Props {
+  _bookshop_name: 'string'
+  writeup: string
+  buttons: ButtonProps[]
+  channels: boolean
+  socials: boolean
+  image: ImageProps
+  prose: string
+  // form: FormProps
+  cards: RenderCardsProps
+}
+
+const components = await getEntry('data', 'components')
+const settings = components.data.blocks[Astro.props._bookshop_name]
+const merged = { ...settings, ...Astro.props }
+const {
+  section = {},
+  segment = {},
+  writeup = {},
+  group = {},
+  buttons = [],
+  channels = [],
+  list = {},
+  socials = [],
+  image = {},
+  prose = {},
+  form = {},
+  deck = {},
+  cards = [],
+} = merged
+---
+
+<Section {...section}>
+  <Segment {...segment}>
+    <Writeup set:html={writeup} />
+    <Group {...group}>
+      <Buttons {buttons} />
+      <Channels {channels} />
+    </Group>
+    <List {...list}>
+      <Socials {socials} />
+    </List>
+  </Segment>
+  <Image {...image} />
+  <Prose set:html={prose} />
+  <Form {...form} />
+  <Deck {...deck}>
+    <RenderCards items={cards} />
+  </Deck>
+</Section>

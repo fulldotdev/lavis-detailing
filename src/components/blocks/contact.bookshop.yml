@@ -1,0 +1,12 @@
+spec:
+  structures:
+    - blocks
+  label: Contact
+
+blueprint:
+  writeup:
+  form: bookshop:elements/form
+  
+preview:
+
+_inputs:

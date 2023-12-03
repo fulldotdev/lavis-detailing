@@ -1,0 +1,85 @@
+---
+import { getEntry, type CollectionEntry } from 'astro:content'
+import type { RenderCardProps } from './RenderCard.astro'
+import RenderCard from './RenderCard.astro'
+
+export type RenderCardsProps = Props
+type Entry = CollectionEntry<
+  | 'brands'
+  | 'categories'
+  | 'employees'
+  | 'posts'
+  | 'products'
+  | 'reviews'
+  | 'services'
+>
+type Path = `${string}${Entry['collection']}/${Entry['id']}`
+type Card = RenderCardProps
+type Item = Card | Entry | Path
+interface Props {
+  items: Item[]
+}
+
+const getEntryFromPath = async (path: Path) => {
+  const collection = path.split('/')[-2] as Entry['collection']
+  const id = path.split('/').pop() as Entry['id']
+  const entry = await getEntry(collection, id)
+  return entry
+}
+
+const hrefMap = {
+  brands: 'merken',
+  categories: 'categorieen',
+  employees: 'werknemers',
+  posts: 'posts',
+  products: 'producten',
+  reviews: 'reviews',
+  services: 'diensten',
+}
+
+const getCardFromEntry = ({
+  collection,
+  slug,
+  data,
+}: Entry): RenderCardProps => ({
+  href: `/${hrefMap[collection]}/${slug}`,
+  type: collection,
+  image: data.image,
+  rating: data.rating,
+  title: data.title,
+  description: data.description,
+  tagline: data.tagline,
+})
+
+const isPath = (item: Item): item is Path => {
+  return typeof item === 'string'
+}
+const isEntry = (item: Item): item is Entry => {
+  return typeof item === 'object' && 'slug' in item
+}
+const isCard = (item: Item): item is Card => {
+  return typeof item === 'object' && !('slug' in item)
+}
+
+const getCard = async (item: Item): Promise<Card | undefined> => {
+  if (isPath(item)) {
+    const entry = await getEntryFromPath(item)
+    if (!entry) return
+    return getCardFromEntry(entry)
+  } else if (isEntry(item)) {
+    return getCardFromEntry(item)
+  } else if (isCard(item)) {
+    return item
+  }
+}
+
+const { items } = Astro.props
+---
+
+{
+  items.map(async (item) => {
+    const card = await getCard(item)
+    if (!card) return
+    return <RenderCard {...card} />
+  })
+}

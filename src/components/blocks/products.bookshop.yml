@@ -1,0 +1,11 @@
+spec:
+  structures:
+    - blocks
+  label: Products
+
+blueprint:
+  writeup:
+  buttons:
+  products:
+
+preview:

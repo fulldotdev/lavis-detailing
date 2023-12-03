@@ -193,5 +193,11 @@ _inputs:
     type: url
     label: Link
 
+  writeup:
+    type: html
+
+  prose:
+    type: html
+
   brands:
     value_key: name

@@ -1,0 +1,11 @@
+spec:
+  structures:
+    - blocks
+  label: Categories
+
+blueprint:
+  writeup:
+  buttons:
+  categories:
+
+preview:

@@ -1,9 +1,0 @@
----
-import { getEntriesByPaths } from '@utils'
-import CategoriesCard from './CategoriesCard.astro'
-
-const { categories } = Astro.props
-const entries = await getEntriesByPaths(categories)
----
-
-{entries?.map((entry) => <CategoriesCard {entry} />)}

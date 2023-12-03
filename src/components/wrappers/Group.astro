@@ -23,10 +23,7 @@ const variant = cva({
 
 {
   Astro.slots.has('default') && (
-    <div
-      class={variant(Astro.props)}
-      {...Astro.props}
-    >
+    <div class={variant(Astro.props)}>
       <slot />
     </div>
   )

@@ -22,7 +22,7 @@ export * from '@components/elements/prose/Prose.astro'
 export * from '@components/elements/rating/Rating.astro'
 export * from '@components/elements/social/Social.astro'
 export * from '@components/elements/spec/Spec.astro'
-export * from '@components/elements/writeup/Writeup.astro'
+export * from '@components/wrappers/Writeup.astro'
 
 // CARDS
 export * from '@components/blocks/brands/BrandsCard.astro'

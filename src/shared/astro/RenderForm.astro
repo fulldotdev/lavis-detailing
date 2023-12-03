@@ -1,23 +1,20 @@
----
+<!-- ---
 import Buttons from '@components/elements/button/Buttons.astro'
-import Image from '@components/elements/image/Image.astro'
+import Image,{ type ImageProps } from '@components/elements/image/Image.astro'
 import Rating from '@components/elements/rating/Rating.astro'
 import Card from '@components/wrappers/Card.astro'
 import Group from '@components/wrappers/Group.astro'
 import Segment from '@components/wrappers/Segment.astro'
 import Writeup from '@components/wrappers/Writeup.astro'
-import { getEntry, type CollectionEntry } from 'astro:content'
+import type { ButtonProps } from '@types'
+import type { HTMLAttributes } from 'astro/types'
+import { getEntry } from 'astro:content'
 
 interface Props {
-  entry: CollectionEntry<
-    | 'brands'
-    | 'categories'
-    | 'employees'
-    | 'posts'
-    | 'products'
-    | 'reviews'
-    | 'services'
-  >
+  href: HTMLAttributes<'a'>['href']
+  image: ImageProps
+  rating: number
+  buttons: ButtonProps[]
 }
 
 const { entry } = Astro.props
@@ -64,4 +61,4 @@ const hrefMap = {
       <Buttons {buttons} />
     </Group>
   </Segment>
-</Card>
+</Card> -->

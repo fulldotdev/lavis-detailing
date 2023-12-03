@@ -1,5 +1,5 @@
 ---
-import { getDefaultVariants } from '@utils'
+import { getElementSettings } from '@utils'
 import { hue, look, scheme, size } from '@variants'
 import { cva, type VariantProps } from 'cva'
 
@@ -17,10 +17,10 @@ const variant = cva({
     look: look,
     size: size,
   },
-  defaultVariants: await getDefaultVariants('elements', 'channel'),
 })
 
 let { key, value, ...restProps } = Astro.props
+const settings = await getElementSettings('channel')
 
 const iconMap: Record<Props['key'], string> = {
   email: 'icon:mail',
@@ -39,8 +39,8 @@ const urlMap: Record<Props['key'], string> = {
 
 <div class="gap-size4 flex items-center">
   <a
+    class:list={[variant(restProps), variant(settings)]}
     href={urlMap[key]}
-    class={variant(restProps)}
     target="_blank"
   >
     <i

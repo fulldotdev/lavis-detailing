@@ -1,0 +1,15 @@
+spec:
+  structures:
+    - blocks
+  label: Offers
+
+blueprint:
+  writeup:
+  offers:
+    - writeup:
+      specs: 
+      buttons: 
+
+preview:
+
+_inputs:

@@ -41,6 +41,13 @@ const variant = cva({
 })
 ---
 
+{
+  Astro.slots.has('default') && (
+    <div class={variant(Astro.props)}>
+      <slot />
+    </div>
+  )
+}
 <!-- {
   Astro.props.layout === 'carousel' && !Astro.props.noCarouselComponent ? (
     // @ts-ignore
@@ -51,11 +58,5 @@ const variant = cva({
       <slot />
     </DeckCarousel>
   ) : ( -->
-<div
-  class={variant(Astro.props)}
-  {...Astro.props}
->
-  <slot />
-</div>
 <!-- )
 } -->
