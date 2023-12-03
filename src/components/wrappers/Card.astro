@@ -33,6 +33,7 @@ const variant = cva({
 })
 
 const { href } = Astro.props
+const slot = await Astro.slots.render('default')
 ---
 
 {

@@ -1,10 +1,19 @@
 import transformerDirectives from '@unocss/transformer-directives'
 import transformerVariantGroup from '@unocss/transformer-variant-group'
+import fs from 'fs'
+import yaml from 'js-yaml'
 import { defineConfig, presetIcons, presetUno } from 'unocss'
-// import presetColors from './src/core/settings/settingsPresetColors'
-// import presetFonts from './src/core/settings/settingsPresetFonts'
-// import presetSizes from './src/core/settings/settingsPresetSizes'
-// import presetStyles from './src/core/settings/settingsPresetStyles'
+import presetColors from './src/unocss/presetColors'
+import presetFonts from './src/unocss/presetFonts'
+import presetSizes from './src/unocss/presetSizes'
+import presetStyles from './src/unocss/presetStyles'
+
+let theme: any
+try {
+  theme = yaml.load(fs.readFileSync('./src/content/data/theme.yml', 'utf8'))
+} catch (e) {
+  console.error(e)
+}
 
 export default defineConfig({
   presets: [
@@ -18,10 +27,10 @@ export default defineConfig({
           ),
       },
     }),
-    // presetSizes(settings.theme.sizes),
-    // presetColors(settings.theme.colors),
-    // presetFonts(settings.theme.fonts),
-    // presetStyles(),
+    presetSizes(theme?.data?.sizes || {}),
+    presetColors(theme?.data?.colors || {}),
+    presetFonts(theme?.data?.fonts || {}),
+    presetStyles(),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
 })

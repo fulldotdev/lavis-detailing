@@ -1,5 +1,2 @@
-export { default as getBlockSettings } from './getBlockSettings'
-export { default as getCardSettings } from './getCardSettings'
 export { default as getElementSettings } from './getElementSettings'
-export { default as getEntriesByPaths } from './getEntriesByPaths'
 export { default as toPascalCase } from './toPascalCase'

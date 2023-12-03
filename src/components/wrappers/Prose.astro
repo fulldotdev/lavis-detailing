@@ -7,10 +7,12 @@ type Props = VariantProps<typeof variant>
 const variant = cva({
   base: 'prose',
 })
+
+const slot = await Astro.slots.render('default')
 ---
 
 {
-  Astro.slots.has('default') && (
+  slot?.length > 4 && (
     <div class={variant(Astro.props)}>
       <slot />
     </div>

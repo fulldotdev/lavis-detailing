@@ -1,4 +1,3 @@
-import type { Settings } from '@types'
 import type { Preset } from 'unocss'
 import { presetWebFonts } from 'unocss'
 
@@ -14,21 +13,24 @@ const weightMap = {
   black: 900,
 }
 
-const getWebFont = (option) => {
-  const setting = {
-    name: option.family,
-    weights: [weightMap[option.weight]],
-    italic: option.italic,
+const getWebFont = (
+  option = {
+    family: 'Inter',
+    weight: 400,
+    italic: false,
   }
-  return setting
-}
+) => ({
+  name: option.family,
+  weights: [option.weight],
+  italic: option.italic,
+})
 
 export default function preset({
   heading,
   subheading,
   text,
   button,
-}: Settings['theme']['fonts']): Preset {
+}: any): Preset {
   return {
     name: 'unocss-preset-fonts',
     presets: [
@@ -42,28 +44,28 @@ export default function preset({
       }),
     ],
     shortcuts: {
-      'text-button': `font-button text-size2 leading-none font-${button.weight}`,
+      'text-button': `font-button text-size2 leading-none font-${button?.weight}`,
     },
     preflights: [
       {
-        getCSS: ({ theme }) => {
+        getCSS: ({ theme }: any) => {
           return `
             p, ul, ol, li, label {
-              --at-apply: ${text.className};
+              --at-apply: ${text?.className};
               font-family: ${theme['fontFamily'].text};
-              font-weight: ${theme['fontWeight'][text.weight]};
+              font-weight: ${theme['fontWeight'][text?.weight]};
               line-height: ${theme['lineHeight'].relaxed};
             }
             .mode-base :is(h1, h2, h3, h4, h5, h6) {
-              --at-apply: ${heading.className};
+              --at-apply: ${heading?.className};
               font-family: ${theme['fontFamily'].heading};
-              font-weight: ${theme['fontWeight'][heading.weight]};
+              font-weight: ${theme['fontWeight'][heading?.weight]};
               line-height: ${theme['lineHeight'].tight};
             }
             .mode-compact :is(h1, h2, h3, h4, h5, h6) {
-              --at-apply: ${subheading.className};
+              --at-apply: ${subheading?.className};
               font-family: ${theme['fontFamily'].subheading};
-              font-weight: ${theme['fontWeight'][subheading.weight]};
+              font-weight: ${theme['fontWeight'][subheading?.weight]};
               line-height: ${theme['lineHeight'].tight};
             }
           `

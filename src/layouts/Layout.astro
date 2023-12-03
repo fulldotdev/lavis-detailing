@@ -1,5 +1,8 @@
 ---
+import Seo from '@components/misc/Seo.astro'
+import { ViewTransitions } from 'astro:transitions'
 
+const { meta } = Astro.props
 ---
 
 <!doctype html>
@@ -8,18 +11,27 @@
   class="scroll-smooth"
 >
   <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="ie=edge"
-    />
-    <title>My Website</title>
+    <Seo {...meta} />
+    <ViewTransitions />
   </head>
+  <body
+    class="size-medium mode-base hue-base bg-hue1 .scheme-light scroll-smooth"
+  >
+    <slot />
+    <style is:global>
+      [x-cloak] {
+        display: none !important;
+      }
+    </style>
+    <script
+      defer
+      is:inline
+      src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"
+    ></script>
+    <script
+      defer
+      is:inline
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+  </body>
 </html>
-<body>
-  <slot />
-</body>

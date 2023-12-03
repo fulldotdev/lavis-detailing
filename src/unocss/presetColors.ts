@@ -1,15 +1,14 @@
-import type { Settings } from '@types'
 import type { Preset } from 'unocss'
 import { presetRadix } from 'unocss-preset-radix'
 
 export default function preset({
-  base,
-  brand,
-  accent,
-  scheme,
-  texture,
-  contrast,
-}: Settings['theme']['colors']): Preset {
+  base = 'slate',
+  brand = 'blue',
+  accent = 'green',
+  scheme = 'light',
+  texture = 'solid',
+  contrast = false,
+}: any): Preset {
   return {
     name: 'unocss-preset-colors',
     safelist: [
@@ -35,7 +34,7 @@ export default function preset({
     ],
     preflights: [
       {
-        getCSS: ({ theme }) =>
+        getCSS: ({ theme }: any) =>
           `
             body, html {
               color-scheme: ${scheme};

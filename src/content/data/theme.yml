@@ -11,22 +11,22 @@ fonts:
     family: Inter
     weight: 700
     italic: false
-    class:
+    className:
   subheading:
     family: Inter
     weight: 500
     italic: false
-    class:
+    className:
   text:
     family: Inter
     weight: 400
     italic: false
-    class:
+    className:
   button:
     family: Inter
     weight: 500
     italic: false
-    class:
+    className:
 sizes:
   scale: 1
   rounded: small

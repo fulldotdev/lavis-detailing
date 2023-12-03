@@ -1,7 +1,7 @@
 import type { Preset } from 'unocss'
 import buildChildVariant from './functions/buildChildVariant'
 
-const defaultOptions = {
+const defaultOptions: any = {
   prose: `
     text mx-auto
     [&_h1]:(heading mb-size3)
@@ -37,8 +37,8 @@ const defaultOptions = {
   image: 'block w-full h-auto rounded-md object-cover overflow-hidden',
 }
 
-export default function preset(options): Preset {
-  let mergedOptions = defaultOptions
+export default function preset(options: any): Preset {
+  let mergedOptions: any = defaultOptions
   Object.entries(options || {}).forEach(([key, value]) => {
     mergedOptions[key] = `${value} ${defaultOptions[key]}`
   })

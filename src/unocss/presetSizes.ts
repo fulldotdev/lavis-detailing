@@ -1,4 +1,3 @@
-import type { Settings } from '@types'
 import type { Preset } from 'unocss'
 import { buildVariant } from './functions/buildVariant'
 import {
@@ -18,10 +17,7 @@ import {
   getSpacingSizeRules,
 } from './functions/getSpacing'
 
-export default function preset({
-  scale,
-  rounded,
-}: Settings['theme']['sizes']): Preset {
+export default function preset({ scale = 1, rounded = 'none' }: any): Preset {
   return {
     name: 'unocss-preset-sizes',
     safelist: [
@@ -123,7 +119,7 @@ export default function preset({
     },
     preflights: [
       {
-        getCSS: ({ theme }) => `
+        getCSS: ({ theme }: any) => `
           p, ul, ol, li, label {
             font-size: ${theme['fontSize'].size2};
           }

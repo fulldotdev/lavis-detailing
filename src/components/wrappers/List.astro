@@ -32,11 +32,16 @@ const variant = cva({
     y: 'start',
   },
 })
+
+const slot = await Astro.slots.render('default')
 ---
 
 {
-  Astro.slots.has('default') && (
-    <ul class={variant(Astro.props)}>
+  slot?.length > 4 && (
+    <ul
+      data-component="list"
+      class={variant(Astro.props)}
+    >
       <slot />
     </ul>
   )

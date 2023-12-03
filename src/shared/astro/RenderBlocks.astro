@@ -23,10 +23,9 @@ Object.entries(componentImports).forEach(([path, object]: any) => {
       const pascalBookshopName = toPascalCase(bookshopNameWithoutFolder)
       const Component = components[pascalBookshopName]
       if (!Component) {
-        console.log(`No component found for ${pascalBookshopName}`)
-        return null
+        console.warn(`No component found for ${pascalBookshopName}`)
+        return <RenderBlock {...block} />
       }
-      return <RenderBlock {...block} />
     })
   }
 </main>
