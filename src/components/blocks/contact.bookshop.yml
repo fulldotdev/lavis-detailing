@@ -5,7 +5,7 @@ spec:
 
 blueprint:
   writeup:
-  form: bookshop:elements/form
+  form:
   
 preview:
 
