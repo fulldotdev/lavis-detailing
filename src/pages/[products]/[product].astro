@@ -1,7 +1,7 @@
 ---
+import RenderBlocks from '@components/renderers/RenderBlocks.astro'
 import Layout from '@layouts/Layout.astro'
 import { getCollection } from 'astro:content'
-import RenderBlocks from '../../shared/astro/RenderBlocks.astro'
 
 export async function getStaticPaths() {
   const collection = await getCollection('products')
