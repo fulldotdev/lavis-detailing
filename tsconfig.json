@@ -10,7 +10,6 @@
       "@schemas": ["schemas"],
       "@types": ["types/index.d.ts"],
       "@utils": ["src/utils"],
-      "astro:content": ["astro:content"],
     }
   }
 }
