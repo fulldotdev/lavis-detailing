@@ -9,6 +9,11 @@ export default defineConfig({
   output: 'static',
   compressHTML: true,
   site: import.meta.env.PUBLIC_APP_URL || 'http://localhost:4321',
+  vite: {
+    ssr: {
+      noExternal: ['astro:content'],
+    },
+  },
   integrations: [
     svelte(),
     sitemap(),
