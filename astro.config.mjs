@@ -4,8 +4,8 @@ import bookshop from '@bookshop/astro-bookshop'
 import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
 import UnoCSS from 'unocss/astro'
+import AutoImport from 'unplugin-auto-import/astro'
 
-// test git
 export default defineConfig({
   output: 'static',
   compressHTML: true,
@@ -18,6 +18,11 @@ export default defineConfig({
     bookshop(),
     UnoCSS({
       injectReset: true,
+    }),
+    AutoImport({
+      /* options */
+      include: [/\.astro$/],
+      dirs: ['./types'],
     }),
     // alpine(),
     // favicons({

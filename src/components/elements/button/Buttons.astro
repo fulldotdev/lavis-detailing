@@ -1,12 +1,21 @@
 ---
+import { getElementSettings } from '@utils'
 import type { ButtonProps } from './Button.astro'
 import Button from './Button.astro'
 
 interface Props {
-  buttons: ButtonProps[]
+  buttons: ButtonProps[] | undefined | null
 }
 
 const { buttons } = Astro.props
+const settings = await getElementSettings('buttons')
 ---
 
-{buttons?.map((button) => <Button {...button} />)}
+{
+  buttons?.map((button, i) => (
+    <Button
+      {...settings[i]}
+      {...button}
+    />
+  ))
+}

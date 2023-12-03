@@ -1,32 +1,15 @@
-<!-- ---
+---
 import Buttons from '@components/elements/button/Buttons.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
-import Deck from '@components/wrappers/deck/Deck.astro'
-import Group from '@components/wrappers/group/Group.astro'
-import Section from '@components/wrappers/section/Section.astro'
-import Segment from '@components/wrappers/segment/Segment.astro'
-import type {
-ButtonProps,
-DeckProps,
-GroupProps,
-SectionProps,
-SegmentProps,
-WriteupProps,
-} from '@types'
-import CategoriesCard from './CategoriesCard.astro'
+import Deck from '@components/wrappers/Deck.astro'
+import Group from '@components/wrappers/Group.astro'
+import Section from '@components/wrappers/Section.astro'
+import Segment from '@components/wrappers/Segment.astro'
+import { getBlockSettings } from '@utils'
+import CategoriesCards from './CategoriesCards.astro'
 
-interface Props {
-  section?: SectionProps
-  segment?: SegmentProps
-  writeup?: WriteupProps
-  group?: GroupProps
-  buttons?: ButtonProps[]
-  deck?: DeckProps
-  categories: any[]
-}
-
-const { section, segment, writeup, group, buttons, deck, categories } =
-  Astro.props
+const merged = { ...(await getBlockSettings('categories')), ...Astro.props }
+const { writeup, buttons, categories, section, segment, deck, group } = merged
 ---
 
 <Section {...section}>
@@ -37,6 +20,6 @@ const { section, segment, writeup, group, buttons, deck, categories } =
     </Group>
   </Segment>
   <Deck {...deck}>
-    {categories?.map((category) => <CategoriesCard category={category} />)}
+    <CategoriesCards {categories} />
   </Deck>
-</Section> -->
+</Section>

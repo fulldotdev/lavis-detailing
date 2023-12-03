@@ -1,28 +1,17 @@
 ---
-import OffersCard from '@components/blocks/offers/OffersCard.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
-import Deck from '@components/wrappers/deck/Deck.astro'
-import Section from '@components/wrappers/section/Section.astro'
-import type {
-  DeckProps,
-  OffersCardProps,
-  SectionProps,
-  WriteupProps,
-} from '@types'
+import Deck from '@components/wrappers/Deck.astro'
+import Section from '@components/wrappers/Section.astro'
+import { getBlockSettings } from '@utils'
+import OffersCards from './OffersCards.astro'
 
-interface Props {
-  section: SectionProps
-  writeup: WriteupProps
-  deck: DeckProps
-  offers: OffersCardProps
-}
-
-const { section = {}, writeup = {}, deck = {}, offers = {} } = Astro.props
+const merged = { ...(await getBlockSettings('offers')), ...Astro.props }
+const { writeup, offers, section, deck } = merged
 ---
 
 <Section {...section}>
   <Writeup {...writeup} />
   <Deck {...deck}>
-    <OffersCard {...offers} />
+    <OffersCards {offers} />
   </Deck>
 </Section>

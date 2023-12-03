@@ -58,6 +58,7 @@
     "prettier-plugin-svelte": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "ts-to-zod": "^3.4.1",
+    "unplugin-auto-import": "^0.17.1",
     "zod-fixture": "^2.5.0"
   }
 }

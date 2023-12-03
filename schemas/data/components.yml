@@ -2,11 +2,10 @@
 # ELEMENTS 
 # -----------------------------------------------
 elements:
-  button: &button
-    look:
-    hue:
-    scheme:
-    class:
+  buttons: &buttons
+    - look:
+      hue:
+      class:
 
   channel: &channel
     look:
@@ -19,7 +18,6 @@ elements:
     class:
 
   link: &link
-    hue:
     class:
 
   image: &image
@@ -67,8 +65,7 @@ cards:
       - *spec
     group: &group
       class:
-    buttons:
-      - *button
+    buttons: *buttons
 
   brands:
     card: *card
@@ -88,8 +85,7 @@ cards:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons:
-      - *button
+    buttons: *buttons
 
   features:
     card: *card
@@ -97,8 +93,7 @@ cards:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons:
-      - *button
+    buttons: *buttons
     icon: *icon
 
   posts:
@@ -153,14 +148,12 @@ blocks:
       y:
       size: 
       class:
-    channels:
-      - *channel
+    channel: *channel
     list: &list
       layout:
       size:
       class:
-    socials:
-      - *social
+    social: *social
     form: *form
 
   hero:
@@ -169,8 +162,7 @@ blocks:
       segment: *segment
       writeup: *writeup
       group: *group
-      buttons:
-        - *button
+      buttons: *button
       image: *image
     secondary: *hero
 
@@ -198,8 +190,7 @@ blocks:
       segment: *segment
       writeup: *writeup
       group: *group
-      buttons:
-        - *button
+      buttons: *buttons
       deck: *deck
     secondary: *block_with_deck
 

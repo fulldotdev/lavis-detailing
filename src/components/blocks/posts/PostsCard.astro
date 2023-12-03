@@ -1,32 +1,26 @@
-<!-- ---
-import Image from '@components/elements/Image.astro'
+---
+import Image from '@components/elements/image/Image.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
 import Card from '@components/wrappers/Card.astro'
-import Segment from '@components/wrappers/segment/Segment.astro'
-import type { Post,PostsCardsSettings } from '@types'
-import { getSettingsCard } from 'api'
+import Segment from '@components/wrappers/Segment.astro'
+import { getCardSettings } from '@utils'
 
-interface Props {
-  card: Post
-}
-
-const { card } = Astro.props
-const setting: PostsCardsSettings = await getSettingsCard('posts')
+const { entry } = Astro.props
+const { card, image, segment } = await getCardSettings('employees')
 ---
 
 <Card
-  {...setting?.card}
-  href={card.path}
+  href={'/posts/' + entry.slug}
+  {...card}
 >
   <Image
-    sizes={{ base: '590px' }}
-    image={card.image}
-    {...setting.image}
+    {...image}
+    {...entry.data.image}
   />
-  <Segment {...setting.segment}>
-    <Writeup {...setting.writeup}>
-      <h4 class="heading-secondary">{card.title}</h4>
-      <p class="text-primary text-hue11">{card.description}</p>
+  <Segment {...segment}>
+    <Writeup>
+      {entry.data.name && <h4>{entry.data.title}</h4>}
+      {entry.data.tagline && <p>{entry.data.description}</p>}
     </Writeup>
   </Segment>
-</Card> -->
+</Card>

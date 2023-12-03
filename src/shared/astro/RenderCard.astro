@@ -1,0 +1,65 @@
+---
+import Buttons from '@components/elements/button/Buttons.astro'
+import Image from '@components/elements/image/Image.astro'
+import Rating from '@components/elements/rating/Rating.astro'
+import Writeup from '@components/elements/writeup/Writeup.astro'
+import Card from '@components/wrappers/Card.astro'
+import Group from '@components/wrappers/Group.astro'
+import Segment from '@components/wrappers/Segment.astro'
+import type { ButtonProps, HTMLAttributes, WriteupProps } from '@types'
+import { getEntry } from 'astro:content'
+
+interface Props {
+  type:
+    | 'brands'
+    | 'categories'
+    | 'employees'
+    | 'features'
+    | 'offers'
+    | 'posts'
+    | 'products'
+    | 'reviews'
+    | 'services'
+    | 'testimonials'
+  rating: number
+  title: string
+  description: string
+  writeup: WriteupProps
+  href: HTMLAttributes<'a'>['href']
+  buttons: ButtonProps[]
+}
+
+const components = await getEntry('data', 'components')
+const settings = components.data.cards[Astro.props.type]
+const merged = { ...settings, ...Astro.props }
+const {
+  card,
+  image,
+  segment,
+  entry,
+  href,
+  writeup,
+  title,
+  description,
+  tagline,
+  buttons,
+} = merged
+---
+
+<Card
+  {...card}
+  {href}
+>
+  <Image {...image} />
+  <Rating {...entry} />
+  <Segment {...segment}>
+    <Writeup {...writeup}>
+      {tagline && <span>{tagline}</span>}
+      {title && <h4>{title}</h4>}
+      {description && <p>{description}</p>}
+    </Writeup>
+    <Group>
+      <Buttons {buttons} />
+    </Group>
+  </Segment>
+</Card>

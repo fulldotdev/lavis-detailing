@@ -9,6 +9,7 @@
       "@variants": ["src/variants"],
       "@schemas": ["schemas"],
       "@types": ["types/index.d.ts"],
+      "@utils": ["src/utils"],
     }
   }
 }

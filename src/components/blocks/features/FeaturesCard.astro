@@ -3,37 +3,13 @@
 import Buttons from '@components/elements/button/Buttons.astro'
 import Image from '@components/elements/image/Image.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
-import Card from '@components/wrappers/card/Card.astro'
-import Group from '@components/wrappers/group/Group.astro'
-import Segment from '@components/wrappers/segment/Segment.astro'
-import type {
-  ButtonProps,
-  CardProps,
-  GroupProps,
-  ImageProps,
-  SegmentProps,
-  WriteupProps,
-} from '@types'
+import Card from '@components/wrappers/Card.astro'
+import Group from '@components/wrappers/Group.astro'
+import Segment from '@components/wrappers/Segment.astro'
+import { getCardSettings } from '@utils'
 
-export type FeaturesCardProps = Props
-interface Props {
-  card?: CardProps
-  image?: ImageProps
-  segment?: SegmentProps
-  // icon: IconProps
-  writeup?: WriteupProps
-  group?: GroupProps
-  buttons?: ButtonProps[]
-}
-
-const {
-  card = {},
-  image = {},
-  segment = {},
-  writeup = {},
-  group = {},
-  buttons = [],
-} = Astro.props
+const merged = { ...(await getCardSettings('features')), ...Astro.props }
+const { card, image, segment, writeup, group, buttons } = merged
 ---
 
 <Card {...card}>

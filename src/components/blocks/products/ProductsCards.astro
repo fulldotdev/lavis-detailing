@@ -1,15 +1,9 @@
 ---
-import BrandsCard from './ProductsCard.astro'
-
-interface Props {
-  products: string[]
-}
-
-// const entries = await getCollection('products', (entry: any) => {
-//   products.includes(entry.slug)
-// })
+import { getEntriesByPaths } from '@utils'
+import ProductsCard from './ProductsCard.astro'
 
 const { products } = Astro.props
+const entries = await getEntriesByPaths(products)
 ---
 
-<!-- {entries?.map((entry) => <BrandsCard brand={entry} />)} -->
+{entries?.map((entry) => <ProductsCard product={entry} />)}

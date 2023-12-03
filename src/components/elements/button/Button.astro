@@ -1,5 +1,6 @@
 ---
 import type { HTMLAttributes, VariantProps } from '@types'
+import { getElementSettings } from '@utils'
 import { hue, scheme, size } from '@variants'
 import { cva } from 'cva'
 
@@ -25,18 +26,15 @@ const variant = cva({
     scheme,
     hue,
   },
-  defaultVariants: {
-    look: 'solid',
-  },
 })
 
 const { label, href, ...restProps } = Astro.props
+const settings = await getElementSettings('button')
 ---
 
 <a
-  class={variant(restProps)}
+  class:list={[variant(restProps), variant(settings)]}
   href={href}
-  {...restProps}
 >
   {label}
 </a>

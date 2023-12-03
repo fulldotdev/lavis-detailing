@@ -6,7 +6,6 @@ spec:
 blueprint:
   writeup: bookshop:elements/writeup
   buttons:
-    - bookshop:elements/button
   categories:
 
 preview:

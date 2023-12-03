@@ -1,59 +1,24 @@
 ---
 import Buttons from '@components/elements/button/Buttons.astro'
-import Spec from '@components/elements/spec/Spec.astro'
+import Specs from '@components/elements/spec/Specs.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
-import Card from '@components/wrappers/card/Card.astro'
-import Group from '@components/wrappers/group/Group.astro'
-import List from '@components/wrappers/list/List.astro'
-import Segment from '@components/wrappers/segment/Segment.astro'
-import type {
-  ButtonProps,
-  CardProps,
-  GroupProps,
-  ListProps,
-  SegmentProps,
-  SpecProps,
-  WriteupProps,
-} from '@types'
+import Card from '@components/wrappers/Card.astro'
+import Group from '@components/wrappers/Group.astro'
+import List from '@components/wrappers/List.astro'
+import Segment from '@components/wrappers/Segment.astro'
+import { getCardSettings } from '@utils'
 
-export type OffersCardProps = Props
-interface Props {
-  card?: CardProps
-  segment?: SegmentProps
-  writeup?: WriteupProps
-  list?: ListProps
-  specs?: SpecProps[]
-  group?: GroupProps
-  buttons?: ButtonProps[]
-}
-
-const {
-  card = {},
-  segment = {},
-  writeup = {},
-  list = {},
-  specs = [],
-  group = {},
-  buttons = [],
-} = Astro.props
+const merged = { ...(await getCardSettings('offers')), ...Astro.props }
+const { card, segment, specs, list, writeup, group, buttons } = merged
 ---
 
 <Card {...card}>
-  <Segment
-    class:list="gap-size5 flex h-full flex-col"
-    {...segment}
-  >
+  <Segment {...segment}>
     <Writeup {...writeup} />
-    <List
-      class:list="mb-size4"
-      {...list}
-    >
-      {specs?.map((spec) => <Spec {...spec} />)}
+    <List {...list}>
+      <Specs {specs} />
     </List>
-    <Group
-      class:list="mt-auto w-full"
-      {...group}
-    >
+    <Group {...group}>
       <Buttons {buttons} />
     </Group>
   </Segment>

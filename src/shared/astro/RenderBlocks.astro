@@ -1,5 +1,6 @@
 ---
 const { blocks } = Astro.props
+import { toPascalCase } from '@utils'
 const components: any = {}
 const componentImports = import.meta.glob(
   '../../components/blocks/**/*.astro',
@@ -7,9 +8,6 @@ const componentImports = import.meta.glob(
     eager: true,
   }
 )
-
-const toPascalCase = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
-
 Object.entries(componentImports).forEach(([path, object]: any) => {
   const fileName = path.split('/').pop()
   const componentName = fileName.split('.')[0]

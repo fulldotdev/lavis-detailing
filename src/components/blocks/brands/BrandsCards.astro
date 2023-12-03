@@ -1,15 +1,9 @@
 ---
+import { getEntriesByPaths } from '@utils'
 import BrandsCard from './BrandsCard.astro'
 
-interface Props {
-  brands: string[]
-}
-
-// const entries = await getCollection('brands', (entry: any) => {
-//   brands.includes(entry.slug)
-// })
-
 const { brands } = Astro.props
+const entries = await getEntriesByPaths(brands)
 ---
 
-<!-- {entries?.map((entry) => <BrandsCard brand={entry} />)} -->
+{entries?.map((entry: any) => <BrandsCard {...entry.data} />)}

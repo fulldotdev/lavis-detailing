@@ -1,5 +1,6 @@
 ---
 import type { HTMLAttributes, VariantProps } from '@types'
+import { getElementSettings } from '@utils'
 import { cva } from 'cva'
 
 export type ImageProps = Props
@@ -31,9 +32,6 @@ const variant = cva({
       portrait: 'aspect-3/4',
     },
   },
-  defaultVariants: {
-    position: 'relative',
-  },
 })
 
 const {
@@ -58,18 +56,19 @@ function getSizes() {
   const joined = mapped.join(', ')
   return joined
 }
+
+const settings = await getElementSettings('button')
 ---
 
 {
   src && (
     <img
-      class:list={[variant(restProps)]}
+      class:list={[variant(restProps), variant(settings)]}
       src={src}
       alt={alt}
       sizes={getSizes()}
       loading={loading}
       decoding={loading === 'lazy' ? 'async' : 'sync'}
-      {...restProps}
     />
   )
 }

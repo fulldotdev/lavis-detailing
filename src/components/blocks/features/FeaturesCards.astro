@@ -1,12 +1,7 @@
 ---
-import type { FeaturesCardProps } from './FeaturesCard.astro'
 import FeaturesCard from './FeaturesCard.astro'
-
-interface Props {
-  features: FeaturesCardProps[]
-}
 
 const { features } = Astro.props
 ---
 
-{features?.map((feature) => <FeaturesCard {...feature} />)}
+{features?.map((feature: any) => <FeaturesCard {...feature} />)}

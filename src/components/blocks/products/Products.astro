@@ -1,39 +1,15 @@
 ---
 import Buttons from '@components/elements/button/Buttons.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
-import Deck from '@components/wrappers/deck/Deck.astro'
-import Group from '@components/wrappers/group/Group.astro'
-import Section from '@components/wrappers/section/Section.astro'
-import Segment from '@components/wrappers/segment/Segment.astro'
-import type {
-  ButtonProps,
-  DeckProps,
-  GroupProps,
-  SectionProps,
-  SegmentProps,
-  WriteupProps,
-} from '@types'
+import Deck from '@components/wrappers/Deck.astro'
+import Group from '@components/wrappers/Group.astro'
+import Section from '@components/wrappers/Section.astro'
+import Segment from '@components/wrappers/Segment.astro'
+import { getBlockSettings } from '@utils'
 import ProductsCards from './ProductsCards.astro'
 
-interface Props {
-  section?: SectionProps
-  segment?: SegmentProps
-  writeup?: WriteupProps
-  group?: GroupProps
-  buttons?: ButtonProps[]
-  deck?: DeckProps
-  products: any[]
-}
-
-const {
-  section = {},
-  segment = {},
-  writeup = {},
-  group = {},
-  buttons = [],
-  deck = {},
-  products = [],
-} = Astro.props
+const props = { ...(await getBlockSettings('products')), ...Astro.props }
+const { writeup, buttons, products, section, segment, group, deck } = props
 ---
 
 <Section {...section}>
