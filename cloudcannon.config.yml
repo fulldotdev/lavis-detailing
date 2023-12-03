@@ -210,6 +210,3 @@ _inputs:
 
   prose:
     type: html
-
-  brands:
-    value_key: name
