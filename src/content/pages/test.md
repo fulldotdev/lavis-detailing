@@ -1,19 +1,28 @@
 ---
+_schema: default
 seo:
-  title: 
-  description: 
+  title:
+  description:
   image:
-    src: 
+    src:
     alt:
-    
-blocks: 
+blocks:
   - _bookshop_name: blocks/hero
-    writeup: hello world
+    writeup: <h1>Hello cool heading</h1><p>Hello there sir</p>
     buttons:
       - _bookshop_name: elements/button
-        label: hello
-        href: /hello
+        label: Click me
+        href: https://full.dev
+    image:
+      _bookshop_name: elements/image
+      src: /uploads/auto-wiebe-de-boer.jpeg
+      alt: test
+  - _bookshop_name: blocks/brands
+    writeup: <h2>My cool brands</h2>
+    buttons:
       - _bookshop_name: elements/button
-        label: hello
-        href: /hello 
+        label: Bekijk alles
+        href: /brands
+    brands:
+      - src/content/brands/placeholder.md
 ---
