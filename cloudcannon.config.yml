@@ -23,6 +23,7 @@ collection_groups:
     collections:
       - reviews
       - employees
+      - forms
       - data
 
 # -----------------------------------------------
@@ -143,6 +144,17 @@ collections_config:
     schemas: 
       default: 
         path: schemas/employees.md
+
+  forms:
+    path: src/content/forms
+    output: false
+    icon: dynamic_form
+    disable_add_folder: true
+    _enabled_editors:
+      - data
+    schemas: 
+      default: 
+        path: schemas/forms.md
         
 # -----------------------------------------------
 # Input customization
