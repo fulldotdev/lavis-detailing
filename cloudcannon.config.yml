@@ -40,6 +40,7 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - visual
+      - data
     schemas: 
       default: 
         path: schemas/pages.md
@@ -52,6 +53,7 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - visual
+      - data
     schemas: 
       default: 
         path: schemas/services.md
