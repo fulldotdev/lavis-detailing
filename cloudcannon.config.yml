@@ -42,7 +42,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: src/content/pages/_pages.md
+        path: schemas/pages/pages.md
 
   services:
     path: src/content/services
@@ -54,7 +54,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: src/content/services/_services.md
+        path: schemas/services/services.md
 
   products:
     path: src/content/products
@@ -66,7 +66,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/products/_products.md
+        path: schemas/products/products.md
 
   categories:
     path: src/content/categories
@@ -78,7 +78,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/categories/_categories.md
+        path: schemas/categories/categories.md
         
   brands:
     path: src/content/brands
@@ -90,7 +90,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/brands/_brands.md
+        path: schemas/brands/brands.md
 
   posts:
     path: src/content/posts
@@ -102,7 +102,7 @@ collections_config:
       - content
     schemas: 
       default: 
-        path: src/content/posts/_posts.md
+        path: schemas/posts/posts.md
 
   policies:
     path: src/content/policies
@@ -114,7 +114,7 @@ collections_config:
       - content
     schemas: 
       default: 
-        path: src/content/policies/_policies.md
+        path: schemas/policies/policies.md
         
   data:
     path: src/content/data
@@ -125,11 +125,11 @@ collections_config:
     disable_file_actions: true
     schemas: 
       theme: 
-        path: src/content/data/_theme.yml
+        path: schemas/data/theme.yml
       components: 
-        path: src/content/data/_components.yml
+        path: schemas/data/components.yml
       company: 
-        path: src/content/data/_company.yml
+        path: schemas/data/company.yml
 
   reviews:
     path: src/content/reviews
@@ -140,7 +140,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/reviews/_reviews.md
+        path: schemas/reviews/reviews.md
         
   employees:
     path: src/content/employees
@@ -151,7 +151,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/employees/_employees.md
+        path: schemas/employees/employees.md
 
   forms:
     path: src/content/forms
@@ -162,7 +162,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/forms/_forms.md
+        path: schemas/forms/forms.md
         
 # -----------------------------------------------
 # Input customization

@@ -1,6 +1,0 @@
----
-title:
-inputs:
-button: Verstuur
----
-
