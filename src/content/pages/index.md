@@ -1,10 +1,15 @@
 ---
 seo:
-  title:
-  description: 
-  image:
+  title: title
+  description:  
+  image: 
     src: 
-    alt:
+    alt: 
     
-blocks: 
+blocks:
+  - _bookshop_name: blocks/brands
+    writeup: test 
+    image:
+        src:
+        alt: 
 ---

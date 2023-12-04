@@ -9,8 +9,8 @@ seo:
     src: 
     alt: 
     
-title: title
-description: title 
+title: great product
+description: real good 
 images:
   - src: 
     alt: 
