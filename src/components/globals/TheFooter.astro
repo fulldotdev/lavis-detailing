@@ -23,7 +23,7 @@ const settings = components.data.globals.footer
       )
     }
     <List layout="row">
-      <Socials socials={settings.socials} />
+      <Socials />
     </List>
   </div>
   <div class="col-span-.8 gap-size5 mode-compact size-small flex flex-col">
@@ -53,30 +53,3 @@ const settings = components.data.globals.footer
     ))
   }
 </Footer>
-<div
-  class="border-hue5 mx-wrapper py-size4 size-small flex flex-wrap justify-between border-t"
->
-  <p class="text-size1">
-    © {new Date().getFullYear()}&nbsp;{company.data.name}. Alle rechten
-    voorbehouden.
-  </p>
-  <p class="text-size1 gap-x-size2 flex flex-wrap">
-    {company.data.kvk && `Kvk. ${company.data.kvk}`}
-    {
-      footer.data?.policies?.map(
-        (policy: string) =>
-          typeof policy === 'object' && (
-            <>
-              <span>|</span>
-              <a
-                class="link size-small text-size1"
-                href={policy.path}
-              >
-                {policy.title}
-              </a>
-            </>
-          )
-      )
-    }
-  </p>
-</div>

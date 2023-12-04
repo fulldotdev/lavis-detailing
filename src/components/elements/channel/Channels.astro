@@ -1,19 +1,16 @@
 ---
-import type { ChannelProps } from './Channel.astro'
+import { getEntry } from 'astro:content'
 import Channel from './Channel.astro'
 
-type Props = ChannelProps & {
-  channels: ChannelProps[]
+interface props {
+  exclude: boolean
 }
 
-const { channels, ...restProps } = Astro.props
+const { exclude } = Astro.props
+const company = await getEntry('data', 'company')
 ---
 
 {
-  channels?.map((channel) => (
-    <Channel
-      {...channel}
-      {...restProps}
-    />
-  ))
+  !exclude &&
+    company.data.channels?.map((channel: any) => <Channel {...channel} />)
 }

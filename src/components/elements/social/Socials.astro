@@ -1,19 +1,13 @@
 ---
-import type { SocialProps } from './Social.astro'
+import { getEntry } from 'astro:content'
 import Social from './Social.astro'
 
-type Props = SocialProps & {
-  socials: SocialProps[]
+interface props {
+  exclude: boolean
 }
 
-const { socials, ...restProps } = Astro.props
+const { exclude } = Astro.props
+const company = await getEntry('data', 'company')
 ---
 
-{
-  socials?.map((social) => (
-    <Social
-      {...social}
-      {...restProps}
-    />
-  ))
-}
+{!exclude && company.data.socials?.map((social: any) => <Social {...social} />)}
