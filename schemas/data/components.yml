@@ -130,6 +130,7 @@ cards:
 blocks:
   contact:
     section: &section
+      layout:
       frame:
       look:
       hue:
@@ -156,15 +157,13 @@ blocks:
     social: *social
     form: *form
 
-  hero:
-    primary: &hero
-      section: *section
-      segment: *segment
-      writeup: *writeup
-      group: *group
-      buttons: *button
-      image: *image
-    secondary: *hero
+  hero: &hero
+    section: *section
+    segment: *segment
+    writeup: *writeup
+    group: *group
+    buttons: *button
+    image: *image
 
   cta: *hero
 
@@ -184,15 +183,13 @@ blocks:
       size:
       class:
 
-  features:
-    primary: &block_with_deck
-      section: *section
-      segment: *segment
-      writeup: *writeup
-      group: *group
-      buttons: *buttons
-      deck: *deck
-    secondary: *block_with_deck
+  features: &block_with_deck
+    section: *section
+    segment: *segment
+    writeup: *writeup
+    group: *group
+    buttons: *buttons
+    deck: *deck
 
   categories: *block_with_deck
   posts: *block_with_deck

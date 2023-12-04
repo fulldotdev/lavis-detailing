@@ -228,8 +228,8 @@ _block_card:
 blocks:
   hero:
     section:
-      frame:
-      look:
+      frame: fill
+      look: 
       hue:
       scheme:
       class:
