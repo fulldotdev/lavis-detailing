@@ -2,8 +2,6 @@
   import { cart } from './cartStore'
 
   async function checkout() {
-    console.log('checkout')
-    // if (customer.cart.items.length === 0) return
     const response = await fetch(process.env.PUBLIC_SERVER_URL + `/api/testa`, {
       method: 'POST',
       body: JSON.stringify({
@@ -16,11 +14,11 @@
   }
 </script>
 
-{#if $cart}
-  <button
-    on:click={checkout}
-    disabled={$cart?.items ? false : true}
-    class="button mt-size3 hue-brand look-solid w-full !text-black"
-    >Verder naar bestellen <i class="icon:credit-card block"></i></button
-  >
-{/if}
+<button
+  on:click={checkout}
+  disabled={$cart?.items.length < 1}
+  class="button hue-brand look-solid mode-base size-medium w-full"
+>
+  Verder naar betalen
+  <i class="icon:credit-card block"></i>
+</button>

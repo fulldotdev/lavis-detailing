@@ -2,7 +2,6 @@ import fs from 'fs'
 import yaml from 'js-yaml'
 import path from 'path'
 import { z } from 'zod'
-import { createFixture } from 'zod-fixture'
 
 // Reads and parses a YAML file
 const readYamlFile = (relativePath: string) => {
@@ -11,7 +10,6 @@ const readYamlFile = (relativePath: string) => {
     const file = fs.readFileSync(absolutePath, 'utf8')
     return yaml.load(file)
   } catch (e) {
-    console.error(e)
     return null
   }
 }
@@ -58,9 +56,9 @@ const createZodSchemaFromData = (
 }
 
 // Example usage
-const data = readYamlFile('../data/components.yml')
-if (data) {
-  const exampleSchema = createZodSchemaFromData(data, data._inputs)
-  const fixture = createFixture(exampleSchema)
-  console.log(fixture)
-}
+// const data = readYamlFile('../data/components.yml')
+// if (data) {
+//   const exampleSchema = createZodSchemaFromData(data, data._inputs)
+//   const fixture = createFixture(exampleSchema)
+//   console.log(fixture)
+// }

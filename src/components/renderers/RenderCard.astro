@@ -28,16 +28,15 @@ const settings = components.data.elements[Astro.props.type]
 const merged = { ...settings, ...Astro.props }
 const {
   href,
-  card,
-  image,
-  rating,
-  segment,
-  writeup,
+  card = {},
+  image = {},
+  rating = {},
+  segment = {},
+  writeup = {},
   title,
-  group,
   description,
   tagline,
-  buttons,
+  buttons = [],
 } = merged
 ---
 

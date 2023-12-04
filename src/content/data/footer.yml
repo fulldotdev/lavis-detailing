@@ -1,12 +1,4 @@
 _schema: footer
-company:
-  name:
-  description:
-  kvk:
 columns:
-  heading:
-  links:
-group:
-  buttons:
-links:
-  link:
+  - heading:
+    links:

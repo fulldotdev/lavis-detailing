@@ -570,6 +570,21 @@ blocks:
       layout:
       size:
       class:
+globals: 
+  footer: 
+    footer: 
+      frame: 
+      look:
+      size:
+      hue:
+      scheme:
+  header: 
+    header: 
+      frame: 
+      look:
+      size:
+      hue:
+      scheme:
 _inputs:
   layout:
     type: choice

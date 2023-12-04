@@ -40,7 +40,7 @@ const variant = cva({
 const company = await getEntry('data', 'company')
 const footer = await getEntry('data', 'footer')
 const components = await getEntry('data', 'components')
-const settings = components.data.globals.footer
+const settings = components.data.globals?.footer || {}
 ---
 
 <header class={variant(settings.footer)}>
@@ -58,11 +58,12 @@ const settings = components.data.globals.footer
     <Channels />
   </Segment>
   {
-    footer?.data?.columns?.map((column: any) => (
-      <Segment class:list="col-span-.8 mode-compact size-small">
-        <h6 class="heading-secondary">{column.heading}</h6>
-        <Links links={column.links} />
-      </Segment>
-    ))
+    footer?.data?.columns &&
+      footer?.data?.columns?.map((column: any) => (
+        <Segment class:list="col-span-.8 mode-compact size-small">
+          <h6 class="heading-secondary">{column.heading}</h6>
+          <Links links={column.links} />
+        </Segment>
+      ))
   }
 </header>

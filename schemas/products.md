@@ -15,7 +15,7 @@ images:
   - src: 
     alt: 
 price: 
+brand: 
 categories:
   - 
-brand: 
 ---

@@ -1,46 +1,8 @@
 ---
-import Button from '@components/elements/button/Button.astro'
-import fs from 'fs'
-import yaml from 'js-yaml'
-
-try {
-  const doc = yaml.load(
-    fs.readFileSync('../../schemas/data/company.yml', 'utf8')
-  )
-  console.log(doc)
-} catch (e) {
-  console.log(e)
-}
-
-const companyDetails = {
-  name: '',
-  description: '',
-  logo: '',
-  icon: '',
-  kvk: '',
-  channels: {
-    email: '',
-    phone: '',
-    whatsapp: '',
-    address: '',
-  },
-  socials: {
-    facebook: '',
-    twitter: '',
-    instagram: '',
-    pinterest: '',
-    linkedin: '',
-    youtube: '',
-    tiktok: '',
-    snapchat: '',
-  },
-  _inputs: {},
-}
-// type MyType = typeof companyDetails
+import Cart from '@components/globals/cart/CartSidebar.svelte'
+import LayoutNav from '@layouts/LayoutNav.astro'
 ---
 
-<Button
-  label="click me"
-  class:list="hoi123"
-  href="/"
-/>
+<LayoutNav>
+  <Cart client:load />
+</LayoutNav>

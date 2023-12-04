@@ -7,7 +7,7 @@ interface Props {}
 
 const company = await getEntry('data', 'company')
 const keys = Object.keys(company.data.socials)
-const filteredKeys = keys.filter((key) => company.data.socials[key].length > 0)
+const filteredKeys = keys.filter((key) => company.data.socials[key])
 ---
 
 <Group layout="row">
