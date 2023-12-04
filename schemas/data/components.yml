@@ -2,7 +2,7 @@
 # ELEMENTS 
 # -----------------------------------------------
 elements:
-  buttons: &buttons
+  button: &button
     - look:
       hue:
       class:
@@ -65,7 +65,7 @@ cards:
       - *spec
     group: &group
       class:
-    buttons: *buttons
+    buttons: *button
 
   brands:
     card: *card
@@ -85,7 +85,7 @@ cards:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons: *buttons
+    buttons: *button
 
   features:
     card: *card
@@ -93,7 +93,7 @@ cards:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons: *buttons
+    buttons: *button
     icon: *icon
 
   posts:
@@ -163,10 +163,10 @@ blocks:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons: *buttons
+    buttons: *button
     image: 
-      <<: *image
       position: 
+      <<: *image
 
   cta: *hero
 
@@ -191,7 +191,7 @@ blocks:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons: *buttons
+    buttons: *button
     deck: *deck
 
   categories: *block_with_deck
