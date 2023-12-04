@@ -1,10 +1,9 @@
 _schema: components
 elements:
-  button:
-    look:
-    hue:
-    scheme:
-    class: class123
+  buttons:
+    - look:
+      hue:
+      class:
   channel:
     look:
     hue:
@@ -14,7 +13,6 @@ elements:
     hue:
     class:
   link:
-    hue:
     class:
   image:
     class:
@@ -32,20 +30,31 @@ elements:
     class:
   form:
     class:
-_card_card:
-  frame:
-  look:
-  hue:
-  scheme:
-  class:
-_card_segment:
-  class:
-_card_group:
-  size:
-  class:
-_card_list:
-  class:
 cards:
+  offers:
+    card:
+      frame:
+      look:
+      hue:
+      scheme:
+      class:
+    image:
+      class:
+    segment:
+      class:
+    writeup:
+      class:
+    list:
+      class:
+    specs:
+      - class:
+    group:
+      class:
+    buttons:
+      - look:
+        hue:
+        scheme:
+        class:
   brands:
     card:
       frame:
@@ -86,7 +95,6 @@ cards:
     writeup:
       class:
     group:
-      size:
       class:
     buttons:
       - look:
@@ -107,7 +115,6 @@ cards:
     writeup:
       class:
     group:
-      size:
       class:
     buttons:
       - look:
@@ -116,31 +123,6 @@ cards:
         class:
     icon:
       class:
-  offers:
-    card:
-      frame:
-      look:
-      hue:
-      scheme:
-      class:
-    image:
-      class:
-    segment:
-      class:
-    writeup:
-      class:
-    list:
-      class:
-    specs:
-      - class:
-    group:
-      size:
-      class:
-    buttons:
-      - look:
-        hue:
-        scheme:
-        class:
   posts:
     card:
       frame:
@@ -199,37 +181,11 @@ cards:
       class:
     writeup:
       class:
-_block_section:
-  frame:
-  look:
-  hue:
-  scheme:
-  class:
-_block_segment:
-  layout:
-  x:
-  'y':
-  size:
-  class:
-_block_group:
-  layout:
-  x:
-  'y':
-  size:
-  class:
-_block_list:
-  layout:
-  size:
-  class:
-_block_card:
-  layout:
-  size:
-  class:
 blocks:
-  hero:
+  contact:
     section:
-      frame: fill
-      look: 
+      frame:
+      look:
       hue:
       scheme:
       class:
@@ -247,11 +203,36 @@ blocks:
       'y':
       size:
       class:
-    buttons:
-      - look:
-        hue:
-        scheme:
-        class:
+    channel: {}
+    list:
+      layout:
+      size:
+      class:
+    social: {}
+    form:
+      class:
+  hero:
+    section:
+      frame: fill
+      look: ghost
+      hue:
+      scheme:
+      class:
+    segment:
+      layout: row
+      x: between
+      'y': center
+      size:
+      class:
+    writeup:
+      class:
+    group:
+      layout: col
+      x:
+      'y':
+      size:
+      class:
+    buttons: []
     image:
       class:
   cta:
@@ -282,55 +263,18 @@ blocks:
         class:
     image:
       class:
-  contact:
-    section:
-      frame:
-      look:
-      hue:
-      scheme:
-      class:
-    segment:
-      layout:
-      x:
-      'y':
-      size:
-      class:
-    writeup:
-      class:
-    group:
-      layout:
-      x:
-      'y':
-      size:
-      class:
-    channels:
-      - look:
-        hue:
-        class:
-    list:
-      layout:
-      size:
-      class:
-    socials:
-      - look:
-        hue:
-        class:
-    form:
-      class:
   content:
-    _bookshop_name: blocks/content
     section:
       frame:
       look:
       hue:
       scheme:
-      class:
-    prose:
       class:
     image:
       class:
+    prose:
+      class:
   calendar:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -338,7 +282,6 @@ blocks:
       scheme:
       class:
   offers:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -352,7 +295,6 @@ blocks:
       size:
       class:
   features:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -383,7 +325,6 @@ blocks:
       size:
       class:
   categories:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -414,7 +355,6 @@ blocks:
       size:
       class:
   posts:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -445,7 +385,6 @@ blocks:
       size:
       class:
   brands:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -476,7 +415,6 @@ blocks:
       size:
       class:
   products:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -507,7 +445,6 @@ blocks:
       size:
       class:
   reviews:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -538,7 +475,6 @@ blocks:
       size:
       class:
   services:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -569,7 +505,6 @@ blocks:
       size:
       class:
   stats:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -600,7 +535,6 @@ blocks:
       size:
       class:
   employees:
-    _bookshop_name: blocks/brands
     section:
       frame:
       look:
@@ -630,3 +564,44 @@ blocks:
       layout:
       size:
       class:
+_inputs:
+  hue:
+    type: choice
+    options:
+      values:
+        - none
+        - base
+        - brand
+        - accent
+  scheme:
+    type: choice
+    options:
+      values:
+        - none
+        - light
+        - dark
+  size:
+    type: choice
+    options:
+      values:
+        - none
+        - small
+        - medium
+        - large
+  look:
+    type: choice
+    options:
+      values:
+        - solid
+        - surface
+        - soft
+        - outline
+        - ghost
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
