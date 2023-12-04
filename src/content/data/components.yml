@@ -213,8 +213,8 @@ blocks:
       class:
   hero:
     section:
-      frame: fill
-      look: ghost
+      frame: panel
+      look: surface
       hue:
       scheme:
       class:
