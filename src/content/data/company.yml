@@ -1,8 +1,20 @@
 _schema: company
+
 name:
 description:
 logo:
 icon:
 kvk:
+
 channels:
+  email: 
+  phone:
+  whatsapp:
+  address:
+
 socials:
+  facebook: 
+  twitter:
+  instagram:
+  pinterest:
+  linkedin:

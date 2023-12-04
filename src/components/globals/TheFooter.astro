@@ -4,8 +4,7 @@ import Links from '@components/elements/link/Links.astro'
 import Logo from '@components/elements/Logo.astro'
 import Socials from '@components/elements/social/Socials.astro'
 import Footer from '@components/wrappers/Footer.astro'
-import Group from '@components/wrappers/Group.astro'
-import List from '@components/wrappers/List.astro'
+import Segment from '@components/wrappers/Segment.astro'
 import { getEntry } from 'astro:content'
 
 const company = await getEntry('data', 'company')
@@ -15,41 +14,25 @@ const settings = components.data.globals.footer
 ---
 
 <Footer {...settings?.footer}>
-  <div class="col-span-1.2 mode-compact gap-size4 flex max-w-xs flex-col">
+  <Segment class:list="col-span-1.2 mode-compact size-medium max-w-xs">
     <Logo />
     {
       company.data.description && (
         <p class="text-primary">{company.data.description}</p>
       )
     }
-    <List layout="row">
-      <Socials />
-    </List>
-  </div>
-  <div class="col-span-.8 gap-size5 mode-compact size-small flex flex-col">
+    <Socials />
+  </Segment>
+  <Segment class:list="col-span-.8 mode-compact size-small">
     <h6 class="heading-secondary">Contact & locatie</h6>
-    <Group
-      {...settings?.group}
-      layout="col"
-    >
-      <Channels channels={settings.channels} />
-    </Group>
-  </div>
+    <Channels />
+  </Segment>
   {
     footer?.data?.columns?.map((column: any) => (
-      <div class="col-span-.8 gap-size5 mode-compact size-small flex flex-col">
+      <Segment class:list="col-span-.8 mode-compact size-small">
         <h6 class="heading-secondary">{column.heading}</h6>
-        <List
-          class="w-full"
-          {...settings.list}
-        >
-          <Links
-            {...settings?.links}
-            class="flex-col"
-            links={column.links}
-          />
-        </List>
-      </div>
+        <Links links={column.links} />
+      </Segment>
     ))
   }
 </Footer>

@@ -7,8 +7,6 @@ import type { RenderCardsProps } from '@components/renderers/RenderCards.astro'
 import RenderCards from '@components/renderers/RenderCards.astro'
 import Deck from '@components/wrappers/Deck.astro'
 import Form from '@components/wrappers/Form.astro'
-import Group from '@components/wrappers/Group.astro'
-import List from '@components/wrappers/List.astro'
 import Prose from '@components/wrappers/Prose.astro'
 import Section from '@components/wrappers/Section.astro'
 import Segment from '@components/wrappers/Segment.astro'
@@ -25,7 +23,6 @@ interface Props {
   image: ImageProps
   prose: string
   // form: FormProps
-
   cards: RenderCardsProps
 }
 
@@ -37,13 +34,9 @@ const {
   section = {},
   segment = {},
   writeup = {},
-  group = {},
   buttons = [],
-  channels = [],
-  list = {},
-  socials = [],
   image = {},
-  prose = {},
+  // prose = {},
   form = {},
   deck = {},
   cards = [],
@@ -53,13 +46,9 @@ const {
 <Section {...section}>
   <Segment {...segment}>
     <Writeup set:html={writeup} />
-    <Group {...group}>
-      <Buttons {buttons} />
-      <Channels {channels} />
-    </Group>
-    <List {...list}>
-      <Socials {socials} />
-    </List>
+    <Buttons {buttons} />
+    <Channels />
+    <Socials />
   </Segment>
   <Image {...image} />
   <!-- <Prose set:html={prose} /> -->

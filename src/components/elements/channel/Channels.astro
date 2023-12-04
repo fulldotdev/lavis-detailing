@@ -1,16 +1,15 @@
 ---
+import Group from '@components/wrappers/Group.astro'
 import { getEntry } from 'astro:content'
 import Channel from './Channel.astro'
 
-interface props {
-  exclude: boolean
-}
+interface Props {}
 
-const { exclude } = Astro.props
 const company = await getEntry('data', 'company')
+const keys = Object.keys(company.data.channels)
+const filteredKeys = keys.filter((key) => company.data.channels[key].length > 0)
 ---
 
-{
-  !exclude &&
-    company.data.channels?.map((channel: any) => <Channel {...channel} />)
-}
+<Group layout="col">
+  {filteredKeys.map((key: any) => <Channel {key} />)}
+</Group>

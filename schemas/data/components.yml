@@ -12,7 +12,7 @@ elements:
     hue:
     class:
 
-  social: &social
+  social:
     look:
     hue:
     class:
@@ -219,7 +219,6 @@ globals:
       scheme:
     list: *list
     link: *link
-    social: *social
     group: *group
     button: *button
     channel: *channel
