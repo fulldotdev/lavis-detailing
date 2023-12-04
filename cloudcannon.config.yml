@@ -220,3 +220,11 @@ _inputs:
 
   prose:
     type: html
+
+_structures:
+  test:
+    values:
+      - title:
+        description:
+      - test2: 
+        test3:
