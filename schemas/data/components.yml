@@ -135,6 +135,7 @@ blocks:
       look:
       hue:
       scheme:
+      size: 
       class:
     segment: &segment
       layout:
@@ -163,7 +164,9 @@ blocks:
     writeup: *writeup
     group: *group
     buttons: *buttons
-    image: *image
+    image: 
+      <<: *image
+      position: 
 
   cta: *hero
 
@@ -204,11 +207,19 @@ blocks:
 # Inputs configuration
 # -----------------------------------------------
 _inputs:
+  layout:
+      type: choice
+      options:
+        values:
+          - row
+          - col
+          - grid
+          - masonry
+          - carousel
   hue:
     type: choice
     options:
       values:
-        - none
         - base
         - brand
         - accent
@@ -216,14 +227,12 @@ _inputs:
     type: choice
     options:
       values:
-        - none 
         - light
         - dark
   size:
     type: choice
     options:
       values:
-        - none 
         - small
         - medium
         - large
@@ -244,3 +253,25 @@ _inputs:
         - float
         - panel
         - screen
+  x:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+        - between
+  y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  image.position:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - cover
