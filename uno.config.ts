@@ -15,8 +15,6 @@ try {
   console.error(e)
 }
 
-console.log('theme', theme)
-
 export default defineConfig({
   presets: [
     presetUno(),
