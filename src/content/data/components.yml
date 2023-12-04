@@ -224,7 +224,7 @@ blocks:
       size: large
       class:
     segment:
-      layout: row
+      layout: col
       x: between
       'y': center
       size:
@@ -234,7 +234,7 @@ blocks:
         [&_p:first-child]:hue-brand [&_p:first-child]:text-hue9 
         [&_h1]:lg:text-80px  [&_p]:text-hue12 !max-w-none
     group:
-      layout: col
+      layout: row
       x:
       'y':
       size:

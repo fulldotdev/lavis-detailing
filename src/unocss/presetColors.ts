@@ -9,6 +9,7 @@ export default function preset({
   texture = 'solid',
   contrast = false,
 }: any): Preset {
+  console.log('presetColors', base, brand, accent, scheme, texture, contrast)
   return {
     name: 'unocss-preset-colors',
     safelist: [

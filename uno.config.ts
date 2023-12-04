@@ -15,6 +15,8 @@ try {
   console.error(e)
 }
 
+console.log('theme', theme)
+
 export default defineConfig({
   presets: [
     presetUno(),
@@ -27,9 +29,9 @@ export default defineConfig({
           ),
       },
     }),
-    presetSizes(theme?.data?.sizes || {}),
-    presetColors(theme?.data?.colors || {}),
-    presetFonts(theme?.data?.fonts || {}),
+    presetSizes(theme?.sizes || {}),
+    presetColors(theme?.colors || {}),
+    presetFonts(theme?.fonts || {}),
     presetStyles(),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],

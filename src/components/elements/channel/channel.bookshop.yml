@@ -7,6 +7,19 @@ blueprint:
   key:
   value:
 
-preview:
-
 _inputs:
+  key:
+    label: Channel
+    type: choice
+    options:
+      values:
+        - email
+        - phone
+        - address
+        - whatsapp
+
+  value:
+    label: Value
+    type: string
+
+preview:
