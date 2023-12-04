@@ -39,7 +39,7 @@ collections_config:
     icon: wysiwyg
     disable_add_folder: true
     _enabled_editors:
-      - visual
+      # - visual
       - data
     schemas: 
       default: 
@@ -52,7 +52,7 @@ collections_config:
     icon: home_repair_service
     disable_add_folder: true
     _enabled_editors:
-      - visual
+      # - visual
       - data
     schemas: 
       default: 
