@@ -1,26 +1,26 @@
 _schema: components
 elements:
-  buttons:
-    - _bookshop_name: elements/button
-      label:
-      href:
-    - _bookshop_name: elements/button
-      label:
-      href:
+  button:
+    - look: solid
+      hue: brand
+      class:
+    - look: soft
+      hue: brand
+      class:
   channel:
-    look:
-    hue:
+    look: soft
+    hue: brand
     class:
   social:
-    look:
-    hue:
+    look: solid
+    hue: base
     class:
   link:
     class:
   image:
     class:
   writeup:
-    class:
+    class: '[&_p:first-child]:hue-brand [&_p:first-child]:text-hue9 '
   prose:
     class:
   spec:
@@ -230,9 +230,7 @@ blocks:
       size:
       class: border-b border-hue6 pb-size5
     writeup:
-      class: >-
-        [&_p:first-child]:hue-brand [&_p:first-child]:text-hue9 
-        [&_h1]:lg:text-80px  [&_p]:text-hue12 !max-w-none
+      class: '[&_h1]:lg:text-80px  [&_p]:text-hue12 !max-w-none'
     group:
       layout: row
       x:
@@ -241,8 +239,8 @@ blocks:
       class:
     buttons: []
     image:
-      class: mask
       position: background
+      class: mask
   cta:
     section:
       frame:
