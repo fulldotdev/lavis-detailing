@@ -21,6 +21,7 @@
     const cartCopy = [...$cart]
     cartCopy.splice(index, 1)
     cart.set(cartCopy)
+    index = -1
   }
 
   const changeQuantity = (number: number) => {
