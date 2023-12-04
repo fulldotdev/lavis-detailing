@@ -104,7 +104,7 @@ _inputs:
     type: checkbox
     label: Increased contrast
   rounded:  
-    type: select
+    type: choice
     options:
       values:
         - none

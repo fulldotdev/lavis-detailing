@@ -1,35 +1,35 @@
 _schema: theme
 colors:
-  base: slate
-  brand: blue
-  accent: indigo
-  scheme: light
-  texture: solid
+  base: sand
+  brand: amber
+  accent: amber
+  scheme: dark
+  texture: translucent
   contrast: false
 fonts:
   heading:
-    family: Inter
-    weight: 700
+    family: Bakbak One
+    weight: 400
     italic: false
-    className:
+    className: uppercase
   subheading:
-    family: Inter
+    family: Open Sans
     weight: 500
     italic: false
     className:
   text:
-    family: Inter
+    family: Open Sans
     weight: 400
     italic: false
     className:
   button:
-    family: Inter
+    family: Open Sans
     weight: 500
     italic: false
     className:
 sizes:
   scale: 1
-  rounded: small
+  rounded: tiny
 _inputs:
   colors.base:
     type: select
