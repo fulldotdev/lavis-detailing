@@ -1,9 +1,12 @@
 _schema: components
 elements:
   buttons:
-    - look:
-      hue:
-      class:
+    - _bookshop_name: elements/button
+      label:
+      href:
+    - _bookshop_name: elements/button
+      label:
+      href:
   channel:
     look:
     hue:
@@ -213,19 +216,23 @@ blocks:
       class:
   hero:
     section:
-      frame: panel
-      look: surface
+      layout: row
+      frame: fill
+      look: ghost
       hue:
       scheme:
+      size: large
       class:
     segment:
       layout: row
       x: between
       'y': center
       size:
-      class:
+      class: border-b border-hue6 pb-size5
     writeup:
-      class:
+      class: >-
+        [&_p:first-child]:hue-brand [&_p:first-child]:text-hue9 
+        [&_h1]:lg:text-80px  [&_p]:text-hue12 !max-w-none
     group:
       layout: col
       x:
@@ -234,7 +241,8 @@ blocks:
       class:
     buttons: []
     image:
-      class:
+      class: mask
+      position: background
   cta:
     section:
       frame:
@@ -565,6 +573,15 @@ blocks:
       size:
       class:
 _inputs:
+  layout:
+    type: choice
+    options:
+      values:
+        - row
+        - col
+        - grid
+        - masonry
+        - carousel
   hue:
     type: choice
     options:
@@ -605,3 +622,25 @@ _inputs:
         - float
         - panel
         - screen
+  x:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+        - between
+  'y':
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  image.position:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - cover
