@@ -2,11 +2,18 @@
 import type { LinkProps } from './Link.astro'
 import Link from './Link.astro'
 
-interface Props {
+type Props = LinkProps & {
   links: LinkProps[]
 }
 
-const { links } = Astro.props
+const { links, ...restProps } = Astro.props
 ---
 
-{links?.map((link) => <Link {...link} />)}
+{
+  links?.map((link) => (
+    <Link
+      {...link}
+      {...restProps}
+    />
+  ))
+}

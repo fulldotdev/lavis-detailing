@@ -6,41 +6,45 @@ import Socials from '@components/elements/social/Socials.astro'
 import Footer from '@components/wrappers/Footer.astro'
 import Group from '@components/wrappers/Group.astro'
 import List from '@components/wrappers/List.astro'
-import { getCompany, getFooter, getSettings } from 'api'
+import { getEntry } from 'astro:content'
 
-const company = await getCompany()
-const footer = await getFooter()
-const settings = await getSettings()
-const setting = settings.globals?.footer
+const company = await getEntry('data', 'company')
+const footer = await getEntry('data', 'footer')
+const components = await getEntry('data', 'components')
+const settings = components.data.globals.footer
 ---
 
-<Footer {...setting?.footer}>
+<Footer {...settings?.footer}>
   <div class="col-span-1.2 mode-compact gap-size4 flex max-w-xs flex-col">
     <Logo />
-    {company.description && <p class="text-primary">{company.description}</p>}
+    {
+      company.data.description && (
+        <p class="text-primary">{company.data.description}</p>
+      )
+    }
     <List layout="row">
-      <Socials setting={setting?.socials} />
+      <Socials socials={settings.socials} />
     </List>
   </div>
   <div class="col-span-.8 gap-size5 mode-compact size-small flex flex-col">
     <h6 class="heading-secondary">Contact & locatie</h6>
     <Group
-      {...setting?.group}
+      {...settings?.group}
       layout="col"
     >
-      <Channels setting={setting?.channels} />
+      <Channels channels={settings.channels} />
     </Group>
   </div>
   {
-    footer?.columns?.map((column) => (
+    footer?.data?.columns?.map((column: any) => (
       <div class="col-span-.8 gap-size5 mode-compact size-small flex flex-col">
         <h6 class="heading-secondary">{column.heading}</h6>
         <List
           class="w-full"
-          {...setting?.list}
+          {...settings.list}
         >
           <Links
-            {...setting?.links}
+            {...settings?.links}
             class="flex-col"
             links={column.links}
           />
@@ -53,14 +57,14 @@ const setting = settings.globals?.footer
   class="border-hue5 mx-wrapper py-size4 size-small flex flex-wrap justify-between border-t"
 >
   <p class="text-size1">
-    © {new Date().getFullYear()}&nbsp;{company.name}. Alle rechten
+    © {new Date().getFullYear()}&nbsp;{company.data.name}. Alle rechten
     voorbehouden.
   </p>
   <p class="text-size1 gap-x-size2 flex flex-wrap">
-    {company.kvk && `Kvk. ${company.kvk}`}
+    {company.data.kvk && `Kvk. ${company.data.kvk}`}
     {
-      footer?.policies?.map(
-        (policy) =>
+      footer.data?.policies?.map(
+        (policy: string) =>
           typeof policy === 'object' && (
             <>
               <span>|</span>

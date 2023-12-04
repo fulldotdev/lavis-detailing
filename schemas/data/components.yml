@@ -43,6 +43,9 @@ elements:
 
   form: &form
     class:
+
+  logo: &logo
+    class:
     
 # -----------------------------------------------
 # CARDS 
@@ -158,7 +161,7 @@ blocks:
     social: *social
     form: *form
 
-  hero: &hero
+  cta: &cta
     section: *section
     segment: *segment
     writeup: *writeup
@@ -168,7 +171,7 @@ blocks:
       position: 
       <<: *image
 
-  cta: *hero
+  hero: *cta
 
   content:
     section: *section
@@ -202,6 +205,39 @@ blocks:
   services: *block_with_deck
   stats: *block_with_deck
   employees: *block_with_deck
+
+# -----------------------------------------------
+# GLOBALS
+# -----------------------------------------------
+globals: 
+  footer: 
+    footer: 
+      frame: 
+      look:
+      size:
+      hue:
+      scheme:
+    list: *list
+    link: *link
+    social: *social
+    group: *group
+    button: *button
+    channel: *channel
+
+  header: 
+    header: 
+      frame: 
+      look:
+      size:
+      hue:
+      scheme:
+    logo: *logo
+    list: *list
+    link: *link
+    group: *group
+    button: *button
+
+  cta: *cta
 
 # -----------------------------------------------
 # Inputs configuration

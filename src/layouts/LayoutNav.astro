@@ -1,6 +1,7 @@
 ---
-import Layout from '@layouts/Layout.astro'
+import TheHeader from '@components/globals/TheHeader.astro'
 import CartSidebar from '@compponents/cart/CartSidebar.svelte'
+import Layout from '@layouts/Layout.astro'
 // import FooterGlobal from '@modules/footer/FooterGlobal.astro'
 // import HeaderGlobal from '@modules/header/HeaderGlobal.astro'
 
@@ -8,7 +9,7 @@ const { meta } = Astro.props
 ---
 
 <Layout {meta}>
-  <!-- <HeaderGlobal /> -->
+  <TheHeader />
   <CartSidebar client:load />
   <main>
     <!-- <div

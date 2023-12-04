@@ -6,36 +6,32 @@ import Logo from '@components/elements/Logo.astro'
 import Group from '@components/wrappers/Group.astro'
 import Header from '@components/wrappers/Header.astro'
 import List from '@components/wrappers/List.astro'
+import { getGlobalSettings } from '@utils'
+import { getEntry } from 'astro:content'
 
-import { getHeader, getSettings } from 'api'
-const header = await getHeader()
-const settings = await getSettings()
-const setting = settings.globals?.header
+const header = await getEntry('data', 'header')
+const settings = await getGlobalSettings('header')
 ---
 
-<Header {...setting?.header}>
+<Header {...settings.header}>
   <Logo />
   <List
+    {...settings.list}
     layout="row"
     y="center"
-    class="ml-auto max-lg:!hidden"
   >
     <Links
-      setting={setting?.links}
-      links={header?.links}
+      links={header.data.links}
+      {...settings.links}
     />
   </List>
-  <Group
-    {...setting?.group}
-    class="max-lg:!hidden"
-  >
-    <Buttons
-      buttons={header?.buttons}
-      setting={setting?.buttons}
-    />
+  <Group class:list="max-lg:!hidden">
+    <Buttons buttons={header.data.buttons} />
   </Group>
+
+  <!-- Mobile -->
+  <CartIcon client:load />
   <div class="gap-size3 flex items-center">
-    <CartIcon client:load />
     <label
       class="w-1.4em h-1.4em flex cursor-pointer lg:hidden"
       for="header-toggle"
@@ -50,11 +46,11 @@ const setting = settings.globals?.header
   />
   <List
     layout="col"
-    class="py-size4 z-90 bg-hue1 border-hue6 absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex"
+    class:list="py-size4 z-90 bg-hue1 border-hue6 absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex"
   >
     <Links
-      links={header?.links}
-      {...setting?.links}
+      links={header.data.links}
+      {...settings.links}
     />
   </List>
 </Header>

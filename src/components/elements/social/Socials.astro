@@ -2,11 +2,18 @@
 import type { SocialProps } from './Social.astro'
 import Social from './Social.astro'
 
-interface Props {
+type Props = SocialProps & {
   socials: SocialProps[]
 }
 
-const { socials } = Astro.props
+const { socials, ...restProps } = Astro.props
 ---
 
-{socials?.map((social) => <Social {...social} />)}
+{
+  socials?.map((social) => (
+    <Social
+      {...social}
+      {...restProps}
+    />
+  ))
+}
