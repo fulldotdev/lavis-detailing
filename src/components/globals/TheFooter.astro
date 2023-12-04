@@ -1,0 +1,78 @@
+---
+import Channels from '@components/elements/channel/Channels.astro'
+import Links from '@components/elements/link/Links.astro'
+import Logo from '@components/elements/Logo.astro'
+import Socials from '@components/elements/social/Socials.astro'
+import Footer from '@components/wrappers/Footer.astro'
+import Group from '@components/wrappers/Group.astro'
+import List from '@components/wrappers/List.astro'
+import { getCompany, getFooter, getSettings } from 'api'
+
+const company = await getCompany()
+const footer = await getFooter()
+const settings = await getSettings()
+const setting = settings.globals?.footer
+---
+
+<Footer {...setting?.footer}>
+  <div class="col-span-1.2 mode-compact gap-size4 flex max-w-xs flex-col">
+    <Logo />
+    {company.description && <p class="text-primary">{company.description}</p>}
+    <List layout="row">
+      <Socials setting={setting?.socials} />
+    </List>
+  </div>
+  <div class="col-span-.8 gap-size5 mode-compact size-small flex flex-col">
+    <h6 class="heading-secondary">Contact & locatie</h6>
+    <Group
+      {...setting?.group}
+      layout="col"
+    >
+      <Channels setting={setting?.channels} />
+    </Group>
+  </div>
+  {
+    footer?.columns?.map((column) => (
+      <div class="col-span-.8 gap-size5 mode-compact size-small flex flex-col">
+        <h6 class="heading-secondary">{column.heading}</h6>
+        <List
+          class="w-full"
+          {...setting?.list}
+        >
+          <Links
+            {...setting?.links}
+            class="flex-col"
+            links={column.links}
+          />
+        </List>
+      </div>
+    ))
+  }
+</Footer>
+<div
+  class="border-hue5 mx-wrapper py-size4 size-small flex flex-wrap justify-between border-t"
+>
+  <p class="text-size1">
+    © {new Date().getFullYear()}&nbsp;{company.name}. Alle rechten
+    voorbehouden.
+  </p>
+  <p class="text-size1 gap-x-size2 flex flex-wrap">
+    {company.kvk && `Kvk. ${company.kvk}`}
+    {
+      footer?.policies?.map(
+        (policy) =>
+          typeof policy === 'object' && (
+            <>
+              <span>|</span>
+              <a
+                class="link size-small text-size1"
+                href={policy.path}
+              >
+                {policy.title}
+              </a>
+            </>
+          )
+      )
+    }
+  </p>
+</div>
