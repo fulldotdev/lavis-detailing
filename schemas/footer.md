@@ -1,0 +1,17 @@
+---
+company:
+  name:
+  description:
+  kvk:
+  class:
+columns:
+  heading:
+  links:
+  class:
+group:
+  buttons:
+  class:
+links:
+  link:
+  class:
+---
