@@ -1,39 +1,56 @@
 <script lang="ts">
-  import { cart } from './cartStore'
+  import { cart, totalItems, totalPrice } from './cartStore'
   import CartRemoveButton from './CartRemoveButton.svelte'
 
   export let data: any
 
   $: index = $cart.findIndex(
-    (item) => item?.stripePriceId == data.stripePriceId
+    (item) => item?.stripePriceId == data?.stripePriceId
   )
 
-  let quantity: number = 0
+  $: inputQuantity = $cart[index]?.quantity
 
-  const createItem = () =>
-    cart.update(($cart) => {
-      $cart.push({ quantity: 1, ...data })
-      quantity = 1
-      return $cart
-    })
+  $: if (inputQuantity <= 0) removeItem()
 
-  const updateQuantity = (newQuantity: number) =>
-    cart.update(($cart) => {
-      $cart[index].quantity = newQuantity
-      quantity = $cart[index].quantity
-      return $cart
-    })
+  const createItem = () => {
+    if (index !== -1) return
+    cart.set([...$cart, { ...data, quantity: 1 }])
+  }
+
+  const removeItem = () => {
+    const cartCopy = [...$cart]
+    cartCopy.splice(index, 1)
+    cart.set(cartCopy)
+  }
+
+  const changeQuantity = (number: number) => {
+    const cartCopy = [...$cart]
+    cartCopy[index].quantity += number
+    cart.set(cartCopy)
+  }
+
+  const setQuantity = (newQuantity: number) => {
+    const cartCopy = [...$cart]
+    cartCopy[index].quantity = newQuantity
+    cart.set(cartCopy)
+  }
+
+  const handleInput = (e: any) => setQuantity(e.target ? +e.target.value : 0)
 </script>
-
-<button>click me</button>
 
 cart: {JSON.stringify($cart)}
 <br />
 index: {JSON.stringify(index)}
 <br />
-quantity: {JSON.stringify(quantity)}
+quantity: {JSON.stringify(inputQuantity)}
+<br />
+items: {JSON.stringify(totalItems)}
+items: {JSON.stringify(totalItems)}
 
-{#if !quantity || quantity <= 0}
+<!-- <br />
+quantity: {JSON.stringify(quantity)} -->
+
+{#if !inputQuantity || inputQuantity <= 0}
   <button
     class="button hue-brand look-solid !text-black"
     on:click={createItem}
@@ -43,26 +60,27 @@ quantity: {JSON.stringify(quantity)}
   </button>
 {:else}
   <div class="hue-base bg-hue3 mt-auto flex grow-0 rounded py-0">
-    {#if quantity <= 1}
+    {#if inputQuantity <= 1}
       <CartRemoveButton {data} />
     {:else}
       <button
         class="button look-soft hue-base hover:bg-hue4 active:bg-hue5 !scale-100"
-        on:click={() => quantity--}
+        on:click={() => changeQuantity(-1)}
       >
         <i class="icon:minus block"></i>
       </button>
     {/if}
     <input
       type="number"
-      min="0"
+      min="1"
       step="1"
-      bind:value={quantity}
+      value={inputQuantity}
+      on:change={handleInput}
       class="input bg-hue3 hover:bg-hue4 active:bg-hue5 text-center focus:outline-none"
     />
     <button
       class="button look-soft hue-base hover:bg-hue4 active:bg-hue5 !scale-100"
-      on:click={() => quantity++}><i class="icon:plus block"></i></button
+      on:click={() => changeQuantity(1)}><i class="icon:plus block"></i></button
     >
   </div>
 {/if}
