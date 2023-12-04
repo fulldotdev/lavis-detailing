@@ -162,7 +162,7 @@ blocks:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons: *button
+    buttons: *buttons
     image: *image
 
   cta: *hero
