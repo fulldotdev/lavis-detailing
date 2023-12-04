@@ -1,0 +1,60 @@
+---
+import CartIcon from '@components/cart/CartIcon.svelte'
+import Buttons from '@components/elements/button/Buttons.astro'
+import Links from '@components/elements/link/Links.astro'
+import Logo from '@components/elements/Logo.astro'
+import Group from '@components/wrappers/Group.astro'
+import Header from '@components/wrappers/Header.astro'
+import List from '@components/wrappers/List.astro'
+
+import { getHeader, getSettings } from 'api'
+const header = await getHeader()
+const settings = await getSettings()
+const setting = settings.globals?.header
+---
+
+<Header {...setting?.header}>
+  <Logo />
+  <List
+    layout="row"
+    y="center"
+    class="ml-auto max-lg:!hidden"
+  >
+    <Links
+      setting={setting?.links}
+      links={header?.links}
+    />
+  </List>
+  <Group
+    {...setting?.group}
+    class="max-lg:!hidden"
+  >
+    <Buttons
+      buttons={header?.buttons}
+      setting={setting?.buttons}
+    />
+  </Group>
+  <div class="gap-size3 flex items-center">
+    <CartIcon client:load />
+    <label
+      class="w-1.4em h-1.4em flex cursor-pointer lg:hidden"
+      for="header-toggle"
+    >
+      <i class="icon:menu peer-checked:icon:x h-full w-full"></i>
+    </label>
+  </div>
+  <input
+    id="header-toggle"
+    class="peer hidden"
+    type="checkbox"
+  />
+  <List
+    layout="col"
+    class="py-size4 z-90 bg-hue1 border-hue6 absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex"
+  >
+    <Links
+      links={header?.links}
+      {...setting?.links}
+    />
+  </List>
+</Header>

@@ -25,6 +25,8 @@ collection_groups:
       - employees
       - forms
       - data
+      - footer
+      - header
 
 # -----------------------------------------------
 # Collection configuration
