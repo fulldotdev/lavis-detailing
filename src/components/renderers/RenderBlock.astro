@@ -16,18 +16,18 @@ import { getEntry } from 'astro:content'
 
 interface Props {
   _bookshop_name: `blocks/${string}`
-  writeup: string
-  buttons: ButtonProps[]
-  channels: boolean
-  socials: boolean
-  image: ImageProps
-  prose: string
+  writeup?: string
+  buttons?: ButtonProps[]
+  channels?: boolean
+  socials?: boolean
+  image?: ImageProps
+  prose?: string
   // form: FormProps
-  cards: RenderCardsProps
+  cards?: RenderCardsProps
 }
 
 const components = await getEntry('data', 'components')
-const blockName = Astro.props._bookshop_name.split('/')[1]
+const blockName = Astro.props._bookshop_name?.split('/')[1]
 const settings = components.data.blocks[blockName]
 const merged = { ...settings, ...Astro.props }
 const {

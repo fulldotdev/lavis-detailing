@@ -1,16 +1,19 @@
 ---
-import LayoutNav from '@layouts/LayoutNav.astro'
-// import CtaBlock from '@modules/cta/CtaBlock.astro'
 import Whatsapp from '@components/elements/Whatsapp.astro'
+import RenderBlock from '@components/renderers/RenderBlock.astro'
+import LayoutNav from '@layouts/LayoutNav.astro'
+import { getEntry } from 'astro:content'
 
-const { meta } = Astro.props
+const cta = await getEntry('data', 'cta')
+
+const { seo } = Astro.props
 ---
 
-<LayoutNav {meta}>
+<LayoutNav {seo}>
   <slot />
-  <!-- <CtaBlock
-    block={cta as CtaBlockType}
-    setting={setting as any}
-  /> -->
+  <RenderBlock
+    _bookshop_name="blocks/cta"
+    {...cta}
+  />
   <Whatsapp />
 </LayoutNav>
