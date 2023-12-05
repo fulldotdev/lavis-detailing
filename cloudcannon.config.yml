@@ -218,3 +218,7 @@ _inputs:
 
   prose:
     type: html
+
+data_config:
+  presets:
+    path: src/components/blocks/preset.yml

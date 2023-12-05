@@ -1,4 +1,5 @@
 _schema: components
+presets:
 elements:
   button:
     '1':
