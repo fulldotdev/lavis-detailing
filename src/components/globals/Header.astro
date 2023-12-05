@@ -3,6 +3,7 @@ import Logo from '@components/elements/Logo.astro'
 import Buttons from '@components/elements/button/Buttons.astro'
 import Links from '@components/elements/link/Links.astro'
 import CartIcon from '@components/globals/cart/CartIcon.svelte'
+import Group from '@components/wrappers/Group.astro'
 import Segment from '@components/wrappers/Segment.astro'
 import { getGlobalSettings } from '@utils'
 import { hue, scheme, size } from '@variants'
@@ -37,23 +38,31 @@ const variant = cva({
 })
 ---
 
+<div class="hidden">
+  <CartIcon client:load />
+</div>
 <header class={variant(settings.header)}>
   <Logo />
   <Links
+    class:list="ml-auto"
     layout="row"
-    links={header.data.link}
+    links={header.data.links}
   />
   <Buttons
     layout="row"
     buttons={header.data.buttons}
   />
   <CartIcon client:load />
-  <label
-    class="w-1.4em h-1.4em flex cursor-pointer lg:hidden"
-    for="header-toggle"
-  >
-    <i class="icon:menu peer-checked:icon:x h-full w-full"></i>
-  </label>
+  <Group layout="row">
+    <label
+      class="button look-soft flex cursor-pointer lg:hidden"
+      for="header-toggle"
+    >
+      <i
+        class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block"
+      ></i>
+    </label>
+  </Group>
   <input
     id="header-toggle"
     class="peer hidden"

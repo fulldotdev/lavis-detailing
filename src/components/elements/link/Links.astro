@@ -9,6 +9,8 @@ type Props = Omit<LinkProps, 'label' | 'href'> &
   }
 
 const { links, ...restProps } = Astro.props
+
+console.log(links)
 ---
 
 <List {...restProps}>
