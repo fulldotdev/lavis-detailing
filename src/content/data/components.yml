@@ -1,7 +1,7 @@
 _schema: components
 presets:
-  - primary
-  - secondary
+  - myttitle
+  - secondtitle
 elements:
   button:
     '1':
