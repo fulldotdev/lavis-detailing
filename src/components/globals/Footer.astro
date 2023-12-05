@@ -40,15 +40,15 @@ const variant = cva({
 const company = await getEntry('data', 'company')
 const footer = await getEntry('data', 'footer')
 const components = await getEntry('data', 'components')
-const settings = components.data.globals?.footer || {}
+const settings = components.data?.globals?.footer || {}
 ---
 
-<header class={variant(settings.footer)}>
+<footer class={variant(settings.footer)}>
   <Segment class:list="col-span-1.2 mode-compact size-medium max-w-xs">
     <Logo />
     {
-      company.data.description && (
-        <p class="text-primary">{company.data.description}</p>
+      company?.data?.description && (
+        <p class="text-primary">{company?.data?.description}</p>
       )
     }
     <Socials />
@@ -66,4 +66,4 @@ const settings = components.data.globals?.footer || {}
         </Segment>
       ))
   }
-</header>
+</footer>

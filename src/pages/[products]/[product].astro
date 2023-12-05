@@ -14,9 +14,7 @@ import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
   const collection = await getCollection('products')
-
-  if (!collection) return []
-  return collection.map((entry: any) => ({
+  return collection.map((entry) => ({
     params: {
       products: 'producten',
       product: entry.slug,
