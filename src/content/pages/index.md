@@ -16,8 +16,6 @@ content_blocks:
         label: Bekijk producten
         href: /producten
       - _bookshop_name: elements/button
-        importance: 1
-        importance2: 1
         label:
         href:
     image:
