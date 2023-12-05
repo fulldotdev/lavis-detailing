@@ -9,8 +9,8 @@
 
 <div class="divide-hue6 px-size5 divide-y overflow-y-auto">
   {#if $cart.length > 0}
-    {#each $cart as item}
-      <!-- <CartListCard product={item} /> -->
+    {#each $cart as data}
+      <CartListCard {data} />
     {/each}
   {:else}
     <div class="py-100px px-size5 gap-size5 flex flex-col items-center">

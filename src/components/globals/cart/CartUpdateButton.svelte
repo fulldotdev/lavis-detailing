@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cart, totalItems, totalPrice } from './cartStore'
+  import { cart } from './cartStore'
   import CartRemoveButton from './CartRemoveButton.svelte'
 
   export let data: any
@@ -37,17 +37,11 @@
     cart.set(cartCopy)
   }
 
-  const handleInput = (e: any) => setQuantity(e.target ? +e.target.value : 0)
+  const handleInput = (e: any) => {
+    const inputValue = e.target ? +e.target.value : 0
+    setQuantity(Math.max(inputValue, 1))
+  }
 </script>
-
-cart: {JSON.stringify($cart)}
-<br />
-index: {JSON.stringify(index)}
-<br />
-quantity: {JSON.stringify(quantity)}
-<br />
-items: {JSON.stringify(totalItems)}
-items: {JSON.stringify(totalItems)}
 
 {#if !quantity || quantity <= 0}
   <button
@@ -75,7 +69,7 @@ items: {JSON.stringify(totalItems)}
       step="1"
       value={quantity}
       on:input={handleInput}
-      class="input bg-hue3 hover:bg-hue4 active:bg-hue5 text-center focus:outline-none"
+      class="input max-w-30 bg-hue3 hover:bg-hue4 active:bg-hue5 !appearance-none text-center focus:outline-none"
     />
     <button
       class="button look-soft hue-base hover:bg-hue4 active:bg-hue5 !scale-100"
