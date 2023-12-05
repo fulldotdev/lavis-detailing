@@ -122,9 +122,9 @@ collections_config:
     path: src/content/data
     output: false
     icon: 
-    disable_add_folder: true
-    disable_add: true
-    disable_file_actions: true
+    # disable_add_folder: true
+    # disable_add: true
+    # disable_file_actions: true
     schemas: 
       theme: 
         path: schemas/data/theme.yml
