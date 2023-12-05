@@ -15,6 +15,11 @@ content_blocks:
       - _bookshop_name: elements/button
         label: Bekijk producten
         href: /producten
+      - _bookshop_name: elements/button
+        importance: 1
+        importance2: 1
+        label:
+        href:
     image:
       _bookshop_name: elements/image
       src: /uploads/screenshot-2023-12-05-at-12-42-25.png
