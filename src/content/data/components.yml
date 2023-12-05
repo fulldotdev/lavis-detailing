@@ -3,7 +3,7 @@ elements:
   button:
     - look:
       hue:
-      class:
+      class: test123
   channel:
     look:
     hue:
