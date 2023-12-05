@@ -42,9 +42,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-    # schemas: 
-    #   default: 
-    #     path: schemas/pages.md
+    schemas: 
+      default: 
+        path: schemas/pages.md
 
   services:
     path: src/content/services
@@ -54,9 +54,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-    # schemas: 
-    #   default: 
-    #     path: schemas/services.md
+    schemas: 
+      default: 
+        path: schemas/services.md
 
   products:
     path: src/content/products
