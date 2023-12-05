@@ -14,7 +14,7 @@ description: Lorem ipsum dolor sit amet
 images:
   - src: /uploads/img.jpeg
     alt: test
-price: 
+price: 10
 categories:
   - 
 brand: 

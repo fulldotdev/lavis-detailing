@@ -25,7 +25,7 @@
       </button>
     </header>
 
-    <CartList />
-    <CartSummary />
+    <!-- <CartList /> -->
+    <!-- <CartSummary /> -->
   </div>
 {/if}

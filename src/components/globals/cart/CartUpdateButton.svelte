@@ -8,9 +8,9 @@
     (item) => item?.stripePriceId == data?.stripePriceId
   )
 
-  $: inputQuantity = $cart[index]?.quantity
+  $: quantity = $cart[index]?.quantity
 
-  $: if (inputQuantity <= 0) removeItem()
+  $: if (quantity <= 0) removeItem()
 
   const createItem = () => {
     if (index !== -1) return
@@ -26,13 +26,14 @@
 
   const changeQuantity = (number: number) => {
     const cartCopy = [...$cart]
-    cartCopy[index].quantity += number
+    let currentQuantity = cartCopy[index]?.quantity
+    cartCopy[index] = { ...data, quantity: (currentQuantity += number) }
     cart.set(cartCopy)
   }
 
   const setQuantity = (newQuantity: number) => {
     const cartCopy = [...$cart]
-    cartCopy[index].quantity = newQuantity
+    cartCopy[index] = { ...data, quantity: newQuantity }
     cart.set(cartCopy)
   }
 
@@ -43,12 +44,12 @@ cart: {JSON.stringify($cart)}
 <br />
 index: {JSON.stringify(index)}
 <br />
-quantity: {JSON.stringify(inputQuantity)}
+quantity: {JSON.stringify(quantity)}
 <br />
 items: {JSON.stringify(totalItems)}
 items: {JSON.stringify(totalItems)}
 
-{#if !inputQuantity || inputQuantity <= 0}
+{#if !quantity || quantity <= 0}
   <button
     class="button hue-brand look-solid !text-black"
     on:click={createItem}
@@ -58,7 +59,7 @@ items: {JSON.stringify(totalItems)}
   </button>
 {:else}
   <div class="hue-base bg-hue3 mt-auto flex grow-0 rounded py-0">
-    {#if inputQuantity <= 1}
+    {#if quantity <= 1}
       <CartRemoveButton {data} />
     {:else}
       <button
@@ -72,7 +73,7 @@ items: {JSON.stringify(totalItems)}
       type="number"
       min="1"
       step="1"
-      value={inputQuantity}
+      value={quantity}
       on:input={handleInput}
       class="input bg-hue3 hover:bg-hue4 active:bg-hue5 text-center focus:outline-none"
     />
