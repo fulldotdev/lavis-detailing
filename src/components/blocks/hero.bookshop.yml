@@ -8,6 +8,10 @@ blueprint:
   buttons:
   image: bookshop:elements/image
 
+settings:
+  section: 
+    layout:
+
 preview:
 
 _inputs:

@@ -1,0 +1,102 @@
+# -----------------------------------------------
+# BLOCKS 
+# -----------------------------------------------
+
+hero: &hero
+  section: &section
+    direction:
+    y:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment: &segment
+    direction:
+    x:
+    y:
+    size:
+    class:
+  buttons: &group
+    direction:
+    size:
+    class:
+  image:
+    position:
+    orientation:
+cta: *hero
+highlight: *hero
+content: *hero
+intro: *hero
+
+contact:
+  section: *section
+  segment: *segment
+  channels: *group
+
+offers: &offers_and_features
+  section: &section_vertical
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    size:
+    class:
+  deck: &deck
+    layout:
+    size:
+    class:
+
+features: *offers_and_features
+
+brands: &collection
+  section: *section_vertical
+  segment: *segment
+  deck: *deck
+
+categories: *collection
+employees: *collection
+posts: *collection
+products: *collection
+reviews: *collection
+services: *collection
+
+
+# -----------------------------------------------
+# BLOCKS INPUT SETTINGS
+# -----------------------------------------------
+# PRESET OPTIONS
+_inputs:
+  hero:
+    type: object
+    options:
+      structures:
+        - _structures.presets
+
+# PRESETS STRUCTURES
+_structures:
+  from_collection:
+    values:
+      - label: Carousel
+        value:
+          section:
+            layout: col
+            size: medium
+          deck:
+            layout: carousel
+      - label: Grid
+        value:
+          section:
+            layout: grid
+            size: medium
+          deck:
+            layout: carousel   
+

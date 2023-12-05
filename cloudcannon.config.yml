@@ -226,6 +226,33 @@ _inputs:
   prose:
     type: html
 
-data_config:
-  presets:
-    path: src/components/blocks/presets.yml
+# -----------------------------------------------
+# Design inputs
+# -----------------------------------------------
+
+  hue:
+    type: choice
+    options:
+      values:
+        - base
+        - brand
+        - accent
+  scheme:
+    type: choice
+    options:
+      values:
+        - light
+        - dark
+  size:
+    type: choice
+    options:
+      values:
+        - small
+        - medium
+        - large
+  class:
+    type: textarea
+
+# data_config:
+#   presets:
+#     path: src/components/blocks/presets.yml
