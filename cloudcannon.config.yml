@@ -123,13 +123,18 @@ collections_config:
     # disable_add_folder: true
     # disable_add: true
     # disable_file_actions: true
-    schemas: 
+    schemas:
+      remove_extra_inputs: true
+      remove_empty_inputs: true
       theme: 
         path: schemas/data/theme.yml
       components: 
         path: schemas/data/components.yml
         remove_extra_inputs: true
         remove_empty_inputs: true
+        options:
+          remove_extra_inputs: true
+          remove_empty_inputs: true
       company: 
         path: schemas/data/company.yml
 
