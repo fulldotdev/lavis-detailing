@@ -4,9 +4,18 @@ spec:
   label: Button
 
 blueprint:
+  importance:
   label:
   href:
 
 preview:
 
 _inputs:
+  importance:
+    type: choice
+    options:  
+      - 1
+      - 2
+      - 3
+
+#

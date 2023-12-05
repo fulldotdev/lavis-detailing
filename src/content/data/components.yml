@@ -1,9 +1,12 @@
 _schema: components
 elements:
   button:
-    - look:
+    1: &button
+      look:
       hue:
-      class: test123232
+      class:
+    2: *button
+    3: *button
   channel:
     look:
     hue:

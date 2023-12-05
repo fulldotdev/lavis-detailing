@@ -3,9 +3,12 @@
 # -----------------------------------------------
 elements:
   button: &button
-    - look:
+    1: &button
+      look:
       hue:
       class:
+    2: *button
+    3: *button
 
   channel: &channel
     look:
