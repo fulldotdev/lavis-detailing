@@ -1,35 +1,31 @@
 _schema: theme
 colors:
   base: sand
-  brand: amber
-  accent: amber
-  scheme: dark
-  texture: translucent
+  brand: orange
+  accent: orange
+  scheme: light
+  texture: solid
   contrast: false
 fonts:
   heading:
-    family: Bakbak One
-    weight: 400
+    family: Open Sans
+    weight: 700
     italic: false
-    className: uppercase
   subheading:
     family: Open Sans
-    weight: 500
+    weight: 600
     italic: false
-    className:
   text:
     family: Open Sans
     weight: 400
     italic: false
-    className:
   button:
     family: Open Sans
     weight: 500
     italic: false
-    className:
 sizes:
   scale: 1
-  rounded: tiny
+  rounded: medium
 _inputs:
   colors.base:
     type: select
