@@ -8,7 +8,6 @@ blueprint:
   buttons:
   features:
     - writeup:
-      specs: 
       buttons: 
 
 preview:
