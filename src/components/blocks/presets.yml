@@ -1,8 +1,6 @@
-- layout: row
-  order: reverse
-- layout: col
-  order: switch
-- layout: row
-  order: reverse
+primary:
+  layout: row
+secondary:
+  layout: col
 
 #
