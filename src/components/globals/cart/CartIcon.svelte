@@ -41,4 +41,3 @@
   {/if}
   <i class="icon:shopping-cart z-0 block"></i>
 </button>
-${$totalPrice}

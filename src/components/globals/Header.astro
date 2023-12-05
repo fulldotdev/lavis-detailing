@@ -37,9 +37,6 @@ const variant = cva({
 })
 ---
 
-_stripe_product_id: jsjnfkjsdhf
-<CartIcon client:load />
-
 <header class={variant(settings.header)}>
   <Logo />
   <Links
@@ -51,14 +48,12 @@ _stripe_product_id: jsjnfkjsdhf
     buttons={header.data.buttons}
   />
   <CartIcon client:load />
-  <div class="gap-size3 flex items-center">
-    <label
-      class="w-1.4em h-1.4em flex cursor-pointer lg:hidden"
-      for="header-toggle"
-    >
-      <i class="icon:menu peer-checked:icon:x h-full w-full"></i>
-    </label>
-  </div>
+  <label
+    class="w-1.4em h-1.4em flex cursor-pointer lg:hidden"
+    for="header-toggle"
+  >
+    <i class="icon:menu peer-checked:icon:x h-full w-full"></i>
+  </label>
   <input
     id="header-toggle"
     class="peer hidden"

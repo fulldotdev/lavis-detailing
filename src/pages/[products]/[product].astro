@@ -43,7 +43,7 @@ const data = Astro.props.frontmatter
     layout="row"
     y="start"
   >
-    <GalleryScroll class="col-span-3">
+    <GalleryScroll class="col-span-2">
       {data.images?.map((image: any) => <Image {...image} />)}
     </GalleryScroll>
     <Segment>
