@@ -8,7 +8,7 @@ export type ButtonProps = Props
 interface Props {
   label: string | null
   href: HTMLAttributes<'a'>['href']
-  importance: 1 | 2 | 3
+  importance?: 1 | 2 | 3
 }
 
 const variant = cva({
