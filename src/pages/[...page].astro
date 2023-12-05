@@ -16,9 +16,9 @@ export async function getStaticPaths() {
   }))
 }
 
-const entry = Astro.props.frontmatter
+const data = Astro.props.frontmatter
 ---
 
 <Layout>
-  <RenderBlocks blocks={entry.blocks} />
+  <RenderBlocks blocks={data.content_blocks} />
 </Layout>
