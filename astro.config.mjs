@@ -1,5 +1,6 @@
 import sitemap from '@astrojs/sitemap'
 import svelte from '@astrojs/svelte'
+import bookshop from '@bookshop/astro-bookshop'
 import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
 
@@ -14,7 +15,7 @@ export default defineConfig({
     sitemap(),
     // prefetch(), // can be done with default config, no integration
     robotsTxt(),
-    // bookshop(),
+    bookshop(),
     UnoCSS({
       injectReset: true,
     }),
