@@ -36,6 +36,8 @@ const {
   writeup = {},
   buttons = [],
   image = {},
+  channels = false,
+  socials = false,
   // prose = {},
   form = {},
   deck = {},
@@ -46,9 +48,9 @@ const {
 <Section {...section}>
   <Segment {...segment}>
     <Writeup set:html={writeup} />
-    <Buttons {buttons} />
-    <Channels />
-    <Socials />
+    <Buttons buttons={buttons} />
+    <Channels {channels} />
+    <Socials {socials} />
   </Segment>
   <Image {...image} />
   <!-- <Prose set:html={prose} /> -->

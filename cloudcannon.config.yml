@@ -128,6 +128,8 @@ collections_config:
     schemas: 
       theme: 
         path: schemas/data/theme.yml
+        remove_extra_inputs: true
+        remove_empty_inputs: true
       components: 
         path: schemas/data/components.yml
       company: 

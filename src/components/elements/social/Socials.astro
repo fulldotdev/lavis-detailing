@@ -3,7 +3,11 @@ import Group from '@components/wrappers/Group.astro'
 import { getEntry } from 'astro:content'
 import Social from './Social.astro'
 
-interface Props {}
+interface Props {
+  socials?: boolean
+}
+
+const { socials } = Astro.props
 
 const company = await getEntry('data', 'company')
 const keys = Object.keys(company.data.socials)
@@ -11,5 +15,5 @@ const filteredKeys = keys.filter((key) => company.data.socials[key])
 ---
 
 <Group layout="row">
-  {filteredKeys.map((key: any) => <Social {key} />)}
+  {socials && filteredKeys.map((key: any) => <Social {key} />)}
 </Group>
