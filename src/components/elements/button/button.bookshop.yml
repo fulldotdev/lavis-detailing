@@ -5,6 +5,7 @@ spec:
 
 blueprint:
   importance:
+  importance2:
   label:
   href:
 
@@ -13,9 +14,16 @@ preview:
 _inputs:
   importance:
     type: choice
-    options:  
-      - 1
-      - 2
-      - 3
-
+    options:
+      values:
+        - 1
+        - 2
+        - 3
+  importance2:
+    type: choice
+    options:
+      values:
+        - '1'
+        - '2'
+        - '3'
 #
