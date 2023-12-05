@@ -25,6 +25,7 @@ collection_groups:
       - forms
       - policies
       - data
+      - blocks
 
 # -----------------------------------------------
 # Collection configuration
@@ -163,7 +164,6 @@ collections_config:
     schemas: 
       default: 
         path: schemas/forms.md
-
 
   blocks:
     path: src/components/blocks
