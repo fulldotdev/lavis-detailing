@@ -1,11 +1,5 @@
-primary:
-  value: value
-  name: name
-  title: title
-  layout: row
-secondary:
-  layout: col
-  value: value
-  name: name
-  title: title
-#
+- title: myttitle
+  layout: default
+- title: secondtitle
+  layout: default
+  
