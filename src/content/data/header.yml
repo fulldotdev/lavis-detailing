@@ -1,3 +1,12 @@
 _schema: header
 links:
+  - _bookshop_name: elements/link
+    label: Home
+    href: /
+  - _bookshop_name: elements/link
+    label: Producten
+    href: /producten
+  - _bookshop_name: elements/link
+    label: Contact
+    href: /contact
 buttons:
