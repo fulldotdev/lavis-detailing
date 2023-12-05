@@ -13,7 +13,7 @@ const { buttons, ...restProps } = Astro.props
 
 <Group {...restProps}>
   {
-    buttons?.map((button) => (
+    buttons?.map((button, i) => (
       <Button
         {...restProps}
         {...button}
