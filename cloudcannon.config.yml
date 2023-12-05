@@ -8,25 +8,23 @@ paths:
 # -----------------------------------------------
 
 collection_groups:
-  - heading: Pagina's
+  - heading: Content
     collections:
       - pages
       - services
       - posts
-      - policies
   - heading: Producten
     collections:
       - products
       - categories
       - brands
-  - heading: Data
+  - heading: Overig
     collections:
       - reviews
       - employees
       - forms
+      - policies
       - data
-      - footer
-      - header
 
 # -----------------------------------------------
 # Collection configuration
