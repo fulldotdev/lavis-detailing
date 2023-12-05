@@ -1,21 +1,22 @@
----
-_stripe_product_id: 
-_stripe_price_id: 
+--- 
+
+_stripe_product_id: id5
+_stripe_price_id: id4
 
 seo:
-  title: title 
+  title: title
   description: description
   image:
     src: 
     alt: 
-    
 title: title
-description: title 
+description: title
 images:
   - src: 
-    alt: 
-price: 1934 
+    alt:
+price: 1934
 categories:
   - 
-brand: 
+brand:
+
 ---
