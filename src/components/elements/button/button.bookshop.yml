@@ -4,8 +4,7 @@ spec:
   label: Button
 
 blueprint:
-  importance:
-  importance2:
+  importance: 1
   label:
   href:
 
@@ -19,11 +18,4 @@ _inputs:
         - 1
         - 2
         - 3
-  importance2:
-    type: choice
-    options:
-      values:
-        - '1'
-        - '2'
-        - '3'
 #
