@@ -3,7 +3,7 @@ elements:
   button:
     - look: solid
       hue: brand
-      class:
+      class: checkschema
     - look: outline
       hue: brand
       class:
@@ -665,6 +665,13 @@ _inputs:
         - float
         - panel
         - screen
+  order:
+    type: choice
+    options:
+      values:
+        - normal
+        - reverse
+        - switch
   x:
     type: choice
     options:
