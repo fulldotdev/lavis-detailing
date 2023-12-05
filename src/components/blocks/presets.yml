@@ -1,5 +1,8 @@
-- First
-- Second
-- Third
+- layout: row
+  order: reverse
+- layout: col
+  order: switch
+- layout: row
+  order: reverse
 
 #
