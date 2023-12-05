@@ -4,7 +4,7 @@ elements:
     - look: solid
       hue: brand
       class:
-    - look: soft
+    - look: outline
       hue: brand
       class:
   channel:
@@ -33,6 +33,7 @@ elements:
     class:
   form:
     class:
+  logo: {}
 cards:
   offers:
     card:
@@ -214,33 +215,6 @@ blocks:
     social: {}
     form:
       class:
-  hero:
-    section:
-      layout: row
-      frame: fill
-      look: ghost
-      hue:
-      scheme:
-      size: large
-      class:
-    segment:
-      layout: col
-      x: between
-      'y': center
-      size:
-      class: border-b border-hue6 pb-size5
-    writeup:
-      class: '[&_h1]:lg:text-80px  [&_p]:text-hue12 !max-w-none'
-    group:
-      layout: row
-      x:
-      'y':
-      size:
-      class:
-    buttons: []
-    image:
-      position: background
-      class: mask
   cta:
     section:
       frame:
@@ -268,6 +242,36 @@ blocks:
         scheme:
         class:
     image:
+      class:
+  hero:
+    section:
+      layout: col
+      frame: fill
+      look: ghost
+      hue:
+      scheme:
+      size: large
+      class:
+    segment:
+      layout: row
+      x: between
+      'y': center
+      size:
+      class:
+    writeup:
+      class: '[&_p:first-child]:hue-brand'
+    group:
+      layout: row
+      x:
+      'y':
+      size:
+      class:
+    buttons:
+      - _bookshop_name: elements/button
+        label:
+        href:
+    image:
+      position: relative
       class:
   content:
     section:
@@ -570,21 +574,47 @@ blocks:
       layout:
       size:
       class:
-globals: 
-  footer: 
-    footer: 
-      frame: 
+globals:
+  footer:
+    footer:
+      frame:
       look:
       size:
       hue:
       scheme:
-  header: 
-    header: 
-      frame: 
+    list: {}
+    link: {}
+    group: {}
+    button:
+      - look:
+        hue:
+        class:
+    channel: {}
+  header:
+    header:
+      frame:
       look:
       size:
       hue:
       scheme:
+    logo: {}
+    list: {}
+    link: {}
+    group: {}
+    button:
+      - look:
+        hue:
+        class:
+  cta:
+    section: {}
+    segment: {}
+    writeup: {}
+    group: {}
+    buttons:
+      - look:
+        hue:
+        class:
+    image: {}
 _inputs:
   layout:
     type: choice
