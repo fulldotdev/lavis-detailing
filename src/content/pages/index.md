@@ -8,7 +8,7 @@ seo:
     alt:
 content_blocks:
   - _bookshop_name: blocks/hero
-    writeup: <p>Hello wolrd</p>
+    writeup: <h1>Hello world</h1><p>Hello there</p>
     buttons:
     image:
       _bookshop_name: elements/image
