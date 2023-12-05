@@ -3,7 +3,7 @@ elements:
   button:
     - look: solid
       hue: brand
-      class: checkschema
+      class: checkschemaa
     - look: outline
       hue: brand
       class:
