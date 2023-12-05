@@ -5,6 +5,4 @@ seo:
   image:
     src: 
     alt:
-    
-blocks: 
 ---
