@@ -19,7 +19,6 @@ export default function preset({
   text,
   button,
 }: any): Preset {
-  console.log(heading)
   return {
     name: 'unocss-preset-fonts',
     presets: [
