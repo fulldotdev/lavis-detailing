@@ -12,7 +12,7 @@ elements:
     hue:
     class:
 
-  social:
+  social: &social
     look:
     hue:
     class:
