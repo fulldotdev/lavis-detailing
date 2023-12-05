@@ -1,6 +1,6 @@
 spec:
   structures:
-    - blocks
+    - content_blocks
   label: Cta
 
 blueprint:
