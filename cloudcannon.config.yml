@@ -221,4 +221,4 @@ _inputs:
 
 data_config:
   presets:
-    path: src/components/blocks/preset.yml
+    path: src/components/blocks/presets.yml
