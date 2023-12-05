@@ -1,22 +1,19 @@
---- 
-
-_stripe_product_id: id5
-_stripe_price_id: id4
-
+---
+_stripe_product_id: prod_P8EPXPYNiQBAbA
+_stripe_price_id: price_1OJxwPAtGAMIOG90qN5tIZMh
 seo:
   title: title
-  description: description
+  description: Info
   image:
-    src: 
-    alt: 
-title: title
+    src: null
+    alt: null
+title: coolerTitle
 description: title
 images:
-  - src: 
-    alt:
-price: 1934
+  - src: null
+    alt: null
+price: 1534
 categories:
-  - 
-brand:
-
+  - null
+brand: null
 ---

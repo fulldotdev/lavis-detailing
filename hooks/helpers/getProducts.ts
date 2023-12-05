@@ -13,7 +13,7 @@ const dirPath = path.resolve(__dirname, '../../src/content/products')
 let contentArray: any[] = []
 
 fs.readdirSync(dirPath).map((file) => {
-  const frontMatter = readFrontmatter('../../src/content/products/file')
+  const frontMatter = readFrontmatter(`${dirPath}/${file}`)
 
   contentArray.push({ ...(frontMatter || {}), file: file })
 })

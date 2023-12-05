@@ -2,12 +2,15 @@ import fs from 'fs'
 import yaml from 'js-yaml'
 import path from 'path'
 
-export default (relativePath: string) => {
+export default (absolutePath: string) => {
   try {
-    const absolutePath = path.join(__dirname, relativePath)
+    console.log(absolutePath)
     const file = fs.readFileSync(absolutePath, 'utf8')
-    const frontmatter = file.match(/---\n(.*)\n---/)?.[1]
-    if (!frontmatter) return
+
+    const regex = /(?<=---)[\s\S]*?(?=---)/
+    const frontmatter = file.match(regex)?.[0]
+
+    if (!frontmatter) return null
     return yaml.load(frontmatter)
   } catch (e) {
     return
