@@ -1,6 +1,11 @@
 primary:
+  value: value
+  name: name
+  title: title
   layout: row
 secondary:
   layout: col
-
+  value: value
+  name: name
+  title: title
 #
