@@ -17,7 +17,7 @@
 <button
   on:click={checkout}
   disabled={$cart.length <= 0}
-  class="button hue-brand look-solid size-large w-full !text-black"
+  class="button hue-brand look-solid size-medium mode-base w-full !text-black"
 >
   Verder naar bestellen
   <i class="icon:credit-card block"></i>

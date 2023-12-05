@@ -5,14 +5,11 @@
   function toggleCart() {
     $cartIsOpen = !$cartIsOpen
   }
-
-  console.log($cart)
 </script>
 
 <div class="divide-hue6 px-size5 divide-y overflow-y-auto">
   {#if $cart && $cart.length > 0}
     {#each $cart as data}
-      console.log(data)
       <CartListCard {data} />
     {/each}
   {:else}

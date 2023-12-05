@@ -135,6 +135,7 @@ blocks:
     section: &section
       layout:
       frame:
+      order:
       look:
       hue:
       scheme:
@@ -288,6 +289,13 @@ _inputs:
         - float
         - panel
         - screen
+  order:
+    type: choice
+    options:
+      values:
+        - normal
+        - reverse
+        - switch
   x:
     type: choice
     options:
