@@ -7,10 +7,9 @@
     const index = $cart.findIndex(
       (item) => item?.stripePriceId == data.stripePriceId
     )
-    cart.update(($cart) => {
-      $cart.splice(index, 1)
-      return $cart
-    })
+    const cartCopy = [...$cart]
+    cartCopy.splice(index, 1)
+    cart.set(cartCopy)
   }
 </script>
 

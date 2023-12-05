@@ -48,9 +48,6 @@ quantity: {JSON.stringify(inputQuantity)}
 items: {JSON.stringify(totalItems)}
 items: {JSON.stringify(totalItems)}
 
-<!-- <br />
-quantity: {JSON.stringify(quantity)} -->
-
 {#if !inputQuantity || inputQuantity <= 0}
   <button
     class="button hue-brand look-solid !text-black"
@@ -76,7 +73,7 @@ quantity: {JSON.stringify(quantity)} -->
       min="1"
       step="1"
       value={inputQuantity}
-      on:change={handleInput}
+      on:input={handleInput}
       class="input bg-hue3 hover:bg-hue4 active:bg-hue5 text-center focus:outline-none"
     />
     <button

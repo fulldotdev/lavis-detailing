@@ -31,10 +31,13 @@ const collection = await getCollection('products')
 const data = Astro.props.frontmatter
 ---
 
-<CartUpdateButton
-  data={data}
-  client:only
-/>
+<div class="hidden">
+  <CartUpdateButton
+    data={data}
+    client:load
+  />
+</div>
+
 <LayoutNav>
   <Section
     layout="row"
