@@ -1,0 +1,104 @@
+# -----------------------------------------------
+# GLOBALS 
+# -----------------------------------------------
+
+header:
+  frame:
+  look:
+  size:
+  hue:
+  scheme:
+  class:
+
+cta:
+  section:
+    direction:
+    y:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    y:
+    size:
+    class:
+  buttons:
+    direction:
+    size:
+    class:
+  image:
+    position:
+    orientation:
+
+footer:
+  frame:
+  look:
+  size:
+  hue:
+  scheme:
+  class:
+
+# -----------------------------------------------
+# BLOCKS INPUT SETTINGS
+# -----------------------------------------------
+
+# PRESET OPTIONS
+_inputs:
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+  look:
+    type: choice
+    options:
+      values:
+        - ghost
+        - outline
+        - soft
+        - surface
+        - solid
+  section.x:
+    type: choice
+    options:
+      values:
+        - stretch
+        - center
+  section.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  section.frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
+  segment.x:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - between
+  segment.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+

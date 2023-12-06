@@ -18,14 +18,16 @@ collection_groups:
       - products
       - categories
       - brands
-  - heading: Overig
+  - heading: Data
     collections:
       - reviews
       - employees
       - forms
       - policies
-      - data
-      - blocks
+      - globals
+  - heading: Settings
+    collections:
+      - settings
 
 # -----------------------------------------------
 # Collection configuration
@@ -116,27 +118,6 @@ collections_config:
     schemas: 
       default: 
         path: schemas/policies.md
-        
-  data:
-    path: src/content/data
-    output: false
-    icon: 
-    # disable_add_folder: true
-    # disable_add: true
-    # disable_file_actions: true
-    schemas:
-      theme: 
-        path: schemas/data/theme.yml
-      elements: 
-        path: schemas/data/elements.yml
-      cards: 
-        path: schemas/data/cards.yml
-      blocks: 
-        path: schemas/data/blocks.yml
-      components: 
-        path: schemas/data/components.yml
-      company: 
-        path: schemas/data/company.yml
 
   reviews:
     path: src/content/reviews
@@ -170,6 +151,44 @@ collections_config:
     schemas: 
       default: 
         path: schemas/forms.md
+
+  globals:
+    path: src/content/settings
+    output: false
+    icon: 
+    # disable_add_folder: true
+    # disable_add: true
+    # disable_file_actions: true
+    schemas:
+      company: 
+        path: schemas/globals/company.yml
+      header: 
+        path: schemas/globals/header.yml
+      cta: 
+        path: schemas/globals/cta.yml
+      footer: 
+        path: schemas/globals/footer.yml
+
+  settings:
+    path: src/content/settings
+    output: false
+    icon: 
+    # disable_add_folder: true
+    # disable_add: true
+    # disable_file_actions: true
+    schemas:
+      theme: 
+        path: schemas/data/theme.yml
+      elements: 
+        path: schemas/data/elements.yml
+      cards: 
+        path: schemas/data/cards.yml
+      blocks: 
+        path: schemas/data/blocks.yml
+      globals: 
+        path: schemas/data/globals.yml
+      collections: 
+        path: schemas/data/collections.yml
         
 # -----------------------------------------------
 # Input customization

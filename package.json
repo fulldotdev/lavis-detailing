@@ -7,11 +7,7 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "schemas:zod": "yarn ts-to-zod ./schemas/test-schema.d.ts ./schemas/test-schema.ts",
-    "schemas:md": "npx vite-node ./schemas/zod-to-md.ts",
-    "schemasss": "yarn schemas:zod && yarn schemas:md",
-    "schemas": "npx vite-node ./schemas/utils/yaml-to-zod.ts"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",
