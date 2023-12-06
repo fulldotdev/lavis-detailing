@@ -127,6 +127,12 @@ collections_config:
     schemas:
       theme: 
         path: schemas/data/theme.yml
+      elements: 
+        path: schemas/data/elements.yml
+      cards: 
+        path: schemas/data/cards.yml
+      blocks: 
+        path: schemas/data/cards.yml
       components: 
         path: schemas/data/components.yml
       company: 
@@ -250,6 +256,32 @@ _inputs:
         - small
         - medium
         - large
+  direction:
+    type: choice
+    options:
+      values:
+        - col
+        - row
+  order:
+    type: choice
+    options:
+      values:
+        - switch
+        - reverse
+  image.position:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - cover
+  image.orientation:
+    type: choice
+    options:
+      values:
+        - square
+        - landscape
+        - portrait
   class:
     type: textarea
 

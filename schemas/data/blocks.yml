@@ -73,30 +73,51 @@ services: *collection
 # -----------------------------------------------
 # BLOCKS INPUT SETTINGS
 # -----------------------------------------------
+
 # PRESET OPTIONS
 _inputs:
-  hero:
-    type: object
+  section.x:
+    type: choice
     options:
-      structures:
-        - _structures.presets
-
-# PRESETS STRUCTURES
-_structures:
-  from_collection:
-    values:
-      - label: Carousel
-        value:
-          section:
-            layout: col
-            size: medium
-          deck:
-            layout: carousel
-      - label: Grid
-        value:
-          section:
-            layout: grid
-            size: medium
-          deck:
-            layout: carousel   
+      values:
+        - stretch
+        - center
+  section.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
+  look:
+    type: choice
+    options:
+      values:
+        - ghost
+        - outline
+        - soft
+        - surface
+        - solid
+  segment.x:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - between
+  segment.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
 
