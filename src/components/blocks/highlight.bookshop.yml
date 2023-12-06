@@ -1,14 +1,12 @@
 spec:
   structures:
     - content_blocks
-  label: Features
+  label: Highlight
 
 blueprint:
   writeup:
   buttons:
-  features:
-    - writeup:
-      buttons: 
+  image: bookshop:elements/image
 
 preview:
 

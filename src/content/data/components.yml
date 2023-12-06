@@ -1,12 +1,21 @@
 _schema: components
+presets:
+  - myttitle
+  - secondtitle
 elements:
   button:
-    1: &button
+    '1':
       look:
       hue:
       class:
-    2: *button
-    3: *button
+    '2':
+      look:
+      hue:
+      class:
+    '3':
+      look:
+      hue:
+      class:
   channel:
     look:
     hue:
@@ -56,9 +65,9 @@ cards:
     group:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
   brands:
     card:
       frame:
@@ -101,9 +110,9 @@ cards:
     group:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
   features:
     card:
       frame:
@@ -120,9 +129,9 @@ cards:
     group:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     icon:
       class:
   posts:
@@ -247,9 +256,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     image:
       position:
       class:
@@ -257,11 +266,11 @@ blocks:
     section:
       layout:
       frame:
-      order:
+      order: reverse
       look:
       hue:
       scheme:
-      size:
+      size: large
       class:
     segment:
       layout:
@@ -278,9 +287,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     image:
       position:
       class:
@@ -349,9 +358,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     deck:
       layout:
       size:
@@ -381,9 +390,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     deck:
       layout:
       size:
@@ -413,9 +422,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     deck:
       layout:
       size:
@@ -445,9 +454,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     deck:
       layout:
       size:
@@ -477,9 +486,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     deck:
       layout:
       size:
@@ -509,9 +518,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     deck:
       layout:
       size:
@@ -541,9 +550,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     deck:
       layout:
       size:
@@ -573,9 +582,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     deck:
       layout:
       size:
@@ -605,9 +614,9 @@ blocks:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     deck:
       layout:
       size:
@@ -633,9 +642,9 @@ globals:
       size:
       class:
     button:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     channel:
       look:
       hue:
@@ -662,9 +671,9 @@ globals:
       size:
       class:
     button:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
   cta:
     section:
       layout:
@@ -690,13 +699,21 @@ globals:
       size:
       class:
     buttons:
-      - look:
-        hue:
-        class:
+      '1': {}
+      '2': {}
+      '3': {}
     image:
       position:
       class:
 _inputs:
+  items:
+    type: multiselect
+    options:
+      values: _select_data.inventory
+      value_key: key
+      preview:
+        text:
+          - key: display_name
   layout:
     type: choice
     options:
@@ -706,6 +723,10 @@ _inputs:
         - grid
         - masonry
         - carousel
+    preview:
+      image:
+        - key: upload/img.jpeg
+        - upload/img.jpeg
   hue:
     type: choice
     options:

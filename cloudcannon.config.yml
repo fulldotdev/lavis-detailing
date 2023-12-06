@@ -25,6 +25,7 @@ collection_groups:
       - forms
       - policies
       - data
+      - blocks
 
 # -----------------------------------------------
 # Collection configuration
@@ -126,6 +127,12 @@ collections_config:
     schemas:
       theme: 
         path: schemas/data/theme.yml
+      elements: 
+        path: schemas/data/elements.yml
+      cards: 
+        path: schemas/data/cards.yml
+      blocks: 
+        path: schemas/data/blocks.yml
       components: 
         path: schemas/data/components.yml
       company: 
@@ -218,3 +225,60 @@ _inputs:
 
   prose:
     type: html
+
+# -----------------------------------------------
+# Design inputs
+# -----------------------------------------------
+
+  hue:
+    type: choice
+    options:
+      values:
+        - base
+        - brand
+        - accent
+  scheme:
+    type: choice
+    options:
+      values:
+        - light
+        - dark
+  size:
+    type: choice
+    options:
+      values:
+        - small
+        - medium
+        - large
+  direction:
+    type: choice
+    options:
+      values:
+        - col
+        - row
+  order:
+    type: choice
+    options:
+      values:
+        - switch
+        - reverse
+  image.position:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - cover
+  image.orientation:
+    type: choice
+    options:
+      values:
+        - square
+        - landscape
+        - portrait
+  class:
+    type: textarea
+
+# data_config:
+#   presets:
+#     path: src/components/blocks/presets.yml

@@ -3,14 +3,13 @@ import Logo from '@components/elements/Logo.astro'
 import Buttons from '@components/elements/button/Buttons.astro'
 import Links from '@components/elements/link/Links.astro'
 import CartIcon from '@components/globals/cart/CartIcon.svelte'
+import Group from '@components/wrappers/Group.astro'
 import Segment from '@components/wrappers/Segment.astro'
-import { getGlobalSettings } from '@utils'
 import { hue, scheme, size } from '@variants'
 import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
 const header = await getEntry('data', 'header')
-const settings = await getGlobalSettings('header')
 
 const variant = cva({
   base: 'header mode-compact size-medium gap-size5 z-80 flex items-center !sticky top-0 justify-between backdrop-blur-3xl',
@@ -37,23 +36,31 @@ const variant = cva({
 })
 ---
 
-<header class={variant(settings.header)}>
+<div class="hidden">
+  <CartIcon client:load />
+</div>
+<header class={variant()}>
   <Logo />
   <Links
+    class:list="ml-auto"
     layout="row"
-    links={header.data.link}
+    links={header.data.links}
   />
   <Buttons
-    layout="row"
+    direction="row"
     buttons={header.data.buttons}
   />
   <CartIcon client:load />
-  <label
-    class="w-1.4em h-1.4em flex cursor-pointer lg:hidden"
-    for="header-toggle"
-  >
-    <i class="icon:menu peer-checked:icon:x h-full w-full"></i>
-  </label>
+  <Group direction="row">
+    <label
+      class="button look-soft flex cursor-pointer lg:hidden"
+      for="header-toggle"
+    >
+      <i
+        class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block"
+      ></i>
+    </label>
+  </Group>
   <input
     id="header-toggle"
     class="peer hidden"
@@ -68,7 +75,7 @@ const variant = cva({
       links={header.data.link}
     />
     <Buttons
-      layout="col"
+      direction="col"
       buttons={header.data.buttons}
     />
   </Segment>

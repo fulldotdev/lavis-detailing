@@ -34,10 +34,10 @@
 >
   {#if $totalItems}
     <p
-      class="text mode-compact size-small hue-brand bg-hue3 absolute left-6 top-4 z-10 rounded-full bg-opacity-50 p-1"
+      class="text-size1 hue-brand bg-hue3 absolute right-3/4 top-4 z-10 rounded-full bg-opacity-50 p-1"
     >
       {$totalItems > 9 ? '9+' : $totalItems}
     </p>
   {/if}
-  <i class="icon:shopping-cart z-0 block"></i>
+  <i class="icon:shopping-cart text-size2 h-1.4em w-1.4em z-0 block"></i>
 </button>

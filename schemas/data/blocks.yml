@@ -1,0 +1,123 @@
+# -----------------------------------------------
+# BLOCKS 
+# -----------------------------------------------
+
+hero: &hero
+  section: &section
+    direction:
+    y:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment: &segment
+    direction:
+    x:
+    y:
+    size:
+    class:
+  buttons: &group
+    direction:
+    size:
+    class:
+  image:
+    position:
+    orientation:
+cta: *hero
+highlight: *hero
+content: *hero
+intro: *hero
+
+contact:
+  section: *section
+  segment: *segment
+  channels: *group
+
+offers: &offers_and_features
+  section: &section_vertical
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    size:
+    class:
+  deck: &deck
+    layout:
+    size:
+    class:
+
+features: *offers_and_features
+
+brands: &collection
+  section: *section_vertical
+  segment: *segment
+  deck: *deck
+
+categories: *collection
+employees: *collection
+posts: *collection
+products: *collection
+reviews: *collection
+services: *collection
+
+
+# -----------------------------------------------
+# BLOCKS INPUT SETTINGS
+# -----------------------------------------------
+
+# PRESET OPTIONS
+_inputs:
+  section.x:
+    type: choice
+    options:
+      values:
+        - stretch
+        - center
+  section.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
+  look:
+    type: choice
+    options:
+      values:
+        - ghost
+        - outline
+        - soft
+        - surface
+        - solid
+  segment.x:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - between
+  segment.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+

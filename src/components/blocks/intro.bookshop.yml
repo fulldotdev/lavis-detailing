@@ -1,11 +1,10 @@
 spec:
   structures:
     - content_blocks
-  label: Banner
+  label: Intro
 
 blueprint:
   writeup:
-  image: bookshop:elements/image
 
 preview:
 

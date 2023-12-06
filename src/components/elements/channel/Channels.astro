@@ -14,6 +14,6 @@ const keys = Object.keys(company.data.channels)
 const filteredKeys = keys.filter((key) => company.data.channels[key])
 ---
 
-<Group layout="col">
+<Group direction="col">
   {channels && filteredKeys.map((key: any) => <Channel {key} />)}
 </Group>

@@ -1,3 +1,4 @@
+presets:
 # -----------------------------------------------
 # ELEMENTS 
 # -----------------------------------------------
@@ -245,7 +246,17 @@ globals:
 # -----------------------------------------------
 # Inputs configuration
 # -----------------------------------------------
+
 _inputs:
+  items:
+    type: multiselect
+    options:
+      values: _select_data.inventory
+      value_key: key
+      preview:
+        text:
+          - key: display_name
+
   layout:
       type: choice
       options:
@@ -255,6 +266,11 @@ _inputs:
           - grid
           - masonry
           - carousel
+      preview:
+        image:
+          - key: upload/img.jpeg
+          - upload/img.jpeg
+        
   hue:
     type: choice
     options:

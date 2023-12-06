@@ -1,0 +1,52 @@
+_schema: elements
+button:
+  '1':
+    look: solid
+    hue: brand
+    class:
+  '2':
+    look: outline
+    hue: brand
+    class:
+  '3':
+    look: ghost
+    hue: brand
+    class:
+channel:
+  look: outline
+  hue: brand
+  class:
+social:
+  look: soft
+  hue: brand
+  class:
+link:
+  class:
+image:
+  class:
+writeup:
+  class:
+prose:
+  class:
+spec:
+  class:
+rating:
+  class:
+person:
+  class:
+icon:
+  class:
+form:
+  class:
+logo:
+  class:
+_inputs:
+  look:
+    type: choice
+    options:
+      values:
+        - solid
+        - surface
+        - soft
+        - outline
+        - ghost
