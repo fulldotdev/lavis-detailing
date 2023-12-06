@@ -1,0 +1,92 @@
+_schema: globals
+header:
+  frame:
+  look:
+  size:
+  hue:
+  scheme:
+  class:
+cta:
+  section:
+    direction:
+    'y':
+    x:
+    frame: panel
+    look: solid
+    order:
+    size:
+    hue: brand
+    scheme:
+    class:
+  segment:
+    direction: row
+    x: between
+    'y': center
+    size:
+    class:
+  buttons:
+    direction: col
+    size:
+    class:
+  image:
+    position:
+    orientation:
+footer:
+  frame:
+  look:
+  size:
+  hue:
+  scheme:
+  class:
+_inputs:
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+  look:
+    type: choice
+    options:
+      values:
+        - ghost
+        - outline
+        - soft
+        - surface
+        - solid
+  section.x:
+    type: choice
+    options:
+      values:
+        - stretch
+        - center
+  section.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  section.frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
+  segment.x:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - between
+  segment.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
