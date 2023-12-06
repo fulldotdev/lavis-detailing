@@ -5,6 +5,7 @@ import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
 
 import UnoCSS from 'unocss/astro'
+import stripeProducts from './hooks/stripeProducts'
 
 export default defineConfig({
   output: 'static',
@@ -20,6 +21,7 @@ export default defineConfig({
       injectReset: true,
     }),
 
+    stripeProducts,
     // alpine(),
     // favicons({
     //   masterPicture: './public/favicon.svg',
