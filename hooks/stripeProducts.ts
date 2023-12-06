@@ -1,13 +1,10 @@
-import Stripe from 'stripe'
-import { loadEnv } from 'vite'
-import getProducts from './helpers/getProducts'
 import fs from 'fs'
-import fm from 'front-matter'
 import path, { dirname } from 'path'
+import Stripe from 'stripe'
 import { fileURLToPath } from 'url'
-import yaml from 'js-yaml'
-import { readFrontmatter } from '../src/utils'
-import { writeFrontmatter } from '../src/utils'
+import { loadEnv } from 'vite'
+import { readFrontmatter, writeFrontmatter } from '../src/utils'
+import getProducts from './helpers/getProducts'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)

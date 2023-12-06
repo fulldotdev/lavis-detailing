@@ -38,7 +38,7 @@ const data = Astro.props.frontmatter
 
 <LayoutNav>
   <Section
-    layout="row"
+    direction="row"
     y="start"
   >
     <GalleryScroll class="col-span-2">
@@ -63,7 +63,7 @@ const data = Astro.props.frontmatter
     <Prose set:html={data.render()} />
   </Section> -->
   <Section
-    layout="col"
+    direction="col"
     size="medium"
   >
     <h2 class="heading">Meer producten</h2>

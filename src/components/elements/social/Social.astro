@@ -1,6 +1,7 @@
 ---
 import { getElementSettings } from '@utils'
 import { look } from '@variants'
+import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
 interface Props {
@@ -15,7 +16,7 @@ const variant = cva({
 })
 
 const settings = await getElementSettings('social')
-const company = await getElementSettings('company')
+const company = await getEntry('data', 'company')
 
 const map = {
   facebook: {

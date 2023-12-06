@@ -5,13 +5,11 @@ import Links from '@components/elements/link/Links.astro'
 import CartIcon from '@components/globals/cart/CartIcon.svelte'
 import Group from '@components/wrappers/Group.astro'
 import Segment from '@components/wrappers/Segment.astro'
-import { getGlobalSettings } from '@utils'
 import { hue, scheme, size } from '@variants'
 import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
 const header = await getEntry('data', 'header')
-const settings = await getGlobalSettings('header')
 
 const variant = cva({
   base: 'header mode-compact size-medium gap-size5 z-80 flex items-center !sticky top-0 justify-between backdrop-blur-3xl',
@@ -41,7 +39,7 @@ const variant = cva({
 <div class="hidden">
   <CartIcon client:load />
 </div>
-<header class={variant(settings.header)}>
+<header class={variant()}>
   <Logo />
   <Links
     class:list="ml-auto"
@@ -49,11 +47,11 @@ const variant = cva({
     links={header.data.links}
   />
   <Buttons
-    layout="row"
+    direction="row"
     buttons={header.data.buttons}
   />
   <CartIcon client:load />
-  <Group layout="row">
+  <Group direction="row">
     <label
       class="button look-soft flex cursor-pointer lg:hidden"
       for="header-toggle"
@@ -77,7 +75,7 @@ const variant = cva({
       links={header.data.link}
     />
     <Buttons
-      layout="col"
+      direction="col"
       buttons={header.data.buttons}
     />
   </Segment>

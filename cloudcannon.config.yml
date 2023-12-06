@@ -170,12 +170,6 @@ collections_config:
     schemas: 
       default: 
         path: schemas/forms.md
-
-  blocks:
-    path: src/components/blocks
-    output: false
-    _enabled_editors:
-      - data
         
 # -----------------------------------------------
 # Input customization

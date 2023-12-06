@@ -1,7 +1,5 @@
-import fm from 'front-matter'
 import fs from 'fs'
 import path, { dirname } from 'path'
-import yaml from 'js-yaml'
 import { fileURLToPath } from 'url'
 import { readFrontmatter } from '../../src/utils'
 
