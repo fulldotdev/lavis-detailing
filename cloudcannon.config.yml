@@ -132,7 +132,7 @@ collections_config:
       cards: 
         path: schemas/data/cards.yml
       blocks: 
-        path: schemas/data/cards.yml
+        path: schemas/data/blocks.yml
       components: 
         path: schemas/data/components.yml
       company: 
