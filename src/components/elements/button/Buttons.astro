@@ -9,14 +9,17 @@ type Props = GroupProps &
     importance?: 'primary' | 'secondary' | 'tertiary'
   }
 
-const { buttons, importance = 'primary', ...restProps } = Astro.props
+let { buttons, importance = 'primary', ...restProps } = Astro.props
 
+console.log('buttons', importance)
 const getImportance = (i: number) => {
+  if (!importance) importance = 'primary'
   if (i === 0) return importance
   if (i === 1 && importance === 'primary') return 'secondary'
   if (i === 1 && importance === 'secondary') return 'tertiary'
   if (i === 1 && importance === 'tertiary') return 'tertiary'
   if (i === 2) return 'tertiary'
+  else return 'tertiary'
 }
 ---
 

@@ -29,6 +29,7 @@ cta:
     size:
     class:
   buttons:
+    importance:
     direction:
     size:
     class:
@@ -101,4 +102,12 @@ _inputs:
         - start
         - center
         - end
+  buttons.importance:
+    type: choice
+    options:
+      values:
+        - primary
+        - secondary
+        - tertiary
+
 

@@ -13,9 +13,8 @@ content_blocks:
       composiet eenvoudig antislip maken!</h1>
     buttons:
       - _bookshop_name: elements/button
-        importance: 1
-        label:
-        href:
+        label: Bekijk producten
+        href: /producten
     image:
       _bookshop_name: elements/image
       src: /uploads/screenshot-2023-12-05-at-12-42-25.png
@@ -50,11 +49,9 @@ content_blocks:
       terrassen, bruggen en steigers.</p>
     buttons:
       - _bookshop_name: elements/button
-        importance: 1
         label: Proefpakket
         href:
       - _bookshop_name: elements/button
-        importance: 1
         label: Bekijk product
         href:
     image:
@@ -69,11 +66,9 @@ content_blocks:
       Ook dit product wordt zonder kit, lijm of schroeven gemonteerd!</p>
     buttons:
       - _bookshop_name: elements/button
-        importance: 1
         label: Proefpakket
         href:
       - _bookshop_name: elements/button
-        importance: 1
         label: Bekijk product
         href:
     image:
@@ -84,7 +79,6 @@ content_blocks:
     writeup: <h2>Welk type profiel heeft u nodig voor uw vlonder?</h2>
     buttons:
       - _bookshop_name: elements/button
-        importance: 1
         label: Bekijk inmeetinstructies
         href:
     image:

@@ -44,6 +44,7 @@ cta:
     class:
   buttons:
     direction:
+    importance: secondary
     size:
     class:
   image:

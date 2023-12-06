@@ -48,7 +48,10 @@ const {
 <Section {...section}>
   <Segment {...segment}>
     <Writeup set:html={writeup} />
-    <Buttons {buttons} />
+    <Buttons
+      {buttons}
+      {...settings.buttons}
+    />
     <Channels {channels} />
     <Socials {socials} />
   </Segment>

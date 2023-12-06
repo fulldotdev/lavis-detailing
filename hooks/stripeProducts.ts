@@ -19,6 +19,8 @@ const { STRIPE_SECRET_KEY } = loadEnv(
 
 const stripe = new Stripe(STRIPE_SECRET_KEY || '')
 
+stripe.
+
 const findProd = async (id: string) => {
   try {
     const product = await stripe.products.retrieve(id)
