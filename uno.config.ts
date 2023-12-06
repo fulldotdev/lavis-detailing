@@ -10,7 +10,7 @@ import presetStyles from './src/unocss/presetStyles'
 
 let theme: any
 try {
-  theme = yaml.load(fs.readFileSync('./src/content/data/theme.yml', 'utf8'))
+  theme = yaml.load(fs.readFileSync('./src/content/settings/theme.yml', 'utf8'))
 } catch (e) {
   console.error(e)
 }

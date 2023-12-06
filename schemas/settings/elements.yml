@@ -35,15 +35,10 @@ spec:
   class:
 
 rating:
-  class:
-
-person:
+  hue:
   class:
 
 icon:
-  class:
-
-form:
   class:
 
 logo:
