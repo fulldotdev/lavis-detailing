@@ -1,8 +1,8 @@
 _schema: cards
 features:
   card:
-    frame: panel
-    look:
+    frame: fill
+    look: ghost
     hue:
     scheme:
     class:
@@ -81,14 +81,14 @@ posts:
   writeup:
 products:
   card:
-    frame:
-    look:
+    frame: panel
+    look: outline
     hue:
     scheme:
     class:
   image:
-    position:
-    orientation:
+    position: cover
+    orientation: landscape
     class:
   segment:
     class:
