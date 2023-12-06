@@ -92,19 +92,21 @@ content_blocks:
         label: Bekijk inmeetinstructies
         href:
     image:
-  - _bookshop_name: blocks/highlight
-    writeup: >-
-      <h2>Antislip strook</h2><p>Vlonder Antislip Stroken zijn eenvoudig te
-      plaatsen op uw houten vlonder d.m.v. schroeven op kleur. Wij leveren de
-      vlonderstroken in het zwart en geel. Helaas zorgt deze methode wel voor
-      een beschadiging aan uw houten vlonder i.v.m. de schroefgaten.</p>
-    buttons:
-      - _bookshop_name: elements/button
-        importance: 1
-        label: Ga naar product
-        href:
-    image:
-      _bookshop_name: elements/image
-      src: /uploads/screenshot-2023-12-06-at-11-15-49.png
-      alt: Vlonder antislip strook
+      src:
+      alt:
+  # - _bookshop_name: blocks/highlight
+  #   writeup: >-
+  #     <h2>Antislip strook</h2><p>Vlonder Antislip Stroken zijn eenvoudig te
+  #     plaatsen op uw houten vlonder d.m.v. schroeven op kleur. Wij leveren de
+  #     vlonderstroken in het zwart en geel. Helaas zorgt deze methode wel voor
+  #     een beschadiging aan uw houten vlonder i.v.m. de schroefgaten.</p>
+  #   buttons:
+  #     - _bookshop_name: elements/button
+  #       importance: 1
+  #       label: Ga naar product
+  #       href:
+  #   image:
+  #     _bookshop_name: elements/image
+  #     src: /uploads/screenshot-2023-12-06-at-11-15-49.png
+  #     alt: Vlonder antislip strook
 ---

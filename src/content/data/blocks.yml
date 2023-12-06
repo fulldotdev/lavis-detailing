@@ -6,7 +6,7 @@ hero:
     x: stretch
     frame:
     look:
-    order:
+    order: reverse
     size: large
     hue:
     scheme:

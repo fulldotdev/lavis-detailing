@@ -1,6 +1,6 @@
 ---
 import type { VariantProps } from '@types'
-import { hue, order, scheme, size } from '@variants'
+import { hue, scheme, size } from '@variants'
 import { cva } from 'cva'
 
 export type SectionProps = Props
@@ -13,7 +13,7 @@ const variant = cva({
   variants: {
     direction: {
       col: 'grid gap-size5 justify-stretch',
-      row: 'grid gap-size5 lg:auto-cols-fr lg:grid-flow-col',
+      row: 'grid gap-x-size6  gap-y-size5 lg:auto-cols-fr lg:grid-flow-col lg:[&>*]:col-span-3 lg:[&>.segment]:col-span-2',
     },
     y: {
       start: 'items-start',
@@ -26,7 +26,7 @@ const variant = cva({
       center: 'justify-center',
     },
     frame: {
-      fill: 'px-wrapper py-size6 first:py-size5 border-x-0 first:border-t-0 last:border-b-0',
+      fill: 'px-wrapper py-size6 first:pt-size4 border-x-0 first:border-t-0 last:border-b-0',
       float:
         'mx-wrapper py-size6 first:py-size5 border-x-0 first:border-t-0 border-x-0 first:border-t-0 last:border-b-0',
       panel:
@@ -41,7 +41,10 @@ const variant = cva({
       solid:
         'bg-hue9 !text-hue-fg [&_*]:!text-hue-fg [&_.button]:(!bg-hue-fg !text-hue9)',
     },
-    order: order,
+    order: {
+      reverse: '[&>:first-child]:order-last',
+      switch: '[&>:first-child]:even:order-last',
+    },
     size: size,
     hue: hue,
     scheme: scheme,
