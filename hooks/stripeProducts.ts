@@ -23,7 +23,6 @@ const findProd = async (id: string) => {
   try {
     const product = await stripe.products.retrieve(id)
 
-    console.log(product)
     return product
   } catch (e) {
     console.log(e)
@@ -57,19 +56,29 @@ export default {
     'astro:build:start': async () => {
       try {
         const products = getProducts
+
         for (const product of products) {
+          console.log(product)
           // this is to see if the product already has a valid stripeId
           let foundProduct: any = null
           if (product['_stripe_product_id']) {
             foundProduct = await findProd(product['_stripe_product_id'])
           }
 
-          // the product is only if it doesn't exist on stripe
+          // the product is only created if it doesn't exist already
           if (!foundProduct) {
-            const stripeProduct = await stripe.products.create({
+            let stripeProductData: any = {
               name: product.title,
               description: product.description,
-            })
+            }
+
+            if (product.images && product.images[0].src) {
+              stripeProductData.images = [product.images[0].src]
+            }
+
+            const stripeProduct =
+              await stripe.products.create(stripeProductData)
+
             const price = await stripe.prices.create({
               currency: 'eur',
               unit_amount: product.price,
@@ -92,10 +101,16 @@ export default {
             })
           } else {
             // and where the existing products get updated
-            await stripe.products.update(foundProduct.id, {
+            let stripeProductData: any = {
               name: product.title,
               description: product.description,
-            })
+            }
+
+            if (product.images && product.images[0].src) {
+              stripeProductData.images = [product.images[0].src]
+            }
+
+            await stripe.products.update(foundProduct.id, stripeProductData)
 
             // checking if the unit amount of the price in stripe is the same as the one in cloudCannon if not, changing it
             if (foundProduct.default_price) {
@@ -118,8 +133,14 @@ export default {
                   default_price: newPrice.id,
                 })
 
-                await stripe.prices.update(currentDefault.id, {
+                await stripe.prices.update(currentDefault?.id || '', {
                   active: false,
+                })
+
+                addId({
+                  idKey: '_stripe_price_id',
+                  updateId: newPrice.id,
+                  file: product.file,
                 })
               }
             }

@@ -1,6 +1,6 @@
 ---
 _stripe_product_id: prod_P8EPkyUeLl0VFJ
-_stripe_price_id: price_1OJxwOAtGAMIOG90Qxe9nLPY
+_stripe_price_id: price_1OKHT8AtGAMIOG900483TNWu
 seo:
   title: coolTitle
   description: description
@@ -12,7 +12,7 @@ description: title
 images:
   - src: null
     alt: null
-price: 2934
+price: 6040
 categories:
   - null
 brand: null
