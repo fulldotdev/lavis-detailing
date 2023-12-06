@@ -1,22 +1,23 @@
 ---
+import Group, { type GroupProps } from '@components/wrappers/Group.astro'
 import type { ButtonProps } from './Button.astro'
 import Button from './Button.astro'
 
-interface Props {
-  buttons: ButtonProps[] | undefined | null
-}
+type Props = GroupProps &
+  Omit<ButtonProps, 'label' | 'href'> & {
+    buttons: ButtonProps[]
+  }
 
-const { buttons } = Astro.props
-// const settings = await getElementSettings('buttons')
+const { buttons, ...restProps } = Astro.props
 ---
 
-{buttons?.map((button) => <Button {...button} />)}
-
-<!-- {
-  buttons?.map((button, i) => (
-    <Button
-      {...settings[i]}
-      {...button}
-    />
-  ))
-} -->
+<Group {...restProps}>
+  {
+    buttons?.map((button, i) => (
+      <Button
+        {...restProps}
+        {...button}
+      />
+    ))
+  }
+</Group>

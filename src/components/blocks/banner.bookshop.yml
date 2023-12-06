@@ -1,0 +1,12 @@
+spec:
+  structures:
+    - content_blocks
+  label: Banner
+
+blueprint:
+  writeup:
+  image: bookshop:elements/image
+
+preview:
+
+_inputs:

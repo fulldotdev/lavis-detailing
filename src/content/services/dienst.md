@@ -1,17 +1,9 @@
 ---
+_schema: default
 seo:
-  title: 
-  description: 
+  title: Hello page
+  description: hellod escription
   image:
-    src: 
-    alt: 
-    
-title: 
-description: 
-image:
-  src: 
-  alt: 
-
-blocks:
-  
+    src:
+    alt:
 ---

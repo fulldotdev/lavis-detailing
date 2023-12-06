@@ -11,7 +11,7 @@
     "schemas:zod": "yarn ts-to-zod ./schemas/test-schema.d.ts ./schemas/test-schema.ts",
     "schemas:md": "npx vite-node ./schemas/zod-to-md.ts",
     "schemasss": "yarn schemas:zod && yarn schemas:md",
-    "schemas": "npx vite-node ./schemas/generate-schemas.ts"
+    "schemas": "npx vite-node ./schemas/utils/yaml-to-zod.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",
@@ -21,6 +21,7 @@
     "@astrojs/vercel": "^5.2.0",
     "@bookshop/astro-bookshop": "3.8.1",
     "@iconify-json/tabler": "^1.1.96",
+    "@macfja/svelte-persistent-store": "^2.4.1",
     "@stripe/stripe-js": "^2.1.11",
     "@unocss/extractor-svelte": "^0.57.4",
     "@unocss/preset-icons": "^0.57.4",
@@ -29,8 +30,7 @@
     "astro-robots-txt": "^1.0.0",
     "astro-seo": "^0.8.0",
     "cva": "^1.0.0-beta.1",
-    "dotenv": "^16.3.1",
-    "front-matter": "^4.0.2",
+    "generate-schema": "^2.6.0",
     "js-yaml": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

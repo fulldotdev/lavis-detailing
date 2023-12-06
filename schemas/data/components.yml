@@ -2,10 +2,13 @@
 # ELEMENTS 
 # -----------------------------------------------
 elements:
-  buttons: &buttons
-    - look:
+  button: &button
+    1: &button
+      look:
       hue:
       class:
+    2: *button
+    3: *button
 
   channel: &channel
     look:
@@ -43,6 +46,9 @@ elements:
 
   form: &form
     class:
+
+  logo: &logo
+    class:
     
 # -----------------------------------------------
 # CARDS 
@@ -65,7 +71,7 @@ cards:
       - *spec
     group: &group
       class:
-    buttons: *buttons
+    buttons: *button
 
   brands:
     card: *card
@@ -85,7 +91,7 @@ cards:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons: *buttons
+    buttons: *button
 
   features:
     card: *card
@@ -93,7 +99,7 @@ cards:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons: *buttons
+    buttons: *button
     icon: *icon
 
   posts:
@@ -132,9 +138,11 @@ blocks:
     section: &section
       layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size: 
       class:
     segment: &segment
       layout:
@@ -157,15 +165,17 @@ blocks:
     social: *social
     form: *form
 
-  hero: &hero
+  cta: &cta
     section: *section
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons: *buttons
-    image: *image
+    buttons: *button
+    image: 
+      position: 
+      <<: *image
 
-  cta: *hero
+  hero: *cta
 
   content:
     section: *section
@@ -188,7 +198,7 @@ blocks:
     segment: *segment
     writeup: *writeup
     group: *group
-    buttons: *buttons
+    buttons: *button
     deck: *deck
 
   categories: *block_with_deck
@@ -201,14 +211,54 @@ blocks:
   employees: *block_with_deck
 
 # -----------------------------------------------
+# GLOBALS
+# -----------------------------------------------
+globals: 
+  footer: 
+    footer: 
+      frame: 
+      look:
+      size:
+      hue:
+      scheme:
+    list: *list
+    link: *link
+    group: *group
+    button: *button
+    channel: *channel
+
+  header: 
+    header: 
+      frame: 
+      look:
+      size:
+      hue:
+      scheme:
+    logo: *logo
+    list: *list
+    link: *link
+    group: *group
+    button: *button
+
+  cta: *cta
+
+# -----------------------------------------------
 # Inputs configuration
 # -----------------------------------------------
 _inputs:
+  layout:
+      type: choice
+      options:
+        values:
+          - row
+          - col
+          - grid
+          - masonry
+          - carousel
   hue:
     type: choice
     options:
       values:
-        - none
         - base
         - brand
         - accent
@@ -216,14 +266,12 @@ _inputs:
     type: choice
     options:
       values:
-        - none 
         - light
         - dark
   size:
     type: choice
     options:
       values:
-        - none 
         - small
         - medium
         - large
@@ -244,3 +292,32 @@ _inputs:
         - float
         - panel
         - screen
+  order:
+    type: choice
+    options:
+      values:
+        - normal
+        - reverse
+        - switch
+  x:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+        - between
+  y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  image.position:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - cover

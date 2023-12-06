@@ -1,10 +1,12 @@
 _schema: components
 elements:
   button:
-    look:
-    hue:
-    scheme:
-    class: class123
+    1: &button
+      look:
+      hue:
+      class:
+    2: *button
+    3: *button
   channel:
     look:
     hue:
@@ -14,7 +16,6 @@ elements:
     hue:
     class:
   link:
-    hue:
     class:
   image:
     class:
@@ -32,20 +33,32 @@ elements:
     class:
   form:
     class:
-_card_card:
-  frame:
-  look:
-  hue:
-  scheme:
-  class:
-_card_segment:
-  class:
-_card_group:
-  size:
-  class:
-_card_list:
-  class:
+  logo:
+    class:
 cards:
+  offers:
+    card:
+      frame:
+      look:
+      hue:
+      scheme:
+      class:
+    image:
+      class:
+    segment:
+      class:
+    writeup:
+      class:
+    list:
+      class:
+    specs:
+      - class:
+    group:
+      class:
+    buttons:
+      - look:
+        hue:
+        class:
   brands:
     card:
       frame:
@@ -86,12 +99,10 @@ cards:
     writeup:
       class:
     group:
-      size:
       class:
     buttons:
       - look:
         hue:
-        scheme:
         class:
   features:
     card:
@@ -107,40 +118,13 @@ cards:
     writeup:
       class:
     group:
-      size:
       class:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     icon:
       class:
-  offers:
-    card:
-      frame:
-      look:
-      hue:
-      scheme:
-      class:
-    image:
-      class:
-    segment:
-      class:
-    writeup:
-      class:
-    list:
-      class:
-    specs:
-      - class:
-    group:
-      size:
-      class:
-    buttons:
-      - look:
-        hue:
-        scheme:
-        class:
   posts:
     card:
       frame:
@@ -199,95 +183,16 @@ cards:
       class:
     writeup:
       class:
-_block_section:
-  frame:
-  look:
-  hue:
-  scheme:
-  class:
-_block_segment:
-  layout:
-  x:
-  'y':
-  size:
-  class:
-_block_group:
-  layout:
-  x:
-  'y':
-  size:
-  class:
-_block_list:
-  layout:
-  size:
-  class:
-_block_card:
-  layout:
-  size:
-  class:
 blocks:
-  hero:
-    section:
-      frame: fill
-      look: 
-      hue:
-      scheme:
-      class:
-    segment:
-      layout:
-      x:
-      'y':
-      size:
-      class:
-    writeup:
-      class:
-    group:
-      layout:
-      x:
-      'y':
-      size:
-      class:
-    buttons:
-      - look:
-        hue:
-        scheme:
-        class:
-    image:
-      class:
-  cta:
-    section:
-      frame:
-      look:
-      hue:
-      scheme:
-      class:
-    segment:
-      layout:
-      x:
-      'y':
-      size:
-      class:
-    writeup:
-      class:
-    group:
-      layout:
-      x:
-      'y':
-      size:
-      class:
-    buttons:
-      - look:
-        hue:
-        scheme:
-        class:
-    image:
-      class:
   contact:
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -303,47 +208,115 @@ blocks:
       'y':
       size:
       class:
-    channels:
-      - look:
-        hue:
-        class:
+    channel:
+      look:
+      hue:
+      class:
     list:
       layout:
       size:
       class:
-    socials:
+    social:
+      look:
+      hue:
+      class:
+    form:
+      class:
+  cta:
+    section:
+      layout:
+      frame:
+      order:
+      look:
+      hue:
+      scheme:
+      size:
+      class:
+    segment:
+      layout:
+      x:
+      'y':
+      size:
+      class:
+    writeup:
+      class:
+    group:
+      layout:
+      x:
+      'y':
+      size:
+      class:
+    buttons:
       - look:
         hue:
         class:
-    form:
+    image:
+      position:
       class:
-  content:
-    _bookshop_name: blocks/content
+  hero:
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
-    prose:
+    segment:
+      layout:
+      x:
+      'y':
+      size:
+      class:
+    writeup:
+      class:
+    group:
+      layout:
+      x:
+      'y':
+      size:
+      class:
+    buttons:
+      - look:
+        hue:
+        class:
+    image:
+      position:
+      class:
+  content:
+    section:
+      layout:
+      frame:
+      order:
+      look:
+      hue:
+      scheme:
+      size:
       class:
     image:
       class:
+    prose:
+      class:
   calendar:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
   offers:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     writeup:
       class:
@@ -352,12 +325,14 @@ blocks:
       size:
       class:
   features:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -376,19 +351,20 @@ blocks:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     deck:
       layout:
       size:
       class:
   categories:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -407,19 +383,20 @@ blocks:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     deck:
       layout:
       size:
       class:
   posts:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -438,19 +415,20 @@ blocks:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     deck:
       layout:
       size:
       class:
   brands:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -469,19 +447,20 @@ blocks:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     deck:
       layout:
       size:
       class:
   products:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -500,19 +479,20 @@ blocks:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     deck:
       layout:
       size:
       class:
   reviews:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -531,19 +511,20 @@ blocks:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     deck:
       layout:
       size:
       class:
   services:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -562,19 +543,20 @@ blocks:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     deck:
       layout:
       size:
       class:
   stats:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -593,19 +575,20 @@ blocks:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     deck:
       layout:
       size:
       class:
   employees:
-    _bookshop_name: blocks/brands
     section:
+      layout:
       frame:
+      order:
       look:
       hue:
       scheme:
+      size:
       class:
     segment:
       layout:
@@ -624,9 +607,168 @@ blocks:
     buttons:
       - look:
         hue:
-        scheme:
         class:
     deck:
       layout:
       size:
       class:
+globals:
+  footer:
+    footer:
+      frame:
+      look:
+      size:
+      hue:
+      scheme:
+    list:
+      layout:
+      size:
+      class:
+    link:
+      class:
+    group:
+      layout:
+      x:
+      'y':
+      size:
+      class:
+    button:
+      - look:
+        hue:
+        class:
+    channel:
+      look:
+      hue:
+      class:
+  header:
+    header:
+      frame:
+      look:
+      size:
+      hue:
+      scheme:
+    logo:
+      class:
+    list:
+      layout:
+      size:
+      class:
+    link:
+      class:
+    group:
+      layout:
+      x:
+      'y':
+      size:
+      class:
+    button:
+      - look:
+        hue:
+        class:
+  cta:
+    section:
+      layout:
+      frame:
+      order:
+      look:
+      hue:
+      scheme:
+      size:
+      class:
+    segment:
+      layout:
+      x:
+      'y':
+      size:
+      class:
+    writeup:
+      class:
+    group:
+      layout:
+      x:
+      'y':
+      size:
+      class:
+    buttons:
+      - look:
+        hue:
+        class:
+    image:
+      position:
+      class:
+_inputs:
+  layout:
+    type: choice
+    options:
+      values:
+        - row
+        - col
+        - grid
+        - masonry
+        - carousel
+  hue:
+    type: choice
+    options:
+      values:
+        - base
+        - brand
+        - accent
+  scheme:
+    type: choice
+    options:
+      values:
+        - light
+        - dark
+  size:
+    type: choice
+    options:
+      values:
+        - small
+        - medium
+        - large
+  look:
+    type: choice
+    options:
+      values:
+        - solid
+        - surface
+        - soft
+        - outline
+        - ghost
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
+  order:
+    type: choice
+    options:
+      values:
+        - normal
+        - reverse
+        - switch
+  x:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+        - between
+  'y':
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  image.position:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - cover

@@ -1,10 +1,11 @@
 spec:
   structures:
-    - blocks
+    - content_blocks
   label: Cta
 
 blueprint:
   writeup:
+  buttons:
   image: bookshop:elements/image
 
 preview:

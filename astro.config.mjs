@@ -3,6 +3,7 @@ import svelte from '@astrojs/svelte'
 import bookshop from '@bookshop/astro-bookshop'
 import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
+
 import UnoCSS from 'unocss/astro'
 import stripeProducts from './hooks/stripeProducts'
 

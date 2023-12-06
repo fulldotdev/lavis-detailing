@@ -8,22 +8,22 @@ paths:
 # -----------------------------------------------
 
 collection_groups:
-  - heading: Pagina's
+  - heading: Content
     collections:
       - pages
       - services
       - posts
-      - policies
   - heading: Producten
     collections:
       - products
       - categories
       - brands
-  - heading: Data
+  - heading: Overig
     collections:
       - reviews
       - employees
       - forms
+      - policies
       - data
 
 # -----------------------------------------------
@@ -39,7 +39,7 @@ collections_config:
     icon: wysiwyg
     disable_add_folder: true
     _enabled_editors:
-      - data
+      - visual
     schemas: 
       default: 
         path: schemas/pages.md
@@ -51,7 +51,7 @@ collections_config:
     icon: home_repair_service
     disable_add_folder: true
     _enabled_editors:
-      - data
+      - visual
     schemas: 
       default: 
         path: schemas/services.md
@@ -120,10 +120,10 @@ collections_config:
     path: src/content/data
     output: false
     icon: 
-    disable_add_folder: true
-    disable_add: true
-    disable_file_actions: true
-    schemas: 
+    # disable_add_folder: true
+    # disable_add: true
+    # disable_file_actions: true
+    schemas:
       theme: 
         path: schemas/data/theme.yml
       components: 
@@ -218,11 +218,3 @@ _inputs:
 
   prose:
     type: html
-
-_structures:
-  test:
-    values:
-      - title:
-        description:
-      - test2: 
-        test3:

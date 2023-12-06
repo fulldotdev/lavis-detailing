@@ -10,26 +10,19 @@ const variant = cva({
   base: 'gap-y-size4 gap-x-size5',
   variants: {
     layout: {
-      col: 'grid',
       row: 'flex',
+      col: 'flex flex-col',
     },
-    x: {
-      start: 'justify-start',
-      center: 'justify-center',
-      end: 'justify-end',
-      stretch: 'justify-stretch',
-    },
-    y: {
+    align: {
       start: 'items-start',
       center: 'items-center',
-      end: 'items-end',
+      stretch: 'items-stretch',
     },
     size: size,
   },
   defaultVariants: {
     layout: 'col',
-    x: 'start',
-    y: 'start',
+    align: 'start',
   },
 })
 
