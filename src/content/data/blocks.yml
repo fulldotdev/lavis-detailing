@@ -1,7 +1,7 @@
-_schema: cards
+_schema: blocks
 features:
   card:
-    frame: panel
+    frame:
     look:
     hue:
     scheme:
