@@ -4,11 +4,11 @@
 
 hero: &hero
   section: &section
-    direction:
+    direction: col
     y:
     x:
-    frame:
-    look:
+    frame: fill
+    look: ghost
     order:
     size:
     hue:

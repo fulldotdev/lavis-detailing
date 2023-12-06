@@ -1,4 +1,5 @@
 ---
+import Link from '@components/elements/link/Link.astro'
 import { unslugify } from '@utils'
 import { getCollection, getEntry } from 'astro:content'
 const company = await getEntry('data', 'company')
@@ -6,11 +7,16 @@ const policies = await getCollection('policies')
 ---
 
 <div
-  class="mx-wrapper py-size4 size-small mode-compact flex flex-wrap justify-between"
+  class="mx-wrapper py-size6 size-small mode-compact flex flex-wrap justify-between"
 >
   <p class="text-size1">
-    © {new Date().getFullYear()}&nbsp;{company.data.company}. Alle rechten
-    voorbehouden.
+    © {new Date().getFullYear()}&nbsp;{company.data.company}. Maatwerk
+    ontwikkeling door
+    <Link
+      class:list="text-inherit"
+      label="Fulldev"
+      href="https://full.dev"
+    />
   </p>
   <p class="text-size1 gap-x-size2 flex flex-wrap">
     {company.data.kvk && `Kvk. ${company.data.kvk}`}

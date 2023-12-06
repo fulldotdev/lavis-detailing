@@ -26,9 +26,9 @@ interface Props {
   cards?: RenderCardsProps
 }
 
-const components = await getEntry('data', 'components')
+const blocks = await getEntry('data', 'blocks')
 const blockName = Astro.props._bookshop_name?.split('/')[1]
-const settings = components.data.blocks[blockName]
+const settings = blocks.data[blockName]
 const merged = { ...settings, ...Astro.props }
 const {
   section = {},
@@ -52,7 +52,7 @@ const {
     <Channels {channels} />
     <Socials {socials} />
   </Segment>
-  <Image {...image} />
+  <!-- <Image {...image} /> -->
   <!-- <Prose set:html={prose} /> -->
   <Form {...form} />
   <Deck {...deck}>

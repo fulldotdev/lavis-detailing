@@ -47,7 +47,11 @@ const {
   <Image {...image} />
   <Segment {...segment}>
     <Rating {...rating} />
-    <Writeup {...writeup}>
+    <Writeup
+      {...writeup}
+      set:html={writeup}
+    >
+      <Fragment set:html={writeup} />
       {tagline && <span>{tagline}</span>}
       {title && <h4>{title}</h4>}
       {description && <p>{description}</p>}
