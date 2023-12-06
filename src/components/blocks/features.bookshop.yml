@@ -1,6 +1,6 @@
 spec:
   structures:
-    - blocks
+    - content_blocks
   label: Features
 
 blueprint:
@@ -8,7 +8,6 @@ blueprint:
   buttons:
   features:
     - writeup:
-      specs: 
       buttons: 
 
 preview:

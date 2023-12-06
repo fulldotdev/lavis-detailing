@@ -1,60 +1,71 @@
 ---
-import type { HTMLAttributes, VariantProps } from '@types'
-import { hue, look, scheme, size } from '@variants'
+import { getElementSettings } from '@utils'
+import { look } from '@variants'
 import { cva } from 'cva'
 
-export type SocialProps = Props
-type Props = VariantProps<typeof variant> & {
-  url: HTMLAttributes<'a'>['href']
-  platform:
-    | 'facebook'
-    | 'instagram'
-    | 'twitter'
-    | 'youtube'
-    | 'linkedin'
-    | 'pinterest'
-    | 'tiktok'
-    | 'snapchat'
-    | 'twitch'
-    | 'reddit'
-    | 'telegram'
+interface Props {
+  key: keyof typeof map
 }
 
 const variant = cva({
-  base: 'button p-size2 look-soft mode-compact size-small',
+  base: 'button',
   variants: {
-    hue: hue,
-    scheme: scheme,
     look: look,
-    size: size,
   },
 })
 
-let { platform, url, ...restProps } = Astro.props
+const settings = await getElementSettings('social')
+const company = await getElementSettings('company')
 
-const iconMap: Record<Props['platform'], string> = {
-  facebook: 'icon:brand-facebook',
-  instagram: 'icon:brand-instagram',
-  twitter: 'icon:brand-twitter',
-  youtube: 'icon:brand-youtube',
-  linkedin: 'icon:brand-linkedin',
-  pinterest: 'icon:brand-pinterest',
-  tiktok: 'icon:brand-tiktok',
-  snapchat: 'icon:brand-snapchat',
-  twitch: 'icon:brand-twitch',
-  reddit: 'icon:brand-reddit',
-  telegram: 'icon:brand-telegram',
+const map = {
+  facebook: {
+    href: company.data.facebook,
+    icon: 'icon:brand-facebook',
+  },
+  instagram: {
+    href: company.data.instagram,
+    icon: 'icon:brand-instagram',
+  },
+  twitter: {
+    href: company.data.twitter,
+    icon: 'icon:brand-twitter',
+  },
+  pinterest: {
+    href: company.data.pinterest,
+    icon: 'icon:brand-pinterest',
+  },
+  linkedin: {
+    href: company.data.linkedin,
+    icon: 'icon:brand-linkedin',
+  },
+  youtube: {
+    href: company.data.youtube,
+    icon: 'icon:brand-youtube',
+  },
+  tiktok: {
+    href: company.data.tiktok,
+    icon: 'icon:brand-tiktok',
+  },
+  snapchat: {
+    href: company.data.snapchat,
+    icon: 'icon:brand-snapchat',
+  },
 }
+
+let { key } = Astro.props
 ---
 
-<a
-  class={variant(restProps)}
-  href={url}
-  target="_blank"
-  {...restProps}
->
-  <i
-    class="h-1.4em w-1.4em relative block text-inherit"
-    class:list={iconMap[platform]}
-  ></i>
-</a>
+{
+  company.data.socials[key] && (
+    <a
+      class={variant(settings)}
+      href={map[key].href}
+      target="_blank"
+    >
+      <i
+        class="h-1.4em w-1.4em relative block text-inherit"
+        class:list={map[key].icon}
+      />
+    </a>
+  )
+}

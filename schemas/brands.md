@@ -9,6 +9,6 @@ seo:
 title: 
 description: 
 image:
-  src: 
+  src:
   alt: 
 ---

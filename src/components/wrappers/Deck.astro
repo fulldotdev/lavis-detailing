@@ -1,5 +1,5 @@
 ---
-import { hue, scheme, size } from '@variants'
+import { size } from '@variants'
 import { cva, type VariantProps } from 'cva'
 
 export type DeckProps = Props
@@ -31,8 +31,6 @@ const variant = cva({
       row: 'grid gap-size5 lg:grid-flow-col lg:auto-cols-fr',
     },
     size: size,
-    scheme: scheme,
-    hue: hue,
   },
   defaultVariants: {
     layout: 'grid',

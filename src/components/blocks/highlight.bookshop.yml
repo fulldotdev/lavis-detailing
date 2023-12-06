@@ -1,0 +1,13 @@
+spec:
+  structures:
+    - content_blocks
+  label: Highlight
+
+blueprint:
+  writeup:
+  buttons:
+  image: bookshop:elements/image
+
+preview:
+
+_inputs:

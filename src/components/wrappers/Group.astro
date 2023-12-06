@@ -9,14 +9,14 @@ type Props = VariantProps<typeof variant>
 const variant = cva({
   base: 'gap-x-size3 gap-y-size2 justify-stretch',
   variants: {
-    layout: {
+    direction: {
       row: 'flex',
       col: 'flex flex-col',
     },
     size: size,
   },
   defaultVariants: {
-    layout: 'row',
+    direction: 'row',
   },
 })
 

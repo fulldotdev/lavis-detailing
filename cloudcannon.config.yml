@@ -8,23 +8,24 @@ paths:
 # -----------------------------------------------
 
 collection_groups:
-  - heading: Pagina's
+  - heading: Content
     collections:
       - pages
       - services
       - posts
-      - policies
   - heading: Producten
     collections:
       - products
       - categories
       - brands
-  - heading: Data
+  - heading: Overig
     collections:
       - reviews
       - employees
       - forms
+      - policies
       - data
+      - blocks
 
 # -----------------------------------------------
 # Collection configuration
@@ -39,7 +40,7 @@ collections_config:
     icon: wysiwyg
     disable_add_folder: true
     _enabled_editors:
-      - data
+      - visual
     schemas: 
       default: 
         path: schemas/pages.md
@@ -51,7 +52,7 @@ collections_config:
     icon: home_repair_service
     disable_add_folder: true
     _enabled_editors:
-      - data
+      - visual
     schemas: 
       default: 
         path: schemas/services.md
@@ -120,10 +121,10 @@ collections_config:
     path: src/content/data
     output: false
     icon: 
-    disable_add_folder: true
-    disable_add: true
-    disable_file_actions: true
-    schemas: 
+    # disable_add_folder: true
+    # disable_add: true
+    # disable_file_actions: true
+    schemas:
       theme: 
         path: schemas/data/theme.yml
       components: 
@@ -163,6 +164,12 @@ collections_config:
     schemas: 
       default: 
         path: schemas/forms.md
+
+  blocks:
+    path: src/components/blocks
+    output: false
+    _enabled_editors:
+      - data
         
 # -----------------------------------------------
 # Input customization
@@ -219,10 +226,33 @@ _inputs:
   prose:
     type: html
 
-_structures:
-  test:
-    values:
-      - title:
-        description:
-      - test2: 
-        test3:
+# -----------------------------------------------
+# Design inputs
+# -----------------------------------------------
+
+  hue:
+    type: choice
+    options:
+      values:
+        - base
+        - brand
+        - accent
+  scheme:
+    type: choice
+    options:
+      values:
+        - light
+        - dark
+  size:
+    type: choice
+    options:
+      values:
+        - small
+        - medium
+        - large
+  class:
+    type: textarea
+
+# data_config:
+#   presets:
+#     path: src/components/blocks/presets.yml

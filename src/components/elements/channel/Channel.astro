@@ -1,52 +1,64 @@
 ---
 import { getElementSettings } from '@utils'
-import { hue, look, scheme, size } from '@variants'
-import { cva, type VariantProps } from 'cva'
+import { hue, look } from '@variants'
+import { getEntry } from 'astro:content'
+import { cva } from 'cva'
 
-export type ChannelProps = Props
-type Props = VariantProps<typeof variant> & {
-  key: 'email' | 'phone' | 'address' | 'whatsapp'
-  value: string | number
+interface Props {
+  key: keyof typeof map
 }
 
 const variant = cva({
   base: 'flex items-center gap-size3 button look-soft',
   variants: {
-    hue: hue,
-    scheme: scheme,
     look: look,
-    size: size,
+    hue: hue,
   },
 })
 
-let { key, value, ...restProps } = Astro.props
 const settings = await getElementSettings('channel')
+const company = await getEntry('data', 'company')
 
-const iconMap: Record<Props['key'], string> = {
-  email: 'icon:mail',
-  phone: 'icon:phone',
-  address: 'icon:location',
-  whatsapp: 'icon:brand-whatsapp',
+const map = {
+  email: {
+    value: company.data.channels.email,
+    href: `mailto:${company.data.channels.email}`,
+    icon: 'icon:mail',
+  },
+  phone: {
+    value: company.data.channels.email,
+    href: `tel:${company.data.channels.email}`,
+    icon: 'icon:phone',
+  },
+  address: {
+    value: company.data.channels.address,
+    href: `https://www.google.com/maps/search/?api=1&query=${company.data.channels.address}`,
+    icon: 'icon:location',
+  },
+  whatsapp: {
+    value: company.data.channels.whatsapp,
+    href: `https://wa.me/${company.data.channels.whatsapp}`,
+    icon: 'icon:brand-whatsapp',
+  },
 }
 
-const urlMap: Record<Props['key'], string> = {
-  email: `mailto:${value}`,
-  phone: `tel:${value}`,
-  address: `https://www.google.com/maps/search/?api=1&query=${value}`,
-  whatsapp: `https://wa.me/${value}`,
-}
+const { key } = Astro.props
 ---
 
-<div class="gap-size4 flex items-center">
-  <a
-    class:list={[variant(restProps), variant(settings)]}
-    href={urlMap[key]}
-    target="_blank"
-  >
-    <i
-      class="h-1.4em w-1.4em block"
-      class:list={iconMap[key]}
-    ></i>
-  </a>
-  <p class="hue-base">{value}</p>
-</div>
+{
+  company.data.channels[key] && (
+    <div class="gap-size4 flex items-center">
+      <a
+        class={variant(settings)}
+        href={map[key].href}
+        target="_blank"
+      >
+        <a
+          class="h-1.4em w-1.4em block"
+          class:list={map[key].icon}
+        />
+      </a>
+      <p class="hue-base">{map[key].value}</p>
+    </div>
+  )
+}

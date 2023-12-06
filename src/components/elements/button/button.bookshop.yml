@@ -1,13 +1,21 @@
 spec:
   structures:
     - buttons
-    - actions
   label: Button
 
 blueprint:
+  importance: 1
   label:
   href:
 
 preview:
 
 _inputs:
+  importance:
+    type: choice
+    options:
+      values:
+        - 1
+        - 2
+        - 3
+#

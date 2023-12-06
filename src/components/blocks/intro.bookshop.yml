@@ -1,10 +1,10 @@
 spec:
   structures:
-    - specs
-  label: Spec
+    - content_blocks
+  label: Intro
 
 blueprint:
-  label:
+  writeup:
 
 preview:
 

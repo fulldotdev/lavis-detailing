@@ -1,0 +1,65 @@
+# -----------------------------------------------
+# ELEMENTS 
+# -----------------------------------------------
+button:
+  1: &button
+    look:
+    hue:
+    class:
+  2: *button
+  3: *button
+
+channel:
+  look:
+  hue:
+  class:
+
+social:
+  look:
+  hue:
+  class:
+
+link:
+  class:
+
+image:
+  class:
+
+writeup:
+  class:
+
+prose:
+  class:
+
+spec:
+  class:
+
+rating:
+  class:
+
+person:
+  class:
+
+icon:
+  class:
+
+form:
+  class:
+
+logo:
+  class:
+    
+
+# -----------------------------------------------
+# INPUT SETTINGS 
+# -----------------------------------------------
+_inputs:
+  look:
+    type: choice
+    options:
+      values:
+        - solid
+        - surface
+        - soft
+        - outline
+        - ghost

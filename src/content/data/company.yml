@@ -1,8 +1,25 @@
 _schema: company
-name:
-description:
-logo:
+company: Anti-Slip Profiles
+description: >-
+  Anti-Slip Profiles, een onderneming gericht op anti-slip producten en
+  ontwikkelen van anti-slip- en afdichtingsprofielen. Ons gedachtegoed is dat
+  “eenvoud en kwaliteit” bovenaan staat.
+logo: /upload/img.jpeg
 icon:
-kvk:
+kvk: '123456'
 channels:
+  email: info@antislipprofiles.com
+  phone: '0850604966'
+  whatsapp: '31616715746'
+  address: Parkweg 2 8191JL Wapenveld Netherlands
 socials:
+  facebook:
+  twitter:
+  instagram:
+  pinterest:
+  linkedin:
+_inputs:
+  logo:
+    type: image
+  icon:
+    type: image

@@ -3,7 +3,6 @@ import Buttons from '@components/elements/button/Buttons.astro'
 import Image, { type ImageProps } from '@components/elements/image/Image.astro'
 import Rating from '@components/elements/rating/Rating.astro'
 import Card from '@components/wrappers/Card.astro'
-import Group from '@components/wrappers/Group.astro'
 import Segment from '@components/wrappers/Segment.astro'
 import Writeup from '@components/wrappers/Writeup.astro'
 import type { ButtonProps } from '@types'
@@ -29,17 +28,16 @@ const settings = components.data.elements[Astro.props.type]
 const merged = { ...settings, ...Astro.props }
 const {
   href,
-  card,
-  image,
-  rating,
-  segment,
-  writeup,
+  card = {},
+  image = {},
+  rating = {},
+  segment = {},
+  writeup = {},
   title,
-  group,
   description,
   tagline,
-  buttons,
-} = merged
+  buttons = [],
+} = mergedw
 ---
 
 <Card
@@ -47,15 +45,13 @@ const {
   {...card}
 >
   <Image {...image} />
-  <Rating {...rating} />
   <Segment {...segment}>
+    <Rating {...rating} />
     <Writeup {...writeup}>
       {tagline && <span>{tagline}</span>}
       {title && <h4>{title}</h4>}
       {description && <p>{description}</p>}
     </Writeup>
-    <Group {...group}>
-      <Buttons {buttons} />
-    </Group>
+    <Buttons {buttons} />
   </Segment>
 </Card>

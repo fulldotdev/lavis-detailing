@@ -1,18 +1,6 @@
 import type { Preset } from 'unocss'
 import { presetWebFonts } from 'unocss'
 
-const weightMap = {
-  thin: 100,
-  extralight: 200,
-  light: 300,
-  normal: 400,
-  medium: 500,
-  semibold: 600,
-  bold: 700,
-  extrabold: 800,
-  black: 900,
-}
-
 const getWebFont = (
   option = {
     family: 'Inter',
@@ -51,21 +39,21 @@ export default function preset({
         getCSS: ({ theme }: any) => {
           return `
             p, ul, ol, li, label {
-              --at-apply: ${text?.className};
+              --at-apply: ${text?.class};
               font-family: ${theme['fontFamily'].text};
-              font-weight: ${theme['fontWeight'][text?.weight]};
+              font-weight: ${text?.weight};
               line-height: ${theme['lineHeight'].relaxed};
             }
             .mode-base :is(h1, h2, h3, h4, h5, h6) {
-              --at-apply: ${heading?.className};
+              --at-apply: ${heading?.class};
               font-family: ${theme['fontFamily'].heading};
-              font-weight: ${theme['fontWeight'][heading?.weight]};
+              font-weight: ${heading?.weight};
               line-height: ${theme['lineHeight'].tight};
             }
             .mode-compact :is(h1, h2, h3, h4, h5, h6) {
-              --at-apply: ${subheading?.className};
+              --at-apply: ${subheading?.class};
               font-family: ${theme['fontFamily'].subheading};
-              font-weight: ${theme['fontWeight'][subheading?.weight]};
+              font-weight: ${subheading?.weight};
               line-height: ${theme['lineHeight'].tight};
             }
           `

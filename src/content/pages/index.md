@@ -1,15 +1,25 @@
 ---
+_schema: default
 seo:
-  title: title
-  description:  
-  image: 
-    src: 
-    alt: 
-    
-blocks:
-  - _bookshop_name: blocks/brands
-    writeup: test 
+  title:
+  description:
+  image:
+    src:
+    alt:
+content_blocks:
+  - _bookshop_name: blocks/hero
+    writeup: >-
+      <p>Gepatenteerde Antislip oplossingen</p><h1>Uw vlonder van hout of
+      composiet eenvoudig antislip maken!</h1>
+    buttons:
+      - _bookshop_name: elements/button
+        label: Bekijk producten
+        href: /producten
+      - _bookshop_name: elements/button
+        label:
+        href:
     image:
-        src:
-        alt: 
+      _bookshop_name: elements/image
+      src: /uploads/screenshot-2023-12-05-at-12-42-25.png
+      alt:
 ---

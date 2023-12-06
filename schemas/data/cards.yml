@@ -1,0 +1,69 @@
+# -----------------------------------------------
+# CARDS 
+# -----------------------------------------------
+
+features:
+  card: &card
+    frame:
+    look:
+    hue:
+    scheme:
+    class:
+  image: &image
+    position:
+    orientation:
+    class:
+  segment: &segment
+    class:
+  writeup: &writeup
+
+offers:
+  card: *card
+  segment: *segment
+  writeup: *writeup
+
+brands: &collection_card
+  card: *card
+  image: *image
+  segment: *segment
+  writeup: *writeup
+
+categories: *collection_card
+employees: *collection_card
+posts: *collection_card
+products: *collection_card
+reviews: *collection_card
+services: *collection_card
+
+# -----------------------------------------------
+# INPUT SETTINGS 
+# -----------------------------------------------
+_inputs:
+  frame:
+    type: choice
+    options:
+      values:
+        - panel
+        - fill
+  look:
+    type: choice
+    options:
+      values:
+        - surface
+        - soft
+        - outline
+        - ghost
+  image.position:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - cover
+  image.orientation:
+    type: choice
+    options:
+      values:
+        - square
+        - landscape
+        - portrait

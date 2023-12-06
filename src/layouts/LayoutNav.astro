@@ -1,21 +1,17 @@
 ---
+import Footer from '@components/globals/Footer.astro'
+import Header from '@components/globals/Header.astro'
+import CartSidebar from '@components/globals/cart/CartSidebar.svelte'
 import Layout from '@layouts/Layout.astro'
-// import CartSidebar from '@modules/cart/CartSidebar.svelte'
-// import FooterGlobal from '@modules/footer/FooterGlobal.astro'
-// import HeaderGlobal from '@modules/header/HeaderGlobal.astro'
 
-const { meta } = Astro.props
+const { seo } = Astro.props
 ---
 
-<Layout {meta}>
-  <!-- <HeaderGlobal /> -->
-  <!-- <CartSidebar client:load /> -->
+<Layout {seo}>
+  <Header />
+  <CartSidebar client:load />
   <main>
-    <!-- <div
-      class="to-hue1 absolute inset-0 -z-20 h-full w-full bg-gradient-to-b from-black"
-    >
-    </div> -->
     <slot />
   </main>
-  <!-- <FooterGlobal /> -->
+  <Footer />
 </Layout>

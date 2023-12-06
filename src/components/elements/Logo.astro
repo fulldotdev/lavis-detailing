@@ -1,25 +1,35 @@
 ---
-// interface Props {
-//   class?: string
-// }
+import type { VariantProps } from '@types'
+import { getElementSettings } from '@utils'
+import { getEntry } from 'astro:content'
+import { cva } from 'cva'
 
-// const { class: className } = Astro.props
+export type LogoProps = Props
+type Props = VariantProps<typeof variant>
+
+const variant = cva({
+  base: '',
+})
+
+const { ...restProps } = Astro.props
+const company = await getEntry('data', 'company')
+const settings = await getElementSettings('logo')
 ---
 
-<!-- {
-  company?.logo && typeof company?.logo === 'object' && (
+{
+  company.data.logo && (
     <a
-      class:list={className}
+      class:list={[variant(restProps), variant(settings)]}
       class="flex"
       href="/"
     >
       <img
         class="text-primary h-2em block w-auto object-contain"
-        src={company.logo.url}
-        alt={'Logo' + company.name}
+        src={company.data.logo}
+        alt={'Logo ' + company.data.company}
         loading="lazy"
         decoding="async"
       />
     </a>
   )
-} -->
+}
