@@ -32,7 +32,6 @@ const variant = cva({
 const { label, href, importance = 'primary', ...restProps } = Astro.props
 const allSettings = await getEntry('settings', 'elements')
 const settings = allSettings?.data.button[importance]
-console.log(importance)
 ---
 
 <a
