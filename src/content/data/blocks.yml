@@ -1,0 +1,367 @@
+_schema: blocks
+hero:
+  section:
+    direction:
+    'y':
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  buttons:
+    direction:
+    size:
+    class:
+  image:
+    position:
+    orientation:
+cta:
+  section:
+    direction:
+    'y':
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  buttons:
+    direction:
+    size:
+    class:
+  image:
+    position:
+    orientation:
+highlight:
+  section:
+    direction:
+    'y':
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  buttons:
+    direction:
+    size:
+    class:
+  image:
+    position:
+    orientation:
+content:
+  section:
+    direction:
+    'y':
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  buttons:
+    direction:
+    size:
+    class:
+  image:
+    position:
+    orientation:
+intro:
+  section:
+    direction:
+    'y':
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  buttons:
+    direction:
+    size:
+    class:
+  image:
+    position:
+    orientation:
+contact:
+  section:
+    direction:
+    'y':
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  channels:
+    direction:
+    size:
+    class:
+offers:
+  section:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    size:
+    class:
+  deck:
+    layout:
+    size:
+    class:
+features:
+  section:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    size:
+    class:
+  deck:
+    layout:
+    size:
+    class:
+brands:
+  section:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  deck:
+    layout:
+    size:
+    class:
+categories:
+  section:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  deck:
+    layout:
+    size:
+    class:
+employees:
+  section:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  deck:
+    layout:
+    size:
+    class:
+posts:
+  section:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  deck:
+    layout:
+    size:
+    class:
+products:
+  section:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  deck:
+    layout:
+    size:
+    class:
+reviews:
+  section:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  deck:
+    layout:
+    size:
+    class:
+services:
+  section:
+    x:
+    frame:
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+    class:
+  segment:
+    direction:
+    x:
+    'y':
+    size:
+    class:
+  deck:
+    layout:
+    size:
+    class:
+_inputs:
+  section.x:
+    type: choice
+    options:
+      values:
+        - stretch
+        - center
+  section.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
+  look:
+    type: choice
+    options:
+      values:
+        - ghost
+        - outline
+        - soft
+        - surface
+        - solid
+  segment.x:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - between
+  segment.y:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
