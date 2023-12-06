@@ -18,4 +18,8 @@ price:
 brand: 
 categories:
   - 
+
+_inputs:
+  description:
+    type: html
 ---
