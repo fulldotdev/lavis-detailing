@@ -120,4 +120,11 @@ _inputs:
         - start
         - center
         - end
+  layout:
+    type: choice
+    options:
+      values:
+        - carousel
+        - grid
+        - masonry
 
