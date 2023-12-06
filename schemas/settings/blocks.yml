@@ -20,9 +20,10 @@ hero: &hero
     y:
     size:
     class:
-  buttons: &group
+  buttons: &buttons
     direction:
     size:
+    importance:
     class:
   image:
     position:
@@ -35,8 +36,10 @@ intro: *hero
 contact:
   section: *section
   segment: *segment
-  channels: *group
-
+  channels:
+    direction:
+    size:
+    class:
 offers: &offers_and_features
   section: &section_vertical
     x:
@@ -127,4 +130,11 @@ _inputs:
         - carousel
         - grid
         - masonry
+  buttons.importance:
+    type: choice
+    options:
+      values:
+        - primary
+        - secondary
+        - tertiary
 

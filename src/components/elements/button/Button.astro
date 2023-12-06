@@ -1,13 +1,14 @@
 ---
 import type { HTMLAttributes } from '@types'
 import { hue, scheme, size } from '@variants'
+import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
 export type ButtonProps = Props
 interface Props {
   label: string | null
   href: HTMLAttributes<'a'>['href']
-  importance?: 1 | 2 | 3
+  importance?: 'primary' | 'secondary' | 'tertiary'
 }
 
 const variant = cva({
@@ -28,13 +29,13 @@ const variant = cva({
   },
 })
 
-const { label, href, importance = 1, ...restProps } = Astro.props
-// const settings = await getElementSettings('button')
-// const importanceSettings = settings[importance]
+const { label, href, importance = 'primary', ...restProps } = Astro.props
+const allSettings = await getEntry('settings', 'elements')
+const settings = allSettings?.data.button[importance]
 ---
 
 <a
-  class:list={[variant(restProps)]}
+  class:list={[variant(restProps), variant(settings)]}
   href={href}
 >
   {label}

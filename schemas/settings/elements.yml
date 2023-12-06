@@ -2,12 +2,12 @@
 # ELEMENTS 
 # -----------------------------------------------
 button:
-  1: &button
+  primary: &button
     look:
     hue:
     class:
-  2: *button
-  3: *button
+  secondary: *button
+  tertiary: *button
 
 channel:
   look:

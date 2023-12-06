@@ -16,11 +16,15 @@ features:
   segment: &segment
     class:
   writeup: &writeup
+  buttons: &buttons
+    importance:
+    class:
 
 offers:
   card: *card
   segment: *segment
   writeup: *writeup
+  buttons: *buttons
 
 brands: &collection_card
   card: *card
@@ -53,3 +57,10 @@ _inputs:
         - soft
         - outline
         - ghost
+  buttons.importance:
+    type: multiselect
+    options:
+      values:
+        - primary
+        - secondary
+        - tertiary

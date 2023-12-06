@@ -6,9 +6,18 @@ import Button from './Button.astro'
 type Props = GroupProps &
   Omit<ButtonProps, 'label' | 'href'> & {
     buttons: ButtonProps[]
+    importance?: 'primary' | 'secondary' | 'tertiary'
   }
 
-const { buttons, ...restProps } = Astro.props
+const { buttons, importance = 'primary', ...restProps } = Astro.props
+
+const getImportance = (i: number) => {
+  if (i === 0) return importance
+  if (i === 1 && importance === 'primary') return 'secondary'
+  if (i === 1 && importance === 'secondary') return 'tertiary'
+  if (i === 1 && importance === 'tertiary') return 'tertiary'
+  if (i === 2) return 'tertiary'
+}
 ---
 
 <Group {...restProps}>
@@ -16,6 +25,7 @@ const { buttons, ...restProps } = Astro.props
     Array.isArray(buttons) &&
       buttons?.map((button, i) => (
         <Button
+          importance={getImportance(i)}
           {...restProps}
           {...button}
         />
