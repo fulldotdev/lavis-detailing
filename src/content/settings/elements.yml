@@ -1,17 +1,14 @@
 _schema: elements
 button:
-  '1':
+  primary:
     look: solid
     hue: brand
-    class:
-  '2':
+  secondary:
     look: outline
     hue: brand
-    class:
-  '3':
+  tertiary:
     look: ghost
     hue: brand
-    class:
 channel:
   look: outline
   hue: brand
@@ -32,11 +29,7 @@ spec:
   class:
 rating:
   class:
-person:
-  class:
 icon:
-  class:
-form:
   class:
 logo:
   class:

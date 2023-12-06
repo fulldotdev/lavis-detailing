@@ -1,4 +1,19 @@
 _schema: footer
 columns:
-  - heading:
+  - heading: Producten
     links:
+      - _bookshop_name: elements/link
+        label: Vlonder Anti-slip Profiel ®
+        href:
+      - _bookshop_name: elements/link
+        label: Proefpakket Anti-slip Profiel ®
+        href:
+      - _bookshop_name: elements/link
+        label: Vlonder Afdicht Profiel ®
+        href:
+      - _bookshop_name: elements/link
+        label: Proefpakket Afdicht Profiel ®
+        href:
+      - _bookshop_name: elements/link
+        label: Vlonder Anti-sip Strook
+        href:
