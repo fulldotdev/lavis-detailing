@@ -1,5 +1,3 @@
-export { default as getElementSettings } from './getElementSettings'
-export { default as getGlobalSettings } from './getGlobalSettings'
 export { default as readFrontmatter } from './readFrontmatter'
 export { default as readYaml } from './readYaml'
 export { default as toPascalCase } from './toPascalCase'

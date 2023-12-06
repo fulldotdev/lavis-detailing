@@ -1,8 +1,8 @@
 ---
 import { getEntry } from 'astro:content'
 
-const components = await getEntry('data', 'components')
-const company = await getEntry('data', 'company')
+const elements = await getEntry('settings', 'elements')
+const company = await getEntry('globals', 'company')
 ---
 
 {

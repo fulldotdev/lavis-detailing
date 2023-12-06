@@ -1,6 +1,6 @@
 ---
 import type { HTMLAttributes, VariantProps } from '@types'
-import { getElementSettings } from '@utils'
+import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
 export type ImageProps = Props
@@ -57,7 +57,8 @@ function getSizes() {
   return joined
 }
 
-const settings = await getElementSettings('image')
+const settingsElements = await getEntry('settings', 'elements')
+const settings = settingsElements.data.image
 ---
 
 {

@@ -9,7 +9,7 @@ interface Props {
 
 const { socials } = Astro.props
 
-const company = await getEntry('data', 'company')
+const company = await getEntry('globals', 'company')
 const keys = Object.keys(company.data.socials)
 const filteredKeys = keys.filter((key) => company.data.socials[key])
 ---

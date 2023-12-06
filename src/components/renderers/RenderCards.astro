@@ -1,9 +1,5 @@
 ---
-import {
-  getEntry,
-  type CollectionEntry,
-  type CollectionKey,
-} from 'astro:content'
+import { getEntry, type CollectionEntry } from 'astro:content'
 import type { RenderCardProps } from './RenderCard.astro'
 import RenderCard from './RenderCard.astro'
 
@@ -18,7 +14,6 @@ type Entry = CollectionEntry<
   | 'reviews'
 >
 
-const test: CollectionKey = 'brands'
 type Path = `${string}${Entry['collection']}/${Entry['id']}`
 type Card = RenderCardProps
 type Item = Card | Entry | Path

@@ -153,7 +153,7 @@ collections_config:
         path: schemas/forms.md
 
   globals:
-    path: src/content/settings
+    path: src/content/globals
     output: false
     icon: 
     # disable_add_folder: true
@@ -178,17 +178,17 @@ collections_config:
     # disable_file_actions: true
     schemas:
       theme: 
-        path: schemas/data/theme.yml
+        path: schemas/settings/theme.yml
       elements: 
-        path: schemas/data/elements.yml
+        path: schemas/settings/elements.yml
       cards: 
-        path: schemas/data/cards.yml
+        path: schemas/settings/cards.yml
       blocks: 
-        path: schemas/data/blocks.yml
+        path: schemas/settings/blocks.yml
       globals: 
-        path: schemas/data/globals.yml
+        path: schemas/settings/globals.yml
       collections: 
-        path: schemas/data/collections.yml
+        path: schemas/settings/collections.yml
         
 # -----------------------------------------------
 # Input customization

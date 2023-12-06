@@ -23,8 +23,8 @@ interface Props {
   type: CollectionKey | 'features' | 'offers'
 }
 
-const components = await getEntry('data', 'components')
-const settings = components.data.elements[Astro.props.type]
+const components = await getEntry('settings', 'cards')
+const settings = components.data[Astro.props.type]
 const merged = { ...settings, ...Astro.props }
 const {
   href,
@@ -47,10 +47,7 @@ const {
   <Image {...image} />
   <Segment {...segment}>
     <Rating {...rating} />
-    <Writeup
-      {...writeup}
-      set:html={writeup}
-    >
+    <Writeup set:html={writeup}>
       <Fragment set:html={writeup} />
       {tagline && <span>{tagline}</span>}
       {title && <h4>{title}</h4>}

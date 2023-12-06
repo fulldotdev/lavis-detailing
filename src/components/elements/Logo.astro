@@ -1,6 +1,5 @@
 ---
 import type { VariantProps } from '@types'
-import { getElementSettings } from '@utils'
 import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
@@ -12,8 +11,9 @@ const variant = cva({
 })
 
 const { ...restProps } = Astro.props
-const company = await getEntry('data', 'company')
-const settings = await getElementSettings('logo')
+const company = await getEntry('globals', 'company')
+const settingsElements = await getEntry('settings', 'elements')
+const settings = settingsElements.data.logo
 ---
 
 {

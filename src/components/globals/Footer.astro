@@ -37,10 +37,10 @@ const variant = cva({
   },
 })
 
-const company = await getEntry('data', 'company')
-const footer = await getEntry('data', 'footer')
-const components = await getEntry('data', 'components')
-const settings = components.data?.globals?.footer || {}
+const company = await getEntry('globals', 'company')
+const footer = await getEntry('globals', 'footer')
+const globalsSettings = await getEntry('settings', 'globals')
+const settings = globalsSettings?.data?.footer || {}
 ---
 
 <footer class={variant(settings.footer)}>

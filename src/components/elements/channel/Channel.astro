@@ -1,5 +1,4 @@
 ---
-import { getElementSettings } from '@utils'
 import { hue, look } from '@variants'
 import { getEntry } from 'astro:content'
 import { cva } from 'cva'
@@ -16,8 +15,9 @@ const variant = cva({
   },
 })
 
-const settings = await getElementSettings('channel')
-const company = await getEntry('data', 'company')
+const settingsElements = await getEntry('settings', 'elements')
+const settings = settingsElements.data.channel
+const company = await getEntry('globals', 'company')
 
 const map = {
   email: {

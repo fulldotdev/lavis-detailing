@@ -4,7 +4,7 @@ import RenderBlock from '@components/renderers/RenderBlock.astro'
 import LayoutNav from '@layouts/LayoutNav.astro'
 import { getEntry } from 'astro:content'
 
-const cta = await getEntry('data', 'cta')
+const cta = await getEntry('globals', 'cta')
 
 const { seo } = Astro.props
 ---
