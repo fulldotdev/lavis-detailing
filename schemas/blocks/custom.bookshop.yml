@@ -25,19 +25,24 @@ _inputs:
   blueprint:
     type: object
     options:
-      structures: _structures.blueprint
+      subtype: mutable
+      entries:
+        allowed_keys:
+          - writeup
+          - buttons
+          - image
 
-_structures:
-  blueprint:
-    values:
-      - label: Writeup
-        value:
-          html: 
-      - label: Buttons
-        value:
-          - label: 
-            href: 
-      - label: Image
-        value:
-          src:
-          alt:
+# _structures:
+#   blueprint:
+#     values:
+#       - label: Writeup
+#         value:
+#           html: 
+#       - label: Buttons
+#         value:
+#           - label: 
+#             href: 
+#       - label: Image
+#         value:
+#           src:
+#           alt:
