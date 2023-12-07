@@ -292,6 +292,11 @@ _inputs:
   class:
     type: textarea
 
-# data_config:
-#   presets:
-#     path: src/components/blocks/presets.yml
+# -----------------------------------------------
+# Blocks collection inputs
+# -----------------------------------------------
+
+  blueprint:
+    type: object
+    options:
+      subtype: mutable
