@@ -1,0 +1,11 @@
+spec:
+  structures:
+    - content_blocks
+  label: Posts
+
+blueprint:
+  writeup:
+  buttons:
+  posts:
+
+preview:

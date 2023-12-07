@@ -180,7 +180,9 @@ collections_config:
   blocks:
     path: src/components/blocks
     output: false
-    icon: 
+    schemas:
+      custom: 
+        path: schemas/blocks/custom.bookshop.yml
         
 # -----------------------------------------------
 # Input customization

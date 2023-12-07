@@ -1,0 +1,15 @@
+spec:
+  structures:
+    - content_blocks
+  label: Highlight
+
+blueprint:
+  writeup:
+  buttons:
+  image: 
+    src:
+    alt:
+
+preview:
+
+_inputs:

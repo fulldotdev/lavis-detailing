@@ -1,0 +1,46 @@
+spec:
+  structures:
+    - content_blocks
+  label: Categories
+
+blueprint:
+  writeup:
+  buttons:
+  categories:
+
+design:
+  section:
+    align: start
+    size:
+  segment:
+    layout: col
+    align:
+  buttons:
+    importance:
+    layout:
+  image:
+    position:
+    orientation:
+
+preview:
+
+_inputs:
+  blueprint:
+    type: object
+    options:
+      structures: _structures.blueprint
+
+_structures:
+  blueprint:
+    values:
+      - label: Writeup
+        value:
+          html: 
+      - label: Buttons
+        value:
+          - label: 
+            href: 
+      - label: Image
+        value:
+          src:
+          alt:

@@ -1,0 +1,12 @@
+spec:
+  structures:
+    - content_blocks
+  label: Cta
+
+blueprint:
+  writeup:
+  buttons:
+
+preview:
+
+_inputs:

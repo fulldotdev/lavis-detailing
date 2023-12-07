@@ -1,0 +1,25 @@
+spec:
+  structures:
+    - content_blocks
+  label: Services
+
+blueprint:
+  writeup:
+  buttons:
+  services:
+
+design:
+  section:
+    align: start
+    size:
+  segment:
+    layout: col
+    align:
+  buttons:
+    importance:
+    layout:
+  image:
+    position:
+    orientation:
+    
+preview:

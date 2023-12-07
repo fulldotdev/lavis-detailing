@@ -1,0 +1,12 @@
+spec:
+  structures:
+    - content_blocks
+  label: Contact
+
+blueprint:
+  writeup:
+  form:
+  
+preview:
+
+_inputs:

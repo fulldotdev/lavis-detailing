@@ -1,0 +1,25 @@
+spec:
+  structures:
+    - content_blocks
+  label: Reviews
+
+blueprint:
+  writeup:
+  buttons:
+  reviews:
+
+design:
+  section:
+    align: start
+    size:
+  segment:
+    layout: col
+    align:
+  buttons:
+    importance:
+    layout:
+  image:
+    position:
+    orientation:
+    
+preview:

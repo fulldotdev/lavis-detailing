@@ -1,0 +1,11 @@
+spec:
+  structures:
+    - content_blocks
+  label: Services
+
+blueprint:
+  writeup:
+  buttons:
+  services:
+
+preview:

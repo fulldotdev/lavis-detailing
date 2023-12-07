@@ -1,0 +1,14 @@
+spec:
+  structures:
+    - content_blocks
+  label: Content
+
+blueprint:
+  prose:
+  image: 
+    src:
+    alt:
+
+preview:
+
+_inputs:
