@@ -1,9 +1,7 @@
-title: Highlight
-
 spec:
   structures:
     - content_blocks
-  label: Highlight
+  label: Intro
 
 blueprint:
   writeup:
