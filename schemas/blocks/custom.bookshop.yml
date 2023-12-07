@@ -30,6 +30,8 @@ _inputs:
             - image
           buttons:
             - buttons
+          writeup:
+            - writeup
 
 _structures:
   elements:
@@ -44,3 +46,6 @@ _structures:
         value:
           - src:
           - alt:
+      - id: writeup
+        label: Writeup
+        value:
