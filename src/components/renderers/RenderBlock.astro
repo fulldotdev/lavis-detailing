@@ -29,7 +29,7 @@ interface Props {
 const { _bookshop_name } = Astro.props
 const blocks = await getEntry('settings', 'blocks')
 const blockName = _bookshop_name?.split('/')[1]
-const blockSettings = blocks.data[blockName]
+const settings = blocks.data[blockName]
 const merged = { ...settings, ...Astro.props }
 const {
   section,
