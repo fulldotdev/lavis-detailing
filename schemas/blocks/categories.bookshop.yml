@@ -6,9 +6,9 @@ spec:
   label: Categories
 
 blueprint:
-  writeup:
-  buttons:
-  categories:
+  writeup: null
+  buttons: null
+  categories: null
 
 config:
   section:
