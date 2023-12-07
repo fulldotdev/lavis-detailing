@@ -8,7 +8,7 @@ spec:
 blueprint:
   writeup: null
   buttons: null
-  categories: null
+  categories: []
 
 config:
   section:
