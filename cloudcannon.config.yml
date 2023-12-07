@@ -183,8 +183,11 @@ collections_config:
     schemas:
       custom: 
         path: schemas/blocks/custom.bookshop.yml
+        remove_empty_inputs: false
       categories:
         path: schemas/blocks/categories.bookshop.yml
+        remove_empty_inputs: false
+      
         
 # -----------------------------------------------
 # Input customization

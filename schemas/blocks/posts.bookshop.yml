@@ -1,11 +1,38 @@
+title: categories
+
 spec:
   structures:
     - content_blocks
-  label: Posts
+  label: Categories
 
 blueprint:
   writeup:
   buttons:
-  posts:
+  categories:
+
+config:
+  section:
+    align: start
+    size:
+  segment:
+    layout: col
+    align:
+  buttons:
+    importance: secondary
+    layout: row
+  deck:
+    layout: carousel
+    size:
+
+_inputs:  
+  blueprint:
+    type: object
+    options:
+      subtype: mutable
+      entries:
+        allowed_keys:
+          - writeup
+          - buttons
+          - categories
 
 preview:

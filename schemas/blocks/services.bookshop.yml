@@ -1,3 +1,5 @@
+title: Services
+
 spec:
   structures:
     - content_blocks
@@ -16,10 +18,21 @@ config:
     layout: col
     align:
   buttons:
-    importance:
-    layout:
-  image:
-    position:
-    orientation:
+    importance: secondary
+    layout: row
+  deck:
+    layout: carousel
+    size:
+
+_inputs:  
+  blueprint:
+    type: object
+    options:
+      subtype: mutable
+      entries:
+        allowed_keys:
+          - writeup
+          - buttons
+          - categories
 
 preview:

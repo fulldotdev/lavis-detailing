@@ -1,4 +1,4 @@
-title: 
+title: Categories
 
 spec:
   structures:
@@ -6,9 +6,9 @@ spec:
   label: Categories
 
 blueprint:
-  writeup: null
-  buttons: null
-  categories: []
+  writeup:
+  buttons:
+  categories:
 
 config:
   section:
@@ -18,11 +18,11 @@ config:
     layout: col
     align:
   buttons:
-    importance: primary
-    layout:
-  image:
-    position:
-    orientation:
+    importance: secondary
+    layout: row
+  deck:
+    layout: carousel
+    size:
 
 _inputs:  
   blueprint:
