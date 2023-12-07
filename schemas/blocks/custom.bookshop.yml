@@ -7,6 +7,9 @@ blueprint:
 
 preview:
 
+setting:
+
+
 _inputs:
   blueprint:
     type: object
@@ -26,39 +29,39 @@ _inputs:
           - reviews
           - services
         # Object structures
-        structures: 
-          values:
-          - id: image
-            label: Image
-            value:
-              src:
-              alt:
-          - id: buttons
-            label: Buttons
-            value:
-              - src:
-              - alt:
-          - id: flat
-            label: Flat
+        # structures: 
+        #   values:
+        #   - id: image
+        #     label: Image
+        #     value:
+        #       src:
+        #       alt:
+        #   - id: buttons
+        #     label: Buttons
+        #     value:
+        #       - label:
+        #       - href:
+        #   - id: other
+        #     label: Other
         # Structures assign to keys
-        assigned_structures:
-          writeup:
-            - flat
-          buttons:
-            - buttons
-          image:
-            - image
-          form:
-            - flat
-          categories:
-            - flat
-          persons:
-            - flat
-          posts:
-            - flat            
-          products:
-            - flat
-          reviews:
-            - flat
-          services:
-            - flat      
+        # assigned_structures:
+        #   writeup:
+        #     - flat
+        #   buttons:
+        #     - buttons
+        #   image:
+        #     - image
+        #   form:
+        #     - other
+        #   categories:
+        #     - other
+        #   persons:
+        #     - other
+        #   posts:
+        #     - other            
+        #   products:
+        #     - other
+        #   reviews:
+        #     - other
+        #   services:
+        #     - other      
