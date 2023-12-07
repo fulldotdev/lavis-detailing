@@ -179,38 +179,39 @@ collections_config:
 
   blocks:
     path: src/components/blocks
+    url: /blocks/[full_slug]/
     output: false
     schemas:
       categories:
-        path: content/blocks/categories.yml
+        path: schemas/blocks/categories.yml
       contact:
-        path: content/blocks/contact.yml
+        path: schemas/blocks/contact.yml
       content:
-        path: content/blocks/content.yml
+        path: schemas/blocks/content.yml
       cta:
-        path: content/blocks/cta.yml
+        path: schemas/blocks/cta.yml
       custom:
-        path: content/blocks/custom.yml
+        path: schemas/blocks/custom.yml
       features:
-        path: content/blocks/features.yml
+        path: schemas/blocks/features.yml
       hero:
-        path: content/blocks/hero.yml
+        path: schemas/blocks/hero.yml
       highlight:
-        path: content/blocks/highlight.yml
+        path: schemas/blocks/highlight.yml
       intro:
-        path: content/blocks/intro.yml
+        path: schemas/blocks/intro.yml
       offers:
-        path: content/blocks/offers.yml
+        path: schemas/blocks/offers.yml
       persons:
-        path: content/blocks/persons.yml
+        path: schemas/blocks/persons.yml
       posts:
-        path: content/blocks/posts.yml
+        path: schemas/blocks/posts.yml
       products:
-        path: content/blocks/products.yml
+        path: schemas/blocks/products.yml
       reviews:
-        path: content/blocks/reviews.yml  
+        path: schemas/blocks/reviews.yml  
       services:
-        path: content/blocks/services.yml  
+        path: schemas/blocks/services.yml  
         
 # -----------------------------------------------
 # Input customization
