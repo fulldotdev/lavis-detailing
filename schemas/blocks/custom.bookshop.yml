@@ -1,24 +1,9 @@
 spec:
   structures:
     - content_blocks
-  label: Categories
+  label: Custom Block
 
 blueprint:
-  writeup: Hello world
-
-config:
-  section:
-    align: start
-    size:
-  segment:
-    layout: col
-    align:
-  buttons:
-    importance:
-    layout:
-  image:
-    position:
-    orientation:
 
 preview:
 
@@ -28,15 +13,26 @@ _inputs:
     options:
       subtype: mutable
       entries:
+        structures: _structures.elements
         allowed_keys:
           - writeup
           - buttons
-        # structures: _structures.elements
+          - image
+        assigned_structures:
+          image:
+            - image
+          buttons:
+            - buttons
 
-# _structures:
-#   elements:
-#     values:
-#       - label: Image
-#         value:
-#           src:
-#           alt:
+_structures:
+  elements:
+    values:
+      - id: image
+        label: Image
+        value:
+          src:
+          alt:
+      - id: buttons
+        value:
+          - src:
+          - alt:
