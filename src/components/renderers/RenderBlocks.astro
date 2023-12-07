@@ -1,31 +1,9 @@
 ---
-const { blocks } = Astro.props
-import { toPascalCase } from '@utils'
 import RenderBlock from './RenderBlock.astro'
-const components: any = {}
-const componentImports = import.meta.glob(
-  '../../components/blocks/**/*.astro',
-  {
-    eager: true,
-  }
-)
-Object.entries(componentImports).forEach(([path, object]: any) => {
-  const fileName = path.split('/').pop()
-  const componentName = fileName.split('.')[0]
-  components[componentName] = object.default
-})
+
+const { blocks } = Astro.props
 ---
 
 <main>
-  {
-    blocks?.map((block: any) => {
-      const bookshopNameWithoutFolder = block._bookshop_name.split('/').pop()
-      const pascalBookshopName = toPascalCase(bookshopNameWithoutFolder)
-      const Component = components[pascalBookshopName]
-      if (!Component) {
-        console.warn(`No component found for ${pascalBookshopName}`)
-        return <RenderBlock {...block} />
-      }
-    })
-  }
+  {blocks?.map((block: any) => <RenderBlock {...block} />)}
 </main>
