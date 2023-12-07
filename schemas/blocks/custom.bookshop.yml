@@ -9,7 +9,6 @@ preview:
 
 setting:
 
-
 _inputs:
   blueprint:
     type: object
