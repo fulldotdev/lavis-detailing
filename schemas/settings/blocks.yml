@@ -1,7 +1,6 @@
 # -----------------------------------------------
 # BLOCKS 
 # -----------------------------------------------
-
 hero: &hero
   section: &section
     layout: col
@@ -62,10 +61,8 @@ services: *collection
 
 
 # -----------------------------------------------
-# BLOCKS INPUT SETTINGS
+# INPUTS
 # -----------------------------------------------
-
-# PRESET OPTIONS
 _inputs:
   align:
     type: choice

@@ -1,7 +1,6 @@
 # -----------------------------------------------
 # CARDS 
 # -----------------------------------------------
-
 features:
   card: &card
     frame: panel
@@ -29,7 +28,7 @@ reviews: *collection_card
 services: *collection_card
 
 # -----------------------------------------------
-# INPUT SETTINGS 
+# INPUTS
 # -----------------------------------------------
 _inputs:
   frame:
