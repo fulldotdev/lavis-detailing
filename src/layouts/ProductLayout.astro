@@ -26,7 +26,7 @@ const collection = await getCollection('products')
 <LayoutNav>
   <Section
     layout="row"
-    y="start"
+    align="start"
   >
     <GalleryScroll class="col-span-2">
       {frontmatter.images?.map((image: any) => <Image {...image} />)}
