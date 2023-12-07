@@ -20,4 +20,5 @@ export const collections = {
   reviews: content,
   services: content,
   data: data,
+  blocks: data,
 }
