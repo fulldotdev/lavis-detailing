@@ -25,7 +25,6 @@ _inputs:
           - products
           - reviews
           - services
-
         assigned_structures:
           image:
             - image
@@ -41,6 +40,7 @@ _structures:
           src:
           alt:
       - id: buttons
+        label: Buttons
         value:
           - src:
           - alt:
