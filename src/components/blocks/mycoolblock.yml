@@ -1,0 +1,25 @@
+_schema: custom
+spec:
+  structures:
+    - content_blocks
+  label: Custom Block
+blueprint: {}
+preview:
+setting:
+_inputs:
+  blueprint:
+    type: object
+    options:
+      subtype: mutable
+      entries:
+        allowed_keys:
+          - writeup
+          - buttons
+          - image
+          - form
+          - categories
+          - persons
+          - posts
+          - products
+          - reviews
+          - services
