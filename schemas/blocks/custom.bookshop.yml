@@ -13,7 +13,7 @@ _inputs:
     options:
       subtype: mutable
       entries:
-        structures: _structures.elements
+        # Object keys
         allowed_keys:
           - writeup
           - buttons
@@ -25,26 +25,40 @@ _inputs:
           - products
           - reviews
           - services
+        # Object structures
+        structures: 
+          values:
+          - id: image
+            label: Image
+            value:
+              src:
+              alt:
+          - id: buttons
+            label: Buttons
+            value:
+              - src:
+              - alt:
+          - id: flat
+            label: Flat
+        # Structures assign to keys
         assigned_structures:
-          image:
-            - image
+          writeup:
+            - flat
           buttons:
             - buttons
-          writeup:
-            - writeup
-
-_structures:
-  elements:
-    values:
-      - id: image
-        label: Image
-        value:
-          src:
-          alt:
-      - id: buttons
-        label: Buttons
-        value:
-          - src:
-          - alt:
-      - id: writeup
-        label: Writeup
+          image:
+            - image
+          form:
+            - flat
+          categories:
+            - flat
+          persons:
+            - flat
+          posts:
+            - flat            
+          products:
+            - flat
+          reviews:
+            - flat
+          services:
+            - flat      
