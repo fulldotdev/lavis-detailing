@@ -3,7 +3,7 @@ title: secondary categories
 spec:
   structures:
     - content_blocks
-  label: Categories
+  label: 2nd Categories
 blueprint:
   writeup:
   buttons:
