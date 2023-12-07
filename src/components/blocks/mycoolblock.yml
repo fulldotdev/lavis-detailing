@@ -3,7 +3,8 @@ spec:
   structures:
     - content_blocks
   label: Custom Block
-blueprint: {}
+blueprint:
+  buttons:
 preview:
 setting:
 _inputs:
