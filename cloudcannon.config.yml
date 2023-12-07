@@ -55,7 +55,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: schemas/services.md
+        path: schemas/service.md
 
   products:
     path: src/content/products
@@ -68,7 +68,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/products.md
+        path: schemas/product.md
 
   categories:
     path: src/content/categories
@@ -80,7 +80,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/categories.md
+        path: schemas/category.md
         
   posts:
     path: src/content/posts
@@ -104,7 +104,7 @@ collections_config:
       - content
     schemas: 
       default: 
-        path: schemas/policies.md
+        path: schemas/policy.md
 
   reviews:
     path: src/content/reviews
@@ -115,7 +115,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/reviews.md
+        path: schemas/review.md
         
   persons:
     path: src/content/persons
@@ -126,7 +126,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/persons.md
+        path: schemas/person.md
 
   forms:
     path: src/content/forms
@@ -137,7 +137,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/forms.md
+        path: schemas/form.md
 
   globals:
     path: src/content/globals
