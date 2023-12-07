@@ -19,6 +19,9 @@ const { frontmatter } = Astro.props
 ---
 
 <Layout>
-  <RenderBlock {...frontmatter.preview} />
+  <RenderBlock
+    {...frontmatter.preview}
+    {...frontmatter.config}
+  />
   <!-- <RenderBlock {...frontmatter.preview} /> -->
 </Layout>
