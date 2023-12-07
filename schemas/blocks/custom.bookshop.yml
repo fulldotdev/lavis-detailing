@@ -18,6 +18,14 @@ _inputs:
           - writeup
           - buttons
           - image
+          - form
+          - categories
+          - persons
+          - posts
+          - products
+          - reviews
+          - services
+
         assigned_structures:
           image:
             - image
