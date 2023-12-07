@@ -43,7 +43,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: schemas/pages.md
+        path: schemas/page.md
 
   services:
     path: src/content/services
@@ -183,6 +183,8 @@ collections_config:
     schemas:
       custom: 
         path: schemas/blocks/custom.bookshop.yml
+      categories:
+        path: schemas/blocks/categories.bookshop.yml
         
 # -----------------------------------------------
 # Input customization
