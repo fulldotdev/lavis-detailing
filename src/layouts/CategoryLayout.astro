@@ -1,0 +1,31 @@
+---
+import RenderCards from '@components/renderers/RenderCards.astro'
+import Deck from '@components/wrappers/Deck.astro'
+import Section from '@components/wrappers/Section.astro'
+import LayoutCta from '@layouts/LayoutCta.astro'
+import { getCollection } from 'astro:content'
+
+const { entry } = Astro.props
+
+const productsInCategory = await getCollection('products', (product) => {
+  return product.data.categories.some((category: any) => {
+    return category.includes(entry.data.slug)
+  })
+})
+
+const categories = await getCollection('categories')
+---
+
+<LayoutCta seo={entry.data.seo}>
+  <Section>
+    <Deck layout="grid">
+      <RenderCards items={productsInCategory} />
+    </Deck>
+  </Section>
+  <Section>
+    <h2>Bekijk ook eens</h2>
+    <Deck layout="carousel">
+      <RenderCards items={categories} />
+    </Deck>
+  </Section>
+</LayoutCta>

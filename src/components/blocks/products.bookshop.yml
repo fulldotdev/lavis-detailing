@@ -6,7 +6,8 @@ spec:
 blueprint:
   writeup:
   buttons:
-  source:
   products:
 
 preview:
+
+_inputs: 

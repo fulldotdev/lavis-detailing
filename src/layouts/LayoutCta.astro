@@ -13,7 +13,7 @@ const { seo } = Astro.props
   <slot />
   <RenderBlock
     _bookshop_name="blocks/cta"
-    {...cta}
+    {...cta.data}
   />
   <Whatsapp />
 </LayoutNav>

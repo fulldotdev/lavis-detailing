@@ -31,16 +31,16 @@ const blockName = Astro.props._bookshop_name?.split('/')[1]
 const settings = blocks.data[blockName]
 const merged = { ...settings, ...Astro.props }
 const {
-  section = {},
-  segment = {},
-  writeup = {},
+  section,
+  segment,
+  writeup,
   buttons = [],
-  image = {},
+  image,
   channels = false,
   socials = false,
   // prose = {},
-  form = {},
-  deck = {},
+  form,
+  deck,
   cards = [],
 } = merged
 ---

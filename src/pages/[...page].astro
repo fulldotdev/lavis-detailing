@@ -1,6 +1,6 @@
 ---
 import RenderBlocks from '@components/renderers/RenderBlocks.astro'
-import LayoutNavCta from '@layouts/LayoutNavCta.astro'
+import LayoutNavCta from '@layouts/LayoutCta.astro'
 import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
@@ -20,5 +20,8 @@ const data = Astro.props.frontmatter
 ---
 
 <LayoutNavCta>
-  <RenderBlocks blocks={data.content_blocks} />
+  <RenderBlocks
+    bookshop:live
+    blocks={data.content_blocks}
+  />
 </LayoutNavCta>

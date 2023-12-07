@@ -5,6 +5,7 @@ import Channel from './Channel.astro'
 
 interface Props {
   channels?: boolean
+  class?: string
 }
 
 const { channels } = Astro.props
@@ -14,6 +15,9 @@ const keys = Object.keys(company.data.channels)
 const filteredKeys = keys.filter((key) => company.data.channels[key])
 ---
 
-<Group direction="col">
+<Group
+  direction="col"
+  class:list={['!gap-size3', Astro.props.class]}
+>
   {channels && filteredKeys.map((key: any) => <Channel {key} />)}
 </Group>

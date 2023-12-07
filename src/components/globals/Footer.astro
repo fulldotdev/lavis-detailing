@@ -53,10 +53,10 @@ const settings = globalsSettings?.data?.footer || {}
     }
     <Socials />
   </Segment>
-  <Segment class:list="col-span-.8 mode-compact size-small">
-    <h6 class="heading-secondary">Contact & locatie</h6>
-    <Channels />
-  </Segment>
+  <Channels
+    channels
+    class:list="mode-compact size-medium"
+  />
   {
     footer?.data?.columns &&
       footer?.data?.columns?.map((column: any) => (

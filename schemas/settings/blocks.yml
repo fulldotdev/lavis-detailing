@@ -60,13 +60,12 @@ offers: &offers_and_features
 
 features: *offers_and_features
 
-brands: &collection
+categories: &collection
   section: *section_vertical
   segment: *segment
   deck: *deck
 
-categories: *collection
-employees: *collection
+persons: *collection
 posts: *collection
 products: *collection
 reviews: *collection

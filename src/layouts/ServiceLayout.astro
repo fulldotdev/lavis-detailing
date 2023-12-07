@@ -1,0 +1,13 @@
+---
+import RenderBlocks from '@components/renderers/RenderBlocks.astro'
+import LayoutCta from '@layouts/LayoutCta.astro'
+
+const { frontmatter } = Astro.props
+---
+
+<LayoutCta seo={frontmatter.seo}>
+  <RenderBlocks
+    bookshop:live
+    blocks={frontmatter.content_blocks}
+  />
+</LayoutCta>

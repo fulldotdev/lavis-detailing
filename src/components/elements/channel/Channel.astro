@@ -24,21 +24,25 @@ const map = {
     value: company.data.channels.email,
     href: `mailto:${company.data.channels.email}`,
     icon: 'icon:mail',
+    title: 'Email',
   },
   phone: {
     value: company.data.channels.email,
     href: `tel:${company.data.channels.email}`,
     icon: 'icon:phone',
-  },
-  address: {
-    value: company.data.channels.address,
-    href: `https://www.google.com/maps/search/?api=1&query=${company.data.channels.address}`,
-    icon: 'icon:location',
+    title: 'Telefoon',
   },
   whatsapp: {
     value: company.data.channels.whatsapp,
     href: `https://wa.me/${company.data.channels.whatsapp}`,
     icon: 'icon:brand-whatsapp',
+    title: 'Whatsapp',
+  },
+  address: {
+    value: company.data.channels.address,
+    href: `https://www.google.com/maps/search/?api=1&query=${company.data.channels.address}`,
+    icon: 'icon:location',
+    title: 'Adres',
   },
 }
 
@@ -47,18 +51,21 @@ const { key } = Astro.props
 
 {
   company.data.channels[key] && (
-    <div class="gap-size4 flex items-center">
+    <div class="gap-size3 flex items-center">
       <a
         class={variant(settings)}
         href={map[key].href}
         target="_blank"
       >
-        <a
+        <i
           class="h-1.4em w-1.4em block"
           class:list={map[key].icon}
         />
       </a>
-      <p class="hue-base">{map[key].value}</p>
+      <div class="gap-size1 gap-size1 flex flex-col">
+        <p class="hue-base text-size2 text-hue12">{map[key].title}</p>
+        <p class="hue-base text-size1">{map[key].value}</p>
+      </div>
     </div>
   )
 }

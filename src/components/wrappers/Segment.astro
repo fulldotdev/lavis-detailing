@@ -7,11 +7,11 @@ export type SegmentProps = Props
 type Props = VariantProps<typeof variant>
 
 const variant = cva({
-  base: 'segment gap-size4 relative z-10',
+  base: 'segment gap-x-size6 gap-y-size4 relative z-10',
   variants: {
     direction: {
       col: 'grid',
-      row: 'grid lg:grid-flow-col',
+      row: 'grid lg:grid-flow-col gap-x-size6 ',
     },
     x: {
       start: 'justify-start justify-items-start',

@@ -13,15 +13,12 @@ collection_groups:
       - pages
       - services
       - posts
-  - heading: Producten
-    collections:
       - products
       - categories
-      - brands
   - heading: Data
     collections:
       - reviews
-      - employees
+      - persons
       - forms
       - policies
       - globals
@@ -84,18 +81,6 @@ collections_config:
       default: 
         path: schemas/categories.md
         
-  brands:
-    path: src/content/brands
-    url: /merken/[full_slug]/
-    output: true
-    icon: shape_line
-    disable_add_folder: true
-    _enabled_editors:
-      - data
-    schemas: 
-      default: 
-        path: schemas/brands.md
-
   posts:
     path: src/content/posts
     url: /posts/[full_slug]/
@@ -131,8 +116,8 @@ collections_config:
       default: 
         path: schemas/reviews.md
         
-  employees:
-    path: src/content/employees
+  persons:
+    path: src/content/persons
     output: false
     icon: diversity_3
     disable_add_folder: true
@@ -140,7 +125,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/employees.md
+        path: schemas/persons.md
 
   forms:
     path: src/content/forms

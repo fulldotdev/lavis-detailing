@@ -26,14 +26,13 @@ offers:
   writeup: *writeup
   buttons: *buttons
 
-brands: &collection_card
+categories: &collection_card
   card: *card
   image: *image
   segment: *segment
   writeup: *writeup
 
-categories: *collection_card
-employees: *collection_card
+persons: *collection_card
 posts: *collection_card
 products: *collection_card
 reviews: *collection_card

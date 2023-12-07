@@ -1,0 +1,64 @@
+---
+import Price from '@components/elements/Price.astro'
+import GalleryScroll from '@components/elements/gallery/GalleryScroll.svelte'
+import Image from '@components/elements/image/Image.astro'
+import CartUpdateButton from '@components/globals/cart/CartUpdateButton.svelte'
+import RenderCards from '@components/renderers/RenderCards.astro'
+import Deck from '@components/wrappers/Deck.astro'
+import Section from '@components/wrappers/Section.astro'
+import Segment from '@components/wrappers/Segment.astro'
+import Writeup from '@components/wrappers/Writeup.astro'
+import LayoutNav from '@layouts/LayoutNav.astro'
+import { getCollection } from 'astro:content'
+
+const { frontmatter } = Astro.props
+const collection = await getCollection('products')
+---
+
+<!-- Temporary untill astro/svelte bug is fixed -->
+<div class="hidden">
+  <CartUpdateButton
+    data={frontmatter}
+    client:load
+  />
+</div>
+
+<LayoutNav>
+  <Section
+    direction="row"
+    y="start"
+  >
+    <GalleryScroll class="col-span-2">
+      {frontmatter.images?.map((image: any) => <Image {...image} />)}
+    </GalleryScroll>
+    <Segment>
+      <Writeup>
+        <h1 class="heading-primary">{frontmatter.title}</h1>
+        <p class="text">{frontmatter.description}</p>
+      </Writeup>
+      <Price
+        class="size-large text-size2 text-hue12"
+        price={frontmatter.price}
+      />
+      <CartUpdateButton
+        data={frontmatter}
+        client:load
+      />
+    </Segment>
+  </Section>
+  <!-- <Section layout="row">
+    <Prose set:html={product.data.render()} />
+  </Section> -->
+  <Section
+    direction="col"
+    size="medium"
+  >
+    <h2 class="heading">Meer producten</h2>
+    <Deck
+      layout="carousel"
+      size="medium"
+    >
+      <RenderCards items={collection} />
+    </Deck>
+  </Section>
+</LayoutNav>

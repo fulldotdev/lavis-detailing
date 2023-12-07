@@ -181,26 +181,6 @@ features:
     layout:
     size:
     class:
-brands:
-  section:
-    x:
-    frame:
-    look:
-    order:
-    size:
-    hue:
-    scheme:
-    class:
-  segment:
-    direction:
-    x:
-    'y':
-    size:
-    class:
-  deck:
-    layout:
-    size:
-    class:
 categories:
   section:
     x:
@@ -221,7 +201,7 @@ categories:
     layout:
     size:
     class:
-employees:
+persons:
   section:
     x:
     frame:

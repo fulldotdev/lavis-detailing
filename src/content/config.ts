@@ -11,9 +11,8 @@ const data = defineCollection({
 })
 
 export const collections = {
-  brands: content,
   categories: content,
-  employees: content,
+  persons: content,
   pages: content,
   policies: content,
   posts: content,
