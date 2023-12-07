@@ -10,29 +10,13 @@ button:
     look: ghost
     hue: brand
 channel:
-  look: outline
+  look: soft
   hue: brand
-  class:
 social:
   look: soft
   hue: brand
-  class:
-link:
-  class:
-image:
-  class:
-writeup:
-  class:
-prose:
-  class:
-spec:
-  class:
 rating:
-  class:
-icon:
-  class:
-logo:
-  class:
+  hue: brand
 _inputs:
   look:
     type: choice
