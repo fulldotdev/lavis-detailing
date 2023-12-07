@@ -4,6 +4,7 @@ spec:
   label: Categories
 
 blueprint:
+  writeup: Hello world
 
 config:
   section:
@@ -30,18 +31,11 @@ _inputs:
         allowed_keys:
           - writeup
           - buttons
-          - image
+        # structures: _structures.elements
 
 # _structures:
-#   blueprint:
+#   elements:
 #     values:
-#       - label: Writeup
-#         value:
-#           html: 
-#       - label: Buttons
-#         value:
-#           - label: 
-#             href: 
 #       - label: Image
 #         value:
 #           src:
