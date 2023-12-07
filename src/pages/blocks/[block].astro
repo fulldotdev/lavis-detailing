@@ -1,11 +1,10 @@
 ---
 import RenderBlock from '@components/renderers/RenderBlock.astro'
-import LayoutNavCta from '@layouts/LayoutCta.astro'
+import Layout from '@layouts/Layout.astro'
 import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
   const collection = await getCollection('blocks')
-  console.log(collection)
   return collection.map((entry: any) => ({
     params: {
       block: entry.id,
@@ -17,9 +16,9 @@ export async function getStaticPaths() {
 }
 
 const { frontmatter } = Astro.props
-console.log(frontmatter)
 ---
 
-<LayoutNavCta>
+<Layout>
+  <RenderBlock {...frontmatter.preview} />
   <!-- <RenderBlock {...frontmatter.preview} /> -->
-</LayoutNavCta>
+</Layout>
