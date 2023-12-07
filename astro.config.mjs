@@ -1,9 +1,9 @@
 import sitemap from '@astrojs/sitemap'
 import svelte from '@astrojs/svelte'
 import bookshop from '@bookshop/astro-bookshop'
+import yaml from '@rollup/plugin-yaml'
 import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
-
 import UnoCSS from 'unocss/astro'
 import stripeProducts from './hooks/stripeProducts'
 
@@ -33,4 +33,7 @@ export default defineConfig({
     //   theme_color: '#fff',
     // }),
   ],
+  vite: {
+    plugins: [yaml()],
+  },
 })

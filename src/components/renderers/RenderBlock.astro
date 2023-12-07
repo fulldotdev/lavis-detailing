@@ -15,7 +15,6 @@ import type { ButtonProps, ImageProps } from '@types'
 import { getEntry } from 'astro:content'
 
 interface Props {
-  importance?: 'primary' | 'secondary'
   _bookshop_name: `blocks/${string}`
   writeup?: string
   buttons?: ButtonProps[]
@@ -27,14 +26,10 @@ interface Props {
   cards?: RenderCardsProps
 }
 
-const { _bookshop_name, importance = 'primary' } = Astro.props
+const { _bookshop_name } = Astro.props
 const blocks = await getEntry('settings', 'blocks')
 const blockName = _bookshop_name?.split('/')[1]
 const blockSettings = blocks.data[blockName]
-const settings =
-  'primary' in blockSettings && typeof importance === 'string'
-    ? blockSettings[importance]
-    : blockSettings
 const merged = { ...settings, ...Astro.props }
 const {
   section,
