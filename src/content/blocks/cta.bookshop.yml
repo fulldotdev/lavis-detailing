@@ -2,21 +2,20 @@ spec:
   structures:
     - content_blocks
   label: Cta
-
 blueprint:
   writeup:
   buttons:
-
 preview:
-  writeup: |
-    <h2>Lorem ipsum dolor sit</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
+  writeup: >-
+    <h2>Lorem ipsum dolor sit</h2><p>Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. Suscipit, numquam!</p>
   buttons:
-    - label: Lorem ipsum
+    - _bookshop_name: elements/button
+      label: Lorem ipsum
       href: '#'
-    - label: Lorem ipsum
+    - _bookshop_name: elements/button
+      label: Lorem ipsum
       href: '#'
-
 config:
   section:
     frame: panel
@@ -30,5 +29,4 @@ config:
   buttons:
     importance: primary
     layout: row
-
 _inputs:
