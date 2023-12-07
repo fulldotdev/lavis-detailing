@@ -85,4 +85,10 @@ content_blocks:
       _bookshop_name: elements/image
       src:
       alt:
+  - _bookshop_name: src/content/blocks/hero
+    writeup: <p>hoitest</p>
+    buttons:
+    image:
+      src:
+      alt:
 ---
