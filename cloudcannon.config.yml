@@ -22,9 +22,10 @@ collection_groups:
       - forms
       - policies
       - globals
-  - heading: Settings
+  - heading: Config
     collections:
       - settings
+      - blocks
 
 # -----------------------------------------------
 # Collection configuration
@@ -175,6 +176,11 @@ collections_config:
         path: schemas/settings/globals.yml
       collections: 
         path: schemas/settings/collections.yml
+
+  blocks:
+    path: src/components/blocks
+    output: false
+    icon: 
         
 # -----------------------------------------------
 # Input customization
