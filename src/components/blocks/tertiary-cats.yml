@@ -1,25 +1,12 @@
-_schema: categories
-title: tertiary cats
 spec:
   structures:
     - content_blocks
   label: Categories
+
 blueprint:
   writeup:
   buttons:
-config:
-  section:
-    align: start
-    size:
-  segment:
-    layout: col
-    align:
-  buttons:
-    importance: primary
-    layout:
-  image:
-    position:
-    orientation:
+
 _inputs:
   blueprint:
     type: object
@@ -30,4 +17,4 @@ _inputs:
           - writeup
           - buttons
           - categories
-preview:
+#
