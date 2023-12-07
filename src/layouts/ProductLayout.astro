@@ -1,5 +1,6 @@
 ---
 import Price from '@components/elements/Price.astro'
+import Writeup from '@components/elements/Writeup.astro'
 import GalleryScroll from '@components/elements/gallery/GalleryScroll.svelte'
 import Image from '@components/elements/image/Image.astro'
 import CartUpdateButton from '@components/globals/cart/CartUpdateButton.svelte'
@@ -7,7 +8,6 @@ import RenderCards from '@components/renderers/RenderCards.astro'
 import Deck from '@components/wrappers/Deck.astro'
 import Section from '@components/wrappers/Section.astro'
 import Segment from '@components/wrappers/Segment.astro'
-import Writeup from '@components/wrappers/Writeup.astro'
 import LayoutNav from '@layouts/LayoutNav.astro'
 import { getCollection } from 'astro:content'
 
@@ -25,7 +25,7 @@ const collection = await getCollection('products')
 
 <LayoutNav>
   <Section
-    direction="row"
+    layout="row"
     y="start"
   >
     <GalleryScroll class="col-span-2">
@@ -50,7 +50,7 @@ const collection = await getCollection('products')
     <Prose set:html={product.data.render()} />
   </Section> -->
   <Section
-    direction="col"
+    layout="col"
     size="medium"
   >
     <h2 class="heading">Meer producten</h2>

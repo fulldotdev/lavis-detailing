@@ -12,7 +12,6 @@ features:
     class:
   segment:
     class:
-  writeup:
 offers:
   card:
     frame:
@@ -22,7 +21,6 @@ offers:
     class:
   segment:
     class:
-  writeup:
 categories:
   card:
     frame:
@@ -36,7 +34,6 @@ categories:
     class:
   segment:
     class:
-  writeup:
 persons:
   card:
     frame:
@@ -50,7 +47,6 @@ persons:
     class:
   segment:
     class:
-  writeup:
 posts:
   card:
     frame:
@@ -64,7 +60,6 @@ posts:
     class:
   segment:
     class:
-  writeup:
 products:
   card:
     frame: panel
@@ -78,7 +73,6 @@ products:
     class:
   segment:
     class:
-  writeup:
 reviews:
   card:
     frame:
@@ -92,7 +86,6 @@ reviews:
     class:
   segment:
     class:
-  writeup:
 services:
   card:
     frame:
@@ -106,7 +99,7 @@ services:
     class:
   segment:
     class:
-  writeup:
+
 _inputs:
   frame:
     type: choice

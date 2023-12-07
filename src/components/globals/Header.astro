@@ -47,10 +47,10 @@ const variant = cva({
     links={header.data.links}
   />
   <Buttons
-    direction="row"
+    layout="row"
     buttons={header.data.buttons}
   />
-  <Group direction="row">
+  <Group layout="row">
     <CartIcon client:load />
     <label
       class="button look-soft flex cursor-pointer lg:hidden"
@@ -75,7 +75,7 @@ const variant = cva({
       links={header.data.link}
     />
     <Buttons
-      direction="col"
+      layout="col"
       buttons={header.data.buttons}
     />
   </Segment>

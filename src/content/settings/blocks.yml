@@ -1,7 +1,7 @@
 _schema: blocks
-hero:
+prominent_hero:
   section:
-    direction: col
+    layout: col
     'y': start
     x: stretch
     frame:
@@ -12,13 +12,64 @@ hero:
     scheme:
     class:
   segment:
-    direction: row
+    layout: row
     x: between
     'y': center
     size:
     class:
   buttons:
-    direction: col
+    layout: col
+    size:
+    class:
+  image:
+    position:
+    orientation:
+hero:
+  section:
+    layout: col
+    'y': start
+    x: stretch
+    frame:
+    look:
+    order: reverse
+    size: large
+    hue:
+    scheme:
+    class:
+  segment:
+    layout: row
+    x: between
+    'y': center
+    size:
+    class:
+  buttons:
+    layout: col
+    size:
+    class:
+  image:
+    position:
+    orientation:
+prominant_cta:
+  section:
+    layout:
+    'y':
+    x:
+    frame: panel
+    look: solid
+    order:
+    size: medium
+    hue: brand
+    scheme: light
+    class:
+  segment:
+    layout: row
+    x: between
+    'y': center
+    size:
+    class:
+  buttons:
+    layout:
+    importance: secondary
     size:
     class:
   image:
@@ -26,7 +77,7 @@ hero:
     orientation:
 cta:
   section:
-    direction:
+    layout:
     'y':
     x:
     frame: panel
@@ -37,13 +88,13 @@ cta:
     scheme: dark
     class:
   segment:
-    direction: row
+    layout: row
     x: between
     'y': center
     size:
     class:
   buttons:
-    direction:
+    layout:
     importance: secondary
     size:
     class:
@@ -52,7 +103,7 @@ cta:
     orientation:
 highlight:
   section:
-    direction: row
+    layout: row
     'y': center
     x:
     frame:
@@ -63,13 +114,13 @@ highlight:
     scheme:
     class:
   segment:
-    direction: col
+    layout: col
     x:
     'y':
     size:
     class:
   buttons:
-    direction: row
+    layout: row
     size:
     class:
   image:
@@ -77,7 +128,7 @@ highlight:
     orientation:
 content:
   section:
-    direction:
+    layout:
     'y':
     x:
     frame:
@@ -88,13 +139,13 @@ content:
     scheme:
     class:
   segment:
-    direction:
+    layout:
     x:
     'y':
     size:
     class:
   buttons:
-    direction:
+    layout:
     size:
     class:
   image:
@@ -102,7 +153,7 @@ content:
     orientation:
 intro:
   section:
-    direction:
+    layout:
     'y':
     x:
     frame: panel
@@ -113,13 +164,13 @@ intro:
     scheme: dark
     class:
   segment:
-    direction:
+    layout:
     x:
     'y':
     size:
     class:
   buttons:
-    direction:
+    layout:
     size:
     class:
   image:
@@ -127,7 +178,7 @@ intro:
     orientation:
 contact:
   section:
-    direction: row
+    layout: row
     'y':
     x:
     frame:
@@ -138,13 +189,13 @@ contact:
     scheme:
     class:
   segment:
-    direction:
+    layout:
     x:
     'y':
     size:
     class:
   channels:
-    direction: col
+    layout: col
     size:
     class:
 offers:
@@ -192,7 +243,7 @@ categories:
     scheme:
     class:
   segment:
-    direction:
+    layout:
     x:
     'y':
     size:
@@ -212,7 +263,7 @@ persons:
     scheme:
     class:
   segment:
-    direction:
+    layout:
     x:
     'y':
     size:
@@ -232,7 +283,7 @@ posts:
     scheme:
     class:
   segment:
-    direction:
+    layout:
     x:
     'y':
     size:
@@ -252,7 +303,7 @@ products:
     scheme:
     class:
   segment:
-    direction:
+    layout:
     x:
     'y':
     size:
@@ -272,7 +323,7 @@ reviews:
     scheme:
     class:
   segment:
-    direction:
+    layout:
     x:
     'y':
     size:
@@ -292,7 +343,7 @@ services:
     scheme:
     class:
   segment:
-    direction:
+    layout:
     x:
     'y':
     size:

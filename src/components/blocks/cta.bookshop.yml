@@ -6,7 +6,6 @@ spec:
 blueprint:
   writeup:
   buttons:
-  image: bookshop:elements/image
 
 preview:
 

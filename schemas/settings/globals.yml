@@ -12,7 +12,7 @@ header:
 
 cta:
   section:
-    direction:
+    layout:
     y:
     x:
     frame:
@@ -23,14 +23,14 @@ cta:
     scheme:
     class:
   segment:
-    direction:
+    layout:
     x:
     y:
     size:
     class:
   buttons:
     importance:
-    direction:
+    layout:
     size:
     class:
   image:

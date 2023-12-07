@@ -1,6 +1,6 @@
 ---
 import RenderBlocks from '@components/renderers/RenderBlocks.astro'
-import Layout from '@layouts/Layout.astro'
+import PostLayout from '@layouts/PostLayout.astro'
 import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
@@ -12,14 +12,17 @@ export async function getStaticPaths() {
       post: entry.slug,
     },
     props: {
-      frontmatter: entry.data,
+      entry: entry,
     },
   }))
 }
 
-const entry = Astro.props.frontmatter
+const { entry } = Astro.props
 ---
 
-<Layout>
+<PostLayout
+  {entry}
+  frontmatter={entry.data}
+>
   <RenderBlocks {...entry} />
-</Layout>
+</PostLayout>

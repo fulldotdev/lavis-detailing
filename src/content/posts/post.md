@@ -6,9 +6,18 @@ seo:
     src: 
     alt: 
     
-title: 
-description: 
+title: My awesome post
+description: short description
 image:
-  src: 
+  src: /uploads/img.jpeg
   alt: 
 ---
+loewriuhsdkjf loewriuhsdkjfloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfvloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfvloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfvloewriuhsdkjf
+loewriuhsdkjf loewriuhsdkjfloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfvloewriuhsdkjf
+loewriuhsdkjf loewriuhsdkjfloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfvloewriuhsdkjf
+loewriuhsdkjf loewriuhsdkjfloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfvloewriuhsdkjf
+loewriuhsdkjf loewriuhsdkjfloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfvloewriuhsdkjf
+loewriuhsdkjf loewriuhsdkjfloewriuhsdkjf loewriuhsdkjf loewriuhsdkjfvloewriuhsdkjf
+
+
+## bye world

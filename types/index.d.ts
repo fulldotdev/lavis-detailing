@@ -12,6 +12,7 @@ export * from '@components/wrappers/Section.astro'
 export * from '@components/wrappers/Segment.astro'
 
 // ELEMENTS
+export * from '@components/elements/Writeup.astro'
 export * from '@components/elements/button/Button.astro'
 export * from '@components/elements/channel/Channel.astro'
 export * from '@components/elements/collapsible/Collapsible.astro'
@@ -22,4 +23,3 @@ export * from '@components/elements/prose/Prose.astro'
 export * from '@components/elements/rating/Rating.astro'
 export * from '@components/elements/social/Social.astro'
 export * from '@components/elements/spec/Spec.astro'
-export * from '@components/wrappers/Writeup.astro'

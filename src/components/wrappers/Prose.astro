@@ -5,7 +5,7 @@ export type ProseProps = Props
 type Props = VariantProps<typeof variant>
 
 const variant = cva({
-  base: 'prose',
+  base: 'prose w-full',
 })
 
 const slot = await Astro.slots.render('default')

@@ -7,23 +7,16 @@ export type SectionProps = Props
 type Props = VariantProps<typeof variant>
 
 const variant = cva({
-  // ! WARNING: overflow-x-hidden is a hack to prevent horizontal scroll.
-  // But it can break position sticky !!
   base: 'gap-size5 relative overflow-x-hidden',
   variants: {
-    direction: {
-      col: 'grid gap-size5 justify-stretch',
-      row: 'grid gap-x-size6  gap-y-size5 lg:auto-cols-fr lg:grid-flow-col lg:[&>*]:col-span-3 lg:[&>.segment]:col-span-2',
+    layout: {
+      col: 'flex flex-col gap-size5 justify-center',
+      row: 'grid gap-x-size6 gap-y-size5 lg:auto-cols-fr lg:grid-flow-col lg:[&>*]:col-span-3 lg:[&>.segment]:col-span-2',
     },
-    y: {
+    align: {
       start: 'items-start',
-      center: 'items-center',
+      center: 'items-center justify-center',
       end: 'items-end',
-      between: 'items-between',
-    },
-    x: {
-      stretch: 'justify-stretch',
-      center: 'justify-center',
     },
     frame: {
       fill: 'px-wrapper py-size6 first:pt-size4 border-x-0 first:border-t-0 last:border-b-0',
@@ -34,7 +27,6 @@ const variant = cva({
       screen: 'min-h-screen px-wrapper py-size6 first:pt-size5 last:pb-size5',
     },
     look: {
-      ghost: 'bg-transparent',
       soft: 'bg-hue2',
       surface: 'bg-hue2 border border-hue6',
       outline: 'bg-transparent border border-hue6 ',
@@ -49,11 +41,16 @@ const variant = cva({
     hue: hue,
     scheme: scheme,
   },
+  compoundVariants: [
+    {
+      layout: 'col',
+      align: 'center',
+      class: 'text-center justify-center',
+    },
+  ],
   defaultVariants: {
-    direction: 'col',
-    y: 'start',
+    layout: 'col',
     frame: 'fill',
-    look: 'ghost',
   },
 })
 

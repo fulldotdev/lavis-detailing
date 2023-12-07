@@ -4,33 +4,23 @@
 
 features:
   card: &card
-    frame:
-    look:
+    frame: panel
+    look: surface
     hue:
     scheme:
-    class:
   image: &image
-    position:
-    orientation:
-    class:
-  segment: &segment
-    class:
-  writeup: &writeup
+    placement:
   buttons: &buttons
     importance:
-    class:
+    layout: 
 
 offers:
   card: *card
-  segment: *segment
-  writeup: *writeup
   buttons: *buttons
 
 categories: &collection_card
   card: *card
   image: *image
-  segment: *segment
-  writeup: *writeup
 
 persons: *collection_card
 posts: *collection_card
@@ -47,7 +37,6 @@ _inputs:
     options:
       values:
         - panel
-        - fill
   look:
     type: choice
     options:
@@ -56,10 +45,25 @@ _inputs:
         - soft
         - outline
         - ghost
+  image.placement:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - landscape
+        - square
+        - portrait
   buttons.importance:
-    type: multiselect
+    type: choice
     options:
       values:
         - primary
         - secondary
         - tertiary
+  buttons.layout:
+    type: choice
+    options:
+      values:
+        - row
+        - col

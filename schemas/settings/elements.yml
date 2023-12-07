@@ -5,44 +5,19 @@ button:
   primary: &button
     look:
     hue:
-    class:
   secondary: *button
   tertiary: *button
 
 channel:
   look:
   hue:
-  class:
 
 social:
   look:
   hue:
-  class:
-
-link:
-  class:
-
-image:
-  class:
-
-writeup:
-  class:
-
-prose:
-  class:
-
-spec:
-  class:
 
 rating:
   hue:
-  class:
-
-icon:
-  class:
-
-logo:
-  class:
     
 
 # -----------------------------------------------

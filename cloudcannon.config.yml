@@ -255,7 +255,7 @@ _inputs:
         - small
         - medium
         - large
-  direction:
+  layout:
     type: choice
     options:
       values:

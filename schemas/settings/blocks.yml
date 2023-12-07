@@ -4,31 +4,26 @@
 
 hero: &hero
   section: &section
-    direction: col
-    y:
-    x:
+    layout: col
+    align: start
     frame: fill
     look: ghost
     order:
     size:
     hue:
     scheme:
-    class:
   segment: &segment
-    direction:
-    x:
-    y:
-    size:
-    class:
+    layout: col
+    align:
   buttons: &buttons
-    direction:
-    size:
     importance:
-    class:
+    layout:
   image:
     position:
     orientation:
-cta: *hero
+cta: 
+  primary: *hero
+  secondary: *hero
 highlight: *hero
 content: *hero
 intro: *hero
@@ -37,26 +32,20 @@ contact:
   section: *section
   segment: *segment
   channels:
-    direction:
-    size:
-    class:
+    layout:
 offers: &offers_and_features
   section: &section_vertical
-    x:
+    align:
     frame:
     look:
     order:
     size:
     hue:
     scheme:
-    class:
-  segment:
-    size:
-    class:
+  segment: &segment
   deck: &deck
     layout:
     size:
-    class:
 
 features: *offers_and_features
 
@@ -78,13 +67,7 @@ services: *collection
 
 # PRESET OPTIONS
 _inputs:
-  section.x:
-    type: choice
-    options:
-      values:
-        - stretch
-        - center
-  section.y:
+  align:
     type: choice
     options:
       values:
@@ -108,27 +91,29 @@ _inputs:
         - soft
         - surface
         - solid
-  segment.x:
-    type: choice
-    options:
-      values:
-        - start
-        - center
-        - between
-  segment.y:
-    type: choice
-    options:
-      values:
-        - start
-        - center
-        - end
   layout:
+    type: choice
+    options:
+      values:
+        - col
+        - row
+  image.placement:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - landscape
+        - square
+        - portrait
+  deck.layout:
     type: choice
     options:
       values:
         - carousel
         - grid
         - masonry
+        - row
   buttons.importance:
     type: choice
     options:

@@ -22,11 +22,8 @@ const stripe = new Stripe(STRIPE_SECRET_KEY || '')
 const findProd = async (id: string) => {
   try {
     const product = await stripe.products.retrieve(id)
-
-    console.log(product)
     return product
   } catch (e) {
-    console.log(e)
     return null
   }
 }

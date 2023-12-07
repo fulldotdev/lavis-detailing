@@ -1,6 +1,5 @@
 ---
 import type { HTMLAttributes, VariantProps } from '@types'
-import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
 export type ImageProps = Props
@@ -21,16 +20,16 @@ type Props = VariantProps<typeof variant> & {
 const variant = cva({
   base: 'image',
   variants: {
-    position: {
+    placement: {
       relative: 'w-full h-auto relative',
-      background: 'object-cover absolute inset-0 !h-full w-full',
-      cover: 'object-cover h-full w-full',
-    },
-    orientation: {
-      square: 'aspect-square',
+      background: 'object-cover absolute inset-0 !h-full !w-full',
       landscape: 'aspect-4/3',
+      square: 'aspect-square',
       portrait: 'aspect-3/4',
     },
+  },
+  defaultVariants: {
+    placement: 'relative',
   },
 })
 
@@ -41,7 +40,6 @@ const {
   sizes = {
     base: '100vw',
   },
-  ...restProps
 } = Astro.props
 
 function getSizes() {
@@ -56,15 +54,11 @@ function getSizes() {
   const joined = mapped.join(', ')
   return joined
 }
-
-const settingsElements = await getEntry('settings', 'elements')
-const settings = settingsElements.data.image
 ---
 
 {
   src && (
     <img
-      class:list={[variant(restProps), variant(settings)]}
       src={src}
       alt={alt}
       sizes={getSizes()}

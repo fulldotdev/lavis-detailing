@@ -8,7 +8,7 @@ header:
   class:
 cta:
   section:
-    direction:
+    layout:
     'y':
     x:
     frame: panel
@@ -19,13 +19,13 @@ cta:
     scheme:
     class:
   segment:
-    direction: row
+    layout: row
     x: between
     'y': center
     size:
     class:
   buttons:
-    direction: col
+    layout: col
     size:
     class:
   image:

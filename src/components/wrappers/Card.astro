@@ -13,12 +13,11 @@ const variant = cva({
   variants: {
     frame: {
       panel: '[&_.segment]:p-size5',
-      fill: '',
     },
     look: {
-      soft: 'bg-hue2 [&[href]]:(hover:bg-hue3 active:bg-hue4)',
       surface:
         'bg-hue2 border border-hue6 [&[href]]:(hover:border-hue7 hover:bg-hue3 active:border-hue8 active:bg-hue4)',
+      soft: 'bg-hue2 [&[href]]:(hover:bg-hue3 active:bg-hue4)',
       outline:
         'bg-transparent border border-hue6 [&[href]]:(hover:border-hue7 active:border-hue8)',
       ghost: 'bg-transparent [&[href]]:(hover:bg-hue2 active:bg-hue3)',
@@ -27,7 +26,6 @@ const variant = cva({
     hue: hue,
   },
   defaultVariants: {
-    frame: 'fill',
     look: 'soft',
   },
 })

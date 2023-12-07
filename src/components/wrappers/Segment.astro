@@ -1,34 +1,25 @@
 ---
 import type { VariantProps } from '@types'
-import { size } from '@variants'
 import { cva } from 'cva'
 
 export type SegmentProps = Props
 type Props = VariantProps<typeof variant>
 
 const variant = cva({
-  base: 'segment gap-x-size6 gap-y-size4 relative z-10',
+  base: 'segment gap-y-size4 relative z-10',
   variants: {
-    direction: {
-      col: 'grid',
-      row: 'grid lg:grid-flow-col gap-x-size6 ',
+    layout: {
+      col: 'flex flex-col',
+      row: 'flex flex-col lg:flex-row gap-x-size6 justify-between',
     },
-    x: {
-      start: 'justify-start justify-items-start',
-      center: 'justify-center justify-items-center text-center',
-      between: 'justify-between',
-    },
-    y: {
-      start: 'items-start',
-      center: 'items-center',
+    align: {
+      start: 'items-center',
+      center: 'items-start',
       end: 'items-end',
     },
-    size: size,
   },
   defaultVariants: {
-    direction: 'col',
-    x: 'start',
-    y: 'start',
+    layout: 'col',
   },
 })
 
