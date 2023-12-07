@@ -20,16 +20,18 @@ type Props = VariantProps<typeof variant> & {
 const variant = cva({
   base: 'image',
   variants: {
-    placement: {
+    position: {
       relative: 'w-full h-auto relative',
       background: 'object-cover absolute inset-0 !h-full !w-full',
+    },
+    ratio: {
       landscape: 'aspect-4/3',
       square: 'aspect-square',
       portrait: 'aspect-3/4',
     },
   },
   defaultVariants: {
-    placement: 'relative',
+    position: 'relative',
   },
 })
 

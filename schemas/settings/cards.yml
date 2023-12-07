@@ -8,7 +8,8 @@ features:
     hue:
     scheme:
   image: &image
-    placement:
+    position:
+    ratio:
   buttons: &buttons
     importance:
     layout: 
@@ -44,12 +45,16 @@ _inputs:
         - soft
         - outline
         - ghost
-  image.placement:
+  image.position:
     type: choice
     options:
       values:
         - relative
         - background
+  image.ratio:
+    type: choice
+    options:
+      values:
         - landscape
         - square
         - portrait

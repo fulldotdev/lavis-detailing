@@ -94,12 +94,16 @@ _inputs:
       values:
         - col
         - row
-  image.placement:
+  image.position:
     type: choice
     options:
       values:
         - relative
         - background
+  image.ratio:
+    type: choice
+    options:
+      values:
         - landscape
         - square
         - portrait
