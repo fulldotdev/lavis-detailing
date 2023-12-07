@@ -4,11 +4,8 @@ spec:
   label: Categories
 
 blueprint:
-  writeup:
-  buttons:
-  categories:
 
-design:
+config:
   section:
     align: start
     size:
