@@ -178,8 +178,8 @@ collections_config:
         path: schemas/settings/collections.yml
 
   blocks:
-    path: src/components/blocks
-    url: /blocks/[full_slug]/
+    path: src/content/blocks
+    url: /[full_slug]/
     output: false
     schemas:
       categories:
