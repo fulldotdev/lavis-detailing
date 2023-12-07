@@ -1,0 +1,22 @@
+title: Content
+
+spec:
+  structures:
+    - content_blocks
+  label: Content
+
+blueprint:
+  prose:
+  image: 
+    src:
+    alt:
+
+preview:
+  prose: |
+    <h2>Lorem ipsum dolor sit</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
+  image:
+    src: /images/img.jpeg
+    alt: Lorem ipsum dolor sit
+
+_inputs:

@@ -181,13 +181,36 @@ collections_config:
     path: src/components/blocks
     output: false
     schemas:
-      custom: 
-        path: schemas/blocks/custom.bookshop.yml
-        remove_empty_inputs: false
       categories:
-        path: schemas/blocks/categories.bookshop.yml
-        remove_empty_inputs: false
-      
+        path: schemas/blocks/categories.yml
+      contact:
+        path: schemas/blocks/contact.yml
+      content:
+        path: schemas/blocks/content.yml
+      cta:
+        path: schemas/blocks/cta.yml
+      custom:
+        path: schemas/blocks/custom.yml
+      features:
+        path: schemas/blocks/features.yml
+      hero:
+        path: schemas/blocks/hero.yml
+      highlight:
+        path: schemas/blocks/highlight.yml
+      intro:
+        path: schemas/blocks/intro.yml
+      offers:
+        path: schemas/blocks/offers.yml
+      persons:
+        path: schemas/blocks/persons.yml
+      posts:
+        path: schemas/blocks/posts.yml
+      products:
+        path: schemas/blocks/products.yml
+      reviews:
+        path: schemas/blocks/reviews.yml  
+      services:
+        path: schemas/blocks/services.yml  
         
 # -----------------------------------------------
 # Input customization
@@ -301,7 +324,7 @@ _inputs:
 # Blocks collection inputs
 # -----------------------------------------------
 
-  blueprint:
-    type: object
-    options:
-      subtype: mutable
+  # blueprint:
+  #   type: object
+  #   options:
+  #     subtype: mutable

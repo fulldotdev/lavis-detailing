@@ -1,0 +1,18 @@
+title: Contact
+
+spec:
+  structures:
+    - content_blocks
+  label: Contact
+
+blueprint:
+  writeup:
+  form:
+  
+preview:
+  writeup: |
+    <h2>Lorem ipsum dolor sit</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
+  form: /path/to/form
+
+_inputs:

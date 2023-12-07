@@ -1,0 +1,27 @@
+title: Highlight
+
+spec:
+  structures:
+    - content_blocks
+  label: Highlight
+
+blueprint:
+  writeup:
+
+preview:
+  writeup: |
+    <h1>Lorem ipsum dolor sit</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
+
+config:
+  section:
+    frame:
+    look:
+    size:
+    hue:
+    scheme:
+  segment:
+    layout:
+    align:
+
+_inputs:
