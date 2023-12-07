@@ -8,7 +8,7 @@ export async function getStaticPaths() {
   console.log(collection)
   return collection.map((entry: any) => ({
     params: {
-      block: entry.id.split('.')[0],
+      block: entry.id,
     },
     props: {
       frontmatter: entry.data,

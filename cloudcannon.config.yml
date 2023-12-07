@@ -179,7 +179,7 @@ collections_config:
 
   blocks:
     path: src/content/blocks
-    url: /[slug]/{slug|slugify}
+    url: /blocks/[full_slug]/
     output: true
     disable_add_folder: true
     _enabled_editors:
