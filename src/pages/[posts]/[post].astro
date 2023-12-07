@@ -1,5 +1,4 @@
 ---
-import RenderBlocks from '@components/renderers/RenderBlocks.astro'
 import PostLayout from '@layouts/PostLayout.astro'
 import { getCollection } from 'astro:content'
 
@@ -23,6 +22,4 @@ const { entry } = Astro.props
 <PostLayout
   {entry}
   frontmatter={entry.data}
->
-  <RenderBlocks {...entry} />
-</PostLayout>
+/>

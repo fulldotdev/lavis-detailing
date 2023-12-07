@@ -6,8 +6,5 @@ const { frontmatter } = Astro.props
 ---
 
 <LayoutCta seo={frontmatter.seo}>
-  <RenderBlocks
-    bookshop:live
-    blocks={frontmatter.content_blocks}
-  />
+  <RenderBlocks blocks={frontmatter.content_blocks} />
 </LayoutCta>

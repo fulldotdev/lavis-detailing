@@ -20,8 +20,5 @@ const data = Astro.props.frontmatter
 ---
 
 <LayoutNavCta>
-  <RenderBlocks
-    bookshop:live
-    blocks={data.content_blocks}
-  />
+  <RenderBlocks blocks={data.content_blocks} />
 </LayoutNavCta>
