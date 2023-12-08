@@ -1,0 +1,14 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import LayoutNav from '../../layouts/LayoutNav.astro'
+
+interface Props {
+  entry: CollectionEntry<'pages'>
+}
+
+const { data } = Astro.props.entry
+---
+
+<LayoutNav seo={data.seo}>
+  <!--  -->
+</LayoutNav>

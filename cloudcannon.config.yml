@@ -328,7 +328,61 @@ _inputs:
 # Blocks collection inputs
 # -----------------------------------------------
 
-  # blueprint:
-  #   type: object
-  #   options:
-  #     subtype: mutable
+  align:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
+  look:
+    type: choice
+    options:
+      values:
+        - ghost
+        - outline
+        - soft
+        - surface
+        - solid
+  layout:
+    type: choice
+    options:
+      values:
+        - col
+        - row
+  image.position:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+  image.ratio:
+    type: choice
+    options:
+      values:
+        - landscape
+        - square
+        - portrait
+  deck.layout:
+    type: choice
+    options:
+      values:
+        - carousel
+        - grid
+        - masonry
+        - row
+  buttons.importance:
+    type: choice
+    options:
+      values:
+        - primary
+        - secondary
+        - tertiary

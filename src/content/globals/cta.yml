@@ -1,9 +1,0 @@
-_schema: components
-writeup: <h2>Vragen of een groot project?</h2>
-buttons:
-  - _bookshop_name: elements/button
-    label: Neem contact op
-    href: /contact/
-image:
-  src:
-  alt:

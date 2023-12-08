@@ -1,6 +1,11 @@
 ---
 import RenderBlocks from '@components/renderers/RenderBlocks.astro'
-import LayoutNav from '@layouts/LayoutNav.astro'
+import CategoryLayout from '@modules/categories/Categories.layout.astro'
+import PageLayout from '@modules/pages/Pages.layout.astro'
+import PolicyLayout from '@modules/policies/Policies.layout.astro'
+import PostLayout from '@modules/posts/Posts.layout.astro'
+import ProductLayout from '@modules/products/Products.layout.astro'
+import ServiceLayout from '@modules/services/Service.layout.astro'
 import type { CollectionEntry, ContentCollectionKey } from 'astro:content'
 import { getCollection } from 'astro:content'
 
@@ -32,15 +37,28 @@ export async function getStaticPaths() {
         slug: slug === 'index' ? undefined : slug,
       },
       props: {
-        frontmatter: entry.data,
+        entry: entry,
       },
     }
   })
 }
 
-const data = Astro.props.frontmatter
+const { entry } = Astro.props
+
+const layouts: {
+  [key in ContentCollectionKey]?: any
+} = {
+  pages: PageLayout,
+  posts: PostLayout,
+  services: ServiceLayout,
+  policies: PolicyLayout,
+  products: ProductLayout,
+  categories: CategoryLayout,
+}
+
+const CollectionLayout = layouts[entry.collection]
 ---
 
-<LayoutNav>
+<CollectionLayout {entry}>
   <RenderBlocks />
-</LayoutNav>
+</CollectionLayout>

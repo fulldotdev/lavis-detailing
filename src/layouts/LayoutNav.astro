@@ -1,17 +1,16 @@
 ---
-import Footer from '@components/globals/Footer.astro'
-import Header from '@components/globals/Header.astro'
-import CartSidebar from '@components/globals/cart/CartSidebar.svelte'
-import Layout from '@layouts/Layout.astro'
+import CartSidebar from '@components/cart/CartSidebar.svelte'
+import Layout from '@core/layouts/Layout.astro'
+import RenderBlocks from '@core/renderers/RenderBlocks.astro'
 
-const { seo } = Astro.props
+const { seo, header_blocks, footer_blocks } = Astro.props
 ---
 
 <Layout {seo}>
-  <Header />
-  <CartSidebar client:load />
+  <RenderBlocks blocks={header_blocks} />
+  <!-- <CartSidebar client:load /> -->
   <main>
     <slot />
   </main>
-  <Footer />
+  <RenderBlocks blocks={footer_blocks} />
 </Layout>

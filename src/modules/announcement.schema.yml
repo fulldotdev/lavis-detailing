@@ -1,0 +1,17 @@
+spec:
+  structures:
+    - header_blocks
+  label: Announcement
+
+blueprint:
+  text: 
+
+preview:
+  text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, incidunt. Quae, eos!
+
+config:
+
+_inputs:
+
+
+

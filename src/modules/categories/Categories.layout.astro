@@ -2,24 +2,28 @@
 import RenderCards from '@components/renderers/RenderCards.astro'
 import Deck from '@components/wrappers/Deck.astro'
 import Section from '@components/wrappers/Section.astro'
-import { getCollection } from 'astro:content'
-import LayoutNav from './LayoutNav.astro'
+import LayoutNav from '@core/layouts/LayoutNav.astro'
+import { getCollection, type CollectionEntry } from 'astro:content'
 
-const { entry } = Astro.props
+interface Props {
+  entry: CollectionEntry<'categories'>
+}
 
-const productsInCategory = await getCollection('products', (product) => {
+const { data, slug } = Astro.props.entry
+
+const products = await getCollection('products', (product) => {
   return product.data.categories.some((category: any) => {
-    return category.includes(entry.data.slug)
+    return category.includes(slug)
   })
 })
 
 const categories = await getCollection('categories')
 ---
 
-<LayoutNav seo={entry.data.seo}>
+<LayoutNav seo={data.seo}>
   <Section>
     <Deck layout="grid">
-      <RenderCards items={productsInCategory} />
+      <RenderCards items={products} />
     </Deck>
   </Section>
   <Section>

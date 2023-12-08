@@ -2,7 +2,7 @@
 import Link from '@components/elements/link/Link.astro'
 import { unslugify } from '@utils'
 import { getCollection, getEntry } from 'astro:content'
-const company = await getEntry('globals', 'company')
+const company = await getEntry('settings', 'company')
 const policies = await getCollection('policies')
 ---
 

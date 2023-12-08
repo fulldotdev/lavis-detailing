@@ -1,0 +1,15 @@
+---
+import RenderBlocks from '@components/renderers/RenderBlocks.astro'
+import type { CollectionEntry } from 'astro:content'
+import LayoutNav from '../../layouts/LayoutNav.astro'
+
+interface Props {
+  entry: CollectionEntry<'services'>
+}
+
+const { data } = Astro.props.entry
+---
+
+<LayoutNav seo={data.seo}>
+  <RenderBlocks blocks={data.content_blocks} />
+</LayoutNav>

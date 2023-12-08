@@ -5,18 +5,17 @@ import Prose from '@components/wrappers/Prose.astro'
 import Section from '@components/wrappers/Section.astro'
 import Segment from '@components/wrappers/Segment.astro'
 import type { CollectionEntry } from 'astro:content'
-import LayoutNav from './LayoutNav.astro'
+import LayoutNav from '../../layouts/LayoutNav.astro'
 
 interface Props {
   entry: CollectionEntry<'posts'>
-  frontmatter: any
 }
 
-const { entry, frontmatter } = Astro.props
-const { Content } = await entry.render()
+const { data, render } = Astro.props.entry
+const { Content } = await render()
 ---
 
-<LayoutNav seo={frontmatter.seo}>
+<LayoutNav seo={data.seo}>
   <Section
     size="large"
     frame="float"
@@ -24,11 +23,11 @@ const { Content } = await entry.render()
   >
     <Segment>
       <Writeup>
-        <h1 class="heading-primary">{frontmatter.title}</h1>
-        <p class="text-primary">{frontmatter.description}</p>
+        <h1 class="heading-primary">{data.title}</h1>
+        <p class="text-primary">{data.description}</p>
       </Writeup>
     </Segment>
-    <Image {...frontmatter.image} />
+    <Image {...data.image} />
   </Section>
   <Section
     frame="float"
