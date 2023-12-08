@@ -1,10 +1,10 @@
 ---
 import RenderBlocks from '@components/renderers/RenderBlocks.astro'
-import LayoutCta from '@layouts/LayoutCta.astro'
+import LayoutNav from './LayoutNav.astro'
 
 const { frontmatter } = Astro.props
 ---
 
-<LayoutCta seo={frontmatter.seo}>
+<LayoutNav seo={frontmatter.seo}>
   <RenderBlocks blocks={frontmatter.content_blocks} />
-</LayoutCta>
+</LayoutNav>

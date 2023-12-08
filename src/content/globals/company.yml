@@ -13,11 +13,11 @@ channels:
   whatsapp: '31616715746'
   address: Parkweg 2 8191JL Wapenveld Netherlands
 socials:
-  facebook:
-  twitter:
-  instagram:
-  pinterest:
-  linkedin:
+  facebook: wefwef
+  twitter: sdf
+  instagram: sdf
+  pinterest: sdf
+  linkedin: sdf
 _inputs:
   logo:
     type: image

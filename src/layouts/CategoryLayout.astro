@@ -2,8 +2,8 @@
 import RenderCards from '@components/renderers/RenderCards.astro'
 import Deck from '@components/wrappers/Deck.astro'
 import Section from '@components/wrappers/Section.astro'
-import LayoutCta from '@layouts/LayoutCta.astro'
 import { getCollection } from 'astro:content'
+import LayoutNav from './LayoutNav.astro'
 
 const { entry } = Astro.props
 
@@ -16,7 +16,7 @@ const productsInCategory = await getCollection('products', (product) => {
 const categories = await getCollection('categories')
 ---
 
-<LayoutCta seo={entry.data.seo}>
+<LayoutNav seo={entry.data.seo}>
   <Section>
     <Deck layout="grid">
       <RenderCards items={productsInCategory} />
@@ -28,4 +28,4 @@ const categories = await getCollection('categories')
       <RenderCards items={categories} />
     </Deck>
   </Section>
-</LayoutCta>
+</LayoutNav>

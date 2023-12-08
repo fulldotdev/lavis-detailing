@@ -4,7 +4,7 @@ import Buttons from '@components/elements/button/Buttons.astro'
 import Channels from '@components/elements/channel/Channels.astro'
 import Image from '@components/elements/image/Image.astro'
 import Socials from '@components/elements/social/Socials.astro'
-import type { RenderCardsProps } from '@components/renderers/RenderCards.astro'
+import type { RenderCardsItem } from '@components/renderers/RenderCards.astro'
 import RenderCards from '@components/renderers/RenderCards.astro'
 import Deck from '@components/wrappers/Deck.astro'
 import Section from '@components/wrappers/Section.astro'
@@ -26,7 +26,7 @@ interface Props {
   socials?: boolean
   image?: ImageProps | null
   deck?: DeckProps
-  features?: RenderCardsProps
+  features?: RenderCardsItem[]
 }
 
 const {
@@ -52,9 +52,6 @@ const {
 
   <Image {...image} />
   <Deck {...deck}>
-    <RenderCards
-      items={features}
-      type="features"
-    />
+    <RenderCards items={features} />
   </Deck>
 </Section>
