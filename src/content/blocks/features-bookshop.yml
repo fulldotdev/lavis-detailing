@@ -1,0 +1,35 @@
+_schema: cta
+spec:
+  structures:
+    - content_blocks
+  label: Cta
+blueprint:
+  writeup:
+  buttons:
+preview:
+  writeup: >
+    <h2>Lorem ipsum dolor sit</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+    numquam!</p>
+  buttons:
+    - _bookshop_name: elements/button
+      label: Lorem ipsum
+      href: '#'
+    - _bookshop_name: elements/button
+      label: Lorem ipsum
+      href: '#'
+config:
+  section:
+    frame: panel
+    look: solid
+    size:
+    hue: brand
+    scheme: light
+  segment:
+    layout: row
+    align: center
+  buttons:
+    importance: primary
+    layout: col
+_inputs:
