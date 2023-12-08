@@ -6,9 +6,9 @@ export default function preset({
   brand = 'blue',
   accent = 'green',
   scheme = 'light',
-  texture = 'solid',
-  contrast = false,
-}: any): Preset {
+} // texture = 'solid',
+// contrast = false,
+: any): Preset {
   return {
     name: 'unocss-preset-colors',
     safelist: [
@@ -51,7 +51,6 @@ export default function preset({
             h1, h2, h3, h4, h5, h6 {
               color: ${theme['colors'].hue['12']};
             }
-
           `,
       },
     ],

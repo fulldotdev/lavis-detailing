@@ -19,8 +19,15 @@ const { frontmatter } = Astro.props
 ---
 
 <Layout>
+  <div></div>
   <RenderBlock
-    {...frontmatter.preview}
     {...frontmatter.config}
+    {...frontmatter.preview}
   />
 </Layout>
+
+<style is:global>
+  .bottom {
+    display: none;
+  }
+</style>

@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content'
+
+const blocks = await getCollection('blocks')
+---
+
+<ol class="p-100px gap-20px flex flex-col">
+  {
+    blocks.map((block) => (
+      <li class="underline">
+        <a href={'blocks/' + block.id}>{block.id}</a>
+      </li>
+    ))
+  }
+
+  <style is:global>
+    .bottom {
+      display: none;
+    }
+  </style>
+</ol>

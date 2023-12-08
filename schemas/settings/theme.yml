@@ -6,8 +6,8 @@ colors:
   brand: blue
   accent: indigo
   scheme: light
-  texture: solid
-  contrast: false
+  # texture: solid
+  # contrast: false
 
 fonts:
   heading:

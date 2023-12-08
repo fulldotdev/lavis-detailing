@@ -20,25 +20,25 @@ preview:
     - label: Lorem ipsum
       href: '#'
   image:
-    src: /images/img.jpeg
+    src: /uploads/img.jpeg
     alt: Lorem ipsum dolor sit
 
 config:
   section:
     layout: col
-    align: start
+    align:
     frame: fill
     look:
-    order:
+    order: reverse
     size: large
     hue:
     scheme:
   segment:
-    layout: col
-    align:
+    layout: row
+    align: center
   buttons:
     importance: primary
-    layout: row
+    layout: col
   image:
     position:
     orientation:

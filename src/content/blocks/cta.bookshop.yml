@@ -21,12 +21,12 @@ config:
     frame: panel
     look: surface
     size:
-    hue:
-    scheme:
+    hue: brand
+    scheme: dark
   segment:
-    layout: col
+    layout: row
     align: center
   buttons:
     importance: primary
-    layout: row
+    layout: col
 _inputs:
