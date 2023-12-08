@@ -6,7 +6,7 @@ export type DeckProps = Props
 type Props = VariantProps<typeof variant>
 
 const variant = cva({
-  base: 'deck gap-size5 relative',
+  base: 'deck gap-size5 relative mode-compact',
   variants: {
     layout: {
       carousel: [
@@ -28,7 +28,7 @@ const variant = cva({
         'sm:columns-[308px] size-small:sm:columns-[220px] size-large:sm:columns-2',
         'size-large:md:columns-[385px]',
       ],
-      row: 'grid gap-size5 lg:grid-flow-col lg:auto-cols-fr',
+      row: 'grid gap-size6 lg:grid-flow-col lg:auto-cols-fr',
     },
     size: size,
   },

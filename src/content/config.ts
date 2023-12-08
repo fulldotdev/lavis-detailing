@@ -19,6 +19,7 @@ export const collections = {
   products: content,
   reviews: content,
   services: content,
+  person: content,
   data: data,
   blocks: data,
 }

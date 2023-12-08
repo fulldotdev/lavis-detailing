@@ -12,7 +12,7 @@ type Path = `${string}${Entry['collection']}/${Entry['id']}`
 type Card = RenderCardProps
 type Item = Card | Entry | Path
 interface Props {
-  items: Item[]
+  items?: Item[]
 }
 
 const getEntryFromPath = async (path: Path) => {
@@ -72,7 +72,7 @@ const { items } = Astro.props
 ---
 
 {
-  items.map(async (item) => {
+  items?.map(async (item) => {
     const card = await getCard(item)
     if (!card) return
     return <RenderCard {...card} />

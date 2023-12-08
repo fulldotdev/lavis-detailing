@@ -1,30 +1,28 @@
-_schema: highlight
 spec:
   structures:
     - content_blocks
   label: Highlight
+
 blueprint:
   writeup:
   buttons:
-  image:
+  image: 
     src:
     alt:
-preview:
-  writeup: >
-    <h2>Lorem ipsum dolor sit</h2>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-    numquam!</p>
+preview:
+  writeup: |
+    <h2>Lorem ipsum dolor sit</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
   buttons:
-    - _bookshop_name: elements/button
-      label: Lorem ipsum
+    - label: Lorem ipsum
       href: '#'
-    - _bookshop_name: elements/button
-      label: Lorem ipsum
+    - label: Lorem ipsum
       href: '#'
   image:
     src: /images/img.jpeg
     alt: Lorem ipsum dolor sit
+
 config:
   section:
     layout: row
@@ -44,4 +42,5 @@ config:
   image:
     position:
     orientation:
+
 _inputs:

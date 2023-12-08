@@ -29,7 +29,7 @@ config:
     align: center
     frame: fill
     look:
-    order:
+    order: switch
     size:
     hue:
     scheme:

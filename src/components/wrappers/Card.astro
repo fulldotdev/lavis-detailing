@@ -9,10 +9,10 @@ type Props = VariantProps<typeof variant> & {
 }
 
 const variant = cva({
-  base: 'overflow-hidden box-border relative card flex flex-col rounded-size2 [&[href]_.image]:hover:opacity-75 transition',
+  base: 'box-border gap-size5 relative card flex flex-col rounded-size2 [&[href]_.image]:hover:opacity-75 transition',
   variants: {
     frame: {
-      panel: '[&_.segment]:p-size5',
+      panel: '[&_.segment]:p-size5 !gap-0 overflow-hidden',
     },
     look: {
       surface:
@@ -24,9 +24,6 @@ const variant = cva({
     },
     scheme: scheme,
     hue: hue,
-  },
-  defaultVariants: {
-    look: 'soft',
   },
 })
 

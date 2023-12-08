@@ -26,7 +26,7 @@ interface Props {
   socials?: boolean
   image?: ImageProps | null
   deck?: DeckProps
-  cards?: RenderCardsProps
+  features?: RenderCardsProps
 }
 
 const {
@@ -38,10 +38,8 @@ const {
   channels,
   socials,
   deck,
-  cards,
+  features,
 } = Astro.props
-
-console.log('cards', segment)
 ---
 
 <Section {...section}>
@@ -53,7 +51,10 @@ console.log('cards', segment)
   </Segment>
 
   <Image {...image} />
-  <!-- <Deck {...deck}> -->
-  <!-- <RenderCards items={cards} /> -->
-  <!-- </Deck> -->
+  <Deck {...deck}>
+    <RenderCards
+      items={features}
+      type="features"
+    />
+  </Deck>
 </Section>
