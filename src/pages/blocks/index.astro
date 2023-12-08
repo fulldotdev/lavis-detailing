@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content'
 const blocks = await getCollection('blocks')
 ---
 
-<ol class="p-100px gap-20px flex flex-col">
+<ol class="px-wrapper pt-wrapper gap-10px flex flex-col">
   {
     blocks.map((block) => (
       <li class="underline">

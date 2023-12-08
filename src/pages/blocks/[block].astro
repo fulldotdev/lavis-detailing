@@ -16,10 +16,20 @@ export async function getStaticPaths() {
 }
 
 const { frontmatter } = Astro.props
+const blocks = await getCollection('blocks')
 ---
 
 <Layout>
-  <div></div>
+  <ol class="px-wrapper pt-wrapper gap-10px flex flex-col">
+    {
+      blocks.map((block) => (
+        <li class="underline">
+          <a href={'/blocks/' + block.id}>{block.id}</a>
+        </li>
+      ))
+    }
+  </ol>
+
   <RenderBlock
     {...frontmatter.config}
     {...frontmatter.preview}
