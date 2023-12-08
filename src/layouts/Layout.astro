@@ -1,5 +1,6 @@
 ---
-import Seo from '@core/misc/Seo.astro'
+import Bottom from '@components/misc/Bottom.astro'
+import Seo from '@components/misc/Seo.astro'
 import { ViewTransitions } from 'astro:transitions'
 
 const { seo } = Astro.props
@@ -16,5 +17,6 @@ const { seo } = Astro.props
   </head>
   <body class="size-medium mode-base hue-base bg-hue1 scroll-smooth">
     <slot />
+    <Bottom />
   </body>
 </html>

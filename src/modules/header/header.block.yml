@@ -1,6 +1,6 @@
 spec:
   structures:
-    - header_blocks
+    - header
   label: Header
 
 blueprint:

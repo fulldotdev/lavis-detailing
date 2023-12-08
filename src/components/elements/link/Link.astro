@@ -1,7 +1,7 @@
 ---
-import type { HTMLAttributes, VariantProps } from '@types'
 import { hue, size } from '@variants'
-import { cva } from 'cva'
+import type { HTMLAttributes } from 'astro/types'
+import { cva, type VariantProps } from 'cva'
 
 export type LinkProps = Props
 type Props = VariantProps<typeof variant> & {

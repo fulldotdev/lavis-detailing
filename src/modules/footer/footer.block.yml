@@ -1,6 +1,6 @@
 spec:
   structures:
-    - footer_blocks
+    - footer
   label: Footer
 
 blueprint:
