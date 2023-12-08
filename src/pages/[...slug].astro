@@ -1,0 +1,46 @@
+---
+import RenderBlocks from '@components/renderers/RenderBlocks.astro'
+import LayoutNav from '@layouts/LayoutNav.astro'
+import type { CollectionEntry, ContentCollectionKey } from 'astro:content'
+import { getCollection } from 'astro:content'
+
+type Entries = CollectionEntry<ContentCollectionKey>[]
+
+export async function getStaticPaths() {
+  const paths: {
+    [key in ContentCollectionKey]?: string
+  } = {
+    pages: '',
+    posts: 'posts/',
+    services: 'diensten/',
+    policies: 'beleid/',
+    products: 'producten/',
+    categories: 'categorieen/',
+  }
+
+  const keys = Object.keys(paths) as ContentCollectionKey[]
+  const promises = keys.map((collection) => getCollection(collection))
+  const results = await Promise.all(promises)
+  const flattened = results.flat()
+  const filtered = flattened.filter((result) => result && result.slug)
+  const entries = filtered as Entries
+
+  return entries.map((entry) => {
+    const slug = paths[entry.collection] + entry.slug
+    return {
+      params: {
+        slug: slug === 'index' ? undefined : slug,
+      },
+      props: {
+        frontmatter: entry.data,
+      },
+    }
+  })
+}
+
+const data = Astro.props.frontmatter
+---
+
+<LayoutNav>
+  <RenderBlocks />
+</LayoutNav>
