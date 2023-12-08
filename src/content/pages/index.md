@@ -17,5 +17,5 @@ content_blocks:
         href: /producten
     image:
       src: /uploads/screenshot-2023-12-05-at-12-42-25.png
-      alt:
+      alt: ' '
 ---
