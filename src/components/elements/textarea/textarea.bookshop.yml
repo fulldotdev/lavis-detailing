@@ -1,0 +1,10 @@
+spec:
+  structures:
+    - inputs
+  label: Textarea
+
+blueprint:
+  label:
+  required: false
+
+preview:

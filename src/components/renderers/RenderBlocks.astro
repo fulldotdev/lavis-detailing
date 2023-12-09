@@ -1,9 +1,0 @@
----
-import RenderBlock from './RenderContentBlock.astro'
-
-const { blocks } = Astro.props
----
-
-<main>
-  {blocks?.map((block: any) => <RenderBlock {...block} />)}
-</main>

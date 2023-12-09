@@ -1,5 +1,10 @@
 ---
-// const { price, class: className } = Astro.props
+import { getEntry } from 'astro:content'
+import { cva } from 'cva'
+
+const variant = cva({})
+const elements = await getEntry('globals', 'elements')
+const { price } = Astro.props
 ---
 
-<!-- <span class:list={[className, 'text-hue11']}>€{price.toFixed(2)} ex. btw</span> -->
+<span class={variant(elements?.data.price)}> €{price.toFixed(2)}</span>

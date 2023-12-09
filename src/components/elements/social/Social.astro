@@ -1,22 +1,14 @@
 ---
-import { look } from '@variants'
 import { getEntry } from 'astro:content'
-import { cva } from 'cva'
+import { variant } from '../button/Button.astro'
 
 interface Props {
   key: keyof typeof map
 }
 
-const variant = cva({
-  base: 'button',
-  variants: {
-    look: look,
-  },
-})
-
-const settingsElements = await getEntry('settings', 'elements')
-const settings = settingsElements.data.social
+const { key } = Astro.props
 const company = await getEntry('globals', 'company')
+const elements = await getEntry('globals', 'elements')
 
 const map = {
   facebook: {
@@ -52,14 +44,12 @@ const map = {
     icon: 'icon:brand-snapchat',
   },
 }
-
-let { key } = Astro.props
 ---
 
 {
   company.data.socials[key] && (
     <a
-      class={variant(settings)}
+      class={variant(elements?.data.social)}
       href={map[key].href}
       target="_blank"
     >

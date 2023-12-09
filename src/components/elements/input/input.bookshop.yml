@@ -1,0 +1,23 @@
+spec:
+  structures:
+    - inputs
+  label: Input
+
+blueprint:
+  label:
+  type:
+  required: false
+
+preview:
+
+_inputs:
+  type:
+    type: choice
+    options:
+      values:
+        - text
+        - email
+        - tel
+        - url
+        - number
+#

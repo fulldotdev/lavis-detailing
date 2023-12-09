@@ -1,29 +1,25 @@
 ---
-import { hue, size } from '@variants'
 import type { HTMLAttributes } from 'astro/types'
-import { cva, type VariantProps } from 'cva'
+import { getEntry } from 'astro:content'
+import { cva } from 'cva'
 
 export type LinkProps = Props
-type Props = VariantProps<typeof variant> & {
+interface Props {
   label: string | null
   href: HTMLAttributes<'a'>['href']
 }
 
 const variant = cva({
   base: 'link text-size-inherit',
-  variants: {
-    size: size,
-    hue: hue,
-  },
 })
 
-const { href, label, ...restProps } = Astro.props
+const { href, label } = Astro.props
+const elements = await getEntry('globals', 'elements')
 ---
 
 <a
   href={href}
-  class:list={[variant(restProps)]}
-  {...restProps}
+  class={variant(elements?.data.link)}
 >
   {label}
 </a>

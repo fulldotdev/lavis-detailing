@@ -1,23 +1,14 @@
 ---
-import { hue, look } from '@variants'
 import { getEntry } from 'astro:content'
-import { cva } from 'cva'
+import { variant } from '../button/Button.astro'
 
 interface Props {
   key: keyof typeof map
 }
 
-const variant = cva({
-  base: 'flex items-center gap-size3 button look-soft',
-  variants: {
-    look: look,
-    hue: hue,
-  },
-})
-
-const settingsElements = await getEntry('settings', 'elements')
-const settings = settingsElements.data.channel
+const { key } = Astro.props
 const company = await getEntry('globals', 'company')
+const elements = await getEntry('globals', 'elements')
 
 const map = {
   email: {
@@ -45,15 +36,13 @@ const map = {
     title: 'Adres',
   },
 }
-
-const { key } = Astro.props
 ---
 
 {
   company.data.channels[key] && (
     <div class="gap-size3 flex items-center">
       <a
-        class={variant(settings)}
+        class={variant(elements?.data.channel)}
         href={map[key].href}
         target="_blank"
       >

@@ -1,0 +1,20 @@
+---
+import Seo from '@components/misc/Seo.astro'
+import { ViewTransitions } from 'astro:transitions'
+
+const { seo } = Astro.props
+---
+
+<!doctype html>
+<html
+  lang="nl"
+  class="size-medium mode-base bg-hue1 scroll-smooth"
+>
+  <head>
+    <Seo {...seo} />
+    <ViewTransitions />
+  </head>
+  <body class="size-medium mode-base hue-base bg-hue1 scroll-smooth">
+    <slot />
+  </body>
+</html>

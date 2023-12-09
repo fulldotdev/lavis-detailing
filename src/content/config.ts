@@ -20,6 +20,6 @@ export const collections = {
   reviews: content,
   services: content,
   person: content,
-  data: data,
-  blocks: data,
+  globals: data,
+  bookshop: data,
 }

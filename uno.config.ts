@@ -6,11 +6,10 @@ import { defineConfig, presetIcons, presetUno } from 'unocss'
 import presetColors from './src/unocss/presetColors'
 import presetFonts from './src/unocss/presetFonts'
 import presetSizes from './src/unocss/presetSizes'
-import presetStyles from './src/unocss/presetStyles'
 
 let theme: any
 try {
-  theme = yaml.load(fs.readFileSync('./src/content/settings/theme.yml', 'utf8'))
+  theme = yaml.load(fs.readFileSync('./src/content/globals/theme.yml', 'utf8'))
 } catch (e) {
   console.error(e)
 }
@@ -27,10 +26,9 @@ export default defineConfig({
           ),
       },
     }),
-    presetSizes(theme?.sizes || {}),
     presetColors(theme?.colors || {}),
+    presetSizes(theme?.sizes || {}),
     presetFonts(theme?.fonts || {}),
-    presetStyles(),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
 })

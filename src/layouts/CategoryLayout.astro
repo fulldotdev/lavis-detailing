@@ -1,0 +1,35 @@
+---
+import CardsBuilder from '@components/builders/CardsBuilder.astro'
+import Deck from '@components/wrappers/Deck.astro'
+import Section from '@components/wrappers/Section.astro'
+import NavLayout from '@layouts/NavLayout.astro'
+import { getCollection, type CollectionEntry } from 'astro:content'
+
+interface Props {
+  entry: CollectionEntry<'categories'>
+}
+
+const { data, slug } = Astro.props.entry
+
+const products = await getCollection('products', (product) => {
+  return product.data.categories.some((category: any) => {
+    return category.includes(slug)
+  })
+})
+
+const categories = await getCollection('categories')
+---
+
+<NavLayout seo={data.seo}>
+  <Section>
+    <Deck layout="grid">
+      <CardsBuilder items={products} />
+    </Deck>
+  </Section>
+  <Section>
+    <h2>Bekijk ook eens</h2>
+    <Deck layout="carousel">
+      <CardsBuilder items={categories} />
+    </Deck>
+  </Section>
+</NavLayout>

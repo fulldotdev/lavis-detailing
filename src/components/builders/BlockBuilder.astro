@@ -1,0 +1,50 @@
+---
+import type { CardsBuilderItem } from '@components/builders/CardsBuilder.astro'
+import CardsBuilder from '@components/builders/CardsBuilder.astro'
+import Writeup from '@components/elements/Writeup.astro'
+import { type ButtonProps } from '@components/elements/button/Button.astro'
+import Buttons from '@components/elements/button/Buttons.astro'
+import Channels from '@components/elements/channel/Channels.astro'
+import Image, { type ImageProps } from '@components/elements/image/Image.astro'
+import Socials from '@components/elements/social/Socials.astro'
+import Deck, { type DeckProps } from '@components/wrappers/Deck.astro'
+import Section, { type SectionProps } from '@components/wrappers/Section.astro'
+import Segment, { type SegmentProps } from '@components/wrappers/Segment.astro'
+
+interface Props {
+  section?: SectionProps
+  segment?: SegmentProps
+  writeup?: string
+  buttons?: ButtonProps[]
+  channels?: boolean
+  socials?: boolean
+  image?: ImageProps | null
+  deck?: DeckProps
+  features?: CardsBuilderItem[]
+}
+
+const {
+  section,
+  segment,
+  writeup,
+  buttons,
+  image,
+  channels,
+  socials,
+  deck,
+  features,
+} = Astro.props
+---
+
+<Section {...section}>
+  <Segment {...segment}>
+    <Writeup set:html={writeup} />
+    <Buttons {buttons} />
+    <Channels {channels} />
+    <Socials {socials} />
+  </Segment>
+  <Image {...image} />
+  <Deck {...deck}>
+    <CardsBuilder items={features} />
+  </Deck>
+</Section>

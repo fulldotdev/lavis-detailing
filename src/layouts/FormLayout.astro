@@ -1,0 +1,14 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro'
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  entry: CollectionEntry<'forms'>
+}
+
+const { data } = Astro.props.entry
+---
+
+<BaseLayout seo={data.seo}>
+  <!--  -->
+</BaseLayout>

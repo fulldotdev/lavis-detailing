@@ -1,10 +1,10 @@
 ---
-import RenderBlock from '@components/renderers/RenderContentBlock.astro'
-import Layout from '@layouts/Layout.astro'
+import BlockBuilder from '@components/builders/BlockBuilder.astro'
+import Layout from '@layouts/BaseLayout.astro'
 import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
-  const collection = await getCollection('blocks')
+  const collection = await getCollection('bookshop')
   return collection.map((entry: any) => ({
     params: {
       block: entry.id,
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 const { frontmatter } = Astro.props
-const blocks = await getCollection('blocks')
+const blocks = await getCollection('bookshop')
 ---
 
 <Layout>
@@ -30,7 +30,7 @@ const blocks = await getCollection('blocks')
     }
   </ol>
 
-  <RenderBlock
+  <BlockBuilder
     {...frontmatter.config}
     {...frontmatter.preview}
   />

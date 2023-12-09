@@ -1,11 +1,10 @@
 ---
-import RenderBlocks from '@components/renderers/RenderBlocks.astro'
-import CategoryLayout from '@modules/categories/Categories.layout.astro'
-import PageLayout from '@modules/pages/Pages.layout.astro'
-import PolicyLayout from '@modules/policies/Policies.layout.astro'
-import PostLayout from '@modules/posts/Posts.layout.astro'
-import ProductLayout from '@modules/products/Products.layout.astro'
-import ServiceLayout from '@modules/services/Service.layout.astro'
+import CategoryLayout from '@layouts/CategoryLayout.astro'
+import PageLayout from '@layouts/PageLayout.astro'
+import PolicyLayout from '@layouts/PolicyLayout.astro'
+import PostLayout from '@layouts/PostLayout.astro'
+import ProductLayout from '@layouts/ProductLayout.astro'
+import ServiceLayout from '@layouts/ServiceLayout.astro'
 import type { CollectionEntry, ContentCollectionKey } from 'astro:content'
 import { getCollection } from 'astro:content'
 
@@ -59,6 +58,4 @@ const layouts: {
 const CollectionLayout = layouts[entry.collection]
 ---
 
-<CollectionLayout {entry}>
-  <RenderBlocks />
-</CollectionLayout>
+<CollectionLayout {entry} />

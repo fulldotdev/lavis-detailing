@@ -1,0 +1,12 @@
+spec:
+  structures:
+    - inputs
+  label: Select
+
+blueprint:
+  label:
+  options:
+    -
+  required: false
+
+preview:

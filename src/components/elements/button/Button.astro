@@ -11,7 +11,7 @@ interface Props {
   importance?: 'primary' | 'secondary' | 'tertiary'
 }
 
-const variant = cva({
+export const variant = cva({
   base: 'gap-xs inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded-size1 p-size3 text-center text-button transition active:scale-95 disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed',
   variants: {
     look: {
@@ -29,13 +29,12 @@ const variant = cva({
   },
 })
 
-const { label, href, importance = 'primary', ...restProps } = Astro.props
-const allSettings = await getEntry('settings', 'elements')
-const settings = allSettings?.data.button[importance]
+const { label, href, importance } = Astro.props
+const elements = await getEntry('globals', 'elements')
 ---
 
 <a
-  class:list={[variant(restProps), variant(settings)]}
+  class:list={[variant(elements?.data.button[importance || 'primary'])]}
   href={href}
 >
   {label}

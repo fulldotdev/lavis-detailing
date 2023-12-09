@@ -9,6 +9,7 @@
       "@variants": ["src/variants"],
       "@schemas": ["src/schemas"],
       "@utils": ["src/utils"],
+      "@stores": ["src/utils"],
     }
   }
 }

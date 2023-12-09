@@ -1,20 +1,30 @@
 ---
-import { cva, type VariantProps } from 'cva'
+import { getEntry } from 'astro:content'
+import { cva } from 'cva'
 
 export type WriteupProps = Props
-type Props = VariantProps<typeof variant>
+interface Props {
+  html?: string
+  tagline?: string
+  title?: string
+  description?: string
+}
 
 const variant = cva({
   base: '[&_p]:mt-size2 [&_h1,&_h2,&_h3]:my-size3 [&_*:first-child]:mt-0 [&_*:last-child]:mb-0 [&_p:first-child:not(:last-child)]:(hue-brand text-size1)',
 })
 
-const slot = await Astro.slots.render('default')
+const { html, tagline, title, description } = Astro.props
+const elements = await getEntry('globals', 'elements')
 ---
 
 {
-  slot?.length > 4 && (
-    <div class={variant(Astro.props)}>
-      <slot />
+  (html || tagline || title || description) && (
+    <div class={variant(elements?.data.writeup)}>
+      {tagline && <span>{tagline}</span>}
+      {title && <h4>{title}</h4>}
+      {description && <p>{description}</p>}
+      {html && <Fragment set:html={html} />}
     </div>
   )
 }

@@ -1,26 +1,19 @@
 ---
 import { getEntry } from 'astro:content'
-import type { VariantProps } from 'cva'
 import { cva } from 'cva'
 
-export type LogoProps = Props
-type Props = VariantProps<typeof variant>
-
 const variant = cva({
-  base: '',
+  base: 'flex',
 })
 
-const { ...restProps } = Astro.props
 const company = await getEntry('globals', 'company')
-const settingsElements = await getEntry('settings', 'elements')
-const settings = settingsElements.data.logo
+const elements = await getEntry('globals', 'elements')
 ---
 
 {
   company.data.logo && (
     <a
-      class:list={[variant(restProps), variant(settings)]}
-      class="flex"
+      class={variant(elements?.data.logo)}
       href="/"
     >
       <img

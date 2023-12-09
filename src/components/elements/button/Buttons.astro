@@ -27,9 +27,8 @@ const getImportance = (i: number) => {
     Array.isArray(buttons) &&
       buttons?.map((button, i) => (
         <Button
-          importance={getImportance(i)}
-          {...restProps}
           {...button}
+          importance={getImportance(i)}
         />
       ))
   }

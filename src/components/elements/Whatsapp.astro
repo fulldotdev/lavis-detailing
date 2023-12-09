@@ -1,8 +1,9 @@
 ---
 import { getEntry } from 'astro:content'
+import { variant } from './button/Button.astro'
 
-const elements = await getEntry('settings', 'elements')
 const company = await getEntry('globals', 'company')
+const elements = await getEntry('globals', 'elements')
 ---
 
 {
@@ -12,7 +13,10 @@ const company = await getEntry('globals', 'company')
         target="_blank"
         title="Whatsapp"
         href={'https://wa.me/' + company.data.channels.whatsap}
-        class="button p-size2 bottom-size3 right-size3 look-solid hue-accent absolute z-50 ml-auto"
+        class:list={[
+          'button p-size2 bottom-size3 right-size3 look-solid hue-accent absolute z-50 ml-auto',
+          variant(elements?.data.whatsapp),
+        ]}
       >
         <i class="icon:brand-whatsapp text-1.8em text-white" />
       </a>

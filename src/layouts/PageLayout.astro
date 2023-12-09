@@ -1,0 +1,15 @@
+---
+import BlocksBuilder from '@components/builders/BlocksBuilder.astro'
+import ActionsLayout from '@layouts/ActionsLayout.astro'
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  entry: CollectionEntry<'pages'>
+}
+
+const { data } = Astro.props.entry
+---
+
+<ActionsLayout seo={data.seo}>
+  <BlocksBuilder blocks={data.content_blocks} />
+</ActionsLayout>
