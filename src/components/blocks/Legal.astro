@@ -21,7 +21,7 @@ const policies = await getCollection('policies')
   <p class="text-size1 gap-x-size2 flex flex-wrap">
     {company.kvk && `Kvk. ${company.kvk}`}
     {
-      policies.map((policy) => (
+      policies?.map((policy) => (
         <>
           <span>|</span>
           <a
