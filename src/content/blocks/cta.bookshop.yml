@@ -32,8 +32,3 @@ config:
     layout: col
     importance: secondary
   button:
-  
-
-_inputs:
-  config.button:
-    type: object
