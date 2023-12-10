@@ -1,5 +1,5 @@
 ---
-import RenderBlock from './BuildBlock.astro'
+import RenderBlock from './_RenderBlock.astro'
 
 const blockFiles = import.meta.glob('/src/components/blocks/**/*.bookshop.yml')
 const blockComponents = await Promise.all(

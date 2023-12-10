@@ -1,0 +1,10 @@
+---
+import RenderBlock from '@components/blocks/_RenderBlock.astro'
+import layout from '@data/layout.yml'
+import bookshop from './cta.bookshop.yml'
+---
+
+<RenderBlock
+  {...layout.cta}
+  {...bookshop.config}
+/>

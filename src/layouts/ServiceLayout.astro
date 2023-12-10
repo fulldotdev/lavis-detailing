@@ -1,13 +1,13 @@
 ---
-import BlocksBuilder from '@components/blocks/BuildBlocks.astro'
+import BlocksBuilder from '@components/blocks/_RenderBlocks.astro'
 import ActionsLayout from '@layouts/ActionsLayout.astro'
 import type { CollectionEntry } from 'astro:content'
 
 interface Props {
-  entry: CollectionEntry<'services'>
+  service: CollectionEntry<'services'>
 }
 
-const { data } = Astro.props.entry
+const { data } = Astro.props.service
 ---
 
 <ActionsLayout seo={data.seo}>
