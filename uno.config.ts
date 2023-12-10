@@ -9,7 +9,7 @@ import presetSizes from './src/unocss/presetSizes'
 
 let theme: any
 try {
-  theme = yaml.load(fs.readFileSync('./src/content/globals/theme.yml', 'utf8'))
+  theme = yaml.load(fs.readFileSync('./src/data/theme.yml', 'utf8'))
 } catch (e) {
   console.error(e)
 }

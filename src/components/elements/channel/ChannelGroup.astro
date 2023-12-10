@@ -1,6 +1,6 @@
 ---
 import Group, { type GroupProps } from '@components/wrappers/Group.astro'
-import { getEntry } from 'astro:content'
+import company from '@data/company.yml'
 import Channel from './Channel.astro'
 
 type Props = GroupProps & {
@@ -8,10 +8,8 @@ type Props = GroupProps & {
 }
 
 const { channels, ...restProps } = Astro.props
-
-const company = await getEntry('globals', 'company')
-const keys = Object.keys(company.data.channels)
-const filteredKeys = keys.filter((key) => company.data.channels[key])
+const keys = Object.keys(company.channels)
+const filteredKeys = keys.filter((key) => company.channels[key])
 ---
 
 <Group {...restProps}>

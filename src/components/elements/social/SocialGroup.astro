@@ -1,6 +1,6 @@
 ---
 import Group from '@components/wrappers/Group.astro'
-import { getEntry } from 'astro:content'
+import company from '@data/company.yml'
 import Social from './Social.astro'
 
 interface Props {
@@ -9,9 +9,8 @@ interface Props {
 
 const { socials } = Astro.props
 
-const company = await getEntry('globals', 'company')
-const keys = Object.keys(company.data.socials)
-const filteredKeys = keys.filter((key) => company.data.socials[key])
+const keys = Object.keys(company.socials)
+const filteredKeys = keys.filter((key) => company.socials[key])
 ---
 
 <Group layout="row">

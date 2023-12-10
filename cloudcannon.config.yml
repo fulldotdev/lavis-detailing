@@ -8,24 +8,25 @@ paths:
 # -----------------------------------------------
 
 collection_groups:
-  - heading: Content
+  - heading: Pages
     collections:
       - pages
       - services
       - posts
       - products
       - categories
-  - heading: Data
+      - policies
+  - heading: Shared
     collections:
       - reviews
       - persons
       - forms
-      - policies
+      - data
   - heading: Config
     collections:
-      - globals
+      - elements
+      - cards
       - blocks
-      - components
 
 # -----------------------------------------------
 # Collection configuration
@@ -139,68 +140,125 @@ collections_config:
       default: 
         path: schemas/forms.schema.md
 
-  globals:
-    path: src/content/globals
+  data:
+    path: src/data
     output: false
     icon: 
     _enabled_editors:
       - data
+    disable_file_actions: true
     disable_add_folder: true
-    # disable_add: true
-    # disable_file_actions: true
+    disable_add: true
     schemas:
       theme: 
-        path: schemas/globals/theme.schema.yml
-      elements: 
-        path: schemas/globals/elements.schema.yml
-      cards: 
-        path: schemas/globals/cards.schema.yml
+        path: src/data/theme.yml
       layout: 
-        path: schemas/globals/layout.schema.yml
+        path: src/data/layout.yml
       company: 
-        path: schemas/globals/company.schema.yml
+        path: src/data/company.yml
 
   blocks:
-    path: src/content/blocks
+    path: src/components/blocks
     url: /blocks/[full_slug]/
     output: true
+    disable_file_actions: true
     disable_add_folder: true
+    disable_add: true
     _enabled_editors:
       - visual
     schemas:
       categories:
-        path: schemas/blocks/categories.schema.yml
+        path: src/components/blocks/categories.bookshop.yml
       contact:
-        path: schemas/blocks/contact.schema.yml
+        path: src/components/blocks/contact.bookshop.yml
       content:
-        path: schemas/blocks/content.schema.yml
+        path: src/components/blocks/content.bookshop.yml
       cta:
-        path: schemas/blocks/cta.schema.yml
+        path: src/components/blocks/cta.bookshop.yml
       custom:
-        path: schemas/blocks/custom.schema.yml
+        path: src/components/blocks/custom.bookshop.yml
       features:
-        path: schemas/blocks/features.schema.yml
+        path: src/components/blocks/features.bookshop.yml
       hero:
-        path: schemas/blocks/hero.schema.yml
+        path: src/components/blocks/hero.bookshop.yml
       highlight:
-        path: schemas/blocks/highlight.schema.yml
+        path: src/components/blocks/highlight.bookshop.yml
       intro:
-        path: schemas/blocks/intro.schema.yml
+        path: src/components/blocks/intro.bookshop.yml
       offers:
-        path: schemas/blocks/offers.schema.yml
+        path: src/components/blocks/offers.bookshop.yml
       persons:
-        path: schemas/blocks/persons.schema.yml
+        path: src/components/blocks/persons.bookshop.yml
       posts:
-        path: schemas/blocks/posts.schema.yml
+        path: src/components/blocks/posts.bookshop.yml
       products:
-        path: schemas/blocks/products.schema.yml
+        path: src/components/blocks/products.bookshop.yml
       reviews:
-        path: schemas/blocks/reviews.schema.yml  
+        path: src/components/blocks/reviews.bookshop.yml  
       services:
-        path: schemas/blocks/services.schema.yml  
+        path: src/components/blocks/services.bookshop.yml  
 
-  components:
-    path: src/components
+  cards:
+    path: src/components/cards
+    url: /cards/[full_slug]/
+    output: true
+    disable_file_actions: true
+    disable_add_folder: true
+    disable_add: true
+    _enabled_editors:
+      - visual
+    schemas:
+      categories:
+        path: src/components/cards/categories.bookshop.yml
+      features:
+        path: src/components/cards/features.bookshop.yml
+      offers:
+        path: src/components/cards/offers.bookshop.yml
+      persons:
+        path: src/components/cards/persons.bookshop.yml
+      posts:
+        path: src/components/cards/posts.bookshop.yml
+      products:
+        path: src/components/cards/products.bookshop.yml
+      reviews:
+        path: src/components/cards/reviews.bookshop.yml  
+      services:
+        path: src/components/cards/services.bookshop.yml
+
+  elements:
+    path: src/components/elements
+    url: /elements/[full_slug]/
+    output: true
+    disable_file_actions: true
+    disable_add_folder: true
+    disable_add: true
+    _enabled_editors:
+      - visual
+    schemas:
+      button:
+        path: src/components/elements/button.bookshop.yml
+      channel:
+        path: src/components/elements/channel.bookshop.yml
+      icon:
+        path: src/components/elements/icon.bookshop.yml
+      image:
+        path: src/components/elements/image.bookshop.yml
+      input:
+        path: src/components/elements/input.bookshop.yml
+      link:
+        path: src/components/elements/link.bookshop.yml
+      prose:
+        path: src/components/elements/prose.bookshop.yml  
+      rating:
+        path: src/components/elements/rating.bookshop.yml  
+      select:
+        path: src/components/elements/select.bookshop.yml
+      social:
+        path: src/components/elements/social.bookshop.yml
+      textarea:
+        path: src/components/elements/textarea.bookshop.yml  
+      writeup:
+        path: src/components/elements/writeup.bookshop.yml
         
 # -----------------------------------------------
 # Input customization

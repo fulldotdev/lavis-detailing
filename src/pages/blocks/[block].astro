@@ -4,32 +4,33 @@ import Layout from '@layouts/BaseLayout.astro'
 import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
-  const collection = await getCollection('blocks')
-  return collection.map((entry: any) => ({
-    params: {
-      block: entry.id,
-    },
-    props: {
-      frontmatter: entry.data,
-    },
-  }))
+  const collection = await getCollection('pages')
+  const glob = import.meta.glob('/src/components/blocks/**/*.bookshop.yml')
+  const blocks = await Promise.all(
+    Object.keys(glob).map((path) =>
+      glob[path]().then((file: any) => ({
+        id: path.replace('/src/components/blocks/', '').replace('.yml', ''),
+        data: file.default,
+      }))
+    )
+  )
+  return blocks.map((block: any) => {
+    if (!block?.data || !block?.id) return
+    return {
+      params: {
+        block: block.id,
+      },
+      props: {
+        frontmatter: block.data,
+      },
+    }
+  })
 }
 
 const { frontmatter } = Astro.props
-const blocks = await getCollection('blocks')
 ---
 
 <Layout>
-  <ol class="px-wrapper pt-wrapper gap-10px flex flex-col">
-    {
-      blocks.map((block) => (
-        <li class="underline">
-          <a href={'/blocks/' + block.id}>{block.id}</a>
-        </li>
-      ))
-    }
-  </ol>
-
   <BlockBuilder
     {...frontmatter.config}
     {...frontmatter.preview}
