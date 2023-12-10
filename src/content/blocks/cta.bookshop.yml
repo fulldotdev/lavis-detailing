@@ -6,6 +6,7 @@ spec:
 blueprint:
   writeup:
   buttons:
+  input: bookshop:elements/input
 
 preview:
   writeup: |
@@ -30,5 +31,7 @@ config:
   group:
     layout: col
     importance: secondary
+  input: bookshop:elements/input
+  
 
 _inputs:

@@ -39,7 +39,7 @@ const variant = cva({
 
 const company = await getEntry('globals', 'company')
 const layout = await getEntry('globals', 'layout')
-const footer = layout.data.footer
+const footer = layout?.data.footer
 ---
 
 {

@@ -10,7 +10,7 @@ import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
 const layout = await getEntry('globals', 'layout')
-const header = layout.data.header
+const header = layout?.data.header
 
 const variant = cva({
   base: 'header mode-compact size-medium gap-size6 z-80 flex items-center !sticky top-0 justify-between backdrop-blur-3xl',

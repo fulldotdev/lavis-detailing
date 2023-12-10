@@ -8,3 +8,19 @@ blueprint:
   href:
 
 preview:
+  label: Lorem ipsum
+  href: '#'
+  
+config:
+  primary:
+    look: solid
+    hue: brand
+    class:
+  secondary:
+    look: outline
+    hue: brand
+    class:
+  tertiary:
+    look: ghost
+    hue: brand
+    class:

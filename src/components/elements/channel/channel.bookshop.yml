@@ -1,0 +1,25 @@
+spec:
+  structures:
+    - buttons
+  label: Button
+
+blueprint:
+  key:
+
+preview:
+  label: email
+  
+config:
+  look: solid
+  hue: brand
+  class:
+
+_inputs:  
+  key:
+    type: choice
+    options:
+      values:
+        - email
+        - phone
+        - whatsapp
+        - address
