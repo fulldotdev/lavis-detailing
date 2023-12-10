@@ -1,11 +1,10 @@
 ---
 import type { HTMLAttributes } from 'astro/types'
-import { Image as AstroImage } from 'astro:assets'
 import { cva, type VariantProps } from 'cva'
 
 export type ImageProps = Props
 type Props = VariantProps<typeof variant> & {
-  src?: string
+  src?: HTMLAttributes<'img'>['src']
   alt?: HTMLAttributes<'img'>['alt']
   loading?: HTMLAttributes<'img'>['loading']
   sizes?: {
@@ -38,17 +37,12 @@ const variant = cva({
 
 const {
   src,
-  alt = '',
+  alt,
   loading = 'lazy',
   sizes = {
     base: '100vw',
   },
-  ...restProps
 } = Astro.props
-
-const images = import.meta.glob('/src/assets/**/*.{jpeg,jpg,png,webp,gif}')
-const path = ('/src/assets/' + src).replace('//', '/')
-const image = images[path]
 
 function getSizes() {
   const mapped = Object.entries(sizes).map(([key, value]) => {
@@ -66,18 +60,16 @@ function getSizes() {
 
 {
   src && (
-    // @ts-ignore
-    <AstroImage
-      src={image()}
-      alt={alt ? alt : 'Image'}
-      quality={80}
-      widths={[640, 768, 1024, 1280, 1536, 1920, image?.width]}
+    <img
+      src={src}
+      alt={alt}
       sizes={getSizes()}
       loading={loading}
-      class={variant(restProps)}
+      decoding={loading === 'lazy' ? 'async' : 'sync'}
     />
   )
 }
+
 <style>
   .mask {
     -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);

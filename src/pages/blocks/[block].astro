@@ -4,7 +4,7 @@ import Layout from '@layouts/BaseLayout.astro'
 import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
-  const collection = await getCollection('bookshop')
+  const collection = await getCollection('blocks')
   return collection.map((entry: any) => ({
     params: {
       block: entry.id,
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 const { frontmatter } = Astro.props
-const blocks = await getCollection('bookshop')
+const blocks = await getCollection('blocks')
 ---
 
 <Layout>

@@ -1,12 +1,11 @@
 ---
-import { size } from '@variants'
 import { cva, type VariantProps } from 'cva'
 
 export type DeckProps = Props
 type Props = VariantProps<typeof variant>
 
 const variant = cva({
-  base: 'deck gap-size5 relative mode-compact',
+  base: 'deck gap-size5 relative',
   variants: {
     layout: {
       carousel: [
@@ -28,9 +27,17 @@ const variant = cva({
         'sm:columns-[308px] size-small:sm:columns-[220px] size-large:sm:columns-2',
         'size-large:md:columns-[385px]',
       ],
-      row: 'grid gap-size6 lg:grid-flow-col lg:auto-cols-fr',
+      row: 'grid lg:grid-flow-col lg:auto-cols-fr',
     },
-    size: size,
+    size: {
+      small: 'size-small [&_.card]:size-small',
+      medium: 'size-medium [&_.card]:size-medium',
+      large: 'size-large [&_.card]:size-large',
+    },
+    mode: {
+      base: 'mode-base',
+      compact: 'mode-compact',
+    },
   },
   defaultVariants: {
     layout: 'grid',

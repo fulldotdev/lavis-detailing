@@ -9,7 +9,7 @@ type Props = VariantProps<typeof variant> & {
 }
 
 const variant = cva({
-  base: 'box-border gap-size5 relative card flex flex-col rounded-size2 [&[href]_.image]:hover:opacity-75 transition',
+  base: 'box-border gap-size5 mode-compact size-medium relative card flex flex-col rounded-size2 [&[href]_.image]:hover:opacity-75 transition',
   variants: {
     frame: {
       panel: '[&_.segment]:p-size5 !gap-0 overflow-hidden',
