@@ -1,7 +1,6 @@
 spec:
   structures:
     - images
-    - image
   label: Image
 
 blueprint:
