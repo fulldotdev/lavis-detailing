@@ -13,8 +13,8 @@ preview:
 
 config:
   section:
-    frame:
-    look:
+    frame: float
+    look: outline
     size:
     hue:
     scheme:

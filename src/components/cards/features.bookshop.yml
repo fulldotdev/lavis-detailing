@@ -22,13 +22,13 @@ preview:
 
 config:
   card:
-    frame: panel
-    look: surface
+    frame: fill
+    look:
     hue:
     scheme:
   image:
     position:
     ratio:
   group:
-    importance:
+    importance: tertiary
     layout:

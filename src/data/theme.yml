@@ -3,8 +3,8 @@
 # -----------------------------------------------
 colors:
   base: slate
-  brand: blue
-  accent: indigo
+  brand: slate
+  accent: slate
   scheme: light
 
 # -----------------------------------------------
@@ -12,7 +12,7 @@ colors:
 # -----------------------------------------------
 sizes:
   scale: 1
-  rounded: small
+  rounded: none
 
 # -----------------------------------------------
 # FONTS

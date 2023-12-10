@@ -15,14 +15,12 @@ preview:
   buttons:
     - label: Lorem ipsum
       href: '#'
-    - label: Lorem ipsum
-      href: '#'
   products:
     - path/to/entry
 
 config:
   section:
-    align: start
+    align: between
     size:
   segment:
     layout: row

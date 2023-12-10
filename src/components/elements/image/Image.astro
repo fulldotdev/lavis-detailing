@@ -47,9 +47,13 @@ const {
   ...restProps
 } = Astro.props
 
-const images = import.meta.glob('/src/assets/**/*.{jpeg,jpg,png,webp,gif}')
-const path = ('/src/assets/' + src).replace('//', '/')
-const image = images[path]
+function getSrc() {
+  if (src?.startsWith('http')) return src
+  const images = import.meta.glob('/src/assets/**/*.{jpeg,jpg,png,webp,gif}')
+  const path = ('/src/assets/' + src).replace('//', '/')
+  const image = images[path]()
+  return image
+}
 
 function getSizes() {
   const mapped = Object.entries(sizes).map(([key, value]) => {
@@ -66,10 +70,12 @@ function getSizes() {
 ---
 
 {
-  src && image && (
+  src && (
     // @ts-ignore
     <AstroImage
-      src={image()}
+      src={getSrc()}
+      width={src?.startsWith('http') ? 1000 : undefined}
+      height={src?.startsWith('http') ? 1000 : undefined}
       alt={alt ? alt : 'Image'}
       quality={80}
       widths={[640, 768, 1024, 1280, 1536, 1920]}

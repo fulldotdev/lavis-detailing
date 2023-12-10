@@ -60,7 +60,7 @@ preview:
 
 config:
   section:
-    align: start
+    align: center
     size:
   segment:
     align: center
