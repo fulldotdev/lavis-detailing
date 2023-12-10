@@ -1,5 +1,5 @@
 ---
-import RenderBlock from '@components/builders/BlockBuilder.astro'
+import BlockBuilder from '@components/builders/BlockBuilder.astro'
 import Whatsapp from '@components/elements/Whatsapp.astro'
 import CartSidebar from '@components/misc/CartSidebar.svelte'
 import Footer from '@components/misc/Footer.astro'
@@ -15,7 +15,7 @@ const { seo } = Astro.props
   <!-- <CartSidebar client:load /> -->
   <main>
     <slot />
-    <RenderBlock />
+    <!-- <BlockBuilder /> -->
     <Whatsapp />
   </main>
   <Footer />
