@@ -1,15 +1,16 @@
-<!-- ---
-import CartIcon from '@components/cart/CartIcon.svelte'
+---
 import Logo from '@components/elements/Logo.astro'
 import Buttons from '@components/elements/button/Buttons.astro'
 import Links from '@components/elements/link/Links.astro'
+import CartIcon from '@components/misc/CartIcon.svelte'
 import Group from '@components/wrappers/Group.astro'
 import Segment from '@components/wrappers/Segment.astro'
-import { hue,scheme,size } from '@variants'
+import { hue, scheme, size } from '@variants'
 import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
-const header = await getEntry('globals', 'header')
+const layout = await getEntry('globals', 'layout')
+const header = layout.data.header
 
 const variant = cva({
   base: 'header mode-compact size-medium gap-size6 z-80 flex items-center !sticky top-0 justify-between backdrop-blur-3xl',
@@ -36,47 +37,49 @@ const variant = cva({
 })
 ---
 
-<div class="hidden">
-  <CartIcon client:load />
-</div>
-<header class={variant()}>
-  <Logo />
-  <Links
-    class:list="ml-auto"
-    layout="row"
-    links={header.data.links}
-  />
-  <Buttons
-    layout="row"
-    buttons={header.data.buttons}
-  />
-  <Group layout="row">
-    <CartIcon client:load />
-    <label
-      class="button look-soft flex cursor-pointer lg:hidden"
-      for="header-toggle"
-    >
-      <i
-        class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block"
-      ></i>
-    </label>
-  </Group>
-  <input
-    id="header-toggle"
-    class="peer hidden"
-    type="checkbox"
-  />
-  <Segment
-    class:list="py-size4 z-90 bg-hue1 border-hue6 absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex"
-  >
-    <Links
-      layout="col"
-      align="center"
-      links={header.data.link}
-    />
-    <Buttons
-      layout="col"
-      buttons={header.data.buttons}
-    />
-  </Segment>
-</header> -->
+{
+  header && (
+    <>
+      <div class="hidden">
+        <CartIcon client:load />
+      </div>
+      <header class={variant()}>
+        <Logo />
+        <Links
+          class:list="ml-auto"
+          layout="row"
+          links={header.links}
+        />
+        <Buttons
+          layout="row"
+          buttons={header.buttons}
+        />
+        <Group layout="row">
+          <CartIcon client:load />
+          <label
+            class="button look-soft flex cursor-pointer lg:hidden"
+            for="header-toggle"
+          >
+            <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
+          </label>
+        </Group>
+        <input
+          id="header-toggle"
+          class="peer hidden"
+          type="checkbox"
+        />
+        <Segment class:list="py-size4 z-90 bg-hue1 border-hue6 absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex">
+          <Links
+            layout="col"
+            align="center"
+            links={header.link}
+          />
+          <Buttons
+            layout="col"
+            buttons={header.buttons}
+          />
+        </Segment>
+      </header>
+    </>
+  )
+}

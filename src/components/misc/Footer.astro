@@ -1,12 +1,12 @@
-<!-- ---
+---
 import Logo from '@components/elements/Logo.astro'
 import Channels from '@components/elements/channel/Channels.astro'
 import Links from '@components/elements/link/Links.astro'
 import Socials from '@components/elements/social/Socials.astro'
 import Segment from '@components/wrappers/Segment.astro'
-import { hue,scheme,size } from '@variants'
+import { hue, scheme, size } from '@variants'
 import { getEntry } from 'astro:content'
-import { cva,type VariantProps } from 'cva'
+import { cva, type VariantProps } from 'cva'
 
 interface Props extends VariantProps<typeof variant> {}
 
@@ -39,30 +39,30 @@ const variant = cva({
 
 const company = await getEntry('globals', 'company')
 const layout = await getEntry('globals', 'layout')
+const footer = layout.data.footer
 ---
 
-<
-<footer class={variant(settings.footer)}>
-  <Segment class:list="col-span-1.2 mode-compact size-medium max-w-xs">
-    <Logo />
-    {
-      company?.data?.description && (
-        <p class="text-primary">{company?.data?.description}</p>
-      )
-    }
-    <Socials />
-  </Segment>
-  <Channels
-    channels
-    class:list="mode-compact size-medium"
-  />
-  {
-    footer?.data?.columns &&
-      footer?.data?.columns?.map((column: any) => (
-        <Segment class:list="col-span-.8 mode-compact size-small">
-          <h6 class="heading-secondary">{column.heading}</h6>
-          <Links links={column.links} />
-        </Segment>
-      ))
-  }
-</footer> -->
+{
+  footer && (
+    <footer class={variant(footer)}>
+      <Segment class:list="col-span-1.2 mode-compact size-medium max-w-xs">
+        <Logo />
+        {company?.data?.description && (
+          <p class="text-primary">{company?.data?.description}</p>
+        )}
+        <Socials />
+      </Segment>
+      <Channels
+        channels
+        class:list="mode-compact size-medium"
+      />
+      {footer?.data?.columns &&
+        footer?.data?.columns?.map((column: any) => (
+          <Segment class:list="col-span-.8 mode-compact size-small">
+            <h6 class="heading-secondary">{column.heading}</h6>
+            <Links links={column.links} />
+          </Segment>
+        ))}
+    </footer>
+  )
+}
