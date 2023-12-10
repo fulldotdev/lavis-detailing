@@ -1,19 +1,18 @@
 ---
-import BlockBuilder from '@components/builders/BlockBuilder.astro'
+import BlockBuilder from '@components/blocks/BuildBlock.astro'
 import Layout from '@layouts/BaseLayout.astro'
-import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
-  const collection = await getCollection('pages')
-  const glob = import.meta.glob('/src/components/blocks/**/*.bookshop.yml')
+  const files = import.meta.glob('/src/components/blocks/**/*.bookshop.yml')
   const blocks = await Promise.all(
-    Object.keys(glob).map((path) =>
-      glob[path]().then((file: any) => ({
+    Object.keys(files).map((path) =>
+      files[path]().then((file: any) => ({
         id: path.replace('/src/components/blocks/', '').replace('.yml', ''),
         data: file.default,
       }))
     )
   )
+
   return blocks.map((block: any) => {
     if (!block?.data || !block?.id) return
     return {
@@ -36,9 +35,3 @@ const { frontmatter } = Astro.props
     {...frontmatter.preview}
   />
 </Layout>
-
-<style is:global>
-  .bottom {
-    display: none;
-  }
-</style>

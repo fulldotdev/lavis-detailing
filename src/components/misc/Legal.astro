@@ -1,8 +1,8 @@
 ---
 import Link from '@components/elements/link/Link.astro'
+import company from '@data/company.yml'
 import { unslugify } from '@utils'
-import { getCollection, getEntry } from 'astro:content'
-const company = await getEntry('globals', 'company')
+import { getCollection } from 'astro:content'
 const policies = await getCollection('policies')
 ---
 
@@ -10,8 +10,8 @@ const policies = await getCollection('policies')
   class="bottom mx-wrapper py-size6 size-small mode-compact flex flex-wrap justify-between"
 >
   <p class="text-size1">
-    © {new Date().getFullYear()}&nbsp;{company.data.company}. Maatwerk
-    ontwikkeling door
+    © {new Date().getFullYear()}&nbsp;{company.company}. Maatwerk ontwikkeling
+    door
     <Link
       class:list="text-inherit"
       label="Fulldev"
@@ -19,7 +19,7 @@ const policies = await getCollection('policies')
     />
   </p>
   <p class="text-size1 gap-x-size2 flex flex-wrap">
-    {company.data.kvk && `Kvk. ${company.data.kvk}`}
+    {company.kvk && `Kvk. ${company.kvk}`}
     {
       policies.map((policy) => (
         <>

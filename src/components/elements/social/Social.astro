@@ -1,55 +1,54 @@
 ---
-import { getEntry } from 'astro:content'
+import company from '@data/company.yml'
 import { variant } from '../button/Button.astro'
+import bookshop from './social.bookshop.yml'
 
 interface Props {
   key: keyof typeof map
 }
 
 const { key } = Astro.props
-const company = await getEntry('globals', 'company')
-const elements = await getEntry('globals', 'elements')
 
 const map = {
   facebook: {
-    href: company.data.facebook,
+    href: company.facebook,
     icon: 'icon:brand-facebook',
   },
   instagram: {
-    href: company.data.instagram,
+    href: company.instagram,
     icon: 'icon:brand-instagram',
   },
   twitter: {
-    href: company.data.twitter,
+    href: company.twitter,
     icon: 'icon:brand-twitter',
   },
   pinterest: {
-    href: company.data.pinterest,
+    href: company.pinterest,
     icon: 'icon:brand-pinterest',
   },
   linkedin: {
-    href: company.data.linkedin,
+    href: company.linkedin,
     icon: 'icon:brand-linkedin',
   },
   youtube: {
-    href: company.data.youtube,
+    href: company.youtube,
     icon: 'icon:brand-youtube',
   },
   tiktok: {
-    href: company.data.tiktok,
+    href: company.tiktok,
     icon: 'icon:brand-tiktok',
   },
   snapchat: {
-    href: company.data.snapchat,
+    href: company.snapchat,
     icon: 'icon:brand-snapchat',
   },
 }
 ---
 
 {
-  company.data.socials[key] && (
+  company.socials[key] && (
     <a
-      class={variant(elements?.data.social)}
+      class={variant(bookshop.config)}
       href={map[key].href}
       target="_blank"
     >

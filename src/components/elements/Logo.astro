@@ -1,25 +1,17 @@
 ---
-import { getEntry } from 'astro:content'
-import { cva } from 'cva'
-
-const variant = cva({
-  base: 'flex',
-})
-
-const company = await getEntry('globals', 'company')
-const elements = await getEntry('globals', 'elements')
+import company from '@data/company.yml'
 ---
 
 {
-  company.data.logo && (
+  company.logo && (
     <a
-      class={variant(elements?.data.logo)}
       href="/"
+      class="flex"
     >
       <img
         class="text-primary h-2em block w-auto object-contain"
-        src={company.data.logo}
-        alt={'Logo ' + company.data.company}
+        src={company.logo}
+        alt={'Logo ' + company.company}
         loading="lazy"
         decoding="async"
       />

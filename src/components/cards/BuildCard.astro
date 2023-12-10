@@ -1,43 +1,42 @@
 ---
 import type { ButtonProps } from '@components/elements/button/Button.astro'
-import Buttons from '@components/elements/button/ButtonGroup.astro'
+import ButtonGroup from '@components/elements/button/ButtonGroup.astro'
 import Image, { type ImageProps } from '@components/elements/image/Image.astro'
 import Rating from '@components/elements/rating/Rating.astro'
 import Writeup from '@components/elements/writeup/Writeup.astro'
-import Card from '@components/wrappers/Card.astro'
-import Segment from '@components/wrappers/Segment.astro'
+import Card, { type CardProps } from '@components/wrappers/Card.astro'
+import type { GroupProps } from '@components/wrappers/Group.astro'
+import Segment, { type SegmentProps } from '@components/wrappers/Segment.astro'
 import type { HTMLAttributes } from 'astro/types'
-import { getEntry, type CollectionKey } from 'astro:content'
 
 export type RenderCardProps = Props
 interface Props {
   href?: HTMLAttributes<'a'>['href']
+  card?: CardProps
   image?: ImageProps
-  buttons?: ButtonProps[]
-  rating?: number
+  segment?: SegmentProps
+  rating?: any
   writeup?: string
   title?: string
   tagline?: string
   description?: string
-  person?: any
-  type: CollectionKey | 'features' | 'offers'
+  group?: GroupProps
+  buttons?: ButtonProps[]
 }
 
-const cards = await getEntry('globals', 'cards')
-const settings = cards.data[Astro.props.type]
-const merged = { ...settings, ...Astro.props }
 const {
   href,
   card,
   image,
-  rating,
   segment,
+  rating,
   writeup,
   title,
   description,
   tagline,
+  group,
   buttons,
-} = merged
+} = Astro.props
 ---
 
 <Card
@@ -53,6 +52,9 @@ const {
       {title}
       {description}
     />
-    <Buttons {buttons} />
+    <ButtonGroup
+      {buttons}
+      {...group}
+    />
   </Segment>
 </Card>

@@ -1,6 +1,6 @@
 ---
-import { getEntry } from 'astro:content'
 import { cva } from 'cva'
+import bookshop from './writeup.bookshop.yml'
 
 export type WriteupProps = Props
 interface Props {
@@ -15,12 +15,11 @@ const variant = cva({
 })
 
 const { html, tagline, title, description } = Astro.props
-const elements = await getEntry('globals', 'elements')
 ---
 
 {
   (html || tagline || title || description) && (
-    <div class={variant(elements?.data.writeup)}>
+    <div class={variant(bookshop.config)}>
       {tagline && <span>{tagline}</span>}
       {title && <h4>{title}</h4>}
       {description && <p>{description}</p>}

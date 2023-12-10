@@ -1,6 +1,7 @@
 ---
-import { getEntry } from 'astro:content'
 import { cva } from 'cva'
+import bookshop from './input.bookshop.yml'
+
 interface Props {
   label: string
   required?: boolean
@@ -23,13 +24,12 @@ export const variant = cva({
 })
 
 const { label, required, type = 'text' } = Astro.props
-const elements = await getEntry('globals', 'elements')
 ---
 
 <div class="gap-size1 flex flex-col">
   <label for={label}>{label}</label>
   <input
-    class={variant(elements?.data.input)}
+    class={variant(bookshop.config)}
     id={label}
     name={label}
     {type}

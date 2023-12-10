@@ -1,37 +1,36 @@
 ---
-import { getEntry } from 'astro:content'
+import company from '@data/company.yml'
 import { variant } from '../button/Button.astro'
+import bookshop from './channel.bookshop.yml'
 
 interface Props {
   key: keyof typeof map
 }
 
 const { key } = Astro.props
-const company = await getEntry('globals', 'company')
-const elements = await getEntry('globals', 'elements')
 
 const map = {
   email: {
-    value: company.data.channels.email,
-    href: `mailto:${company.data.channels.email}`,
+    value: company.channels.email,
+    href: `mailto:${company.channels.email}`,
     icon: 'icon:mail',
     title: 'Email',
   },
   phone: {
-    value: company.data.channels.email,
-    href: `tel:${company.data.channels.email}`,
+    value: company.channels.email,
+    href: `tel:${company.channels.email}`,
     icon: 'icon:phone',
     title: 'Telefoon',
   },
   whatsapp: {
-    value: company.data.channels.whatsapp,
-    href: `https://wa.me/${company.data.channels.whatsapp}`,
+    value: company.channels.whatsapp,
+    href: `https://wa.me/${company.channels.whatsapp}`,
     icon: 'icon:brand-whatsapp',
     title: 'Whatsapp',
   },
   address: {
-    value: company.data.channels.address,
-    href: `https://www.google.com/maps/search/?api=1&query=${company.data.channels.address}`,
+    value: company.channels.address,
+    href: `https://www.google.com/maps/search/?api=1&query=${company.channels.address}`,
     icon: 'icon:location',
     title: 'Adres',
   },
@@ -39,10 +38,10 @@ const map = {
 ---
 
 {
-  company.data.channels[key] && (
+  company.channels[key] && (
     <div class="gap-size3 flex items-center">
       <a
-        class={variant(elements?.data.channel)}
+        class={variant(bookshop.config)}
         href={map[key].href}
         target="_blank"
       >

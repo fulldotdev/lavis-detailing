@@ -1,16 +1,7 @@
 ---
-import { getEntry } from 'astro:content'
-import { cva } from 'cva'
-
-const variant = cva({})
-const elements = await getEntry('globals', 'elements')
 const { price } = Astro.props
 const priceNumber = parseInt(price, 10)
 const fixedPrice = priceNumber?.toFixed(2)
 ---
 
-{
-  fixedPrice && (
-    <span class={variant(elements?.data.price)}> €{fixedPrice}</span>
-  )
-}
+{fixedPrice && <span> €{fixedPrice}</span>}

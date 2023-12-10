@@ -1,7 +1,7 @@
 ---
 import type { HTMLAttributes } from 'astro/types'
-import { getEntry } from 'astro:content'
 import { cva } from 'cva'
+import bookshop from './link.bookshop.yml'
 
 export type LinkProps = Props
 interface Props {
@@ -14,12 +14,11 @@ const variant = cva({
 })
 
 const { href, label } = Astro.props
-const elements = await getEntry('globals', 'elements')
 ---
 
 <a
   href={href}
-  class={variant(elements?.data.link)}
+  class={variant(bookshop.config)}
 >
   {label}
 </a>

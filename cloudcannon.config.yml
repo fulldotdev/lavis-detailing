@@ -236,29 +236,29 @@ collections_config:
       - visual
     schemas:
       button:
-        path: src/components/elements/button.bookshop.yml
+        path: src/components/elements/buttonbutton.bookshop.yml
       channel:
-        path: src/components/elements/channel.bookshop.yml
+        path: src/components/elements/channel/channel.bookshop.yml
       icon:
-        path: src/components/elements/icon.bookshop.yml
+        path: src/components/elements/icon/icon.bookshop.yml
       image:
-        path: src/components/elements/image.bookshop.yml
+        path: src/components/elements/image/image.bookshop.yml
       input:
-        path: src/components/elements/input.bookshop.yml
+        path: src/components/elements/input/input.bookshop.yml
       link:
-        path: src/components/elements/link.bookshop.yml
+        path: src/components/elements/link/link.bookshop.yml
       prose:
-        path: src/components/elements/prose.bookshop.yml  
+        path: src/components/elements/prose/prose.bookshop.yml  
       rating:
-        path: src/components/elements/rating.bookshop.yml  
+        path: src/components/elements/rating/rating.bookshop.yml  
       select:
-        path: src/components/elements/select.bookshop.yml
+        path: src/components/elements/select/select.bookshop.yml
       social:
-        path: src/components/elements/social.bookshop.yml
+        path: src/components/elements/social/social.bookshop.yml
       textarea:
-        path: src/components/elements/textarea.bookshop.yml  
+        path: src/components/elements/textarea/textarea.bookshop.yml  
       writeup:
-        path: src/components/elements/writeup.bookshop.yml
+        path: src/components/elements/writeup/writeup.bookshop.yml
         
 # -----------------------------------------------
 # Input customization

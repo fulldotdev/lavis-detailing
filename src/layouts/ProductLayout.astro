@@ -1,5 +1,5 @@
 ---
-import CardsBuilder from '@components/builders/CardsBuilder.astro'
+import BuildCards from '@components/cards/BuildCards.astro'
 import Price from '@components/elements/Price.astro'
 import GalleryScroll from '@components/elements/gallery/GalleryScroll.svelte'
 import Image from '@components/elements/image/Image.astro'
@@ -64,7 +64,7 @@ const collection = await getCollection('products')
       layout="carousel"
       size="medium"
     >
-      <CardsBuilder items={collection} />
+      <BuildCards items={collection} />
     </Deck>
   </Section>
 </NavLayout>

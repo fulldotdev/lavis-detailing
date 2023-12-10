@@ -1,7 +1,6 @@
 ---
 import { getEntry, type CollectionEntry } from 'astro:content'
-import type { RenderCardProps } from './CardBuilder.astro'
-import RenderCard from './CardBuilder.astro'
+import RenderCard, { type RenderCardProps } from './BuildCard.astro'
 
 type Entry = CollectionEntry<
   'categories' | 'persons' | 'posts' | 'products' | 'services' | 'reviews'
@@ -10,7 +9,7 @@ type Entry = CollectionEntry<
 export type CardsBuilderProps = Props
 export type CardsBuilderItem = Item
 type Path = `${string}${Entry['collection']}/${Entry['id']}`
-type Card = RenderCardProps
+type Card = RenderCardProps & { _bookshop_name?: string }
 type Item = Card | Entry | Path | undefined
 interface Props {
   items?: Item[]
@@ -39,7 +38,6 @@ const getCardFromEntry = ({
   data,
 }: Entry): RenderCardProps => ({
   href: `/${hrefMap[collection]}/${slug}`,
-  type: collection,
   image: data.image,
   rating: data.rating,
   title: data.title,
@@ -69,12 +67,26 @@ const getCard = async (item: Item): Promise<Card | undefined> => {
   }
 }
 
+const getCardType = async (item: Item): Promise<string | undefined> => {
+  if (isPath(item)) {
+    const entry = await getEntryFromPath(item)
+    if (!entry) return
+    return entry.collection
+  } else if (isEntry(item)) {
+    return item.collection
+  } else if (isCard(item)) {
+    return item._bookshop_name?.replace('cards/', '')
+  }
+}
+
 const { items } = Astro.props
 ---
 
 {
   items?.map(async (item) => {
     const card = await getCard(item)
+    const type = await getCardType(item)
+    console.log(type)
     if (!card) return
     return <RenderCard {...card} />
   })
