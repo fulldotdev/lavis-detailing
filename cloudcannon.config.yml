@@ -21,7 +21,6 @@ collection_groups:
       - persons
       - forms
       - policies
-      - globals
   - heading: Config
     collections:
       - globals
