@@ -42,7 +42,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: schemas/page.md
+        path: schemas/pages.schema.md
 
   services:
     path: src/content/services
@@ -54,7 +54,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: schemas/service.md
+        path: schemas/services.schema.md
 
   products:
     path: src/content/products
@@ -67,7 +67,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/product.md
+        path: schemas/products.schema.md
 
   categories:
     path: src/content/categories
@@ -79,7 +79,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/category.md
+        path: schemas/categories.schema.md
         
   posts:
     path: src/content/posts
@@ -91,7 +91,7 @@ collections_config:
       - content
     schemas: 
       default: 
-        path: schemas/posts.md
+        path: schemas/posts.schema.md
 
   policies:
     path: src/content/policies
@@ -103,7 +103,7 @@ collections_config:
       - content
     schemas: 
       default: 
-        path: schemas/policy.md
+        path: schemas/policies.schema.md
 
   reviews:
     path: src/content/reviews
@@ -114,7 +114,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/review.md
+        path: schemas/reviews.schema.md
         
   persons:
     path: src/content/persons
@@ -125,7 +125,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/person.md
+        path: schemas/persons.schema.md
 
   forms:
     path: src/content/forms
@@ -136,7 +136,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: schemas/form.md
+        path: schemas/forms.schema.md
 
   globals:
     path: src/content/settings
@@ -149,15 +149,15 @@ collections_config:
     # disable_file_actions: true
     schemas:
       theme: 
-        path: schemas/globals/theme.yml
+        path: schemas/globals/theme.schema.yml
       elements: 
-        path: schemas/globals/elements.yml
+        path: schemas/globals/elements.schema.yml
       cards: 
-        path: schemas/globals/cards.yml
+        path: schemas/globals/cards.schema.yml
       layout: 
-        path: schemas/globals/layout.yml
+        path: schemas/globals/layout.schema.yml
       company: 
-        path: schemas/globals/company.yml
+        path: schemas/globals/company.schema.yml
 
   blocks:
     path: src/content/blocks
@@ -168,35 +168,35 @@ collections_config:
       - visual
     schemas:
       categories:
-        path: schemas/blocks/categories.yml
+        path: schemas/blocks/categories.schema.yml
       contact:
-        path: schemas/blocks/contact.yml
+        path: schemas/blocks/contact.schema.yml
       content:
-        path: schemas/blocks/content.yml
+        path: schemas/blocks/content.schema.yml
       cta:
-        path: schemas/blocks/cta.yml
+        path: schemas/blocks/cta.schema.yml
       custom:
-        path: schemas/blocks/custom.yml
+        path: schemas/blocks/custom.schema.yml
       features:
-        path: schemas/blocks/features.yml
+        path: schemas/blocks/features.schema.yml
       hero:
-        path: schemas/blocks/hero.yml
+        path: schemas/blocks/hero.schema.yml
       highlight:
-        path: schemas/blocks/highlight.yml
+        path: schemas/blocks/highlight.schema.yml
       intro:
-        path: schemas/blocks/intro.yml
+        path: schemas/blocks/intro.schema.yml
       offers:
-        path: schemas/blocks/offers.yml
+        path: schemas/blocks/offers.schema.yml
       persons:
-        path: schemas/blocks/persons.yml
+        path: schemas/blocks/persons.schema.yml
       posts:
-        path: schemas/blocks/posts.yml
+        path: schemas/blocks/posts.schema.yml
       products:
-        path: schemas/blocks/products.yml
+        path: schemas/blocks/products.schema.yml
       reviews:
-        path: schemas/blocks/reviews.yml  
+        path: schemas/blocks/reviews.schema.yml  
       services:
-        path: schemas/blocks/services.yml  
+        path: schemas/blocks/services.schema.yml  
         
 # -----------------------------------------------
 # Input customization
