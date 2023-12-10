@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path, { dirname } from 'path'
 import { fileURLToPath } from 'url'
-import { readFrontmatter } from '../../src/utils'
+import { readFrontmatter } from '.'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
