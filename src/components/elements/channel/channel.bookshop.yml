@@ -1,13 +1,14 @@
 spec:
   structures:
-    - buttons
-  label: Button
+    - channels
+    - channel
+  label: Channel
 
 blueprint:
   key:
 
 preview:
-  label: email
+  key: email
   
 config:
   look: solid

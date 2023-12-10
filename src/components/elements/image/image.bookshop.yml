@@ -1,0 +1,16 @@
+spec:
+  structures:
+    - images
+    - image
+  label: Image
+
+blueprint:
+  src:
+  alt:
+
+preview:
+  src:
+  alt:
+  
+config:
+  class:

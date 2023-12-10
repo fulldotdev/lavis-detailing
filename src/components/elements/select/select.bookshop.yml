@@ -1,6 +1,7 @@
 spec:
   structures:
     - inputs
+    - input
   label: Select
 
 blueprint:
@@ -9,6 +10,15 @@ blueprint:
   required: false
 
 preview:
+  label: Lorem ipsum
+  options:
+    - Option 1
+    - Option 2
+    - Option 3
+  required: false
+
+config:
+  class:
 
 _inputs:
   options:

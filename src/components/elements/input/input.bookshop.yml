@@ -1,14 +1,18 @@
 spec:
   structures:
     - inputs
+    - input
   label: Input
 
 blueprint:
   label:
-  type:
+  type: text
   required: false
 
 preview:
+  label: Lorem ipsum
+  type: text
+  required: false
 
 _inputs:
   type:

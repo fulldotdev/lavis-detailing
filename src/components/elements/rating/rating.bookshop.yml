@@ -1,0 +1,23 @@
+spec:
+  structures:
+    - ratings
+    - rating
+  label: Rating
+
+blueprint:
+  rating: 5
+
+preview:
+  rating: 5
+
+config:
+  hue: brand
+  class:
+
+_inputs:
+  rating: 
+    type: range
+    options:
+      min: 0
+      max: 5
+      step: 0.1

@@ -10,6 +10,7 @@ blueprint:
     - image:
         src:
         alt:
+      icon:
       writeup:
       buttons:
 

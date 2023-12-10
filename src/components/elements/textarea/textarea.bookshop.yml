@@ -1,6 +1,7 @@
 spec:
   structures:
     - inputs
+    - input
   label: Textarea
 
 blueprint:
@@ -8,3 +9,8 @@ blueprint:
   required: false
 
 preview:
+  label: Lorem ipsum
+  required: false
+
+config:
+  class:

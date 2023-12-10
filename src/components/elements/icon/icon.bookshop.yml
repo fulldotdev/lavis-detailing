@@ -1,0 +1,12 @@
+spec:
+  structures:
+    - icon
+    - icons
+  label: Icon
+
+blueprint:
+
+preview:
+
+config:
+  class:

@@ -6,7 +6,6 @@ spec:
 blueprint:
   writeup:
   buttons:
-  button:
 
 preview:
   writeup: |
@@ -31,4 +30,3 @@ config:
   group:
     layout: col
     importance: secondary
-  button:

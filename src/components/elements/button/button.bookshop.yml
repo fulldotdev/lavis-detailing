@@ -25,7 +25,3 @@ config:
     look: ghost
     hue: brand
     class:
-
-_inputs:
-  button:
-    type: object

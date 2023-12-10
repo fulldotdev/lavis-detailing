@@ -1,7 +1,7 @@
 spec:
   structures:
-    - writeup
-  label: Writeup
+    - prose
+  label: Prose
 
 blueprint:
   html:
