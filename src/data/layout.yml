@@ -3,15 +3,20 @@
 # -----------------------------------------------
 announcement:
 header:
+  links:
+  buttons:
 cta:
 footer:
+  columns:
+    - heading:
+      links:
 
 # -----------------------------------------------
 # INPUTS
 # -----------------------------------------------
 _inputs:
   announcement:
-    type: object
+    type: textarea
   header:
     type: object
   cta:
