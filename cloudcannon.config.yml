@@ -24,7 +24,7 @@ collection_groups:
       - globals
   - heading: Config
     collections:
-      - settings
+      - globals
       - blocks
 
 # -----------------------------------------------
@@ -140,42 +140,25 @@ collections_config:
         path: schemas/form.md
 
   globals:
-    path: src/content/globals
-    output: false
-    icon: 
-    # disable_add_folder: true
-    # disable_add: true
-    # disable_file_actions: true
-    schemas:
-      company: 
-        path: schemas/globals/company.yml
-      header: 
-        path: schemas/globals/header.yml
-      cta: 
-        path: schemas/globals/cta.yml
-      footer: 
-        path: schemas/globals/footer.yml
-
-  settings:
     path: src/content/settings
     output: false
     icon: 
-    # disable_add_folder: true
+    _enabled_editors:
+      - data
+    disable_add_folder: true
     # disable_add: true
     # disable_file_actions: true
     schemas:
       theme: 
-        path: schemas/settings/theme.yml
+        path: schemas/globals/theme.yml
       elements: 
-        path: schemas/settings/elements.yml
+        path: schemas/globals/elements.yml
       cards: 
-        path: schemas/settings/cards.yml
-      blocks: 
-        path: schemas/settings/blocks.yml
-      globals: 
-        path: schemas/settings/globals.yml
-      collections: 
-        path: schemas/settings/collections.yml
+        path: schemas/globals/cards.yml
+      layout: 
+        path: schemas/globals/layout.yml
+      company: 
+        path: schemas/globals/company.yml
 
   blocks:
     path: src/content/blocks
