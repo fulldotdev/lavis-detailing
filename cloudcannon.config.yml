@@ -139,7 +139,7 @@ collections_config:
         path: schemas/forms.schema.md
 
   globals:
-    path: src/content/settings
+    path: src/content/globals
     output: false
     icon: 
     _enabled_editors:
