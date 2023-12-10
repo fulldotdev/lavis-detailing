@@ -1,6 +1,7 @@
 spec:
   structures:
     - buttons
+    - button
   label: Button
 
 blueprint:

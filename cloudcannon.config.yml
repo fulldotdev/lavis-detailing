@@ -25,6 +25,7 @@ collection_groups:
     collections:
       - globals
       - blocks
+      - components
 
 # -----------------------------------------------
 # Collection configuration
@@ -197,6 +198,9 @@ collections_config:
         path: schemas/blocks/reviews.schema.yml  
       services:
         path: schemas/blocks/services.schema.yml  
+
+  components:
+    path: src/components
         
 # -----------------------------------------------
 # Input customization
