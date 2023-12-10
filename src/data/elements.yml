@@ -4,15 +4,15 @@
 button:
   primary:
     look: solid
-    hue: brand
+    hue:
     class:
   secondary:
     look: outline
-    hue: brand
+    hue:
     class:
   tertiary:
     look: ghost
-    hue: brand
+    hue:
     class:
 whatsapp:
   look: solid

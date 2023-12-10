@@ -6,9 +6,6 @@ spec:
 blueprint:
   writeup:
   offers:
-    - writeup:
-      specs: 
-      buttons: 
 
 preview:
   writeup: |

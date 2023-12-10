@@ -1,0 +1,15 @@
+announcement:
+header:
+cta:
+footer:
+
+_inputs:
+  announcement:
+    type: object
+  header:
+    type: object
+  cta:
+    type: object
+  footer:
+    type: object
+#

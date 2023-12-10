@@ -1,0 +1,30 @@
+company:
+description:
+logo:
+icon:
+kvk:
+
+channels:
+  email: 
+  phone:
+  whatsapp:
+  address:
+
+socials:
+  facebook: 
+  twitter:
+  instagram:
+  pinterest:
+  linkedin:
+  youtube:
+  tiktok:
+  snapchat:
+
+# -----------------------------------------------
+# Inputs configuration
+# -----------------------------------------------
+_inputs:
+  logo:
+    type: image
+  icon:
+    type: image

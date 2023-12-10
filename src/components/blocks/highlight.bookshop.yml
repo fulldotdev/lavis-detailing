@@ -7,8 +7,6 @@ blueprint:
   writeup:
   buttons:
   image: 
-    src:
-    alt:
 
 preview:
   writeup: |

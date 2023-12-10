@@ -1,7 +1,11 @@
 spec:
   structures:
-    - images
     - image
+    - images
+    - asset
+    - assets
+    - visual
+    - visuals
   label: Image
 
 blueprint:
@@ -14,3 +18,11 @@ preview:
   
 config:
   class:
+
+_inputs: 
+  src:
+    type: image
+    label: Upload
+    correct_orientation: false
+  alt:
+    label: Description

@@ -231,14 +231,6 @@ _inputs:
     label: Canonical URL
     comment: The preferred URL for this page, meaning the url search engines will index, instead of the current one
 
-  image.src:
-    type: image
-    label: Upload
-    correct_orientation: false
-
-  image.alt:
-    label: Description
-
   src:
     type: image
     label: Upload
@@ -250,12 +242,6 @@ _inputs:
   href:
     type: url
     label: Link
-
-  writeup:
-    type: html
-
-  prose:
-    type: html
 
 # -----------------------------------------------
 # Design inputs

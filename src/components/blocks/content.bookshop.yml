@@ -6,8 +6,6 @@ spec:
 blueprint:
   prose:
   image: 
-    src:
-    alt:
 
 preview:
   prose: |

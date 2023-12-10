@@ -2,11 +2,15 @@ spec:
   structures:
     - icon
     - icons
+    - visual
+    - visuals
   label: Icon
 
 blueprint:
+  name: 
 
 preview:
+  name: circle
 
 config:
   class:
