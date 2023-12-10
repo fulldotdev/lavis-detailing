@@ -352,18 +352,6 @@ _inputs:
         - soft
         - surface
         - solid
-  layout:
-    type: choice
-    options:
-      values:
-        - col
-        - row
-  image.position:
-    type: choice
-    options:
-      values:
-        - relative
-        - background
   image.ratio:
     type: choice
     options:
