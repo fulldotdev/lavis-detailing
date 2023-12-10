@@ -349,7 +349,7 @@ _inputs:
         - grid
         - masonry
         - row
-  buttons.importance:
+  group.importance:
     type: choice
     options:
       values:

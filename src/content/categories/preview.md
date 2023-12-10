@@ -6,9 +6,9 @@ seo:
     src: 
     alt: 
 
-title:
-description: 
+title: Lorem ipsum
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 image:
-  src: 
+  src:
   alt: 
 ---

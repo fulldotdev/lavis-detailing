@@ -1,0 +1,9 @@
+spec:
+  structures:
+    - writeup
+  label: Writeup
+
+blueprint:
+  html:
+
+preview:
