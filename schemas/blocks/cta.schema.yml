@@ -29,8 +29,6 @@ config:
     align: center
   group:
     layout: row
-    align: center
-  buttons:
-    - importance:
+    importance:
 
 _inputs:

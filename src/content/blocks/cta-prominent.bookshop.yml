@@ -27,7 +27,7 @@ config:
   segment:
     layout: row
     align: center
-  buttons:
+  group:
     importance: secondary
     layout: col
 

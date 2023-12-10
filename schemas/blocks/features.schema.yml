@@ -62,7 +62,7 @@ config:
   segment:
     layout: col
     align: center
-  buttons:
+  group:
     importance: primary
     layout: row
   deck:

@@ -3,11 +3,12 @@ import type { CardsBuilderItem } from '@components/builders/CardsBuilder.astro'
 import CardsBuilder from '@components/builders/CardsBuilder.astro'
 import Writeup from '@components/elements/Writeup.astro'
 import { type ButtonProps } from '@components/elements/button/Button.astro'
-import Buttons from '@components/elements/button/ButtonGroup.astro'
-import Channels from '@components/elements/channel/Channels.astro'
+import ButtonGroup from '@components/elements/button/ButtonGroup.astro'
+import Channels from '@components/elements/channel/ChannelGroup.astro'
 import Image, { type ImageProps } from '@components/elements/image/Image.astro'
-import Socials from '@components/elements/social/Socials.astro'
+import Socials from '@components/elements/social/SocialGroup.astro'
 import Deck, { type DeckProps } from '@components/wrappers/Deck.astro'
+import { type GroupProps } from '@components/wrappers/Group.astro'
 import Section, { type SectionProps } from '@components/wrappers/Section.astro'
 import Segment, { type SegmentProps } from '@components/wrappers/Segment.astro'
 
@@ -15,6 +16,7 @@ interface Props {
   section?: SectionProps
   segment?: SegmentProps
   writeup?: string
+  group: GroupProps
   buttons?: ButtonProps[]
   channels?: boolean
   socials?: boolean
@@ -27,6 +29,7 @@ const {
   section,
   segment,
   writeup,
+  group,
   buttons,
   image,
   channels,
@@ -39,7 +42,10 @@ const {
 <Section {...section}>
   <Segment {...segment}>
     <Writeup html={writeup} />
-    <Buttons {buttons} />
+    <ButtonGroup
+      {buttons}
+      {...group}
+    />
     <Channels {channels} />
     <Socials {socials} />
   </Segment>

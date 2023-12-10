@@ -3,11 +3,10 @@ import Group, { type GroupProps } from '@components/wrappers/Group.astro'
 import type { ButtonProps } from './Button.astro'
 import Button from './Button.astro'
 
-type Props = GroupProps &
-  Omit<ButtonProps, 'label' | 'href'> & {
-    buttons?: ButtonProps[] | null
-    importance?: 'primary' | 'secondary' | 'tertiary'
-  }
+type Props = GroupProps & {
+  buttons?: ButtonProps[] | null
+  importance?: 'primary' | 'secondary' | 'tertiary' | null
+}
 
 let { buttons, importance = 'primary', ...restProps } = Astro.props
 

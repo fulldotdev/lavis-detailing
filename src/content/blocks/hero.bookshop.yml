@@ -36,7 +36,7 @@ config:
   segment:
     layout: row
     align: center
-  buttons:
+  group:
     importance: primary
     layout: col
   image:
