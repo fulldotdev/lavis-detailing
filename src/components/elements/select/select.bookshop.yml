@@ -6,7 +6,12 @@ spec:
 blueprint:
   label:
   options:
-    -
   required: false
 
 preview:
+
+_inputs:
+  options:
+    type: array
+
+#
