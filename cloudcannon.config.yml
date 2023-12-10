@@ -404,3 +404,21 @@ _inputs:
         - primary
         - secondary
         - tertiary
+
+# -----------------------------------------------
+# elements to singular
+# -----------------------------------------------
+  button: &singular
+    type: object
+  link: *singular
+  image: *singular
+  icon: *singular
+  input: *singular
+  select: *singular
+  textarea: *singular
+  channel: *singular
+  social: *singular
+  rating: *singular
+  writeup: *singular
+  prose: *singular
+  
