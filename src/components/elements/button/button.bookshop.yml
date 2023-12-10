@@ -1,0 +1,10 @@
+spec:
+  structures:
+    - buttons
+  label: Button
+
+blueprint:
+  label:
+  href:
+
+preview:

@@ -20,15 +20,16 @@ preview:
 config:
   section:
     frame: panel
-    look: surface
+    look: soft
     size:
-    hue:
-    scheme:
+    hue: brand
+    scheme: dark
   segment:
-    layout: col
-    align: center
-  buttons:
-    importance: primary
     layout: row
+    align: center
+  group:
+    layout: col
+  buttons:
+    - importance: secondary
 
 _inputs:

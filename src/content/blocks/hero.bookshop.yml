@@ -29,16 +29,16 @@ config:
     align:
     frame: fill
     look:
-    order:
+    order: reverse
     size: large
     hue:
     scheme:
   segment:
-    layout: col
-    align:
+    layout: row
+    align: center
   buttons:
     importance: primary
-    layout: row
+    layout: col
   image:
     position:
     orientation:

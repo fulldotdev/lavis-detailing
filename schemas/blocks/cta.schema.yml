@@ -27,8 +27,10 @@ config:
   segment:
     layout: col
     align: center
-  buttons:
-    importance: primary
+  group:
     layout: row
+    align: center
+  buttons:
+    - importance:
 
 _inputs:
