@@ -2,17 +2,25 @@
 import { getEntry, type CollectionEntry } from 'astro:content'
 import RenderCard, { type RenderCardProps } from './_RenderCard.astro'
 
+export type CardsBuilderProps = Props
+export type CardsBuilderItem = Item
 type Entry = CollectionEntry<
   'categories' | 'posts' | 'products' | 'services' | 'reviews'
 >
-
-export type CardsBuilderProps = Props
-export type CardsBuilderItem = Item
 type Path = `${string}${Entry['collection']}/${Entry['id']}`
 type Card = RenderCardProps & { _bookshop_name?: string }
 type Item = Card | Entry | Path | undefined
+
 interface Props {
   items?: Item[]
+}
+
+const hrefMap = {
+  categories: 'categorieen',
+  posts: 'posts',
+  products: 'producten',
+  services: 'diensten',
+  reviews: 'reviews',
 }
 
 const getEntryFromPath = async (path: Path) => {
@@ -22,37 +30,16 @@ const getEntryFromPath = async (path: Path) => {
   return entry
 }
 
-const hrefMap = {
-  brands: 'merken',
-  categories: 'categorieen',
-  posts: 'posts',
-  products: 'producten',
-  reviews: 'reviews',
-  services: 'diensten',
-}
-
-const getCardFromEntry = ({
-  collection,
-  slug,
-  data,
-}: Entry): RenderCardProps => ({
-  href: `/${hrefMap[collection]}/${slug}`,
-  image: data.image,
-  rating: data.rating,
-  title: data.title,
-  description: data.description,
-  tagline: data.tagline,
+const getCardFromEntry = (entry: Entry): RenderCardProps => ({
+  href: `/${hrefMap[entry.collection]}/${entry.slug}`,
+  ...entry.data,
 })
 
-const isPath = (item: Item): item is Path => {
-  return typeof item === 'string'
-}
-const isEntry = (item: Item): item is Entry => {
-  return typeof item === 'object' && 'slug' in item
-}
-const isCard = (item: Item): item is Card => {
-  return typeof item === 'object' && !('slug' in item)
-}
+const isPath = (item: Item): item is Path => typeof item === 'string'
+const isEntry = (item: Item): item is Entry =>
+  typeof item === 'object' && 'slug' in item
+const isCard = (item: Item): item is Card =>
+  typeof item === 'object' && !('slug' in item)
 
 const getCard = async (item: Item): Promise<Card | undefined> => {
   if (isPath(item)) {
@@ -72,6 +59,7 @@ const getCardType = async (item: Item): Promise<string | undefined> => {
     if (!entry) return
     return entry.collection
   } else if (isEntry(item)) {
+    if (!item) return
     return item.collection
   } else if (isCard(item)) {
     return item._bookshop_name?.replace('cards/', '')
