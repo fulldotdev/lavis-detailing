@@ -23,7 +23,7 @@ content_blocks:
         href:
     image:
       _bookshop_name: elements/image
-      src: assets/uploads/900x.jpg
+      src: uploads/900x.jpg
       alt:
   - _bookshop_name: blocks/features
     writeup:
