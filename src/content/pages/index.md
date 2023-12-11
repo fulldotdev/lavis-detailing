@@ -9,9 +9,11 @@ seo:
     alt:
 content_blocks:
   - _bookshop_name: blocks/hero
-    writeup: |
-      <h1>Lorem ipsum dolor sit</h1><p>Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Suscipit, numquam!</p>
+    writeup:
+      _bookshop_name: elements/writeup
+      html: >-
+        <h1>Lorem ipsum dolor sit</h1><p>Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Suscipit, numquam!</p>
     buttons:
       - _bookshop_name: elements/button
         label: Lorem ipsum
@@ -28,27 +30,41 @@ content_blocks:
     buttons:
     features:
       - _bookshop_name: cards/features
-        icon: circle
-        writeup: | 
-          <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ullam, soluta.</p>
+        visual:
+          - _bookshop_name: elements/icon
+            name: category
+        writeup:
+          _bookshop_name: elements/writeup
+          html: >-
+            <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ullam, soluta.</p>
         buttons:
       - _bookshop_name: cards/features
-        icon: circle
-        writeup: | 
-          <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ullam, soluta.</p>
+        visual:
+          - _bookshop_name: elements/icon
+            name: category
+        writeup:
+          _bookshop_name: elements/writeup
+          html: >-
+            <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ullam, soluta.</p>
         buttons:
       - _bookshop_name: cards/features
-        icon: circle
-        writeup: | 
-          <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ullam, soluta.</p>
+        visual:
+          - _bookshop_name: elements/icon
+            name: category
+        writeup:
+          _bookshop_name: elements/writeup
+          html: >-
+            <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ullam, soluta.</p>
         buttons:
-  - _bookshop_name: blocks/spotlight
-    writeup: |
-      <h1>Lorem ipsum dolor sit</h1><p>Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Suscipit, numquam!</p>
+  - _bookshop_name: blocks/highlight
+    writeup:
+      _bookshop_name: elements/writeup
+      html: >-
+        <h1>Lorem ipsum dolor sit</h1><p>Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Suscipit, numquam!</p>
     buttons:
       - _bookshop_name: elements/button
         label: Lorem ipsum
@@ -58,9 +74,11 @@ content_blocks:
       src: /uploads/900x.jpg
       alt:
   - _bookshop_name: blocks/cta
-    writeup: |
-      <h1>Lorem ipsum dolor sit</h1><p>Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Suscipit, numquam!</p>
+    writeup:
+      _bookshop_name: elements/writeup
+      html: >-
+        <h1>Lorem ipsum dolor sit</h1><p>Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Suscipit, numquam!</p>
     buttons:
       - _bookshop_name: elements/button
         label: Lorem ipsum
@@ -68,4 +86,36 @@ content_blocks:
       - _bookshop_name: elements/button
         label: Lorem ipsum
         href:
+  - _bookshop_name: blocks/highlights
+    highlights:
+      - _bookshop_name: cards/highlights
+        image:
+          _bookshop_name: elements/image
+          src:
+          alt:
+        writeup: >-
+          <h3>Lorem ipsum dolor</h3><p>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ullam, soluta.</p>
+        buttons:
+          - _bookshop_name: elements/button
+            label: Lorem ipsum
+            href: '#'
+          - _bookshop_name: elements/button
+            label: Lorem ipsum
+            href: '#'
+      - _bookshop_name: cards/highlights
+        image:
+          _bookshop_name: elements/image
+          src:
+          alt:
+        writeup: >-
+          <h3>Lorem ipsum dolor</h3><p>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ullam, soluta.</p>
+        buttons:
+          - _bookshop_name: elements/button
+            label: Lorem ipsum
+            href: '#'
+          - _bookshop_name: elements/button
+            label: Lorem ipsum
+            href: '#'
 ---
