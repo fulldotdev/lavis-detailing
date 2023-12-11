@@ -12,14 +12,12 @@ const data = defineCollection({
 
 export const collections = {
   categories: content,
-  persons: content,
   pages: content,
   policies: content,
   posts: content,
   products: content,
   reviews: content,
   services: content,
-  person: content,
   globals: data,
   bookshop: data,
 }

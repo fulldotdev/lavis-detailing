@@ -19,7 +19,6 @@ collection_groups:
   - heading: Shared
     collections:
       - reviews
-      - persons
       - forms
       - data
   - heading: Config
@@ -118,17 +117,6 @@ collections_config:
       default: 
         path: src/content/reviews/_reviews.md
         
-  persons:
-    path: src/content/persons
-    output: false
-    icon: diversity_3
-    disable_add_folder: true
-    _enabled_editors:
-      - data
-    schemas: 
-      default: 
-        path: src/content/persons/_persons.md
-
   forms:
     path: src/content/forms
     output: false
@@ -420,6 +408,7 @@ _inputs:
   social: *singular
   visual: *singular
   asset: *singular
+  person: *singular
 
 
   writeup:

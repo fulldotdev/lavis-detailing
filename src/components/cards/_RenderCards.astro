@@ -3,7 +3,7 @@ import { getEntry, type CollectionEntry } from 'astro:content'
 import RenderCard, { type RenderCardProps } from './_RenderCard.astro'
 
 type Entry = CollectionEntry<
-  'categories' | 'persons' | 'posts' | 'products' | 'services' | 'reviews'
+  'categories' | 'posts' | 'products' | 'services' | 'reviews'
 >
 
 export type CardsBuilderProps = Props
@@ -25,7 +25,6 @@ const getEntryFromPath = async (path: Path) => {
 const hrefMap = {
   brands: 'merken',
   categories: 'categorieen',
-  persons: 'werknemers',
   posts: 'posts',
   products: 'producten',
   reviews: 'reviews',
