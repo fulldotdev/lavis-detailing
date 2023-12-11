@@ -1,9 +1,6 @@
 spec:
   structures:
-    - ratings
-    - rating
   label: Rating
-
 
 preview: 5
 
