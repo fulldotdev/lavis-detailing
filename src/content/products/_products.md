@@ -25,6 +25,10 @@ _inputs:
     type: html
   price:
     type: number
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
 
 _structures:
   choices:
