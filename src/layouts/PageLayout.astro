@@ -1,5 +1,5 @@
 ---
-import BlocksBuilder from '@components/blocks/_RenderBlocks.astro'
+import RenderBlocks from '@components/blocks/_RenderBlocks.astro'
 import ActionLayout from '@layouts/ActionLayout.astro'
 import type { CollectionEntry } from 'astro:content'
 
@@ -11,5 +11,5 @@ const { data } = Astro.props.entry
 ---
 
 <ActionLayout seo={data.seo}>
-  <BlocksBuilder blocks={data.content_blocks} />
+  <RenderBlocks blocks={data.content_blocks} />
 </ActionLayout>
