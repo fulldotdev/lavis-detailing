@@ -10,9 +10,9 @@ import { defineConfig } from 'astro/config'
 import fs from 'fs'
 import UnoCSS from 'unocss/astro'
 
-let company
+let company = {}
 try {
-  theme = yaml.load(fs.readFileSync('./src/data/company.yml', 'utf8'))
+  company = yaml.load(fs.readFileSync('./src/data/company.yml', 'utf8'))
 } catch (e) {
   console.error(e)
 }
