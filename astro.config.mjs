@@ -13,7 +13,6 @@ export default defineConfig({
   integrations: [
     svelte(),
     sitemap(),
-    // prefetch(), // can be done with default config, no integration
     robotsTxt(),
     bookshop(),
     UnoCSS({

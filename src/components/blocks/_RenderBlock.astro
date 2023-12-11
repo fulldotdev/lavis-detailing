@@ -1,6 +1,6 @@
 ---
 import type { CardsBuilderItem } from '@components/cards/_RenderCards.astro'
-import CardsBuilder from '@components/cards/_RenderCards.astro'
+import RenderCards from '@components/cards/_RenderCards.astro'
 import { type ButtonProps } from '@components/elements/button/Button.astro'
 import ButtonGroup from '@components/elements/button/ButtonGroup.astro'
 import ChannelGroup from '@components/elements/channel/ChannelGroup.astro'
@@ -25,7 +25,13 @@ interface Props {
   deck?: DeckProps
   features?: CardsBuilderItem[]
   highlights?: CardsBuilderItem[]
+  persons?: CardsBuilderItem[]
   offers?: CardsBuilderItem[]
+  products?: CardsBuilderItem[]
+  services?: CardsBuilderItem[]
+  reviews?: CardsBuilderItem[]
+  posts?: CardsBuilderItem[]
+  categories?: CardsBuilderItem[]
 }
 
 const {
@@ -41,9 +47,27 @@ const {
   features,
   highlights,
   offers,
+  persons,
+  products,
+  services,
+  reviews,
+  posts,
+  categories,
 } = Astro.props
 
-const items = [features, highlights, offers].flat().filter(Boolean)
+const items = [
+  features,
+  highlights,
+  offers,
+  persons,
+  products,
+  services,
+  reviews,
+  posts,
+  categories,
+]
+  .flat()
+  .filter(Boolean)
 ---
 
 <Section {...section}>
@@ -58,6 +82,6 @@ const items = [features, highlights, offers].flat().filter(Boolean)
   </Segment>
   <Image {...image} />
   <Deck {...deck}>
-    <CardsBuilder items={items} />
+    <RenderCards items={items} />
   </Deck>
 </Section>

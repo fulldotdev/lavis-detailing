@@ -18,6 +18,4 @@ export const collections = {
   products: content,
   reviews: content,
   services: content,
-  globals: data,
-  bookshop: data,
 }

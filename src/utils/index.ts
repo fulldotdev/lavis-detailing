@@ -1,3 +1,5 @@
+export { default as getAllEntries } from './getAllEntries'
+export { default as getRouteByEntry } from './getRouteByEntry'
 export { default as readFrontmatter } from './readFrontmatter'
 export { default as readYaml } from './readYaml'
 export { default as toPascalCase } from './toPascalCase'
