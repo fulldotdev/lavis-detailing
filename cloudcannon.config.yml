@@ -420,5 +420,7 @@ _inputs:
   social: *singular
   rating: *singular
   writeup: *singular
-  prose: *singular
+  prose: *singular  
+  visual: *singular
+  asset: *singular
   
