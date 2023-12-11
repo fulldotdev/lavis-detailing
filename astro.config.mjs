@@ -2,14 +2,26 @@ import sitemap from '@astrojs/sitemap'
 import svelte from '@astrojs/svelte'
 import bookshop from '@bookshop/astro-bookshop'
 import yaml from '@rollup/plugin-yaml'
+import sentry from '@sentry/astro'
+import spotlightjs from '@spotlightjs/astro'
+import favicons from 'astro-favicons'
 import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
+import fs from 'fs'
 import UnoCSS from 'unocss/astro'
 
+let company
+try {
+  theme = yaml.load(fs.readFileSync('./src/data/company.yml', 'utf8'))
+} catch (e) {
+  console.error(e)
+}
+
+// https://astro.build/config
 export default defineConfig({
   output: 'static',
-  compressHTML: true,
-  site: import.meta.env.PUBLIC_APP_URL || 'http://localhost:4321',
+  site: company.url || 'http://localhost:4321',
+  compressHTML: import.meta.env.PROD,
   integrations: [
     svelte(),
     sitemap(),
@@ -18,18 +30,19 @@ export default defineConfig({
     UnoCSS({
       injectReset: true,
     }),
-
+    sentry(),
+    spotlightjs(),
+    favicons({
+      masterPicture: company.logo || './src/assets/astro.svg',
+      emitAssets: true,
+      appName: company.name,
+      appShortName: company.name,
+      appDescription: company.description,
+      lang: 'nl',
+      background: '#fff',
+      theme_color: '#fff',
+    }),
     // stripeProducts,
-    // alpine(),
-    // favicons({
-    //   masterPicture: './public/favicon.svg',
-    //   emitAssets: true,
-    //   appName: 'My website',
-    //   appDescription: 'My website description',
-    //   lang: 'nl',
-    //   background: '#fff',
-    //   theme_color: '#fff',
-    // }),
   ],
   vite: {
     plugins: [yaml()],
