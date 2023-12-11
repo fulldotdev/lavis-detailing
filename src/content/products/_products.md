@@ -14,11 +14,19 @@ description:
 images:
   - src: 
     alt: 
-price: 
 categories:
   - 
+price: 
+
+options:
+  label:
+  options:
+    -
+  price:
 
 _inputs:
   description:
     type: html
+  price:
+    type: number
 ---

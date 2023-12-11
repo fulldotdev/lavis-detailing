@@ -1,6 +1,6 @@
 ---
 _schema: default
-rating: []
+rating: 5
 title: John Doe
 description: >
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sequi
