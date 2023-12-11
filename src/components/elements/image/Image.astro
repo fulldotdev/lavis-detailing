@@ -51,8 +51,9 @@ function getSrc() {
   if (src?.startsWith('http')) return src
   const images = import.meta.glob('/src/assets/**/*.{jpeg,jpg,png,webp,gif}')
   const path = ('/src/assets/' + src).replace('//', '/')
-  const image = images[path]()
-  return image
+  const image = images[path]
+  if (!image) console.log(`Image not found: ${path}`)
+  else return image()
 }
 
 function getSizes() {
@@ -70,7 +71,7 @@ function getSizes() {
 ---
 
 {
-  src && (
+  src && getSrc() && (
     // @ts-ignore
     <AstroImage
       src={getSrc()}
