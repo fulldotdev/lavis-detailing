@@ -1,6 +1,5 @@
 import fs from 'fs'
 import yaml from 'js-yaml'
-import path from 'path'
 
 export default (absolutePath: string, data: object) => {
   try {

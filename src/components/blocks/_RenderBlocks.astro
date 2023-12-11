@@ -25,7 +25,6 @@ const mappedBlocks = blocks?.map((block: any) => ({
 {
   mappedBlocks?.map((block: any) => {
     const bookshopConfig = getBookshopConfig(block._bookshop_name)
-    console.log('bookshopConfig', bookshopConfig)
     return (
       <RenderBlock
         {...bookshopConfig}

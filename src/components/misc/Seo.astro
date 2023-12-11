@@ -1,47 +1,17 @@
 ---
+import company from '@data/company.yml'
 import { SEO } from 'astro-seo'
 
 interface Props {
-  title?: string
-  description?: string
-  image?: string | object
-  noindex?: boolean
-  nofollow?: boolean
-  canonical?: string
-  ogTitle?: string
+  title?: string | null
+  description?: string | null
+  image?: {
+    src: string | null
+    alt?: string | null
+  }
 }
 
-const { title, description, image, ogTitle, noindex, nofollow, canonical } =
-  Astro.props
-
-const seo = {
-  charset: 'UTF-8',
-  title,
-  description,
-  noindex,
-  nofollow,
-  canonical,
-  openGraph: {
-    basic: {
-      title: ogTitle || title || '',
-      type: 'website',
-      image: '',
-    },
-    image: {},
-  },
-}
-
-// if (typeof image === 'object' && image?.url) {
-//   seo.openGraph.basic.image = image?.url
-//   seo.openGraph.image = {
-//     url: image.url,
-//     secureUrl: image.url,
-//     type: image.mimeType,
-//     width: image.width,
-//     height: image.height,
-//     alt: image.alt,
-//   }
-// }
+const { title, description, image } = Astro.props
 ---
 
 <meta
@@ -53,4 +23,18 @@ const seo = {
   content={Astro.generator}
 />
 
-<SEO {...seo} />
+<SEO
+  title={title || company.name || undefined}
+  description={description || company.description || undefined}
+  openGraph={{
+    basic: {
+      title: title || company.name || '',
+      type: 'website',
+      image: image?.src || company.image || '',
+    },
+    image: {
+      url: image?.src || company.image || '',
+      alt: image?.alt || 'Logo' + company.name || '',
+    },
+  }}
+/>

@@ -1,7 +1,5 @@
 import getClamp from './getClamp'
 
-const MIN = 3
-
 export const getSpacingModeRules = ({
   scale,
   multiplier,

@@ -9,7 +9,7 @@
     "check": "astro check",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "yarn check && yarn build && yarn preview"    
+    "prod": "astro check && astro build && astro preview"    
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",
