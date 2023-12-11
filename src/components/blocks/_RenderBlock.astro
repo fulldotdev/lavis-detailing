@@ -12,26 +12,18 @@ import { type GroupProps } from '@components/wrappers/Group.astro'
 import Section, { type SectionProps } from '@components/wrappers/Section.astro'
 import Segment, { type SegmentProps } from '@components/wrappers/Segment.astro'
 
-export type BlockBuilderProps = Props
+export type RenderBlockProps = Props
 interface Props {
   section?: SectionProps
   segment?: SegmentProps
-  writeup?: string
+  writeup?: string | null
   group: GroupProps
   buttons?: ButtonProps[]
-  channels?: boolean
-  socials?: boolean
+  channels?: boolean | null
+  socials?: boolean | null
   image?: ImageProps | null
   deck?: DeckProps
-  features?: CardsBuilderItem[]
-  highlights?: CardsBuilderItem[]
-  persons?: CardsBuilderItem[]
-  offers?: CardsBuilderItem[]
-  products?: CardsBuilderItem[]
-  services?: CardsBuilderItem[]
-  reviews?: CardsBuilderItem[]
-  posts?: CardsBuilderItem[]
-  categories?: CardsBuilderItem[]
+  cards?: CardsBuilderItem[]
 }
 
 const {
@@ -44,44 +36,25 @@ const {
   channels,
   socials,
   deck,
-  features,
-  highlights,
-  offers,
-  persons,
-  products,
-  services,
-  reviews,
-  posts,
-  categories,
+  cards,
 } = Astro.props
-
-const items = [
-  features,
-  highlights,
-  offers,
-  persons,
-  products,
-  services,
-  reviews,
-  posts,
-  categories,
-]
-  .flat()
-  .filter(Boolean)
 ---
 
 <Section {...section}>
   <Segment {...segment}>
-    <Writeup html={writeup} />
+    <Writeup {writeup} />
     <ButtonGroup
       {buttons}
       {...group}
     />
-    <ChannelGroup {channels} />
+    <ChannelGroup
+      {channels}
+      {...group}
+    />
     <Socials {socials} />
   </Segment>
   <Image {...image} />
   <Deck {...deck}>
-    <RenderCards items={items} />
+    <RenderCards {cards} />
   </Deck>
 </Section>

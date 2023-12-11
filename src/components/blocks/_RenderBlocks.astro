@@ -1,38 +1,36 @@
 ---
+import { getBookshopConfig } from '@utils'
 import RenderBlock from './_RenderBlock.astro'
 
-const blockFiles = import.meta.glob('/src/components/blocks/**/*.bookshop.yml')
-const blockComponents = await Promise.all(
-  Object.keys(blockFiles).map((path) =>
-    blockFiles[path]().then((file: any) => ({
-      id: path
-        .replace('/src/components/blocks/', '')
-        .replace('.bookshop.yml', ''),
-      data: file.default,
-    }))
-  )
-)
-
 const { blocks } = Astro.props
+
+const mappedBlocks = blocks?.map((block: any) => ({
+  ...block,
+  cards: [
+    block.features,
+    block.highlights,
+    block.offers,
+    block.persons,
+    block.products,
+    block.services,
+    block.reviews,
+    block.posts,
+    block.categories,
+  ]
+    .flat()
+    .filter(Boolean),
+}))
 ---
 
-<main>
-  {
-    blocks?.map((block: any) => {
-      const bookshopId = block._bookshop_name.replace('blocks/', '')
-      const found = blockComponents.find(
-        (component) => component.id === bookshopId
-      )
-      if (!found) {
-        console.warn('not found', bookshopId)
-        return null
-      }
-      return (
-        <RenderBlock
-          {...found?.data.config}
-          {...block}
-        />
-      )
-    })
-  }
-</main>
+{
+  mappedBlocks?.map((block: any) => {
+    const bookshopConfig = getBookshopConfig(block._bookshop_name)
+    console.log('bookshopConfig', bookshopConfig)
+    return (
+      <RenderBlock
+        {...bookshopConfig}
+        {...block}
+      />
+    )
+  })
+}

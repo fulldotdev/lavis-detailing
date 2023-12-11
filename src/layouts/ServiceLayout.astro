@@ -1,6 +1,6 @@
 ---
 import BlocksBuilder from '@components/blocks/_RenderBlocks.astro'
-import ActionsLayout from '@layouts/ActionsLayout.astro'
+import ActionLayout from '@layouts/ActionLayout.astro'
 import type { CollectionEntry } from 'astro:content'
 
 interface Props {
@@ -10,6 +10,6 @@ interface Props {
 const { data } = Astro.props.entry
 ---
 
-<ActionsLayout seo={data.seo}>
+<ActionLayout seo={data.seo}>
   <BlocksBuilder blocks={data.content_blocks} />
-</ActionsLayout>
+</ActionLayout>

@@ -2,9 +2,10 @@ import {
   getEntry,
   type CollectionEntry,
   type CollectionKey,
+  type ContentCollectionKey,
 } from 'astro:content'
 
-const collectionKeys: CollectionKey[] = [
+const collectionKeys: ContentCollectionKey[] = [
   'categories',
   'forms',
   'pages',

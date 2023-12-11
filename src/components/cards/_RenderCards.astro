@@ -1,93 +1,56 @@
 ---
-import { getEntry, type CollectionEntry } from 'astro:content'
+import { getBookshopConfig, getEntryByPath, getRouteByEntry } from '@utils'
+import { type CollectionEntry, type ContentCollectionKey } from 'astro:content'
 import RenderCard, { type RenderCardProps } from './_RenderCard.astro'
 
 export type CardsBuilderProps = Props
 export type CardsBuilderItem = Item
-type Entry = CollectionEntry<
-  'categories' | 'posts' | 'products' | 'services' | 'reviews'
->
+
+type Entry = CollectionEntry<ContentCollectionKey>
 type Path = `${string}${Entry['collection']}/${Entry['id']}`
 type Card = RenderCardProps & { _bookshop_name?: string }
+
 type Item = Card | Entry | Path | undefined
-
 interface Props {
-  items?: Item[]
+  cards?: Item[]
 }
 
-const hrefMap = {
-  categories: 'categorieen',
-  posts: 'posts',
-  products: 'producten',
-  services: 'diensten',
-  reviews: 'reviews',
-}
+const isPath = (item: any): item is Path => typeof item === 'string'
+const isEntry = (item: any): item is Entry =>
+  typeof item === 'object' && 'slug' in item
+const isCard = (item: any): item is Card =>
+  typeof item === 'object' && !('slug' in item)
 
-const getEntryFromPath = async (path: Path) => {
-  const collection = path.split('/')[-2] as Entry['collection']
-  const id = path.split('/').pop() as Entry['id']
-  const entry = await getEntry(collection, id)
-  return entry
-}
-
-const getCardFromEntry = (entry: Entry): RenderCardProps => ({
-  href: `/${hrefMap[entry.collection]}/${entry.slug}`,
+const buildCardFromEntry = (entry: Entry): RenderCardProps => ({
+  href: getRouteByEntry(entry),
   ...entry.data,
 })
 
-const isPath = (item: Item): item is Path => typeof item === 'string'
-const isEntry = (item: Item): item is Entry =>
-  typeof item === 'object' && 'slug' in item
-const isCard = (item: Item): item is Card =>
-  typeof item === 'object' && !('slug' in item)
-
-const getCard = async (item: Item): Promise<Card | undefined> => {
-  if (isPath(item)) {
-    const entry = await getEntryFromPath(item)
-    if (!entry) return
-    return getCardFromEntry(entry)
-  } else if (isEntry(item)) {
-    return getCardFromEntry(item)
-  } else if (isCard(item)) {
-    return item
-  }
+const getCardProps = async (item: Item): Promise<Card | undefined> => {
+  if (isPath(item)) item = await getEntryByPath(item)
+  if (isEntry(item)) return buildCardFromEntry(item)
+  else if (isCard(item)) return item
 }
 
-const getCardType = async (item: Item): Promise<string | undefined> => {
-  if (isPath(item)) {
-    const entry = await getEntryFromPath(item)
-    if (!entry) return
-    return entry.collection
-  } else if (isEntry(item)) {
-    if (!item) return
-    return item.collection
-  } else if (isCard(item)) {
-    return item._bookshop_name?.replace('cards/', '')
-  }
+const getBookshopName = async (item: Item): Promise<string | undefined> => {
+  if (isPath(item)) item = await getEntryByPath(item)
+  if (isEntry(item)) return 'cards/' + item.collection
+  else if (isCard(item)) return item._bookshop_name
 }
 
-const getCardConfig = async (type: string | undefined) => {
-  if (!type) return
-  const files = import.meta.glob('/src/components/cards/**/*.bookshop.yml')
-  const path = `/src/components/cards/${type}.bookshop.yml`
-  const file: any = await files[path]()
-  if (!file) return
-  return file.default.config
-}
-
-const { items } = Astro.props
+const { cards } = Astro.props
 ---
 
 {
-  items?.map(async (item) => {
-    const card = await getCard(item)
-    const type = await getCardType(item)
-    const config = await getCardConfig(type)
-    if (!card) return
+  cards?.map(async (card) => {
+    const cardProps = await getCardProps(card)
+    const bookshopName = await getBookshopName(card)
+    const bookshopConfig = getBookshopConfig(bookshopName)
+    if (!cardProps) return
     return (
       <RenderCard
-        {...card}
-        {...config}
+        {...cardProps}
+        {...bookshopConfig}
       />
     )
   })

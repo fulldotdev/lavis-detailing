@@ -15,11 +15,11 @@ interface Props {
   card?: CardProps
   image?: ImageProps
   segment?: SegmentProps
-  rating?: any
-  writeup?: string
-  title?: string
-  tagline?: string
-  description?: string
+  rating?: number | null
+  writeup?: string | null
+  title?: string | null
+  tagline?: string | null
+  description?: string | null
   group?: GroupProps
   buttons?: ButtonProps[]
 }
@@ -40,14 +40,14 @@ const {
 ---
 
 <Card
-  href={href}
+  {href}
   {...card}
 >
   <Image {...image} />
   <Segment {...segment}>
-    <Rating {...rating} />
+    <Rating {rating} />
     <Writeup
-      html={writeup}
+      {writeup}
       {tagline}
       {title}
       {description}

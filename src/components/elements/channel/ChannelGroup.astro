@@ -4,7 +4,7 @@ import company from '@data/company.yml'
 import Channel from './Channel.astro'
 
 type Props = GroupProps & {
-  channels?: boolean
+  channels?: boolean | null
 }
 
 const { channels, ...restProps } = Astro.props

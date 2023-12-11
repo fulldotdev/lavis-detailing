@@ -4,7 +4,7 @@ import Writeup from '@components/elements/writeup/Writeup.astro'
 import Prose from '@components/wrappers/Prose.astro'
 import Section from '@components/wrappers/Section.astro'
 import Segment from '@components/wrappers/Segment.astro'
-import ActionsLayout from '@layouts/ActionsLayout.astro'
+import ActionLayout from '@layouts/ActionLayout.astro'
 import type { CollectionEntry } from 'astro:content'
 
 interface Props {
@@ -15,7 +15,7 @@ const { data, render } = Astro.props.entry
 const { Content } = await render()
 ---
 
-<ActionsLayout seo={data.seo}>
+<ActionLayout seo={data.seo}>
   <Section
     size="large"
     frame="float"
@@ -37,4 +37,4 @@ const { Content } = await render()
       <Content />
     </Prose>
   </Section>
-</ActionsLayout>
+</ActionLayout>

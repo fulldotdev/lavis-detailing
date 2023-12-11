@@ -1,4 +1,6 @@
 export { default as getAllEntries } from './getAllEntries'
+export { default as getBookshopConfig } from './getBookshopConfig'
+export { default as getEntryByPath } from './getEntryByPath'
 export { default as getRouteByEntry } from './getRouteByEntry'
 export { default as readFrontmatter } from './readFrontmatter'
 export { default as readYaml } from './readYaml'
