@@ -428,6 +428,9 @@ _inputs:
       max: 5
       step: 0.1
 
+  specs:
+    type: array
+
 
 _editables:
   content:
