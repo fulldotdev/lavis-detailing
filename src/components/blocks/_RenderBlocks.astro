@@ -13,8 +13,6 @@ const blockComponents = await Promise.all(
   )
 )
 
-console.log('blockComponents', blockComponents)
-
 const { blocks } = Astro.props
 ---
 
@@ -22,15 +20,13 @@ const { blocks } = Astro.props
   {
     blocks?.map((block: any) => {
       const bookshopId = block._bookshop_name.replace('blocks/', '')
-      console.log('bookshopid', bookshopId)
       const found = blockComponents.find(
         (component) => component.id === bookshopId
       )
       if (!found) {
-        console.log('not found', bookshopId)
+        console.warn('not found', bookshopId)
         return null
       }
-      console.log(found)
       return (
         <RenderBlock
           {...found?.data.config}

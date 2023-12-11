@@ -86,7 +86,6 @@ const { items } = Astro.props
   items?.map(async (item) => {
     const card = await getCard(item)
     const type = await getCardType(item)
-    console.log(type)
     if (!card) return
     return <RenderCard {...card} />
   })

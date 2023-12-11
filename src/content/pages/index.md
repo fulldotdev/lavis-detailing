@@ -33,33 +33,27 @@ content_blocks:
         visual:
           - _bookshop_name: elements/icon
             name: category
-        writeup:
-          _bookshop_name: elements/writeup
-          html: >-
-            <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ullam, soluta.</p>
+        writeup: | 
+          <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ullam, soluta.</p>
         buttons:
       - _bookshop_name: cards/features
         visual:
           - _bookshop_name: elements/icon
             name: category
-        writeup:
-          _bookshop_name: elements/writeup
-          html: >-
-            <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ullam, soluta.</p>
+        writeup: | 
+          <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ullam, soluta.</p>
         buttons:
       - _bookshop_name: cards/features
         visual:
           - _bookshop_name: elements/icon
             name: category
-        writeup:
-          _bookshop_name: elements/writeup
-          html: >-
-            <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ullam, soluta.</p>
+        writeup: | 
+          <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ullam, soluta.</p>
         buttons:
-  - _bookshop_name: blocks/highlight
+  - _bookshop_name: blocks/spotlight
     writeup:
       _bookshop_name: elements/writeup
       html: >-

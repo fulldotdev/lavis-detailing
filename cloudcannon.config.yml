@@ -175,14 +175,14 @@ collections_config:
         path: src/components/blocks/content.bookshop.yml
       cta:
         path: src/components/blocks/cta.bookshop.yml
-      custom:
-        path: src/components/blocks/custom.bookshop.yml
+      highlights:
+        path: src/components/blocks/highlights.bookshop.yml
       features:
         path: src/components/blocks/features.bookshop.yml
       hero:
         path: src/components/blocks/hero.bookshop.yml
-      highlight:
-        path: src/components/blocks/highlight.bookshop.yml
+      spotlight:
+        path: src/components/blocks/spotlight.bookshop.yml
       intro:
         path: src/components/blocks/intro.bookshop.yml
       offers:
@@ -419,8 +419,11 @@ _inputs:
   channel: *singular
   social: *singular
   rating: *singular
-  writeup: *singular
-  prose: *singular  
   visual: *singular
   asset: *singular
-  
+
+
+  writeup:
+    type: html
+  prose:
+    type: html

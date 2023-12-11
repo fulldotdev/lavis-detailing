@@ -1,16 +1,18 @@
 spec:
   structures:
-    - feature
-    - features
-  label: Feature
+    - highlight
+    - highlights
+  label: Highlight
 
 blueprint:
-  icon:
+  image:
   writeup:
   buttons:
 
 preview:
-  icon: circle
+  image:
+    src: https://picsum.photos/seed/picsum/1600/900
+    alt: Lorem ipsum dolor sit
   writeup: |
     <h1>Lorem ipsum</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, soluta.</p>
@@ -20,12 +22,12 @@ preview:
 
 config:
   card:
-    frame: fill
-    look:
+    frame: panel
+    look: surface
     hue:
     scheme:
   icon:
     hue:
     ratio:
-    importance: tertiary
+    importance: secondary
     layout:

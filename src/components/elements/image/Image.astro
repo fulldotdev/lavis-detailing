@@ -52,7 +52,7 @@ function getSrc() {
   const images = import.meta.glob('/src/assets/**/*.{jpeg,jpg,png,webp,gif}')
   const path = ('/src/assets/' + src).replace('//', '/')
   const image = images[path]
-  if (!image) console.log(`Image not found: ${path}`)
+  if (!image) console.warn(`Image not found: ${path}`)
   else return image()
 }
 
