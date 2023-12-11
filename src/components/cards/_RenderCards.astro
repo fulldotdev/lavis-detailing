@@ -79,6 +79,15 @@ const getCardType = async (item: Item): Promise<string | undefined> => {
   }
 }
 
+const getCardConfig = async (type: string | undefined) => {
+  if (!type) return
+  const files = import.meta.glob('/src/components/cards/**/*.bookshop.yml')
+  const path = `/src/components/cards/${type}.bookshop.yml`
+  const file: any = await files[path]()
+  if (!file) return
+  return file.default.config
+}
+
 const { items } = Astro.props
 ---
 
@@ -86,7 +95,13 @@ const { items } = Astro.props
   items?.map(async (item) => {
     const card = await getCard(item)
     const type = await getCardType(item)
+    const config = await getCardConfig(type)
     if (!card) return
-    return <RenderCard {...card} />
+    return (
+      <RenderCard
+        {...card}
+        {...config}
+      />
+    )
   })
 }

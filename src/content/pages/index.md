@@ -51,7 +51,7 @@ content_blocks:
           <h5>Lorem ipsum dolor</h5><p>Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Ullam, soluta.</p>
         buttons:
-  - _bookshop_name: blocks/highlight
+  - _bookshop_name: blocks/spotlight
     writeup: |
       <h1>Lorem ipsum dolor sit</h1><p>Lorem ipsum dolor sit amet consectetur
       adipisicing elit. Suscipit, numquam!</p>

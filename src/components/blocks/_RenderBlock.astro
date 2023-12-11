@@ -24,6 +24,8 @@ interface Props {
   image?: ImageProps | null
   deck?: DeckProps
   features?: CardsBuilderItem[]
+  highlights?: CardsBuilderItem[]
+  offers?: CardsBuilderItem[]
 }
 
 const {
@@ -37,7 +39,11 @@ const {
   socials,
   deck,
   features,
+  highlights,
+  offers,
 } = Astro.props
+
+const items = [features, highlights, offers].flat().filter(Boolean)
 ---
 
 <Section {...section}>
@@ -52,6 +58,6 @@ const {
   </Segment>
   <Image {...image} />
   <Deck {...deck}>
-    <CardsBuilder items={features} />
+    <CardsBuilder items={items} />
   </Deck>
 </Section>
