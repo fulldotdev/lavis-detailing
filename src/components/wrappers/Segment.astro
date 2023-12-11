@@ -31,10 +31,11 @@ const variant = cva({
 })
 
 const slot = await Astro.slots.render('default')
+console.log('segment slot', slot.length)
 ---
 
 {
-  slot?.length > 4 && (
+  slot?.trim().length > 0 && (
     <div class={variant(Astro.props)}>
       <slot />
     </div>

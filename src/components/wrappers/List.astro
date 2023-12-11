@@ -30,7 +30,7 @@ const slot = await Astro.slots.render('default')
 ---
 
 {
-  slot?.length > 4 && (
+  slot?.trim().length > 0 && (
     <ul
       data-component="list"
       class={variant(Astro.props)}

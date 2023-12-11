@@ -12,7 +12,7 @@ const slot = await Astro.slots.render('default')
 ---
 
 {
-  slot?.length > 4 && (
+  slot?.trim().length > 0 && (
     <form action={action}>
       <slot />
       <input

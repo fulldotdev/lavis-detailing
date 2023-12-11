@@ -1,6 +1,6 @@
 paths:
   data: src/data
-  static: public
+  static: src/assets/uploads
   uploads: src/assets/uploads
 
 # -----------------------------------------------
