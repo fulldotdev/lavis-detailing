@@ -1,9 +1,9 @@
 <script>
-  import { cartIsOpen, totalItems, totalPrice } from '@stores/cartStore'
-
-  function click() {
-    $cartIsOpen = !$cartIsOpen
-  }
+  import {
+    cartIsOpen,
+    // totalItems,
+    // totalPrice
+  } from '@stores/nanoStore'
 
   // let cartAmount = 0
 
@@ -30,14 +30,14 @@
 
 <button
   class="button look-soft relative"
-  on:click={click}
+  on:click={() => cartIsOpen.set(!$cartIsOpen)}
 >
-  {#if $totalItems}
+  <!-- {#if $totalItems}
     <p
       class="text-size1 hue-brand bg-hue3 absolute right-3/4 top-4 z-10 rounded-full bg-opacity-50 p-1"
     >
       {$totalItems > 9 ? '9+' : $totalItems}
     </p>
-  {/if}
+  {/if} -->
   <i class="icon:shopping-cart text-size2 h-1.4em w-1.4em z-0 block"></i>
 </button>

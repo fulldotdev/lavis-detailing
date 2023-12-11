@@ -3,6 +3,13 @@
 # -----------------------------------------------
 announcement:
 header:
+  links:
+    - label: Lorem ipsum
+      href: /lorem-ipsum
+    - label: Lorem ipsum
+      href: /lorem-ipsum
+    - label: Lorem ipsum
+      href: /lorem-ipsum
 cta:
 footer:
 
