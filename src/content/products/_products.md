@@ -18,15 +18,21 @@ categories:
   - 
 price: 
 
-options:
-  label:
-  options:
-    -
-  price:
+choices:
 
 _inputs:
   description:
     type: html
   price:
     type: number
+
+_structures:
+  choices:
+    values:
+      - label: Choice
+        value:
+          label: 
+          options:
+            - name:
+              price:
 ---
