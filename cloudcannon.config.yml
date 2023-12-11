@@ -44,7 +44,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: src/content/pages/pages.schema.md
+        path: src/content/pages/_pages.md
 
   services:
     path: src/content/services
@@ -56,7 +56,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: src/content/services/services.schema.md
+        path: src/content/services/_services.md
 
   products:
     path: src/content/products
@@ -69,7 +69,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/products/products.schema.md
+        path: src/content/products/_products.md
 
   categories:
     path: src/content/categories
@@ -81,7 +81,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/categories/categories.schema.md
+        path: src/content/categories/_categories.md
         
   posts:
     path: src/content/posts
@@ -93,7 +93,7 @@ collections_config:
       - content
     schemas: 
       default: 
-        path: src/content/posts/posts.schema.md
+        path: src/content/posts/_posts.md
 
   policies:
     path: src/content/policies
@@ -105,7 +105,7 @@ collections_config:
       - content
     schemas: 
       default: 
-        path: src/content/policies/policies.schema.md
+        path: src/content/policies/_policies.md
 
   reviews:
     path: src/content/reviews
@@ -116,7 +116,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/reviews/reviews.schema.md
+        path: src/content/reviews/_reviews.md
         
   persons:
     path: src/content/persons
@@ -127,7 +127,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/persons/persons.schema.md
+        path: src/content/persons/_persons.md
 
   forms:
     path: src/content/forms
@@ -138,7 +138,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/forms/forms.schema.md
+        path: src/content/forms/_forms.md
 
   data:
     path: src/data
