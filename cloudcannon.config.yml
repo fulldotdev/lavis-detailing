@@ -427,3 +427,8 @@ _inputs:
     type: html
   prose:
     type: html
+
+  blueprint:
+    hidden: true
+  spec: 
+    hidden: true
