@@ -63,7 +63,7 @@ content_blocks:
         writeup: >-
           <p>Lorem ipsum</p><h3>Lorem ipsum dolor sit</h3><p>Lorem ipsum dolor
           sit amet consectetur adipisicing elit.</p>
-        specs: Lorem ipsum dolor sit
+        specs:
         buttons:
           - _bookshop_name: elements/button
             label: Lorem ipsum
