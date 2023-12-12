@@ -16,9 +16,6 @@ preview:
   src:
   alt:
   
-config:
-  class:
-
 _inputs: 
   src:
     type: image
@@ -26,3 +23,5 @@ _inputs:
     correct_orientation: false
   alt:
     label: Description
+
+#

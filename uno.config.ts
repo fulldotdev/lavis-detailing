@@ -7,9 +7,11 @@ import presetColors from './library/unocss/presetColors'
 import presetFonts from './library/unocss/presetFonts'
 import presetSizes from './library/unocss/presetSizes'
 
-let theme: any
+let theme: any = {}
 try {
-  theme = yaml.load(fs.readFileSync('./library/data/theme.yml', 'utf8'))
+  theme = yaml.load(
+    fs.readFileSync('./library/content/settings/theme.yml', 'utf8')
+  )
 } catch (e) {
   console.error(e)
 }
@@ -26,9 +28,9 @@ export default defineConfig({
           ),
       },
     }),
-    presetColors(theme?.colors || {}),
-    presetSizes(theme?.sizes || {}),
-    presetFonts(theme?.fonts || {}),
+    presetColors(theme?.colors),
+    presetSizes(theme?.sizes),
+    presetFonts(theme?.fonts),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
 })

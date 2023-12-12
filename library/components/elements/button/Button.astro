@@ -1,8 +1,8 @@
 ---
+import getElementConfig from '@utils/getElementConfig'
 import { hue, scheme, size } from '@variants'
 import type { HTMLAttributes } from 'astro/types'
 import { cva } from 'cva'
-import bookshop from './button.bookshop.yml'
 
 export type ButtonProps = Props
 interface Props {
@@ -30,10 +30,11 @@ export const variant = cva({
 })
 
 const { label, href, importance } = Astro.props
+const config = await getElementConfig('button')
 ---
 
 <a
-  class:list={[variant(bookshop.config[importance || 'primary'])]}
+  class:list={[variant(config?.[importance || 'primary'])]}
   href={href}
 >
   {label}

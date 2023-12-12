@@ -3,8 +3,8 @@
 // import Stripe from 'stripe'
 // import { fileURLToPath } from 'url'
 // import { loadEnv } from 'vite'
-// import getProducts from '../'
-// import { readFrontmatter, writeFrontmatter } from '../utils'
+// import { readFrontmatter, writeFrontmatter } from '../src/utils'
+// import getProducts from './helpers/getProducts'
 
 // const __filename = fileURLToPath(import.meta.url)
 // const __dirname = dirname(__filename)

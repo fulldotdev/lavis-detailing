@@ -20,9 +20,6 @@ preview:
   preselect: false
   required: false
 
-config:
-  class:
-
 _inputs:
   options:
     type: array
