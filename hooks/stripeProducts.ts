@@ -50,10 +50,13 @@ const addId = ({ file, idKey, updateId }: addId) => {
   }
 }
 
+
+
 export default {
   name: 'stripe-sync',
   hooks: {
     'astro:build:start': async () => {
+      const data = stripe.accounts.update('', {})
       try {
         const products = getProducts
 
