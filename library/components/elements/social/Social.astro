@@ -1,13 +1,14 @@
 ---
 import company from '@data/company.yml'
+import getElementConfig from '@utils/getElementConfig'
 import { variant } from '../button/Button.astro'
-import bookshop from './social.bookshop.yml'
 
 interface Props {
   key: keyof typeof map
 }
 
 const { key } = Astro.props
+const config = await getElementConfig('social')
 
 const map = {
   facebook: {
@@ -48,7 +49,7 @@ const map = {
 {
   company.socials[key] && (
     <a
-      class={variant(bookshop.config)}
+      class={variant(config)}
       href={map[key].href}
       target="_blank"
     >

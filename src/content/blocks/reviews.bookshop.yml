@@ -1,0 +1,31 @@
+_schema: reviews
+
+spec:
+  structures:
+    - content_blocks
+  label: Reviews
+
+blueprint:
+  writeup:
+  reviews:
+
+preview:
+  writeup: |
+    <h2>Lorem ipsum dolor sit</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
+  reviews:
+    - path/to/entry
+
+config:
+  section:
+    align: start
+    size:
+  segment:
+    layout: row
+    align: center
+  group:
+    importance: tertiary
+    layout: row
+  deck:
+    layout: carousel
+    size:

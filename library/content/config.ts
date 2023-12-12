@@ -5,10 +5,10 @@ const content = defineCollection({
   schema: z.any(),
 })
 
-// const data = defineCollection({
-//   type: 'data',
-//   schema: z.any(),
-// })
+const data = defineCollection({
+  type: 'data',
+  schema: z.any(),
+})
 
 export const collections = {
   categories: content,
@@ -18,4 +18,7 @@ export const collections = {
   products: content,
   reviews: content,
   services: content,
+  globals: data,
+  settings: data,
+  blocks: data,
 }

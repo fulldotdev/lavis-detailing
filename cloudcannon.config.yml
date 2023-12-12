@@ -1,6 +1,6 @@
 paths:
   data: src/data
-  static: public
+  static: src/assets/uploads
   uploads: src/assets/uploads
 
 # -----------------------------------------------
@@ -19,13 +19,11 @@ collection_groups:
   - heading: Shared
     collections:
       - reviews
-      - persons
       - forms
-      - data
+      - globals
   - heading: Config
     collections:
-      - elements
-      - cards
+      - settings
       - blocks
 
 # -----------------------------------------------
@@ -45,6 +43,9 @@ collections_config:
     schemas: 
       default: 
         path: library/content/pages/_pages.md
+    filter:
+      exclude:
+        - _pages.md
 
   services:
     path: src/content/services
@@ -57,6 +58,9 @@ collections_config:
     schemas: 
       default: 
         path: library/content/services/_services.md
+    filter:
+      exclude:
+        - _services.md
 
   products:
     path: src/content/products
@@ -65,10 +69,14 @@ collections_config:
     icon: shopping_cart
     disable_add_folder: true
     _enabled_editors:
+      - content
       - data
     schemas: 
       default: 
         path: library/content/products/_products.md
+    filter:
+      exclude:
+        - _products.md
 
   categories:
     path: src/content/categories
@@ -80,7 +88,10 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: library/content/categories/_categories.md  
+        path: library/content/categories/_categories.md
+    filter:
+      exclude:
+        - _categories.md
 
   posts:
     path: src/content/posts
@@ -93,6 +104,9 @@ collections_config:
     schemas: 
       default: 
         path: library/content/posts/_posts.md
+    filter:
+      exclude:
+        - _posts.md
 
   policies:
     path: src/content/policies
@@ -105,6 +119,9 @@ collections_config:
     schemas: 
       default: 
         path: library/content/policies/_policies.md
+    filter:
+      exclude:
+        - _policies.md
 
   reviews:
     path: src/content/reviews
@@ -116,17 +133,9 @@ collections_config:
     schemas: 
       default: 
         path: library/content/reviews/_reviews.md
-        
-  persons:
-    path: src/content/employees
-    output: false
-    icon: diversity_3
-    disable_add_folder: true
-    _enabled_editors:
-      - data
-    schemas: 
-      default: 
-        path: library/content/employees/_employees.md
+    filter:
+      exclude:
+        - _reviews.md   
 
   forms:
     path: src/content/forms
@@ -138,7 +147,107 @@ collections_config:
     schemas: 
       default: 
         path: library/content/forms/_forms.md
-        
+    filter:
+      exclude:
+        - _forms.md
+
+  globals:
+    path: src/content/globals
+    output: false
+    disable_file_actions: true
+    disable_add_folder: true
+    disable_add: true
+    schemas:
+      company: 
+        path: library/content/globals/_company.yml
+      header: 
+        path: library/content/globals/_header.yml
+      cta: 
+        path: library/content/globals/_cta.yml
+      footer: 
+        path: library/content/globals/_footer.yml
+    filter:
+      exclude:
+        - _company.yml
+        - _header.yml
+        - _cta.yml
+        - _footer.yml
+
+  settings:
+    path: src/content/settings
+    output: false
+    disable_file_actions: true
+    disable_add_folder: true
+    disable_add: true
+    schemas:
+      theme: 
+        path: library/content/settings/_theme.yml
+      elements: 
+        path: library/content/settings/_elements.yml
+      cards: 
+        path: library/content/settings/_cards.yml
+    filter:
+      exclude:
+        - _theme.yml
+        - _elements.yml
+        - _cards.yml
+
+  blocks:
+    path: src/content/blocks
+    url: /blocks/[full_slug]/
+    output: true
+    disable_add_folder: true
+    _enabled_editors:
+      - visual
+    schemas:
+      categories:
+        path: library/content/blocks/_categories.yml
+      contact:
+        path: library/content/blocks/_contact.yml
+      content:
+        path: library/content/blocks/_content.yml
+      cta:
+        path: library/content/blocks/_cta.yml
+      features:
+        path: library/content/blocks/_features.yml
+      hero:
+        path: library/content/blocks/_hero.yml
+      highlights:
+        path: library/content/blocks/_highlights.yml
+      intro:
+        path: library/content/blocks/_intro.yml
+      offers:
+        path: library/content/blocks/_offers.yml
+      persons:
+        path: library/content/blocks/_persons.yml
+      posts:
+        path: library/content/blocks/_posts.yml
+      products:
+        path: library/content/blocks/_products.yml
+      reviews:
+        path: library/content/blocks/_reviews.yml  
+      services:
+        path: library/content/blocks/_services.yml  
+      spotlight:
+        path: library/content/blocks/_spotlight.yml
+    filter:
+      exclude:
+        - _categories.yml
+        - _contact.yml
+        - _content.yml
+        - _cta.yml
+        - _features.yml
+        - _hero.yml
+        - _highlights.yml
+        - _intro.yml
+        - _offers.yml
+        - _persons.yml
+        - _posts.yml
+        - _products.yml
+        - _reviews.yml
+        - _services.yml
+        - _spotlight.yml
+
 # -----------------------------------------------
 # Input customization
 # -----------------------------------------------
@@ -168,14 +277,6 @@ _inputs:
     label: Canonical URL
     comment: The preferred URL for this page, meaning the url search engines will index, instead of the current one
 
-  image.src:
-    type: image
-    label: Upload
-    correct_orientation: false
-
-  image.alt:
-    label: Description
-
   src:
     type: image
     label: Upload
@@ -188,16 +289,159 @@ _inputs:
     type: url
     label: Link
 
+# -----------------------------------------------
+# Design inputs
+# -----------------------------------------------
+
+  hue:
+    type: choice
+    options:
+      values:
+        - base
+        - brand
+        - accent
+  scheme:
+    type: choice
+    options:
+      values:
+        - light
+        - dark
+  size:
+    type: choice
+    options:
+      values:
+        - small
+        - medium
+        - large
+  layout:
+    type: choice
+    options:
+      values:
+        - col
+        - row
+  order:
+    type: choice
+    options:
+      values:
+        - switch
+        - reverse
+  image.position:
+    type: choice
+    options:
+      values:
+        - relative
+        - background
+        - cover
+  image.orientation:
+    type: choice
+    options:
+      values:
+        - square
+        - landscape
+        - portrait
+  class:
+    type: textarea
+
+# -----------------------------------------------
+# Blocks collection inputs
+# -----------------------------------------------
+
+  align:
+    type: choice
+    options:
+      values:
+        - start
+        - center
+        - end
+  frame:
+    type: choice
+    options:
+      values:
+        - fill
+        - float
+        - panel
+        - screen
+  look:
+    type: choice
+    options:
+      values:
+        - ghost
+        - outline
+        - soft
+        - surface
+        - solid
+  image.ratio:
+    type: choice
+    options:
+      values:
+        - landscape
+        - square
+        - portrait
+  deck.layout:
+    type: choice
+    options:
+      values:
+        - carousel
+        - grid
+        - masonry
+        - row
+  group.importance:
+    type: choice
+    options:
+      values:
+        - primary
+        - secondary
+        - tertiary
+
+# -----------------------------------------------
+# elements to singular
+# -----------------------------------------------
+  button: &singular
+    type: object
+  link: *singular
+  image: *singular
+  icon: *singular
+  input: *singular
+  select: *singular
+  textarea: *singular
+  channel: *singular
+  social: *singular
+  visual: *singular
+  asset: *singular
+  person: *singular
+
+
   writeup:
     type: html
-
   prose:
     type: html
 
-_structures:
-  test:
-    values:
-      - title:
-        description:
-      - test2: 
-        test3:
+  blueprint:
+    hidden: true
+  spec: 
+    hidden: true
+
+  rating:
+    type: range
+    options:
+      min: 0
+      max: 5
+      step: 0.1
+
+  specs:
+    type: array
+
+
+_editables:
+  content:
+    bold: true
+    format: p h1 h2 h3 h4 h5 h6
+    italic: true
+    underline: true
+    link: true
+    bulletedlist: true
+    numberedlist: true
+    image: true
+    table: true
+    undo: true
+    redo: true

@@ -1,4 +1,4 @@
-<!-- <script lang="ts">
+<script lang="ts">
   import CartList from './CartList.svelte'
   import CartCheckoutButton from './CartCheckoutButton.svelte'
   import { cartIsOpen } from '@stores/nanoStore'
@@ -6,11 +6,13 @@
 </script>
 
 {#if $cartIsOpen}
+  <!-- Shadow -->
   <button
     class="fixed absolute inset-0 z-20 h-full w-full bg-black/50"
     on:click={() => cartIsOpen.set(!$cartIsOpen)}
   />
 
+  <!-- Cart -->
   <aside
     class="z-100 mode-compact size-medium bg-hue2 border-hue6 fixed bottom-0 right-0 top-0 flex h-full h-full max-h-screen w-full max-w-lg flex-col border-l"
   >
@@ -28,4 +30,4 @@
     <CartList />
     <CartSummary />
   </aside>
-{/if} -->
+{/if}
