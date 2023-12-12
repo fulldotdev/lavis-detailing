@@ -43,6 +43,9 @@ collections_config:
     schemas: 
       default: 
         path: src/content/pages/_pages.md
+    filter:
+      exclude:
+        - _pages.md
 
   services:
     path: src/content/services
@@ -55,6 +58,9 @@ collections_config:
     schemas: 
       default: 
         path: src/content/services/_services.md
+    filter:
+      exclude:
+        - _services.md
 
   products:
     path: src/content/products
@@ -68,6 +74,9 @@ collections_config:
     schemas: 
       default: 
         path: src/content/products/_products.md
+    filter:
+      exclude:
+        - _products.md
 
   categories:
     path: src/content/categories
@@ -80,7 +89,10 @@ collections_config:
     schemas: 
       default: 
         path: src/content/categories/_categories.md
-        
+    filter:
+      exclude:
+        - _categories.md
+
   posts:
     path: src/content/posts
     url: /posts/[full_slug]/
@@ -92,6 +104,9 @@ collections_config:
     schemas: 
       default: 
         path: src/content/posts/_posts.md
+    filter:
+      exclude:
+        - _posts.md
 
   policies:
     path: src/content/policies
@@ -104,6 +119,9 @@ collections_config:
     schemas: 
       default: 
         path: src/content/policies/_policies.md
+    filter:
+      exclude:
+        - _policies.md
 
   reviews:
     path: src/content/reviews
@@ -115,7 +133,10 @@ collections_config:
     schemas: 
       default: 
         path: src/content/reviews/_reviews.md
-        
+    filter:
+      exclude:
+        - _reviews.md   
+
   forms:
     path: src/content/forms
     output: false
@@ -126,6 +147,9 @@ collections_config:
     schemas: 
       default: 
         path: src/content/forms/_forms.md
+    filter:
+      exclude:
+        - _forms.md
 
   globals:
     path: src/content/globals
