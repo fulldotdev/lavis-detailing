@@ -5,6 +5,7 @@ import yaml from '@rollup/plugin-yaml'
 import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
 import UnoCSS from 'unocss/astro'
+import stripeProducts from './library/hooks/stripeProducts'
 
 export default defineConfig({
   output: 'static',
@@ -30,6 +31,8 @@ export default defineConfig({
     //   background: '#fff',
     //   theme_color: '#fff',
     // }),
+    stripeProducts,
+
   ],
   vite: {
     plugins: [yaml()],
