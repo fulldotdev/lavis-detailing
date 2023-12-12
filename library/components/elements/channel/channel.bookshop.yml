@@ -1,0 +1,26 @@
+spec:
+  structures:
+    - channels
+    - channel
+  label: Channel
+
+blueprint:
+  key:
+
+preview:
+  key: email
+  
+config:
+  look: solid
+  hue: brand
+  class:
+
+_inputs:  
+  key:
+    type: choice
+    options:
+      values:
+        - email
+        - phone
+        - whatsapp
+        - address

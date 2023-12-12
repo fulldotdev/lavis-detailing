@@ -1,0 +1,18 @@
+---
+import company from '@data/company.yml'
+---
+
+{
+  company.channels.whatsapp && (
+    <div class:list={['sticky bottom-0 z-50 flex h-0 w-full justify-end']}>
+      <a
+        target="_blank"
+        title="Whatsapp"
+        href={'https://wa.me/' + company.channels.whatsap}
+        class="button !p-size2 bottom-size3 right-size3 look-solid hue-accent absolute z-50 ml-auto"
+      >
+        <i class="icon:brand-whatsapp text-1.8em text-white" />
+      </a>
+    </div>
+  )
+}

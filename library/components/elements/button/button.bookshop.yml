@@ -1,0 +1,27 @@
+spec:
+  structures:
+    - buttons
+    - button
+  label: Button
+
+blueprint:
+  label:
+  href:
+
+preview:
+  label: Lorem ipsum
+  href: '#'
+  
+config:
+  primary:
+    look: solid
+    hue: brand
+    class:
+  secondary:
+    look: surface
+    hue: brand
+    class:
+  tertiary:
+    look: ghost
+    hue: brand
+    class:

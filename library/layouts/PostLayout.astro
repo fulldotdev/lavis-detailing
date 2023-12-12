@@ -1,0 +1,40 @@
+---
+import Image from '@components/elements/image/Image.astro'
+import Writeup from '@components/elements/writeup/Writeup.astro'
+import Prose from '@components/wrappers/Prose.astro'
+import Section from '@components/wrappers/Section.astro'
+import Segment from '@components/wrappers/Segment.astro'
+import ActionLayout from '@layouts/ActionLayout.astro'
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  entry: CollectionEntry<'posts'>
+}
+
+const { data, render } = Astro.props.entry
+const { Content } = await render()
+---
+
+<ActionLayout seo={data.seo}>
+  <Section
+    size="large"
+    frame="float"
+    class:list="!max-w-5xl lg:mx-auto !pt-size5"
+  >
+    <Segment>
+      <Writeup>
+        <h1 class="heading-primary">{data.title}</h1>
+        <p class="text-primary">{data.description}</p>
+      </Writeup>
+    </Segment>
+    <Image {...data.image} />
+  </Section>
+  <Section
+    frame="float"
+    class:list="!max-w-4xl lg:mx-auto !pt-size5 w-full"
+  >
+    <Prose>
+      <Content />
+    </Prose>
+  </Section>
+</ActionLayout>

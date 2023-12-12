@@ -1,0 +1,9 @@
+config:
+  card:
+    frame: panel
+    look: surface
+    hue:
+    scheme:
+  image:
+    position:
+    ratio:

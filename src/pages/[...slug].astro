@@ -1,0 +1,61 @@
+---
+import CategoryLayout from '@layouts/CategoryLayout.astro'
+import PageLayout from '@layouts/PageLayout.astro'
+import PolicyLayout from '@layouts/PolicyLayout.astro'
+import PostLayout from '@layouts/PostLayout.astro'
+import ProductLayout from '@layouts/ProductLayout.astro'
+import ServiceLayout from '@layouts/ServiceLayout.astro'
+import type { CollectionEntry, ContentCollectionKey } from 'astro:content'
+import { getCollection } from 'astro:content'
+
+type Entries = CollectionEntry<ContentCollectionKey>[]
+
+export async function getStaticPaths() {
+  const paths: {
+    [key in ContentCollectionKey]?: string
+  } = {
+    pages: '',
+    posts: 'posts/',
+    services: 'diensten/',
+    policies: 'beleid/',
+    products: 'producten/',
+    categories: 'categorieen/',
+  }
+
+  const keys = Object.keys(paths) as ContentCollectionKey[]
+  const promises = keys.map((collection) => getCollection(collection))
+  const results = await Promise.all(promises)
+  const flattened = results.flat()
+  const filtered = flattened.filter((result) => result && result.slug)
+  const entries = filtered as Entries
+
+  return entries.map((entry) => {
+    const slug = paths[entry.collection] + entry.slug
+    return {
+      params: {
+        slug: slug === 'index' ? undefined : slug,
+      },
+      props: {
+        entry: entry,
+      },
+    }
+  })
+}
+
+const { entry } = Astro.props
+
+const layouts: {
+  [key in ContentCollectionKey]?: any
+} = {
+  pages: PageLayout,
+  posts: PostLayout,
+  services: ServiceLayout,
+  policies: PolicyLayout,
+  products: ProductLayout,
+  categories: CategoryLayout,
+}
+
+const CollectionLayout = layouts[entry.collection]
+---
+
+<CollectionLayout {entry} />

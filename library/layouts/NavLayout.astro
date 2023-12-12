@@ -1,0 +1,19 @@
+---
+import Legal from '@components/globals/Legal.astro'
+import CartSidebar from '@components/globals/cart/Cart.svelte'
+import Footer from '@components/globals/footer/Footer.astro'
+import Header from '@components/globals/header/Header.astro'
+import Layout from './Layout.astro'
+
+const { seo } = Astro.props
+---
+
+<Layout {seo}>
+  <Header />
+  <CartSidebar client:load />
+  <main>
+    <slot />
+  </main>
+  <Footer />
+  <Legal />
+</Layout>

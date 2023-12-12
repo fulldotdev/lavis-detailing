@@ -1,0 +1,44 @@
+spec:
+  structures:
+    - content_blocks
+  label: Contact
+
+blueprint:
+  writeup:
+  channels:
+  socials: 
+  form:
+
+preview:
+  writeup: |
+    <h1>Lorem ipsum dolor sit</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
+  channels:
+    - email
+    - phone
+    - whatsapp
+    - address
+  socials:
+    - facebook
+    - instagram
+    - twitter
+    - youtube
+  form:
+
+config:
+  section:
+    layout: col
+    align:
+    frame: fill
+    look:
+    order:
+    size: large
+    hue:
+    scheme:
+  segment:
+    layout: col
+    align:
+  group:
+    layout: col
+
+_inputs:

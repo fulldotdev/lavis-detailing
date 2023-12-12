@@ -1,0 +1,37 @@
+---
+import BlockBuilder from '@components/blocks/_RenderBlock.astro'
+import Layout from '@layouts/Layout.astro'
+
+export async function getStaticPaths() {
+  const files = import.meta.glob('/src/components/blocks/**/*.bookshop.yml')
+  const blocks = await Promise.all(
+    Object.keys(files).map((path) =>
+      files[path]().then((file: any) => ({
+        id: path.replace('/src/components/blocks/', '').replace('.yml', ''),
+        data: file.default,
+      }))
+    )
+  )
+
+  return blocks.map((block: any) => {
+    if (!block?.data || !block?.id) return
+    return {
+      params: {
+        block: block.id,
+      },
+      props: {
+        frontmatter: block.data,
+      },
+    }
+  })
+}
+
+const { frontmatter } = Astro.props
+---
+
+<Layout>
+  <BlockBuilder
+    {...frontmatter.config}
+    {...frontmatter.preview}
+  />
+</Layout>

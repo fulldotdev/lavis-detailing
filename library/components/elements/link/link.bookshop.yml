@@ -1,0 +1,16 @@
+spec:
+  structures:
+    - links
+    - link
+  label: Link
+
+blueprint:
+  label:
+  href:
+
+preview:
+  label: Lorem ipsum
+  href: '#'
+  
+config:
+  class:

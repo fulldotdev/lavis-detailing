@@ -1,0 +1,27 @@
+spec:
+  structures:
+    - person
+    - persons
+  label: Person
+
+blueprint:
+  name:
+  tagline:
+  image:
+
+preview:
+  name: John Doe
+  tagline: Lorem ipsum
+  image:
+    src: https://picsum.photos/seed/picsum/900/900
+    alt: Lorem ipsum dolor sit
+
+config:
+  card:
+    frame: panel
+    look: surface
+    hue:
+    scheme:
+  image:
+    position:
+    ratio:

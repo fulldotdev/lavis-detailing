@@ -1,0 +1,11 @@
+spec:
+  structures:
+  label: Rating
+
+preview: 5
+
+config:
+  hue: brand
+  class:
+
+_inputs:
