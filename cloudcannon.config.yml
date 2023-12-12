@@ -20,11 +20,10 @@ collection_groups:
     collections:
       - reviews
       - forms
-      - data
+      - globals
   - heading: Config
     collections:
-      - elements
-      - cards
+      - settings
       - blocks
 
 # -----------------------------------------------
@@ -128,125 +127,74 @@ collections_config:
       default: 
         path: src/content/forms/_forms.md
 
-  data:
-    path: src/data
+  globals:
+    path: src/content/globals
     output: false
-    icon: 
-    _enabled_editors:
-      - data
+    disable_file_actions: true
+    disable_add_folder: true
+    disable_add: true
+    schemas:
+      company: 
+        path: src/content/globals/_company.yml
+      header: 
+        path: src/content/globals/_header.yml
+      cta: 
+        path: src/content/globals/_cta.yml
+      footer: 
+        path: src/content/globals/_footer.yml
+
+  settings:
+    path: src/content/settings
+    output: false
     disable_file_actions: true
     disable_add_folder: true
     disable_add: true
     schemas:
       theme: 
-        path: src/data/theme.yml
-      layout: 
-        path: src/data/layout.yml
-      company: 
-        path: src/data/company.yml
+        path: src/content/settings/_theme.yml
+      elements: 
+        path: src/content/settings/_elements.yml
+      cards: 
+        path: src/content/settings/_cards.yml
 
   blocks:
-    path: src/components/blocks
+    path: src/content/blocks
     url: /blocks/[full_slug]/
     output: true
-    disable_file_actions: true
     disable_add_folder: true
-    disable_add: true
     _enabled_editors:
       - visual
     schemas:
       categories:
-        path: src/components/blocks/categories.bookshop.yml
+        path: src/content/blocks/_categories.yml
       contact:
-        path: src/components/blocks/contact.bookshop.yml
+        path: src/content/blocks/_contact.yml
       content:
-        path: src/components/blocks/content.bookshop.yml
+        path: src/content/blocks/_content.yml
       cta:
-        path: src/components/blocks/cta.bookshop.yml
-      highlights:
-        path: src/components/blocks/highlights.bookshop.yml
+        path: src/content/blocks/_cta.yml
       features:
-        path: src/components/blocks/features.bookshop.yml
+        path: src/content/blocks/_features.yml
       hero:
-        path: src/components/blocks/hero.bookshop.yml
-      spotlight:
-        path: src/components/blocks/spotlight.bookshop.yml
+        path: src/content/blocks/_hero.yml
+      highlights:
+        path: src/content/blocks/_highlights.yml
       intro:
-        path: src/components/blocks/intro.bookshop.yml
+        path: src/content/blocks/_intro.yml
       offers:
-        path: src/components/blocks/offers.bookshop.yml
+        path: src/content/blocks/_offers.yml
       persons:
-        path: src/components/blocks/persons.bookshop.yml
+        path: src/content/blocks/_persons.yml
       posts:
-        path: src/components/blocks/posts.bookshop.yml
+        path: src/content/blocks/_posts.yml
       products:
-        path: src/components/blocks/products.bookshop.yml
+        path: src/content/blocks/_products.yml
       reviews:
-        path: src/components/blocks/reviews.bookshop.yml  
+        path: src/content/blocks/_reviews.yml  
       services:
-        path: src/components/blocks/services.bookshop.yml  
-
-  cards:
-    path: src/components/cards
-    url: /cards/[full_slug]/
-    output: true
-    disable_file_actions: true
-    disable_add_folder: true
-    disable_add: true
-    _enabled_editors:
-      - visual
-    schemas:
-      categories:
-        path: src/components/cards/categories.bookshop.yml
-      features:
-        path: src/components/cards/features.bookshop.yml
-      offers:
-        path: src/components/cards/offers.bookshop.yml
-      persons:
-        path: src/components/cards/persons.bookshop.yml
-      posts:
-        path: src/components/cards/posts.bookshop.yml
-      products:
-        path: src/components/cards/products.bookshop.yml
-      reviews:
-        path: src/components/cards/reviews.bookshop.yml  
-      services:
-        path: src/components/cards/services.bookshop.yml
-
-  elements:
-    path: src/components/elements
-    url: /elements/[full_slug]/
-    output: true
-    disable_file_actions: true
-    disable_add_folder: true
-    disable_add: true
-    _enabled_editors:
-      - visual
-    schemas:
-      button:
-        path: src/components/elements/buttonbutton.bookshop.yml
-      channel:
-        path: src/components/elements/channel/channel.bookshop.yml
-      icon:
-        path: src/components/elements/icon/icon.bookshop.yml
-      image:
-        path: src/components/elements/image/image.bookshop.yml
-      input:
-        path: src/components/elements/input/input.bookshop.yml
-      link:
-        path: src/components/elements/link/link.bookshop.yml
-      prose:
-        path: src/components/elements/prose/prose.bookshop.yml  
-      rating:
-        path: src/components/elements/rating/rating.bookshop.yml  
-      select:
-        path: src/components/elements/select/select.bookshop.yml
-      social:
-        path: src/components/elements/social/social.bookshop.yml
-      textarea:
-        path: src/components/elements/textarea/textarea.bookshop.yml  
-      writeup:
-        path: src/components/elements/writeup/writeup.bookshop.yml
+        path: src/content/blocks/_services.yml  
+      spotlight:
+        path: src/content/blocks/_spotlight.yml
         
 # -----------------------------------------------
 # Input customization

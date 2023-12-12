@@ -11,6 +11,3 @@ blueprint:
 preview:
   label: Lorem ipsum
   href: '#'
-  
-config:
-  class:

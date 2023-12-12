@@ -1,4 +1,5 @@
 export { default as getAllEntries } from './getAllEntries'
+export { default as getBlockConfig } from './getBlockConfig'
 export { default as getBookshopConfig } from './getBookshopConfig'
 export { default as getEntryByPath } from './getEntryByPath'
 export { default as getRouteByEntry } from './getRouteByEntry'

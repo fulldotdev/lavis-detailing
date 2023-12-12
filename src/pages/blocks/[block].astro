@@ -1,20 +1,11 @@
 ---
-import BlockBuilder from '@components/blocks/_RenderBlock.astro'
+import BlockBuilder from '@components/misc/RenderBlock.astro'
 import Layout from '@layouts/Layout.astro'
+import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
-  const files = import.meta.glob('/src/components/blocks/**/*.bookshop.yml')
-  const blocks = await Promise.all(
-    Object.keys(files).map((path) =>
-      files[path]().then((file: any) => ({
-        id: path.replace('/src/components/blocks/', '').replace('.yml', ''),
-        data: file.default,
-      }))
-    )
-  )
-
-  return blocks.map((block: any) => {
-    if (!block?.data || !block?.id) return
+  const blocks = await getCollection('blocks')
+  return blocks.map((block) => {
     return {
       params: {
         block: block.id,

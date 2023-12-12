@@ -1,7 +1,7 @@
 ---
 import company from '@data/company.yml'
+import getElementConfig from '@utils/getElementConfig'
 import { variant } from '../button/Button.astro'
-import bookshop from './channel.bookshop.yml'
 
 export type ChannelProps = Props
 interface Props {
@@ -9,6 +9,7 @@ interface Props {
 }
 
 const { key } = Astro.props
+const config = await getElementConfig('channel')
 
 const map = {
   email: {
@@ -42,7 +43,7 @@ const map = {
   company.channels[key] && (
     <div class="gap-size3 flex items-center">
       <a
-        class={variant(bookshop.config)}
+        class={variant(config)}
         href={map[key].href}
         target="_blank"
       >

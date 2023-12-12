@@ -1,0 +1,20 @@
+_schema: content
+
+spec:
+  structures:
+    - content_blocks
+  label: Content
+
+blueprint:
+  prose:
+  image: 
+
+preview:
+  prose: |
+    <h2>Lorem ipsum dolor sit</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
+  image:
+    src: https://picsum.photos/seed/picsum/1600/900
+    alt: Lorem ipsum dolor sit
+
+_inputs:
