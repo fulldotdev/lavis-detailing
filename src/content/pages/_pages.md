@@ -6,5 +6,4 @@ seo:
     src: 
     alt:
     
-content_blocks: 
 ---

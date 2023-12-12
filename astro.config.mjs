@@ -31,8 +31,7 @@ export default defineConfig({
     //   background: '#fff',
     //   theme_color: '#fff',
     // }),
-    stripeProducts,
-
+    // stripeProducts,
   ],
   vite: {
     plugins: [yaml()],
