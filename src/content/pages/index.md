@@ -9,7 +9,7 @@ seo:
     alt:
 content_blocks:
   - _bookshop_name: blocks/hero
-    writeup: |
+    writeup: >-
       <h1>Lorem ipsum dolor sit</h1><p>Lorem ipsum dolor sit amet consectetur
       adipisicing elit. Suscipit, numquam!</p>
     buttons:
