@@ -1,7 +1,8 @@
 ---
 import Group, { type GroupProps } from '@components/wrappers/Group.astro'
-import company from '@data/company.yml'
+import { getEntry } from 'astro:content'
 import Channel from './Channel.astro'
+const company = await getEntry('globals', 'company').then(({ data }) => data)
 
 type Props = GroupProps & {
   channels?: boolean | null

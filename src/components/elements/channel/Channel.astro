@@ -1,7 +1,8 @@
 ---
-import company from '@data/company.yml'
 import getElementConfig from '@utils/getElementConfig'
+import { getEntry } from 'astro:content'
 import { variant } from '../button/Button.astro'
+const company = await getEntry('globals', 'company').then(({ data }) => data)
 
 export type ChannelProps = Props
 interface Props {

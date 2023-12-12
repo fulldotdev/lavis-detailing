@@ -1,8 +1,8 @@
 ---
 import Link from '@components/elements/link/Link.astro'
-import company from '@data/company.yml'
 import { unslugify } from '@utils'
-import { getCollection } from 'astro:content'
+import { getCollection, getEntry } from 'astro:content'
+const company = await getEntry('globals', 'company').then(({ data }) => data)
 const policies = await getCollection('policies')
 ---
 

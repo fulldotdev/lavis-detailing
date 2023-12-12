@@ -1,7 +1,8 @@
 ---
 import Group from '@components/wrappers/Group.astro'
-import company from '@data/company.yml'
+import { getEntry } from 'astro:content'
 import Social from './Social.astro'
+const company = await getEntry('globals', 'company').then(({ data }) => data)
 
 interface Props {
   socials?: boolean | null
