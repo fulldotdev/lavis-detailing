@@ -14,3 +14,23 @@ preview:
   image:
     src: https://picsum.photos/seed/picsum/1600/900
     alt: Lorem ipsum dolor sit
+
+config:
+  section:
+    layout: col
+    align:
+    frame: fill
+    look:
+    order:
+    size:
+    hue:
+    scheme:
+  segment:
+    layout: col
+    align:
+  group:
+    importance: primary
+    layout: row
+  image:
+    position:
+    orientation:
