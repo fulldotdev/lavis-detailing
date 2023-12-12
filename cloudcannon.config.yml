@@ -166,6 +166,12 @@ collections_config:
         path: src/content/globals/_cta.yml
       footer: 
         path: src/content/globals/_footer.yml
+    filter:
+      exclude:
+        - _company.yml
+        - _header.yml
+        - _cta.yml
+        - _footer.yml
 
   settings:
     path: src/content/settings
@@ -180,6 +186,11 @@ collections_config:
         path: src/content/settings/_elements.yml
       cards: 
         path: src/content/settings/_cards.yml
+    filter:
+      exclude:
+        - _theme.yml
+        - _elements.yml
+        - _cards.yml
 
   blocks:
     path: src/content/blocks
@@ -219,7 +230,24 @@ collections_config:
         path: src/content/blocks/_services.yml  
       spotlight:
         path: src/content/blocks/_spotlight.yml
-        
+    filter:
+      exclude:
+        - _categories.yml
+        - _contact.yml
+        - _content.yml
+        - _cta.yml
+        - _features.yml
+        - _hero.yml
+        - _highlights.yml
+        - _intro.yml
+        - _offers.yml
+        - _persons.yml
+        - _posts.yml
+        - _products.yml
+        - _reviews.yml
+        - _services.yml
+        - _spotlight.yml
+
 # -----------------------------------------------
 # Input customization
 # -----------------------------------------------
