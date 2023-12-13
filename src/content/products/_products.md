@@ -37,4 +37,7 @@ _inputs:
     type: select
     options:
       allow_create: true
+      values:
+        - kleur
+        - maat
 ---
