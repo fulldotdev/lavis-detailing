@@ -4,14 +4,6 @@
     "baseUrl": ".",
     "paths": {
       "@*": ["src/*"],
-      "@components/*": ["src/components/*"],
-      "@layouts/*": ["src/layouts/*"],
-      "@variants": ["src/variants"],
-      "@schemas": ["src/schemas"],
-      "@utils": ["src/utils"],
-      "@stores": ["src/stores"],
-      "@assets": ["src/assets"],
-      "@data": ["src/data"],
     }
   }
 }

@@ -3,9 +3,9 @@ import transformerVariantGroup from '@unocss/transformer-variant-group'
 import fs from 'fs'
 import yaml from 'js-yaml'
 import { defineConfig, presetIcons, presetUno } from 'unocss'
-import presetColors from './unocss/presetColors'
-import presetFonts from './unocss/presetFonts'
-import presetSizes from './unocss/presetSizes'
+import presetColors from './src/unocss/presetColors'
+import presetFonts from './src/unocss/presetFonts'
+import presetSizes from './src/unocss/presetSizes'
 
 let theme: any = {}
 try {
