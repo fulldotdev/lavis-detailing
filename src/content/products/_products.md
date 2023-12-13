@@ -33,4 +33,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
 ---
