@@ -8,7 +8,7 @@ seo:
   image:
     src: 
     alt: 
-    
+
 title: 
 description: 
 images:
@@ -16,9 +16,13 @@ images:
     alt: 
 categories:
   - 
-price: 
 
-choices:
+price: 
+prices:
+  price:
+  options:
+    - key: 
+      value:
 
 _inputs:
   description:
@@ -29,14 +33,4 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
-
-_structures:
-  choices:
-    values:
-      - label: Choice
-        value:
-          label: 
-          options:
-            - name:
-              price:
 ---

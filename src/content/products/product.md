@@ -9,8 +9,8 @@ seo:
     src: 
     alt: 
     
-title: 
-description: 
+title: Hello
+description: World
 images:
   - src: 
     alt: 

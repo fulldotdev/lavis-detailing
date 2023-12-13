@@ -1,5 +1,5 @@
 ---
-import RenderLayout from '@layouts/_RenderLayout.astro'
+import CollectionLayout from '@layouts/CollectionLayout.astro'
 import getAllStaticPaths from '@utils/getAllStaticPaths'
 
 export async function getStaticPaths() {
@@ -9,4 +9,4 @@ export async function getStaticPaths() {
 const { entry } = Astro.props
 ---
 
-<RenderLayout {entry} />
+<CollectionLayout {entry} />
