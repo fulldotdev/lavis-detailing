@@ -16,4 +16,10 @@ content_blocks:
       _bookshop_name: elements/image
       src: /fish-are-happy-and-healthy-1.png
       alt: blub vis
+  - _bookshop_name: src/content/blocks/cta
+    writeup: <p>Test</p>
+    buttons:
+      - _bookshop_name: elements/button
+        label: Bla
+        href: /
 ---
