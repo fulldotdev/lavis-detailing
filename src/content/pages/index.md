@@ -1,7 +1,7 @@
 ---
 _schema: default
 seo:
-  title: Lorem ipsummm
+  title: Lorem ipsum
   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
   image:
     _bookshop_name: elements/image
