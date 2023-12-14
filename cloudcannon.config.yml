@@ -31,7 +31,6 @@ collection_groups:
 # -----------------------------------------------
 
 collections_config:
-
   pages:
     path: src/content/pages
     url: /[full_slug]/
@@ -40,8 +39,8 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - visual
-    schemas: 
-      default: 
+    schemas:
+      default:
         path: schemas/_pages.md
 
   services:
@@ -52,8 +51,8 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - visual
-    schemas: 
-      default: 
+    schemas:
+      default:
         path: schemas/_services.md
 
   products:
@@ -65,8 +64,8 @@ collections_config:
     _enabled_editors:
       - content
       - data
-    schemas: 
-      default: 
+    schemas:
+      default:
         path: schemas/_products.md
 
   categories:
@@ -77,8 +76,8 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-    schemas: 
-      default: 
+    schemas:
+      default:
         path: schemas/_categories.md
 
   posts:
@@ -89,8 +88,8 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - content
-    schemas: 
-      default: 
+    schemas:
+      default:
         path: schemas/_posts.md
 
   policies:
@@ -101,8 +100,8 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - content
-    schemas: 
-      default: 
+    schemas:
+      default:
         path: schemas/_policies.md
 
   reviews:
@@ -112,8 +111,8 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-    schemas: 
-      default: 
+    schemas:
+      default:
         path: schemas/_reviews.md
 
   forms:
@@ -123,8 +122,8 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-    schemas: 
-      default: 
+    schemas:
+      default:
         path: schemas/_forms.md
 
   globals:
@@ -134,13 +133,13 @@ collections_config:
     disable_add_folder: true
     disable_add: true
     schemas:
-      company: 
+      company:
         path: schemas/globals/_company.yml
-      header: 
+      header:
         path: schemas/globals/_header.yml
-      cta: 
+      cta:
         path: schemas/globals/_cta.yml
-      footer: 
+      footer:
         path: schemas/globals/_footer.yml
 
   settings:
@@ -150,11 +149,11 @@ collections_config:
     disable_add_folder: true
     disable_add: true
     schemas:
-      theme: 
+      theme:
         path: schemas/settings/_theme.yml
-      elements: 
+      elements:
         path: schemas/settings/_elements.yml
-      cards: 
+      cards:
         path: schemas/settings/_cards.yml
 
   blocks:
@@ -190,9 +189,9 @@ collections_config:
       products:
         path: schemas/blocks/_products.yml
       reviews:
-        path: schemas/blocks/_reviews.yml  
+        path: schemas/blocks/_reviews.yml
       services:
-        path: schemas/blocks/_services.yml  
+        path: schemas/blocks/_services.yml
       spotlight:
         path: schemas/blocks/_spotlight.yml
 
@@ -237,9 +236,9 @@ _inputs:
     type: url
     label: Link
 
-# -----------------------------------------------
-# Design inputs
-# -----------------------------------------------
+  # -----------------------------------------------
+  # Design inputs
+  # -----------------------------------------------
 
   hue:
     type: choice
@@ -290,9 +289,9 @@ _inputs:
   class:
     type: textarea
 
-# -----------------------------------------------
-# Blocks collection inputs
-# -----------------------------------------------
+  # -----------------------------------------------
+  # Blocks collection inputs
+  # -----------------------------------------------
 
   align:
     type: choice
@@ -341,9 +340,9 @@ _inputs:
         - secondary
         - tertiary
 
-# -----------------------------------------------
-# elements to singular
-# -----------------------------------------------
+  # -----------------------------------------------
+  # elements to singular
+  # -----------------------------------------------
   button: &singular
     type: object
   link: *singular
@@ -358,7 +357,6 @@ _inputs:
   asset: *singular
   person: *singular
 
-
   writeup:
     type: html
   prose:
@@ -366,7 +364,7 @@ _inputs:
 
   blueprint:
     hidden: true
-  spec: 
+  spec:
     hidden: true
 
   rating:
@@ -378,7 +376,6 @@ _inputs:
 
   specs:
     type: array
-
 
 _editables:
   content:
