@@ -42,7 +42,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: src/content/pages/_pages.md
+        path: schemas/_pages.md
     filter:
       exclude:
         - _pages.md
