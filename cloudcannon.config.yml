@@ -42,10 +42,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: src/content/pages/_pages.md
-    filter:
-      exclude:
-        - _pages.md
+        path: schemas/_pages.md
 
   services:
     path: src/content/services
@@ -57,10 +54,7 @@ collections_config:
       - visual
     schemas: 
       default: 
-        path: src/content/services/_services.md
-    filter:
-      exclude:
-        - _services.md
+        path: schemas/_services.md
 
   products:
     path: src/content/products
@@ -73,10 +67,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/products/_products.md
-    filter:
-      exclude:
-        - _products.md
+        path: schemas/_products.md
 
   categories:
     path: src/content/categories
@@ -88,10 +79,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/categories/_categories.md
-    filter:
-      exclude:
-        - _categories.md
+        path: schemas/_categories.md
 
   posts:
     path: src/content/posts
@@ -103,10 +91,7 @@ collections_config:
       - content
     schemas: 
       default: 
-        path: src/content/posts/_posts.md
-    filter:
-      exclude:
-        - _posts.md
+        path: schemas/_posts.md
 
   policies:
     path: src/content/policies
@@ -118,10 +103,7 @@ collections_config:
       - content
     schemas: 
       default: 
-        path: src/content/policies/_policies.md
-    filter:
-      exclude:
-        - _policies.md
+        path: schemas/_policies.md
 
   reviews:
     path: src/content/reviews
@@ -132,10 +114,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/reviews/_reviews.md
-    filter:
-      exclude:
-        - _reviews.md   
+        path: schemas/_reviews.md
 
   forms:
     path: src/content/forms
@@ -146,10 +125,7 @@ collections_config:
       - data
     schemas: 
       default: 
-        path: src/content/forms/_forms.md
-    filter:
-      exclude:
-        - _forms.md
+        path: schemas/_forms.md
 
   globals:
     path: src/content/globals
@@ -159,19 +135,13 @@ collections_config:
     disable_add: true
     schemas:
       company: 
-        path: src/content/globals/_company.yml
+        path: schemas/globals/_company.yml
       header: 
-        path: src/content/globals/_header.yml
+        path: schemas/globals/_header.yml
       cta: 
-        path: src/content/globals/_cta.yml
+        path: schemas/globals/_cta.yml
       footer: 
-        path: src/content/globals/_footer.yml
-    filter:
-      exclude:
-        - _company.yml
-        - _header.yml
-        - _cta.yml
-        - _footer.yml
+        path: schemas/globals/_footer.yml
 
   settings:
     path: src/content/settings
@@ -181,16 +151,11 @@ collections_config:
     disable_add: true
     schemas:
       theme: 
-        path: src/content/settings/_theme.yml
+        path: schemas/settings/_theme.yml
       elements: 
-        path: src/content/settings/_elements.yml
+        path: schemas/settings/_elements.yml
       cards: 
-        path: src/content/settings/_cards.yml
-    filter:
-      exclude:
-        - _theme.yml
-        - _elements.yml
-        - _cards.yml
+        path: schemas/settings/_cards.yml
 
   blocks:
     path: src/content/blocks
@@ -201,52 +166,35 @@ collections_config:
       - visual
     schemas:
       categories:
-        path: src/content/blocks/_categories.yml
+        path: schemas/blocks/_categories.yml
       contact:
-        path: src/content/blocks/_contact.yml
+        path: schemas/blocks/_contact.yml
       content:
-        path: src/content/blocks/_content.yml
+        path: schemas/blocks/_content.yml
       cta:
-        path: src/content/blocks/_cta.yml
+        path: schemas/blocks/_cta.yml
       features:
-        path: src/content/blocks/_features.yml
+        path: schemas/blocks/_features.yml
       hero:
-        path: src/content/blocks/_hero.yml
+        path: schemas/blocks/_hero.yml
       highlights:
-        path: src/content/blocks/_highlights.yml
+        path: schemas/blocks/_highlights.yml
       intro:
-        path: src/content/blocks/_intro.yml
+        path: schemas/blocks/_intro.yml
       offers:
-        path: src/content/blocks/_offers.yml
+        path: schemas/blocks/_offers.yml
       persons:
-        path: src/content/blocks/_persons.yml
+        path: schemas/blocks/_persons.yml
       posts:
-        path: src/content/blocks/_posts.yml
+        path: schemas/blocks/_posts.yml
       products:
-        path: src/content/blocks/_products.yml
+        path: schemas/blocks/_products.yml
       reviews:
-        path: src/content/blocks/_reviews.yml  
+        path: schemas/blocks/_reviews.yml  
       services:
-        path: src/content/blocks/_services.yml  
+        path: schemas/blocks/_services.yml  
       spotlight:
-        path: src/content/blocks/_spotlight.yml
-    filter:
-      exclude:
-        - _categories.yml
-        - _contact.yml
-        - _content.yml
-        - _cta.yml
-        - _features.yml
-        - _hero.yml
-        - _highlights.yml
-        - _intro.yml
-        - _offers.yml
-        - _persons.yml
-        - _posts.yml
-        - _products.yml
-        - _reviews.yml
-        - _services.yml
-        - _spotlight.yml
+        path: schemas/blocks/_spotlight.yml
 
 # -----------------------------------------------
 # Input customization
