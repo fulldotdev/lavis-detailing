@@ -14,9 +14,15 @@ description: World
 images:
   - src: 
     alt: 
-price: 
 categories:
   - 
+
+price: 
+prices:
+  price:
+  options:
+    - key: 
+      value:
 
 _inputs:
   description:
