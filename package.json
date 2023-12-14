@@ -3,13 +3,13 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "tsc --project ./tsconfig.local.json && astro dev",
     "start": "astro dev",
     "build": "astro build",
     "check": "astro check",
     "preview": "astro preview",
     "astro": "astro",
-    "prod": "astro check && astro build && astro preview"
+    "test": "astro check && astro build && astro preview"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",

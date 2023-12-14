@@ -10,7 +10,7 @@ export const getBorderRadiusModeRules = ({
   multiplier: number
 }) => {
   const value = (sizeMultiplier: number, power: number) => {
-    const baseMap = {
+    const baseMap: any = {
       none: 0,
       tiny: 2,
       small: 4,
