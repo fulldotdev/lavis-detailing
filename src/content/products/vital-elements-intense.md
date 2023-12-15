@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -13,11 +13,21 @@ description: >-
   afnemen van een polijstmiddel of een wax. Deze doek is gemaakt van het beste
   op het gebied van microvezels. Deze 500 gram doek de juiste keuze. De doek kan
   zowel vaste- als vloeibare waxen evenals een glaze of een sealant afnemen.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Intense.webp
-    alt: ''
 price: 6.49
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Intense.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -12,11 +12,21 @@ description: >-
   De Vision Glasreiniger; een glasreiniger speciaal ontwikkeld voor de
   automotive industrie. Met deze glasreiniger verwijder je eenvoudig en snel
   vet, vuil en andere verontreiniging.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vision-GL-1L-1.webp
-    alt: ''
 price: 15.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vision-GL-1L-1.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

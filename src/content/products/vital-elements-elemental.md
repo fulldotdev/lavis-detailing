@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -15,11 +15,21 @@ description: >-
   kant zijn de vezels aan één zijde los. Hierdoor is de doek een meer open
   structuur krijg en meer product kan opnemen. Met de korte vezels is de afgifte
   van waxen, polymeren en andere glansmiddelen optimaal.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Elemental.webp
-    alt: ''
 price: 3.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Elemental.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -13,11 +13,21 @@ description: >-
   spons is voorzien van foam binnenwerk voor een optimale waterabsorptie en
   wascomfort. Deze spons glijdt super licht over het oppervlak. Met deze spons
   verdeelt u de shampoo optimaal waardoor je het vuil eenvoudig losweekt.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-XL-Washing-Sponge-1.webp
-    alt: ''
 price: 10.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-XL-Washing-Sponge-1.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

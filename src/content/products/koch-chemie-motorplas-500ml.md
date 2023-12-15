@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -19,11 +19,21 @@ description: >-
   beschermfolie. Koch Chemie Motorplas is geschikt voor gebruik op droge en
   natte ondergronden. Temperatuurbestendig tot 250 ° C. Met Daimler (Mercedes)
   goedkeuring.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Motorplas-500-ml.webp
-    alt: ''
 price: 11.4
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Motorplas-500-ml.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -15,11 +15,21 @@ description: >-
   wieloppervlak. Brake Buster bevat corrosieremmers die een dunne
   beschermingslaag op het wiel afzetten ter bescherming tegen toekomstige
   corrosie.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Brake-Buster-Spray-en-Gallon.webp
-    alt: ''
 price: 29.5
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Brake-Buster-Spray-en-Gallon.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

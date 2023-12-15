@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -14,11 +14,21 @@ description: >-
   hedendaagse markt. Ultrazacht en een extreem fijne vezels maken deze doek een
   must voor zeer gevoelige lakken, maar ook voor diegene die hun kostbare bezit
   in perfecte staat willen houden.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Perfection.webp
-    alt: ''
 price: 10.49
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Perfection.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

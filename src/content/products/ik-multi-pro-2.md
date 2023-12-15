@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -19,11 +19,21 @@ description: >-
   oppervlakte-actieve eigenschappen. iK FOAM zorgt voor een baanbrekende en
   bevredigende ervaring. Dankzij de precisie en het ontwerp, kunt u het schuim
   produceren dat het beste bij uw behoeften past.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/IK-Multi-Pro-2-Main__98263.1579733735.1280.1280.webp
-    alt: ''
 price: 26.75
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/IK-Multi-Pro-2-Main__98263.1579733735.1280.1280.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

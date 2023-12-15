@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -17,11 +17,21 @@ description: >-
   Semper is ook uitstekend te gebruiken in een foam gun. De hoog schuimende
   formule zorgt ervoor dat de washmitt soepel over het oppervlak glijdt met een
   goed reinigende werking zodat de lak niet wordt beschadigd.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB02_2-600x584-1.webp
-    alt: ''
 price: 16.01
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB02_2-600x584-1.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -14,11 +14,21 @@ description: >-
   ​​scherp geprijsde, hoogwaardige randloze handdoek te maken voor klanten die
   onze topkwaliteit niet per se nodig hebben, best verkochte EAGLE EDGELESS
   Koreaanse kwaliteitshanddoeken.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-Pack.webp
-    alt: ''
 price: 3.9
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-Pack.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

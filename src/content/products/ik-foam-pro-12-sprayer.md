@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -14,11 +14,21 @@ description: >-
   ultramoderne Europese faciliteiten, waardoor ze een reputatie hebben opgebouwd
   als een echte leider in de industrie. Bij Lavis Detailing zijn we dan ook
   trots om dit product in ons assortiment te hebben.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/ik-foam-pro-12-main.webp
-    alt: ''
 price: 139.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/ik-foam-pro-12-main.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

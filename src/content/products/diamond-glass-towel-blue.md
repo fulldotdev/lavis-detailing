@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -16,11 +16,21 @@ description: >-
   populair microfiber wafelweefsel en gladde, visgraat geweven glasdoeken zonder
   enige “dry-drag” wrijving die sommige gladde glazen handdoeken kunnen
   produceren.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Blue-Diamond-Glass-Towel-16x24-Layered-NEW-web.webp
-    alt: ''
 price: 3.9
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Blue-Diamond-Glass-Towel-16x24-Layered-NEW-web.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

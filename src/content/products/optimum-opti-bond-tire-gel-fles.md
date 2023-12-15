@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -15,11 +15,21 @@ description: >-
   oppervlakken te beschermen tegen schade door de zon en milieuvervuiling.
   Rubberen en vinyl oppervlakken blijven soepel, flexibel en behouden hun kleur
   bij regelmatig gebruik van Opti-Bond.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Bond-Tire-Gel-GALLON-1.webp
-    alt: ''
 price: 26.9
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Bond-Tire-Gel-GALLON-1.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

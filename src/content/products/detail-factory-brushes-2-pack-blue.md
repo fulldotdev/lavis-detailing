@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -21,11 +21,21 @@ description: >-
   afstoffen en reinigen, maar ook voor detaillering rond badges en emblemen.
   Daarnaast zullen ze ook goed werken op oppervlakken die geen agressieve
   schrobactie vereisen.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-blue-2-pack-main-web.webp
-    alt: ''
 price: null
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-blue-2-pack-main-web.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

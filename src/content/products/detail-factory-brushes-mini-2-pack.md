@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -21,11 +21,21 @@ description: >-
   voor detaillering rond badges en emblemen waar zwijnenhaar het oppervlak kan
   krassen. Ze zullen ook goed werken op elk oppervlak dat geen agressieve
   schrobactie vereist.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-mini-2-pack.webp
-    alt: ''
 price: 19.5
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-mini-2-pack.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

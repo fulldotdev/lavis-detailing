@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -12,14 +12,24 @@ description: >-
   Veritas is de must have ontvetter, essentieel voor het aanbrengen van de
   coating of sealants. Je kan Veritas ook op een innovatieve manier gebruiken
   als een extra controle op de levensduur van de coating tijdens de wasfase.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB01_2-600x584-1.webp
-    alt: ''
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/tabel-textiel-reiniging-aangepast-WEB-scaled.webp
-    alt: ''
 price: 22.64
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB01_2-600x584-1.webp
+    alt: null
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/tabel-textiel-reiniging-aangepast-WEB-scaled.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

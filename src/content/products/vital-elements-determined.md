@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -16,11 +16,21 @@ description: >-
   dashboard dressing, leder reiniger of een interieur reiniger, deze doek gaat
   het fixen! De doek neemt bovendien niet alleen bijzonder goed stof op, maar
   ook bacteriën.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Determined.webp
-    alt: ''
 price: 5.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Determined.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

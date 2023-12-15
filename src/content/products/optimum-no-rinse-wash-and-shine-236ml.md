@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -15,11 +15,21 @@ description: >-
   spoelen. De zoektocht naar het verbeteren van de originele ONR-formule kostte
   Optimum meer dan een jaar en talloze testuren, maar de resultaten zijn het
   zeker waard!
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Optimum-No-Rinse.webp
-    alt: ''
 price: 20.75
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Optimum-No-Rinse.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

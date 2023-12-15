@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -17,11 +17,21 @@ description: >-
   voertuigen.Details Spray Showroom Prep Wax Verwijderen van vuil zonder water
   Gemakkelijke gladde afwerking Spray op natte of droge oppervlakken Instant
   Detailer
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Paint-Gloss.webp
-    alt: ''
 price: 9.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Paint-Gloss.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---
