@@ -9,8 +9,7 @@ spec:
 blueprint:
   label:
   options:
-    - test
-    - bla
+    type: array
   required: false
 
 preview:
