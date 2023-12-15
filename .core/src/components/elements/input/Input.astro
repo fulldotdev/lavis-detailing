@@ -1,0 +1,38 @@
+---
+import { cva } from 'cva'
+import bookshop from './input.bookshop.yml'
+
+interface Props {
+  label: string
+  required?: boolean
+  type?: 'text' | 'email' | 'tel' | 'url' | 'number'
+}
+
+export const variant = cva({
+  variants: {
+    look: {
+      surface:
+        'bg-hue2 text-hue11 ring ring-inset ring-hue6 hover:(bg-hue3 ring-hue7) active:(bg-hue4 ring-hue8)',
+      soft: 'bg-hue3 text-hue11 [&[href]]:(hover:bg-hue4 active:bg-hue5)',
+      outline:
+        'bg-transparent text-hue11 ring-2 ring-inset ring-hue6 hover:(bg-hue2A ring-hue7) active:(bg-hue3A ring-hue8)',
+    },
+  },
+  defaultVariants: {
+    look: 'surface',
+  },
+})
+
+const { label, required, type = 'text' } = Astro.props
+---
+
+<div class="gap-size1 flex flex-col">
+  <label for={label}>{label}</label>
+  <input
+    class={variant(bookshop.config)}
+    id={label}
+    name={label}
+    {type}
+    {required}
+  />
+</div>

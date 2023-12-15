@@ -1,0 +1,15 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import NavLayout from './NavLayout.astro'
+
+interface Props {
+  entry: CollectionEntry<'policies'>
+}
+
+const { data, render } = Astro.props.entry
+const { Content } = await render()
+---
+
+<NavLayout seo={data.seo}>
+  <Content />
+</NavLayout>

@@ -1,0 +1,41 @@
+---
+import getElementConfig from '@utils/getElementConfig'
+import { hue, scheme, size } from '@variants'
+import type { HTMLAttributes } from 'astro/types'
+import { cva } from 'cva'
+
+export type ButtonProps = Props
+interface Props {
+  label: string | null
+  href: HTMLAttributes<'a'>['href']
+  importance?: 'primary' | 'secondary' | 'tertiary'
+}
+
+export const variant = cva({
+  base: 'gap-xs inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded-size1 p-size3 text-center text-button transition active:scale-95 disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed',
+  variants: {
+    look: {
+      solid: 'bg-hue9 text-hue-fg hover:bg-hue10 active:bg-hue11',
+      soft: 'bg-hue3 text-hue11 [&[href]]:(hover:bg-hue4 active:bg-hue5)',
+      surface:
+        'bg-hue2 text-hue11 ring ring-inset ring-hue6 hover:(bg-hue3 ring-hue7) active:(bg-hue4 ring-hue8)',
+      outline:
+        'bg-transparent text-hue11 ring-2 ring-inset ring-hue6 hover:(bg-hue2A ring-hue7) active:(bg-hue3A ring-hue8)',
+      ghost: 'bg-transparent hover:bg-hue2 active:bg-hue3 text-hue11',
+    },
+    size,
+    scheme,
+    hue,
+  },
+})
+
+const { label, href, importance } = Astro.props
+const config = await getElementConfig('button')
+---
+
+<a
+  class:list={[variant(config?.[importance || 'primary'])]}
+  href={href}
+>
+  {label}
+</a>

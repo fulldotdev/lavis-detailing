@@ -1,0 +1,23 @@
+---
+import { cva } from 'cva'
+import bookshop from './prose.bookshop.yml'
+
+interface Props {
+  html?: any
+}
+
+const variant = cva({
+  base: 'mx-auto [&_h1]:(heading mb-size3) [&_h1+p]:(mb-size6) [&_h2]:(heading mt-size5 mb-size3) [&_h3]:(subheading mt-size5 mb-size3) [&_p]:(text mt-size3) [&_*:fisrt-child]:mt-0 [&_*:last-child]:mb-0',
+})
+
+const { html } = Astro.props
+---
+
+{
+  html && (
+    <div
+      class={variant(bookshop.config)}
+      set:html={html}
+    />
+  )
+}

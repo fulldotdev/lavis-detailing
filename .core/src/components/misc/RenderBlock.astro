@@ -1,0 +1,64 @@
+---
+import Writeup from '@components/elements/Writeup.astro'
+import { type ButtonProps } from '@components/elements/button/Button.astro'
+import ButtonGroup from '@components/elements/button/ButtonGroup.astro'
+import ChannelGroup from '@components/elements/channel/ChannelGroup.astro'
+import Image, { type ImageProps } from '@components/elements/image/Image.astro'
+import Socials from '@components/elements/social/SocialGroup.astro'
+import type { CardsBuilderItem } from '@components/misc/RenderCards.astro'
+import RenderCards from '@components/misc/RenderCards.astro'
+import Deck, { type DeckProps } from '@components/wrappers/Deck.astro'
+import { type GroupProps } from '@components/wrappers/Group.astro'
+import Section, { type SectionProps } from '@components/wrappers/Section.astro'
+import Segment, { type SegmentProps } from '@components/wrappers/Segment.astro'
+
+interface Props {
+  _bookshop_name?: string
+  section?: SectionProps
+  segment?: SegmentProps
+  writeup?: string | null
+  group: GroupProps
+  buttons?: ButtonProps[]
+  channels?: boolean | null
+  socials?: boolean | null
+  image?: ImageProps | null
+  deck?: DeckProps
+  cards?: CardsBuilderItem[]
+}
+
+const {
+  _bookshop_name,
+  section,
+  segment,
+  writeup,
+  group,
+  buttons,
+  image,
+  channels,
+  socials,
+  deck,
+  cards,
+} = Astro.props
+---
+
+<Section {...section}>
+  <Segment {...segment}>
+    <Writeup {writeup} />
+    <ButtonGroup
+      {buttons}
+      {...group}
+    />
+    <ChannelGroup
+      {channels}
+      {...group}
+    />
+    <Socials {socials} />
+  </Segment>
+  <Image {...image} />
+  <Deck {...deck}>
+    <RenderCards
+      {cards}
+      block_name={_bookshop_name}
+    />
+  </Deck>
+</Section>

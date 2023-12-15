@@ -1,0 +1,31 @@
+---
+import { variant } from '../input/Input.astro'
+import bookshop from './select.bookshop.yml'
+
+interface Props {
+  label: string
+  options: string[]
+  required?: boolean
+}
+
+const { label, options, required } = Astro.props
+---
+
+<div class="gap-size1 flex flex-col">
+  <label for={label}>{label}</label>
+  <select
+    id={label}
+    name={label}
+    {required}
+    class={variant(bookshop.config)}
+  >
+    <option
+      value="Niks geselecteerd"
+      disabled
+      selected
+    >
+      Maak een keuze
+    </option>
+    {options.map((option) => <option value={option}>{option}</option>)}
+  </select>
+</div>
