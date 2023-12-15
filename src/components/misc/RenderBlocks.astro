@@ -1,5 +1,6 @@
 ---
 import { getBlockConfig } from '@utils'
+import merge from 'deepmerge'
 import RenderBlock from './RenderBlock.astro'
 
 const { blocks } = Astro.props
@@ -24,12 +25,8 @@ const mappedBlocks = blocks?.map((block: any) => ({
 
 {
   mappedBlocks?.map(async (block: any) => {
-    const bookshopConfig = await getBlockConfig(block._bookshop_name)
-    return (
-      <RenderBlock
-        {...bookshopConfig}
-        {...block}
-      />
-    )
+    const bookshopConfig: any = await getBlockConfig(block._bookshop_name)
+    const merged: any = merge(bookshopConfig, block)
+    return <RenderBlock {...merged} />
   })
 }

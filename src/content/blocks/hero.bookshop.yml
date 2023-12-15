@@ -25,7 +25,7 @@ preview:
 config:
   section:
     layout: row
-    align:
+    align: start
     frame: screen
     look:
     order:
@@ -40,5 +40,5 @@ config:
     layout: col
   image:
     position: background
-    orientation: landscape
+    orientation:
 _inputs:
