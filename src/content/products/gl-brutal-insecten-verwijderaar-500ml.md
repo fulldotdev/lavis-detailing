@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -14,11 +14,21 @@ description: >-
   product is door zijn samenstelling ook in te zetten tegen opspattend vuil wat
   zich aan de oppervlakte begint te hechten. De samenstelling van het product is
   zodanig dat het een coating of wax niet aantast.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/BRUTAL-GL-1L-2-700x700.webp
-    alt: ''
 price: 11.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/BRUTAL-GL-1L-2-700x700.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

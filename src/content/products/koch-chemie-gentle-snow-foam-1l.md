@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -18,11 +18,21 @@ description: >-
   formule tast het geen gewaxte of verzegelde oppervlakken aan. Gentle Snow Foam
   kan worden verrijkt met Koch-Chemie GREEN STAR om een ​​Active Foam te creëren
   om snel hardnekkig vuil en insecten te verwijderen.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Gentle-Snow-Foam-1L.webp
-    alt: ''
 price: 16.5
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Gentle-Snow-Foam-1L.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

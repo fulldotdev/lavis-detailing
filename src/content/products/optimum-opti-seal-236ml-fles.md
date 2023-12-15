@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -21,11 +21,21 @@ description: >-
   polymeren. Vuil, vocht, olie en UV-straling worden allemaal uit de verf
   geseald om een ​​optimale glans te behouden. Het is een spraykit die binnen
   enkele minuten de duurzaamheid van traditionele kitten biedt.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Seal-LARGE.webp
-    alt: ''
 price: 29.75
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Seal-LARGE.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

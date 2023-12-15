@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -13,11 +13,21 @@ description: >-
   de status van een auto in de showroom. Ook is het product gemakkelijk in
   gebruik en geeft een diepe wetlook finish. Tevens heeft het product een
   waterafstotende werking. Te gebruiken op metaal, verf, kunststof en rubber.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Desire-GL-05L-3.webp
-    alt: ''
 price: 69.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Desire-GL-05L-3.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

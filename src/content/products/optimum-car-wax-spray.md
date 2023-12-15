@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -9,11 +9,21 @@ seo:
     alt: null
 title: OPTIMUM Car Wax - Spray
 description: ''
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Car-Wax-SPRAY.webp
-    alt: ''
 price: 19.9
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Car-Wax-SPRAY.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

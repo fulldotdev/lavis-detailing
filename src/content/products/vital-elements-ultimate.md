@@ -1,12 +1,14 @@
 ---
-_stripe_price_id: null
-_stripe_product_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Vital Elements Ultimate
 description: >-
   De Vital Elements Ultimate XL drying towel doet zijn naam eer aan. Deze doek
@@ -14,10 +16,29 @@ description: >-
   droogdoek is superzacht en kan maar liefst 2,2 liter water opnemen. Het is
   niet alleen een geweldige droogdoek, hij is ook nog eens multifunctioneel.
 images:
-  - src: >-
+  - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Ultimate.webp
-    alt: ''
+    alt:
+categories:
+  - src/content/categories/overig.md
+  - src/content/categories/doeken.md
 price: 17.99
-categories: null
- 
+_inputs:
+  description:
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+_structures:
+  choices:
+    values:
+      - label: Choice
+        value:
+          label:
+          options:
+            - name:
+              price:
 ---

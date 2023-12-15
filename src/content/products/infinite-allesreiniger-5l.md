@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -13,11 +13,21 @@ description: >-
   zijn assortiment. Tevens de grootverbruiker van veel schoonmaakbedrijven;
   Allesreiniger of beter bekend als APC (all purpose cleaner). Een licht
   alkalisch schoonmaakmiddel wat de oppervlakken niet aantast.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Infinite-GL-1L-2.webp
-    alt: ''
 price: 39.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Infinite-GL-1L-2.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

@@ -1,43 +1,27 @@
 ---
 _stripe_product_id: 
 _stripe_price_id: 
-
 seo:
   title: 
   description: 
   image:
     src: 
     alt: 
-
 title: 
 description: 
+price: 
 images:
   - src: 
     alt: 
 categories:
   - 
-
-price: 
-prices:
-  price:
-  options:
-    - key: 
-      value:
-
 _inputs:
   description:
-    type: html
-  price:
-    type: number
-  categories:
-    type: multiselect
+    type: 
+prices:
+  - price: 
+    _stripe_price_id: 
     options:
-      allow_create: true
-  key:
-    type: select
-    options:
-      allow_create: true
-      values:
-        - kleur
-        - maat
+      - key: 
+        value:
 ---

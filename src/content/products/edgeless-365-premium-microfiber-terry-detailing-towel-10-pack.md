@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -16,11 +16,21 @@ description: >-
   veel gebruikt door tal van autofabrikanten, autoclubs, professionele
   restaurateurs en detailers. Daarnaast is de doek geselecteerd door het
   Huntington Beach Concours d’Elegance, als favoriete handdoek.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-stack.webp
-    alt: ''
 price: 27
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-stack.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

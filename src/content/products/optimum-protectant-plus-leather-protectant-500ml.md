@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -14,11 +14,21 @@ description: >-
   reinigingsmiddelen, penetrerende oliën, reactieve polymeren en UV-remmers om
   de oorspronkelijke kleur van deze oppervlakken te herstellen, eventuele
   krassen te verbergen en schade door de zon te voorkomen.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Leather-Protectant-SPRAY.webp
-    alt: ''
 price: 18
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Leather-Protectant-SPRAY.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

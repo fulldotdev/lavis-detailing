@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -14,11 +14,21 @@ description: >-
   etc. van oplosmiddelbestendige ondergronden zoals lak, glas, keramiek, metaal
   etc. Verdampt snel zonder residu achter te laten en bevat geen gehalogeneerde
   koolwaterstoffen.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eulex-1L.webp
-    alt: ''
 price: 11.8
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eulex-1L.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

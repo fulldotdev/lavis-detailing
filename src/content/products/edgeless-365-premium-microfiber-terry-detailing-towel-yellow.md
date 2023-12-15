@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -13,11 +13,21 @@ description: >-
   aan het juiste adres! Met een eindeloze hoeveelheid verschillende
   toepassingen, zijn de Edgeless 365 premium microfiber doekenbeste keuze voor
   reinigen, schrobben, afstoffen, dweilen, drogen, detailleren en afvegen.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-stack__09527.1569957914__54735.1571895764.webp
-    alt: ''
 price: 3.1
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-stack__09527.1569957914__54735.1571895764.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -15,11 +15,21 @@ description: >-
   de verbinding tussen het voertuig en vuil, waarbij het vuil op een
   verantwoorde manier van de lak wordt verwijderd. GL Pride schuimreiniger is
   geschikt voor het grondig en contactloos reinigen van uw auto.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Pride-GL-1L-scaled.webp
-    alt: ''
 price: 59.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Pride-GL-1L-scaled.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

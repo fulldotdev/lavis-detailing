@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -14,11 +14,21 @@ description: >-
   mensen van houden bij het drogen van auto's en voertuigen. Iedereen heeft een
   voorkeur als het gaat om microvezeldoeken, uit eigen ervaring kunnen wij de
   Liquid8r aanbevelen!
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-6-c04af3366798.webp
-    alt: ''
 price: 23.75
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-6-c04af3366798.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

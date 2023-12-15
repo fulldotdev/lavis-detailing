@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -18,11 +18,21 @@ description: >-
   kleurdiepte wordt geretourneerd en laat een gladde, schitterende, hoge glans
   achter die vrij is van strepen. Chemie Finish Spray is snel te verwijderen,
   gemakkelijk in gebruik en beschermt de oppervlakken tegen nieuw vuil.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Finish-Spray-Exterior-1L.webp
-    alt: ''
 price: 13.5
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Finish-Spray-Exterior-1L.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

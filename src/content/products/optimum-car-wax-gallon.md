@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -14,11 +14,21 @@ description: >-
   carnaubawas, verzegelingspolymeren en Uv-remmers vormt een beschermende laag
   op het geverfde oppervlak, om de verf tot 5 maanden te beschermen tegen
   beschadiging door de zon en andere invloeden van buitenaf.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Car-Wax.webp
-    alt: ''
 price: 61.99
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Car-Wax.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

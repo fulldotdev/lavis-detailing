@@ -1,8 +1,8 @@
 _schema: theme
 colors:
   base: mauve
-  brand: yellow
-  accent: yellow
+  brand: amber
+  accent: amber
   scheme: dark
 sizes:
   scale: 1

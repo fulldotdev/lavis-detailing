@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -13,11 +13,21 @@ description: >-
   reinigingsmiddel met een sterk reinigende werking. Het kan effectief worden
   gebruikt op alle soorten oppervlakken, zowel voor binnen- als buitendelen van
   de auto.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ductile2.webp
-    alt: ''
 price: 13.78
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ductile2.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---

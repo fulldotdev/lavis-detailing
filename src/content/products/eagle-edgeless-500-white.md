@@ -1,6 +1,6 @@
 ---
-_stripe_price_id: null
 _stripe_product_id: null
+_stripe_price_id: null
 seo:
   title: null
   description: null
@@ -16,11 +16,21 @@ description: >-
   tal van autofabrikanten, verzamelautoclubs, professionele restaurateurs en
   detailers Ook is de doek geselecteerd door het Huntington Beach Concours
   d'Elegance als de favoriete handdoek voor alle deelnemers.
-images:
-  - src: >-
-      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eagle-Edgeless-500-Microfiber-Towel.webp
-    alt: ''
 price: 7.5
-categories: null
- 
+images:
+  - url: >-
+      https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eagle-Edgeless-500-Microfiber-Towel.webp
+    alt: null
+categories:
+  - null
+_inputs:
+  description:
+    type: null
+prices:
+  - price: null
+    _stripe_price_id: null
+    options:
+      - key: null
+        value: null
+
 ---
