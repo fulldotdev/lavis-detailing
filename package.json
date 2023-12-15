@@ -9,7 +9,9 @@
     "check": "astro check",
     "preview": "astro preview",
     "astro": "astro",
-    "prod": "astro check && astro build && astro preview"
+    "prod": "astro check && astro build && astro preview",
+    "sync": "git subtree add --prefix .core https://github.com/silveltman/core.git main && npx vite-node sync.ts && yarn install"
+
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",
