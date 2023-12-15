@@ -22,7 +22,7 @@ content_blocks:
         href: diensten
     image:
       _bookshop_name: elements/image
-      src: /library/assets/uploads/lavis-bg-4 (Optimized).webp
+      src: /lavis-bg-4-optimized.webp
       alt:
   - _bookshop_name: library/content/blocks/reviews
     writeup: <h2>JAREN ERVARING, EN DAT ZIE JE...</h2>
