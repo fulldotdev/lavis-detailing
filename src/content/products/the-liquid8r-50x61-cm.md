@@ -1,29 +1,41 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: The Liquid8r 50x61 cm
 description: ''
-price: 16.5
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/the-liquid8r-20x24-package.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/overig.md
+  - src/content/categories/doeken.md
+  - src/content/categories/the-liquid.md
+price: 16.5
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+_structures:
+  choices:
+    values:
+      - label: Choice
+        value:
+          label:
+          options:
+            - name:
+              price:
 ---
