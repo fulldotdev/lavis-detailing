@@ -1,23 +1,12 @@
 _schema: theme
-# -----------------------------------------------
-# COLORS
-# -----------------------------------------------
 colors:
-  base: slate
-  brand: slate
-  accent: slate
-  scheme: light
-
-# -----------------------------------------------
-# SIZES
-# -----------------------------------------------
+  base: mauve
+  brand: yellow
+  accent: yellow
+  scheme: dark
 sizes:
   scale: 1
-  rounded: none
-
-# -----------------------------------------------
-# FONTS
-# -----------------------------------------------
+  rounded: small
 fonts:
   heading:
     family: Inter
@@ -26,7 +15,7 @@ fonts:
     uppercase: false
     leading: none
     tracking: normal
-    class: 
+    class:
   subheading:
     family: Inter
     weight: 500
@@ -34,25 +23,21 @@ fonts:
     uppercase: false
     leading: none
     tracking: normal
-    class: 
+    class:
   body:
     family: Inter
     weight: 400
     italic: false
     leading: relaxed
     tracking: normal
-    class: 
+    class:
   button:
-    family: Inter 
+    family: Inter
     weight: 500
     italic: false
     uppercase: false
     tracking: normal
     class:
-
-# -----------------------------------------------
-# INPUTS / COLORS
-# -----------------------------------------------
 _inputs:
   base:
     type: select
@@ -64,11 +49,11 @@ _inputs:
         - sage
         - olive
         - sand
-  brand: &brand
+  brand:
     type: select
     options:
       values:
-        - tomato 
+        - tomato
         - red
         - ruby
         - crimson
@@ -93,24 +78,48 @@ _inputs:
         - lime
         - mint
         - sky
-  accent: *brand
+  accent:
+    type: select
+    options:
+      values:
+        - tomato
+        - red
+        - ruby
+        - crimson
+        - pink
+        - plum
+        - purple
+        - violet
+        - iris
+        - indigo
+        - blue
+        - cyan
+        - teal
+        - jade
+        - green
+        - grass
+        - bronze
+        - gold
+        - brown
+        - orange
+        - amber
+        - yellow
+        - lime
+        - mint
+        - sky
   scheme:
     type: choice
     options:
       values:
         - light
         - dark
-
-# -----------------------------------------------
-# INPUTS / SIZES
-# -----------------------------------------------
-  scale: 
+  scale:
     type: range
     options:
       min: 0.9
       max: 1.1
       step: 0.01
-  rounded:  
+  rounded:
     type: choice
     options:
       values:
@@ -119,10 +128,6 @@ _inputs:
         - small
         - medium
         - large
-
-# -----------------------------------------------
-# INPUTS / FONTS
-# -----------------------------------------------
   weight:
     type: range
     options:
