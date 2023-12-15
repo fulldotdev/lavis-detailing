@@ -1,16 +1,12 @@
-# -----------------------------------------------
-# COLLECTION CARDS
-# -----------------------------------------------
 products:
   card:
-    frame: fill
-    look: ghost
-    hue:
-    scheme:
+    frame: panel
+    look: outline
+    hue: base
+    scheme: dark
   image:
-    position:
-    ratio:
-
+    position: cover
+    ratio: portrait
 posts:
   card:
     frame: panel
@@ -20,7 +16,6 @@ posts:
   image:
     position:
     ratio:
-
 services:
   card:
     frame: panel
@@ -30,7 +25,6 @@ services:
   image:
     position:
     ratio:
-
 reviews:
   card:
     frame: panel
@@ -40,7 +34,6 @@ reviews:
   image:
     position:
     ratio:
-
 categories:
   card:
     frame: panel
@@ -50,7 +43,6 @@ categories:
   image:
     position:
     ratio:
-
 persons:
   card:
     frame: ghost
@@ -60,11 +52,6 @@ persons:
   image:
     position:
     ratio:
-
-
-# -----------------------------------------------
-# MISC CARDS
-# -----------------------------------------------
 features:
   card:
     frame: fill
@@ -76,7 +63,6 @@ features:
     ratio:
     importance: tertiary
     layout:
-
 highlights:
   card:
     frame: panel
@@ -86,7 +72,6 @@ highlights:
   image:
     position:
     ratio:
-
 offers:
   card:
     frame: panel
@@ -95,4 +80,4 @@ offers:
     scheme:
   group:
     importance:
-    layout: 
+    layout:

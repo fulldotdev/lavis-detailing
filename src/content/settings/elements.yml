@@ -4,7 +4,7 @@ button:
     hue: brand
     class:
   secondary:
-    look: surface
+    look: soft
     hue: brand
     class:
   tertiary:
