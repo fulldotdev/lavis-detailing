@@ -1,29 +1,68 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: OPTIMUM Car Wax - Spray
 description: ''
-price: 19.9
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Car-Wax-SPRAY.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/exterieur.md
+  - src/content/categories/lak-bescherming.md
+  - src/content/categories/optimum-polymer-technologies.md
+price: 19.9
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## Optimum Car Wax
+
+De optimum Car Wax wordt momenteel gebruikt door veel autowasstraten en detailwinkels. De superieure prestaties, het gebruiksgemak en het feit dat deze spray geen rommelige resten achterlaat, zijn slechts enkele redenen waarom deze professionals de voorkeur geven aan dit product. Moeilijk te geloven? Laten we de voordelen eens met je doornemen:
+
+### De belangrijkste voordelen:
+
+* Het duurt minder dan 15 minuten om de hele auto in de was te zetten;
+* Geen polijsten vereist;
+* Geen resten om te verwijderen.
+
+****Duurzaam:****
+
+* 1 toediening duurt maximaal 5 maanden
+
+****Uv-bescherming:****
+
+* Helpt vervaging te verminderen
+
+****Niet schurend:****
+
+* Veroorzaakt geen swirls zoals traditionele autowas / poetsmiddelen
+
+****Milieuvriendelijk:****
+
+* &nbsp;Bevat geen agressieve chemicaliën of VOC’s prestatie

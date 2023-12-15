@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: IK FOAM PRO 2 SPRAYER
 description: >-
   Al meer dan 60 jaar ontwerpt en fabriceert de Goizper Group spuitmachines van
@@ -19,21 +21,49 @@ description: >-
   oppervlakte-actieve eigenschappen. iK FOAM zorgt voor een baanbrekende en
   bevredigende ervaring. Dankzij de precisie en het ontwerp, kunt u het schuim
   produceren dat het beste bij uw behoeften past.
-price: 29.5
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/IK-Foam-Pro-2-Main__41518.1579733735.1280.1280.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/sprayers.md
+price: 29.5
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## Productinformatie IK FOAM:
+
+* Doorschijnende tank met niveau-indicator;
+* Basis voor meer stabiliteit;
+* Grote opening, gemakkelijk te vullen;
+* Veiligheidsslot;
+* Veiligheidsklep met drukverlagingsmogelijkheid;
+* Beschermhoes voor klepkamer;
+* Mogelijkheid om inhoud te identificeren via gekleurde kappen;
+* Mogelijkheid om andere soorten mondstukken en accessoires te monteren;
+* Eenvoudige montage en demontage voor reiniging en onderhoud, zonder gereedschap.
+* Zelfvoorzienend met alles wat u nodig heeft om meteen te spuiten;
+* Bespaar geld, geen gas of elektrische hogedrukreiniger nodig;
+* Alle iK-sproeiers zijn uitgerust met de hoogste kwaliteit FPM, Viton-afdichtingen en -ringen;
+* Alle iK-tanks van polypropyleen en polyethyleen zijn spuitgegoten voor zwaar gebruik;
+* Bredere opening in mond en trechter zorgen voor een eenvoudig vulproces en een eenvoudig reinigingsproces;
+* Alle iK-slangen zijn gemaakt van sterk PVC met de perfecte mate van flexibiliteit;
+* Alle iK-spuittoestellen worden geleverd met overdrukventielen.

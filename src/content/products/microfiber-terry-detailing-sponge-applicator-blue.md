@@ -1,29 +1,51 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Microfiber Terry Detailing Sponge Applicator - Blue
 description: ''
-price: 2.7
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Microfiber-Terry-Detailing-Sponge-Applicator-Blue.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/overig.md
+  - src/content/categories/sponzen.md
+  - src/content/categories/eagle.md
+price: 2.7
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+### Aanvullende productdetails:
+
+* Veelzijdige applicator voor detailspray;
+* Beschikt over een zeepstaafvorm, die is ontworpen om comfortabel in uw hand te passen;
+* Superzacht / pluisvrij / extra absorberend;
+* Uitstekende keuze voor Auto / Marine / RV / Cycle Cleaning;
+* Effectieve, milieuvriendelijke groene reinigingsoplossing om veilig gels, vloeistoffen en was aan te brengen;
+* Extreem duurzaam – bestand tegen talloze toepassingen.

@@ -1,32 +1,59 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: GL Deep krachtige ontvetter - 1L
 description: >-
   GL Deep krachtige ontvetter. Op zoek naar een zeer krachtige ontvetter? Een
   multifunctionele ontvetter die veilig is voor elke ondergrond? Dan is Deep de
   juiste keuze.
-price: 16.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Deep-GL-1L-2.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/exterieur.md
+  - src/content/categories/motorruimte.md
+  - src/content/categories/gl.md
+price: 16.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## GL Deep krachtige ontvetter
+
+GL Deep krachtige ontvetter. Op zoek naar een zeer krachtige ontvetter? Een multifunctionele ontvetter die veilig is voor elke ondergrond? Dan is Deep de juiste keuze. Het unieke aan dit product is de zeer sterk ontvettende werking waarbij het product toch mild is voor elke type ondergrond. De uitgebalanceerde formule zorgt ervoor dat het vet wordt afgebroken en kan worden opgenomen door water. Dit maakt het product dan ook gelijk geschikt voor het ontvetten van uw kostbare materialen. Het doet zijn ontvettende werking op basis van technische ingrediënten die onder het vuil treden en daar de vette verbinding losweken. Daarom heeft het ook uitstekende reinigende eigenschappen.
+
+## Voor wie is dit het beste product?
+
+Deep is het perfecte middel voor de liefhebber die alles aan wil pakken. Je kunt hierbij denken aan het reinigen van een motorruimte van een&nbsp;[auto](https://lavis-detailing.nl/nieuwe-autolak-beschermen/), vrachtauto, boot of zelfs de oven in huis. Deep gaat voor jou het gewenste resultaat creëren!
+
+Een tip en aanrader is om het product te verdunnen met water in de verhouding 1:1 omdat de werking uitermate effectief is. Voor het echt hardnekkige aangekoekte vuil kan het product ook onverdund gebruikt worden zonder enig risico.
+
+## Hoe gebruik je het?
+
+Product opspuiten en vervolgens even laten inwerken. Vervolgens het grovere vuil afnemen met een doek en naspoelen met bijvoorbeeld een hogedrukspuit.Tip van de detailer: Product kan middels een kwast of doek worden ingewerkt alvorens het af te spoelen.

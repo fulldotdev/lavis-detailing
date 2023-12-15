@@ -1,31 +1,47 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Interior Scrub Brush
 description: >-
   Deze witte nylon Interior Scrub Brush is perfect om vuil en roet weg te
   schrobben.
-price: 14.75
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Interior-Scrub-Brush.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/wassen.md
+  - src/content/categories/borstels.md
+price: 14.75
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## Aanbevolen toepassingen:
+
+De&nbsp;****Interior Scrub Brush****&nbsp;beschikt over witte nylon borstelharen, speciaal ontworpen om tapijten en banden te reinigen. De Borstelharen zijn dicht opeengepakt en gekrompen voor extra schrobkracht. De borstel heeft een gebogen handgreepontwerp die de haden beschermt en van het oppervlak weghoudt. Thermische kunststof rubberen grepen verminderen nat of droog wegglijden en absorberen schokken op uw handen

@@ -1,33 +1,47 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Robust Neutrale Velgenreiniger. -  500ml
 description: >-
   Op zoek naar een PH neutrale velgenreiniger? Eentje die veilig is voor elk
   type velg? De Robust Neutrale Velgenreiniger maakt het niet uit of u hoogglans
   verdichte wielen heeft, aluminium, blanke lak gespoten, matte wielen of
   durabright heeft… Het product weekt de metaaldeeltjes los van het materiaal!
-price: 18.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Robust-GL-1L-3.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/exterieur.md
+  - src/content/categories/velgen-reiniger.md
+  - src/content/categories/gl.md
+price: 18.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---

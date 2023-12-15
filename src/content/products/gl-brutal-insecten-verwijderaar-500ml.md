@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: GL brutal insecten verwijderaar 500ml
 description: >-
   GL Brutal insectenverwijderaar maakt op een makkelijke en snelle manier een
@@ -14,21 +16,31 @@ description: >-
   product is door zijn samenstelling ook in te zetten tegen opspattend vuil wat
   zich aan de oppervlakte begint te hechten. De samenstelling van het product is
   zodanig dat het een coating of wax niet aantast.
-price: 11.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/BRUTAL-GL-1L-2-700x700.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/gl.md
+price: 11.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---

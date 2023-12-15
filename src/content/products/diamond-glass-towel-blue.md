@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Diamond Glass Towel - Blue
 description: >-
   Het unieke “Diamond Scale” -patroon van de DIAMOND Glass and Window Towel
@@ -16,21 +18,31 @@ description: >-
   populair microfiber wafelweefsel en gladde, visgraat geweven glasdoeken zonder
   enige “dry-drag” wrijving die sommige gladde glazen handdoeken kunnen
   produceren.
-price: 3.9
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Blue-Diamond-Glass-Towel-16x24-Layered-NEW-web.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/diamond.md
+price: 3.9
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---

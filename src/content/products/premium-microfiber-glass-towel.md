@@ -1,30 +1,48 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Premium Microfiber Glass Towel
 description: >-
   De Premium Glass Towel zorgt samen met je favoriete glasreiniger voor een
   prachtig resultaat. De doek heeft twee verschillende kanten. De ene kant heeft
   een corduroy oppervlak om vervuiling vast te kunnen pakken en de andere kant
   is helemaal glad om na te wrijven.
-price: 5.49
 images: []
 categories:
-  - null
+  - src/content/categories/exterieur.md
+  - src/content/categories/ramen-reinigen.md
+price: 5.49
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+### Kenmerken:
+
+* Formaat: 41x41cm;
+* Microvezelmix: 70% Polyester en 30% Polyamide;
+* Materiaal: 100% Koreaanse microvezel.

@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Optimum Protectant Plus (Leather Protectant) 500ml
 description: >-
   Optimum Protectant Plus reinigt, herstelt en beschermt leer, vinyl en
@@ -14,21 +16,36 @@ description: >-
   reinigingsmiddelen, penetrerende oliën, reactieve polymeren en UV-remmers om
   de oorspronkelijke kleur van deze oppervlakken te herstellen, eventuele
   krassen te verbergen en schade door de zon te voorkomen.
-price: 18
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Leather-Protectant-SPRAY.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/interieur.md
+  - src/content/categories/leer-bescherming.md
+  - src/content/categories/optimum-polymer-technologies.md
+price: 18
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+Bijna alle lederen oppervlakken van auto’s zijn behandeld met speciale chemicaliën, om weerstand te bieden tegen krassen en ontsieringen en om de duurzaamheid en bescherming tegen weersinvloeden te vergroten. De chemie van vinyloppervlakken is ook drastisch verbeterd om deze oppervlakken een lederen look en feel te geven. De vinyloppervlakken zijn ook behandeld met vergelijkbare chemicaliën als die voor autoleder om hun duurzaamheid en bescherming tegen weersinvloeden te vergroten.
+
+Deze beschermende chemicaliën gaan maandenlang van het oppervlak verloren. Optimum Protectant Plus reinigt en vult deze chemicaliën aan en voegt UV-bescherming toe. De meeste vrij verkrijgbare leer- en vinylbeschermers laten een olieachtige film achter waardoor ze een glanzend uiterlijk en een glad gevoel krijgen. Omdat deze producten niet in het oppervlak worden opgenomen, gaan ze maar een paar dagen mee en werken ze als stofmagneet. Optimum Protectant Plus houdt leer soepel met een natuurlijke satijnen afwerking. Het helpt barsten op leer- en vinyloppervlakken te verminderen en krassen en ontsieringen te verminderen. Protectant Plus dringt door en hecht aan deze oppervlakken, maakt ze daarom niet olieachtig of glad en biedt.

@@ -1,34 +1,56 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Spectrum 420 dual-pile - Grey
 description: >-
   De Spectrum 420, is een fantastische all-round doek voor een mooie prijs. De
   doek is gemaakt van hoge kwaliteit microvezel en afgezet met zachte randen.
   Geschikt voor vrijwel alle toepassingen. Van het afnemen van detailers en
   spraywaxen tot polijstmiddelen en waxen.
-price: 4.2
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Spectrum
       Gray.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/interieur.md
+  - src/content/categories/exterieur.md
+  - src/content/categories/doeken.md
+  - src/content/categories/spectrum.md
+price: 4.2
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+### ****Kenmerken:****
+
+* Formaat: 41x41cm;
+* Microvezelmix: 70% Polyester en 30% Polyamide;
+* Gewicht: 420gram per m²;
+* Materiaal rand: suède;
+* Materiaal: 100% Chinese microvezel.

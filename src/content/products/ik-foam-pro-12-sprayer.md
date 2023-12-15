@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: IK Foam Pro 12 Sprayer
 description: >-
   Al meer dan 60 jaar ontwerpt en fabriceert de Goizper Group spuitmachines van
@@ -14,21 +16,41 @@ description: >-
   ultramoderne Europese faciliteiten, waardoor ze een reputatie hebben opgebouwd
   als een echte leider in de industrie. Bij Lavis Detailing zijn we dan ook
   trots om dit product in ons assortiment te hebben.
-price: 139.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ik-foam-pro-12-main.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/sprayers.md
+  - src/content/categories/ik.md
+price: 139.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## Productinformatie IK Foam sprayer
+
+* Zelfvoorzienend met alles wat u nodig heeft om meteen te spuiten;
+* Bespaar geld, geen gas of elektrische hogedrukreiniger nodig;
+* Alle iK-sproeiers zijn uitgerust met de hoogste kwaliteit FPM, Viton-afdichtingen en -ringen;
+* Alle iK-tanks van polypropyleen en polyethyleen zijn spuitgegoten voor zwaar gebruik;
+* Bredere opening in mond en trechter zorgen voor een eenvoudig vulproces en een eenvoudig reinigingsproces;
+* Alle iK-slangen zijn gemaakt van sterk PVC met de perfecte mate van flexibiliteit;
+* Alle iK-spuittoestellen worden geleverd met overdrukventielen.

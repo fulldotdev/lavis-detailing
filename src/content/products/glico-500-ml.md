@@ -1,28 +1,52 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Glico 500 ML
 description: ''
-price: 14.99
 images:
   - url: https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB99.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/labocosmetica.md
+  - src/content/categories/interieur.md
+price: 14.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+Glico is een innovatief product dat gebruikmaakt van een formule met glycolzuur. Het is het eerste product in zijn klasse met een gepatenteerde formule en is ideaal voor het verwijderen van anorganische resten, mineralen, stof en gemengde vuilvlekken van stoelen en vloerkleden.
+
+Glico is veilig te gebruiken op delicate oppervlakken en laat geen ongewenste resten achter. Het herstelt de kleur en zachtheid van de vezels, wat resulteert in een ‘Fluffy Effect’ en een perfecte afwerking.
+
+Een onderscheidend kenmerk van Glico is het Luminol-effect. Bij het aanbrengen fungeert Glico als een markeerstift die onzichtbare vlekken zichtbaar maakt, waardoor het verwijderingsproces eenvoudiger wordt. Er is geen aparte voorbehandeling van vlekken nodig.
+
+****Handleiding:****
+
+****Onderhoud en stand-alone gebruik:****Verdun Glico 1:10, spray op het oppervlakte en borstel goed, laat 2 á 3 minuten inwerken en neem af met een doek alvorens het oppervlakte te stofzuigen
+
+****Combo gebruik Glico + Ductile:****\-Verdun Glico 1:5, spray op het oppervlakte en borstel goed, laat vervolgens 2 á 3 minuten inwerken-Spray hierna direct Ductile 1:10 op het oppervlakte en borstel weer-Zuig het oppervlakte na met een extractiemachine, gebruik een stoomreiniger of een vochtige doek als laatste stap

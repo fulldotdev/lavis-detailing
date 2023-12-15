@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: GL Brutal Insectenverwijderaar -  5L
 description: >-
   GL Brutal insectenverwijderaar maakt op een makkelijke en snelle manier een
@@ -14,21 +16,40 @@ description: >-
   product is door zijn samenstelling ook in te zetten tegen opspattend vuil wat
   zich aan de oppervlakte begint te hechten. De samenstelling van het product is
   zodanig dat het een coating of wax niet aantast.
-price: 44.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/BRUTAL-GL-5L-3.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/gl.md
+price: 44.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## GL Brutal insectenverwijderaar
+
+GL Brutal insectenverwijderaar maakt op een makkelijke en snelle manier een einde aan vervelende insectenresten op de voorzijde van het voertuig. Dit product is door zijn samenstelling ook in te zetten tegen opspattend vuil wat zich aan de oppervlakte begint te hechten. De samenstelling van het product is zodanig dat het een&nbsp;[coating](https://lavis-detailing.nl/coating/)&nbsp;of wax niet aantast.
+
+## Hoe gebruik je het?
+
+Product opspuiten. Laat het product enkele minuten werken. Niet op laten drogen en niet in de volle zon gebruiken op een warm paneel. Ruim afspoelen met water. Brutal maakt de verbinding tussen het insect en de lak week. Dit gebeurt door middel van zeer vriendelijke technische ingrediënten die volledig veilig zijn voor de lak. In tegenstelling tot veel andere merken die deze werking doen op bijtend vermogen van natronloog.Voor insecten resten die langdurig zijn ingebrand deze behandeling herhalen of gebruik maken van detail klei en/of een polijst middel.
+
+Tip van ons: je kan het product ook inwerken met een microvezel doek of spons om zo de insecten makkelijker te verwijderen.
