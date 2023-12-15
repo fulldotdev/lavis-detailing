@@ -20,13 +20,13 @@ preview:
       href: '#'
   image:
     _bookshop_name: elements/image
-    src: /library/assets/uploads/lavis-bg-4 (Optimized).webp
+    src: src/assets/uploads/lavis-bg-4 (Optimized).webp
     alt: Lorem ipsum dolor sit
 config:
   section:
     layout: row
-    align:
-    frame: fill
+    align: start
+    frame: screen
     look:
     order:
     size: large
@@ -34,11 +34,11 @@ config:
     scheme:
   segment:
     layout: row
-    align:
+    align: center
   group:
     importance: primary
     layout: col
   image:
     position: background
-    orientation: landscape
+    orientation:
 _inputs:

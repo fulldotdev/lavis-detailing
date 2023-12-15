@@ -8,7 +8,7 @@ seo:
     src:
     alt:
 content_blocks:
-  - _bookshop_name: library/content/blocks/hero
+  - _bookshop_name: src/content/blocks/hero
     writeup: >-
       <p>&nbsp;Beoordeeld met 5 sterren uit 30+ reviews</p><h1>PERFECTIE IN
       DETAILING</h1><p>Detailing met perfectie tot in het laatste detail, dat is
@@ -22,9 +22,9 @@ content_blocks:
         href: diensten
     image:
       _bookshop_name: elements/image
-      src: /library/assets/uploads/lavis-bg-4 (Optimized).webp
+      src: /lavis-bg-4-optimized.webp
       alt:
-  - _bookshop_name: library/content/blocks/reviews
+  - _bookshop_name: src/content/blocks/reviews
     writeup: <h2>JAREN ERVARING, EN DAT ZIE JE...</h2>
     reviews:
       - src/content/reviews/reviews107.md
@@ -89,7 +89,7 @@ content_blocks:
       - src/content/reviews/reviews78.md
       - src/content/reviews/reviews92.md
       - src/content/reviews/reviews99.md
-  - _bookshop_name: library/content/blocks/services
+  - _bookshop_name: src/content/blocks/services
     writeup:
     buttons:
     services:
@@ -97,7 +97,7 @@ content_blocks:
       - src/content/services/interieur-detailing.md
       - src/content/services/dagbehandeling.md
       - src/content/services/coating.md
-  - _bookshop_name: library/content/blocks/services
+  - _bookshop_name: src/content/blocks/services
     writeup:
     buttons:
     services:
@@ -105,7 +105,7 @@ content_blocks:
       - src/content/services/camper-detailing-en-coating.md
       - src/content/services/schadeherstel.md
       - src/content/services/velgreparatie.md
-  - _bookshop_name: library/content/blocks/spotlight
+  - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Kwalitatieve merken</p><h1>Wij gebruiken de meest hoogwaardige
       producten</h1><p>Bij onze autoverzorging maken we gebruik van hoogwaardige
@@ -115,9 +115,9 @@ content_blocks:
     buttons:
     image:
       _bookshop_name: elements/image
-      src: /library/assets/uploads/image00128-1-1280x786.webp
+      src: image00128-1-1280x786.webp
       alt:
-  - _bookshop_name: library/content/blocks/spotlight
+  - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Kwaliteit boven alles</p><h1>Het verschil tussen een detailer en een
       poetsbedrijf</h1><p>Auto Detailing is het grondig reinigen van je auto.
@@ -127,9 +127,9 @@ content_blocks:
     buttons:
     image:
       _bookshop_name: elements/image
-      src: /library/assets/uploads/auto-wassen-afbeelding-lavis-1-1280x720 (1).webp
+      src: auto-wassen-afbeelding-lavis-1-1280x720 (1).webp
       alt:
-  - _bookshop_name: library/content/blocks/cta
+  - _bookshop_name: src/content/blocks/cta
     writeup: >-
       <p>&nbsp;Beoordeeld met 5 sterren uit 30+ reviews</p><h2>PLAN EEN
       INTAKE</h2><p>Maak vandaag nog een afspraak en geniet van een als nieuwe

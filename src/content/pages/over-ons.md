@@ -8,7 +8,7 @@ seo:
     src:
     alt:
 content_blocks:
-  - _bookshop_name: library/content/blocks/content
+  - _bookshop_name: src/content/blocks/content
     prose: >-
       <h1>Over Lavis Detailing</h1><p>Lavis Detailing is opgericht door Arjen
       Visser en is ontstaan door een uit de hand gelopen hobby. ”Ik poetste
@@ -23,9 +23,9 @@ content_blocks:
       gesprek. Je kunt ons benaderen via telefoon, e-mail of Whatsapp!</p>
     image:
       _bookshop_name: elements/image
-      src: /library/assets/uploads/over-ons-lavis-detailing-1049x789.webp
+      src: over-ons-lavis-detailing-1049x789.webp
       alt:
-  - _bookshop_name: library/content/blocks/reviews
+  - _bookshop_name: src/content/blocks/reviews
     writeup: <h2>WAAR WE TROTS OP ZIJN</h2>
     reviews:
       - src/content/reviews/reviews103.md

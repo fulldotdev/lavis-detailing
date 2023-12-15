@@ -1,7 +1,7 @@
 paths:
   data: src/data
-  static: src/assets/uploads
-  uploads: src/assets/uploads
+  static: src/assets
+  uploads: src/assets
 
 # -----------------------------------------------
 # Cloudcannn sidebar configuration
@@ -31,7 +31,6 @@ collection_groups:
 # -----------------------------------------------
 
 collections_config:
-
   pages:
     path: src/content/pages
     url: /[full_slug]/
@@ -40,12 +39,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - visual
-    schemas: 
-      default: 
-        path: library/content/pages/_pages.md
-    filter:
-      exclude:
-        - _pages.md
+    schemas:
+      default:
+        path: schemas/_pages.md
 
   services:
     path: src/content/services
@@ -55,12 +51,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - visual
-    schemas: 
-      default: 
-        path: library/content/services/_services.md
-    filter:
-      exclude:
-        - _services.md
+    schemas:
+      default:
+        path: schemas/_services.md
 
   products:
     path: src/content/products
@@ -71,12 +64,9 @@ collections_config:
     _enabled_editors:
       - content
       - data
-    schemas: 
-      default: 
-        path: library/content/products/_products.md
-    filter:
-      exclude:
-        - _products.md
+    schemas:
+      default:
+        path: schemas/_products.md
 
   categories:
     path: src/content/categories
@@ -86,12 +76,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-    schemas: 
-      default: 
-        path: library/content/categories/_categories.md
-    filter:
-      exclude:
-        - _categories.md
+    schemas:
+      default:
+        path: schemas/_categories.md
 
   posts:
     path: src/content/posts
@@ -101,12 +88,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - content
-    schemas: 
-      default: 
-        path: library/content/posts/_posts.md
-    filter:
-      exclude:
-        - _posts.md
+    schemas:
+      default:
+        path: schemas/_posts.md
 
   policies:
     path: src/content/policies
@@ -116,12 +100,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - content
-    schemas: 
-      default: 
-        path: library/content/policies/_policies.md
-    filter:
-      exclude:
-        - _policies.md
+    schemas:
+      default:
+        path: schemas/_policies.md
 
   reviews:
     path: src/content/reviews
@@ -130,12 +111,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-    schemas: 
-      default: 
-        path: library/content/reviews/_reviews.md
-    filter:
-      exclude:
-        - _reviews.md   
+    schemas:
+      default:
+        path: schemas/_reviews.md
 
   forms:
     path: src/content/forms
@@ -144,12 +122,9 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-    schemas: 
-      default: 
-        path: library/content/forms/_forms.md
-    filter:
-      exclude:
-        - _forms.md
+    schemas:
+      default:
+        path: schemas/_forms.md
 
   globals:
     path: src/content/globals
@@ -158,20 +133,14 @@ collections_config:
     disable_add_folder: true
     disable_add: true
     schemas:
-      company: 
-        path: library/content/globals/_company.yml
-      header: 
-        path: library/content/globals/_header.yml
-      cta: 
-        path: library/content/globals/_cta.yml
-      footer: 
-        path: library/content/globals/_footer.yml
-    filter:
-      exclude:
-        - _company.yml
-        - _header.yml
-        - _cta.yml
-        - _footer.yml
+      company:
+        path: schemas/globals/_company.yml
+      header:
+        path: schemas/globals/_header.yml
+      cta:
+        path: schemas/globals/_cta.yml
+      footer:
+        path: schemas/globals/_footer.yml
 
   settings:
     path: src/content/settings
@@ -180,17 +149,12 @@ collections_config:
     disable_add_folder: true
     disable_add: true
     schemas:
-      theme: 
-        path: library/content/settings/_theme.yml
-      elements: 
-        path: library/content/settings/_elements.yml
-      cards: 
-        path: library/content/settings/_cards.yml
-    filter:
-      exclude:
-        - _theme.yml
-        - _elements.yml
-        - _cards.yml
+      theme:
+        path: schemas/settings/_theme.yml
+      elements:
+        path: schemas/settings/_elements.yml
+      cards:
+        path: schemas/settings/_cards.yml
 
   blocks:
     path: src/content/blocks
@@ -201,52 +165,35 @@ collections_config:
       - visual
     schemas:
       categories:
-        path: library/content/blocks/_categories.yml
+        path: schemas/blocks/_categories.yml
       contact:
-        path: library/content/blocks/_contact.yml
+        path: schemas/blocks/_contact.yml
       content:
-        path: library/content/blocks/_content.yml
+        path: schemas/blocks/_content.yml
       cta:
-        path: library/content/blocks/_cta.yml
+        path: schemas/blocks/_cta.yml
       features:
-        path: library/content/blocks/_features.yml
+        path: schemas/blocks/_features.yml
       hero:
-        path: library/content/blocks/_hero.yml
+        path: schemas/blocks/_hero.yml
       highlights:
-        path: library/content/blocks/_highlights.yml
+        path: schemas/blocks/_highlights.yml
       intro:
-        path: library/content/blocks/_intro.yml
+        path: schemas/blocks/_intro.yml
       offers:
-        path: library/content/blocks/_offers.yml
+        path: schemas/blocks/_offers.yml
       persons:
-        path: library/content/blocks/_persons.yml
+        path: schemas/blocks/_persons.yml
       posts:
-        path: library/content/blocks/_posts.yml
+        path: schemas/blocks/_posts.yml
       products:
-        path: library/content/blocks/_products.yml
+        path: schemas/blocks/_products.yml
       reviews:
-        path: library/content/blocks/_reviews.yml  
+        path: schemas/blocks/_reviews.yml
       services:
-        path: library/content/blocks/_services.yml  
+        path: schemas/blocks/_services.yml
       spotlight:
-        path: library/content/blocks/_spotlight.yml
-    filter:
-      exclude:
-        - _categories.yml
-        - _contact.yml
-        - _content.yml
-        - _cta.yml
-        - _features.yml
-        - _hero.yml
-        - _highlights.yml
-        - _intro.yml
-        - _offers.yml
-        - _persons.yml
-        - _posts.yml
-        - _products.yml
-        - _reviews.yml
-        - _services.yml
-        - _spotlight.yml
+        path: schemas/blocks/_spotlight.yml
 
 # -----------------------------------------------
 # Input customization
@@ -289,9 +236,9 @@ _inputs:
     type: url
     label: Link
 
-# -----------------------------------------------
-# Design inputs
-# -----------------------------------------------
+  # -----------------------------------------------
+  # Design inputs
+  # -----------------------------------------------
 
   hue:
     type: choice
@@ -342,9 +289,9 @@ _inputs:
   class:
     type: textarea
 
-# -----------------------------------------------
-# Blocks collection inputs
-# -----------------------------------------------
+  # -----------------------------------------------
+  # Blocks collection inputs
+  # -----------------------------------------------
 
   align:
     type: choice
@@ -393,9 +340,9 @@ _inputs:
         - secondary
         - tertiary
 
-# -----------------------------------------------
-# elements to singular
-# -----------------------------------------------
+  # -----------------------------------------------
+  # elements to singular
+  # -----------------------------------------------
   button: &singular
     type: object
   link: *singular
@@ -410,7 +357,6 @@ _inputs:
   asset: *singular
   person: *singular
 
-
   writeup:
     type: html
   prose:
@@ -418,7 +364,7 @@ _inputs:
 
   blueprint:
     hidden: true
-  spec: 
+  spec:
     hidden: true
 
   rating:
@@ -430,7 +376,6 @@ _inputs:
 
   specs:
     type: array
-
 
 _editables:
   content:

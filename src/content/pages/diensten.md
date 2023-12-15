@@ -8,7 +8,7 @@ seo:
     src:
     alt:
 content_blocks:
-  - _bookshop_name: library/content/blocks/intro
+  - _bookshop_name: src/content/blocks/intro
     writeup: >-
       <h1>ONZE DIENSTEN</h1><p>Lavis Detailing niet alleen voor coating en car
       detailing, maar ook voor autowassen, autopoetsen (van binnen en buiten) en
@@ -21,7 +21,7 @@ content_blocks:
       - src/content/services/interieur-detailing.md
       - src/content/services/dagbehandeling.md
       - src/content/services/coating.md
-  - _bookshop_name: library/content/blocks/services
+  - _bookshop_name: src/content/blocks/services
     writeup:
     buttons:
     services:

@@ -8,9 +8,9 @@ seo:
     src:
     alt:
 content_blocks:
-  - _bookshop_name: library/content/blocks/intro
+  - _bookshop_name: src/content/blocks/intro
     writeup: <h1>BLOG</h1>
-  - _bookshop_name: library/content/blocks/posts
+  - _bookshop_name: src/content/blocks/posts
     writeup: ''
     buttons:
     posts:

@@ -14,5 +14,5 @@ content_blocks:
       via het formulier op deze pagina</p>
     channels:
     socials:
-    form: src/content/forms/_forms.md
+    form: src/content/forms/contact.md
 ---
