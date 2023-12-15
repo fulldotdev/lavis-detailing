@@ -6,10 +6,10 @@ colors:
   scheme: dark
 sizes:
   scale: 1
-  rounded: small
+  rounded: tiny
 fonts:
   heading:
-    family: Inter
+    family: Bakbak One
     weight: 700
     italic: false
     uppercase: false
@@ -17,7 +17,7 @@ fonts:
     tracking: normal
     class:
   subheading:
-    family: Inter
+    family: Open Sans
     weight: 500
     italic: false
     uppercase: false
