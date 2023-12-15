@@ -12,7 +12,7 @@ interface Props {
 const { data, slug } = Astro.props.entry
 
 const products = await getCollection('products', (product) => {
-  return product.data.categories.some((category: any) => {
+  return product.data.categories?.find((category: any) => {
     if (!category) return
     return category.includes(slug)
   })
