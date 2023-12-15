@@ -1,7 +1,7 @@
 ---
 _schema: default
 seo:
-  title: Blog
+  title: Lavis Detailing | Blog
   description:
   image:
     _bookshop_name: elements/image
