@@ -13,6 +13,7 @@
 **/.core
 
 #public files 
+
 **/public/images
 
 # logs
