@@ -11,7 +11,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "astro check && astro build && astro preview",
-    "sync": "yarn sync"
+    "sync": "npx vite-node sync.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",
