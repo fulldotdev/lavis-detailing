@@ -12,7 +12,7 @@ fonts:
     family: Bakbak One
     weight: 700
     italic: false
-    uppercase: false
+    uppercase: true
     leading: none
     tracking: normal
     class:
@@ -25,14 +25,14 @@ fonts:
     tracking: normal
     class:
   body:
-    family: Inter
+    family: Open Sans
     weight: 400
     italic: false
     leading: relaxed
     tracking: normal
     class:
   button:
-    family: Inter
+    family: Open Sans
     weight: 500
     italic: false
     uppercase: false
