@@ -9,7 +9,8 @@
     "check": "astro check",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "astro check && astro build && astro preview"
+    "test": "astro check && astro build && astro preview",
+    "sync": "yarn sync"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",
