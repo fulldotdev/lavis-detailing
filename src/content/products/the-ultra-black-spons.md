@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: The ultra black spons
 description: >-
   De Ultra Black Sponge, is een exclusieve autospons voorzien van de nieuwste
@@ -14,21 +16,41 @@ description: >-
   vast te houden, wat leidt tot een betere prestatie tijdens het auto wassen. De
   autospons kan zowel gebruikt worden met een rinseless wash als een normale
   autoshampoo.
-price: 31.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-6-0bdeb1d50475.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/exterieur.md
+  - src/content/categories/wassen.md
+price: 31.99
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+_structures:
+  choices:
+    values:
+      - label: Choice
+        value:
+          label:
+          options:
+            - name:
+              price:
 ---
+### Spons om auto te wassen
+
+The ultra black spons beschikt over een dichte structuur waardoor de autoshampoo en het water goed kunnen worden opgenomen. Dankzij de zachte structuur glijdt deze spons over de auto tijdens het wassen. Hierdoor voorkomt u eventuele krassen in de lak.
+
+### Kenmerken:
+
+* Nieuwste schuimtechnologie;
+* Ergonomische vorm;
+* Dichte structuur;
+* Neemt autoshampoo goed op;
+* Laat geen krassen achter op autolak.
