@@ -1,0 +1,12 @@
+---
+import CollectionLayout from '@layouts/CollectionLayout.astro'
+import getAllStaticPaths from '@utils/getAllStaticPaths'
+
+export async function getStaticPaths() {
+  return await getAllStaticPaths()
+}
+
+const { entry } = Astro.props
+---
+
+<CollectionLayout {entry} />

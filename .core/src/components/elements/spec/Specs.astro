@@ -1,0 +1,23 @@
+---
+import List, { type ListProps } from '@components/wrappers/List.astro'
+import type { SpecProps } from './Spec.astro'
+import Spec from './Spec.astro'
+
+type Props = Omit<SpecProps, 'label'> &
+  ListProps & {
+    specs: SpecProps[]
+  }
+
+const { specs, ...restProps } = Astro.props
+---
+
+<List {...restProps}>
+  {
+    specs?.map((spec) => (
+      <Spec
+        {...spec}
+        {...restProps}
+      />
+    ))
+  }
+</List>

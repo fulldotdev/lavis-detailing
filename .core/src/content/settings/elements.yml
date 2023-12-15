@@ -1,0 +1,42 @@
+button:
+  primary:
+    look: solid
+    hue: brand
+    class:
+  secondary:
+    look: surface
+    hue: brand
+    class:
+  tertiary:
+    look: ghost
+    hue: brand
+    class:
+
+channel:
+  look: soft
+  hue: brand
+  class:
+
+social:
+  look: soft
+  hue:
+  class:
+
+rating:
+  hue: brand
+  class:
+
+writeup:
+  class:
+
+link:
+  class:
+
+input:
+  class:
+
+textarea:
+  class:
+
+select:
+  class:
