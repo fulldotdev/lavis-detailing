@@ -115,7 +115,7 @@ content_blocks:
     buttons:
     image:
       _bookshop_name: elements/image
-      src: assets/uploads/image00128-1-1280x786.webp
+      src: image00128-1-1280x786.webp
       alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
@@ -127,7 +127,7 @@ content_blocks:
     buttons:
     image:
       _bookshop_name: elements/image
-      src: assets/uploads/auto-wassen-afbeelding-lavis-1-1280x720 (1).webp
+      src: auto-wassen-afbeelding-lavis-1-1280x720 (1).webp
       alt:
   - _bookshop_name: src/content/blocks/cta
     writeup: >-

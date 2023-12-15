@@ -23,7 +23,7 @@ content_blocks:
       gesprek. Je kunt ons benaderen via telefoon, e-mail of Whatsapp!</p>
     image:
       _bookshop_name: elements/image
-      src: assets/uploads/over-ons-lavis-detailing-1049x789.webp
+      src: over-ons-lavis-detailing-1049x789.webp
       alt:
   - _bookshop_name: src/content/blocks/reviews
     writeup: <h2>WAAR WE TROTS OP ZIJN</h2>
