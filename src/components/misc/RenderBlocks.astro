@@ -1,0 +1,35 @@
+---
+import { getBlockConfig } from '@utils'
+import RenderBlock from './RenderBlock.astro'
+
+const { blocks } = Astro.props
+
+const mappedBlocks = blocks?.map((block: any) => ({
+  ...block,
+  cards: [
+    block.features,
+    block.highlights,
+    block.offers,
+    block.persons,
+    block.products,
+    block.services,
+    block.reviews,
+    block.posts,
+    block.categories,
+  ]
+    .flat()
+    .filter(Boolean),
+}))
+---
+
+{
+  mappedBlocks?.map(async (block: any) => {
+    const bookshopConfig = await getBlockConfig(block._bookshop_name)
+    return (
+      <RenderBlock
+        {...bookshopConfig}
+        {...block}
+      />
+    )
+  })
+}
