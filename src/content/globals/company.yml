@@ -1,32 +1,31 @@
 _schema: company
-# -----------------------------------------------
-# COMPANY
-# -----------------------------------------------
-company:
-description:
-logo:
-icon:
-kvk:
-
+company: Lavis Detailing
+description: >-
+  Lavis Detailing is opgericht door Arjen Visser en is ontstaan door een uit de
+  hand gelopen hobby. ”Ik poetste graag mijn eigen auto, daarna die voor mijn
+  vrienden en vervolgens had ik het idee dat ik van mijn hobby mijn werk moest
+  maken!” Lavis Detailing gaat graag een paar stappen verder. Wij genieten ervan
+  om auto’s weer in nieuwstaat te brengen, zodat de klant weer lang van
+  zijn/haar auto kan genieten! Lavis Detailing staat bekend om kwaliteit,
+  perfectionisme, eerlijkheid en service. Wij houden van een goed glimmende auto
+  en een heerlijk schoon interieur.
+logo: /lavis-logo.svg
+icon: /lavis-logo.svg
+kvk: '75337231'
 channels:
-  email: 
-  phone:
-  whatsapp:
-  address:
-
+  email: info@lavis-detailing.nl
+  phone: ' 31610158706'
+  whatsapp: ' 31610158706'
+  address: ' Top 8, 8606JT, Sneek'
 socials:
-  facebook: 
+  facebook:
   twitter:
-  instagram:
+  instagram: https://www.instagram.com/lavisdetailing/
   pinterest:
   linkedin:
   youtube:
   tiktok:
   snapchat:
-
-# -----------------------------------------------
-# INPUTS
-# -----------------------------------------------
 _inputs:
   logo:
     type: image
