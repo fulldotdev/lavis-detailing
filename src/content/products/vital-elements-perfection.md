@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Vital Elements Perfection
 description: >-
   Het topsegment van de Vital Elements Perfection is deze maar liefst 1000 gram
@@ -14,21 +16,30 @@ description: >-
   hedendaagse markt. Ultrazacht en een extreem fijne vezels maken deze doek een
   must voor zeer gevoelige lakken, maar ook voor diegene die hun kostbare bezit
   in perfecte staat willen houden.
-price: 10.49
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Perfection.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/overig.md
+  - src/content/categories/doeken.md
+price: 10.49
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+_structures:
+  choices:
+    values:
+      - label: Choice
+        value:
+          label:
+          options:
+            - name:
+              price:
 ---
