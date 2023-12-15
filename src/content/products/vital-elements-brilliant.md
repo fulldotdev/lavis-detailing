@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Vital Elements Brilliant
 description: >-
   De Vital Elements Brilliant glasdoek is gemaakt van een ander type microvezel,
@@ -14,21 +16,29 @@ description: >-
   deze doek heel goed vuil, aanslag en vet verwijderen van de ruiten in
   combinatie met een glasreiniger. Deze doek draagt bij aan een streeploos
   resultaat op de ruiten!
-price: 7.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Brilliant.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/overig.md
+price: 7.99
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+_structures:
+  choices:
+    values:
+      - label: Choice
+        value:
+          label:
+          options:
+            - name:
+              price:
 ---
