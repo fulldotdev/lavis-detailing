@@ -1,7 +1,7 @@
 ---
 _schema: default
 seo:
-  title: Lavis Detailing | Over Ons
+  title: Lavis Detailing | Over ons
   description:
   image:
     _bookshop_name: elements/image
