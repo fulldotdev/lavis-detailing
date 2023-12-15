@@ -33,7 +33,7 @@ config:
     hue:
     scheme:
   segment:
-    layout: col
+    layout: row
     align:
   group:
     importance: primary
