@@ -1,33 +1,44 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Vital Elements XL Washing Sponge
 description: >-
   Vital Elements XL Washing Sponge is een hoogwaardige microvezelspons. Deze
   spons is voorzien van foam binnenwerk voor een optimale waterabsorptie en
   wascomfort. Deze spons glijdt super licht over het oppervlak. Met deze spons
   verdeelt u de shampoo optimaal waardoor je het vuil eenvoudig losweekt.
-price: 10.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-XL-Washing-Sponge-1.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/overig.md
+  - src/content/categories/sponzen.md
+price: 10.99
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+_structures:
+  choices:
+    values:
+      - label: Choice
+        value:
+          label:
+          options:
+            - name:
+              price:
 ---
