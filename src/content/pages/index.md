@@ -17,6 +17,9 @@ content_blocks:
       - _bookshop_name: elements/button
         label: Plan intake
         href: intake
+      - _bookshop_name: elements/button
+        label: Bekijk diensten
+        href: diensten
     image:
       _bookshop_name: elements/image
       src: /library/assets/uploads/lavis-bg-4 (Optimized).webp
@@ -102,4 +105,40 @@ content_blocks:
       - src/content/services/camper-detailing-en-coating.md
       - src/content/services/schadeherstel.md
       - src/content/services/velgreparatie.md
+  - _bookshop_name: library/content/blocks/spotlight
+    writeup: >-
+      <p>Kwalitatieve merken</p><h1>Wij gebruiken de meest hoogwaardige
+      producten</h1><p>Bij onze autoverzorging maken we gebruik van hoogwaardige
+      apparatuur en producten. Elk aspect van je auto wordt met zorg en aandacht
+      grondig behandeld. Ons streven is kwaliteit boven kwantiteit, en we zetten
+      alles op alles om ervoor te zorgen dat uw auto in topconditie is.</p>
+    buttons:
+    image:
+      _bookshop_name: elements/image
+      src: /library/assets/uploads/image00128-1-1280x786.webp
+      alt:
+  - _bookshop_name: library/content/blocks/spotlight
+    writeup: >-
+      <p>Kwaliteit boven alles</p><h1>Het verschil tussen een detailer en een
+      poetsbedrijf</h1><p>Auto Detailing is het grondig reinigen van je auto.
+      Alle aspecten worden aangepakt. Er wordt tijd en aandacht besteed aan je
+      auto en de kwaliteit staat boven de kwantiteit. Alles wordt uit de kast
+      gehaald om jouw auto weer te laten glinsteren.</p>
+    buttons:
+    image:
+      _bookshop_name: elements/image
+      src: /library/assets/uploads/auto-wassen-afbeelding-lavis-1-1280x720 (1).webp
+      alt:
+  - _bookshop_name: library/content/blocks/cta
+    writeup: >-
+      <p>&nbsp;Beoordeeld met 5 sterren uit 30+ reviews</p><h2>PLAN EEN
+      INTAKE</h2><p>Maak vandaag nog een afspraak en geniet van een als nieuwe
+      auto</p>
+    buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: intake
+      - _bookshop_name: elements/button
+        label: Bekijk diensten
+        href: diensten
 ---
