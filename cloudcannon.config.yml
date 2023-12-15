@@ -1,7 +1,7 @@
 paths:
   data: src/data
-  static: src/assets/uploads
-  uploads: src/assets/uploads
+  static: src/assets
+  uploads: src/assets
 
 # -----------------------------------------------
 # Cloudcannn sidebar configuration
