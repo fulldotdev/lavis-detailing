@@ -1,29 +1,58 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Detail Factory Detailing Brushes (Short)
 description: "DETAIL FACTORY'S Detailing Brushes zijn onovertroffen in de branche voor zowel professionals als liefhebbers.\_Met een focus op het creëren van innovatieve tools die in een marktbehoefte voorzien en de concurrentie overtreffen, zijn wij er trots op het merk\_DETAIL FACTORY in ons assortiment te hebben. De BOAR'S HAIR-detailleringsborstels van DF zijn speciaal ontworpen voor middelzware tot zware reiniging van hardere auto-oppervlakken binnen en buiten uw voertuig."
-price: 16.5
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-1-bd004cb296bd.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/motorruimte.md
+  - src/content/categories/velgen-reiniger.md
+  - src/content/categories/kwasten.md
+  - src/content/categories/detail-factory.md
+price: 16.5
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+### DETAIL FACTORY Detailing-borstels
+
+****DETAIL FACTORY’s Detailing Brushes****&nbsp;zijn onovertroffen in de branche voor zowel professionals als liefhebbers. Met een focus op het creëren van innovatieve tools die in een marktbehoefte voorzien en de concurrentie overtreffen, zijn wij er trots op het merk DETAIL FACTORY in ons assortiment te hebben. De BOAR’s HAIR-detailleringsborstels van DF zijn speciaal ontworpen voor middelzware tot zware reiniging van hardere auto-oppervlakken binnen en buiten uw voertuig.
+
+* Ergonomisch ontworpen handgreepprofiel (opvallend TRC-oranje!);
+* Getextureerd gripgebied;
+* Gebalanceerd op het greepgebied om vermoeidheid van de gebruiker te minimaliseren;
+* Chemisch bestendige handgreep en varkenshaar van professionele kwaliteit;
+* Metaalvrije constructie om krassen te voorkomen en geen hout te rotten;
+* Korte handgreep (16,5 cm) voor gebruik binnenshuis, leerreiniging, deurpanelen, hard plastic, bekerhouders, enz.;
+
+### Verzorging en onderhoud:
+
+Na gebruik grondig spoelen met schoon waterZACHT KNIJPEN om overtollig water te verwijderenHANG de borstel ondersteboven om te drogen tussen gebruik

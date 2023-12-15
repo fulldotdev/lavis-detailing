@@ -1,33 +1,55 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Charming Interieur Verfraaier - 500ml
 description: >-
   Charming Interieur Verfraaier zorgt voor die natuurlijk uitstraling van uw
   interieur. Je kiest voor de charming interieur verfraaiers als je geen
   glanzende finish wilt in jouw interieur, maar een satijnen uitstraling wat
   zorgt voor die 'natural look'.
-price: 14.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Charming-GL-05L-2.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/gl.md
+  - src/content/categories/interieur.md
+price: 14.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## harming Interieur Verfraaier
+
+Charming Interieur Verfraaier zorgt voor die natuurlijk uitstraling van uw&nbsp;[interieur](https://lavis-detailing.nl/interieur-detailing/). Je kiest voor de charming interieur verfraaiers als je geen glanzende finish wilt in jouw interieur, maar een satijnen uitstraling wat zorgt voor die ‘natural look’. Charming kan worden toegepast op alle soorten plastic en kunststof. Het voorkomt uitdrogen van het materiaal alsmede verkleuring door zijn UV blokker. Charming is anti-statisch. Door het aanbrengen van Fiber kunnen vlekken minder makkelijk ontstaan. Ook gaat dit hechting tegen.
+
+## Hoe gebruik je het product?
+
+Zorg bij voorkeur voor een schone ondergrond door het gebruik van Fiber. Breng het product egaal aan met een applicator of microvezel doek en neem het met een schone doek af voor het mooiste resultaat.
+
+Tip van ons: verweerde kunststoffen kunnen door Fiber worden opgehaald. Meerdere lagen veroorzaken geen build-up en geen smering (vlekvorming).

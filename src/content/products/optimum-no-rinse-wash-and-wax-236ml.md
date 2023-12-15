@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: OPTIMUM No Rinse Wash And Wax - 236ml
 description: >-
   Optimum No Rinse™ Wash and Wax is de snelste, gemakkelijkste en meest
@@ -15,21 +17,33 @@ description: >-
   vangen vuil op om schoon te maken zonder uit te spoelen en laten een zeer
   gladde en glanzende afwerking achter die krasvrij is. Als u het apparaat op de
   juiste manier gebruikt, krijgt u geen krassen op het voertuigoppervlak.
-price: 28.48
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-4-3be95e5fd242-1.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/optimum-polymer-technologies.md
+  - src/content/categories/exterieur.md
+  - src/content/categories/wassen.md
+price: 28.48
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---

@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Koch Chemie Plast Star (1L)
 description: >-
   Koch Chemie Plast Star is een siliconenolievrij premiumproduct op het gebied
@@ -14,21 +16,49 @@ description: >-
   extreem UV-stabiel. De behandelde delen krijgen hun oorspronkelijke nieuwe
   semi-matte uitstraling terug dankzij een speciaal onderhoudscomponentensysteem
   (micro-emulsie), dat stevig hecht aan het behandelde oppervlak.
-price: 20.4
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Plast-Star-siliconolfrei-1L.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/exterieur.md
+  - src/content/categories/interieur.md
+price: 20.4
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## Productinformatie:
+
+****Koch Chemie Plast Star****&nbsp;is een siliconenolievrij premiumproduct op het gebied van kunststofverzorgingsproducten. Onderhoudt en beschermt maandenlang en is extreem UV-stabiel. De behandelde delen krijgen hun oorspronkelijke nieuwe semi-matte uitstraling terug dankzij een speciaal onderhoudscomponentensysteem (micro-emulsie), dat stevig hecht aan het behandelde oppervlak. Voorkomt bevriezing van deurafdichtingen. De extreem lange levensduur, het snelle en eenvoudige gebruik en de aangename geur maken Koch Chemie Plast Star tot een onverslaanbaar product. Ook optimaal geschikt voor banden en rubberen onderdelen.
+
+### Toepassingsgebieden:
+
+Externe plastic en rubberen onderdelen, banden, deurafdichtingen, enz.
+
+### Aanbevelingen:
+
+Voor gebruik Met een spons gelijkmatig op de schone, droge oppervlakken aanbrengen, goed inwrijven en volledig laten drogen.
+
+### Waarschuwingen:
+
+Niet gebruiken op oppervlakken waar gladheid ongewenst is, zoals pedalen, stuur, banden. Controleer voor gebruik de geschiktheid en compatibiliteit.
+
+Disclaimer: Deze productinformatie kan u uitsluitend vrijblijvend adviseren. Aansprakelijkheid van onze kant kan niet worden ontleend. Controleer of het product geschikt is voor uw toepassing.&nbsp;[Wij helpen u graag verder](https://lavis-detailing.nl/contact/).

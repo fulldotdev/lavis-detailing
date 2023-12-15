@@ -1,29 +1,55 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Diamond Glass Towel - Black
 description: "Het\_unieke \"Diamond Scale\" -patroon van\_de\_DIAMOND Glass and Window Towel\_zorgt voor een effectief soepel glijvermogen om gemakkelijk al uw stoffige, vuile, groezelige glas- en raambehoeften aan te pakken.\_Het slangenleer-achtige textuurontwerp combineert de beste eigenschappen van populair microfiber wafelweefsel en gladde, visgraat geweven glasdoeken zonder enige \"dry-drag\" wrijving die sommige gladde glazen handdoeken kunnen produceren."
-price: 3.9
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Diamond-Glass-2.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/ramen-reinigen.md
+  - src/content/categories/doeken.md
+price: 3.9
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+### ****Aanvullende productdetails:****
+
+* Professioneel detaileradvies: &nbsp;**“Begin met de handdoek licht vochtig (water of sprayreiniger) om de effectiviteit te maximaliseren. Gebruik het diamantpatroonoppervlak van de handdoek om vuil en filmstrepen snel en gemakkelijk weg te vegen, en een schone 2e Black Diamond-handdoek om je pluisvrije / streepvrije afwerking te voltooien “**
+* Pluisvrij / streepvrij
+* Niet-schurend – veilig voor alle afwerkingen
+* Veilig voor gebruik op elektronische apparatuur en computer- / mobiele telefoonschermen
+* Extreem duurzaam – Vermogen om honderden wasbeurten te weerstaan ​​met de juiste zorg
+* De zachtheid van de handdoek neemt toe met elke wasbeurt
+* ****Geproduceerd****&nbsp;&nbsp;op de&nbsp;&nbsp;****hoogste kwaliteit Duitse Microfiber productieapparatuur****&nbsp; (Karl Mayer)
+
+### Hoe wassen?
+
+Machinewas met mild vloeibaar wasmiddel (vrij van kleurstoffen, geurstoffen, bleekmiddel en wasverzachters).Droogtrommel laag, en niet strijken.Gebruik GEEN wasverzachter, omdat dit de microvezels verstopt en de prestaties vermindert.Gebruik GEEN chloorbleekmiddel.Alleen wassen met andere niet-pluizende materialen (GEEN katoen!) Om de juiste vuilgrijpende eigenschappen te behouden.Was altijd nieuwe microvezelhanddoeken voor het eerste gebruik.Was nieuwere zwarte, oranje, rode en andere donkergekleurde handdoeken altijd apart van lichtere handdoeken om het risico van bloeden van de kleurstof te verkleinen.

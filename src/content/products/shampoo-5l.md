@@ -1,32 +1,57 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Shampoo -  5L
 description: >-
   Deze zeer milde maar doch krachtige pure shampoo is speciaal gemaakt voor de
   automotive industrie. De shampoo is zeer zuinig in gebruik en tevens mild voor
   elk oppervlak.
-price: 39.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Shampoo-GL-1L-3.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/wassen.md
+  - src/content/categories/gl.md
+price: 39.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## Shampoo
+
+Deze zeer milde maar doch krachtige pure shampoo is speciaal gemaakt voor de automotive industrie. De shampoo is zeer zuinig in gebruik en tevens mild voor elk oppervlak. Een goede shampoo kenmerkt zich door een aantal eigenschappen. Deze eigenschappen zijn:
+
+* ph neutraal;
+* vrij van loog;
+* laat zich mooi vlekvrij afdrogen;
+* bevat de unieke eigenschap om kalk deeltjes in te kunnen kapselen.
+
+De moleculen in de shampoo gaan een binding aan met metaalionen zoals magnesium, calcium en ijzer. Door de speciale mix van co-builders droogt het oppervlak mooier, helder en gladder op.
+
+Onze tip: bij een hogere waterhardheid (veel kalk in het water) kan de shampoo gebruikt worden in de verhouding 1:100 (100 ml shampoo op 10 liter water) om de kalkdeeltjes in zeer sterke mate te helpen afvoeren waardoor het drogen van de auto een stuk minder risico geeft op waterspotting (minerale vervuiling).

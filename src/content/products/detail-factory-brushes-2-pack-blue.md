@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Detail Factory Brushes 2-pack - Blue
 description: >-
   De Premium Detail Factory Brushes van Lavis Detailing Sneek zijn onovertroffen
@@ -21,21 +23,48 @@ description: >-
   afstoffen en reinigen, maar ook voor detaillering rond badges en emblemen.
   Daarnaast zullen ze ook goed werken op oppervlakken die geen agressieve
   schrobactie vereisen.
-price: null
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-blue-2-pack-main-web.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/detail-factory.md
+price:
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## Pak je voordeel met de Detail Factory Brushes:
+
+
+
+* Ergonomisch ontworpen handgreepprofiel (Custom TRC Blue!);
+* Getextureerd gripgebied;
+* Gebalanceerd op het gripgebied om vermoeidheid van de gebruiker te minimaliseren;
+* Chemiebestendige handgreep en ultrazachte borstelharen;
+* Metaalvrije constructie om krassen te voorkomen;
+* Korte handgreep (6,5″) voor het interieur: dashboard, navigatieschermen, ventilatieopeningen, houtwerk, meters, enz.;
+* Lange handgreep (9,5″) voor exterieur: wielen, trimwerk, grill, embleem / badge, enz.
+
+Als je op zoek bent naar de allerbeste ultrazachte detailingborstel van dit moment? Dan heb je deze zojuist gevonden bij Lavis Detailing.
+
+### Verzorging en onderhoud:
+
+Na gebruik de Detail Factory Brushes grondig spoelen met schoon water;Zacht zachten om overtollig water te verwijderen;Hang de borstel na gebruik ondersteboven om te drogen.

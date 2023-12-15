@@ -1,28 +1,48 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Edgeless 365 Premium Microfiber Terry Detailing Towel (10-pack) - Blue
 description: ''
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Edgeless-Royal-Blue-365-pack.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/eagle.md
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
+## Aanbevolen gebruik:
+
+* Verwijderen van Detailing Sprays / Wax / Compound / Sealant / Glaze / Polish;
+* Polijsten van chroom / glanzende metalen / glas / spiegels;
+* Polijstwielen en tuimelpanelen;
+* Spoelloos / waterloos wassen;
+* Directe detaillering;
+* Spray wassen en polijsten;

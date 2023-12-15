@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: P&S Brake Buster Wheel Cleaner. - Gallon
 description: >-
   Verwijdert veilig opgehoopt remstof, olie, vuil, vlekken en lichte corrosie
@@ -15,21 +17,31 @@ description: >-
   wieloppervlak. Brake Buster bevat corrosieremmers die een dunne
   beschermingslaag op het wiel afzetten ter bescherming tegen toekomstige
   corrosie.
-price: 29.5
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Brake-Buster-Spray-en-Gallon.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/p-s.md
+price: 29.5
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---

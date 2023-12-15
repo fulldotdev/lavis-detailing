@@ -1,12 +1,14 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: P&S Paint Gloss -  Spray
 description: >-
   Paint Gloss verwijdert vuil, vingerafdrukken, stof en vlekken van je auto. Een
@@ -17,21 +19,33 @@ description: >-
   voertuigen.Details Spray Showroom Prep Wax Verwijderen van vuil zonder water
   Gemakkelijke gladde afwerking Spray op natte of droge oppervlakken Instant
   Detailer
-price: 9.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Paint-Gloss.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/exterieur.md
+  - src/content/categories/lak-bescherming.md
+  - src/content/categories/p-s.md
+price: 9.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---

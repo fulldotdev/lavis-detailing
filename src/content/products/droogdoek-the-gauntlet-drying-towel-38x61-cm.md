@@ -1,29 +1,41 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Droogdoek - The Gauntlet Drying Towel - 38x61 cm
 description: ''
-price: 13.5
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/the-gauntlet-drying-towel-30x36-dark-grey-side-main-copy.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/the-gauntlet.md
+price: 13.5
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
