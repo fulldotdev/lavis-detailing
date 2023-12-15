@@ -1,33 +1,44 @@
 ---
-_stripe_product_id: null
-_stripe_price_id: null
+_schema: default
+_stripe_product_id:
+_stripe_price_id:
 seo:
-  title: null
-  description: null
+  title:
+  description:
   image:
-    src: null
-    alt: null
+    _bookshop_name: elements/image
+    src:
+    alt:
 title: Vital Elements Supreme
 description: >-
   De Vital Elements Supreme XL drying towel in het formaat 50×70 cm is uitermate
   geschikt om met één doek eenvoudigweg de gehele auto te drogen na een
   wasbeurt. De microvezels van deze droogdoek zijn super absorberend en zo
   gemaakt om bij goed gebruik geen krasjes te veroorzaken.
-price: 15.99
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Supreme.webp
-    alt: null
+    alt:
 categories:
-  - null
+  - src/content/categories/overig.md
+  - src/content/categories/doeken.md
+price: 15.99
 _inputs:
   description:
-    type: null
-prices:
-  - price: null
-    _stripe_price_id: null
+    type:
+  price:
+    type: number
+  categories:
+    type: multiselect
     options:
-      - key: null
-        value: null
-
+      allow_create: true
+_structures:
+  choices:
+    values:
+      - label: Choice
+        value:
+          label:
+          options:
+            - name:
+              price:
 ---
