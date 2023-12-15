@@ -8,7 +8,9 @@ spec:
 
 blueprint:
   label:
-  options: []
+  options:
+    - test
+    - bla
   required: false
 
 preview:
