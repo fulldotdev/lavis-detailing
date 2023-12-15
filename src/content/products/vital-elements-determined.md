@@ -23,7 +23,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vital-Elements-Determined.webp
     alt:
 categories:
-  -
+  - src/content/categories/overig.md
+  - src/content/categories/doeken.md
 price: 5.99
 _inputs:
   description:
