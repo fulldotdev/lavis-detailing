@@ -34,4 +34,12 @@ content_blocks:
           het onderstaande.</p>
         specs:
         buttons:
+      - writeup: >-
+          <h3>2 Staps polijsten</h3><p>Een 2-staps polijstbehandeling, plus al
+          het onderstaande.</p>
+        specs:
+        buttons:
+      - writeup:
+        specs:
+        buttons:
 ---
