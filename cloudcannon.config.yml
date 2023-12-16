@@ -38,7 +38,7 @@ collections_config:
     icon: wysiwyg
     disable_add_folder: true
     _enabled_editors:
-      - visual
+      - data
     schemas:
       default:
         path: schemas/_pages.md
