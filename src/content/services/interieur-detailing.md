@@ -31,13 +31,28 @@ content_blocks:
     offers:
       - writeup: <p>vanaf €95 ex. btw</p><h3>Basis</h3>
         specs:
+          - Stofzuigen gehele interieur
+          - Dashboard, verluchtingsroosters en middenconsole worden stofvrij gemaakt en afgenomen
+          - Binnenzijde ramen worden streeploos gereinigd
         buttons:
       - writeup: <p>vanaf €175 ex. btw</p><h3>Medium</h3>
-        specs:
+        specs: 
+          - Stofzuigen gehele interieur
+          - Vloerbekleding Reinigen d.n.v. luchtdruk
+          - Dashboard Verluchtingsroosters en middenconsole worden stofvrij gemaakt en afgenomen
+          - Licht reiniging dashboard, middenconsole en deurpanelen
+          - Binnen zijde ramen worden streeploos gereinigd
+          - Vloerbekleding Reinigen d.n.v. luchtdruk
         buttons:
       - writeup: >-
           <p>vanaf €275 ex. btw</p><h3>Exclusive</h3><p>voor zware vervuiling
           rekenen wij een extra toeslag van €55 per uur</p>
         specs:
+          - Alles in Basis
+          - Diepte reiniging dashboard, middenconsole en deurpanelen
+          - Vloermatten diepte reiniging (stoomextractie machine)
+          - Vloerbekleding reiniging d.m.v. luchtdruk.
+          - Sponningen reinigen
+          - Het dashboard en alle kunststof delen voeden
         buttons:
 ---
