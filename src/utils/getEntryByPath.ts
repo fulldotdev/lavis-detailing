@@ -25,7 +25,7 @@ export default async (
 
   if (!collectionKey) return
 
-  const entryId = path.split(`/${collectionKey}/`).pop() as
+  const entryId = path.split(`/${collectionKey}/`).pop()?.replace('.md', '') as
     | CollectionEntry<CollectionKey>['id']
     | undefined
 

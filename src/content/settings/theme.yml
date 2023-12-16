@@ -10,7 +10,7 @@ sizes:
 fonts:
   heading:
     family: Bakbak One
-    weight: 700
+    weight: 400
     italic: false
     uppercase: true
     leading: none

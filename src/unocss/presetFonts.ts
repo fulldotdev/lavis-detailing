@@ -19,6 +19,7 @@ export default function preset({
   text,
   button,
 }: any): Preset {
+  console.log('myfont', getWebFont(heading))
   return {
     name: 'unocss-preset-fonts',
     presets: [
