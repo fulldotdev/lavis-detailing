@@ -15,7 +15,7 @@ const { specs, ...restProps } = Astro.props
   {
     specs?.map((spec) => (
       <Spec
-        {...spec}
+        label={spec}
         {...restProps}
       />
     ))
