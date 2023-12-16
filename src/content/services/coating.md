@@ -28,7 +28,14 @@ content_blocks:
           materialen zorgen voor de perfecte balans tussen flexibiliteit en
           hardheid.</p>
         specs:
-          - ''
+          - Carbon HyperQuartz-coating
+          - 'PH-tolerantie: 1-13'
+          - 'Bescherming: 2-2,5 micron (1 laags coating)'
+          - Zelf herstellend van kleine beschadigingen en (was)krassen
+          - Water- en vuilafstotend
+          - Self-cleaning effect
+          - 'Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud'
+          - 4/5 sterren hydrofoob
         buttons:
       - writeup: >-
           <p>2 Laags coating</p><h3>Titan Coatings® PREMIUM</h3><p>Elite
@@ -37,7 +44,15 @@ content_blocks:
           anorganische chemie combineert met de toevoeging van koolstof
           nanostaafjes.</p>
         specs:
-          - ''
+          - Elastomer Membrane coating
+          - 'PH-tolerantie: 1-13'
+          - 'Bescherming: 4-5 micron (2 laags coating)'
+          - Zelf herstellend van kleine beschadigingen en (was)krassen
+          - Water- en vuilafstotend
+          - Self-cleaning effect
+          - 'Duurzaamheid: tot +- 10 jaar, afhankelijk van onderhoud'
+          - 5/5 sterren hydrofoob
+          - Extra beschermd tegen chemische stoffen
         buttons:
       - writeup: >-
           <p>3+ Laags coating</p><h3>Titan Coatings® EXCLUSIVE</h3><p>Elite
@@ -46,7 +61,18 @@ content_blocks:
           anorganische chemie combineert met de toevoeging van koolstof
           nanostaafjes.</p>
         specs:
-          - ''
+          - Carbon micron & Elastomer Membrane coating
+          - 'PH-tolerantie: 1-14'
+          - 'Bescherming: 8-9 micron (3 laags coating)'
+          - Zelf herstellend van kleine beschadigingen en (was)krassen
+          - Water- en vuilafstotend
+          - Self-cleaning effect
+          - 'Duurzaamheid: tot +- 15 jaar, afhankelijk van onderhoud'
+          - 5/5 sterren hydrofoob
+          - Ultieme permanente bescherming
+          - Ultra bescherming tegen chemische invloeden
+          - Hydrocarbon technologie
+          - Meer glans nog gladder oppervlakte
         buttons:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
