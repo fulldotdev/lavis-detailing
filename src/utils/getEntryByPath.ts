@@ -3,35 +3,35 @@ import {
   type CollectionEntry,
   type CollectionKey,
   type ContentCollectionKey,
-} from 'astro:content'
+} from "astro:content";
 
 const collectionKeys: ContentCollectionKey[] = [
-  'categories',
-  'forms',
-  'pages',
-  'policies',
-  'posts',
-  'products',
-  'reviews',
-  'services',
-]
+  "categories",
+  "forms",
+  "pages",
+  "policies",
+  "posts",
+  "products",
+  "reviews",
+  "services",
+];
 
 export default async (
   path: string
 ): Promise<CollectionEntry<CollectionKey> | undefined> => {
   const collectionKey = collectionKeys.find((key) =>
     path.includes(`/${key}/`)
-  ) as CollectionKey | undefined
+  ) as CollectionKey | undefined;
 
-  if (!collectionKey) return
+  if (!collectionKey) return;
 
-  const entryId = path.split(`/${collectionKey}/`).pop() as
-    | CollectionEntry<CollectionKey>['id']
-    | undefined
+  const entryId = path.split(`/${collectionKey}/`).pop()?.replace(".md", "") as
+    | CollectionEntry<CollectionKey>["id"]
+    | undefined;
 
-  if (!entryId) return
+  if (!entryId) return;
 
-  const entry = await getEntry(collectionKey, entryId)
+  const entry = await getEntry(collectionKey, entryId);
 
-  return entry
-}
+  return entry;
+};
