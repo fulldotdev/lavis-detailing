@@ -1,9 +1,9 @@
-import type { Preset } from 'unocss'
-import { presetWebFonts } from 'unocss'
+import type { Preset } from "unocss";
+import { presetWebFonts } from "unocss";
 
 const getWebFont = (
   option = {
-    family: 'Inter',
+    family: "Inter",
     weight: 400,
     italic: false,
   }
@@ -11,7 +11,7 @@ const getWebFont = (
   name: option.family,
   weights: [option.weight],
   italic: option.italic,
-})
+});
 
 export default function preset({
   heading,
@@ -20,9 +20,10 @@ export default function preset({
   button,
 }: any): Preset {
   return {
-    name: 'unocss-preset-fonts',
+    name: "unocss-preset-fonts",
     presets: [
       presetWebFonts({
+        provider: "bunny",
         fonts: {
           heading: getWebFont(heading),
           subheading: getWebFont(subheading),
@@ -32,7 +33,7 @@ export default function preset({
       }),
     ],
     shortcuts: {
-      'text-button': `font-button text-size2 leading-none font-${button?.weight}`,
+      "text-button": `font-button text-size2 leading-none font-${button?.weight}`,
     },
     preflights: [
       {
@@ -40,25 +41,25 @@ export default function preset({
           return `
             p, ul, ol, li, label {
               --at-apply: ${text?.class};
-              font-family: ${theme['fontFamily'].text};
+              font-family: ${theme["fontFamily"].text};
               font-weight: ${text?.weight};
-              line-height: ${theme['lineHeight'].relaxed};
+              line-height: ${theme["lineHeight"].relaxed};
             }
             .mode-base :is(h1, h2, h3, h4, h5, h6) {
               --at-apply: ${heading?.class};
-              font-family: ${theme['fontFamily'].heading};
+              font-family: ${theme["fontFamily"].heading};
               font-weight: ${heading?.weight};
-              line-height: ${theme['lineHeight'].tight};
+              line-height: ${theme["lineHeight"].tight};
             }
             .mode-compact :is(h1, h2, h3, h4, h5, h6) {
               --at-apply: ${subheading?.class};
-              font-family: ${theme['fontFamily'].subheading};
+              font-family: ${theme["fontFamily"].subheading};
               font-weight: ${subheading?.weight};
-              line-height: ${theme['lineHeight'].tight};
+              line-height: ${theme["lineHeight"].tight};
             }
-          `
+          `;
         },
       },
     ],
-  }
+  };
 }
