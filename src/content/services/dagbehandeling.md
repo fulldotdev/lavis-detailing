@@ -27,11 +27,24 @@ content_blocks:
     offers:
       - writeup: <p>€475,- ex. btw</p><h3>De basis</h3>
         specs:
-          - ''
+          - Voorreinigen van de auto
+          - Handwassen met pH-neutrale shampoo
+          - Deursponningen reinigen
+          - Velgen en wielkasten reinigen met speciale velgenborstels
+          - Drogen met ultiem zachte droogdoeken
+          - Ramen streeploos reinigen aan binnen- en buitenzijde
+          - Diepte reiniging lak door te kleien
+          - Licht polijsten van de lak
+          - Een high-end sealant aanbrengen
+          - Interieur opfrissen
         buttons:
       - writeup: <h3>Een stap verder</h3>
         specs:
-          - ''
+          - Kwalitatieve Titan coatings
+          - Uitgebreide interieur detailing
+          - Uitgebreide exterieur detailing
+          - Reparatie van uw velgen
+          - En nog veel meer...
         buttons:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
