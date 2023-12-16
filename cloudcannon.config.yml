@@ -11,7 +11,7 @@ collection_groups:
   - heading: Pages
     collections:
       - pages
-      # - services
+      - services
       # - posts
       - products
       - categories
