@@ -16,11 +16,11 @@ collection_groups:
       - products
       - categories
       - policies
-  # - heading: Shared
-    # collections:
+  - heading: Shared
+    collections:
       # - reviews
-      # - forms
-      # - globals
+      - forms
+      - globals
   # - heading: Config
   #   collections:
   #     - settings
