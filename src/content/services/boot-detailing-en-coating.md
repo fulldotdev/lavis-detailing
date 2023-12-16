@@ -1,9 +1,8 @@
 ---
 title: Boot detailing en coating
 description: Uw boot, ons meesterwerk
-images:
+image:
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Boot-detailing-lak-beschermen.webp
   alt: ''
-
 ---

@@ -11,8 +11,8 @@ collection_groups:
   - heading: Pages
     collections:
       - pages
-      - services
-      - posts
+      # - services
+      # - posts
       - products
       - categories
       - policies
@@ -20,11 +20,11 @@ collection_groups:
     collections:
       - reviews
       - forms
-      - globals
-  - heading: Config
-    collections:
-      - settings
-      - blocks
+      # - globals
+  # - heading: Config
+  #   collections:
+  #     - settings
+  #     - blocks
 
 # -----------------------------------------------
 # Collection configuration
@@ -75,6 +75,7 @@ collections_config:
     icon: category
     disable_add_folder: true
     _enabled_editors:
+      - content
       - data
     schemas:
       default:
@@ -201,6 +202,7 @@ collections_config:
 
 _inputs:
   seo:
+    hidden: true
     label: SEO
     comment: Search engine optimization
 
@@ -390,3 +392,10 @@ _editables:
     table: true
     undo: true
     redo: true
+
+
+  # -----------------------------------------------
+  # TEMP
+  # -----------------------------------------------
+
+  

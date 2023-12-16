@@ -25,7 +25,7 @@ fonts:
     uppercase: false
     leading: none
     tracking: normal
-    class: 
+    class:
   subheading:
     family: Inter
     weight: 500
@@ -33,16 +33,16 @@ fonts:
     uppercase: false
     leading: none
     tracking: normal
-    class: 
-  body:
+    class:
+  text:
     family: Inter
     weight: 400
     italic: false
     leading: relaxed
     tracking: normal
-    class: 
+    class:
   button:
-    family: Inter 
+    family: Inter
     weight: 500
     italic: false
     uppercase: false
@@ -67,7 +67,7 @@ _inputs:
     type: select
     options:
       values:
-        - tomato 
+        - tomato
         - red
         - ruby
         - crimson
@@ -100,16 +100,16 @@ _inputs:
         - light
         - dark
 
-# -----------------------------------------------
-# INPUTS / SIZES
-# -----------------------------------------------
-  scale: 
+  # -----------------------------------------------
+  # INPUTS / SIZES
+  # -----------------------------------------------
+  scale:
     type: range
     options:
       min: 0.9
       max: 1.1
       step: 0.01
-  rounded:  
+  rounded:
     type: choice
     options:
       values:
@@ -119,9 +119,9 @@ _inputs:
         - medium
         - large
 
-# -----------------------------------------------
-# INPUTS / FONTS
-# -----------------------------------------------
+  # -----------------------------------------------
+  # INPUTS / FONTS
+  # -----------------------------------------------
   weight:
     type: range
     options:

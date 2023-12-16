@@ -33,5 +33,5 @@ config:
     importance: tertiary
     layout: row
   deck:
-    layout: carousel
+    layout: row
     size:

@@ -1,7 +1,7 @@
 ---
 title: Interieur detailing
 description: Binnenste schoonheid hersteld
-images:
+image:
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/interieur.webp
   alt: ''
