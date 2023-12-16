@@ -9,6 +9,7 @@ spec:
 blueprint:
   label:
   options:
+    -
   required: false
 
 preview:
