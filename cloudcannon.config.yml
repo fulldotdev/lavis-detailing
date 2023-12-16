@@ -50,7 +50,7 @@ collections_config:
     icon: home_repair_service
     disable_add_folder: true
     _enabled_editors:
-      - visual
+      - data
     schemas:
       default:
         path: schemas/_services.md
