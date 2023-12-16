@@ -27,9 +27,11 @@ content_blocks:
     offers:
       - writeup: <p>€475,- ex. btw</p><h3>De basis</h3>
         specs:
+          - ''
         buttons:
       - writeup: <h3>Een stap verder</h3>
         specs:
+          - ''
         buttons:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-

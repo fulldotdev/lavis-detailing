@@ -28,6 +28,7 @@ content_blocks:
           materialen zorgen voor de perfecte balans tussen flexibiliteit en
           hardheid.</p>
         specs:
+          - ''
         buttons:
       - writeup: >-
           <p>2 Laags coating</p><h3>Titan Coatings® PREMIUM</h3><p>Elite
@@ -36,6 +37,7 @@ content_blocks:
           anorganische chemie combineert met de toevoeging van koolstof
           nanostaafjes.</p>
         specs:
+          - ''
         buttons:
       - writeup: >-
           <p>3+ Laags coating</p><h3>Titan Coatings® EXCLUSIVE</h3><p>Elite
@@ -44,6 +46,7 @@ content_blocks:
           anorganische chemie combineert met de toevoeging van koolstof
           nanostaafjes.</p>
         specs:
+          - ''
         buttons:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
