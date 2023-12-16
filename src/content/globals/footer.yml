@@ -1,21 +1,5 @@
 _schema: footer
 columns:
-  - heading: Contact & locatie
-    links:
-      - _bookshop_name: elements/link
-        label: info@lavis-detailing.nl
-        href: mailto:info@lavis-detailing.nl
-      - _bookshop_name: elements/link
-        label: '31610158706'
-        href: tel:31610158706
-      - _bookshop_name: elements/link
-        label: '31610158706'
-        href: https://wa.me/31610158706
-      - _bookshop_name: elements/link
-        label: Top 8, 8606JT, Sneek
-        href: >-
-          https://www.google.com/maps/search/?api=1&amp;query=Top 8, 8606JT,
-          Sneek
   - heading: Diensten
     links:
       - _bookshop_name: elements/link

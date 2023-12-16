@@ -1,7 +1,7 @@
 products:
   card:
     frame: panel
-    look: outline
+    look: surface
     hue: base
     scheme: dark
   image:
@@ -14,8 +14,8 @@ posts:
     hue:
     scheme:
   image:
-    position:
-    ratio:
+    position: cover
+    ratio: portrait
 services:
   card:
     frame: panel
@@ -23,8 +23,8 @@ services:
     hue:
     scheme:
   image:
-    position:
-    ratio:
+    position: cover
+    ratio: portrait
 reviews:
   card:
     frame: panel
