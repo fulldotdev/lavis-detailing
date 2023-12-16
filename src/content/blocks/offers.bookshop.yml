@@ -9,7 +9,8 @@ blueprint:
   writeup:
   offers:
     - writeup:
-      specs: 
+      specs:
+        -
       buttons: 
 
 preview:
@@ -74,3 +75,5 @@ config:
     size:
 
 _inputs:
+  specs:
+    type: array
