@@ -10,7 +10,7 @@ paths:
 collection_groups:
   - heading: Pages
     collections:
-      # - pages
+      - pages
       # - services
       # - posts
       - products
