@@ -17,6 +17,8 @@ images:
     alt:
 categories:
   - src/content/categories/gl.md
+  - src/content/categories/exterieur.md
+  - src/content/categories/wassen.md
 price: 15.99
 prices:
   options:
@@ -31,6 +33,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

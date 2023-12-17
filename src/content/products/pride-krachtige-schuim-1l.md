@@ -23,7 +23,6 @@ images:
     alt:
 categories:
   - src/content/categories/exterieur.md
-  - src/content/categories/interieur.md
   - src/content/categories/motorruimte.md
   - src/content/categories/wassen.md
   - src/content/categories/velgen-reiniger.md
@@ -42,6 +41,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

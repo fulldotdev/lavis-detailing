@@ -22,6 +22,7 @@ images:
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/labocosmetica.md
+  - src/content/categories/velgen-reiniger.md
 price: 16.53
 prices:
   options:
@@ -36,6 +37,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:
