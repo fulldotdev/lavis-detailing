@@ -12,7 +12,7 @@ collection_groups:
     collections:
       - pages
       - services
-      # - posts
+      - posts
       - products
       - categories
       - policies
