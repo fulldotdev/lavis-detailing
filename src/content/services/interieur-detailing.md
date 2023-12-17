@@ -40,13 +40,12 @@ content_blocks:
       - writeup: <p>vanaf €175 ex. btw</p><h3>Medium</h3>
         specs:
           - Stofzuigen gehele interieur
-          - Vloerbekleding Reinigen d.n.v. luchtdruk
+          - Vloerbekleding Reinigen d.m.v. luchtdruk
           - >-
             Dashboard Verluchtingsroosters en middenconsole worden stofvrij
             gemaakt en afgenomen
           - Licht reiniging dashboard, middenconsole en deurpanelen
           - Binnen zijde ramen worden streeploos gereinigd
-          - Vloerbekleding Reinigen d.n.v. luchtdruk
         buttons:
       - writeup: >-
           <p>vanaf €275 ex. btw</p><h3>Exclusive</h3><p>voor zware vervuiling
