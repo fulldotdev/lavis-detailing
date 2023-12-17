@@ -1,29 +1,29 @@
 ---
-_stripe_product_id: 
-_stripe_price_id: 
+_stripe_product_id:
+_stripe_price_id:
 
 draft: false
 
 seo:
-  title: 
-  description: 
+  title:
+  description:
   image:
-    src: 
+    src:
     alt:
 
-title: 
-description: 
+title:
+description:
 images:
-  - src: 
-    alt: 
+  - src:
+    alt:
 categories:
-  - 
+  -
 
-price: 
+price:
 prices:
   price:
   options:
-    - key: 
+    - key:
       value:
 
 _inputs:
@@ -35,8 +35,6 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
-  prices:
-    hidden: true 
   key:
     type: select
     options:
