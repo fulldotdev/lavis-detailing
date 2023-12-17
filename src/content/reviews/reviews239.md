@@ -1,4 +1,8 @@
 ---
+_schema: default
+rating: 5
+title: Guido Wagenaar
+tagline: Ford Focus ST Line
 description: >-
   Op aanbeveling van een eerdere klant terecht gekomen bij Lavis Detailing.
 
@@ -16,11 +20,10 @@ description: >-
 
 
   Services: Clay bar treatment, Auto detailing, Car waxing, Paint repair
-rating: 5
 image:
+  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ford Focus ST
     Line Coating.webp
   alt: ''
-
 ---

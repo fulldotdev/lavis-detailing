@@ -1,4 +1,7 @@
 ---
+_schema: default
+rating: 5
+title: Hans
 description: >-
   Arjen heeft de stoelen en achterbank gereinigd en ze zijn weer als nieuw. Ook
   nog het tapijt uitgezogen, wat dat betreft is hij een perfectionist. Ik kom
@@ -6,8 +9,7 @@ description: >-
 
 
   Service: Seat shampooing
-rating: 5
 image:
+  _bookshop_name: elements/image
   alt: ''
-
 ---

@@ -1,4 +1,7 @@
 ---
+_schema: default
+rating: 5
+title: Marcel Bloem
 description: >-
   Vakmannen zijn het.
 
@@ -12,8 +15,7 @@ description: >-
 
 
   Services: Full body wash, Auto detailing
-rating: 5
 image:
+  _bookshop_name: elements/image
   alt: ''
-
 ---

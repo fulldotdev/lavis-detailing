@@ -1,4 +1,7 @@
 ---
+_schema: default
+rating: 5
+title: Redmer de Boer
 description: >-
   Ik heb hier mijn auto laten polijsten en ben erg tevreden met het resultaat en
   werd vriendelijk  geholpen.
@@ -7,8 +10,7 @@ description: >-
   Positive: Professionalism, Quality, Value
 
   Service: Paint repair
-rating: 5
 image:
+  _bookshop_name: elements/image
   alt: ''
-
 ---

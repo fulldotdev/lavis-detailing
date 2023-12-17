@@ -1,4 +1,8 @@
 ---
+_schema: default
+rating: 5
+title: Laura Kuivenhoven
+tagline: Mercedes Sprinter
 description: >-
   Wij hebben de afgelopen 2 dagen onze Mercedes sprinter @north.thevan laten
   schoonmaken en polijsten. Er waren een hoop sticker resten en glans
@@ -13,8 +17,7 @@ description: >-
 
 
   Services: Full body wash, Auto detailing, Car waxing
-rating: 5
 image:
+  _bookshop_name: elements/image
   alt: ''
-
 ---

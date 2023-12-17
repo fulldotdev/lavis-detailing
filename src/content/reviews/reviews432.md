@@ -1,4 +1,8 @@
 ---
+_schema: default
+rating: 5
+title: Hessel-Willem Veldhuis
+tagline: Volkswagen Passat
 description: >-
   Had een gebruikte Passat variant gekocht in 'Night Blue metallic'. De auto was
   door de vorige eigenaar niet heel zorgvuldig behandeld en had veel kleine
@@ -12,11 +16,10 @@ description: >-
 
 
   Positive: Professionalism, Quality
-rating: 5
 image:
+  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/VW Passat
     Coating.webp
   alt: ''
-
 ---
