@@ -4,7 +4,7 @@ seo:
   image:
     _bookshop_name: elements/image
 title: ' Exterieur detailing'
-description: De perfecte mix voor uw auto's uitstraling
+description: Ervaar perfectie en oog voor detail
 image:
   _bookshop_name: elements/image
   src: >-
