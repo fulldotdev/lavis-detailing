@@ -4,7 +4,7 @@ seo:
   image:
     _bookshop_name: elements/image
 title: Interieur detailing
-description: Binnenste schoonheid hersteld
+description: Hoe heerlijk is een vlekkeloos interieur?
 image:
   _bookshop_name: elements/image
   src: >-
@@ -32,14 +32,18 @@ content_blocks:
       - writeup: <p>vanaf €95 ex. btw</p><h3>Basis</h3>
         specs:
           - Stofzuigen gehele interieur
-          - Dashboard, verluchtingsroosters en middenconsole worden stofvrij gemaakt en afgenomen
+          - >-
+            Dashboard, verluchtingsroosters en middenconsole worden stofvrij
+            gemaakt en afgenomen
           - Binnenzijde ramen worden streeploos gereinigd
         buttons:
       - writeup: <p>vanaf €175 ex. btw</p><h3>Medium</h3>
-        specs: 
+        specs:
           - Stofzuigen gehele interieur
           - Vloerbekleding Reinigen d.n.v. luchtdruk
-          - Dashboard Verluchtingsroosters en middenconsole worden stofvrij gemaakt en afgenomen
+          - >-
+            Dashboard Verluchtingsroosters en middenconsole worden stofvrij
+            gemaakt en afgenomen
           - Licht reiniging dashboard, middenconsole en deurpanelen
           - Binnen zijde ramen worden streeploos gereinigd
           - Vloerbekleding Reinigen d.n.v. luchtdruk
