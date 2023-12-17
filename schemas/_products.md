@@ -2,12 +2,14 @@
 _stripe_product_id: 
 _stripe_price_id: 
 
+draft: false
+
 seo:
   title: 
   description: 
   image:
     src: 
-    alt: 
+    alt:
 
 title: 
 description: 
