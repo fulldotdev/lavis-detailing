@@ -9,6 +9,7 @@ spec:
 blueprint:
   label:
   options:
+    - ""
   required: false
 
 preview:
@@ -23,5 +24,4 @@ preview:
 _inputs:
   options:
     type: array
-
 #
