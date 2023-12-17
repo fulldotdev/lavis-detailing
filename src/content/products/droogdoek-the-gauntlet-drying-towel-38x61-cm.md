@@ -17,6 +17,8 @@ images:
     alt:
 categories:
   - src/content/categories/the-gauntlet.md
+  - src/content/categories/doeken.md
+  - src/content/categories/exterieur.md
 price: 13.5
 prices:
   options:
@@ -31,6 +33,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

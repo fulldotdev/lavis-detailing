@@ -29,6 +29,8 @@ images:
     alt:
 categories:
   - src/content/categories/detail-factory.md
+  - src/content/categories/interieur.md
+  - src/content/categories/exterieur.md
 price:
 prices:
   options:
@@ -43,6 +45,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:
