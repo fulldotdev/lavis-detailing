@@ -18,6 +18,9 @@ content_blocks:
       uw auto langer schoon blijft en minder vaak moet worden gewassen. Maar de
       voordelen gaan veel verder dan dat.</p>
     image:
+      _bookshop_name: elements/image
+      src: /image00036-1-1280x791.webp
+      alt:
   - _bookshop_name: src/content/blocks/offers
     writeup:
     offers:
@@ -88,6 +91,9 @@ content_blocks:
       Top Coat, voor uitmuntende hydrofobische eigenschappen.</p>
     buttons:
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-4.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in premium en exclusive</p><h2>TITAN COATING PX10</h2><p>De
@@ -98,6 +104,9 @@ content_blocks:
       veelvoud aan oppervlakken.</p>
     buttons:
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-3.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in premium en exclusive</p><h2>TITAN COATING VULCAN</h2><p>De
@@ -109,6 +118,9 @@ content_blocks:
       herstellen van slijtage, swirls en lichte krassen.</p>
     buttons:
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-2.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in exclusive</p><h2>TITAN COATING HYDRO TX145</h2><p>De
@@ -120,4 +132,7 @@ content_blocks:
       beschermde voertuigen snel en eenvoudig op te frissen.</p>
     buttons:
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-1.webp
+      alt:
 ---

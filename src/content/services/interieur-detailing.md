@@ -26,6 +26,9 @@ content_blocks:
       wat er uiteindelijk gedaan moet worden. Leer vereist een andere aanpak en
       zal zorgvuldig een diepe reiniging ondergaan.</p>
     image:
+      _bookshop_name: elements/image
+      src: /interieur-1280x968.webp
+      alt:
   - _bookshop_name: src/content/blocks/offers
     writeup: ''
     offers:

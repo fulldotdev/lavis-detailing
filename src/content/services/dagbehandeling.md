@@ -22,6 +22,9 @@ content_blocks:
       resultaten te behalen. Geef uw auto de behandeling die het verdient en zie
       het verschil dat het kan maken.</p>
     image:
+      _bookshop_name: elements/image
+      src: /auto-zijkant-1280x962.webp
+      alt:
   - _bookshop_name: src/content/blocks/offers
     writeup: <h2>EEN OVERZICHT VAN DE MOGELIJKHEDEN</h2>
     offers:
@@ -55,6 +58,9 @@ content_blocks:
       met vernieuwde pracht.</p>
     buttons:
     image:
+      _bookshop_name: elements/image
+      src: /auto-laten-polijsten-640x427.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Langdurig</p><h2>HOOGWAARDIGE LAKBESCHERMING</h2><p>Bescherm uw auto
@@ -63,6 +69,9 @@ content_blocks:
       uitstraling behoudt, ongeacht de weersomstandigheden.</p>
     buttons:
     image:
+      _bookshop_name: elements/image
+      src: /autolak-beschermen-640x427.webp
+      alt:
   - _bookshop_name: src/content/blocks/features
     writeup:
     buttons:

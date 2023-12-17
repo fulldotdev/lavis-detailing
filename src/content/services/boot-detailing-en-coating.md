@@ -20,6 +20,9 @@ content_blocks:
       verweerde look kunnen veroorzaken. Dat is waar boot polijsten en poetsen
       om de hoek komen kijken.</p>
     image:
+      _bookshop_name: elements/image
+      src: /Boot-detailing-lak-beschermen-1280x549.webp
+      alt:
   - _bookshop_name: src/content/blocks/content
     prose: >-
       <h1>Boot coating</h1><p>Deze innovatieve coating vormt een krachtige
@@ -32,6 +35,9 @@ content_blocks:
       milieuvriendelijkheid. Laat uw boot stralen als nooit tevoren en geniet
       van moeiteloos onderhoud.</p>
     image:
+      _bookshop_name: elements/image
+      src: /witte-boot-581x774.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <h2>TRITON TX550™</h2><p>TRITON TX550™ bevat onze HyperQuartz® en Dark
@@ -44,4 +50,7 @@ content_blocks:
       professioneel gebruik is.</p>
     buttons:
     image:
+      _bookshop_name: elements/image
+      src: /triton-tx550-1179x1554.webp
+      alt:
 ---
