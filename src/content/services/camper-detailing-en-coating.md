@@ -23,6 +23,9 @@ content_blocks:
       droomt, zodat u er nog jaren van kunt genieten. Kies voor Lavis, kies voor
       kwaliteit, en zorg dat uw camper tot 10 jaar lang beschermd blijft.</p>
     image:
+      _bookshop_name: elements/image
+      src: /camper-detailing-1-1200x1200.webp
+      alt:
   - _bookshop_name: src/content/blocks/content
     prose: >-
       <h1>Camper coating</h1><p>Ontdek de ultieme bescherming voor uw camper met
@@ -36,6 +39,9 @@ content_blocks:
       Titan Coatings. Ontdek vandaag nog de voordelen van onze revolutionaire
       camperbescherming.</p>
     image:
+      _bookshop_name: elements/image
+      src: /image00036-1-1280x791.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in premium en exclusive</p><h2>TITAN COATING PX10</h2><p>De
@@ -45,7 +51,16 @@ content_blocks:
       Technology® versterkte super basis biedt permanente bescherming voor een
       veelvoud aan oppervlakken.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/px10
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-3.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in premium en exclusive</p><h2>TITAN COATING VULCAN</h2><p>De
@@ -56,5 +71,14 @@ content_blocks:
       onze Px10 basislaag, evenals het vermogen om zichzelf te regenereren en te
       herstellen van slijtage, swirls en lichte krassen.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/vulcantx155
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-2.webp
+      alt:
 ---

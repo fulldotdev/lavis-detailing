@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Topbedrijf profesioneel  weten wat ze doen, auto gaat er regelmatig heen voor
   de juiste behandeling en schoonmaaktechnieken.  zeer tevreden!!!
@@ -11,8 +10,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Pascal Herman
-  tagline: ''
+
+title: Pascal Herman
+tagline: ''
 
 ---

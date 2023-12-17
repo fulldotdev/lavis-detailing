@@ -24,4 +24,7 @@ content_blocks:
       zorgt ervoor dat elk detail van uw voertuig perfect is afgewerkt, van de
       lak tot aan de velgen.</p>
     image:
+      _bookshop_name: elements/image
+      src: /auto-geel-voorkant-1280x1013.webp
+      alt:
 ---

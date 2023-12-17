@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Wat een vakmanschap! Arjen (Lavis Detailing) heeft de gehele auto gepolijst,
   steenslag bijgewerkt en vervolgens gecoat met een Titan Coating. Het
@@ -16,8 +15,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Thijs Winkels
-  tagline: Ford Fiesta MK 8
+
+title: Thijs Winkels
+tagline: Ford Fiesta MK 8
 
 ---

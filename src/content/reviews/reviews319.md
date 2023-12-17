@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   “Daar was via google Lavis-Detailing”
 
@@ -15,8 +14,8 @@ image:
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Auto Wiebe de
     Boer.webp
   alt: ''
-author:
-  name: Wiebe de Boer
-  tagline: 'Skoda Enyaq IV 80 '
+
+title: Wiebe de Boer
+tagline: 'Skoda Enyaq IV 80 '
 
 ---

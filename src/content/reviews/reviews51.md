@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Ik heb mijn golf 7 gte laten behandelen met een Opticoat pro 3 pakket + 3
   staps behandeling. Helaas was de auto er slechter aan toe dan verwacht, maar

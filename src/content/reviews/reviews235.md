@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Auto laten polijsten, zeer professioneel gedaan en daarom ook zeer blij met
   een kras vrije auto! Echt een aanrader!

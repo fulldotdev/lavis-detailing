@@ -19,6 +19,7 @@ images: []
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/ramen-reinigen.md
+  - src/content/categories/trc.md
 price: 5.49
 prices:
   options:
@@ -33,6 +34,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

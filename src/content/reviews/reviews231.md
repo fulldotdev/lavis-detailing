@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >
   Maand geleden ben ik langs geweest bij Lavis Detailing. Hier mijn auto een
   week achter gelaten en een volledige detail beurt laten uitvoeren met de gave

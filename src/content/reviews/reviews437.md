@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Arjen heeft de stoelen en achterbank gereinigd en ze zijn weer als nieuw. Ook
   nog het tapijt uitgezogen, wat dat betreft is hij een perfectionist. Ik kom
@@ -10,8 +9,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Hans
-  tagline: ''
+
+title: Hans
+tagline: ''
 
 ---

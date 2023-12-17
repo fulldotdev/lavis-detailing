@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Ik heb zowel mijn Mercedes S klasse als C klasse laten doen door Lavis
   Detailing. De service is perfect, het resultaat zelfs nog beter dan perfect.
@@ -7,8 +6,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Robert “RaccoonV”
-  tagline: ''
+
+title: Robert “RaccoonV”
+tagline: ''
 
 ---

@@ -18,7 +18,12 @@ images:
 categories:
   - src/content/categories/wassen.md
   - src/content/categories/sponzen.md
+  - src/content/categories/optimum-polymer-technologies.md
 price: 34.9
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
     type:
@@ -28,13 +33,13 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
-_structures:
-  choices:
-    values:
-      - label: Choice
-        value:
-          label:
-          options:
-            - name:
-              price:
+  prices:
+    hidden: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---

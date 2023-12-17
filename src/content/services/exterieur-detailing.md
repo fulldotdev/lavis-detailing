@@ -25,6 +25,9 @@ content_blocks:
       voor uw auto en voor uw specifieke wensen. Detailing levert altijd een
       super strak resultaat op!</p>
     image:
+      _bookshop_name: elements/image
+      src: /exterieur-detailing-1280x711.webp
+      alt:
   - _bookshop_name: src/content/blocks/offers
     writeup: "<h3>\_</h3><ul></ul>"
     offers:
@@ -45,6 +48,12 @@ content_blocks:
           - Lak ontvetten
           - Een high-end sealant aanbrengen
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <h3>2 Staps polijsten</h3><p>Een 2-staps polijstbehandeling, plus al
           het onderstaande.</p>
@@ -62,6 +71,12 @@ content_blocks:
           - Lak ontvetten
           - Een high-end sealant aanbrengen
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <h3>3 Staps polijsten</h3><p>Een 3- of 3-staps+ polijstbehandeling. De
           lak wordt zowel excentrisch als roterend behandeld voor een optimaal
@@ -81,4 +96,10 @@ content_blocks:
           - Lak ontvetten
           - Een high-end sealant aanbrengen
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
 ---

@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Auto laten polijsten, zeer professioneel gedaan en daarom ook zeer blij met
   een kras vrije auto! Echt een aanrader!
@@ -11,8 +10,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Rémon Scholten
-  tagline: ''
+
+title: Rémon Scholten
+tagline: ''
 
 ---

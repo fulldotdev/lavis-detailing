@@ -24,7 +24,12 @@ images:
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/labocosmetica.md
+  - src/content/categories/interieur.md
 price: 22.64
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
     type:
@@ -34,15 +39,15 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
-_structures:
-  choices:
-    values:
-      - label: Choice
-        value:
-          label:
-          options:
-            - name:
-              price:
+  prices:
+    hidden: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
 Veritas is de must have ontvetter, essentieel voor het aanbrengen van de coating of sealants. Je kan Veritas ook op een innovatieve manier gebruiken als een extra controle op de levensduur van de coating tijdens de wasfase. Veritas kan ook worden gebruikt als levenslijn tijdens het aanbrengen van een beschermende coatingvlek: in het geval dat er wat residu achterblijft of het behandelde oppervlak dat bijzonder gevoelig is, zal Veritas elk spoor van product op een eenvoudige manier elimineren en kunt u de bewerkingen herhalen. Veritas is uitgebreid onderzocht, ontwikkeld en getest in de MAFRA-laboratoria in samenwerking met de beste internationale detailleringscentra.
 

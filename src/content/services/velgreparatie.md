@@ -21,4 +21,7 @@ content_blocks:
       contact met ons op voor meer informatie of om een afspraak te maken.</p>
     buttons:
     image:
+      _bookshop_name: elements/image
+      src: /Velgen-poetsen-1280x854.webp
+      alt:
 ---

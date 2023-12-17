@@ -18,6 +18,9 @@ content_blocks:
       uw auto langer schoon blijft en minder vaak moet worden gewassen. Maar de
       voordelen gaan veel verder dan dat.</p>
     image:
+      _bookshop_name: elements/image
+      src: /image00036-1-1280x791.webp
+      alt:
   - _bookshop_name: src/content/blocks/offers
     writeup:
     offers:
@@ -37,6 +40,12 @@ content_blocks:
           - 'Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud'
           - 4/5 sterren hydrofoob
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <p>2 Laags coating</p><h3>Titan Coatings® PREMIUM</h3><p>Elite
           HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
@@ -54,6 +63,12 @@ content_blocks:
           - 5/5 sterren hydrofoob
           - Extra beschermd tegen chemische stoffen
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <p>3+ Laags coating</p><h3>Titan Coatings® EXCLUSIVE</h3><p>Elite
           HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
@@ -74,6 +89,12 @@ content_blocks:
           - Hydrocarbon technologie
           - Meer glans nog gladder oppervlakte
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in base</p><h2>TITAN COATING ZEUS</h2><p>Zeus™ is een elite
@@ -87,7 +108,16 @@ content_blocks:
       een topklasse glans, die nog verder verhoogd kan worden met de HydroTX145™
       Top Coat, voor uitmuntende hydrofobische eigenschappen.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/zeus
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-4.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in premium en exclusive</p><h2>TITAN COATING PX10</h2><p>De
@@ -97,7 +127,16 @@ content_blocks:
       Technology® versterkte super basis biedt permanente bescherming voor een
       veelvoud aan oppervlakken.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/px10
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-3.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in premium en exclusive</p><h2>TITAN COATING VULCAN</h2><p>De
@@ -108,7 +147,16 @@ content_blocks:
       onze Px10 basislaag, evenals het vermogen om zichzelf te regenereren en te
       herstellen van slijtage, swirls en lichte krassen.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/vulcantx155
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-2.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in exclusive</p><h2>TITAN COATING HYDRO TX145</h2><p>De
@@ -119,5 +167,14 @@ content_blocks:
       basislagen, en biedt ook de mogelijkheid om bestaande door Titan Coatings
       beschermde voertuigen snel en eenvoudig op te frissen.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/hydrotx145
     image:
+      _bookshop_name: elements/image
+      src: /titan-coatings-image-1.webp
+      alt:
 ---

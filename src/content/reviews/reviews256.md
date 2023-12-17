@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   “Daar was via google Lavis-Detailing”
 

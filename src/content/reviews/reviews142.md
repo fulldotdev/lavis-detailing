@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Wat een vakwerk! Arjen (LaVis Detailing) heeft twee auto’s van mij onder
   handen genomen. De oude lak van de ‘83 Escort vergt met polijsten een andere
@@ -14,8 +13,8 @@ image:
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ford Escort
     1300L 1983 Coating-1.webp
   alt: ''
-author:
-  name: Kevin Peters
-  tagline: Ford Escort 1300L 1983
+
+title: Kevin Peters
+tagline: Ford Escort 1300L 1983
 
 ---

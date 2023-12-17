@@ -1,5 +1,6 @@
 ---
-title: ''
+title: 'Bobby Zwaagman'
+tagline: Golf 7 GTI
 description: >-
   Mijn golf 7 gti performance hier gebracht, en kreeg um weer in nieuw staat
   binnen!
@@ -8,8 +9,4 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Bobby Zwaagman
-  tagline: 'Golf 7 GTI '
-
 ---

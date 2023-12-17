@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Ik heb hier mijn Mercedes GLE-e laten coating met Opticoat Pro 3 met
   levenslange garantie. Als auto op een parkeerterrein staat naast alle andere

@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Op aanbeveling van een eerdere klant terecht gekomen bij Lavis Detailing.
 

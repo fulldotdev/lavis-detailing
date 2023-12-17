@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >
   Maand geleden ben ik langs geweest bij Lavis Detailing. Hier mijn auto een
   week achter gelaten en een volledige detail beurt laten uitvoeren met de gave
@@ -18,8 +17,8 @@ image:
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Hyundai i30 N
     Performance Coating.webp
   alt: ''
-author:
-  name: Robin Barry
-  tagline: Hyundai i30 N Performance
+
+title: Robin Barry
+tagline: Hyundai i30 N Performance
 
 ---

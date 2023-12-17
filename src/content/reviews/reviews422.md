@@ -1,12 +1,11 @@
 ---
-title: ''
 description: |-
   Services: Car waxing, Paint repair
   Positive: Professionalism, Quality
 rating: 5
 image:
   alt: ''
-author:
-  name: Jordy Franssen
+
+title: Jordy Franssen
 
 ---

@@ -26,6 +26,9 @@ content_blocks:
       wat er uiteindelijk gedaan moet worden. Leer vereist een andere aanpak en
       zal zorgvuldig een diepe reiniging ondergaan.</p>
     image:
+      _bookshop_name: elements/image
+      src: /interieur-1280x968.webp
+      alt:
   - _bookshop_name: src/content/blocks/offers
     writeup: ''
     offers:
@@ -43,6 +46,12 @@ content_blocks:
             gemaakt en afgenomen
           - Binnenzijde ramen worden streeploos gereinigd
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <p>vanaf €175 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -59,6 +68,12 @@ content_blocks:
           - Licht reiniging dashboard, middenconsole en deurpanelen
           - Binnen zijde ramen worden streeploos gereinigd
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <p>vanaf €275 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -76,4 +91,10 @@ content_blocks:
           - Sponningen reinigen
           - Het dashboard en alle kunststof delen voeden
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
 ---

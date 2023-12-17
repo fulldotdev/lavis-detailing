@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Ik heb mijn golf 7 gte laten behandelen met een Opticoat pro 3 pakket + 3
   staps behandeling. Helaas was de auto er slechter aan toe dan verwacht, maar
@@ -10,8 +9,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Maxime Landstra
-  tagline: Volkswagen Golf 7 GTE
+
+title: Maxime Landstra
+tagline: Volkswagen Golf 7 GTE
 
 ---

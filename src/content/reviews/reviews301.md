@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Wij hebben de afgelopen 2 dagen onze Mercedes sprinter @north.thevan laten
   schoonmaken en polijsten. Er waren een hoop sticker resten en glans
@@ -17,8 +16,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Laura Kuivenhoven
-  tagline: Mercedes Sprinter
+
+title: Laura Kuivenhoven
+tagline: Mercedes Sprinter
 
 ---

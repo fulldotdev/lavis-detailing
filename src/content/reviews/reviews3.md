@@ -1,5 +1,5 @@
 ---
-title: 'Bas Winkels '
+title: Bas Winkels
 description: >-
   Heb de auto bij LavisDetailing gebracht voor een volledige 3 laagse Titan
   coating.
