@@ -16,8 +16,13 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vision-GL-05L-1.webp
     alt:
 categories:
-  -
+  - src/content/categories/gl.md
+  - src/content/categories/ramen-reinigen.md
 price: 10.99
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
     type:
@@ -27,15 +32,15 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
-_structures:
-  choices:
-    values:
-      - label: Choice
-        value:
-          label:
-          options:
-            - name:
-              price:
+  prices:
+    hidden: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
 ## Vision Glasreiniger
 

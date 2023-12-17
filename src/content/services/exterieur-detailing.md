@@ -25,6 +25,9 @@ content_blocks:
       voor uw auto en voor uw specifieke wensen. Detailing levert altijd een
       super strak resultaat op!</p>
     image:
+      _bookshop_name: elements/image
+      src: /exterieur-detailing-1280x711.webp
+      alt:
   - _bookshop_name: src/content/blocks/offers
     writeup: "<h3>\_</h3><ul></ul>"
     offers:
