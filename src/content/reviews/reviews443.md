@@ -1,5 +1,4 @@
 ---
-title: Robin Nota
 description: |-
   Goede service.
 
@@ -7,8 +6,8 @@ description: |-
 rating: 5
 image:
   alt: ''
-author:
-  name: Robin Nota
-  tagline: ''
+
+title: Robin Nota
+tagline: ''
 
 ---

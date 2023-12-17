@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Wat een vakwerk! Arjen (LaVis Detailing) heeft twee auto’s van mij onder
   handen genomen. De oude lak van de ‘83 Escort vergt met polijsten een andere

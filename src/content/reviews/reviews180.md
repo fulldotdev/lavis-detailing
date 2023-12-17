@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Vakmannen zijn het.
 
@@ -16,8 +15,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Marcel Bloem
-  tagline: ''
+
+title: Marcel Bloem
+tagline: ''
 
 ---

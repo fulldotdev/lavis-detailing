@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Ik heb hier mijn auto laten polijsten en ben erg tevreden met het resultaat en
   werd vriendelijk  geholpen.
@@ -11,8 +10,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Redmer de Boer
-  tagline: ''
+
+title: Redmer de Boer
+tagline: ''
 
 ---

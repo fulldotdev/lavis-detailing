@@ -1,5 +1,4 @@
 ---
-title: 'Bas Winkels '
 description: >-
   Heb de auto bij LavisDetailing gebracht voor een volledige 3 laagse Titan
   coating.
@@ -22,8 +21,8 @@ description: >-
 rating: 5
 image:
   alt: ''
-author:
-  name: Bas Winkels
-  tagline: 'Ford Fiesta ST '
+
+title: Bas Winkels
+tagline: 'Ford Fiesta ST '
 
 ---

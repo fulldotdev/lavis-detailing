@@ -6,8 +6,8 @@ description: |-
 rating: 5
 image:
   alt: ''
-author:
-  name: Jordy Franssen
-  tagline: ''
+
+title: Jordy Franssen
+tagline: ''
 
 ---

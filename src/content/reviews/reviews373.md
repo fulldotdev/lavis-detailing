@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Op aanbeveling van een eerdere klant terecht gekomen bij Lavis Detailing.
 
@@ -23,8 +22,8 @@ image:
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ford Focus ST
     Line Coating.webp
   alt: ''
-author:
-  name: Guido Wagenaar
-  tagline: Ford Focus ST Line
+
+title: Guido Wagenaar
+tagline: Ford Focus ST Line
 
 ---

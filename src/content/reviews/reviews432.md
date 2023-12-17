@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Had een gebruikte Passat variant gekocht in 'Night Blue metallic'. De auto was
   door de vorige eigenaar niet heel zorgvuldig behandeld en had veel kleine

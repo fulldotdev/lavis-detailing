@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >
   Wat een geweldige ervaring weer bij Lavis Detailing. Onze auto is in
   nieuwstaat, en dat dankzij Arjen en zijn team. Alle krassen zijn verwijderd en
@@ -12,8 +11,8 @@ image:
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/BMW X1
     Coating.webp
   alt: ''
-author:
-  name: Sebastiaan
-  tagline: BMW X1
+
+title: Sebastiaan
+tagline: BMW X1
 
 ---

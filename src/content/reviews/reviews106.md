@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Wat een vakmanschap! Arjen (Lavis Detailing) heeft de gehele auto gepolijst,
   steenslag bijgewerkt en vervolgens gecoat met een Titan Coating. Het

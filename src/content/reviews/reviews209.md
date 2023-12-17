@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Ongeveer een maandje geleden mijn auto laten polijsten en coaten met 1 laag
   titan px10 en titan vulcan dual layer bij Lavis. Ik was er een beetje
@@ -18,8 +17,8 @@ image:
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/VW Polo
     coating.webp
   alt: ''
-author:
-  name: Branco K
-  tagline: Volkswagen Polo
+
+title: Branco K
+tagline: Volkswagen Polo
 
 ---

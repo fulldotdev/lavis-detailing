@@ -1,5 +1,4 @@
 ---
-title: ''
 description: >-
   Topbedrijf profesioneel  weten wat ze doen, auto gaat er regelmatig heen voor
   de juiste behandeling en schoonmaaktechnieken.  zeer tevreden!!!
