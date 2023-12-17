@@ -54,8 +54,14 @@ content_blocks:
           - Binnen zijde ramen worden streeploos gereinigd
         buttons:
       - writeup: >-
-          <p>vanaf €275 ex. btw</p><h3>Exclusive</h3><p>voor zware vervuiling
-          rekenen wij een extra toeslag van €55 per uur</p>
+          <p>vanaf €275 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(4,5
+          uren)</p><h3>Exclusive</h3><p>voor zware vervuiling rekenen wij een
+          extra toeslag van €55 per uur</p>
         specs:
           - Alles in Basis
           - Diepte reiniging dashboard, middenconsole en deurpanelen
