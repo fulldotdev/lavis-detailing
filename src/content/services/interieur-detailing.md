@@ -29,7 +29,13 @@ content_blocks:
   - _bookshop_name: src/content/blocks/offers
     writeup: ''
     offers:
-      - writeup: <p>vanaf €95 ex. btw</p><h3>Basis</h3>
+      - writeup: >-
+          <p>vanaf €95 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (1.5 uren)</p><h3>Basis</h3>
         specs:
           - Stofzuigen gehele interieur
           - >-
