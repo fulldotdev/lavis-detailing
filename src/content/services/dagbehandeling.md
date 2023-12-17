@@ -41,6 +41,12 @@ content_blocks:
           - Een high-end sealant aanbrengen
           - Interieur opfrissen
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: <h3>Een stap verder</h3>
         specs:
           - Kwalitatieve Titan coatings
@@ -49,6 +55,12 @@ content_blocks:
           - Reparatie van uw velgen
           - En nog veel meer...
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Verfijnde Glans</p><h2>DIEPTE REINIGING</h2><p>Laat uw auto weer

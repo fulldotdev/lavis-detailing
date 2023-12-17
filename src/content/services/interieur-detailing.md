@@ -46,6 +46,12 @@ content_blocks:
             gemaakt en afgenomen
           - Binnenzijde ramen worden streeploos gereinigd
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <p>vanaf €175 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -62,6 +68,12 @@ content_blocks:
           - Licht reiniging dashboard, middenconsole en deurpanelen
           - Binnen zijde ramen worden streeploos gereinigd
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <p>vanaf €275 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -79,4 +91,10 @@ content_blocks:
           - Sponningen reinigen
           - Het dashboard en alle kunststof delen voeden
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
 ---

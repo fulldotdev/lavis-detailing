@@ -48,6 +48,12 @@ content_blocks:
           - Lak ontvetten
           - Een high-end sealant aanbrengen
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <h3>2 Staps polijsten</h3><p>Een 2-staps polijstbehandeling, plus al
           het onderstaande.</p>
@@ -65,6 +71,12 @@ content_blocks:
           - Lak ontvetten
           - Een high-end sealant aanbrengen
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
       - writeup: >-
           <h3>3 Staps polijsten</h3><p>Een 3- of 3-staps+ polijstbehandeling. De
           lak wordt zowel excentrisch als roterend behandeld voor een optimaal
@@ -84,4 +96,10 @@ content_blocks:
           - Lak ontvetten
           - Een high-end sealant aanbrengen
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
 ---
