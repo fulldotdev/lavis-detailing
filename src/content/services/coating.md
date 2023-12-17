@@ -4,7 +4,7 @@ seo:
   image:
     _bookshop_name: elements/image
 title: Coating
-description: Laat uw auto weer als nieuw lijken
+description: Ervaar onze premium coating
 image:
   _bookshop_name: elements/image
   src: >-
