@@ -27,6 +27,7 @@ images:
     alt:
 categories:
   - src/content/categories/sprayers.md
+  - src/content/categories/ik.md
 price: 29.5
 prices:
   options:
@@ -41,6 +42,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:
