@@ -22,8 +22,12 @@ images:
     alt:
 categories:
   - src/content/categories/doeken.md
-  - src/content/categories/the-liquid.md
+  - src/content/categories/trc.md
 price: 23.75
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
     type:
@@ -33,15 +37,15 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
-_structures:
-  choices:
-    values:
-      - label: Choice
-        value:
-          label:
-          options:
-            - name:
-              price:
+  prices:
+    hidden: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---
 ### Kenmerken:
 

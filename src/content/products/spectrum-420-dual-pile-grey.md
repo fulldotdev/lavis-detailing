@@ -24,7 +24,7 @@ categories:
   - src/content/categories/interieur.md
   - src/content/categories/exterieur.md
   - src/content/categories/doeken.md
-  - src/content/categories/spectrum.md
+  - src/content/categories/trc.md
 price: 4.2
 prices:
   options:
@@ -39,6 +39,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

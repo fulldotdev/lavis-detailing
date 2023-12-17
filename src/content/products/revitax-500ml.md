@@ -18,6 +18,8 @@ images:
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/labocosmetica.md
+  - src/content/categories/wassen.md
+  - src/content/categories/lak-bescherming.md
 price: 21.5
 prices:
   options:
@@ -32,6 +34,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

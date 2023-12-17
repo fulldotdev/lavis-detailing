@@ -16,10 +16,13 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/the-liquid8r-drying-towel-main.webp
     alt:
 categories:
-  - src/content/categories/overig.md
   - src/content/categories/doeken.md
-  - src/content/categories/the-liquid.md
+  - src/content/categories/trc.md
 price: 7.5
+prices:
+  options:
+    - key:
+      value:
 _inputs:
   description:
     type:
@@ -29,13 +32,13 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
-_structures:
-  choices:
-    values:
-      - label: Choice
-        value:
-          label:
-          options:
-            - name:
-              price:
+  prices:
+    hidden: true
+  key:
+    type: select
+    options:
+      allow_create: true
+      values:
+        - kleur
+        - maat
 ---

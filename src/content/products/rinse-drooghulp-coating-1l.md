@@ -22,6 +22,7 @@ images:
 categories:
   - src/content/categories/lak-bescherming.md
   - src/content/categories/gl.md
+  - src/content/categories/wassen.md
 price: 19.99
 prices:
   options:
@@ -36,6 +37,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:
