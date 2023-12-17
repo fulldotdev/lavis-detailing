@@ -49,6 +49,12 @@ content_blocks:
       goed te laten uitzien.</p><p>TRITON TX550™ is een coating die alleen voor
       professioneel gebruik is.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/tritontx550
     image:
       _bookshop_name: elements/image
       src: /triton-tx550-1179x1554.webp

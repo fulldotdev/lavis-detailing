@@ -90,6 +90,12 @@ content_blocks:
       een topklasse glans, die nog verder verhoogd kan worden met de HydroTX145™
       Top Coat, voor uitmuntende hydrofobische eigenschappen.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/zeus
     image:
       _bookshop_name: elements/image
       src: /titan-coatings-image-4.webp
@@ -103,6 +109,12 @@ content_blocks:
       Technology® versterkte super basis biedt permanente bescherming voor een
       veelvoud aan oppervlakken.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/px10
     image:
       _bookshop_name: elements/image
       src: /titan-coatings-image-3.webp
@@ -117,6 +129,12 @@ content_blocks:
       onze Px10 basislaag, evenals het vermogen om zichzelf te regenereren en te
       herstellen van slijtage, swirls en lichte krassen.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/vulcantx155
     image:
       _bookshop_name: elements/image
       src: /titan-coatings-image-2.webp
@@ -131,6 +149,12 @@ content_blocks:
       basislagen, en biedt ook de mogelijkheid om bestaande door Titan Coatings
       beschermde voertuigen snel en eenvoudig op te frissen.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/hydrotx145
     image:
       _bookshop_name: elements/image
       src: /titan-coatings-image-1.webp
