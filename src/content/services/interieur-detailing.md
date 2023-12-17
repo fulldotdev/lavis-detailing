@@ -37,7 +37,13 @@ content_blocks:
             gemaakt en afgenomen
           - Binnenzijde ramen worden streeploos gereinigd
         buttons:
-      - writeup: <p>vanaf €175 ex. btw</p><h3>Medium</h3>
+      - writeup: >-
+          <p>vanaf €175 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(3 uren)</p><h3>Medium</h3>
         specs:
           - Stofzuigen gehele interieur
           - Vloerbekleding Reinigen d.m.v. luchtdruk
