@@ -1,4 +1,5 @@
 ---
+import Prose from '@components/elements/Prose.astro'
 import Writeup from '@components/elements/Writeup.astro'
 import { type ButtonProps } from '@components/elements/button/Button.astro'
 import ButtonGroup from '@components/elements/button/ButtonGroup.astro'
@@ -21,6 +22,7 @@ interface Props {
   buttons?: ButtonProps[]
   channels?: boolean | null
   socials?: boolean | null
+  prose?: string | null
   image?: ImageProps | null
   deck?: DeckProps
   cards?: CardsBuilderItem[]
@@ -33,6 +35,7 @@ const {
   writeup,
   group,
   buttons,
+  prose,
   image,
   channels,
   socials,
@@ -54,6 +57,7 @@ const {
     />
     <Socials {socials} />
   </Segment>
+  <Prose {prose} />
   <Image {...image} />
   <Deck {...deck}>
     <RenderCards
