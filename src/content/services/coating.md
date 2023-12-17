@@ -15,7 +15,7 @@ content_blocks:
     prose: >-
       <h1>Titan Coatings®</h1><p>Door het aanbrengen van TITAN COATING® aan uw
       auto zorgt u ervoor dat vuil zich minder snel hecht aan de lak, waardoor
-      uw auto langer schoon blijft en minder vaak moet worden gewassen. Maar de
+      uw auto langer schoon blijft en makkelijker kan worden gewassen. Maar de
       voordelen gaan veel verder dan dat.</p>
     image:
       _bookshop_name: elements/image
@@ -40,12 +40,6 @@ content_blocks:
           - 'Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud'
           - 4/5 sterren hydrofoob
         buttons:
-          - _bookshop_name: elements/button
-            label: Plan een intake
-            href: /intake
-          - _bookshop_name: elements/button
-            label: Neem contact op
-            href: /contact
       - writeup: >-
           <p>2 Laags coating</p><h3>Titan Coatings® PREMIUM</h3><p>Elite
           HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
@@ -63,12 +57,6 @@ content_blocks:
           - 5/5 sterren hydrofoob
           - Extra beschermd tegen chemische stoffen
         buttons:
-          - _bookshop_name: elements/button
-            label: Plan een intake
-            href: /intake
-          - _bookshop_name: elements/button
-            label: Neem contact op
-            href: /contact
       - writeup: >-
           <p>3+ Laags coating</p><h3>Titan Coatings® EXCLUSIVE</h3><p>Elite
           HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
@@ -89,12 +77,6 @@ content_blocks:
           - Hydrocarbon technologie
           - Meer glans nog gladder oppervlakte
         buttons:
-          - _bookshop_name: elements/button
-            label: Plan een intake
-            href: /intake
-          - _bookshop_name: elements/button
-            label: Neem contact op
-            href: /contact
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in base</p><h2>TITAN COATING ZEUS</h2><p>Zeus™ is een elite
