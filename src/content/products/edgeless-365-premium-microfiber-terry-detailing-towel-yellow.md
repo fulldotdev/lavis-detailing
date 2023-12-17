@@ -21,7 +21,9 @@ images:
     alt:
 categories:
   - src/content/categories/doeken.md
-  - src/content/categories/eagle.md
+  - src/content/categories/exterieur.md
+  - src/content/categories/interieur.md
+  - src/content/categories/trc.md
 price: 3.1
 prices:
   options:
@@ -36,6 +38,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

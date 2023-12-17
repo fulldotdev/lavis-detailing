@@ -18,8 +18,6 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Microfiber-Terry-Detailing-Sponge-Applicator-Blue-1.webp
     alt:
 categories:
-  - src/content/categories/eagle.md
-  - src/content/categories/overig.md
   - src/content/categories/sponzen.md
 price: 3
 prices:
@@ -35,6 +33,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

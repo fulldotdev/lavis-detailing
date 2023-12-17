@@ -18,6 +18,7 @@ images:
 categories:
   - src/content/categories/interieur.md
   - src/content/categories/leer-bescherming.md
+  - src/content/categories/labocosmetica.md
 price: 20.49
 prices:
   options:
@@ -32,6 +33,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

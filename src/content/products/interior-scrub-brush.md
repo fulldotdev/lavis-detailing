@@ -20,6 +20,7 @@ images:
 categories:
   - src/content/categories/wassen.md
   - src/content/categories/borstels.md
+  - src/content/categories/interieur.md
 price: 14.75
 prices:
   options:
@@ -34,6 +35,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

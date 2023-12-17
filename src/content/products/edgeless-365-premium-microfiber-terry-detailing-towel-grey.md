@@ -16,7 +16,10 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-grey-corner__01644.1569957914__84851.1571895765.webp
     alt:
 categories:
-  - src/content/categories/eagle.md
+  - src/content/categories/doeken.md
+  - src/content/categories/interieur.md
+  - src/content/categories/exterieur.md
+  - src/content/categories/trc.md
 price: 3.1
 prices:
   options:
@@ -31,6 +34,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

@@ -23,9 +23,10 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-stack.webp
     alt:
 categories:
-  - src/content/categories/overig.md
   - src/content/categories/doeken.md
-  - src/content/categories/eagle.md
+  - src/content/categories/trc.md
+  - src/content/categories/exterieur.md
+  - src/content/categories/interieur.md
 price: 27
 prices:
   options:
@@ -40,6 +41,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

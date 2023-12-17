@@ -32,6 +32,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:
@@ -48,7 +50,7 @@ _inputs:
 * Veilig voor gebruik op elektronische apparatuur en computer- / mobiele telefoonschermen
 * Extreem duurzaam – Vermogen om honderden wasbeurten te weerstaan ​​met de juiste zorg
 * De zachtheid van de handdoek neemt toe met elke wasbeurt
-* ****Geproduceerd****&nbsp;&nbsp;op de&nbsp;&nbsp;****hoogste kwaliteit Duitse Microfiber productieapparatuur****&nbsp; (Karl Mayer)
+* ****Geproduceerd****&nbsp; op de &nbsp;****hoogste kwaliteit Duitse Microfiber productieapparatuur****&nbsp; (Karl Mayer)
 
 ### Hoe wassen?
 

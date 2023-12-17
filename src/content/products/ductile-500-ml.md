@@ -20,7 +20,6 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ductile2.webp
     alt:
 categories:
-  - src/content/categories/exterieur.md
   - src/content/categories/interieur.md
   - src/content/categories/labocosmetica.md
 price: 13.78
@@ -37,6 +36,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

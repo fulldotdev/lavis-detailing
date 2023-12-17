@@ -30,6 +30,8 @@ categories:
   - src/content/categories/detail-factory.md
   - src/content/categories/overig.md
   - src/content/categories/kwasten.md
+  - src/content/categories/interieur.md
+  - src/content/categories/exterieur.md
 price: 19.5
 prices:
   options:
@@ -44,6 +46,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:

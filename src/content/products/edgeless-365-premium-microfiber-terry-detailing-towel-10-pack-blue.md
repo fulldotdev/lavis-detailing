@@ -16,7 +16,10 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Edgeless-Royal-Blue-365-pack.webp
     alt:
 categories:
-  - src/content/categories/eagle.md
+  - src/content/categories/exterieur.md
+  - src/content/categories/interieur.md
+  - src/content/categories/trc.md
+  - src/content/categories/doeken.md
 prices:
   options:
     - key:
@@ -30,6 +33,8 @@ _inputs:
     type: multiselect
     options:
       allow_create: true
+  prices:
+    hidden: true
   key:
     type: select
     options:
