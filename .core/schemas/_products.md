@@ -1,27 +1,29 @@
 ---
-_stripe_product_id: 
-_stripe_price_id: 
+_stripe_product_id:
+_stripe_price_id:
+
+draft: false
 
 seo:
-  title: 
-  description: 
+  title:
+  description:
   image:
-    src: 
-    alt: 
+    src:
+    alt:
 
-title: 
-description: 
+title:
+description:
 images:
-  - src: 
-    alt: 
+  - src:
+    alt:
 categories:
-  - 
+  -
 
-price: 
+price:
 prices:
   price:
   options:
-    - key: 
+    - key:
       value:
 
 _inputs:
