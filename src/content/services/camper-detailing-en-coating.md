@@ -51,6 +51,12 @@ content_blocks:
       Technology® versterkte super basis biedt permanente bescherming voor een
       veelvoud aan oppervlakken.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/px10
     image:
       _bookshop_name: elements/image
       src: /titan-coatings-image-3.webp
@@ -65,6 +71,12 @@ content_blocks:
       onze Px10 basislaag, evenals het vermogen om zichzelf te regenereren en te
       herstellen van slijtage, swirls en lichte krassen.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Meer informatie
+        href: https://www.titan-coatings.com/files/file_download/vulcantx155
     image:
       _bookshop_name: elements/image
       src: /titan-coatings-image-2.webp

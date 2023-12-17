@@ -57,6 +57,9 @@ content_blocks:
       is de eerste stap naar een auto die niet alleen schoon is, maar ook glanst
       met vernieuwde pracht.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan een intake
+        href: /intake
     image:
       _bookshop_name: elements/image
       src: /auto-laten-polijsten-640x427.webp
@@ -68,6 +71,9 @@ content_blocks:
       Deze afwerking zorgt ervoor dat uw auto maandenlang zijn schitterende
       uitstraling behoudt, ongeacht de weersomstandigheden.</p>
     buttons:
+      - _bookshop_name: elements/button
+        label: Plan een intake
+        href: /intake
     image:
       _bookshop_name: elements/image
       src: /autolak-beschermen-640x427.webp
