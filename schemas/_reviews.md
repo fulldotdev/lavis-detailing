@@ -1,6 +1,7 @@
 ---
 rating: 5
-title: 
-description: 
+title:
+tagline:
+description:
 image:
 ---
