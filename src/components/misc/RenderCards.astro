@@ -26,7 +26,7 @@ const isCard = (item: any): item is Card =>
   typeof item === 'object' && !('slug' in item)
 
 const buildCardFromEntry = (entry: Entry): RenderCardProps => ({
-  href: getRouteByEntry(entry),
+  href: entry.collection === 'reviews' ? undefined : getRouteByEntry(entry),
   ...entry.data,
 })
 
