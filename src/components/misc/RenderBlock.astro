@@ -48,7 +48,10 @@ const {
 } = Astro.props
 
 // TODO: clean this up
-const formData = await getEntry('forms', form?.split('/').pop() || 'test123')
+const formName = form?.split('/').pop()?.replace('.md', '') || 'test'
+const formData = await getEntry('forms', formName)
+
+console.log(Astro.props)
 ---
 
 <Section {...section}>
@@ -66,7 +69,10 @@ const formData = await getEntry('forms', form?.split('/').pop() || 'test123')
   </Segment>
   <Prose {prose} />
   <Image {...image} />
-  <Form {...formData?.data} />
+  <Form
+    key={formData?.slug}
+    {...formData?.data}
+  />
   <Deck {...deck}>
     <RenderCards
       {cards}
