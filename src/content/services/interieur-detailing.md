@@ -84,6 +84,28 @@ content_blocks:
           - _bookshop_name: elements/button
             label: Neem contact op
             href: /contact
+  - _bookshop_name: src/content/blocks/offer
+    writeup: |
+      <h3>Extra mogelijkheden</h3>
+      <p>Wij bieden ook de mogelijkheid om uw interieur te voorzien van een geur naar keuze. Hier ziet u een selectie van de mogelijkheden.</p>
+    buttons:
+      - _bookshop_name: elements/button
+        label: Plan een intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Neem contact op
+        href: /contact
+    offers:
+      - _card_name: offers
+        specs:
+          - 'Stoel reinigen: €25, p/s'
+          - 'Achterbank reinigen: €40, impregneren tegen meerprijs'
+          - 'Lederen stoel reinigen en voeden: €35 p/s'
+          - 'Lederen achterbank reinigen en voeden: €55'
+          - 'Hemel bekleding reinigen: prijs op aanvraag'
+          - 'Titan Leather coating: prijs op aanvraag'
+          - 'Geur (ozon) behandeling: €90 (aanbevolen icm premium interieur behandeling)'
+          - 'Luchtkanaal behandeling, verwijderen van bacteriën en duffe geurtjes uit het ventilatiesysteem: €30'
   - _bookshop_name: src/content/blocks/reviews
     writeup: <h2>HIER DEDEN WE HET AL</h2>
     reviews:
