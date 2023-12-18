@@ -32,6 +32,9 @@ try {
 
   // Move all files from .core to the root
   copyDirectory('.temp', '.')
+
+  // Remove temporary directory
+  removeDirectory('.temp')
 } catch (error) {
   console.error(`An error occurred: ${error}`)
 }
