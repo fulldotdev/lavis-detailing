@@ -26,7 +26,7 @@ const variant = cva({
       relative: 'w-full h-auto relative',
       background: 'object-cover absolute inset-0 !h-full !w-full',
     },
-    orientation: {
+    ratio: {
       landscape: 'aspect-4/3',
       square: 'aspect-square',
       portrait: 'aspect-3/4',
@@ -68,6 +68,8 @@ function getSizes() {
   const joined = mapped.join(', ')
   return joined
 }
+
+console.log(getSrc())
 ---
 
 {

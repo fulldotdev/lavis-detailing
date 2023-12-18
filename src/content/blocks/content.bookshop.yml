@@ -19,8 +19,8 @@ preview:
 
 config:
   section:
-    layout: col
-    align:
+    layout: row
+    align: center
     frame: fill
     look:
     order:
@@ -35,6 +35,6 @@ config:
     layout: row
   image:
     position:
-    orientation:
+    ratio:
     
 _inputs:

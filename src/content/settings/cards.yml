@@ -32,8 +32,8 @@ reviews:
     hue:
     scheme:
   image:
-    position:
-    ratio:
+    position: 
+    ratio: square
 categories:
   card:
     frame: panel
