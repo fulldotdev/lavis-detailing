@@ -32,6 +32,7 @@ config:
     size: large
     hue:
     scheme:
+    class: '[&_h1]:lg:!text-80px'
   segment:
     layout: row
     align: center
