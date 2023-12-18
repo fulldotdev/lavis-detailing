@@ -33,8 +33,6 @@ const { Content } = await render()
     frame="float"
     class:list="!max-w-4xl lg:mx-auto !pt-size5 w-full"
   >
-    <Prose>
-      <Content />
-    </Prose>
+    <Prose Content={Content} />
   </Section>
 </ActionLayout>
