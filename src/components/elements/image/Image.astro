@@ -27,9 +27,9 @@ const variant = cva({
       background: 'object-cover absolute inset-0 !h-full !w-full',
     },
     ratio: {
-      landscape: 'aspect-4/3',
-      square: 'aspect-square',
-      portrait: 'aspect-3/4',
+      landscape: 'aspect-4/3 object-cover',
+      square: 'aspect-square object-cover',
+      portrait: 'aspect-3/4 object-cover',
     },
   },
   defaultVariants: {
@@ -68,8 +68,6 @@ function getSizes() {
   const joined = mapped.join(', ')
   return joined
 }
-
-console.log(getSrc())
 ---
 
 {

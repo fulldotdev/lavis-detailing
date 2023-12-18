@@ -2,8 +2,8 @@
 import { getEntryByPath, getRouteByEntry } from '@utils'
 import getCardConfig from '@utils/getCardConfig'
 import { type CollectionEntry, type ContentCollectionKey } from 'astro:content'
-import merge from 'deepmerge'
 import RenderCard, { type RenderCardProps } from './RenderCard.astro'
+
 export type CardsBuilderProps = Props
 export type CardsBuilderItem = Item
 
@@ -25,7 +25,7 @@ const isCard = (item: any): item is Card =>
   typeof item === 'object' && !('slug' in item)
 
 const buildCardFromEntry = (entry: Entry): RenderCardProps => ({
-  href: entry.collection === 'reviews' ? undefined : getRouteByEntry(entry),
+  href: getRouteByEntry(entry),
   ...entry.data,
 })
 
@@ -47,8 +47,12 @@ const getCardName = async (item: Item): Promise<string | undefined> => {
     const cardProps = await getCardProps(card)
     const cardName = await getCardName(card)
     const bookshopConfig = await getCardConfig(cardName)
-    const merged: any = merge(cardProps, bookshopConfig)
     if (!cardProps) return
-    return <RenderCard {...merged} />
+    return (
+      <RenderCard
+        {...cardProps}
+        {...bookshopConfig}
+      />
+    )
   })
 }
