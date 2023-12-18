@@ -279,7 +279,7 @@ _inputs:
         - relative
         - background
         - cover
-  image.orientation:
+  image.ratio:
     type: choice
     options:
       values:
