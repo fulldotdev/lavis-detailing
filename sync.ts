@@ -17,10 +17,6 @@ function copyDirectory(sourceDir: string, destDir: string) {
   fs.cpSync(sourceDir, destDir, { recursive: true })
 }
 
-function directoryExists(directory: string) {
-  return fs.existsSync(directory)
-}
-
 try {
   // Clone core
   execSync('git clone https://github.com/silveltman/core.git .core', {

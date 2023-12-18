@@ -37,9 +37,9 @@ const getCardProps = async (item: Item): Promise<Card | undefined> => {
 }
 
 const getCardName = async (item: Item): Promise<string | undefined> => {
+  if (item._card_name) return item._card_name
   if (isPath(item)) item = await getEntryByPath(item)
   if (isEntry(item)) return item.collection
-  else if (isCard(item)) item._card_name
 }
 ---
 
