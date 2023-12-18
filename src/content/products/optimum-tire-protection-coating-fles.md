@@ -16,7 +16,7 @@ description: >-
   maandenlang een goed uitziende band die gemakkelijk schoon te maken is.
   Makkelijk in gebruik, langdurige glans en milieuvriendelijk.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Tire-Protection-Coating-1L.webp
     alt: null
 categories:

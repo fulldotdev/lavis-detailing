@@ -18,7 +18,7 @@ description: >-
   Rubberen en vinyl oppervlakken blijven soepel, flexibel en behouden hun kleur
   bij regelmatig gebruik van Opti-Bond.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Bond-Tire-Gel-GALLON-1.webp
     alt: null
 categories:

@@ -15,7 +15,7 @@ description: >-
   lak effectief maar behoedzaam worden verwijderd van de lak, sealants en
   lakcoatings.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB23_2-600x584-1.webp
     alt: null
 categories:

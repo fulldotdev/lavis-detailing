@@ -12,7 +12,7 @@ seo:
 title: Glico 500 ML
 description: ''
 images:
-  - url: https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB99.webp
+  - src: https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB99.webp
     alt: null
 categories:
   - src/content/categories/labocosmetica.md

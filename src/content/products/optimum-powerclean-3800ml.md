@@ -12,7 +12,7 @@ seo:
 title: OPTIMUM PowerClean 3800ml
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/optimum-power-clean-3800-ml.webp
     alt: null
 categories:

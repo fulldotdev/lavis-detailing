@@ -16,7 +16,7 @@ description: >-
   van het voertuig af te voeren. Daarnaast verbetert het de glans en verzegelt
   door het gehalte aan SiO2.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Rinse-GL-1L-1.webp
     alt: null
 categories:

@@ -12,7 +12,7 @@ seo:
 title: Microfiber Terry Detailing Sponge Applicator - Blue
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Microfiber-Terry-Detailing-Sponge-Applicator-Blue.webp
     alt: null
 categories:

@@ -14,7 +14,7 @@ description: >-
   Deze witte nylon Interior Scrub Brush is perfect om vuil en roet weg te
   schrobben.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Interior-Scrub-Brush.webp
     alt: null
 categories:

@@ -15,7 +15,7 @@ description: >-
   product geeft een mooie zijdeachtige glans en het oppervlak wordt niet te
   vettig, waardoor het natuurlijke comfort van het leer behouden blijft.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Classic-GL-05L-1.webp
     alt: null
 categories:

@@ -12,7 +12,7 @@ seo:
 title: P&S Brake Buster Wheel Cleaner. - Spray
 description: a
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Brake-Buster-Spray.webp
     alt: null
 categories:

@@ -22,7 +22,7 @@ description: >-
   natte ondergronden. Temperatuurbestendig tot 250 ° C. Met Daimler (Mercedes)
   goedkeuring.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Motorplas-500-ml.webp
     alt: null
 categories:

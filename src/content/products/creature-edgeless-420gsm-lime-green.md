@@ -18,7 +18,7 @@ description: >+
   Koreaanse kwaliteitshanddoeken.
 
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-420GSM-LIME-GREEN.webp
     alt: null
 categories:

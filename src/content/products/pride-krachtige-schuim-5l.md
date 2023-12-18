@@ -18,7 +18,7 @@ description: >-
   verantwoorde manier van de lak wordt verwijderd. GL Pride schuimreiniger is
   geschikt voor het grondig en contactloos reinigen van uw auto.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Pride-GL-1L-scaled.webp
     alt: null
 categories:

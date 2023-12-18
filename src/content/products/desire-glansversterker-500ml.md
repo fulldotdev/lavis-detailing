@@ -16,7 +16,7 @@ description: >-
   gebruik en geeft een diepe wetlook finish. Tevens heeft het product een
   waterafstotende werking. Te gebruiken op metaal, verf, kunststof en rubber.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Desire-GL-05L-2.webp
     alt: null
 categories:

@@ -12,7 +12,7 @@ seo:
 title: Vision Glasreiniger - 5L
 description: aaa
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/VISION-GL-5L-1.webp
     alt: null
 categories:

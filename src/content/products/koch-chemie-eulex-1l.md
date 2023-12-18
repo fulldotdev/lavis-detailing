@@ -17,7 +17,7 @@ description: >-
   etc. Verdampt snel zonder residu achter te laten en bevat geen gehalogeneerde
   koolwaterstoffen.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eulex-1L.webp
     alt: null
 categories:

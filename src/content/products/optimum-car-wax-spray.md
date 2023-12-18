@@ -12,7 +12,7 @@ seo:
 title: OPTIMUM Car Wax - Spray
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Car-Wax-SPRAY.webp
     alt: null
 categories:

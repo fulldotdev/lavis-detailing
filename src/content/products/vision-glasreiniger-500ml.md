@@ -12,7 +12,7 @@ seo:
 title: Vision Glasreiniger - 500ml
 description: null
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vision-GL-05L-1.webp
     alt: null
 categories:

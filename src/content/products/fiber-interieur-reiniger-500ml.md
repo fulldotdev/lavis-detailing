@@ -12,7 +12,7 @@ seo:
 title: Fiber Interieur Reiniger - 500ml
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Fiber-GL-05L-2.webp
     alt: null
 categories:

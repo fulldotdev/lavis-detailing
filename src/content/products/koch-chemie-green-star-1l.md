@@ -12,7 +12,7 @@ seo:
 title: Koch Chemie Green Star (1L)
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Green-Star-1L.webp
     alt: null
 categories:

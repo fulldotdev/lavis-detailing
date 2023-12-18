@@ -21,7 +21,7 @@ description: >-
   achter die vrij is van strepen. Chemie Finish Spray is snel te verwijderen,
   gemakkelijk in gebruik en beschermt de oppervlakken tegen nieuw vuil.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Finish-Spray-Exterior-1L.webp
     alt: null
 categories:

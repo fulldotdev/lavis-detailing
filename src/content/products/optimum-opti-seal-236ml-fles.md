@@ -24,7 +24,7 @@ description: >-
   geseald om een ​​optimale glans te behouden. Het is een spraykit die binnen
   enkele minuten de duurzaamheid van traditionele kitten biedt.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Seal-LARGE.webp
     alt: null
 categories:

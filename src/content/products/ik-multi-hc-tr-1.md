@@ -15,7 +15,7 @@ description: >-
   veiligheid en gebruiksgemak. Ontworpen voor professioneel gebruik met de meest
   agressieve chemicaliën in verschillende sectoren.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ik-multi-hc-tr-1-trigger-sprayer-front.webp
     alt: null
 categories:

@@ -17,7 +17,7 @@ description: >-
   semi-matte uitstraling terug dankzij een speciaal onderhoudscomponentensysteem
   (micro-emulsie), dat stevig hecht aan het behandelde oppervlak.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Plast-Star-siliconolfrei-1L.webp
     alt: null
 categories:

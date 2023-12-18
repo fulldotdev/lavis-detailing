@@ -19,7 +19,7 @@ description: >-
   enige “dry-drag” wrijving die sommige gladde glazen handdoeken kunnen
   produceren.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Blue-Diamond-Glass-Towel-16x24-Layered-NEW-web.webp
     alt: null
 categories:

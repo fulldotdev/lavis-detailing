@@ -12,7 +12,7 @@ seo:
 title: OPTIMUM Opti-Bond Tire Gel - Gallon
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Bond-Tire-Gel-GALLON.webp
     alt: null
 categories:

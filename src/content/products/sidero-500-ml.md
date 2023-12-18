@@ -16,7 +16,7 @@ description: >-
   en ramen zoals veroorzaakt door spoorvervoer of parkeren naast staalfabrieken
   of treinstations of stadsvervuiling en zure regen.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LABOCOSMETICA-Sidero-500-ml.webp
     alt: null
 categories:

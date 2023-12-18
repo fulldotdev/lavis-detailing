@@ -24,7 +24,7 @@ description: >-
   krassen. Ze zullen ook goed werken op elk oppervlak dat geen agressieve
   schrobactie vereist.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-mini-2-pack.webp
     alt: null
 categories:

@@ -16,7 +16,7 @@ description: >-
   Allesreiniger of beter bekend als APC (all purpose cleaner). Een licht
   alkalisch schoonmaakmiddel wat de oppervlakken niet aantast.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Infinite-GL-1L-2.webp
     alt: null
 categories:

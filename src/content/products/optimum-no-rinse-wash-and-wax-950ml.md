@@ -18,7 +18,7 @@ description: >-
   gladde en glanzende afwerking achter die krasvrij is. Als u het apparaat op de
   juiste manier gebruikt, krijgt u geen krassen op het voertuigoppervlak.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-4-3be95e5fd242.webp
     alt: null
 categories:

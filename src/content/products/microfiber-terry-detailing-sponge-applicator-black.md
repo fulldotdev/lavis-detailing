@@ -14,7 +14,7 @@ description: >-
   De Microfiber Terry Detailing Sponge is een veelzijdige applicator voor
   detailspray.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Microfiber-Terry-Detailing-Sponge-Applicator-Blue-1.webp
     alt: null
 categories:

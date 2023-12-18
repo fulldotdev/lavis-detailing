@@ -12,7 +12,7 @@ seo:
 title: Detail Factory Detailing Brushes (Long)
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Boar-Hair-Brush.webp
     alt: null
 categories:

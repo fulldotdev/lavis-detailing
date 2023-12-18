@@ -17,7 +17,7 @@ description: >-
   als een echte leider in de industrie. Bij Lavis Detailing zijn we dan ook
   trots om dit product in ons assortiment te hebben.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ik-foam-pro-12-main.webp
     alt: null
 categories:

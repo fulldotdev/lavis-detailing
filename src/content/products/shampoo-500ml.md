@@ -15,7 +15,7 @@ description: >-
   automotive industrie. De shampoo is zeer zuinig in gebruik en tevens mild voor
   elk oppervlak.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Shampoo-GL-1L-1.webp
     alt: null
 categories:

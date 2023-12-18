@@ -16,7 +16,7 @@ description: >-
   Geschikt voor vrijwel alle toepassingen. Van het afnemen van detailers en
   spraywaxen tot polijstmiddelen en waxen.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Spectrum
       420 dual-pile 400x400.webp
     alt: null

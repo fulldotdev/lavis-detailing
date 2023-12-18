@@ -16,7 +16,7 @@ description: >-
   van metaal. Het verwijdert roest en aanslag, geeft een prachtige glans en laat
   een beschermlaagje achter.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Metal-GL-225gr-scaled.webp
     alt: null
 categories:

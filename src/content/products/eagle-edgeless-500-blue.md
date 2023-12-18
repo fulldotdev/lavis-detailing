@@ -12,7 +12,7 @@ seo:
 title: Eagle Edgeless 500 - Blue
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eagle-Edgeless-500-BLUE.webp
     alt: null
 categories:

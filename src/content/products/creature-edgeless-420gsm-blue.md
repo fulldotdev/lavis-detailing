@@ -17,7 +17,7 @@ description: >-
   onze topkwaliteit niet per se nodig hebben, best verkochte EAGLE EDGELESS
   Koreaanse kwaliteitshanddoeken.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-Pack-1.webp
     alt: null
 categories:

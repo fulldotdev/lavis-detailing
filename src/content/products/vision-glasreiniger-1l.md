@@ -15,7 +15,7 @@ description: >-
   automotive industrie. Met deze glasreiniger verwijder je eenvoudig en snel
   vet, vuil en andere verontreiniging.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vision-GL-1L-1.webp
     alt: null
 categories:

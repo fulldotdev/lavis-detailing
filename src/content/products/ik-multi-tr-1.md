@@ -16,7 +16,7 @@ description: >-
   professioneel gebruik met de meest agressieve chemicaliën in verschillende
   sectoren.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ik-multi-tr-1-trigger-sprayer-front.webp
     alt: null
 categories:

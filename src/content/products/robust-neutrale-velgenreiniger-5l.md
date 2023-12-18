@@ -16,7 +16,7 @@ description: >-
   verdichte wielen heeft, aluminium, blanke lak gespoten, matte wielen of
   durabright heeft… Het product weekt de metaaldeeltjes los van het materiaal!
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Robust-GL-1L-2.webp
     alt: null
 categories:

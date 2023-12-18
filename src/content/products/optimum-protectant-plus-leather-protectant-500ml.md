@@ -17,7 +17,7 @@ description: >-
   de oorspronkelijke kleur van deze oppervlakken te herstellen, eventuele
   krassen te verbergen en schade door de zon te voorkomen.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Leather-Protectant-SPRAY.webp
     alt: null
 categories:

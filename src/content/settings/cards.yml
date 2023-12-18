@@ -4,9 +4,10 @@ products:
     look: surface
     hue: base
     scheme: dark
+    class: '[&_p]:hidden'
   image:
     position: cover
-    ratio: portrait
+    ratio: square
 posts:
   card:
     frame: panel

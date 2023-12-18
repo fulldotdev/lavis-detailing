@@ -16,7 +16,7 @@ description: >-
   toepassingen, zijn de Edgeless 365 premium microfiber doekenbeste keuze voor
   reinigen, schrobben, afstoffen, dweilen, drogen, detailleren en afvegen.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-stack__09527.1569957914__54735.1571895764.webp
     alt: null
 categories:

@@ -16,7 +16,7 @@ description: >-
   glanzende finish wilt in jouw interieur, maar een satijnen uitstraling wat
   zorgt voor die 'natural look'.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Charming-GL-05L-2.webp
     alt: null
 categories:

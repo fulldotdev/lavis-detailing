@@ -19,7 +19,7 @@ description: >-
   kan worden verrijkt met Koch-Chemie GREEN STAR om een ​​Active Foam te creëren
   om snel hardnekkig vuil en insecten te verwijderen.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Gentle-Snow-Foam-1L.webp
     alt: null
 categories:

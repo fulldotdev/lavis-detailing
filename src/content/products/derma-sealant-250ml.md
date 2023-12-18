@@ -12,7 +12,7 @@ seo:
 title: Derma Sealant 250ML
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/966361045.webp
     alt: null
 categories:

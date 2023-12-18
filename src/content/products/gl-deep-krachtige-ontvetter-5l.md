@@ -15,7 +15,7 @@ description: >-
   multifunctionele ontvetter die veilig is voor elke ondergrond? Dan is Deep de
   juiste keuze.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Deep-GL-1L-3.webp
     alt: null
 categories:

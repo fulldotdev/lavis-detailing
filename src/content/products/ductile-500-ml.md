@@ -16,7 +16,7 @@ description: >-
   gebruikt op alle soorten oppervlakken, zowel voor binnen- als buitendelen van
   de auto.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ductile2.webp
     alt: null
 categories:

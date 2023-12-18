@@ -22,7 +22,7 @@ description: >-
   bevredigende ervaring. Dankzij de precisie en het ontwerp, kunt u het schuim
   produceren dat het beste bij uw behoeften past.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/IK-Multi-Pro-2-Main__98263.1579733735.1280.1280.webp
     alt: null
 categories:

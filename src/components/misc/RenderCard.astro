@@ -15,6 +15,7 @@ interface Props {
   href?: HTMLAttributes<'a'>['href']
   card?: CardProps
   image?: ImageProps
+  images?: ImageProps[]
   segment?: SegmentProps
   rating?: number | null
   writeup?: string | null
@@ -30,6 +31,7 @@ const {
   href,
   card,
   image,
+  images,
   segment,
   rating,
   writeup,
@@ -40,13 +42,17 @@ const {
   group,
   buttons,
 } = Astro.props
+
+// TODO: clean this up
+const myImage = images ? images[0] : image
+const mergedImage = { ...myImage, ...image }
 ---
 
 <Card
   {href}
   {...card}
 >
-  <Image {...image} />
+  <Image {...mergedImage} />
   <Segment {...segment}>
     <Rating {rating} />
     <Writeup

@@ -17,7 +17,7 @@ description: >-
   op het geverfde oppervlak, om de verf tot 5 maanden te beschermen tegen
   beschadiging door de zon en andere invloeden van buitenaf.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Car-Wax.webp
     alt: null
 categories:

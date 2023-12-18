@@ -19,7 +19,7 @@ description: >-
   restaurateurs en detailers. Daarnaast is de doek geselecteerd door het
   Huntington Beach Concours d’Elegance, als favoriete handdoek.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-stack.webp
     alt: null
 categories:

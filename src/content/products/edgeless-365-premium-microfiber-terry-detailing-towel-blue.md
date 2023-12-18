@@ -12,7 +12,7 @@ seo:
 title: Edgeless 365 premium microfiber terry detailing towel - Blue
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-royal-blue-corner__01000.1569957914__85541.1571895765.webp
     alt: null
 categories:

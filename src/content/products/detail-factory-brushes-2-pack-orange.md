@@ -21,7 +21,7 @@ description: >-
   Daarnaast zullen ze ook goed werken op oppervlakken die geen agressieve
   schrobactie vereisen.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-blue-2-pack-main-web-1.webp
     alt: null
 categories:

@@ -15,7 +15,7 @@ description: >-
   van een nanosealer, waardoor onvergelijkbare resultaten worden gegarandeerd
   met een extreem gebruiksgemak.
 images:
-  - url: https://storage.googleapis.com/fulldev-payload/lavis-detailing/Cupdio.webp
+  - src: https://storage.googleapis.com/fulldev-payload/lavis-detailing/Cupdio.webp
     alt: null
 categories:
   - src/content/categories/exterieur.md

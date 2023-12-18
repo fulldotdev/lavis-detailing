@@ -14,7 +14,7 @@ description: >-
   Deze Wheel &amp; Tire Scrub Brush is een zwarte nylon borstel en perfect om
   vuil en roet weg te schrobben.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Wheel-Tire-Scrub-Brush.webp
     alt: null
 categories:

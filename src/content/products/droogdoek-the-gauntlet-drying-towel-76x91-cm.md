@@ -12,7 +12,7 @@ seo:
 title: Droogdoek - The Gauntlet Drying Towel - 76x91 cm
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/the-gauntlet-drying-towel-20x30-dark-grey-side-main-copy-web.webp
     alt: null
 categories:

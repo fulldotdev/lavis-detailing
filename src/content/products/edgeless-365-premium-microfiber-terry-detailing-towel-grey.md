@@ -12,7 +12,7 @@ seo:
 title: Edgeless 365 premium microfiber terry detailing towel - Grey
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-grey-corner__01644.1569957914__84851.1571895765.webp
     alt: null
 categories:

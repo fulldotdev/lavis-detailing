@@ -15,10 +15,10 @@ description: >-
   coating of sealants. Je kan Veritas ook op een innovatieve manier gebruiken
   als een extra controle op de levensduur van de coating tijdens de wasfase.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB01_2-600x584-1.webp
     alt: null
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/tabel-textiel-reiniging-aangepast-WEB-scaled.webp
     alt: null
 categories:

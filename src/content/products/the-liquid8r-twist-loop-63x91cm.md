@@ -17,7 +17,7 @@ description: >-
   voorkeur als het gaat om microvezeldoeken, uit eigen ervaring kunnen wij de
   Liquid8r aanbevelen!
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-6-c04af3366798.webp
     alt: null
 categories:

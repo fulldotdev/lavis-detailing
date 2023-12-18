@@ -12,7 +12,7 @@ seo:
 title: Revitax 500ML
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/1898913240ff.webp
     alt: null
 categories:

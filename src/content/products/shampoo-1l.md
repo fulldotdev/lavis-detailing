@@ -12,7 +12,7 @@ seo:
 title: Shampoo - 1L
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Shampoo-GL-1L-2.webp
     alt: null
 categories:

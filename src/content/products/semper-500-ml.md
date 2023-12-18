@@ -20,7 +20,7 @@ description: >-
   formule zorgt ervoor dat de washmitt soepel over het oppervlak glijdt met een
   goed reinigende werking zodat de lak niet wordt beschadigd.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB02_2-600x584-1.webp
     alt: null
 categories:

@@ -1,5 +1,6 @@
 ---
 import Price from '@components/elements/Price.astro'
+import Prose from '@components/elements/Prose.astro'
 import Writeup from '@components/elements/Writeup.astro'
 import GalleryScroll from '@components/elements/gallery/GalleryScroll.svelte'
 import Image from '@components/elements/image/Image.astro'
@@ -52,8 +53,7 @@ const collection = await getCollection('products')
     </Segment>
   </Section>
   <Section>
-    <Content />
-    <!-- <Prose set:html={product.data.render()} /> -->
+    <Prose {Content} />
   </Section>
   <Section
     layout="col"

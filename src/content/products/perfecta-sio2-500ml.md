@@ -12,7 +12,7 @@ seo:
 title: Perfecta SiO2 500ML
 description: ''
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/perfecta-sio2.webp
     alt: null
 categories:

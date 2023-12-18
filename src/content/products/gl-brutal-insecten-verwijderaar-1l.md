@@ -17,7 +17,7 @@ description: >-
   zich aan de oppervlakte begint te hechten. De samenstelling van het product is
   zodanig dat het een coating of wax niet aantast.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/BRUTAL-GL-1L-2-700x700.webp
     alt: null
 categories:

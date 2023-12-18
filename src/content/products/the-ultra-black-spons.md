@@ -17,7 +17,7 @@ description: >-
   autospons kan zowel gebruikt worden met een rinseless wash als een normale
   autoshampoo.
 images:
-  - url: >-
+  - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-6-0bdeb1d50475.webp
     alt: null
 categories:
