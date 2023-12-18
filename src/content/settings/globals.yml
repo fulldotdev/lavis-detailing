@@ -1,4 +1,12 @@
+# nav:
 header:
+  frame: fill
+  look:
+  size: medium
+  scheme:
+  hue:
+  class: border-b border-hue6
+  
 cta:
   section:
     frame: panel
@@ -12,4 +20,11 @@ cta:
   group:
     layout: col
     importance:
+
 footer:
+  frame: fill
+  look:
+  size: medium
+  scheme:
+  hue:
+  class: border-t border-hue6
