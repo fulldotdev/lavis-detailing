@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8CyKBBLTKhqA
+_stripe_price_id: price_1OABwEA46xQDCsGFrLYPdd0A
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: The ultra black spons
 description: >-
   De Ultra Black Sponge, is een exclusieve autospons voorzien van de nieuwste
@@ -19,7 +19,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-6-0bdeb1d50475.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/wassen.md
@@ -27,11 +27,11 @@ categories:
 price: 31.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

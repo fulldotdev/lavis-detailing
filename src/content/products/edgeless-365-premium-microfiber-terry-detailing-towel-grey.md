@@ -1,20 +1,20 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8EhQQGWzNdFA
+_stripe_price_id: price_1OAByGA46xQDCsGFCB5kkwII
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Edgeless 365 premium microfiber terry detailing towel - Grey
 description: ''
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-grey-corner__01644.1569957914__84851.1571895765.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/doeken.md
   - src/content/categories/interieur.md
@@ -23,11 +23,11 @@ categories:
 price: 3.1
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

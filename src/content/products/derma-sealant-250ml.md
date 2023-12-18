@@ -1,20 +1,20 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8KgjtgBpd3o2
+_stripe_price_id: price_1OAC4AA46xQDCsGFz3wWzshD
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Derma Sealant 250ML
 description: ''
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/966361045.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/interieur.md
   - src/content/categories/leer-bescherming.md
@@ -22,11 +22,11 @@ categories:
 price: 20.49
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

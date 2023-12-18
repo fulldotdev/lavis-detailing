@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy5m2O9giRtN4M
+_stripe_price_id: '0'
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Rinse Drooghulp & Coating 1L
 description: >-
   Rinse Drooghulp &amp; Coating 1L is een droog-hulpmiddel, speciaal ontwikkeld
@@ -18,7 +18,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Rinse-GL-1L-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/lak-bescherming.md
   - src/content/categories/gl.md
@@ -26,11 +26,11 @@ categories:
 price: 19.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

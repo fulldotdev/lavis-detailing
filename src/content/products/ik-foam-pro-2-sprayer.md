@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7xQGPTQh9GEN
+_stripe_price_id: price_1OABhnA46xQDCsGFiImAkifv
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: IK FOAM PRO 2 SPRAYER
 description: >-
   Al meer dan 60 jaar ontwerpt en fabriceert de Goizper Group spuitmachines van
@@ -24,18 +24,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/IK-Foam-Pro-2-Main__41518.1579733735.1280.1280.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/sprayers.md
   - src/content/categories/ik.md
 price: 29.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7Nsu1gxDuCap
+_stripe_price_id: price_1OAB8fA46xQDCsGFXkWgSqO9
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Creature Edgeless 420GSM -  Blue
 description: >-
   Onze professionele Creature Edgeless microfiber multifunctionele handdoek van
@@ -19,7 +19,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-Pack-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/overig.md
   - src/content/categories/doeken.md
@@ -27,11 +27,11 @@ categories:
 price: 3.9
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

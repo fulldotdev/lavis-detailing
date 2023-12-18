@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy81oLvovc5KKA
+_stripe_price_id: price_1OABlpA46xQDCsGFBMCBI4CG
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Koch Chemie Plast Star (1L)
 description: >-
   Koch Chemie Plast Star is een siliconenolievrij premiumproduct op het gebied
@@ -19,18 +19,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Plast-Star-siliconolfrei-1L.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/interieur.md
 price: 20.4
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

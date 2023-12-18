@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8JSDYrdPGL9p
+_stripe_price_id: price_1OAC2oA46xQDCsGFVZEim3pk
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Cupido 500 ML
 description: >-
   Cupido combineert de glans en diepte van een carnauba wax met de bescherming
@@ -16,7 +16,7 @@ description: >-
   met een extreem gebruiksgemak.
 images:
   - url: https://storage.googleapis.com/fulldev-payload/lavis-detailing/Cupdio.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/lak-bescherming.md
@@ -24,11 +24,11 @@ categories:
 price: 22.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

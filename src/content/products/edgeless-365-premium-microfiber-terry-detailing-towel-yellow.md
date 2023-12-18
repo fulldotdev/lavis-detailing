@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7U61ZDXHwIkY
+_stripe_price_id: price_1OABzMA46xQDCsGFDvs254mL
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Edgeless 365 premium microfiber terry detailing towel -  Yellow
 description: >-
   Op zoek naar een uitstekende microvezeldoek? Dan ben je bij Lavis Detailing
@@ -18,7 +18,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-stack__09527.1569957914__54735.1571895764.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/doeken.md
   - src/content/categories/exterieur.md
@@ -27,11 +27,11 @@ categories:
 price: 3.1
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

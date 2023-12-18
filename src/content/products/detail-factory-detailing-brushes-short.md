@@ -1,20 +1,20 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy88CSWZBqdvcF
+_stripe_price_id: price_1OABs8A46xQDCsGFv9zenFyq
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Detail Factory Detailing Brushes (Short)
 description: "DETAIL FACTORY'S Detailing Brushes zijn onovertroffen in de branche voor zowel professionals als liefhebbers.\_Met een focus op het creëren van innovatieve tools die in een marktbehoefte voorzien en de concurrentie overtreffen, zijn wij er trots op het merk\_DETAIL FACTORY in ons assortiment te hebben. De BOAR'S HAIR-detailleringsborstels van DF zijn speciaal ontworpen voor middelzware tot zware reiniging van hardere auto-oppervlakken binnen en buiten uw voertuig."
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-1-bd004cb296bd.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/motorruimte.md
   - src/content/categories/kwasten.md
@@ -24,11 +24,11 @@ categories:
 price: 16.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

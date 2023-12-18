@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy81pf2Yi7DVla
+_stripe_price_id: price_1OABlFA46xQDCsGFRMYWMTup
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Koch Chemie Motorplas (500ml)
 description: >-
   Koch Chemie Motorplas is een natuurlijk, glanzende en waterverdringende
@@ -24,18 +24,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Motorplas-500-ml.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/motorruimte.md
   - src/content/categories/koch-chemie.md
 price: 11.4
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8BcJhFDDqXyn
+_stripe_price_id: price_1OABvbA46xQDCsGFoemIPqEb
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Pride krachtige schuim. -  5L
 description: >-
   Pride is een schuim/reiniger, speciaal ontwikkeld voor de auto-industrie. Door
@@ -20,7 +20,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Pride-GL-1L-scaled.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/motorruimte.md
@@ -30,11 +30,11 @@ categories:
 price: 59.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

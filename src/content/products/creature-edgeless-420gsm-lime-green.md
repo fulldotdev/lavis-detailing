@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7NdGHu3EmUnR
+_stripe_price_id: price_1OAB93A46xQDCsGFtOc8WuU4
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Creature Edgeless 420GSM - Lime Green
 description: >+
   Onze professionele Creature Edgeless microfiber multifunctionele handdoek van
@@ -20,17 +20,17 @@ description: >+
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-420GSM-LIME-GREEN.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/creature.md
 price: 3.9
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

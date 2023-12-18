@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy5kLLBZSD17Bu
+_stripe_price_id: price_1OA9Z2A46xQDCsGFMLCNhCnH
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: GL Deep krachtige ontvetter -  5L
 description: >-
   GL Deep krachtige ontvetter. Op zoek naar een zeer krachtige ontvetter? Een
@@ -17,7 +17,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Deep-GL-1L-3.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/motorruimte.md
@@ -25,11 +25,11 @@ categories:
 price: 49.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

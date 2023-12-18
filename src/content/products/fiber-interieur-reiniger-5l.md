@@ -1,31 +1,31 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7DQdPPXDWjWX
+_stripe_price_id: price_1OAAziA46xQDCsGF5BrOvpjs
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Fiber Interieur Reiniger - 5L
 description: ''
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/FIBER-GL-5L-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/gl.md
   - src/content/categories/interieur.md
 price: 44.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

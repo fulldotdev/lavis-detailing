@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8EEufKngYKNU
+_stripe_price_id: price_1OABxZA46xQDCsGFRMSmWm4T
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Premium Microfiber Glass Towel
 description: >-
   De Premium Glass Towel zorgt samen met je favoriete glasreiniger voor een
@@ -23,11 +23,11 @@ categories:
 price: 5.49
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

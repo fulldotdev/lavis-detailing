@@ -1,31 +1,31 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy89WfnWirlWJO
+_stripe_price_id: price_1OABslA46xQDCsGFmHyBv7gf
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Koch Chemie Pol Star (1L)
 description: "Koch Chemie Pol Star\_is een effectieve neutrale reiniger met een beschermingsformule voor leer, alcantara en textiel zoals stoffering en tapijten. Het vuil wordt diep uit de vezels verwijderd door schuimlamellen met fijne poriën en kan worden weggeveegd met een nat / droog stofzuiger of een vochtige microvezeldoek.\_Laat geen watervlekken achter en behoudt de oorspronkelijke waterdichtheid.\_De bespaarder beschermt de onderdelen tegen snel weer vuil worden."
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Koch-Chemie-Pol.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/koch-chemie.md
   - src/content/categories/interieur.md
 price: 9.45
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

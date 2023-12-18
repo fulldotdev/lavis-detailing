@@ -1,14 +1,12 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Detail Factory Brushes 2-pack -  Orange
 description: >-
   De Premium Detail Factory Brushes van Lavis Detailing Sneek zijn onovertroffen
@@ -25,7 +23,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-blue-2-pack-main-web-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/detail-factory.md
   - src/content/categories/overig.md
@@ -35,11 +33,11 @@ categories:
 price: 19.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

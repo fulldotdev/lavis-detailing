@@ -1,20 +1,20 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7ieGJizaMyXJ
+_stripe_price_id: price_1OABSdA46xQDCsGFOwNatRVM
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: The Big Red Sponge - Black
 description: "De nieuwste sponstechnologie, de\_Big Red Sponge\_is extra groot met een afmeting van 18 x 13 x 7,6 cm voor meer gebruiksgemak.\_Beide zijden van de spons zijn kruislings gesneden, waardoor kanalen ontstaan ​​die vuil uit de verf halen en ontsiering verminderen.\_Het poreuze schuim bevat veel reinigings- / smeeroplossing, waardoor grotere delen veilig kunnen worden gewassen voordat de spons wordt uitgewrongen en opnieuw wordt geladen. Deze Big Red-spons is van hoge kwaliteit en zal jarenlang professioneel gebruik bieden."
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Big-Red-Sponge-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/wassen.md
   - src/content/categories/sponzen.md
@@ -22,11 +22,11 @@ categories:
 price: 34.9
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

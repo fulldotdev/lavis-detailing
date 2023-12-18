@@ -1,20 +1,20 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7pdLuLuyQYba
+_stripe_price_id: price_1OABZxA46xQDCsGFUfjK8E2v
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: SOFT GRIP WHEEL AND BODY BRUSH
 description: "De Soft Grip Wheel and Body Brush,\_is speciaal ontworpen om wielen en banden grondig schoon te maken, maar dankzij de extreem zachte, groen gemarkeerde borstelharen is het ook veilig om op verf te gebruiken. Handig voor grills, rondom emblemen, deurstijlen, gestructureerde sierlijsten en overal waar verfveilig roeren vereist is."
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Green-Brush.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/wassen.md
   - src/content/categories/velgen-reiniger.md
@@ -22,11 +22,11 @@ categories:
 price: 19.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

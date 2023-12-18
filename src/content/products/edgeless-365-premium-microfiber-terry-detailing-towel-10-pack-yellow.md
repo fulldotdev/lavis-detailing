@@ -1,14 +1,12 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Edgeless 365 Premium Microfiber Terry Detailing Towel (10-pack) -  Yellow
 description: >-
   De Edgeless 365 detailingdoek. Maak kennis met deEdgeless 365 microfiber
@@ -22,7 +20,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-miner-stack-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/doeken.md
   - src/content/categories/interieur.md
@@ -31,11 +29,11 @@ categories:
 price: 27
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

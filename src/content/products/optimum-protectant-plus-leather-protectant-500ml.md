@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy83X7hd7Raevv
+_stripe_price_id: price_1OABmyA46xQDCsGFsJ2g6s9s
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Optimum Protectant Plus (Leather Protectant) 500ml
 description: >-
   Optimum Protectant Plus reinigt, herstelt en beschermt leer, vinyl en
@@ -19,7 +19,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Leather-Protectant-SPRAY.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/interieur.md
   - src/content/categories/leer-bescherming.md
@@ -27,11 +27,11 @@ categories:
 price: 18
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

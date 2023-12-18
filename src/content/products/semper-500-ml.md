@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8HeSyykaSyIe
+_stripe_price_id: price_1OAC0wA46xQDCsGFH9mjZGtY
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Semper 500 ML
 description: >-
   Semper is een pH neutrale super geconcentreerde shampoo. Deze shampoo is
@@ -22,7 +22,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB02_2-600x584-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/labocosmetica.md
@@ -30,11 +30,11 @@ categories:
 price: 16.01
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

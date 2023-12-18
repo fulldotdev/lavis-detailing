@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8BLS2M73HtpM
+_stripe_price_id: price_1OABvHA46xQDCsGF1Fc2lD69
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: OPTIMUM No Rinse Wash And Wax -  950ml
 description: >-
   Optimum No Rinse™ Wash and Wax is de snelste, gemakkelijkste en meest
@@ -20,7 +20,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-4-3be95e5fd242.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/wassen.md
@@ -28,11 +28,11 @@ categories:
 price: 28.4
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

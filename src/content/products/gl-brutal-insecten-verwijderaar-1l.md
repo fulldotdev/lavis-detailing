@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy5hCBnDEeCbrc
+_stripe_price_id: price_1OAB45A46xQDCsGFLmpvdGcD
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: GL brutal insecten verwijderaar 1L
 description: >-
   GL Brutal insectenverwijderaar maakt op een makkelijke en snelle manier een
@@ -19,18 +19,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/BRUTAL-GL-1L-2-700x700.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/gl.md
   - src/content/categories/exterieur.md
 price: 15.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

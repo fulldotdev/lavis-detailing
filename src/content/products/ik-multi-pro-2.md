@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7ynY1Zkp81yu
+_stripe_price_id: price_1OABitA46xQDCsGFhtpkOuz9
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: IK Multi Pro-2
 description: >-
   Al meer dan 60 jaar ontwerpt en fabriceert de Goizper Group spuitmachines van
@@ -24,18 +24,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/IK-Multi-Pro-2-Main__98263.1579733735.1280.1280.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/sprayers.md
   - src/content/categories/ik.md
 price: 26.75
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

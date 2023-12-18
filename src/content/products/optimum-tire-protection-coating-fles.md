@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7dEr4lxEhmLt
+_stripe_price_id: price_1OABNqA46xQDCsGFbhVMIozw
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: OPTIMUM Tire Protection Coating - Fles
 description: >-
   Optimum Tire Protection Coating Zorgt voor een langdurige glans en bescherming
@@ -18,18 +18,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Tire-Protection-Coating-1L.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/optimum-polymer-technologies.md
 price: 61.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

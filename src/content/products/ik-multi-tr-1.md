@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7zxShArmpMJV
+_stripe_price_id: price_1OABjGA46xQDCsGFNoSFCdww
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: IK Multi TR-1
 description: >-
   De IK Multi TR-1 is een serie spuitmachines uitgerust met de hoogste
@@ -18,18 +18,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ik-multi-tr-1-trigger-sprayer-front.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/sprayers.md
   - src/content/categories/ik.md
 price: 8.95
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

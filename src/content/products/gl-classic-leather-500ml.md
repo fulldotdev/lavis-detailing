@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy5k3xfnhM6sFf
+_stripe_price_id: price_1OA9rHA46xQDCsGFMiCkJA13
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: GL Classic Leather 500ml
 description: >-
   GL Classic Leather 500ml beschermt, verzorgt en verfraait het oppervlak. Dit
@@ -17,7 +17,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Classic-GL-05L-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/interieur.md
   - src/content/categories/leer-bescherming.md
@@ -25,11 +25,11 @@ categories:
 price: 19.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

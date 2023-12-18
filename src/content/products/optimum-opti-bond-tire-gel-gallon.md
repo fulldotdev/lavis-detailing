@@ -1,31 +1,31 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7ccAPaEC3ZuS
+_stripe_price_id: price_1OABN0A46xQDCsGFVxF0F5e8
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: OPTIMUM Opti-Bond Tire Gel - Gallon
 description: ''
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Bond-Tire-Gel-GALLON.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/optimum-polymer-technologies.md
   - src/content/categories/exterieur.md
 price: 60.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:
