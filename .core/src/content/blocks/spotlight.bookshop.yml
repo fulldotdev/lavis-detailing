@@ -1,7 +1,9 @@
+_schema: spotlight
+
 spec:
   structures:
     - content_blocks
-  label: Hero
+  label: Spotlight
 
 blueprint:
   writeup:
@@ -10,7 +12,7 @@ blueprint:
 
 preview:
   writeup: |
-    <h1>Lorem ipsum dolor sit</h1>
+    <h2>Lorem ipsum dolor sit</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
   buttons:
     - label: Lorem ipsum
@@ -18,24 +20,24 @@ preview:
     - label: Lorem ipsum
       href: '#'
   image:
-    src: https://picsum.photos/seed/picsum/1600/900
+    src: https://picsum.photos/seed/picsum/800/600
     alt: Lorem ipsum dolor sit
 
 config:
   section:
-    layout: col
-    align:
+    layout: row
+    align: center
     frame: fill
     look:
-    order:
-    size: large
+    order: switch
+    size:
     hue:
     scheme:
   segment:
     layout: col
     align:
   group:
-    importance: primary
+    importance: secondary
     layout: row
   image:
     position:

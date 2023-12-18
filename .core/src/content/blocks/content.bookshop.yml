@@ -1,22 +1,18 @@
+_schema: content
+
 spec:
   structures:
     - content_blocks
-  label: Hero
+  label: Content
 
 blueprint:
-  writeup:
-  buttons:
+  prose:
   image: 
 
 preview:
-  writeup: |
-    <h1>Lorem ipsum dolor sit</h1>
+  prose: |
+    <h2>Lorem ipsum dolor sit</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
-  buttons:
-    - label: Lorem ipsum
-      href: '#'
-    - label: Lorem ipsum
-      href: '#'
   image:
     src: https://picsum.photos/seed/picsum/1600/900
     alt: Lorem ipsum dolor sit
@@ -28,7 +24,7 @@ config:
     frame: fill
     look:
     order:
-    size: large
+    size:
     hue:
     scheme:
   segment:
@@ -40,5 +36,5 @@ config:
   image:
     position:
     ratio:
-
+    
 _inputs:

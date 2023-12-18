@@ -33,4 +33,4 @@ config:
     layout: row
   image:
     position:
-    orientation:
+    ratio:

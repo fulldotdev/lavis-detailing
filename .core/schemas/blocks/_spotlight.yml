@@ -39,6 +39,6 @@ config:
     layout: row
   image:
     position:
-    orientation:
+    ratio:
 
 _inputs:
