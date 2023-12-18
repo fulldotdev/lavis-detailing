@@ -1,4 +1,5 @@
 import type { Preset } from 'unocss'
+import readYaml from '../utils/readYaml'
 import { buildVariant } from './functions/buildVariant'
 import {
   getBorderRadiusClasses,
@@ -17,7 +18,9 @@ import {
   getSpacingSizeRules,
 } from './functions/getSpacing'
 
-export default function preset({ scale = 1, rounded = 'none' }: any): Preset {
+export default function preset(): Preset {
+  const theme: any = readYaml('../content/settings/theme.yml')
+  const { scale, rounded } = theme.sizes
   return {
     name: 'unocss-preset-sizes',
     safelist: [

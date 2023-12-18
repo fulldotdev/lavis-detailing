@@ -1,14 +1,10 @@
 import type { Preset } from 'unocss'
 import { presetRadix } from 'unocss-preset-radix'
+import readYaml from '../utils/readYaml'
 
-export default function preset({
-  base = 'slate',
-  brand = 'blue',
-  accent = 'green',
-  scheme = 'light',
-} // texture = 'solid',
-// contrast = false,
-: any): Preset {
+export default function preset(): Preset {
+  const theme: any = readYaml('../content/settings/theme.yml')
+  const { base, brand, accent, scheme, texture, contrast } = theme.colors
   return {
     name: 'unocss-preset-colors',
     safelist: [
