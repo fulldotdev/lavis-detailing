@@ -7,6 +7,7 @@ import Textarea, {
   type TextareaProps,
 } from '@components/elements/textarea/Textarea.astro'
 import type { HTMLAttributes } from 'astro/types'
+import { getEntry } from 'astro:content'
 import type { ButtonProps } from './button/Button.astro'
 import Checkbox, { type CheckboxProps } from './checkbox/Checkbox.astro'
 
@@ -26,7 +27,8 @@ const components: any = {
   checkbox: Checkbox,
 }
 
-const {
+let {
+  form,
   title,
   key,
   inputs,
@@ -35,15 +37,21 @@ const {
     href: '/bedankt',
   },
 } = Astro.props
+
+const formName = form?.split('/').pop()?.replace('.md', '') || 'myplaceholder'
+const formEntry = await getEntry('forms', formName)
+const formData = formEntry ? formEntry.data : Astro.props
+console.log(formData)
 ---
 
 {
-  key && inputs && (
+  formData.inputs && (
     <form
-      action={button.href}
+      action={formData.href}
       class="gap-size2 flex w-full max-w-xl flex-col text-left"
     >
-      {inputs?.map((input: any) => {
+      {formData.inputs?.map((input: any) => {
+        console.log(input)
         const key = input._bookshop_name.split('/').pop()
         const Component = components[key]
         return <Component {...input} />
@@ -57,7 +65,7 @@ const {
       <input
         type="hidden"
         name="inbox_key"
-        value={key}
+        value={key || formData.slug}
       />
       <input
         type="text"
@@ -65,10 +73,10 @@ const {
         style="display: none;"
       />
       <button
-        class="bg-hue9 hue-brand text-hue-fg hover:bg-hue10 active:bg-hue11 gap-xs rounded-size1 p-size3 text-button inline-flex cursor-pointer items-center justify-center whitespace-nowrap text-center transition active:scale-95 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50"
+        class="button-primary hue-brand mt-size2"
         type="submit"
       >
-        {button.label}
+        {formData.button.label}
       </button>
     </form>
   )
