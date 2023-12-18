@@ -138,16 +138,4 @@ content_blocks:
       _bookshop_name: elements/image
       src: auto-wassen-afbeelding-lavis-1-1280x720 (1).webp
       alt:
-  - _bookshop_name: src/content/blocks/cta
-    writeup: >-
-      <p>&nbsp;Beoordeeld met 5 sterren uit 30+ reviews</p><h2>PLAN EEN
-      INTAKE</h2><p>Maak vandaag nog een afspraak en geniet van een als nieuwe
-      auto</p>
-    buttons:
-      - _bookshop_name: elements/button
-        label: Plan intake
-        href: intake
-      - _bookshop_name: elements/button
-        label: Bekijk diensten
-        href: diensten
 ---

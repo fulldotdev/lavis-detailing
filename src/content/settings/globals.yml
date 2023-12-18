@@ -1,0 +1,15 @@
+header:
+cta:
+  section:
+    frame: panel
+    look: surface
+    size: large
+    hue:
+    scheme:
+  segment:
+    layout: row
+    align: center
+  group:
+    layout: col
+    importance:
+footer:
