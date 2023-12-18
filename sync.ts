@@ -18,11 +18,9 @@ function copyDirectory(sourceDir, destDir) {
 }
 
 try {
-  // Remove .core directory
-  removeDirectory('.core')
   // Pull latest changes from core
   execSync(
-    'git subtree add --prefix .core https://github.com/silveltman/core.git main',
+    'git subtree pull --prefix .core https://github.com/silveltman/core.git main',
     { stdio: 'inherit' }
   )
 
