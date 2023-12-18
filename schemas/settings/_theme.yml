@@ -50,6 +50,27 @@ fonts:
     class:
 
 # -----------------------------------------------
+# ELEMENTS
+# -----------------------------------------------
+element:
+  button:
+    primary:
+      look: solid
+      hue: brand
+      class:
+    secondary:
+      look: surface
+      hue: brand
+      class:
+    tertiary:
+      look: ghost
+      hue: brand
+      class:
+  input:
+    look: surface
+    class:
+
+# -----------------------------------------------
 # INPUTS / COLORS
 # -----------------------------------------------
 _inputs:
@@ -148,3 +169,14 @@ _inputs:
         - wide
         - wider
         - widest
+        
+  # -----------------------------------------------
+  # INPUTS / ELEMENTS
+  # -----------------------------------------------
+  input.look:
+    type: choice
+    options:
+      values:
+        - surface
+        - soft
+        - outline

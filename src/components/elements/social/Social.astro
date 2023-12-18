@@ -1,7 +1,5 @@
 ---
-import getElementConfig from '@utils/getElementConfig'
 import { getEntry } from 'astro:content'
-import { variant } from '../button/Button.astro'
 const company = await getEntry('globals', 'company').then(({ data }) => data)
 
 interface Props {
@@ -9,7 +7,6 @@ interface Props {
 }
 
 const { key } = Astro.props
-const config = await getElementConfig('social')
 
 const map = {
   facebook: {
@@ -50,7 +47,7 @@ const map = {
 {
   company.socials[key] && (
     <a
-      class:list={[variant(config), 'mode-compact size-small']}
+      class="button-secondary"
       href={map[key].href}
       target="_blank"
     >

@@ -1,37 +1,18 @@
 ---
-import getElementConfig from '@utils/getElementConfig'
-import { cva } from 'cva'
-
+export type InputProps = Props
 interface Props {
   label: string
   required?: boolean
   type?: 'text' | 'email' | 'tel' | 'url' | 'number'
 }
 
-export const variant = cva({
-  base: 'p-size2 rounded-size2',
-  variants: {
-    look: {
-      surface:
-        'bg-hue2 text-hue12 ring ring-inset ring-hue6 hover:(ring-hue7) active:(ring-hue8)',
-      soft: 'bg-hue3 text-hue12 hover:(ring ring-inset ring-hue7) active:(ring ring-inset ring-hue8)',
-      outline:
-        'bg-transparent text-hue12 ring-2 ring-inset ring-hue6 hover:(ring-hue7) active:(ring-hue8)',
-    },
-  },
-  defaultVariants: {
-    look: 'surface',
-  },
-})
-
 const { label, required, type = 'text' } = Astro.props
-const config = await getElementConfig('input')
 ---
 
 <div class="gap-size1 flex flex-col">
   <label for={label}>{label}</label>
   <input
-    class={variant(config)}
+    class="input"
     id={label}
     name={label}
     {type}

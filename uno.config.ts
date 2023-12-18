@@ -2,6 +2,7 @@ import transformerDirectives from '@unocss/transformer-directives'
 import transformerVariantGroup from '@unocss/transformer-variant-group'
 import { defineConfig, presetIcons, presetUno } from 'unocss'
 import presetColors from './src/unocss/presetColors'
+import presetElements from './src/unocss/presetElements'
 import presetFonts from './src/unocss/presetFonts'
 import presetSizes from './src/unocss/presetSizes'
 
@@ -31,6 +32,7 @@ export default defineConfig({
     presetColors(),
     presetSizes(),
     presetFonts(),
+    presetElements(),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
 })

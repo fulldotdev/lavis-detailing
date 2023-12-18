@@ -1,24 +1,18 @@
 ---
 import type { HTMLAttributes } from 'astro/types'
-import { cva } from 'cva'
-import bookshop from './link.bookshop.yml'
 
 export type LinkProps = Props
 interface Props {
-  label: string | null
-  href: HTMLAttributes<'a'>['href']
+  label?: string | null
+  href?: HTMLAttributes<'a'>['href'] | null
 }
-
-const variant = cva({
-  base: 'link text-size-inherit text-hue11 hover:text-hue12',
-})
 
 const { href, label } = Astro.props
 ---
 
 <a
   href={href}
-  class={variant(bookshop.config)}
+  class="link text-size-inherit text-hue11 hover:text-hue12"
 >
   {label}
 </a>

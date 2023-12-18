@@ -1,35 +1,16 @@
 ---
-import getElementConfig from '@utils/getElementConfig'
-import { cva } from 'cva'
-
+export type CheckboxProps = Props
 interface Props {
   label: string
   required?: boolean
 }
 
-export const variant = cva({
-  base: 'gap-size3 p-size2 flex mt-size2 px-size3',
-  variants: {
-    look: {
-      surface:
-        'bg-hue2 text-hue12 ring ring-inset ring-hue6 hover:(ring-hue7) active:(ring-hue8)',
-      soft: 'bg-hue3 text-hue12 hover:(ring ring-inset ring-hue7) active:(ring ring-inset ring-hue8)',
-      outline:
-        'bg-transparent text-hue12 ring-2 ring-inset ring-hue6 hover:(ring-hue7) active:(ring-hue8)',
-    },
-  },
-  defaultVariants: {
-    look: 'surface',
-  },
-})
-
 const { label, required } = Astro.props
-const config = await getElementConfig('checkbox')
 ---
 
 <label
   for={label}
-  class={variant(config)}
+  class="input"
 >
   <input
     type="checkbox"

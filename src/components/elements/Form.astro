@@ -1,15 +1,22 @@
 ---
-import Input from '@components/elements/input/Input.astro'
-import Select from '@components/elements/select/Select.astro'
-import Textarea from '@components/elements/textarea/Textarea.astro'
+import Input, { type InputProps } from '@components/elements/input/Input.astro'
+import Select, {
+  type SelectProps,
+} from '@components/elements/select/Select.astro'
+import Textarea, {
+  type TextareaProps,
+} from '@components/elements/textarea/Textarea.astro'
 import type { HTMLAttributes } from 'astro/types'
-import Checkbox from './checkbox/Checkbox.astro'
+import type { ButtonProps } from './button/Button.astro'
+import Checkbox, { type CheckboxProps } from './checkbox/Checkbox.astro'
 
+export type FormProps = Props
 interface Props {
-  title: HTMLAttributes<'input'>['value']
-  key: HTMLAttributes<'input'>['value']
-  button: any
-  inputs: any[]
+  form?: string | null
+  title?: HTMLAttributes<'input'>['value'] | null
+  key?: HTMLAttributes<'input'>['value'] | null
+  inputs?: (InputProps | SelectProps | CheckboxProps | TextareaProps)[] | null
+  button?: ButtonProps | null
 }
 
 const components: any = {
@@ -22,11 +29,11 @@ const components: any = {
 const {
   title,
   key,
+  inputs,
   button = {
     label: 'Verstuur',
     href: '/bedankt',
   },
-  inputs,
 } = Astro.props
 ---
 

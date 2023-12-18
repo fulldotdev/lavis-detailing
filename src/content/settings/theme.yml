@@ -38,6 +38,23 @@ fonts:
     uppercase: false
     tracking: normal
     class:
+elements:
+  button:
+    primary:
+      look: solid
+      hue: brand
+      class:
+    secondary:
+      look: soft
+      hue: brand
+      class:
+    tertiary:
+      look: ghost
+      hue: brand
+      class:
+  input:
+    look: surface
+    class:
 _inputs:
   base:
     type: select

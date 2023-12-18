@@ -5,7 +5,7 @@ import Spec from './Spec.astro'
 
 type Props = Omit<SpecProps, 'label'> &
   ListProps & {
-    specs: SpecProps[]
+    specs?: SpecProps[] | null
   }
 
 const { specs, ...restProps } = Astro.props
@@ -15,7 +15,7 @@ const { specs, ...restProps } = Astro.props
   {
     specs?.map((spec) => (
       <Spec
-        label={spec}
+        spec={spec.label}
         {...restProps}
       />
     ))

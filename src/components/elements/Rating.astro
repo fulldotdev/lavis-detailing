@@ -1,14 +1,7 @@
 ---
-import getElementConfig from '@utils/getElementConfig'
-import { cva } from 'cva'
-
 interface Props {
   rating?: number | null
 }
-
-const variant = cva({
-  base: 'gap-xs hue-brand text-text flex',
-})
 
 const percentageClasses = (num: number) => {
   if (!rating) return
@@ -18,12 +11,11 @@ const percentageClasses = (num: number) => {
 }
 
 const { rating } = Astro.props
-const config = await getElementConfig('rating')
 ---
 
 {
   rating && (
-    <div class={variant(config)}>
+    <div class="gap-xs hue-brand text-text flex">
       {[1, 2, 3, 4, 5].map((num) => (
         <i
           class="icon:star-filled h-1.25em w-1.25em [&+&]:-ml.4em"

@@ -12,17 +12,19 @@ import type { HTMLAttributes } from 'astro/types'
 
 export type RenderCardProps = Props
 interface Props {
+  // Href
   href?: HTMLAttributes<'a'>['href']
+  // Elements and wrappers
   card?: CardProps
   image?: ImageProps
   images?: ImageProps[]
   segment?: SegmentProps
   rating?: number | null
   writeup?: string | null
-  title?: string | null
   tagline?: string | null
+  title?: string | null
   description?: string | null
-  specs?: string[]
+  specs?: string[] | null
   group?: GroupProps
   buttons?: ButtonProps[]
 }

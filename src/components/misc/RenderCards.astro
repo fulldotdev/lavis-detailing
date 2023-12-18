@@ -1,55 +1,48 @@
 ---
 import { getEntryByPath, getRouteByEntry } from '@utils'
-import getCardConfig from '@utils/getCardConfig'
-import { type CollectionEntry, type ContentCollectionKey } from 'astro:content'
+import { getEntry, type CollectionEntry } from 'astro:content'
 import merge from 'deepmerge'
 import RenderCard, { type RenderCardProps } from './RenderCard.astro'
 
-export type CardsBuilderProps = Props
-export type CardsBuilderItem = Item
-
-type Entry = CollectionEntry<ContentCollectionKey>
-type Path = `${string}${Entry['collection']}/${Entry['id']}`
-type Card = RenderCardProps & { _card_name?: string }
-
-type Item = Card | Entry | Path | undefined
 interface Props {
-  cards?: Item[]
+  // Collections
+  categories?: CollectionEntry<'categories'>[] | null
+  posts?: CollectionEntry<'posts'>[] | null
+  products?: CollectionEntry<'products'>[] | null
+  reviews?: CollectionEntry<'reviews'>[] | null
+  services?: CollectionEntry<'services'>[] | null
+  // Static cards
+  features?: RenderCardProps[] | null
+  highlights?: RenderCardProps[] | null
+  offers?: RenderCardProps[] | null
 }
 
-const { cards } = Astro.props
+const cardsConfig = await getEntry('settings', 'cards')
 
-const isPath = (item: any): item is Path => typeof item === 'string'
-const isEntry = (item: any): item is Entry =>
-  typeof item === 'object' && 'slug' in item
-const isCard = (item: any): item is Card =>
-  typeof item === 'object' && !('slug' in item)
-
-const buildCardFromEntry = (entry: Entry): RenderCardProps => ({
-  href: entry.collection === 'reviews' ? undefined : getRouteByEntry(entry),
+const buildCardFromEntry = (entry: any): RenderCardProps => ({
+  href: getRouteByEntry(entry),
   ...entry.data,
 })
 
-const getCardProps = async (item: Item): Promise<Card | undefined> => {
-  if (isPath(item)) item = await getEntryByPath(item)
-  if (isEntry(item)) return buildCardFromEntry(item)
-  else if (isCard(item)) return item
+const getCardProps = async (item: any): Promise<any> => {
+  if (typeof item === 'string') item = await getEntryByPath(item)
+  if (typeof item === 'object' && 'slug' in item)
+    return buildCardFromEntry(item)
+  else return item
 }
 
-const getCardName = async (item: Item): Promise<string | undefined> => {
-  if (item._card_name) return item._card_name
-  if (isPath(item)) item = await getEntryByPath(item)
-  if (isEntry(item)) return item.collection
+let cards = []
+for (const [key, value] of Object.entries(Astro.props)) {
+  if (!value) continue
+  const config = cardsConfig?.data[key]
+  const mergedCards = value?.map(async (item: any) => {
+    const props: any = await getCardProps(item)
+    return merge(props, config)
+  })
+  const results = await Promise.all(mergedCards)
+  cards.push(...results)
 }
+cards = cards.flat()
 ---
 
-{
-  cards?.map(async (card) => {
-    const cardProps: any = await getCardProps(card)
-    const cardName = await getCardName(card)
-    const bookshopConfig = await getCardConfig(cardName)
-    const merged: any = merge(cardProps, bookshopConfig)
-    if (!cardProps) return
-    return <RenderCard {...merged} />
-  })
-}
+{cards.map((card: any) => <RenderCard {...card} />)}

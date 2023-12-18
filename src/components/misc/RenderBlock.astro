@@ -6,50 +6,68 @@ import { type ButtonProps } from '@components/elements/button/Button.astro'
 import ButtonGroup from '@components/elements/button/ButtonGroup.astro'
 import ChannelGroup from '@components/elements/channel/ChannelGroup.astro'
 import Image, { type ImageProps } from '@components/elements/image/Image.astro'
-import Socials from '@components/elements/social/SocialGroup.astro'
-import type { CardsBuilderItem } from '@components/misc/RenderCards.astro'
+import SocialGroup from '@components/elements/social/SocialGroup.astro'
 import RenderCards from '@components/misc/RenderCards.astro'
 import Deck, { type DeckProps } from '@components/wrappers/Deck.astro'
 import { type GroupProps } from '@components/wrappers/Group.astro'
 import Section, { type SectionProps } from '@components/wrappers/Section.astro'
 import Segment, { type SegmentProps } from '@components/wrappers/Segment.astro'
-import { getEntry } from 'astro:content'
+import { type CollectionEntry } from 'astro:content'
+import type { RenderCardProps } from './RenderCard.astro'
 
 interface Props {
-  _bookshop_name?: string
-  section?: SectionProps
-  segment?: SegmentProps
+  // Elements and wrappers
+  section?: SectionProps | null
+  segment?: SegmentProps | null
   writeup?: string | null
-  group: GroupProps
-  buttons?: ButtonProps[]
+  group: GroupProps | null
+  buttons?: ButtonProps[] | null
   channels?: boolean | null
   socials?: boolean | null
   prose?: string | null
-  form: string
+  form: string | null
   image?: ImageProps | null
-  deck?: DeckProps
-  cards?: CardsBuilderItem[]
+  deck?: DeckProps | null
+  // Collections
+  categories?: CollectionEntry<'categories'>[] | null
+  posts?: CollectionEntry<'posts'>[] | null
+  products?: CollectionEntry<'products'>[] | null
+  reviews?: CollectionEntry<'reviews'>[] | null
+  services?: CollectionEntry<'services'>[] | null
+  // Static cards
+  features?: RenderCardProps[] | null
+  highlights?: RenderCardProps[] | null
+  offers?: RenderCardProps[] | null
 }
 
 const {
-  _bookshop_name,
+  // Elements and wrappers
   section,
   segment,
   writeup,
   group,
   buttons,
-  prose,
-  image,
-  form,
   channels,
   socials,
+  prose,
+  form,
+  image,
   deck,
-  cards,
+  // Collections
+  categories,
+  posts,
+  products,
+  reviews,
+  services,
+  // Static cards
+  features,
+  highlights,
+  offers,
 } = Astro.props
 
 // TODO: clean this up
-const formName = form?.split('/').pop()?.replace('.md', '') || 'test'
-const formData = await getEntry('forms', formName)
+// const formName = form?.split('/').pop()?.replace('.md', '') || 'test'
+// const formData = await getEntry('forms', formName)
 ---
 
 <Section {...section}>
@@ -63,18 +81,21 @@ const formData = await getEntry('forms', formName)
       {channels}
       {...group}
     />
-    <Socials {socials} />
+    <SocialGroup {socials} />
   </Segment>
   <Prose {prose} />
   <Image {...image} />
-  <Form
-    key={formData?.slug}
-    {...formData?.data}
-  />
+  <Form {form} />
   <Deck {...deck}>
     <RenderCards
-      {cards}
-      block_name={_bookshop_name}
+      {categories}
+      {posts}
+      {products}
+      {reviews}
+      {services}
+      {features}
+      {highlights}
+      {offers}
     />
   </Deck>
 </Section>

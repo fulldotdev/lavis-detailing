@@ -14,7 +14,8 @@ export default async (): Promise<StaticPaths[]> => {
   const entries = await getAllEntries()
   const staticPaths = entries.map((entry) => ({
     params: {
-      route: getRouteByEntry(entry),
+      route:
+        getRouteByEntry(entry) === '/' ? undefined : getRouteByEntry(entry),
     },
     props: {
       entry: entry,

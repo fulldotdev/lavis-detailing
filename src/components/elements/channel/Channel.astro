@@ -1,7 +1,5 @@
 ---
-import getElementConfig from '@utils/getElementConfig'
 import { getEntry } from 'astro:content'
-import { variant } from '../button/Button.astro'
 const company = await getEntry('globals', 'company').then(({ data }) => data)
 
 export type ChannelProps = Props
@@ -10,7 +8,6 @@ interface Props {
 }
 
 const { key } = Astro.props
-const config = await getElementConfig('channel')
 
 const map = {
   email: {
@@ -44,7 +41,7 @@ const map = {
   company.channels[key] && (
     <div class="gap-size3 mode-compact size-medium flex items-center">
       <a
-        class={variant(config)}
+        class="button-secondary"
         href={map[key].href}
         target="_blank"
       >

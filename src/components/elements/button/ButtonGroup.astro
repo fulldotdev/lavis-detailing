@@ -23,12 +23,11 @@ const getImportance = (i: number) => {
 
 <Group {...restProps}>
   {
-    Array.isArray(buttons) &&
-      buttons?.map((button, i) => (
-        <Button
-          {...button}
-          importance={getImportance(i)}
-        />
-      ))
+    buttons?.map((button, i) => (
+      <Button
+        {...button}
+        importance={getImportance(i)}
+      />
+    ))
   }
 </Group>

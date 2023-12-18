@@ -1,7 +1,5 @@
 ---
-import { variant } from '../input/Input.astro'
-import bookshop from './select.bookshop.yml'
-
+export type SelectProps = Props
 interface Props {
   label: string
   options: string[]
@@ -17,7 +15,7 @@ const { label, options, required } = Astro.props
     id={label}
     name={label}
     {required}
-    class={variant(bookshop.config)}
+    class="input"
   >
     <option
       value="Niks geselecteerd"

@@ -2,7 +2,6 @@
 import type { HTMLAttributes } from 'astro/types'
 import { Image as AstroImage } from 'astro:assets'
 import { cva, type VariantProps } from 'cva'
-import bookshop from './image.bookshop.yml'
 
 export type ImageProps = Props
 type Props = VariantProps<typeof variant> & {
@@ -44,7 +43,6 @@ const {
   sizes = {
     base: '100vw',
   },
-  ...restProps
 } = Astro.props
 
 function getSrc() {
@@ -82,7 +80,6 @@ function getSizes() {
       widths={[640, 768, 1024, 1280, 1536, 1920]}
       sizes={getSizes()}
       loading={loading}
-      class={variant({ ...bookshop.config, ...restProps })}
     />
   )
 }
