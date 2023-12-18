@@ -14,8 +14,9 @@ posts:
     hue:
     scheme:
   image:
-    position: cover
-    ratio: portrait
+    position:
+    ratio:
+    class: mask
 services:
   card:
     frame: panel

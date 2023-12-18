@@ -34,12 +34,7 @@ content_blocks:
     offers:
       - _card_name: offers
         writeup: >-
-          <p>vanaf €95 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (1.5 uren)</p><h3>Basis</h3>
+          <p>vanaf €95 ex. btw (1.5 uren)</p><h3>Basis</h3>
         specs:
           - Stofzuigen gehele interieur
           - >-
@@ -55,12 +50,7 @@ content_blocks:
             href: /contact
       - _card_name: offers
         writeup: >-
-          <p>vanaf €175 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(3 uren)</p><h3>Medium</h3>
+          <p>vanaf €175 ex. btw (3 uren)</p><h3>Medium</h3>
         specs:
           - Stofzuigen gehele interieur
           - Vloerbekleding Reinigen d.m.v. luchtdruk
@@ -78,13 +68,7 @@ content_blocks:
             href: /contact
       - _card_name: offers
         writeup: >-
-          <p>vanaf €275 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(4,5
-          uren)</p><h3>Exclusive</h3><p>voor zware vervuiling rekenen wij een
+          <p>vanaf €275 ex. btw (4,5uren)</p><h3>Exclusive</h3><p>voor zware vervuiling rekenen wij een
           extra toeslag van €55 per uur</p>
         specs:
           - Alles in Basis

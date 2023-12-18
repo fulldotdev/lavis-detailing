@@ -24,7 +24,8 @@ content_blocks:
   - _bookshop_name: src/content/blocks/offers
     writeup:
     offers:
-      - writeup: >-
+      - _card_name: offers
+        writeup: >-
           <p>1 Laags coating</p><h3>Titan Coatings® BASE</h3><p>HyperQuartz®
           koolstofelastomeer coating. TITAN bevat onze High Performance
           HyperQuartz® Carbon-technologie. Zowel organische als anorganische
@@ -40,7 +41,14 @@ content_blocks:
           - 'Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud'
           - 4/5 sterren hydrofoob
         buttons:
-      - writeup: >-
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
+      - _card_name: offers
+        writeup: >-
           <p>2 Laags coating</p><h3>Titan Coatings® PREMIUM</h3><p>Elite
           HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
           geavanceerde coatings op de markt die zowel organische als
@@ -57,7 +65,14 @@ content_blocks:
           - 5/5 sterren hydrofoob
           - Extra beschermd tegen chemische stoffen
         buttons:
-      - writeup: >-
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
+      - _card_name: offers
+        writeup: >-
           <p>3+ Laags coating</p><h3>Titan Coatings® EXCLUSIVE</h3><p>Elite
           HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
           geavanceerde coatings op de markt die zowel organische als
@@ -77,6 +92,12 @@ content_blocks:
           - Hydrocarbon technologie
           - Meer glans nog gladder oppervlakte
         buttons:
+          - _bookshop_name: elements/button
+            label: Plan een intake
+            href: /intake
+          - _bookshop_name: elements/button
+            label: Neem contact op
+            href: /contact
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in base</p><h2>TITAN COATING ZEUS</h2><p>Zeus™ is een elite

@@ -32,4 +32,4 @@ config:
     layout: row
   deck:
     layout: masonry
-    size:
+    size: large

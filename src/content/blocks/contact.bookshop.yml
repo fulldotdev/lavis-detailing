@@ -30,16 +30,17 @@ preview:
 config:
   section:
     layout: col
-    align:
+    align: center
     frame: fill
     look:
     order:
-    size: large
+    size: medium
     hue:
     scheme:
   segment:
     layout: col
     align:
+    class: max-w-xl
   group:
     layout: col
 
