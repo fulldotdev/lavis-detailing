@@ -50,8 +50,6 @@ const {
 // TODO: clean this up
 const formName = form?.split('/').pop()?.replace('.md', '') || 'test'
 const formData = await getEntry('forms', formName)
-
-console.log(Astro.props)
 ---
 
 <Section {...section}>

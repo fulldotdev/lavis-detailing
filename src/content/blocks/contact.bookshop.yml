@@ -31,7 +31,7 @@ config:
   section:
     layout: row
     align:
-    frame: fill
+    frame: 
     look:
     order:
     size: medium
