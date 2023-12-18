@@ -18,7 +18,7 @@ inputs:
     label: Bericht
     required: true
 button:
-  - _bookshop_name: elements/button
-    label: Verstuur bericht
-    href: /bedankt
+  _bookshop_name: elements/button
+  label: Verstuur bericht
+  href: /bedankt
 ---

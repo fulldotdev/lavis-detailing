@@ -15,14 +15,14 @@ columns:
         label: Dagbehandeling
         href: /diensten/dagbehandeling
       - _bookshop_name: elements/link
-        label: Boot detailing en coating
-        href: /diensten/boot-detailing-en-coating
-      - _bookshop_name: elements/link
         label: Schadeherstel
         href: /diensten/schadeherstel
       - _bookshop_name: elements/link
         label: Velgreparatie
         href: /diensten/velgreparatie
+      - _bookshop_name: elements/link
+        label: Boot detailing en coating
+        href: /diensten/boot-detailing-en-coating
       - _bookshop_name: elements/link
         label: Camper detailing en coating
         href: /diensten/camper-detailing-en-coating

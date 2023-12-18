@@ -1,6 +1,6 @@
 ---
+import getElementConfig from '@utils/getElementConfig'
 import { variant } from '../input/Input.astro'
-import bookshop from './textarea.bookshop.yml'
 
 interface Props {
   label: string
@@ -8,13 +8,14 @@ interface Props {
 }
 
 const { label, required } = Astro.props
+const config = await getElementConfig('textarea')
 ---
 
 <div class="gap-size1 flex flex-col">
   <label for={label}>{label}</label>
   <textarea
     rows="5"
-    class={variant(bookshop.config)}
+    class={variant(config)}
     id={label}
     name={label}
     {required}

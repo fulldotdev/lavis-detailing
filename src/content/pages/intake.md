@@ -15,5 +15,5 @@ content_blocks:
       het beste kan gebruiken. Op basis hiervan geven we een prijsindicatie.</p>
     channels:
     socials:
-    form:
+    form: src/content/forms/intake.md
 ---

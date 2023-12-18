@@ -12,8 +12,7 @@ description: Wij herstellen uw beschadigde velgen weer naar hun oorspronkelijke 
 image:
   _bookshop_name: elements/image
   src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/velgreparatie
-    afbeelding.webp
+    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Velgen-poetsen.webp
   alt: ''
 ---
 Bent u op zoek naar een betrouwbare garage waar u uw lichtmetalen wielen opnieuw kunt laten stralen? Of heeft uw auto velgschade die vakkundig en efficiënt verholpen moet worden? Kijk niet verder! Bij Lavis Detailing, gelegen in de prachtige stad Sneek, zijn wij gespecialiseerd in het leveren van kwalitatieve velgreparaties die zijn ontworpen om uw beschadigde velgen weer zo goed als nieuw te maken.

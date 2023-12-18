@@ -98,6 +98,46 @@ content_blocks:
           - _bookshop_name: elements/button
             label: Neem contact op
             href: /contact
+  - _bookshop_name: src/content/blocks/reviews
+    writeup: <h2>HIER DEDEN WE HET AL</h2>
+    reviews:
+      - src/content/reviews/reviews129.md
+      - src/content/reviews/reviews164.md
+      - src/content/reviews/reviews17.md
+      - src/content/reviews/reviews170.md
+      - src/content/reviews/reviews180.md
+      - src/content/reviews/reviews235.md
+      - src/content/reviews/reviews247.md
+      - src/content/reviews/reviews267.md
+      - src/content/reviews/reviews220.md
+      - src/content/reviews/reviews273.md
+      - src/content/reviews/reviews288.md
+      - src/content/reviews/reviews210.md
+      - src/content/reviews/reviews292.md
+      - src/content/reviews/reviews302.md
+      - src/content/reviews/reviews466.md
+      - src/content/reviews/reviews347.md
+      - src/content/reviews/reviews301.md
+      - src/content/reviews/reviews315.md
+      - src/content/reviews/reviews443.md
+      - src/content/reviews/reviews360.md
+      - src/content/reviews/reviews369.md
+      - src/content/reviews/reviews106.md
+      - src/content/reviews/reviews313.md
+      - src/content/reviews/reviews371.md
+      - src/content/reviews/reviews422.md
+      - src/content/reviews/reviews437.md
+      - src/content/reviews/reviews415.md
+      - src/content/reviews/reviews435.md
+      - src/content/reviews/reviews5.md
+      - src/content/reviews/reviews51.md
+      - src/content/reviews/reviews60.md
+      - src/content/reviews/reviews7.md
+      - src/content/reviews/reviews483.md
+      - src/content/reviews/reviews497.md
+      - src/content/reviews/reviews92.md
+      - src/content/reviews/reviews99.md
+      - src/content/reviews/reviews330.md
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in base</p><h2>TITAN COATING ZEUS</h2><p>Zeus™ is een elite

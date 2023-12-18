@@ -1,4 +1,5 @@
 ---
+import Form from '@components/elements/Form.astro'
 import Prose from '@components/elements/Prose.astro'
 import Writeup from '@components/elements/Writeup.astro'
 import { type ButtonProps } from '@components/elements/button/Button.astro'
@@ -12,6 +13,7 @@ import Deck, { type DeckProps } from '@components/wrappers/Deck.astro'
 import { type GroupProps } from '@components/wrappers/Group.astro'
 import Section, { type SectionProps } from '@components/wrappers/Section.astro'
 import Segment, { type SegmentProps } from '@components/wrappers/Segment.astro'
+import { getEntry } from 'astro:content'
 
 interface Props {
   _bookshop_name?: string
@@ -23,6 +25,7 @@ interface Props {
   channels?: boolean | null
   socials?: boolean | null
   prose?: string | null
+  form: string
   image?: ImageProps | null
   deck?: DeckProps
   cards?: CardsBuilderItem[]
@@ -37,11 +40,18 @@ const {
   buttons,
   prose,
   image,
+  form,
   channels,
   socials,
   deck,
   cards,
 } = Astro.props
+
+// TODO: clean this up
+const formName = form?.split('/').pop()?.replace('.md', '') || 'test'
+const formData = await getEntry('forms', formName)
+
+console.log(Astro.props)
 ---
 
 <Section {...section}>
@@ -59,6 +69,10 @@ const {
   </Segment>
   <Prose {prose} />
   <Image {...image} />
+  <Form
+    key={formData?.slug}
+    {...formData?.data}
+  />
   <Deck {...deck}>
     <RenderCards
       {cards}
