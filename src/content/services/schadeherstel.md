@@ -27,4 +27,12 @@ content_blocks:
       _bookshop_name: elements/image
       src: /auto-geel-voorkant-1280x1013.webp
       alt:
+  - _bookshop_name: src/content/blocks/services-secondary
+    writeup: <h2>Perfect te combineren met<h2/>
+    buttons:
+    services:
+      - src/content/services/exterieur-detailing.md
+      - src/content/services/interieur-detailing.md
+      - src/content/services/dagbehandeling.md
+      - src/content/services/coating.md
 ---
