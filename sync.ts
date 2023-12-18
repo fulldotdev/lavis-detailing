@@ -20,7 +20,7 @@ function copyDirectory(sourceDir, destDir) {
 try {
   // Pull latest changes from core
   execSync(
-    'git subtree add --prefix .core https://github.com/silveltman/core.git main',
+    'git subtree pull --prefix .core https://github.com/silveltman/core.git main',
     { stdio: 'inherit' }
   )
 
@@ -31,9 +31,6 @@ try {
 
   // Move all files from .core to the root
   copyDirectory('.core', '.')
-
-  // Remove .core directory
-  removeDirectory('.core')
 } catch (error) {
   console.error(`An error occurred: ${error}`)
 }
