@@ -50,7 +50,7 @@ const map = {
 {
   company.socials[key] && (
     <a
-      class={variant(config)}
+      class:list={[variant(config), 'mode-compact size-small']}
       href={map[key].href}
       target="_blank"
     >

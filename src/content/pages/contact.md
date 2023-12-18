@@ -12,7 +12,7 @@ content_blocks:
     writeup: >-
       <h1>Neem contact op</h1><p>Neem vrijblijvend contact op. Telefonisch of
       via het formulier op deze pagina</p>
-    channels:
-    socials:
+    channels: true
+    socials: true
     form: src/content/forms/contact.md
 ---
