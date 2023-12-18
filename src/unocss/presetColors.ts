@@ -5,10 +5,8 @@ export default function preset({
   base = 'slate',
   brand = 'blue',
   accent = 'green',
-  scheme = 'light',
-} // texture = 'solid',
-// contrast = false,
-: any): Preset {
+  scheme = 'light', // texture = 'solid',
+}: any): Preset {
   return {
     name: 'unocss-preset-colors',
     safelist: [
