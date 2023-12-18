@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7VEr9rzuEbfn
+_stripe_price_id: price_1OABGhA46xQDCsGF6JA67iVo
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Microfiber Terry Detailing Sponge Applicator - Black
 description: >-
   De Microfiber Terry Detailing Sponge is een veelzijdige applicator voor
@@ -16,17 +16,17 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Microfiber-Terry-Detailing-Sponge-Applicator-Blue-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/sponzen.md
 price: 3
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

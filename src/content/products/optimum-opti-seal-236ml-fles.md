@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7Xsfw2S3Je6p
+_stripe_price_id: price_1OABIPA46xQDCsGFfISjQmlO
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: OPTIMUM Opti-Seal 236ml - Fles
 description: >-
   Onze =Optimum Opti-Seal= is een nieuwe revolutionaire lakverzegeling die met
@@ -26,18 +26,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Seal-LARGE.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/lak-bescherming.md
 price: 29.75
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

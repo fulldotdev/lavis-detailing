@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy5l7GEAHkpG4y
+_stripe_price_id: price_1OA9ZsA46xQDCsGF5YNeur0x
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: INFINITE Allesreiniger -  5L
 description: >-
   De INFINITE Allesreiniger. Welke detailer of poetsbedrijf heeft het niet in
@@ -18,7 +18,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Infinite-GL-1L-2.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/interieur.md
@@ -27,11 +27,11 @@ categories:
 price: 39.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

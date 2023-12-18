@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8Js8JrAb1iGS
+_stripe_price_id: price_1OAC34A46xQDCsGFkQX9kV0u
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Primus 1000 ML
 description: >-
   Primus is een krachtige alkaline foam zonder bijtende bestanddelen. Dit is het
@@ -16,7 +16,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB30_2-600x584-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/wassen.md
@@ -24,11 +24,11 @@ categories:
 price: 16.64
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

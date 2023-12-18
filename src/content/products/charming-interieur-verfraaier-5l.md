@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy5jKYFjJ0x5QQ
+_stripe_price_id: price_1OA9Y7A46xQDCsGFe8i7OjaH
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Charming Interieur Verfraaier -  5L
 description: >-
   Charming Interieur Verfraaier zorgt voor die natuurlijk uitstraling van uw
@@ -18,18 +18,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Charming-GL-05L-3.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/interieur.md
   - src/content/categories/gl.md
 price: 14.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

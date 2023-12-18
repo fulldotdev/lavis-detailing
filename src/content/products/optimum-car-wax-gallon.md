@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7Wy8mbB45ED0
+_stripe_price_id: price_1OABH9A46xQDCsGF3DBgBQpJ
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: OPTIMUM Car Wax - Gallon
 description: >-
   Optimum Car Wax is de enige autospray die de duurzaamheid van een pasteuze wax
@@ -19,7 +19,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Car-Wax.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/lak-bescherming.md
@@ -27,11 +27,11 @@ categories:
 price: 61.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

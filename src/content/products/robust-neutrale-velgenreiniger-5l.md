@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy5nnoL8v3mTY5
+_stripe_price_id: price_1OAAqJA46xQDCsGFQrFL02ug
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Robust Neutrale Velgenreiniger. -  5L
 description: >-
   Op zoek naar een PH neutrale velgenreiniger? Eentje die veilig is voor elk
@@ -18,7 +18,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Robust-GL-1L-2.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/velgen-reiniger.md
@@ -26,11 +26,11 @@ categories:
 price: 60
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

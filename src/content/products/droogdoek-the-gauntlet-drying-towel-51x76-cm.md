@@ -1,20 +1,20 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy84BPO83heMyW
+_stripe_price_id: price_1OABohA46xQDCsGFvDij4scG
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Droogdoek - The Gauntlet Drying Towel -  51x76 cm
 description: "Lavis Detailing introduceert met trots\_THE GAUNTLET Droogdoeken. Een van de meest unieke hoogwaardige droogdoeken voor auto's, ooit geproduceerd. Premium Koreaanse 70/30 blend vezels in een uniek, gepatenteerd twist-loop hybride ontwerp. Afwisselende strepen van Twist Loop en Soft Plush zorgen ervoor dat The GAUNTLET zich onderscheidt van alle concurrenten.\_ The Gauntlet Drying Towel is de best verkopende keuze van talloze autofabrikanten, autoclubs, professionele restaurateurs en detailers wereldwijd."
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/the-gauntlet-drying-towel-main.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/doeken.md
   - src/content/categories/the-gauntlet.md
@@ -22,11 +22,11 @@ categories:
 price: 23.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

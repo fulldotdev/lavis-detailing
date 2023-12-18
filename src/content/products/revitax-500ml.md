@@ -1,20 +1,20 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8LlbcX1gso7r
+_stripe_price_id: price_1OAC4YA46xQDCsGFoVqt1ipS
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Revitax 500ML
 description: ''
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/1898913240ff.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/labocosmetica.md
@@ -23,11 +23,11 @@ categories:
 price: 21.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

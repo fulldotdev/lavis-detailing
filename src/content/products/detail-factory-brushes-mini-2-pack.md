@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7vkQdlKleX4v
+_stripe_price_id: price_1OABg0A46xQDCsGF8pg6U2JY
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Detail Factory Brushes Mini 2-pack
 description: >-
   De Detailing Factory Brushes zijn onovertroffen in de branche voor zowel
@@ -26,7 +26,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-mini-2-pack.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/overig.md
   - src/content/categories/kwasten.md
@@ -36,11 +36,11 @@ categories:
 price: 19.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

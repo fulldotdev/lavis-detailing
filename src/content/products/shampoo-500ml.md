@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy71g4hy47txoK
+_stripe_price_id: price_1OAAnYA46xQDCsGF3UcE5tG8
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Shampoo -  500ml
 description: >-
   Deze zeer milde maar doch krachtige pure shampoo is speciaal gemaakt voor de
@@ -17,7 +17,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Shampoo-GL-1L-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/wassen.md
   - src/content/categories/gl.md
@@ -25,11 +25,11 @@ categories:
 price: 10.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

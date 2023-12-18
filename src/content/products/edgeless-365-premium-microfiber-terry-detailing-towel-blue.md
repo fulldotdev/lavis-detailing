@@ -1,20 +1,20 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7TmUkq3lTUBw
+_stripe_price_id: price_1OABysA46xQDCsGFVmosrpC9
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Edgeless 365 premium microfiber terry detailing towel - Blue
 description: ''
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/edgeless-365-royal-blue-corner__01000.1569957914__85541.1571895765.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/doeken.md
   - src/content/categories/exterieur.md
@@ -23,11 +23,11 @@ categories:
 price: 3.1
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

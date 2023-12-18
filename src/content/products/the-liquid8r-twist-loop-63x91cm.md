@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8E3TPDPED4XJ
+_stripe_price_id: price_1OABxvA46xQDCsGFYXQQXkOm
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: The liquid8r twist loop 63x91cm
 description: >-
   De liquid8r twist loop absorbeert werkelijk waar alles wat het aanraakt!
@@ -19,18 +19,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-6-c04af3366798.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/doeken.md
   - src/content/categories/trc.md
 price: 23.75
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

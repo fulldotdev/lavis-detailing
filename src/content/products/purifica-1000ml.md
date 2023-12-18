@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8Hp3lLBu5oe5
+_stripe_price_id: price_1OAC1GA46xQDCsGFWgoMBuFy
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Purifica 1000ML
 description: >-
   Purifica van Labocosmetica zorgt ervoor dat kalk en aan andere aanslag op de
@@ -17,7 +17,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB23_2-600x584-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/labocosmetica.md
   - src/content/categories/exterieur.md
@@ -25,11 +25,11 @@ categories:
 price: 23.78
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

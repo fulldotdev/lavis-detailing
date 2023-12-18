@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7uI4PvTsblNQ
+_stripe_price_id: price_1OABekA46xQDCsGF7iRIK3JY
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Interior Scrub Brush
 description: >-
   Deze witte nylon Interior Scrub Brush is perfect om vuil en roet weg te
@@ -16,7 +16,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Interior-Scrub-Brush.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/wassen.md
   - src/content/categories/borstels.md
@@ -24,11 +24,11 @@ categories:
 price: 14.75
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

@@ -1,14 +1,12 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Koch Chemie Gentle Snow Foam (1L)
 description: >-
   Gentle Snow Foam is een hoogschuimend, pH-neutraal reinigingsschuim met een
@@ -23,7 +21,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Gentle-Snow-Foam-1L.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/wassen.md
@@ -31,11 +29,11 @@ categories:
 price: 16.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

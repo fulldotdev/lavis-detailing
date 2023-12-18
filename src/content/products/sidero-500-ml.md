@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8IZcY8CPrPjs
+_stripe_price_id: price_1OAC1YA46xQDCsGFsAENa5Sl
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Sidero 500 ML
 description: >-
   SIDERO is ideaal voor de decontaminatie van auto’s die sterk verontreinigd
@@ -18,7 +18,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LABOCOSMETICA-Sidero-500-ml.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/labocosmetica.md
@@ -26,11 +26,11 @@ categories:
 price: 16.53
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

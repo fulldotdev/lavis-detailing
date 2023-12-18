@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8IeSSIsUFlzx
+_stripe_price_id: price_1OAC24A46xQDCsGF5jRcUehK
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Veritas 1000 ML
 description: >-
   Veritas is de must have ontvetter, essentieel voor het aanbrengen van de
@@ -17,10 +17,10 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB01_2-600x584-1.webp
-    alt:
+    alt: null
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/tabel-textiel-reiniging-aangepast-WEB-scaled.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/labocosmetica.md
@@ -28,11 +28,11 @@ categories:
 price: 22.64
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

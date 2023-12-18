@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8GOSAx6QTxDs
+_stripe_price_id: price_1OABzhA46xQDCsGF7aT6JoC4
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: GL Metal Polish
 description: >-
   Met GL Metal Polish krijgt u bijna alle metalen zoals RVS weer glanzend. GL
@@ -18,18 +18,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Metal-GL-225gr-scaled.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/gl.md
 price: 17.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

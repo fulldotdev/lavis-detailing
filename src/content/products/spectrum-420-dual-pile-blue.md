@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8DVzlE2swtMh
+_stripe_price_id: price_1OABwmA46xQDCsGFjgupc1wp
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Spectrum 420 dual-pile - Blue
 description: >-
   De Spectrum 420, is een fantastische all-round doek voor een mooie prijs. De
@@ -19,7 +19,7 @@ images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Spectrum
       Blue.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/interieur.md
   - src/content/categories/exterieur.md
@@ -28,11 +28,11 @@ categories:
 price: 4.2
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

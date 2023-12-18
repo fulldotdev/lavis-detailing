@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy8IRBl3LOYyNQ
+_stripe_price_id: price_1OAC1oA46xQDCsGFqh240LXW
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Ductile 500 ML
 description: >-
   Ductile is een veelzijdig allesreiniger en extreem geconcentreerd
@@ -18,18 +18,18 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ductile2.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/interieur.md
   - src/content/categories/labocosmetica.md
 price: 13.78
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

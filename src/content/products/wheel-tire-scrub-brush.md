@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7voSXppb21Up
+_stripe_price_id: price_1OABfCA46xQDCsGF8NacPs3r
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Wheel & Tire Scrub Brush
 description: >-
   Deze Wheel &amp; Tire Scrub Brush is een zwarte nylon borstel en perfect om
@@ -16,14 +16,14 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Wheel-Tire-Scrub-Brush.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/wassen.md
   - src/content/categories/borstels.md
 price: 14.75
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:
@@ -35,10 +35,10 @@ _structures:
     values:
       - label: Choice
         value:
-          label:
+          label: null
           options:
-            - name:
-              price:
+            - name: null
+              price: null
 ---
 ## Aanbevolen toepassingen:
 

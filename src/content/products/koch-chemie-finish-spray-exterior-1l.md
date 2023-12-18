@@ -1,14 +1,14 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy7z06GBvR7ses
+_stripe_price_id: price_1OABk0A46xQDCsGFG2eVH9ln
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Koch Chemie Finish Spray Exterior (1L)
 description: >-
   Chemie Finish Spray is de allround detailleringsspray voor snelle verzorging
@@ -23,7 +23,7 @@ description: >-
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Finish-Spray-Exterior-1L.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/exterieur.md
   - src/content/categories/lak-bescherming.md
@@ -31,11 +31,11 @@ categories:
 price: 13.5
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:

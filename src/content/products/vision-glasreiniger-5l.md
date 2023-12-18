@@ -1,31 +1,31 @@
 ---
 _schema: default
-_stripe_product_id:
-_stripe_price_id:
+_stripe_product_id: prod_Oy6yHuzj8IO9Z9
+_stripe_price_id: price_1OAAlGA46xQDCsGFqUkUlYhe
 seo:
-  title:
-  description:
+  title: null
+  description: null
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: null
+    alt: null
 title: Vision Glasreiniger - 5L
 description: aaa
 images:
   - url: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/VISION-GL-5L-1.webp
-    alt:
+    alt: null
 categories:
   - src/content/categories/gl.md
   - src/content/categories/ramen-reinigen.md
 price: 39.99
 prices:
   options:
-    - key:
-      value:
+    - key: null
+      value: null
 _inputs:
   description:
-    type:
+    type: null
   price:
     type: number
   categories:
