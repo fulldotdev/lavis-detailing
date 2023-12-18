@@ -46,7 +46,7 @@ const getCardName = async (item: Item): Promise<string | undefined> => {
   cards?.map(async (card) => {
     const cardProps = await getCardProps(card)
     const cardName = await getCardName(card)
-    const bookshopConfig = getCardConfig(cardName)
+    const bookshopConfig = await getCardConfig(cardName)
     if (!cardProps) return
     return (
       <RenderCard
