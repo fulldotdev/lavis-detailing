@@ -4,7 +4,13 @@ import Footer from '@components/globals/Footer.astro'
 import Header from '@components/globals/Header.astro'
 import Legal from '@components/globals/Legal.astro'
 import CartSidebar from '@components/globals/cart/Cart.svelte'
+import RenderBlock from '@components/misc/RenderBlock.astro'
+import { getEntry } from 'astro:content'
 import Layout from './Layout.astro'
+
+const cta = await getEntry('globals', 'cta')
+const globals = await getEntry('settings', 'globals')
+const merged = { ...cta.data, ...globals?.data.cta }
 
 const { seo } = Astro.props
 ---
@@ -14,6 +20,7 @@ const { seo } = Astro.props
   <CartSidebar client:load />
   <main>
     <slot />
+    <RenderBlock {...merged} />
     <Whatsapp />
   </main>
   <Footer />
