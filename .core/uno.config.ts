@@ -6,6 +6,9 @@ import presetFonts from './src/unocss/presetFonts'
 import presetSizes from './src/unocss/presetSizes'
 
 export default defineConfig({
+  content: {
+    filesystem: ['src/**/*.yml'],
+  },
   presets: [
     presetUno(),
     presetIcons({
