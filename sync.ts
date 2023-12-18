@@ -22,30 +22,22 @@ function directoryExists(directory: string) {
 }
 
 try {
-  // Clone core if it doesn't exist
-  if (!directoryExists('core')) {
-    execSync('git clone https://github.com/silveltman/core.git core', {
-      stdio: 'inherit',
-    })
-  } else {
-    // Pull latest changes from core
-    execSync('cd core git pull', { stdio: 'inherit' })
-  }
-
-  // Move all files from core to the root
-  copyDirectory('core', '.temp')
+  // Clone core
+  execSync('git clone https://github.com/silveltman/core.git .core', {
+    stdio: 'inherit',
+  })
 
   // Remove specified directories and files
-  removeDirectory('.temp/.git')
-  removeDirectory('.temp/src/content')
-  removeDirectory('.temp/src/assets')
-  removeFile('.temp/cloudcannon.config.yml')
+  removeDirectory('.core/.git')
+  removeDirectory('.core/src/content')
+  removeDirectory('.core/src/assets')
+  removeFile('.core/cloudcannon.config.yml')
 
   // Move all files from core to the root
-  copyDirectory('.temp', '.')
+  copyDirectory('.core', '.')
 
-  // Remove temporary directory
-  removeDirectory('.temp')
+  // Remove core directory
+  removeDirectory('.core')
 } catch (error) {
   console.error(`An error occurred: ${error}`)
 }

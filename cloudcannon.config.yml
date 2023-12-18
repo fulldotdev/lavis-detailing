@@ -319,13 +319,6 @@ _inputs:
         - soft
         - surface
         - solid
-  image.ratio:
-    type: choice
-    options:
-      values:
-        - landscape
-        - square
-        - portrait
   deck.layout:
     type: choice
     options:

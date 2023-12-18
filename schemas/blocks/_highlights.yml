@@ -5,7 +5,7 @@ spec:
 
 blueprint:
   highlights:
-    - _card_name: offers
+    - _card_name: highlights
       image:
       writeup:
       buttons:
