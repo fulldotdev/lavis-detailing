@@ -22,9 +22,11 @@ services:
     look: surface
     hue:
     scheme:
+    class: justify-end
   image:
-    position: cover
-    ratio: portrait
+    position: background
+    ratio: landscape
+    class: mask-lg
 reviews:
   card:
     frame: panel
@@ -34,6 +36,7 @@ reviews:
   image:
     position: 
     ratio: square
+    class: mask
 categories:
   card:
     frame: panel
@@ -78,6 +81,9 @@ offers:
     look: surface
     hue:
     scheme:
+  segment:
+    class: h-full
   group:
     importance:
-    layout:
+    layout: col
+    class: mt-auto w-full

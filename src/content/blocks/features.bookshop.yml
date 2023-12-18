@@ -9,7 +9,8 @@ blueprint:
   writeup:
   buttons:
   features:
-    - icon:
+    - _card_name: features
+      icon:
       writeup:
       buttons:
 
@@ -60,6 +61,7 @@ config:
     importance: primary
     layout: row
   deck:
-    layout: row
-    size:
+    layout: grid
+    mode: base
+    size: large
 

@@ -29,11 +29,12 @@ content_blocks:
       src: /exterieur-detailing-1280x711.webp
       alt:
   - _bookshop_name: src/content/blocks/offers
-    writeup: "<h3>\_</h3><ul></ul>"
+    writeup:
     offers:
-      - writeup: >-
+      - _card_name: offers
+        writeup: >-
           <h3>1 Staps polijsten</h3><p>Een 1-staps polijstbehandeling, plus al
-          het onderstaande.</p><ul><li><em>checkmark</em></li></ul>
+          het onderstaande.</p>
         specs:
           - Uitgebreide wasbeurt met de hand
           - Velgen reinigen
@@ -54,7 +55,8 @@ content_blocks:
           - _bookshop_name: elements/button
             label: Neem contact op
             href: /contact
-      - writeup: >-
+      - _card_name: offers
+        writeup: >-
           <h3>2 Staps polijsten</h3><p>Een 2-staps polijstbehandeling, plus al
           het onderstaande.</p>
         specs:
@@ -77,11 +79,12 @@ content_blocks:
           - _bookshop_name: elements/button
             label: Neem contact op
             href: /contact
-      - writeup: >-
+      - _card_name: offers
+        writeup: >-
           <h3>3 Staps polijsten</h3><p>Een 3- of 3-staps+ polijstbehandeling. De
           lak wordt zowel excentrisch als roterend behandeld voor een optimaal
           resultaat. Plus al het
-          onderstaande.</p><ul><li><em>checkmark</em></li></ul>
+          onderstaande.</p>
         specs:
           - Uitgebreide wasbeurt met de hand
           - Velgen reinigen

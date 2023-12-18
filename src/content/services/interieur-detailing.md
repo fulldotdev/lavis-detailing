@@ -32,7 +32,8 @@ content_blocks:
   - _bookshop_name: src/content/blocks/offers
     writeup: ''
     offers:
-      - writeup: >-
+      - _card_name: offers
+        writeup: >-
           <p>vanaf €95 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -52,7 +53,8 @@ content_blocks:
           - _bookshop_name: elements/button
             label: Neem contact op
             href: /contact
-      - writeup: >-
+      - _card_name: offers
+        writeup: >-
           <p>vanaf €175 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -74,7 +76,8 @@ content_blocks:
           - _bookshop_name: elements/button
             label: Neem contact op
             href: /contact
-      - writeup: >-
+      - _card_name: offers
+        writeup: >-
           <p>vanaf €275 ex. btw&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;

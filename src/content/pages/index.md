@@ -53,7 +53,7 @@ content_blocks:
       - src/content/services/interieur-detailing.md
       - src/content/services/dagbehandeling.md
       - src/content/services/coating.md
-  - _bookshop_name: src/content/blocks/services
+  - _bookshop_name: src/content/blocks/services-secondary
     writeup:
     buttons:
     services:

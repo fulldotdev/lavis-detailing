@@ -8,10 +8,10 @@ spec:
 blueprint:
   writeup:
   offers:
-    - writeup:
-      specs:
-        - ''
-      buttons: 
+    - _card_name: offers
+      icon:
+      writeup:
+      buttons:
 
 preview:
   writeup: |
@@ -66,10 +66,10 @@ preview:
 
 config:
   section:
-    align: center
+    align:
     size:
   segment:
-    align: center
+    align:
   deck:
     layout: row
     size:

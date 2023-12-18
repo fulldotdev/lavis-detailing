@@ -37,24 +37,20 @@ const getCardProps = async (item: Item): Promise<Card | undefined> => {
 }
 
 const getCardName = async (item: Item): Promise<string | undefined> => {
+  if (item._card_name) return item._card_name
   if (isPath(item)) item = await getEntryByPath(item)
   if (isEntry(item)) return item.collection
-  else if (isCard(item)) item._card_name
 }
 ---
 
 {
   cards?.map(async (card) => {
-    const cardProps = await getCardProps(card)
+    const cardProps: any = await getCardProps(card)
     const cardName = await getCardName(card)
+    console.log(cardName)
     const bookshopConfig = await getCardConfig(cardName)
     const merged: any = merge(cardProps, bookshopConfig)
     if (!cardProps) return
-    return (
-      <RenderCard
-        {...cardProps}
-        {...bookshopConfig}
-      />
-    )
+    return <RenderCard {...merged} />
   })
 }

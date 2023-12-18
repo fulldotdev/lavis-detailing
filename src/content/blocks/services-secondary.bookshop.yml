@@ -33,6 +33,6 @@ config:
     importance: tertiary
     layout: row
   deck:
-    layout:
+    layout: row
     size:
-    class: lg:grid-cols-2 [&_.card]:!min-h-400px
+    class: w-full [&_.card]:!min-h-300px

@@ -28,7 +28,8 @@ content_blocks:
   - _bookshop_name: src/content/blocks/offers
     writeup: <h2>EEN OVERZICHT VAN DE MOGELIJKHEDEN</h2>
     offers:
-      - writeup: <p>€475,- ex. btw</p><h3>De basis</h3>
+      - _card_name: offers
+        writeup: <p>€475,- ex. btw</p><h3>De basis</h3>
         specs:
           - Voorreinigen van de auto
           - Handwassen met pH-neutrale shampoo
@@ -47,7 +48,8 @@ content_blocks:
           - _bookshop_name: elements/button
             label: Neem contact op
             href: /contact
-      - writeup: <h3>Een stap verder</h3>
+      - _card_name: offers
+        writeup: <h3>Een stap verder</h3>
         specs:
           - Kwalitatieve Titan coatings
           - Uitgebreide interieur detailing
