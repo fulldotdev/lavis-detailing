@@ -1,0 +1,26 @@
+---
+import Cart from '@components/globals/cart/Cart.svelte'
+import CartIcon from '@components/globals/cart/CartIcon.svelte'
+import Seo from '@components/misc/Seo.astro'
+import { ViewTransitions } from 'astro:transitions'
+
+const { seo } = Astro.props
+---
+
+<!doctype html>
+<html
+  lang="nl"
+  class="size-medium mode-base bg-hue1 scroll-smooth"
+>
+  <head>
+    <Seo {...seo} />
+    <ViewTransitions />
+  </head>
+  <body class="size-medium mode-base hue-base bg-hue1 scroll-smooth">
+    <div class="hidden">
+      <CartIcon client:load />
+      <Cart client:load />
+    </div>
+    <slot />
+  </body>
+</html>
