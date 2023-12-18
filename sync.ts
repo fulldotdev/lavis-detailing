@@ -19,18 +19,19 @@ function copyDirectory(sourceDir, destDir) {
 
 try {
   // Pull latest changes from core
-  execSync(
-    'git subtree pull --prefix .core https://github.com/silveltman/core.git main',
-    { stdio: 'inherit' }
-  )
-
-  // Remove specified directories and files
-  removeDirectory('.core/src/content')
-  removeDirectory('.core/src/assets')
-  removeFile('.core/cloudcannon.config.yml')
+  execSync('cd .core git pull', { stdio: 'inherit' })
 
   // Move all files from .core to the root
-  copyDirectory('.core', '.')
+  copyDirectory('.core', '.temp')
+
+  // Remove specified directories and files
+  removeDirectory('.temp/.git')
+  removeDirectory('.temp/src/content')
+  removeDirectory('.temp/src/assets')
+  removeFile('.temp/cloudcannon.config.yml')
+
+  // Move all files from .core to the root
+  copyDirectory('.temp', '.')
 } catch (error) {
   console.error(`An error occurred: ${error}`)
 }

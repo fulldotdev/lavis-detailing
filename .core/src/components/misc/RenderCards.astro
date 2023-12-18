@@ -2,6 +2,7 @@
 import { getEntryByPath, getRouteByEntry } from '@utils'
 import getCardConfig from '@utils/getCardConfig'
 import { type CollectionEntry, type ContentCollectionKey } from 'astro:content'
+import merge from 'deepmerge'
 import RenderCard, { type RenderCardProps } from './RenderCard.astro'
 
 export type CardsBuilderProps = Props
@@ -47,6 +48,7 @@ const getCardName = async (item: Item): Promise<string | undefined> => {
     const cardProps = await getCardProps(card)
     const cardName = await getCardName(card)
     const bookshopConfig = await getCardConfig(cardName)
+    const merged: any = merge(cardProps, bookshopConfig)
     if (!cardProps) return
     return (
       <RenderCard
