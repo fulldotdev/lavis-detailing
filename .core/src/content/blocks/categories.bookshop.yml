@@ -1,0 +1,37 @@
+_schema: categories
+
+spec:
+  structures:
+    - content_blocks
+  label: Categories
+
+blueprint:
+  writeup:
+  buttons:
+  categories:
+
+preview:
+  writeup: |
+    <h1>Lorem ipsum dolor sit</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, numquam!</p>
+  buttons:
+    - label: Lorem ipsum
+      href: '#'
+    - label: Lorem ipsum
+      href: '#'
+  categories:
+    - path/to/entry
+
+config:
+  section:
+    align: start
+    size:
+  segment:
+    layout: row
+    align: center
+  group:
+    importance: tertiary
+    layout: row
+  deck:
+    layout: carousel
+    size:
