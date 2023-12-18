@@ -5,7 +5,6 @@ import { readFrontmatter } from '.'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
-
 const dirPath = path.resolve(__dirname, '../../src/content/products')
 
 let contentArray: any[] = []
