@@ -22,10 +22,10 @@ const { Content } = await render()
     class:list="!max-w-5xl lg:mx-auto !pt-size5"
   >
     <Segment>
-      <Writeup>
-        <h1 class="heading-primary">{data.title}</h1>
-        <p class="text-primary">{data.description}</p>
-      </Writeup>
+      <Writeup
+        title={data.title}
+        description={data.description}
+      />
     </Segment>
     <Image {...data.image} />
   </Section>
