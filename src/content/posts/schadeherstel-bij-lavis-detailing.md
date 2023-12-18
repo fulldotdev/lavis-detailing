@@ -12,8 +12,7 @@ description: Perfectionisme in elk detail
 image:
   _bookshop_name: elements/image
   src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/schadeherstel
-    afbeelding.webp
+    https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-geel-voorkant.webp
   alt: ''
 ---
 Aan de buitenkant is een auto meer dan gewoon een vervoermiddel. Het is een weerspiegeling van onze persoonlijkheid, ons eerbetoon aan vakmanschap, en onze beoordeling van zowel stijl als functionaliteit. Daarom voelt het als een verzet tegen deze harmonie wanneer onze trots lijdt aan zichtbare schade. Wij begrijpen uw passie voor de schoonheid van uw auto en werken samen met onze zorgvuldig uitgezochte partner voor schadeherstel. Detailing is onze tweede natuur, evenals het bereiken van perfectionisme in elk detail van uw auto.
