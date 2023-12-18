@@ -36,6 +36,7 @@ config:
   segment:
     layout: row
     align: center
+    class: border-b border-hue6 pb-size5
   group:
     importance: primary
     layout: col
