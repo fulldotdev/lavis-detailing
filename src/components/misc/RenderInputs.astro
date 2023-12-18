@@ -1,0 +1,22 @@
+---
+import Input from '@components/elements/input/Input.astro'
+import Select from '@components/elements/select/Select.astro'
+import Textarea from '@components/elements/textarea/Textarea.astro'
+
+const { inputs } = Astro.props
+
+const components: any = {
+  input: Input,
+  textarea: Textarea,
+  select: Select,
+}
+---
+
+{
+  inputs.map((input: any) => {
+    const key = input._bookshop_name.split('/').pop()
+    console.log(key)
+    const Component = components[key]
+    console.log(Component)
+  })
+}

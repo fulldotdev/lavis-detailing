@@ -29,14 +29,16 @@ preview:
 
 config:
   section:
-    layout: col
-    align: center
+    layout: row
+    align:
     frame: fill
     look:
     order:
     size: medium
     hue:
     scheme:
+  channels: true
+  socials: true
   segment:
     layout: col
     align:

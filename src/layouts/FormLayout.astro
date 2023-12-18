@@ -1,0 +1,26 @@
+---
+import Form from '@components/elements/Form.astro'
+import Section from '@components/wrappers/Section.astro'
+import type { CollectionEntry } from 'astro:content'
+import NavLayout from './NavLayout.astro'
+
+interface Props {
+  entry: CollectionEntry<'forms'>
+}
+
+const { data, slug } = Astro.props.entry
+---
+
+<NavLayout seo={data.seo}>
+  <Section
+    layout="col"
+    align="center"
+    frame="float"
+    class:list="!py-size6"
+  >
+    <Form
+      {...data}
+      key={slug}
+    />
+  </Section>
+</NavLayout>

@@ -34,6 +34,8 @@ const variant = cva({
 })
 
 const header = await getEntry('globals', 'header').then(({ data }) => data)
+const globals = await getEntry('settings', 'globals')
+const config = globals.data.header
 ---
 
 {
@@ -42,7 +44,7 @@ const header = await getEntry('globals', 'header').then(({ data }) => data)
       <div class="hidden">
         <CartIcon client:load />
       </div>
-      <header class={variant()}>
+      <header class={variant(config)}>
         <Logo />
         <Links
           class:list="ml-auto"
@@ -53,15 +55,7 @@ const header = await getEntry('globals', 'header').then(({ data }) => data)
           layout="row"
           buttons={header.buttons}
         />
-        <Group layout="row">
-          <CartIcon client:load />
-          <label
-            class="button look-soft flex cursor-pointer lg:hidden"
-            for="header-toggle"
-          >
-            <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
-          </label>
-        </Group>
+
         <input
           id="header-toggle"
           class="peer hidden"
@@ -82,3 +76,13 @@ const header = await getEntry('globals', 'header').then(({ data }) => data)
     </>
   )
 }
+
+<!-- <Group layout="row">
+    <CartIcon client:load />
+  <label
+    class="button look-soft flex cursor-pointer lg:hidden"
+    for="header-toggle"
+  >
+    <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
+  </label>
+</Group> -->

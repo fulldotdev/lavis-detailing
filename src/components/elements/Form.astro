@@ -1,0 +1,68 @@
+---
+import Input from '@components/elements/input/Input.astro'
+import Select from '@components/elements/select/Select.astro'
+import Textarea from '@components/elements/textarea/Textarea.astro'
+import type { HTMLAttributes } from 'astro/types'
+import Checkbox from './checkbox/Checkbox.astro'
+
+interface Props {
+  title: HTMLAttributes<'input'>['value']
+  key: HTMLAttributes<'input'>['value']
+  button: any
+  inputs: any[]
+}
+
+const components: any = {
+  input: Input,
+  textarea: Textarea,
+  select: Select,
+  checkbox: Checkbox,
+}
+
+const {
+  title,
+  key,
+  button = {
+    label: 'Verstuur',
+    href: '/bedankt',
+  },
+  inputs,
+} = Astro.props
+---
+
+{
+  key && inputs && (
+    <form
+      action={button.href}
+      class="gap-size2 flex w-full max-w-xl flex-col text-left"
+    >
+      {inputs?.map((input: any) => {
+        const key = input._bookshop_name.split('/').pop()
+        const Component = components[key]
+        return <Component {...input} />
+      })}
+      <slot />
+      <input
+        type="hidden"
+        name="_subject"
+        value={title}
+      />
+      <input
+        type="hidden"
+        name="inbox_key"
+        value={key}
+      />
+      <input
+        type="text"
+        name="_gotcha"
+        style="display: none;"
+      />
+      <button
+        class="bg-hue9 hue-brand text-hue-fg hover:bg-hue10 active:bg-hue11 gap-xs rounded-size1 p-size3 text-button inline-flex cursor-pointer items-center justify-center whitespace-nowrap text-center transition active:scale-95 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50"
+        type="submit"
+      >
+        {button.label}
+      </button>
+    </form>
+  )
+}

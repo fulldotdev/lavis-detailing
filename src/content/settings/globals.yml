@@ -5,7 +5,7 @@ header:
   size: medium
   scheme:
   hue:
-  class: border-b border-hue6
+  class: border-b border-hue6 [&_.link]:text-hue12 hover:[&_.link]:text-hue11
   
 cta:
   section:

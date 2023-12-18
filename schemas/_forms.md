@@ -2,6 +2,6 @@
 title:
 inputs:
 button:
-  - label: Verstuur
-    href: /bedankt
+  label: Verstuur
+  href: /bedankt
 ---

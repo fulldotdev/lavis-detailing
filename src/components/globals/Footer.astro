@@ -7,8 +7,6 @@ import Segment from '@components/wrappers/Segment.astro'
 import { hue, scheme, size } from '@variants'
 import { getEntry } from 'astro:content'
 import { cva, type VariantProps } from 'cva'
-const footer = await getEntry('globals', 'footer').then(({ data }) => data)
-const company = await getEntry('globals', 'company').then(({ data }) => data)
 
 interface Props extends VariantProps<typeof variant> {}
 
@@ -38,11 +36,16 @@ const variant = cva({
     size: 'medium',
   },
 })
+
+const footer = await getEntry('globals', 'footer').then(({ data }) => data)
+const company = await getEntry('globals', 'company').then(({ data }) => data)
+const globals = await getEntry('settings', 'globals')
+const config = globals.data.footer
 ---
 
 {
   footer && (
-    <footer class={variant(footer)}>
+    <footer class={variant(config)}>
       <Segment class:list="col-span-1.2 mode-compact size-medium max-w-xs">
         <Logo />
         {company?.description && (
@@ -51,7 +54,7 @@ const variant = cva({
         <Socials />
       </Segment>
       <Channels
-        layout='col'
+        layout="col"
         channels
         class:list="mode-compact size-medium"
       />
