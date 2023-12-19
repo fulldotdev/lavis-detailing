@@ -45,9 +45,11 @@ categories:
     look: surface
     hue:
     scheme:
+    class: justify-end
   image:
-    position:
-    ratio:
+    position: background
+    ratio: square
+    class: mask-lg
 persons:
   card:
     frame: ghost
