@@ -130,6 +130,7 @@ collections_config:
   globals:
     path: src/content/globals
     output: false
+    icon: grid_view
     disable_file_actions: true
     disable_add_folder: true
     disable_add: true

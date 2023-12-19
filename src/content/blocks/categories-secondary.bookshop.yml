@@ -25,7 +25,7 @@ preview:
 config:
   section:
     align: start
-    size:
+    size: small
   segment:
     layout: row
     align: center
@@ -33,6 +33,6 @@ config:
     importance: tertiary
     layout: row
   deck:
-    layout: panels
-    size:
+    layout: carousel
+    size: small
     class: '[&_.card]:aspect-5/3'

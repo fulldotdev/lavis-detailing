@@ -12,6 +12,7 @@ const variant = cva({
   base: 'box-border gap-size5 mode-compact size-medium relative card flex flex-col rounded-size2 [&[href]_.image]:hover:opacity-75 transition',
   variants: {
     frame: {
+      fill: '[&_.image]:rounded-size2',
       panel: '[&_.segment]:p-size5 !gap-0 overflow-hidden',
     },
     look: {

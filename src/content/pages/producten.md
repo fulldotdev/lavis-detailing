@@ -24,7 +24,7 @@ content_blocks:
       - src/content/products/creature-edgeless-420gsm-white.md
       - src/content/products/creature-edgeless-420gsm-black.md
       - src/content/products/creature-edgeless-420gsm-lime-green.md
-  - _bookshop_name: src/content/blocks/categories
+  - _bookshop_name: src/content/blocks/categories-secondary
     writeup: <h1>Shop per categorie</h1>
     buttons:
     categories:
