@@ -2,7 +2,6 @@
 import type { ButtonProps } from '@components/elements/button/Button.astro'
 import ButtonGroup from '@components/elements/button/ButtonGroup.astro'
 import Image, { type ImageProps } from '@components/elements/image/Image.astro'
-import Price from '@components/elements/Price.astro'
 import Rating from '@components/elements/Rating.astro'
 import Specs from '@components/elements/spec/Specs.astro'
 import Writeup from '@components/elements/Writeup.astro'
@@ -25,7 +24,6 @@ interface Props {
   tagline?: string | null
   title?: string | null
   description?: string | null
-  price: number | null
   specs?: string[] | null
   group?: GroupProps
   buttons?: ButtonProps[]
@@ -41,7 +39,6 @@ const {
   writeup,
   title,
   description,
-  price,
   tagline,
   specs,
   group,
@@ -51,8 +48,6 @@ const {
 // TODO: clean this up
 const myImage = images ? images[0] : image
 const mergedImage = { ...myImage, ...image }
-
-console.log('mergedImage', mergedImage)
 ---
 
 <Card
@@ -68,7 +63,6 @@ console.log('mergedImage', mergedImage)
       {title}
       {description}
     />
-    <Price {price} />
     <Specs {specs} />
     <ButtonGroup
       {buttons}

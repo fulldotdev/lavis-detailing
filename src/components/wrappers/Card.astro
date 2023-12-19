@@ -22,6 +22,11 @@ const variant = cva({
         'bg-transparent border border-hue6 [&[href]]:(hover:border-hue7 active:border-hue8)',
       ghost: 'bg-transparent [&[href]]:(hover:bg-hue2 active:bg-hue3)',
     },
+    ratio: {
+      landscape: 'aspect-4/3 object-cover',
+      square: 'aspect-square object-cover',
+      portrait: 'aspect-3/4 object-cover',
+    },
     scheme: scheme,
     hue: hue,
   },

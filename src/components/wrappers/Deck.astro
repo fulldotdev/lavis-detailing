@@ -27,7 +27,10 @@ const variant = cva({
         'sm:columns-[308px] size-small:sm:columns-[220px] size-large:sm:columns-2',
         'size-large:md:columns-[385px]',
       ],
-      row: 'grid lg:grid-flow-col lg:auto-cols-fr',
+      row: 'grid lg:grid-flow-col lg:auto-cols-fr w-full',
+      panels: 'grid auto-cols-fr lg:grid-cols-2 w-full',
+      bento:
+        'grid auto-cols-fr lg:grid-cols-5 w-full [&>*:first-child]:col-span-3 [&>*:last-child]:col-span-3 [&>*]:col-span-2',
     },
     size: {
       small: 'size-small [&_.card]:size-small',

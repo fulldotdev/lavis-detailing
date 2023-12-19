@@ -35,4 +35,4 @@ config:
   deck:
     layout: row
     size:
-    class: w-full [&_.card]:!min-h-300px
+    class: w-full [&_.card]:aspect-1/1

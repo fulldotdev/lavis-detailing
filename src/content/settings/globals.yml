@@ -1,7 +1,7 @@
 # nav:
 header:
   frame: fill
-  look:
+  look: glass
   size: medium
   scheme:
   hue:

@@ -10,7 +10,7 @@ import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
 const variant = cva({
-  base: 'header mode-compact size-medium gap-size6 z-80 flex items-center !sticky top-0 justify-between backdrop-blur-3xl',
+  base: 'header mode-compact size-medium gap-size6 z-80 flex items-center !sticky top-0 justify-between',
   variants: {
     frame: {
       fill: 'px-wrapper py-size2 border-t-0 border-l-0 border-r-0',
@@ -22,6 +22,7 @@ const variant = cva({
       soft: 'bg-hue2',
       surface: 'bg-hue2 border border-hue6',
       outline: 'border border-hue6',
+      glass: 'backdrop-blur-3xl bg-black/25',
     },
     size: size,
     scheme: scheme,

@@ -327,6 +327,8 @@ _inputs:
         - grid
         - masonry
         - row
+        - panels
+        - bento
   group.importance:
     type: choice
     options:
