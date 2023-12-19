@@ -8,7 +8,7 @@ const buttonVariant = cva({
   variants: {
     look: {
       solid: 'bg-hue9 text-hue-fg hover:bg-hue10 active:bg-hue11',
-      soft: 'bg-hue3 text-hue11 [&[href]]:(hover:bg-hue4 active:bg-hue5)',
+      soft: 'bg-hue3 text-hue11 hover:bg-hue4 active:bg-hue5',
       surface:
         'bg-hue2 text-hue11 ring ring-inset ring-hue6 hover:(bg-hue3 ring-hue7) active:(bg-hue4 ring-hue8)',
       outline:

@@ -27,7 +27,16 @@ const components: any = {
   checkbox: Checkbox,
 }
 
-let { form, title, key } = Astro.props
+let {
+  form,
+  title,
+  key,
+  inputs,
+  button = {
+    label: 'Verstuur',
+    href: '/bedankt',
+  },
+} = Astro.props
 
 const formName = form?.split('/').pop()?.replace('.md', '') || 'myplaceholder'
 const formEntry = await getEntry('forms', formName)
@@ -37,7 +46,7 @@ const formData = formEntry ? formEntry.data : Astro.props
 {
   formData.inputs && (
     <form
-      action={formData.button.href}
+      action={formData.href}
       class="gap-size2 flex w-full max-w-xl flex-col text-left"
     >
       {formData.inputs?.map((input: any) => {
