@@ -56,7 +56,7 @@ content_blocks:
       - src/content/categories/the-gauntlet.md
       - src/content/categories/trc.md
       - src/content/categories/pride.md
-  - _bookshop_name: src/content/blocks/products
+  - _bookshop_name: src/content/blocks/products-grid
     writeup: <h2>Alle producten</h2>
     buttons:
     products:
