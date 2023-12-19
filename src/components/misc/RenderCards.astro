@@ -37,7 +37,9 @@ for (const [key, value] of Object.entries(Astro.props)) {
   const config = cardsConfig?.data[key]
   const mergedCards = value?.map(async (item: any) => {
     const props: any = await getCardProps(item)
-    return merge(props, config)
+    let merged = { ...props, ...config }
+    if (props && config) merged = merge(props, config)
+    return merged
   })
   const results = await Promise.all(mergedCards)
   cards.push(...results)

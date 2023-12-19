@@ -5,19 +5,11 @@ import Spec from './Spec.astro'
 
 type Props = Omit<SpecProps, 'label'> &
   ListProps & {
-    specs?: SpecProps[] | null
+    specs?: string[] | null
   }
-
-const { specs, ...restProps } = Astro.props
+const { specs } = Astro.props
 ---
 
-<List {...restProps}>
-  {
-    specs?.map((spec) => (
-      <Spec
-        spec={spec.label}
-        {...restProps}
-      />
-    ))
-  }
+<List>
+  {specs?.map((spec) => <Spec {spec} />)}
 </List>

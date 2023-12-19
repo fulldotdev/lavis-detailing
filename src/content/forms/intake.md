@@ -15,7 +15,7 @@ inputs:
     label: Coating
     required: false
   - _bookshop_name: elements/checkbox
-    label: Voot detailing en coating
+    label: Boot detailing en coating
     required: false
   - _bookshop_name: elements/checkbox
     label: Camper detailing en coating

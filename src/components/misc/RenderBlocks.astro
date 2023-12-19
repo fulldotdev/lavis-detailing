@@ -11,7 +11,8 @@ const { blocks } = Astro.props
     const blockSlug: any = block._bookshop_name?.split('/').pop()
     const blockEntry = await getEntry('blocks', `${blockSlug}.bookshop`)
     const blockConfig = blockEntry?.data?.config
-    const merged: any = merge(blockConfig, block)
+    let merged = { ...blockConfig, ...block }
+    if (blockConfig && block) merged = merge(blockConfig, block)
     return <RenderBlock {...merged} />
   })
 }

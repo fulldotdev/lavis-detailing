@@ -15,5 +15,5 @@ export default ({
   }
   if (collection == 'pages' && slug === 'index') return '/'
   if (collection === 'pages') return slug
-  else return `${routes[collection]}/${slug}`
+  else return `/${routes[collection]}/${slug}`
 }

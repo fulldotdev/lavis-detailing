@@ -55,7 +55,15 @@ const config = globals.data.header
           layout="row"
           buttons={header.buttons}
         />
-
+        <Group layout="row">
+          <CartIcon client:load />
+          <label
+            class="button look-soft flex cursor-pointer lg:hidden"
+            for="header-toggle"
+          >
+            <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
+          </label>
+        </Group>
         <input
           id="header-toggle"
           class="peer hidden"
@@ -76,13 +84,3 @@ const config = globals.data.header
     </>
   )
 }
-
-<!-- <Group layout="row">
-    <CartIcon client:load />
-  <label
-    class="button look-soft flex cursor-pointer lg:hidden"
-    for="header-toggle"
-  >
-    <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
-  </label>
-</Group> -->

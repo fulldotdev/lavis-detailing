@@ -7,6 +7,9 @@ links:
     label: Diensten
     href: /diensten
   - _bookshop_name: elements/link
+    label: Producten
+    href: /producten
+  - _bookshop_name: elements/link
     label: Over ons
     href: /over-ons
   - _bookshop_name: elements/link
