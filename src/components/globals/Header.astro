@@ -54,14 +54,13 @@ const config = globals.data.header
           buttons={header.buttons}
         />
         <CartIcon client:load />
-        <Group layout="row">
-          <label
-            class="button look-soft flex cursor-pointer lg:hidden"
-            for="header-toggle"
-          >
-            <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
-          </label>
-        </Group>
+        <label
+          class="button look-soft flex cursor-pointer lg:hidden"
+          for="header-toggle"
+        >
+          <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
+        </label>
+        <Group layout="row"></Group>
         <input
           id="header-toggle"
           class="peer hidden"
