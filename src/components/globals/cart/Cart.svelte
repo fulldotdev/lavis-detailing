@@ -24,7 +24,7 @@
         class="button look-soft p-size2"
         on:click={() => cartIsOpen.set(!$cartIsOpen)}
       >
-        <i class="icon:x h-6 w-6"> </i>
+        <i class="icon:x h-6 w-6">close</i>
       </button>
     </header>
     <CartList />

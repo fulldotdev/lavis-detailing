@@ -14,7 +14,7 @@ const variant = cva({
     },
     align: {
       start: 'items-start',
-      center: 'items-center',
+      center: '',
       end: 'items-end',
     },
   },
@@ -22,7 +22,12 @@ const variant = cva({
     {
       layout: 'col',
       align: 'center',
-      class: 'text-center',
+      class: 'text-center items-center',
+    },
+    {
+      layout: 'row',
+      align: 'center',
+      class: 'lg:items-center',
     },
     {
       layout: 'col',

@@ -7,7 +7,7 @@ const company = await getEntry('globals', 'company').then(({ data }) => data)
   company.logo && (
     <a
       href="/"
-      class="flex"
+      class:list={[Astro.props.class, 'flex']}
     >
       <img
         class="text-primary h-2em block w-auto object-contain"
