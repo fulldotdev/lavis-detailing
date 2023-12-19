@@ -1,5 +1,4 @@
 ---
-import Cart from '@components/globals/cart/Cart.svelte'
 import CartIcon from '@components/globals/cart/CartIcon.svelte'
 import Seo from '@components/misc/Seo.astro'
 import { ViewTransitions } from 'astro:transitions'
@@ -17,10 +16,7 @@ const { seo } = Astro.props
     <ViewTransitions />
   </head>
   <body class="size-medium mode-base hue-base bg-hue1 scroll-smooth">
-    <div class="hidden">
-      <CartIcon client:load />
-      <Cart client:load />
-    </div>
+    <CartIcon client:load />
     <slot />
   </body>
 </html>

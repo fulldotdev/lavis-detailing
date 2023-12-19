@@ -22,12 +22,10 @@ const collection = await getCollection('products')
 ---
 
 <!-- Temporary untill astro/svelte bug is fixed -->
-<div class="hidden">
-  <CartUpdateButton
-    data={data}
-    client:load
-  />
-</div>
+<CartUpdateButton
+  data={data}
+  client:load
+/>
 
 <NavLayout>
   <Section
@@ -46,10 +44,10 @@ const collection = await getCollection('products')
         class="size-large text-size2 text-hue12"
         price={data.price}
       />
-      <CartUpdateButton
+      <!-- <CartUpdateButton
         data={data}
         client:load
-      />
+      /> -->
     </Segment>
   </Section>
   <Section>
