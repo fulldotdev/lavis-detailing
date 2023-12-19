@@ -17,7 +17,6 @@ images:
     alt: null
 categories:
   - src/content/categories/eagle.md
-  - src/content/categories/overig.md
   - src/content/categories/sponzen.md
 price: 5.5
 prices:

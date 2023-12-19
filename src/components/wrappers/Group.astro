@@ -18,13 +18,13 @@ const variant = cva({
   },
 })
 
-// const slot = await Astro.slots.render('default')
+const slot = await Astro.slots.render('default')
 ---
 
-<!-- {
-  slot?.trim().length > 0 && ( -->
-<div class={variant(Astro.props)}>
-  <slot />
-</div>
-<!-- )
-} -->
+{
+  slot?.trim().length > 0 && (
+    <div class={variant(Astro.props)}>
+      <slot />
+    </div>
+  )
+}

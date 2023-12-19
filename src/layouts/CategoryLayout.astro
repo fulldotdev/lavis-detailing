@@ -1,4 +1,5 @@
 ---
+import Writeup from '@components/elements/Writeup.astro'
 import RenderCards from '@components/misc/RenderCards.astro'
 import Deck from '@components/wrappers/Deck.astro'
 import Section from '@components/wrappers/Section.astro'
@@ -22,15 +23,18 @@ const categories = await getCollection('categories')
 ---
 
 <NavLayout seo={data.seo}>
+  <Section class:list="pb-0">
+    <Writeup {...data} />
+  </Section>
   <Section>
     <Deck layout="grid">
-      <RenderCards cards={products} />
+      <RenderCards {products} />
     </Deck>
   </Section>
   <Section>
     <h2>Bekijk ook eens</h2>
     <Deck layout="carousel">
-      <RenderCards cards={categories} />
+      <RenderCards {categories} />
     </Deck>
   </Section>
 </NavLayout>

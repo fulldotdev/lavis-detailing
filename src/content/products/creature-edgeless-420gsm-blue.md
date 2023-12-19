@@ -21,7 +21,6 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-Pack-1.webp
     alt: null
 categories:
-  - src/content/categories/overig.md
   - src/content/categories/doeken.md
   - src/content/categories/creature.md
 price: 3.9

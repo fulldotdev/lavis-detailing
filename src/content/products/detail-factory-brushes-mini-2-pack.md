@@ -28,7 +28,6 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-mini-2-pack.webp
     alt: null
 categories:
-  - src/content/categories/overig.md
   - src/content/categories/kwasten.md
   - src/content/categories/detail-factory.md
   - src/content/categories/exterieur.md

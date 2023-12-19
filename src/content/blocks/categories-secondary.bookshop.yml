@@ -33,6 +33,6 @@ config:
     importance: tertiary
     layout: row
   deck:
-    layout: carousel
-    size: small
+    layout: grid
+    size: medium
     class: '[&_.card]:aspect-5/3'

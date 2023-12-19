@@ -44,11 +44,12 @@ categories:
     frame: panel
     look: surface
     hue:
+    ratio: landscape
     scheme:
     class: justify-end
   image:
     position: background
-    ratio: square
+    ratio:
     class: mask-lg
 persons:
   card:
