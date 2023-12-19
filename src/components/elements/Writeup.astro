@@ -24,6 +24,7 @@ const { writeup, tagline, title, description } = Astro.props
       {writeup && typeof writeup === 'string' && (
         <Fragment set:html={writeup} />
       )}
+      <slot />
     </div>
   )
 }
