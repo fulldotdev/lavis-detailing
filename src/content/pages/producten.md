@@ -9,13 +9,13 @@ seo:
     alt:
 content_blocks:
   - _bookshop_name: src/content/blocks/categories
-    writeup: <h1>Shop per categorie</h1>
+    writeup: <h1>Kwalitatieve producten voor binnen en buiten</h1>
     buttons:
     categories:
       - src/content/categories/exterieur.md
       - src/content/categories/interieur.md
   - _bookshop_name: src/content/blocks/products
-    writeup: <p>Populaire producten</p>
+    writeup: <h2>Populaire producten</h2>
     buttons:
     products:
       - src/content/products/charming-interieur-verfraaier-5l.md
@@ -25,7 +25,7 @@ content_blocks:
       - src/content/products/creature-edgeless-420gsm-black.md
       - src/content/products/creature-edgeless-420gsm-lime-green.md
   - _bookshop_name: src/content/blocks/categories
-    writeup: <h1>Shop per categorie</h1>
+    writeup: <h1>Overige categorieën</h1>
     buttons:
     categories:
       - src/content/categories/borstels.md
@@ -59,5 +59,4 @@ content_blocks:
   - _bookshop_name: src/content/blocks/products
     writeup: <h2>Alle producten</h2>
     buttons:
-    products:
 ---
