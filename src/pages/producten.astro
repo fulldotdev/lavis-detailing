@@ -11,13 +11,13 @@ const products = await getCollection('products')
 <NavLayout>
   <Section>
     <Deck layout="grid">
-      <RenderCards cards={products} />
+      <RenderCards {products} />
     </Deck>
   </Section>
   <Section>
     <h2>Bekijk ook eens</h2>
     <Deck layout="carousel">
-      <RenderCards cards={products} />
+      <RenderCards {products} />
     </Deck>
   </Section>
 </NavLayout>

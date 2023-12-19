@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Fiber Interieur Reiniger - 5L
-description: ''
+summary: ''
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/FIBER-GL-5L-1.webp
@@ -24,8 +24,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

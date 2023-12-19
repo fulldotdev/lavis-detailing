@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Vision Glasreiniger - 1L
-description: >-
+summary: >-
   De Vision Glasreiniger; een glasreiniger speciaal ontwikkeld voor de
   automotive industrie. Met deze glasreiniger verwijder je eenvoudig en snel
   vet, vuil en andere verontreiniging.
@@ -23,8 +23,7 @@ categories:
   - src/content/categories/gl.md
 price: 15.99
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

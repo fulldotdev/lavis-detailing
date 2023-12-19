@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: INFINITE Allesreiniger -  5L
-description: >-
+summary: >-
   De INFINITE Allesreiniger. Welke detailer of poetsbedrijf heeft het niet in
   zijn assortiment. Tevens de grootverbruiker van veel schoonmaakbedrijven;
   Allesreiniger of beter bekend als APC (all purpose cleaner). Een licht
@@ -30,8 +30,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

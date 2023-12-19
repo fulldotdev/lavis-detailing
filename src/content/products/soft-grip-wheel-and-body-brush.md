@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: SOFT GRIP WHEEL AND BODY BRUSH
-description: "De Soft Grip Wheel and Body Brush,\_is speciaal ontworpen om wielen en banden grondig schoon te maken, maar dankzij de extreem zachte, groen gemarkeerde borstelharen is het ook veilig om op verf te gebruiken. Handig voor grills, rondom emblemen, deurstijlen, gestructureerde sierlijsten en overal waar verfveilig roeren vereist is."
+summary: "De Soft Grip Wheel and Body Brush,\_is speciaal ontworpen om wielen en banden grondig schoon te maken, maar dankzij de extreem zachte, groen gemarkeerde borstelharen is het ook veilig om op verf te gebruiken. Handig voor grills, rondom emblemen, deurstijlen, gestructureerde sierlijsten en overal waar verfveilig roeren vereist is."
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Green-Brush.webp
@@ -25,8 +25,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

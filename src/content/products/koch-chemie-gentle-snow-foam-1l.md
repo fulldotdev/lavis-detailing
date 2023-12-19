@@ -8,7 +8,7 @@ seo:
     src: null
     alt: null
 title: Koch Chemie Gentle Snow Foam (1L)
-description: >-
+summary: >-
   Gentle Snow Foam is een hoogschuimend, pH-neutraal reinigingsschuim met een
   unieke kersengeur, dat kan worden gebruikt als sneeuwschuim voor voorwassen
   wanneer het wordt aangebracht met een schuimpistool of schuimsproeier, en als
@@ -32,8 +32,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

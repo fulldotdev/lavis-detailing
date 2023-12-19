@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Cupido 500 ML
-description: >-
+summary: >-
   Cupido combineert de glans en diepte van een carnauba wax met de bescherming
   van een nanosealer, waardoor onvergelijkbare resultaten worden gegarandeerd
   met een extreem gebruiksgemak.
@@ -27,8 +27,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

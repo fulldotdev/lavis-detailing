@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Koch Chemie Plast Star (1L)
-description: >-
+summary: >-
   Koch Chemie Plast Star is een siliconenolievrij premiumproduct op het gebied
   van kunststofverzorgingsproducten. Onderhoudt en beschermt maandenlang en is
   extreem UV-stabiel. De behandelde delen krijgen hun oorspronkelijke nieuwe
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

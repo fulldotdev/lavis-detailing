@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Premium Microfiber Glass Towel
-description: >-
+summary: >-
   De Premium Glass Towel zorgt samen met je favoriete glasreiniger voor een
   prachtig resultaat. De doek heeft twee verschillende kanten. De ene kant heeft
   een corduroy oppervlak om vervuiling vast te kunnen pakken en de andere kant
@@ -26,8 +26,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

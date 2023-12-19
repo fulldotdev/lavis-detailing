@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: GL Classic Leather 500ml
-description: >-
+summary: >-
   GL Classic Leather 500ml beschermt, verzorgt en verfraait het oppervlak. Dit
   product geeft een mooie zijdeachtige glans en het oppervlak wordt niet te
   vettig, waardoor het natuurlijke comfort van het leer behouden blijft.
@@ -28,8 +28,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

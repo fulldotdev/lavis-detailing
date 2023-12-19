@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Shampoo & Rinse - 500ml
-description: ''
+summary: ''
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Shampoo-Rinse-GL-05L-1.webp
@@ -25,8 +25,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Derma 500 ML
-description: ''
+summary: ''
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/labocosmetica-derma-cleaner20-leather-cleaner-500m.webp
@@ -25,8 +25,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

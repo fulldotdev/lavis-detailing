@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Koch Chemie Finish Spray Exterior (1L)
-description: >-
+summary: >-
   Chemie Finish Spray is de allround detailleringsspray voor snelle verzorging
   van alle externe voertuigoppervlakken zoals lak, glas en kunststof. Met zijn
   speciale formule worden zelfs hardnekkige kalkvlekken snel en zonder residu
@@ -34,8 +34,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

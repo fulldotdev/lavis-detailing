@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Sidero 500 ML
-description: >-
+summary: >-
   SIDERO is ideaal voor de decontaminatie van auto’s die sterk verontreinigd
   zijn met ijzer- en minerale resten die zich ophopen op de carrosserie, velgen
   en ramen zoals veroorzaakt door spoorvervoer of parkeren naast staalfabrieken
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

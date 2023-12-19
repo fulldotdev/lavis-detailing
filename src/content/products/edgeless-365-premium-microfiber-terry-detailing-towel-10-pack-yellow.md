@@ -8,7 +8,7 @@ seo:
     src: null
     alt: null
 title: Edgeless 365 Premium Microfiber Terry Detailing Towel (10-pack) -  Yellow
-description: >-
+summary: >-
   De Edgeless 365 detailingdoek. Maak kennis met deEdgeless 365 microfiber
   detailingdoek. Een zachte microfiber detailingdoek met 365 g/m2 aan zachtheid.
   Absoluut de beste microfiber-detailleringsdoek van professionele kwaliteit -
@@ -32,8 +32,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

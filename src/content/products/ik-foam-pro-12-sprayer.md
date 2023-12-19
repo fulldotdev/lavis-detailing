@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: IK Foam Pro 12 Sprayer
-description: >-
+summary: >-
   Al meer dan 60 jaar ontwerpt en fabriceert de Goizper Group spuitmachines van
   hoge kwaliteit voor de auto, industriële schoonmaak- en bouwsector vanuit hun
   ultramoderne Europese faciliteiten, waardoor ze een reputatie hebben opgebouwd
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

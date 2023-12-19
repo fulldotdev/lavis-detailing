@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: P&S Brake Buster Wheel Cleaner. - Spray
-description: a
+summary: a
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Brake-Buster-Spray.webp
@@ -23,8 +23,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

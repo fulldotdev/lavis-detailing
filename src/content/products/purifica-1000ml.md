@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Purifica 1000ML
-description: >-
+summary: >-
   Purifica van Labocosmetica zorgt ervoor dat kalk en aan andere aanslag op de
   lak effectief maar behoedzaam worden verwijderd van de lak, sealants en
   lakcoatings.
@@ -28,8 +28,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

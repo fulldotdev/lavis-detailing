@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: The Liquid8r 50x61 cm
-description: ''
+summary: ''
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/the-liquid8r-20x24-package.webp
@@ -24,8 +24,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

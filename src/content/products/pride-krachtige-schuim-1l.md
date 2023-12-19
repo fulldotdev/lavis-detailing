@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Pride krachtige schuim. - 1L
-description: >-
+summary: >-
   Pride is een schuim/reiniger, speciaal ontwikkeld voor de auto-industrie. Door
   zijn samenstelling biedt dit product niet alleen sterk schuim, maar ook een
   sterke reinigingskracht. Naast het verwijderen van los zand verbreekt het ook
@@ -33,8 +33,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: GL brutal insecten verwijderaar 1L
-description: >-
+summary: >-
   GL Brutal insectenverwijderaar maakt op een makkelijke en snelle manier een
   einde aan vervelende insectenresten op de voorzijde van het voertuig. Dit
   product is door zijn samenstelling ook in te zetten tegen opspattend vuil wat
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

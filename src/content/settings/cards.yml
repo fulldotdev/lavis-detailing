@@ -1,12 +1,12 @@
 products:
   card:
-    frame: panel
-    look: surface
+    frame: fill
+    look: ghost
     hue: base
     scheme: dark
     class: '[&_p]:hidden'
   image:
-    position: cover
+    position:
     ratio: square
 posts:
   card:

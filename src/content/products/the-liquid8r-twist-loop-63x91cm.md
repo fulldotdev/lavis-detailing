@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: The liquid8r twist loop 63x91cm
-description: >-
+summary: >-
   De liquid8r twist loop absorbeert werkelijk waar alles wat het aanraakt!
   Daarnaast heeft de microvezeldroogdoek het bevredigende gewicht waar veel
   mensen van houden bij het drogen van auto's en voertuigen. Iedereen heeft een
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

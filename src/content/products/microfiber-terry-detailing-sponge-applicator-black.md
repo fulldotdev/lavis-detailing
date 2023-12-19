@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Microfiber Terry Detailing Sponge Applicator - Black
-description: >-
+summary: >-
   De Microfiber Terry Detailing Sponge is een veelzijdige applicator voor
   detailspray.
 images:
@@ -25,8 +25,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

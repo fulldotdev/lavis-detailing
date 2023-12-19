@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Veritas 1000 ML
-description: >-
+summary: >-
   Veritas is de must have ontvetter, essentieel voor het aanbrengen van de
   coating of sealants. Je kan Veritas ook op een innovatieve manier gebruiken
   als een extra controle op de levensduur van de coating tijdens de wasfase.
@@ -31,8 +31,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Glico 500 ML
-description: ''
+summary: ''
 images:
   - src: https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB99.webp
     alt: null
@@ -23,8 +23,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

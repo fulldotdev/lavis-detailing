@@ -8,7 +8,7 @@ seo:
     src: null
     alt: null
 title: Detail Factory Brushes 2-pack -  Orange
-description: >-
+summary: >-
   De Premium Detail Factory Brushes van Lavis Detailing Sneek zijn onovertroffen
   in de branche voor zowel professionals als liefhebbers.
 
@@ -36,8 +36,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

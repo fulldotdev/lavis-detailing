@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Robust Neutrale Velgenreiniger. -  5L
-description: >-
+summary: >-
   Op zoek naar een PH neutrale velgenreiniger? Eentje die veilig is voor elk
   type velg? De Robust Neutrale Velgenreiniger maakt het niet uit of u hoogglans
   verdichte wielen heeft, aluminium, blanke lak gespoten, matte wielen of
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

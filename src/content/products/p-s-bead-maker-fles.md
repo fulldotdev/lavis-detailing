@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: P&S Bead Maker - Fles
-description: ''
+summary: ''
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/PS-Bead-Maker-Spray-BOTTLE.webp
@@ -23,8 +23,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

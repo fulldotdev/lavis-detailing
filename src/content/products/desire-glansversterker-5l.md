@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Desire Glansversterker -  5L
-description: >-
+summary: >-
   GL Desire Glansversterker is de oplossing om uw voertuig terug te brengen naar
   de status van een auto in de showroom. Ook is het product gemakkelijk in
   gebruik en geeft een diepe wetlook finish. Tevens heeft het product een
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

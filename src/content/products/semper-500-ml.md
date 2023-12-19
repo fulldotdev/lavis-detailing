@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Semper 500 ML
-description: >-
+summary: >-
   Semper is een pH neutrale super geconcentreerde shampoo. Deze shampoo is
   speciaal voor het normale onderhoud met een hoge reinigende werking en een
   plezierige geur. Semper is veilig te gebruiken op alle lakken en tast de
@@ -33,8 +33,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: OPTIMUM Car Wax - Gallon
-description: >-
+summary: >-
   Optimum Car Wax is de enige autospray die de duurzaamheid van een pasteuze wax
   en langdurige Uv-bescherming biedt. Een combinatie van hoogwaardige
   carnaubawas, verzegelingspolymeren en Uv-remmers vormt een beschermende laag
@@ -30,8 +30,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

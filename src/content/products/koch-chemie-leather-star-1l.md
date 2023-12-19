@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Koch Chemie Leather Star (1L)
-description: ''
+summary: ''
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Leather-Star-1L-800x800-1.webp
@@ -25,8 +25,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Perfecta SiO2 500ML
-description: ''
+summary: ''
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/perfecta-sio2.webp
@@ -25,8 +25,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

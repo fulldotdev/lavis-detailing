@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Interior Scrub Brush
-description: >-
+summary: >-
   Deze witte nylon Interior Scrub Brush is perfect om vuil en roet weg te
   schrobben.
 images:
@@ -27,8 +27,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

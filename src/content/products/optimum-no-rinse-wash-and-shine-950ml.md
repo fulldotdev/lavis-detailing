@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Optimum No Rinse Wash and Shine - 950ml
-description: ''
+summary: ''
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-4-f6d136d9da4f.webp
@@ -25,8 +25,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

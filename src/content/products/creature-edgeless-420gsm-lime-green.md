@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Creature Edgeless 420GSM - Lime Green
-description: >+
+summary: >+
   Onze professionele Creature Edgeless microfiber multifunctionele handdoek van
   420 g/m2 is het antwoord op de vele verzoeken die we hebben ontvangen om een
   ​​scherp geprijsde, hoogwaardige randloze handdoek te maken voor klanten die
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

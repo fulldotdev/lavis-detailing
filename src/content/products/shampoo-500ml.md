@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Shampoo -  500ml
-description: >-
+summary: >-
   Deze zeer milde maar doch krachtige pure shampoo is speciaal gemaakt voor de
   automotive industrie. De shampoo is zeer zuinig in gebruik en tevens mild voor
   elk oppervlak.
@@ -28,8 +28,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Detail Factory Brushes Mini 2-pack
-description: >-
+summary: >-
   De Detailing Factory Brushes zijn onovertroffen in de branche voor zowel
   professionals als liefhebbers. Met een focus op het creëren van innovatieve
   tools die in een marktbehoefte voorzien en de concurrentie overtreffen, is
@@ -39,8 +39,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

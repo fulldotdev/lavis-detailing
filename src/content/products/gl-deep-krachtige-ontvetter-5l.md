@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: GL Deep krachtige ontvetter -  5L
-description: >-
+summary: >-
   GL Deep krachtige ontvetter. Op zoek naar een zeer krachtige ontvetter? Een
   multifunctionele ontvetter die veilig is voor elke ondergrond? Dan is Deep de
   juiste keuze.
@@ -28,8 +28,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

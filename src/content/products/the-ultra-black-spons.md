@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: The ultra black spons
-description: >-
+summary: >-
   De Ultra Black Sponge, is een exclusieve autospons voorzien van de nieuwste
   schuimtechnologie. De nieuwe ergonomische vorm maakt het veel gemakkelijker
   vast te houden, wat leidt tot een betere prestatie tijdens het auto wassen. De
@@ -30,8 +30,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

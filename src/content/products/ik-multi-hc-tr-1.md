@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: IK Multi HC TR-1
-description: >-
+summary: >-
   Serie spuitmachines uitgerust met de hoogste prestaties op het gebied van
   veiligheid en gebruiksgemak. Ontworpen voor professioneel gebruik met de meest
   agressieve chemicaliën in verschillende sectoren.
@@ -27,8 +27,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

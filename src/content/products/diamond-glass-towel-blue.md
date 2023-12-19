@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Diamond Glass Towel - Blue
-description: >-
+summary: >-
   Het unieke “Diamond Scale” -patroon van de DIAMOND Glass and Window Towel
   zorgt voor een effectief soepel glijvermogen om gemakkelijk al uw stoffige,
   vuile, groezelige glas- en raambehoeften aan te pakken. Het
@@ -31,8 +31,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

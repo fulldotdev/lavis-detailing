@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Charming Interieur Verfraaier - 500ml
-description: >-
+summary: >-
   Charming Interieur Verfraaier zorgt voor die natuurlijk uitstraling van uw
   interieur. Je kiest voor de charming interieur verfraaiers als je geen
   glanzende finish wilt in jouw interieur, maar een satijnen uitstraling wat
@@ -28,8 +28,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

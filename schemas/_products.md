@@ -12,7 +12,7 @@ seo:
     alt:
 
 title:
-description:
+summary:
 images:
   - src:
     alt:
@@ -27,7 +27,7 @@ prices:
       value:
 
 _inputs:
-  description:
+  summary:
     type: html
   price:
     type: number

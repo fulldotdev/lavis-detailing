@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: OPTIMUM Opti-Bond Tire Gel - Fles
-description: >-
+summary: >-
   Optimum Opti-Bond Tire Gel geeft een duurzame hoogglans die niet vet is of
   stof aantrekt. Opti-Bond bevat geen petroleumdestillaten waarvan bekend is dat
   ze rubber en vinyl kraken. Het bevat geavanceerde UV- en ozonbeschermers om
@@ -30,8 +30,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

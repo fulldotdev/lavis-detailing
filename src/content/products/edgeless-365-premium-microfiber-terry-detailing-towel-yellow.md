@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Edgeless 365 premium microfiber terry detailing towel -  Yellow
-description: >-
+summary: >-
   Op zoek naar een uitstekende microvezeldoek? Dan ben je bij Lavis Detailing
   aan het juiste adres! Met een eindeloze hoeveelheid verschillende
   toepassingen, zijn de Edgeless 365 premium microfiber doekenbeste keuze voor
@@ -30,8 +30,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

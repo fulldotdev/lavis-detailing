@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: OPTIMUM Tire Protection Coating - Fles
-description: >-
+summary: >-
   Optimum Tire Protection Coating Zorgt voor een langdurige glans en bescherming
   van de banden. Als je het op een schoon oppervlak aanbrengt, krijg je
   maandenlang een goed uitziende band die gemakkelijk schoon te maken is.
@@ -28,8 +28,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

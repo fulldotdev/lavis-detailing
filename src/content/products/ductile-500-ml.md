@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Ductile 500 ML
-description: >-
+summary: >-
   Ductile is een veelzijdig allesreiniger en extreem geconcentreerd
   reinigingsmiddel met een sterk reinigende werking. Het kan effectief worden
   gebruikt op alle soorten oppervlakken, zowel voor binnen- als buitendelen van
@@ -28,8 +28,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Koch Chemie Eulex (1L)
-description: >-
+summary: >-
   Chemie Eulex is een speciaal product voor het snel verwijderen van lijm (bijv.
   Stickerresten), rubber, boomhars, spuitnevel, inktvlekken, olie, vetten, teer
   etc. van oplosmiddelbestendige ondergronden zoals lak, glas, keramiek, metaal
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

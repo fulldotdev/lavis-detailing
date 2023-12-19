@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: OPTIMUM No Rinse Wash And Wax -  950ml
-description: >-
+summary: >-
   Optimum No Rinse™ Wash and Wax is de snelste, gemakkelijkste en meest
   milieuvriendelijke manier om elk voertuig schoon te maken en in de was te
   zetten. De gepatenteerde polymeren hechten zich aan het voertuigoppervlak en
@@ -31,8 +31,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

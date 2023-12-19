@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Hydra 500ML
-description: ''
+summary: ''
 images:
   - src: >-
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/labocosmetica-labocosmetica-hydra.webp
@@ -25,8 +25,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

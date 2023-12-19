@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Rinse Drooghulp & Coating 1L
-description: >-
+summary: >-
   Rinse Drooghulp &amp; Coating 1L is een droog-hulpmiddel, speciaal ontwikkeld
   voor de auto-industrie. Dit product is ontwikkelt om water snel en gemakkelijk
   van het voertuig af te voeren. Daarnaast verbetert het de glans en verzegelt
@@ -29,8 +29,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

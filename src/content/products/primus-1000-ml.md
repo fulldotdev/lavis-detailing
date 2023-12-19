@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Primus 1000 ML
-description: >-
+summary: >-
   Primus is een krachtige alkaline foam zonder bijtende bestanddelen. Dit is het
   eerste alkaline prewash product ph11 die zich wast als een veilige ph13.
 images:
@@ -27,8 +27,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

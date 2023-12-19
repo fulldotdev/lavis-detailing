@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: GL Metal Polish
-description: >-
+summary: >-
   Met GL Metal Polish krijgt u bijna alle metalen zoals RVS weer glanzend. GL
   Metal Polish is een krachtig polijstmiddel en daarom erg geschikt voor poetsen
   van metaal. Het verwijdert roest en aanslag, geeft een prachtige glans en laat
@@ -28,8 +28,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: OPTIMUM Opti-Seal 236ml - Fles
-description: >-
+summary: >-
   Onze =Optimum Opti-Seal= is een nieuwe revolutionaire lakverzegeling die met
   slechts een paar druppels per voertuig een ongeëvenaarde gladheid en glans
   creëert. Dit product laat geen lelijke sporen achter en vereist geen
@@ -36,8 +36,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

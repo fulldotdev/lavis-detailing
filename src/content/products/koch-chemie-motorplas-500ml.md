@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Koch Chemie Motorplas (500ml)
-description: >-
+summary: >-
   Koch Chemie Motorplas is een natuurlijk, glanzende en waterverdringende
   bespaarder voor motoren, behuizingsonderdelen, rubberslangen en
   aandrijfeenheden van auto's, bedrijfswagens, enz., Met een aangename geur.
@@ -34,8 +34,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:

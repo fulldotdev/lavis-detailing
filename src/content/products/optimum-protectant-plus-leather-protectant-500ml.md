@@ -10,7 +10,7 @@ seo:
     src: null
     alt: null
 title: Optimum Protectant Plus (Leather Protectant) 500ml
-description: >-
+summary: >-
   Optimum Protectant Plus reinigt, herstelt en beschermt leer, vinyl en
   kunststof vormoppervlakken. Optimum Protectant Plus bevat een balans van
   reinigingsmiddelen, penetrerende oliën, reactieve polymeren en UV-remmers om
@@ -30,8 +30,7 @@ prices:
     - key: null
       value: null
 _inputs:
-  description:
-    type: null
+
   price:
     type: number
   categories:
