@@ -140,7 +140,6 @@ content_blocks:
       - src/content/products/p-s-bead-maker-fles.md
       - src/content/products/p-s-brake-buster-wheel-cleaner-spray.md
       - src/content/products/perfecta-sio2-500ml.md
-      - src/content/products/premium-microfiber-glass-towel.md
       - src/content/products/pride-krachtige-schuim-5l.md
       - src/content/products/pride-krachtige-schuim-1l.md
       - src/content/products/primus-1000-ml.md
