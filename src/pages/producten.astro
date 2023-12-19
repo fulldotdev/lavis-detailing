@@ -1,0 +1,23 @@
+---
+import RenderCards from '@components/misc/RenderCards.astro'
+import Deck from '@components/wrappers/Deck.astro'
+import Section from '@components/wrappers/Section.astro'
+import NavLayout from '@layouts/NavLayout.astro'
+import { getCollection } from 'astro:content'
+
+const products = await getCollection('products')
+---
+
+<NavLayout>
+  <Section>
+    <Deck layout="grid">
+      <RenderCards {products} />
+    </Deck>
+  </Section>
+  <Section>
+    <h2>Bekijk ook eens</h2>
+    <Deck layout="carousel">
+      <RenderCards {products} />
+    </Deck>
+  </Section>
+</NavLayout>
