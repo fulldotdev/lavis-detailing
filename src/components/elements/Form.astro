@@ -41,7 +41,6 @@ let {
 const formName = form?.split('/').pop()?.replace('.md', '') || 'myplaceholder'
 const formEntry = await getEntry('forms', formName)
 const formData = formEntry ? formEntry.data : Astro.props
-console.log(formData)
 ---
 
 {
@@ -51,7 +50,6 @@ console.log(formData)
       class="gap-size2 flex w-full max-w-xl flex-col text-left"
     >
       {formData.inputs?.map((input: any) => {
-        console.log(input)
         const key = input._bookshop_name.split('/').pop()
         const Component = components[key]
         return <Component {...input} />
