@@ -14,6 +14,6 @@
 </script>
 
 <button
-  class="button-secondary hue-base !scale-100"
+  class="button look-soft hue-base hover:bg-hue4 active:bg-hue5 ml-auto w-fit !scale-100"
   on:click={trash}><i class="icon:trash block"></i></button
 >
