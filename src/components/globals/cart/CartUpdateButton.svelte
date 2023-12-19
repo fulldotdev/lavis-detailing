@@ -16,7 +16,7 @@
 
   const createItem = () => {
     if (index !== -1) return
-    console.log("Added item", data)
+    console.log('Added item', data)
     cart.set([...$cart, { ...data, quantity: 1 }])
   }
 
@@ -46,37 +46,40 @@
   }
 </script>
 
-{#if !quantity || quantity <= 0}
-  <button
-    class="button hue-brand look-solid !text-black"
-    on:click={createItem}
-  >
-    <i class="icon:shopping-cart block"></i>
-    Toevoegen aan winkelwagen
-  </button>
-{:else}
-  <div class="hue-base bg-hue3 mt-auto flex grow-0 rounded py-0">
-    {#if quantity <= 1}
-      <CartRemoveButton {data} />
-    {:else}
-      <button
-        class="button look-soft hue-base hover:bg-hue4 active:bg-hue5 !scale-100"
-        on:click={() => changeQuantity(-1)}
-      >
-        <i class="icon:minus block"></i>
-      </button>
-    {/if}
-    <input
-      type="number"
-      min="1"
-      step="1"
-      value={quantity}
-      on:input={handleInput}
-      class="input max-w-30 bg-hue3 hover:bg-hue4 active:bg-hue5 !appearance-none text-center focus:outline-none"
-    />
+<div class="flex">
+  {#if !quantity || quantity <= 0}
     <button
-      class="button look-soft hue-base hover:bg-hue4 active:bg-hue5 !scale-100"
-      on:click={() => changeQuantity(1)}><i class="icon:plus block"></i></button
+      class="button-primary hue-brand"
+      on:click={createItem}
     >
-  </div>
-{/if}
+      <i class="icon:shopping-cart block"></i>
+      Toevoegen aan winkelwagen
+    </button>
+  {:else}
+    <div class="hue-base bg-hue3 mt-auto flex grow-0 rounded py-0">
+      {#if quantity <= 1}
+        <CartRemoveButton {data} />
+      {:else}
+        <button
+          class="button-secondary hue-base !scale-100"
+          on:click={() => changeQuantity(-1)}
+        >
+          <i class="icon:minus block"></i>
+        </button>
+      {/if}
+      <input
+        type="number"
+        min="1"
+        step="1"
+        value={quantity}
+        on:input={handleInput}
+        class="input max-w-30 bg-hue3 hover:bg-hue4 active:bg-hue5 text-center focus:outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+      />
+      <button
+        class="button-secondary hue-base !scale-100"
+        on:click={() => changeQuantity(1)}
+        ><i class="icon:plus block"></i></button
+      >
+    </div>
+  {/if}
+</div>
