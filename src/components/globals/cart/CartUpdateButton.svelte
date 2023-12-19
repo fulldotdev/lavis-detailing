@@ -16,7 +16,7 @@
 
   const createItem = () => {
     if (index !== -1) return
-    console.log("Added item", data)
+    console.log('Added item', data)
     cart.set([...$cart, { ...data, quantity: 1 }])
   }
 
@@ -48,7 +48,7 @@
 
 {#if !quantity || quantity <= 0}
   <button
-    class="button hue-brand look-solid !text-black"
+    class="button-primary"
     on:click={createItem}
   >
     <i class="icon:shopping-cart block"></i>
@@ -72,7 +72,7 @@
       step="1"
       value={quantity}
       on:input={handleInput}
-      class="input max-w-30 bg-hue3 hover:bg-hue4 active:bg-hue5 !appearance-none text-center focus:outline-none"
+      class="input max-w-30 text-center focus:outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
     />
     <button
       class="button look-soft hue-base hover:bg-hue4 active:bg-hue5 !scale-100"
