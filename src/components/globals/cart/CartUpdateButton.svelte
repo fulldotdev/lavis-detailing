@@ -1,12 +1,14 @@
 <script lang="ts">
-  import { cart } from '@stores/cartStore'
+  import { cart } from '@stores/nanoStore'
   import CartRemoveButton from './CartRemoveButton.svelte'
 
   export let data: any
 
   $: index = $cart.findIndex(
-    (item) => item?.stripePriceId == data?.stripePriceId
+    (item) => item?._stripe_price_id == data?._stripe_price_id
   )
+
+  console.log(data)
 
   $: quantity = $cart[index]?.quantity
 
@@ -14,6 +16,7 @@
 
   const createItem = () => {
     if (index !== -1) return
+    console.log("Added item", data)
     cart.set([...$cart, { ...data, quantity: 1 }])
   }
 

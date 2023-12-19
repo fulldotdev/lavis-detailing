@@ -1,5 +1,5 @@
 <script>
-  import { totalPrice } from '@stores/cartStore'
+  import { totalPrice } from '@stores/nanoStore'
   import CartCheckoutButton from './CartCheckoutButton.svelte'
 </script>
 

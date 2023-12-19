@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cart } from '@stores/cartStore'
+  import { cart } from '@stores/nanoStore'
 
   export let data: any
 

@@ -18,7 +18,7 @@ interface Props {
 
 const { data, render } = Astro.props.entry
 const { Content } = await render()
-const collection = await getCollection('products')
+const products = await getCollection('products')
 ---
 
 <!-- Temporary untill astro/svelte bug is fixed -->
@@ -62,7 +62,7 @@ const collection = await getCollection('products')
       layout="carousel"
       size="medium"
     >
-      <RenderCards cards={collection} />
+      <RenderCards {products} />
     </Deck>
   </Section>
 </NavLayout>

@@ -10,7 +10,11 @@ const { writeup, tagline, title, description } = Astro.props
 ---
 
 {
-  (writeup || tagline || title || description) && (
+  (writeup ||
+    tagline ||
+    title ||
+    description ||
+    Astro.slots.has('default')) && (
     <div
       class:list={[
         '[&_h1,&_h2,&_h3,&_h4,&_h5,&_h6]:my-size3',

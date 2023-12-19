@@ -1,5 +1,5 @@
 <script>
-  import { cart } from '@stores/cartStore'
+  import { cart } from '@stores/nanoStore'
 
   async function checkout() {
     // const response = await fetch(process.env.PUBLIC_SERVER_URL + `/api/testa`, {
