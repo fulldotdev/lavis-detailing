@@ -43,9 +43,9 @@ const config = globals.data.header
   header && (
     <>
       <header class={variant(config)}>
-        <Logo />
+        <Logo class:list="mr-auto" />
         <Links
-          class:list="ml-auto"
+          class:list="max-lg:hidden"
           layout="row"
           links={header.links}
         />
@@ -67,11 +67,11 @@ const config = globals.data.header
           class="peer hidden"
           type="checkbox"
         />
-        <Segment class:list="py-size4 z-90 bg-hue1 border-hue6 absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex">
+        <Segment class:list="py-size6 z-90 bg-hue1 border-hue6 !absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex">
           <Links
             layout="col"
             align="center"
-            links={header.link}
+            links={header.links}
           />
           <Buttons
             layout="col"
