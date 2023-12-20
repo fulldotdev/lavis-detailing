@@ -1,4 +1,6 @@
 ---
+import Prose from '@components/elements/Prose.astro'
+import Section from '@components/wrappers/Section.astro'
 import type { CollectionEntry } from 'astro:content'
 import NavLayout from './NavLayout.astro'
 
@@ -11,5 +13,10 @@ const { Content } = await render()
 ---
 
 <NavLayout seo={data.seo}>
-  <Content />
+  <Section
+    align="center"
+    frame="float"
+  >
+    <Prose {Content} />
+  </Section>
 </NavLayout>
