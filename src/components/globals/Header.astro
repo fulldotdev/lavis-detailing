@@ -56,35 +56,36 @@ const config = globals.data.header
           layout="row"
           links={header.links}
         />
-        <Buttons
-          layout="row"
-          buttons={header.buttons}
-        />
-        <CartIcon client:load />
-        <label
-          class="button look-soft flex cursor-pointer lg:hidden"
-          for="header-toggle"
-        >
-          <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
-        </label>
-        <Group layout="row" />
-        <input
-          id="header-toggle"
-          class="peer hidden"
-          type="checkbox"
-        />
-        <Segment class:list="py-size6 z-90 bg-hue1 border-hue6 !absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex">
-          <Links
-            layout="col"
-            align="center"
-            links={header.links}
-          />
+        <Group layout="row">
           <Buttons
-            layout="col"
+            layout="row"
             buttons={header.buttons}
           />
-        </Segment>
+          <CartIcon client:load />
+        </Group>
       </header>
+      <label
+        class="button look-soft flex cursor-pointer lg:hidden"
+        for="header-toggle"
+      >
+        <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
+      </label>
+      <input
+        id="header-toggle"
+        class="peer hidden"
+        type="checkbox"
+      />
+      <Segment class:list="py-size6 z-90 bg-hue1 border-hue6 !absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex">
+        <Links
+          layout="col"
+          align="center"
+          links={header.links}
+        />
+        <Buttons
+          layout="col"
+          buttons={header.buttons}
+        />
+      </Segment>
     </>
   )
 }

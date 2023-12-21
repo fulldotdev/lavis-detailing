@@ -35,7 +35,7 @@ const slot = await Astro.slots.render('default')
       data-component="list"
       class={variant(Astro.props)}
     >
-      <slot />
+      <Fragment set:html={slot} />
     </ul>
   )
 }
