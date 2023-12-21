@@ -1,6 +1,6 @@
 <script lang="ts">
   import CartListCard from './CartListCard.svelte'
-  import { cartIsOpen, cart } from '@stores/nanoStore'
+  import { cartIsOpen, cart } from '@stores/cartStore'
 
   function toggleCart() {
     $cartIsOpen = !$cartIsOpen

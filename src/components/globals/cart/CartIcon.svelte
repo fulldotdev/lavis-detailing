@@ -1,5 +1,5 @@
 <script>
-  import { cartIsOpen, totalQuantity } from '@stores/nanoStore'
+  import { cartIsOpen, totalQuantity } from '@stores/cartStore'
 
   function onClick() {
     cartIsOpen.set(true)

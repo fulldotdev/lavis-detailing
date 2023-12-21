@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cart } from '@stores/nanoStore'
+  import { cart } from '@stores/cartStore'
   import CartRemoveButton from './CartRemoveButton.svelte'
 
   export let data: any

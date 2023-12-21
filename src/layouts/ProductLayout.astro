@@ -18,7 +18,10 @@ interface Props {
 
 const { data, render } = Astro.props.entry
 const { Content } = await render()
-const products = await getCollection('products')
+const products = await getCollection('products', (product) => {
+  if (product.data.draft || !product.data._stripe_price_id) return false
+  return true
+})
 ---
 
 <!-- Temporary untill astro/svelte bug is fixed -->

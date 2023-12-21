@@ -1,7 +1,7 @@
 <script lang="ts">
   import CartList from './CartList.svelte'
   import CartCheckoutButton from './CartCheckoutButton.svelte'
-  import { cartIsOpen } from '@stores/nanoStore'
+  import { cartIsOpen } from '@stores/cartStore'
   import CartSummary from './CartSummary.svelte'
 </script>
 

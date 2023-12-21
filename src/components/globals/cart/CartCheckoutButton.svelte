@@ -1,24 +1,30 @@
 <script>
-  import { cart } from '@stores/nanoStore'
-
-  async function checkout() {
-    // const response = await fetch(process.env.PUBLIC_SERVER_URL + `/api/testa`, {
-    //   method: 'POST',
-    //   body: JSON.stringify({
-    //     cart: $cart,
-    //   }),
-    // })
-    // const data = await response.json()
-    // const url = data.url
-    // window.location.replace(url)
+   import { cart } from '@stores/cartStore'
+  import Stripe from 'stripe'
+  const stripe = new Stripe(
+    'rk_test_51M1cdFAtGAMIOG90fmmPOJFnCxOuYRiR9RvwBemfjzVonniieNQ4GBWEwZrDkUhh6nXka5I8t346cTnRbSM7BWr800fszvOfir'
+  )
+  
+  const handleOnclick = async () => {
+    const lineItems = $cart.map((item) => {
+      return {
+        price: item._stripe_price_id,
+        quantity: item.quantity,
+      }
+    })
+    const checkoutSession = await stripe.checkout.sessions.create({
+      success_url: 'http://localhost:4321/',
+      line_items: lineItems,
+      mode: 'payment',
+    })
+    window.location.replace(checkoutSession.url)
   }
 </script>
 
 <button
-  on:click={checkout}
+  on:click={handleOnclick}
   disabled={$cart.length <= 0}
-  class="button-primary hue-brand size-medium mode-base w-full !text-black"
->
-  Verder naar bestellen
-  <i class="icon:credit-card block"></i>
+  class="button-primary hue-brand look-solid size-medium mode-base"
+>   Verder naar bestellen
+<i class="icon:credit-card block"></i> 
 </button>
