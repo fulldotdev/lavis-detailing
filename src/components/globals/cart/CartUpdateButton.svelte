@@ -14,7 +14,6 @@
 
   const createItem = () => {
     if (index !== -1) return
-    console.log('Added item', data)
     cart.set([...$cart, { ...data, quantity: 1 }])
   }
 
