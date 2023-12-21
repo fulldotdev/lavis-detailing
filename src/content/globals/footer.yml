@@ -32,7 +32,10 @@ columns:
         label: Over ons
         href: /over-ons
       - _bookshop_name: elements/link
-        label: Posts
+        label: Producten
+        href: /producten
+      - _bookshop_name: elements/link
+        label: Blog
         href: /posts
       - _bookshop_name: elements/link
         label: Contact
