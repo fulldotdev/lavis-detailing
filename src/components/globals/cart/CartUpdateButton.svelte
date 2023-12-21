@@ -5,10 +5,8 @@
   export let data: any
 
   $: index = $cart.findIndex(
-    (item) => item?._stripe_price_id == data?._stripe_price_id
+    (item) => item.title == data.title
   )
-
-  console.log(data)
 
   $: quantity = $cart[index]?.quantity
 
