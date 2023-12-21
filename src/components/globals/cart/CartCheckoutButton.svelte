@@ -2,7 +2,7 @@
   import { cart } from '@stores/cartStore'
   import Stripe from 'stripe'
   const stripe = new Stripe(
-    'rk_test_51M1cdFAtGAMIOG90fmmPOJFnCxOuYRiR9RvwBemfjzVonniieNQ4GBWEwZrDkUhh6nXka5I8t346cTnRbSM7BWr800fszvOfir'
+   import.meta.env.PUBLIC_STRIPE_CHECKOUT_KEY
   )
 
   const handleOnclick = async () => {
@@ -22,7 +22,7 @@
     })
 
     const checkoutSession = await stripe.checkout.sessions.create({
-      success_url: `${import.meta.env.PUBLIC_APP_URL}/bedankt`,
+      success_url: `${import.meta.env.PUBLIC_APP_URL}/bestelling-ontvangen`,
       line_items: lineItems,
       mode: 'payment',
       "customer_creation": "always",

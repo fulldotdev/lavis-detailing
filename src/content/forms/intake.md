@@ -40,5 +40,5 @@ inputs:
 button:
   _bookshop_name: elements/button
   label: Verstuur
-  href: /bedankt
+  href: /bericht-ontvangen
 ---
