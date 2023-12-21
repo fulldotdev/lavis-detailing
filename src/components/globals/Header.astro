@@ -10,12 +10,12 @@ import { getEntry } from 'astro:content'
 import { cva } from 'cva'
 
 const variant = cva({
-  base: 'header mode-compact size-medium gap-size6 z-80 flex items-center !sticky top-0 justify-between',
+  base: 'header bg-hue1 mode-compact size-medium gap-size6 z-80 flex items-center top-0 justify-between',
   variants: {
     frame: {
-      fill: 'px-wrapper py-size2 border-t-0 border-l-0 border-r-0',
-      float: 'mx-wrapper py-size2 border-b border-t-0 border-l-0 border-r-0',
-      panel: 'mx-wrapper my-size2 p-size3',
+      fill: 'px-wrapper py-size3 border-t-0 border-l-0 border-r-0',
+      float: 'mx-wrapper py-size3 border-b border-t-0 border-l-0 border-r-0',
+      panel: 'mx-wrapper my-size3 p-size3',
     },
     look: {
       solid: 'bg-hue9 !text-hue-fg',
@@ -24,6 +24,12 @@ const variant = cva({
       outline: 'border border-hue6',
       glass: 'backdrop-blur-3xl bg-black/25',
     },
+    position: {
+      sticky: 'sticky top-0',
+      fixed: 'fixed top-0',
+      absolute: 'absolute top-0',
+      relative: 'relative',
+    },
     size: size,
     scheme: scheme,
     hue: hue,
@@ -31,6 +37,7 @@ const variant = cva({
   defaultVariants: {
     frame: 'fill',
     size: 'medium',
+    position: 'relative',
   },
 })
 
@@ -60,7 +67,7 @@ const config = globals.data.header
         >
           <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
         </label>
-        <Group layout="row"></Group>
+        <Group layout="row" />
         <input
           id="header-toggle"
           class="peer hidden"

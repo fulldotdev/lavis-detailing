@@ -2,6 +2,7 @@ import { cva } from 'cva'
 import type { Preset } from 'unocss'
 import readYaml from '../utils/readYaml'
 import { hue, scheme } from '../variants'
+import { buildVariant } from './functions/buildVariant'
 
 const buttonVariant = cva({
   base: 'gap-xs inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded-size1 p-size3 text-center text-button transition active:scale-95 disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed',
@@ -21,7 +22,7 @@ const buttonVariant = cva({
 })
 
 export const inputVariant = cva({
-  base: 'p-.4rem rounded-size2 text-hue12 hover:(ring ring-inset ring-hue7) active:(ring ring-inset ring-hue8)',
+  base: 'p-.4rem rounded-size2 text-hue12 hover:(ring ring-inset ring-hue7) active:(ring ring-inset ring-hue8) transition',
   variants: {
     look: {
       surface: 'bg-hue2 ring ring-inset ring-hue6',
@@ -42,5 +43,12 @@ export default function preset(): Preset {
       'button-tertiary': buttonVariant(button?.tertiary),
       input: inputVariant(input),
     },
+    variants: [
+      buildVariant('button'),
+      buildVariant('button-primary'),
+      buildVariant('button-secondary'),
+      buildVariant('button-tertiary'),
+      buildVariant('input'),
+    ],
   }
 }

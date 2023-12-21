@@ -3,7 +3,7 @@ export function buildVariant(name: string) {
     if (!matcher.startsWith(`${name}:`)) return matcher
     return {
       matcher: matcher.slice(name.length + 1),
-      selector: (s: string) => `${s}.${name}, .${name} ${name}`,
+      selector: (s: string) => `${s}.${name}, ${s} .${name}`,
     }
   }
 }
