@@ -28,9 +28,8 @@ content_blocks:
     writeup: <h1>Productcategorieen</h1>
     buttons:
     categories:
-      - src/content/categories/borstels.md
+      - src/content/categories/borstels-en-kwasten.md
       - src/content/categories/doeken.md
-      - src/content/categories/kwasten.md
       - src/content/categories/lak-bescherming.md
       - src/content/categories/leer-bescherming.md
       - src/content/categories/motorruimte.md
@@ -43,19 +42,12 @@ content_blocks:
     writeup: <h1>Hoogwaardige merken</h1>
     buttons:
     categories:
-      - src/content/categories/creature.md
-      - src/content/categories/detail-factory.md
-      - src/content/categories/diamond.md
       - src/content/categories/ik.md
       - src/content/categories/koch-chemie.md
       - src/content/categories/gl.md
       - src/content/categories/labocosmetica.md
       - src/content/categories/optimum-polymer-technologies.md
-      - src/content/categories/eagle.md
-      - src/content/categories/p-s.md
-      - src/content/categories/the-gauntlet.md
       - src/content/categories/trc.md
-      - src/content/categories/pride.md
   - _bookshop_name: src/content/blocks/products-grid
     writeup: <h2>Alle producten</h2>
     buttons:

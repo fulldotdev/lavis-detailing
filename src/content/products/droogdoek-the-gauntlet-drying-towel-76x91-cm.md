@@ -16,7 +16,7 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/the-gauntlet-drying-towel-20x30-dark-grey-side-main-copy-web.webp
     alt: null
 categories:
-  - src/content/categories/the-gauntlet.md
+  - src/content/categories/trc.md
   - src/content/categories/doeken.md
   - src/content/categories/exterieur.md
 price: 34

@@ -22,7 +22,7 @@ images:
     alt: null
 categories:
   - src/content/categories/doeken.md
-  - src/content/categories/creature.md
+  - src/content/categories/trc.md
 price: 3.9
 prices:
   options:

@@ -22,7 +22,7 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-420GSM-LIME-GREEN.webp
     alt: null
 categories:
-  - src/content/categories/creature.md
+  - src/content/categories/trc.md
 price: 3.9
 prices:
   options:

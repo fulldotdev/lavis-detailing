@@ -17,7 +17,7 @@ images:
     alt: null
 categories:
   - src/content/categories/detail-factory.md
-  - src/content/categories/kwasten.md
+  - src/content/categories/borstels-en-kwasten.md
   - src/content/categories/interieur.md
   - src/content/categories/exterieur.md
 price: 19.5

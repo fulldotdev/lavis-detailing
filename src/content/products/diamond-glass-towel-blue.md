@@ -23,7 +23,7 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Blue-Diamond-Glass-Towel-16x24-Layered-NEW-web.webp
     alt: null
 categories:
-  - src/content/categories/diamond.md
+  - src/content/categories/trc.md
   - src/content/categories/ramen-reinigen.md
 price: 3.9
 prices:

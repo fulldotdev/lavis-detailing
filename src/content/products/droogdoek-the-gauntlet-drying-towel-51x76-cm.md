@@ -17,7 +17,7 @@ images:
     alt: null
 categories:
   - src/content/categories/doeken.md
-  - src/content/categories/the-gauntlet.md
+  - src/content/categories/trc.md
   - src/content/categories/exterieur.md
 price: 23.5
 prices:

@@ -19,7 +19,7 @@ images:
     alt: null
 categories:
   - src/content/categories/wassen.md
-  - src/content/categories/borstels.md
+  - src/content/categories/borstels-en-kwasten.md
 price: 14.75
 _inputs:
 

@@ -7,7 +7,7 @@ seo:
     alt: ''
 title: TRC
 image:
-  src: https://storage.googleapis.com/fulldev-payload/lavis-detailing/theragcompany.webp
+  src: https://www.bocar.ca/sites/default/files/styles/product-company-banner/public/product/company/274-55f5133c.jpg?itok=ZmE9hGk9
   alt: ''
 
 ---

@@ -16,7 +16,7 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eagle-Edgeless-500-BLUE.webp
     alt: null
 categories:
-  - src/content/categories/eagle.md
+  - src/content/categories/trc.md
   - src/content/categories/doeken.md
 price: 7.5
 prices:
