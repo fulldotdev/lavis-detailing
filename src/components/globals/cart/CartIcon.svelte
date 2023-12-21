@@ -7,7 +7,7 @@
 </script>
 
 <button
-  class="button look-soft relative"
+  class="button-secondary hue-base"
   on:click={onClick}
 >
   {#if $totalQuantity}
