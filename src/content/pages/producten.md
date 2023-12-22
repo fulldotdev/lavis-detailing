@@ -1,7 +1,7 @@
 ---
 _schema: default
 seo:
-  title:
+  title: Lavis Detailing | Producten
   description:
   image:
     _bookshop_name: elements/image
