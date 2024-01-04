@@ -41,6 +41,11 @@ let {
 const formName = form?.split('/').pop()?.replace('.md', '') || 'myplaceholder'
 const formEntry = await getEntry('forms', formName)
 const formData = formEntry ? formEntry.data : Astro.props
+
+const inboxKey = import.meta.env.PUBLIC_APP_URL.replace('https://', '')
+  .replace('http://', '')
+  .split('.')
+  .shift()
 ---
 
 {
@@ -63,7 +68,7 @@ const formData = formEntry ? formEntry.data : Astro.props
       <input
         type="hidden"
         name="inbox_key"
-        value={import.meta.env.PUBLIC_APP_URL}
+        value={inboxKey}
       />
       <input
         type="text"

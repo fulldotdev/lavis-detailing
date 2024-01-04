@@ -8,7 +8,7 @@ import UnoCSS from 'unocss/astro'
 
 export default defineConfig({
   output: 'static',
-  site: 'http://localhost:4321',
+  site: import.meta.env.PUBLIC_APP_URL,
   compressHTML: import.meta.env.PROD,
   integrations: [
     svelte(),
