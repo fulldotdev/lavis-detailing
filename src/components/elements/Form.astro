@@ -63,7 +63,7 @@ const formData = formEntry ? formEntry.data : Astro.props
       <input
         type="hidden"
         name="inbox_key"
-        value={key || formData.slug}
+        value={import.meta.env.PUBLIC_APP_URL}
       />
       <input
         type="text"

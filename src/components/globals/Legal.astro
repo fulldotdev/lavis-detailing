@@ -7,11 +7,11 @@ const policies = await getCollection('policies')
 ---
 
 <div
-  class="bottom mx-wrapper gap-size4 py-size6 size-small mode-compact flex flex-wrap justify-between"
+  class="bottom mx-wrapper py-size6 size-small mode-compact flex flex-wrap justify-between"
 >
   <p class="text-size1">
-    &copy; {new Date().getFullYear()}&nbsp;{company.company}. Maatwerk
-    ontwikkeling door
+    © {new Date().getFullYear()}&nbsp;{company.company}. Maatwerk ontwikkeling
+    door
     <Link
       class:list="text-inherit"
       label="Fulldev"
@@ -24,11 +24,12 @@ const policies = await getCollection('policies')
       policies?.map((policy) => (
         <>
           <span>|</span>
-          <Link
-            class:list="text-inherit"
-            label={unslugify(policy.slug)}
+          <a
+            class="link size-small text-size1 capitalize"
             href={'/beleid/' + policy.slug}
-          />
+          >
+            {unslugify(policy.slug)}
+          </a>
         </>
       ))
     }

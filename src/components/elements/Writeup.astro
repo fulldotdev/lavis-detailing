@@ -20,7 +20,6 @@ const { writeup, tagline, title, description } = Astro.props
         '[&_h1,&_h2,&_h3,&_h4,&_h5,&_h6]:my-size3',
         '[&_p]:mt-size2',
         '[&_p:first-child:not(:last-child)]:(hue-brand text-size1) first:[&_*]:!mt-0 last:[&_*]:!mb-0',
-        'overflow-y-hidden',
       ]}
     >
       {tagline && <span>{tagline}</span>}

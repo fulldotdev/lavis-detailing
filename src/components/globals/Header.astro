@@ -1,11 +1,9 @@
 ---
 import Logo from '@components/elements/Logo.astro'
-import {
-  default as ButtonGroup,
-  default as Buttons,
-} from '@components/elements/button/ButtonGroup.astro'
+import Buttons from '@components/elements/button/ButtonGroup.astro'
 import Links from '@components/elements/link/Links.astro'
 import CartIcon from '@components/globals/cart/CartIcon.svelte'
+import Group from '@components/wrappers/Group.astro'
 import Segment from '@components/wrappers/Segment.astro'
 import { hue, scheme, size } from '@variants'
 import { getEntry } from 'astro:content'
@@ -50,32 +48,33 @@ const config = globals.data.header
 
 {
   header && (
-    <header class={variant(config)}>
-      <Logo class:list="mr-auto" />
-      <Links
-        class:list="max-lg:hidden"
-        layout="row"
-        links={header.links}
-      />
-      <div class="gap-size4 flex">
-        <ButtonGroup
+    <>
+      <header class={variant(config)}>
+        <Logo class:list="mr-auto" />
+        <Links
+          class:list="max-lg:hidden"
           layout="row"
-          buttons={header.buttons}
+          links={header.links}
         />
-        <CartIcon client:load />
-        <label
-          class="button-secondary hue-base lg:hidden"
-          for="header-toggle"
-        >
-          <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
-        </label>
-      </div>
+        <Group layout="row">
+          <Buttons
+            layout="row"
+            buttons={header.buttons}
+          />
+          <CartIcon client:load />
+        </Group>
+      </header>
+      <label
+        class="button look-soft flex cursor-pointer lg:hidden"
+        for="header-toggle"
+      >
+        <i class="icon:menu-2 peer-checked:icon:x text-size2 h-1.4em w-1.4em block" />
+      </label>
       <input
         id="header-toggle"
         class="peer hidden"
         type="checkbox"
       />
-
       <Segment class:list="py-size6 z-90 bg-hue1 border-hue6 !absolute left-0 right-0 top-full !hidden flex-col items-center border-y text-center backdrop-blur-lg peer-checked:max-lg:!flex">
         <Links
           layout="col"
@@ -87,6 +86,6 @@ const config = globals.data.header
           buttons={header.buttons}
         />
       </Segment>
-    </header>
+    </>
   )
 }

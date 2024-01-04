@@ -9,7 +9,7 @@ export const getSpacingModeRules = ({
 }) => {
   const value = (start: number, power: number) => {
     const size = start * Math.pow(multiplier, power) * scale
-    const minSize = size / 1.25
+    const minSize = size / 2
     return getClamp(minSize, size)
   }
 
