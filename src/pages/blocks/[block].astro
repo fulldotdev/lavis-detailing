@@ -22,6 +22,7 @@ const { frontmatter } = Astro.props
 
 <Layout>
   <BlockBuilder
+    client:load
     {...frontmatter.config}
     {...frontmatter.preview}
   />
