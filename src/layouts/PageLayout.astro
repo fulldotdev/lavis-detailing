@@ -11,5 +11,8 @@ const { data } = Astro.props.entry
 ---
 
 <ActionLayout seo={data.seo}>
-  <RenderBlocks blocks={data.content_blocks} />
+  <RenderBlocks
+    client:load
+    blocks={data.content_blocks}
+  />
 </ActionLayout>
