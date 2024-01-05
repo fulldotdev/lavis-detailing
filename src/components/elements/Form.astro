@@ -51,6 +51,7 @@ const inboxKey = import.meta.env.PUBLIC_APP_URL?.replace('https://', '')
 {
   formData.inputs && (
     <form
+      method="POST"
       action={formData.button.href}
       class="gap-size2 flex w-full max-w-xl flex-col text-left"
     >
