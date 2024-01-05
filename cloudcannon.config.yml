@@ -21,10 +21,10 @@ collection_groups:
       - reviews
       - forms
       - globals
-  - heading: Config
-    collections:
-      - settings
-      - blocks
+  # - heading: Config
+  #   collections:
+  #     - settings
+  #     - blocks
 
 # -----------------------------------------------
 # Collection configuration
