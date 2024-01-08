@@ -1,6 +1,8 @@
 ---
 const { price } = Astro.props
-const priceNumber = parseInt(price, 10)
+console.log(price)
+const priceNumber = parseFloat(price)
+console.log(priceNumber)
 const fixedPrice = priceNumber?.toFixed(2)
 ---
 
