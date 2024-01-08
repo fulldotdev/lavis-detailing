@@ -15,7 +15,7 @@
         price_data: {
           currency: 'eur',
           product_data: productData,
-          unit_amount: item.price * 100,
+          unit_amount: Math.round(item.price * 100),
         },
         quantity: item.quantity,
       }
