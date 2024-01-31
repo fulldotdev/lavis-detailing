@@ -9,4 +9,5 @@ image:
   alt: ''
 title: A A
 tagline: Audi S8
+rating: 5
 ---

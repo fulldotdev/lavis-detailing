@@ -34,20 +34,24 @@ const variant = cva({
 })
 
 const { href } = Astro.props
-// const slot = await Astro.slots.render('default')
+const slot = await Astro.slots.render('default')
 ---
 
 {
-  href ? (
-    <a
-      class={variant(Astro.props)}
-      href={href}
-    >
-      <slot />
-    </a>
-  ) : (
-    <div class={variant(Astro.props)}>
-      <slot />
-    </div>
+  slot?.trim().length > 0 && (
+    <>
+      {href ? (
+        <a
+          class={variant(Astro.props)}
+          href={href}
+        >
+          <Fragment set:html={slot} />
+        </a>
+      ) : (
+        <div class={variant(Astro.props)}>
+          <Fragment set:html={slot} />
+        </div>
+      )}
+    </>
   )
 }
