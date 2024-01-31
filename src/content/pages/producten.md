@@ -1,10 +1,9 @@
 ---
 _schema: default
 seo:
-  title: Lavis Detailing | Producten
+  title: Kwalitatieve auto detailing producten | Lavis Detailing Sneek
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 content_blocks:

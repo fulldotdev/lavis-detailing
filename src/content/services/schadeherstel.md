@@ -1,8 +1,8 @@
 ---
 _schema: default
 seo:
-  image:
-    _bookshop_name: elements/image
+  title: Schade van uw auto laten herstellen | Lavis Detailing Sneek
+  description: Breng uw auto terug naar zijn glorie
 title: Schadeherstel
 description: Breng uw auto terug naar zijn glorie
 image:

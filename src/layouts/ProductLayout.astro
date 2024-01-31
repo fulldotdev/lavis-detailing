@@ -32,7 +32,13 @@ const products = await getCollection('products', (product) => {
   />
 </div>
 
-<NavLayout>
+<NavLayout
+  seo={{
+    title: data.title,
+    description: data.summary,
+    image: data.images[0].url,
+  }}
+>
   <Section
     layout="row"
     align="start"

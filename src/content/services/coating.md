@@ -1,8 +1,8 @@
 ---
 _schema: default
 seo:
-  image:
-    _bookshop_name: elements/image
+  title: Auto laten coaten | Lavis Detailing Sneek
+  description: Ervaar onze premium coating
 title: Coating
 description: Ervaar onze premium coating
 image:

@@ -1,7 +1,7 @@
 ---
 _schema: default
 seo:
-  title: Lavis Detailing | Intake
+  title: Plan een intake | Lavis Detailing Sneek
   description:
   image:
     _bookshop_name: elements/image

@@ -1,9 +1,9 @@
 ---
 _schema: default
 seo:
-  image:
-    _bookshop_name: elements/image
-title: ' Exterieur detailing'
+  title: Exterieur detailing voor uw auto | Lavis Detailing Sneek
+  description: Ervaar perfectie en oog voor detail
+title: Exterieur detailing
 description: Ervaar perfectie en oog voor detail
 image:
   _bookshop_name: elements/image

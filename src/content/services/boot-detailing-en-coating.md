@@ -1,8 +1,8 @@
 ---
 _schema: default
 seo:
-  image:
-    _bookshop_name: elements/image
+  title: Boot detailing en coating | Lavis Detailing Sneek
+  description: Uw boot, ons meesterwerk
 title: Boot detailing en coating
 description: Uw boot, ons meesterwerk
 image:

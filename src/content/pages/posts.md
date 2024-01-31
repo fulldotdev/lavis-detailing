@@ -1,10 +1,9 @@
 ---
 _schema: default
 seo:
-  title: Lavis Detailing | Blog
+  title: Lees over detailing | Lavis Detailing Sneek
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 content_blocks:

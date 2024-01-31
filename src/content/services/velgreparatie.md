@@ -1,8 +1,8 @@
 ---
 _schema: default
 seo:
-  image:
-    _bookshop_name: elements/image
+  title: Velgen laten repareren | Lavis Detailing Sneek
+  description: Laat uw beschadigde velgen weer stralen
 title: Velgreparatie
 description: Laat uw beschadigde velgen weer stralen
 image:

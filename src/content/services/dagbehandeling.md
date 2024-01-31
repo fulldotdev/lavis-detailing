@@ -1,8 +1,8 @@
 ---
 _schema: default
 seo:
-  image:
-    _bookshop_name: elements/image
+  title: Dagbehandeling voor uw auto | Lavis Detailing Sneek
+  description: Maak uw auto het gesprek van de dag
 title: Dagbehandeling
 description: Maak uw auto het gesprek van de dag
 image:

@@ -1,8 +1,8 @@
 ---
 _schema: default
 seo:
-  title: Lavis Detailing | Home
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+  title: Auto detailing en coating Sneek | Lavis Detailing
+  description:
   image:
     _bookshop_name: elements/image
     src:

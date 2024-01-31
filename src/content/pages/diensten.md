@@ -1,7 +1,7 @@
 ---
 _schema: default
 seo:
-  title: Lavis Detailing | Diensten
+  title: Interieur, exterieur en coating | Lavis Detailing Sneek
   description:
   image:
     _bookshop_name: elements/image

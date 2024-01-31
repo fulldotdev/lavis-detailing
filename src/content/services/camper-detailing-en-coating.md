@@ -1,8 +1,8 @@
 ---
 _schema: default
 seo:
-  image:
-    _bookshop_name: elements/image
+  title: Camper detailing en coating  | Lavis Detailing Sneek
+  description: Glanzend, schoon, klaar voor avontuur
 title: Camper detailing en coating
 description: Glanzend, schoon, klaar voor avontuur
 image:

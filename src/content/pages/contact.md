@@ -1,7 +1,7 @@
 ---
 _schema: default
 seo:
-  title: Lavis Detailing | Contact
+  title: Neem contact op | Lavis Detailing Sneek
   description:
   image:
     _bookshop_name: elements/image
