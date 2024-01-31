@@ -2,11 +2,11 @@
 _schema: default
 seo:
   title: Auto detailing en coating Sneek | Lavis Detailing
-  description:
+  description: Auto Detailing is het grondig reinigen van je auto, denk aan interieur, exterieur, coating en reparatie. Lavis Detailing is de specialist in Sneek.
   image:
     _bookshop_name: elements/image
-    src:
-    alt:
+    src: /lavis-bg-4-optimized.webp
+    alt: Lavis Detailing Sneek
 content_blocks:
   - _bookshop_name: src/content/blocks/hero
     writeup: >-
@@ -23,7 +23,7 @@ content_blocks:
     image:
       _bookshop_name: elements/image
       src: /lavis-bg-4-optimized.webp
-      alt:
+      alt: Lavis Detailing Sneek
   - _bookshop_name: src/content/blocks/reviews
     writeup: <h2>JAREN ERVARING, EN DAT ZIE JE...</h2>
     reviews:
