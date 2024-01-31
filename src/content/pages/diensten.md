@@ -2,7 +2,7 @@
 _schema: default
 seo:
   title: Interieur, exterieur en coating | Lavis Detailing Sneek
-  description:
+  description: Lavis Detailing niet alleen voor coating en car detailing, maar ook voor autowassen, autopoetsen (van binnen en buiten) en het verhelpen van schade aan uw auto.
   image:
     _bookshop_name: elements/image
     src:
