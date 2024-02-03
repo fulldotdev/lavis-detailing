@@ -26,10 +26,12 @@
       line_items: lineItems,
       mode: 'payment',
       "customer_creation": "always",
-      
       shipping_address_collection: {
-        allowed_countries: ['NL']
-      }      
+        allowed_countries: ['NL'],
+    }   ,  
+      shipping_options: [{
+        shipping_rate: 'shr_1Ofh0UA46xQDCsGFCdg3rwfz'
+      }],
     })
     window.location.replace(checkoutSession.url)
   }
