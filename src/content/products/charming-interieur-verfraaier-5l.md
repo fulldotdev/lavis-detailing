@@ -1,7 +1,7 @@
 ---
 _schema: default
 _stripe_product_id: prod_Oy5jKYFjJ0x5QQ
-_stripe_price_id: price_1OA9Y7A46xQDCsGFe8i7OjaH
+_stripe_price_id: price_1OfhC8A46xQDCsGFB972ZD3U
 seo:
   title: null
   description: null
