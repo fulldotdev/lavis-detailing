@@ -22,7 +22,7 @@ images:
 categories:
   - src/content/categories/interieur.md
   - src/content/categories/gl.md
-price: 14.99
+price: 84,99
 prices:
   options:
     - key: null

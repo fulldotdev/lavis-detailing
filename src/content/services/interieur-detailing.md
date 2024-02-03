@@ -3,8 +3,6 @@ _schema: default
 seo:
   title:  Auto interieur detailing | Lavis Detailing Sneek
   description: Hoe heerlijk is een vlekkeloos interieur?
-  image:
-    _bookshop_name: elements/image
 title: Interieur detailing
 description: Hoe heerlijk is een vlekkeloos interieur?
 image:

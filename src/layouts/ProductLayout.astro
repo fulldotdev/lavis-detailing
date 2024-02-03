@@ -22,6 +22,8 @@ const products = await getCollection('products', (product) => {
   if (product.data.draft || !product.data._stripe_price_id) return false
   return true
 })
+
+console.log('hoi')
 ---
 
 <!-- Temporary untill astro/svelte bug is fixed -->
@@ -36,7 +38,7 @@ const products = await getCollection('products', (product) => {
   seo={{
     title: data.title,
     description: data.summary,
-    image: data.images[0].url,
+    image: data.images[0]?.url,
   }}
 >
   <Section
