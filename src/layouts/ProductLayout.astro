@@ -27,18 +27,11 @@ console.log('hoi')
 ---
 
 <!-- Temporary untill astro/svelte bug is fixed -->
-<div class="hidden">
-  <CartUpdateButton
-    data={data}
-    client:load
-  />
-</div>
-
 <NavLayout
   seo={{
     title: data.title,
     description: data.summary,
-    image: data.images[0]?.url,
+    image: data.images[0]?.src,
   }}
 >
   <Section
@@ -79,3 +72,10 @@ console.log('hoi')
     </Deck>
   </Section>
 </NavLayout>
+
+<div class="hidden">
+  <CartUpdateButton
+    data={data}
+    client:load
+  />
+</div>
