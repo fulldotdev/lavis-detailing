@@ -42,7 +42,8 @@ for (const [key, value] of Object.entries(Astro.props)) {
     return merged
   })
   const results = await Promise.all(mergedCards)
-  cards.push(...results)
+  const filteredResults = results.filter((result) => !result.draft)
+  cards.push(...filteredResults)
 }
 cards = cards.flat()
 ---

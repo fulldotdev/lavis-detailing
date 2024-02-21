@@ -2,6 +2,7 @@
 _schema: default
 _stripe_product_id: prod_Oy5jKYFjJ0x5QQ
 _stripe_price_id: price_1OfhC8A46xQDCsGFB972ZD3U
+draft: true
 seo:
   title: null
   description: null
