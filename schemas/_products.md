@@ -48,7 +48,6 @@ _inputs:
     type: number
     comment: De waarde van de optie, bijvoorbeeld 'rood' of 'M'
   draft: 
-    type: boolean
     label: Product verbergen
     comment: Bijvoorbeeld wanneer het product uit voorraad is
 ---
