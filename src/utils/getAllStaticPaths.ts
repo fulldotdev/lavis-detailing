@@ -12,7 +12,8 @@ interface StaticPaths {
 
 export default async (): Promise<StaticPaths[]> => {
   const entries = await getAllEntries()
-  const staticPaths = entries.map((entry) => ({
+  const filteredEntries = entries.filter((entry) => !entry.data.draft)
+  const staticPaths = filteredEntries.map((entry) => ({
     params: {
       route:
         getRouteByEntry(entry) === '/' ? undefined : getRouteByEntry(entry),
