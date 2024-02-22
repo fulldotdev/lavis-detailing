@@ -16,16 +16,12 @@ content_blocks:
       DETAILING</h1><p>Detailing met perfectie tot in het laatste detail, dat is
       Lavis Detailing</p>
     buttons:
-      buttons:
-        - _bookshop_name: elements/button
-          label: Plan intake
-          href: /intake
-        - _bookshop_name: elements/button
-          label: Bekijk diensten
-          href: /diensten
-        - _bookshop_name: elements/button
-          label: hoi
-          href:
+      - _bookshop_name: elements/button
+        label: Plan intake
+        href: /intake
+      - _bookshop_name: elements/button
+        label: Bekijk diensten
+        href: /diensten
     image:
       _bookshop_name: elements/image
       src: /lavis-bg-4-optimized.webp
