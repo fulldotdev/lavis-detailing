@@ -26,7 +26,7 @@ content_blocks:
     offers:
       - _card_name: offers
         writeup: >-
-          <p>1 Laags coating</p><h3>Titan Coatings® BASE</h3><p>HyperQuartz®
+          <p>1 Laags coating - €500 excl. btw</p></p><h3>Titan Coatings® BASE</h3><p>HyperQuartz®
           koolstofelastomeer coating. TITAN bevat onze High Performance
           HyperQuartz® Carbon-technologie. Zowel organische als anorganische
           materialen zorgen voor de perfecte balans tussen flexibiliteit en
@@ -49,7 +49,7 @@ content_blocks:
             href: /contact
       - _card_name: offers
         writeup: >-
-          <p>2 Laags coating</p><h3>Titan Coatings® PREMIUM</h3><p>Elite
+          <p>2 Laags coating - €900 excl. btw</p><h3>Titan Coatings® PREMIUM</h3><p>Elite
           HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
           geavanceerde coatings op de markt die zowel organische als
           anorganische chemie combineert met de toevoeging van koolstof
@@ -73,7 +73,7 @@ content_blocks:
             href: /contact
       - _card_name: offers
         writeup: >-
-          <p>3+ Laags coating</p><h3>Titan Coatings® EXCLUSIVE</h3><p>Elite
+          <p>3 Laags coating - €1280 excl. btw</p><h3>Titan Coatings® EXCLUSIVE</h3><p>Elite
           HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
           geavanceerde coatings op de markt die zowel organische als
           anorganische chemie combineert met de toevoeging van koolstof
