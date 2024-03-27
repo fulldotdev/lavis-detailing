@@ -13,7 +13,7 @@ inputs:
   - _bookshop_name: elements/input
     label: Telefoon
     type: tel
-    required: false
+    required: true
   - _bookshop_name: elements/textarea
     label: Bericht
     required: true
