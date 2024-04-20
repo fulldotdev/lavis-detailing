@@ -1,5 +1,4 @@
 paths:
-  data: src/data
   static: src/assets
   uploads: src/assets
 
@@ -8,7 +7,7 @@ paths:
 # -----------------------------------------------
 
 collection_groups:
-  - heading: Pages
+  - heading: Content
     collections:
       - pages
       - services
@@ -16,16 +15,7 @@ collection_groups:
       - products
       - categories
       - policies
-  - heading: Shared
-    collections:
       - reviews
-      - forms
-      - globals
-  # - heading: Config
-  #   collections:
-  #     - settings
-  #     - blocks
-
 # -----------------------------------------------
 # Collection configuration
 # -----------------------------------------------
@@ -50,7 +40,7 @@ collections_config:
     icon: home_repair_service
     disable_add_folder: true
     _enabled_editors:
-      - data
+      - visual
     schemas:
       default:
         path: schemas/_services.md
@@ -63,7 +53,6 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - content
-      - data
     schemas:
       default:
         path: schemas/_products.md
@@ -76,7 +65,6 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - content
-      - data
     schemas:
       default:
         path: schemas/_categories.md
@@ -115,87 +103,6 @@ collections_config:
     schemas:
       default:
         path: schemas/_reviews.md
-
-  forms:
-    path: src/content/forms
-    output: false
-    icon: dynamic_form
-    disable_add_folder: true
-    _enabled_editors:
-      - data
-    schemas:
-      default:
-        path: schemas/_forms.md
-
-  globals:
-    path: src/content/globals
-    output: false
-    icon: grid_view
-    disable_file_actions: true
-    disable_add_folder: true
-    disable_add: true
-    schemas:
-      company:
-        path: schemas/globals/_company.yml
-      header:
-        path: schemas/globals/_header.yml
-      cta:
-        path: schemas/globals/_cta.yml
-      footer:
-        path: schemas/globals/_footer.yml
-
-  settings:
-    path: src/content/settings
-    output: false
-    disable_file_actions: true
-    disable_add_folder: true
-    disable_add: true
-    schemas:
-      theme:
-        path: schemas/settings/_theme.yml
-      elements:
-        path: schemas/settings/_elements.yml
-      cards:
-        path: schemas/settings/_cards.yml
-
-  blocks:
-    path: src/content/blocks
-    url: /blocks/[full_slug]/
-    output: true
-    disable_add_folder: true
-    _enabled_editors:
-      - visual
-    schemas:
-      categories:
-        path: schemas/blocks/_categories.yml
-      contact:
-        path: schemas/blocks/_contact.yml
-      content:
-        path: schemas/blocks/_content.yml
-      cta:
-        path: schemas/blocks/_cta.yml
-      features:
-        path: schemas/blocks/_features.yml
-      hero:
-        path: schemas/blocks/_hero.yml
-      highlights:
-        path: schemas/blocks/_highlights.yml
-      intro:
-        path: schemas/blocks/_intro.yml
-      offers:
-        path: schemas/blocks/_offers.yml
-      persons:
-        path: schemas/blocks/_persons.yml
-      posts:
-        path: schemas/blocks/_posts.yml
-      products:
-        path: schemas/blocks/_products.yml
-      reviews:
-        path: schemas/blocks/_reviews.yml
-      services:
-        path: schemas/blocks/_services.yml
-      spotlight:
-        path: schemas/blocks/_spotlight.yml
 
 # -----------------------------------------------
 # Input customization
