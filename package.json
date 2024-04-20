@@ -38,7 +38,7 @@
     "nanostores": "^0.9.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sharp": "^0.33.2",
+    "sharp": "^0.33.3",
     "stripe": "^14.10.0",
     "svelte": "^4.2.8",
     "svelte-persisted-store": "^0.8.0",
