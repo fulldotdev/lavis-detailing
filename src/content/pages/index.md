@@ -14,7 +14,7 @@ content_blocks:
     writeup: >-
       <p>&nbsp;Beoordeeld met 5 sterren uit 30+ reviews</p><h1>PERFECTIE IN
       DETAILING</h1><p>Detailing met perfectie tot in het laatste detail, dat is
-      Lavis Detailing</p>
+      Lavis Detailing </p>
     buttons:
       - _bookshop_name: elements/button
         label: Plan intake
