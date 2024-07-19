@@ -15,6 +15,6 @@ const { spec, ...restProps } = Astro.props
     checkmark
   </i>
   <span class="text-hue12">
-    {spec}
+    <Fragment set:html={spec} />
   </span>
 </li>

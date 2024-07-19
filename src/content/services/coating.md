@@ -176,18 +176,10 @@ content_blocks:
       <h3>De garanties van Lavis Detailing</h3>
       <p>Bij auto coating door Lavis Detailing bieden wij de volgende garanties:</p>
     specs:
-      - Carbon micron & Elastomer Membrane coating
-      - 'PH-tolerantie: 1-14'
-      - 'Bescherming: 8-9 micron (3 laags coating)'
-      - Zelf herstellend van kleine beschadigingen en (was)krassen
-      - Water- en vuilafstotend
-      - Self-cleaning effect
-      - 'Duurzaamheid: tot +- 15 jaar, afhankelijk van onderhoud'
-      - 5/5 sterren hydrofoob
-      - Ultieme permanente bescherming
-      - Ultra bescherming tegen chemische invloeden
-      - Hydrocarbon technologie
-      - Meer glans nog gladder oppervlakte
+      - "<b>Duurzame bescherming:</b> We garanderen dat onze coating een langdurige bescherming biedt tegen UV-straling, vuil, en andere schadelijke invloeden."
+      - "<b>Verbeterde glans:</b> Uw auto krijgt een diepe, spiegelachtige glans die voor lange tijd behouden blijft."
+      - "<b>Water- en vuilafstotend:</b> Onze coating zorgt voor een sterk waterafstotend effect, waardoor uw auto langer schoon blijft en gemakkelijker te onderhouden is."
+      - "<b>Krasbestendig & Onderhoudsvriendelijk:</b> De coating vormt een harde laag die lichte krassen en slijtage effectief vermindert. Dankzij de zelfreinigende eigenschappen van onze coating garanderen wij dat het onderhoud van uw auto eenvoudiger en minder tijdrovend zal zijn."
     image:
       _bookshop_name: elements/image
       src: /auto-coaten.webp
