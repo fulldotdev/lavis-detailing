@@ -10,12 +10,16 @@ import Layout from './Layout.astro'
 
 const cta = await getEntry('globals', 'cta')
 const globals = await getEntry('settings', 'globals')
-const merged = { ...cta.data, ...globals?.data.cta }
 
-const { seo } = Astro.props
+const { seo, cta: userCta, ...rest } = Astro.props
+
+const merged = { ...cta.data, ...globals?.data.cta, ...userCta }
 ---
 
-<Layout {seo}>
+<Layout
+  {seo}
+  {...rest}
+>
   <Header />
   <CartSidebar client:load />
   <main>

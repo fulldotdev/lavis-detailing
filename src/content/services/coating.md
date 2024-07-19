@@ -11,93 +11,103 @@ image:
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/image00036-1.webp
   alt: ''
 content_blocks:
-  - _bookshop_name: src/content/blocks/content
-    prose: >-
-      <h1>Titan Coatings®</h1><p>Door het aanbrengen van TITAN COATING® aan uw
+  - _bookshop_name: src/content/blocks/hero
+    section:
+      class: service-hero
+    writeup: >-
+      <h1 class="heading">Auto coating: Bescherm je auto met onze hoogwaardige Titan Coating®</h1>
+      <p>Door het aanbrengen van TITAN COATING® aan uw
       auto zorgt u ervoor dat vuil zich minder snel hecht aan de lak, waardoor
       uw auto langer schoon blijft en makkelijker kan worden gewassen. Maar de
       voordelen gaan veel verder dan dat.</p>
+    buttons:
+      - _bookshop_name: elements/button
+        label: Plan een intake
+        href: /intake
     image:
       _bookshop_name: elements/image
       src: /image00036-1-1280x791.webp
       alt:
+  - _bookshop_name: src/content/blocks/features
+    section:
+      class: service-features
+    features:
+      - _card_name: features
+        writeup: Langdurige bescherming
+      - _card_name: features
+        writeup: ✔ Verbeterde glans
+      - _card_name: features
+        writeup: ✔ Water- en vuilafstotend
+      - _card_name: features
+        writeup: ✔ Krasbestendig & onderhoudsvriendelijk
+  - _bookshop_name: src/content/blocks/content
+    id: youtube-short
+    section:
+      class: service-video
+    writeup: >-
+      <h1>Titan Coatings®</h1>
+      <p>Zonder de juiste bescherming kan de lak van uw auto snel verslechteren door schadelijke UV-straling, zure regen, vogelpoep, en andere verontreinigingen. Dit resulteert in doffe plekken, krassen en verkleuringen die de uitstraling en waarde van uw auto negatief beïnvloeden. Dat wilt u niet toch?</p>
+      <p>Hier komen wij met onze auto coating om de hoek kijken. Onze hoogwaardige coating, zoals Titan Coatings®, biedt een duurzame barrière tegen deze schadelijke invloeden. Ze beschermen niet alleen de lak, maar geven uw auto ook een diepe, glanzende afwerking die langdurig behouden blijft.</p>
+      <p>Met de auto coating van Lavis Detailing hoeft u zich geen zorgen meer te maken over veelvuldig wassen, wasstraatkrassen en/of dure lakreparaties. De hydrofobe eigenschappen zorgen ervoor dat vuil en water gemakkelijk van de lak afglijden, waardoor uw auto langer schoon blijft en eenvoudiger te onderhouden is. Kies voor Lavis Detailing en geef uw auto de bescherming die het verdient.</p>
+    prose:
+      <iframe src="https://www.youtube.com/embed/ERzxlkXAxpk?si=qsUNsBBNUYnIicXR&autoplay=1&loop=1&mute=1&modestbranding=1&iv_load_policy=3&controls=0&disablekb=1&fs=0&loop=1" width="315" height="560" frameborder="0"></iframe>
   - _bookshop_name: src/content/blocks/offers
-    writeup:
+    section:
+      class: service-offers
     offers:
       - _card_name: offers
+        card:
+          class: first-offer
         writeup: >-
-          <p>1 Laags coating - €500 excl. btw</p></p><h3>Titan Coatings® BASE</h3><p>HyperQuartz®
-          koolstofelastomeer coating. TITAN bevat onze High Performance
-          HyperQuartz® Carbon-technologie. Zowel organische als anorganische
-          materialen zorgen voor de perfecte balans tussen flexibiliteit en
-          hardheid.</p>
-        specs:
-          - Carbon HyperQuartz-coating
-          - 'PH-tolerantie: 1-13'
-          - 'Bescherming: 2-2,5 micron (1 laags coating)'
-          - Zelf herstellend van kleine beschadigingen en (was)krassen
-          - Water- en vuilafstotend
-          - Self-cleaning effect
-          - 'Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud'
-          - 4/5 sterren hydrofoob
+          <h2>Welke coating kiest u?</h2><p>Heeft u de keuze gemaakt om uw auto te laten coaten door onze hoogwaardige auto coating? Dan kunt u kiezen uit een 1-, 2- of 3-laagse coating. Om u alvast een beeld te geven wat u kunt verwachten van de coating hebben we de eigenschappen van onze 1-, 2- en 3-laagse coating op een rijtje gezet. Wij helpen u echter graag met het kiezen van de juiste coating. Plan hiervoor een intake met ons in.</p>
         buttons:
           - _bookshop_name: elements/button
-            label: Plan een intake
+            label: Plan een gratis intake
             href: /intake
-          - _bookshop_name: elements/button
-            label: Neem contact op
-            href: /contact
       - _card_name: offers
         writeup: >-
-          <p>2 Laags coating - €900 excl. btw</p><h3>Titan Coatings® PREMIUM</h3><p>Elite
-          HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
-          geavanceerde coatings op de markt die zowel organische als
-          anorganische chemie combineert met de toevoeging van koolstof
-          nanostaafjes.</p>
-        specs:
-          - Elastomer Membrane coating
-          - 'PH-tolerantie: 1-13'
-          - 'Bescherming: 4-5 micron (2 laags coating)'
-          - Zelf herstellend van kleine beschadigingen en (was)krassen
-          - Water- en vuilafstotend
-          - Self-cleaning effect
-          - 'Duurzaamheid: tot +- 10 jaar, afhankelijk van onderhoud'
-          - 5/5 sterren hydrofoob
-          - Extra beschermd tegen chemische stoffen
-        buttons:
-          - _bookshop_name: elements/button
-            label: Plan een intake
-            href: /intake
-          - _bookshop_name: elements/button
-            label: Neem contact op
-            href: /contact
+          <p>1 Laags coating - €500 excl. btw</p></p><h3>Titan Coatings® BASE</h3>
+          <ul>
+          <li>Carbon HyperQuartz-coating</li>
+          <li>'PH-tolerantie: 1-13'</li>
+          <li>'Bescherming: 2-2,5 micron (1 laags coating)'</li>
+          <li>Zelf herstellend van kleine beschadigingen en (was)krassen</li>
+          <li>Water- en vuilafstotend</li>
+          <li>Self-cleaning effect</li>
+          <li>'Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud'</li>
+          <li>4/5 sterren hydrofoob</li>
+          </ul>
       - _card_name: offers
         writeup: >-
-          <p>3 Laags coating - €1280 excl. btw</p><h3>Titan Coatings® EXCLUSIVE</h3><p>Elite
-          HyperQuartz® Carbon Nanorod Elastomeer Coating v2. Een van de meest
-          geavanceerde coatings op de markt die zowel organische als
-          anorganische chemie combineert met de toevoeging van koolstof
-          nanostaafjes.</p>
-        specs:
-          - Carbon micron & Elastomer Membrane coating
-          - 'PH-tolerantie: 1-14'
-          - 'Bescherming: 8-9 micron (3 laags coating)'
-          - Zelf herstellend van kleine beschadigingen en (was)krassen
-          - Water- en vuilafstotend
-          - Self-cleaning effect
-          - 'Duurzaamheid: tot +- 15 jaar, afhankelijk van onderhoud'
-          - 5/5 sterren hydrofoob
-          - Ultieme permanente bescherming
-          - Ultra bescherming tegen chemische invloeden
-          - Hydrocarbon technologie
-          - Meer glans nog gladder oppervlakte
-        buttons:
-          - _bookshop_name: elements/button
-            label: Plan een intake
-            href: /intake
-          - _bookshop_name: elements/button
-            label: Neem contact op
-            href: /contact
+          <p>2 Laags coating - €900 excl. btw</p><h3>Titan Coatings® PREMIUM</h3>
+          <ul>
+          <li>Elastomer Membrane coating</li>
+          <li>'PH-tolerantie: 1-13'</li>
+          <li>'Bescherming: 4-5 micron (2 laags coating)'</li>
+          <li>Zelf herstellend van kleine beschadigingen en (was)krassen</li>
+          <li>Water- en vuilafstotend</li>
+          <li>Self-cleaning effect</li>
+          <li>'Duurzaamheid: tot +- 10 jaar, afhankelijk van onderhoud'</li>
+          <li>5/5 sterren hydrofoob</li>
+          <li>Extra beschermd tegen chemische stoffen</li>
+          </ul>
+      - _card_name: offers
+        writeup: >-
+          <p>3 Laags coating - €1280 excl. btw</p><h3>Titan Coatings® EXCLUSIVE</h3>
+          <ul>
+          <li>Carbon micron & Elastomer Membrane coating</li>
+          <li>'PH-tolerantie: 1-14'</li>
+          <li>'Bescherming: 8-9 micron (3 laags coating)'</li>
+          <li>Zelf herstellend van kleine beschadigingen en (was)krassen</li>
+          <li>Water- en vuilafstotend</li>
+          <li>Self-cleaning effect</li>
+          <li>'Duurzaamheid: tot +- 15 jaar, afhankelijk van onderhoud'</li>
+          <li>5/5 sterren hydrofoob</li>
+          <li>Ultieme permanente bescherming</li>
+          <li>Ultra bescherming tegen chemische invloeden</li>
+          <li>Hydrocarbon technologie</li>
+          <li>Meer glans nog gladder oppervlakte</li>
+          </ul>
   - _bookshop_name: src/content/blocks/reviews
     writeup: <h2>HIER DEDEN WE HET AL</h2>
     reviews:
@@ -138,6 +148,50 @@ content_blocks:
       - src/content/reviews/reviews92.md
       - src/content/reviews/reviews99.md
       - src/content/reviews/reviews330.md
+  - _bookshop_name: src/content/blocks/cta
+    writeup: >-
+      <p>&nbsp;Beoordeeld met 5 sterren uit 30+ reviews</p><h2>PLAN EEN
+      INTAKE</h2><p>Maak vandaag nog een afspraak en laay uw auto beschermen met onze hoogwaardige coating</p>
+    buttons:
+      - _bookshop_name: elements/button
+        label: Plan gratis intake
+        href: /intake
+    section:
+      frame: panel
+      look: surface
+      size: large
+      hue:
+      scheme:
+    segment:
+      layout: row
+      align: center
+    group:
+      layout: col
+      importance:
+
+  - _bookshop_name: src/content/blocks/content
+    section:
+      class: service-garanties
+    writeup: >-
+      <h3>De garanties van Lavis Detailing</h3>
+      <p>Bij auto coating door Lavis Detailing bieden wij de volgende garanties:</p>
+    specs:
+      - Carbon micron & Elastomer Membrane coating
+      - 'PH-tolerantie: 1-14'
+      - 'Bescherming: 8-9 micron (3 laags coating)'
+      - Zelf herstellend van kleine beschadigingen en (was)krassen
+      - Water- en vuilafstotend
+      - Self-cleaning effect
+      - 'Duurzaamheid: tot +- 15 jaar, afhankelijk van onderhoud'
+      - 5/5 sterren hydrofoob
+      - Ultieme permanente bescherming
+      - Ultra bescherming tegen chemische invloeden
+      - Hydrocarbon technologie
+      - Meer glans nog gladder oppervlakte
+    image:
+      _bookshop_name: elements/image
+      src: /auto-coaten.webp
+      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in base</p><h2>TITAN COATING ZEUS</h2><p>Zeus™ is een elite

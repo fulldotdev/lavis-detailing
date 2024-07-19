@@ -7,6 +7,7 @@ import ButtonGroup from '@components/elements/button/ButtonGroup.astro'
 import ChannelGroup from '@components/elements/channel/ChannelGroup.astro'
 import Image, { type ImageProps } from '@components/elements/image/Image.astro'
 import SocialGroup from '@components/elements/social/SocialGroup.astro'
+import Specs from '@components/elements/spec/Specs.astro'
 import RenderCards from '@components/misc/RenderCards.astro'
 import Deck, { type DeckProps } from '@components/wrappers/Deck.astro'
 import { type GroupProps } from '@components/wrappers/Group.astro'
@@ -53,6 +54,7 @@ const {
   form,
   image,
   deck,
+  specs,
   // Collections
   categories,
   posts,
@@ -69,6 +71,8 @@ const {
 <Section {...section}>
   <Segment {...segment}>
     <Writeup {writeup} />
+    <Specs {specs} />
+
     <ButtonGroup
       {buttons}
       {...group}

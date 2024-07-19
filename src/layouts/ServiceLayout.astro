@@ -10,6 +10,108 @@ interface Props {
 const { data } = Astro.props.entry
 ---
 
-<ActionLayout seo={data.seo}>
+<ActionLayout
+  seo={data.seo}
+  class="service-layout"
+  id="service-layout"
+  cta={data.cta}
+>
   <RenderBlocks blocks={data.content_blocks} />
 </ActionLayout>
+
+<style is:global>
+  .service-hero {
+    height: auto;
+    min-height: 0;
+
+    h1.heading {
+      font-size: var(--un-theme-fontSize-size3);
+    }
+
+    p {
+      max-width: 768px;
+      color: var(--un-preset-radix-hue12);
+    }
+
+    img {
+      -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+      mask-image: linear-gradient(to top, transparent 0%, black 100%);
+    }
+  }
+
+  .service-features {
+    padding-top: 0;
+
+    > div {
+      flex-direction: column;
+      flex-wrap: wrap;
+      display: flex;
+      gap: var(--un-theme-spacing-size4);
+
+      @media (min-width: 768px) {
+        flex-direction: row;
+      }
+    }
+
+    div {
+      color: var(--un-preset-radix-amber11);
+    }
+  }
+
+  .service-offers {
+    align-items: start;
+
+    div > div:not(.first-offer) {
+      height: auto;
+
+      h3 {
+        font-size: 20px;
+        padding: var(--un-theme-spacing-size3) 0;
+      }
+    }
+
+    ul {
+      list-style-type: disc !important;
+      padding: 0 var(--un-theme-spacing-size4);
+      display: flex;
+      flex-direction: column;
+      gap: var(--un-theme-spacing-size2);
+
+      li {
+        color: var(--un-preset-radix-hue12);
+      }
+    }
+
+    .first-offer {
+      padding: 0;
+      border: 0;
+      background: transparent;
+      height: auto;
+
+      h2 {
+        font-size: 30px;
+        text-wrap: pretty;
+      }
+
+      p {
+        font-size: 17px;
+      }
+
+      .button {
+        padding: var(--un-theme-spacing-size4) !important;
+      }
+    }
+  }
+
+  .service-garanties {
+    ul {
+      gap: var(--un-theme-spacing-size2);
+    }
+  }
+
+  .service-video {
+    > *:first-child {
+      grid-column: span 5;
+    }
+  }
+</style>

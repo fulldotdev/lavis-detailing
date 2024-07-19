@@ -42,5 +42,6 @@ config:
     layout: col
   image:
     position: background
+    mask: lg
     ratio:
 _inputs:
