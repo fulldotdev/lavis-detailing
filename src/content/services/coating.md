@@ -33,13 +33,13 @@ content_blocks:
       class: service-features
     features:
       - _card_name: features
-        writeup: Langdurige bescherming
+        writeup: ✓ Langdurige bescherming
       - _card_name: features
-        writeup: ✔ Verbeterde glans
+        writeup: ✓ Verbeterde glans
       - _card_name: features
-        writeup: ✔ Water- en vuilafstotend
+        writeup: ✓ Water- en vuilafstotend
       - _card_name: features
-        writeup: ✔ Krasbestendig & onderhoudsvriendelijk
+        writeup: ✓ Krasbestendig & onderhoudsvriendelijk
   - _bookshop_name: src/content/blocks/content
     id: youtube-short
     section:
