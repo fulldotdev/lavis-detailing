@@ -22,7 +22,7 @@ content_blocks:
       voordelen gaan veel verder dan dat.</p>
     buttons:
       - _bookshop_name: elements/button
-        label: Plan een intake
+        label: Plan een gratis intake
         href: /intake
     image:
       _bookshop_name: elements/image
@@ -49,8 +49,8 @@ content_blocks:
       <p>Zonder de juiste bescherming kan de lak van uw auto snel verslechteren door schadelijke UV-straling, zure regen, vogelpoep, en andere verontreinigingen. Dit resulteert in doffe plekken, krassen en verkleuringen die de uitstraling en waarde van uw auto negatief beïnvloeden. Dat wilt u niet toch?</p>
       <p>Hier komen wij met onze auto coating om de hoek kijken. Onze hoogwaardige coating, zoals Titan Coatings®, biedt een duurzame barrière tegen deze schadelijke invloeden. Ze beschermen niet alleen de lak, maar geven uw auto ook een diepe, glanzende afwerking die langdurig behouden blijft.</p>
       <p>Met de auto coating van Lavis Detailing hoeft u zich geen zorgen meer te maken over veelvuldig wassen, wasstraatkrassen en/of dure lakreparaties. De hydrofobe eigenschappen zorgen ervoor dat vuil en water gemakkelijk van de lak afglijden, waardoor uw auto langer schoon blijft en eenvoudiger te onderhouden is. Kies voor Lavis Detailing en geef uw auto de bescherming die het verdient.</p>
-    prose:
-      <iframe src="https://www.youtube.com/embed/ERzxlkXAxpk?si=qsUNsBBNUYnIicXR&autoplay=1&loop=1&mute=1&modestbranding=1&iv_load_policy=3&controls=0&disablekb=1&fs=0&loop=1" width="315" height="560" frameborder="0"></iframe>
+    prose: >-
+      <div style="padding-bottom: 178%; position: relative;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/ERzxlkXAxpk?color=white&controls=0&disablekb=1&loop=1&modestbranding=1&mute=1&playlist=ERzxlkXAxpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div>
   - _bookshop_name: src/content/blocks/offers
     section:
       class: service-offers
@@ -151,10 +151,10 @@ content_blocks:
   - _bookshop_name: src/content/blocks/cta
     writeup: >-
       <p>&nbsp;Beoordeeld met 5 sterren uit 30+ reviews</p><h2>PLAN EEN
-      INTAKE</h2><p>Maak vandaag nog een afspraak en laay uw auto beschermen met onze hoogwaardige coating</p>
+      INTAKE</h2><p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
     buttons:
       - _bookshop_name: elements/button
-        label: Plan gratis intake
+        label: Plan een gratis intake
         href: /intake
     section:
       frame: panel

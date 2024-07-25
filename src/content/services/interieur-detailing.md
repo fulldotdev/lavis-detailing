@@ -9,7 +9,6 @@ image:
   _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/interieur.webp
-  alt: ''
 content_blocks:
   - _bookshop_name: src/content/blocks/content
     prose: >-
