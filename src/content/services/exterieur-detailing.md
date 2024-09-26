@@ -38,9 +38,6 @@ content_blocks:
       - _card_name: features
         writeup: ✓ Waarde verhogend
   - _bookshop_name: src/content/blocks/content
-    id: youtube-short
-    section:
-      class: service-video
     writeup: >-
       <h2>Waarom je auto laten detailen?</h2>
       <p>Ervaar jij problemen met hardnekkig vuil, vlekken en kleine krassen die het uiterlijk en de waarde van jouw auto negatief beïnvloeden? Standaard wasbeurten zijn vaak niet voldoende om deze problemen effectief aan te pakken, waardoor je auto er dof en verouderd uitziet. Zonde!</p>
