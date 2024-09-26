@@ -16,10 +16,7 @@ content_blocks:
       class: service-hero
     writeup: >-
       <h1 class="heading">Auto coating: Bescherm je auto met onze hoogwaardige Titan Coating®</h1>
-      <p>Door het aanbrengen van TITAN COATING® aan uw
-      auto zorgt u ervoor dat vuil zich minder snel hecht aan de lak, waardoor
-      uw auto langer schoon blijft en makkelijker kan worden gewassen. Maar de
-      voordelen gaan veel verder dan dat.</p>
+      <p>Door het aanbrengen van Titan Coating® aan uw auto zorgt u ervoor dat vuil zich minder snel hecht aan de lak, waardoor uw auto langer schoon blijft en makkelijker kan worden gewassen. Maar de voordelen gaan veel verder dan dat.</p>
     buttons:
       - _bookshop_name: elements/button
         label: Plan een gratis intake
@@ -45,10 +42,10 @@ content_blocks:
     section:
       class: service-video
     writeup: >-
-      <h1>Titan Coatings®</h1>
+      <h2>Waarom Titan Coatings®</h2>
       <p>Zonder de juiste bescherming kan de lak van uw auto snel verslechteren door schadelijke UV-straling, zure regen, vogelpoep, en andere verontreinigingen. Dit resulteert in doffe plekken, krassen en verkleuringen die de uitstraling en waarde van uw auto negatief beïnvloeden. Dat wilt u niet toch?</p>
-      <p>Hier komen wij met onze auto coating om de hoek kijken. Onze hoogwaardige coating, zoals Titan Coatings®, biedt een duurzame barrière tegen deze schadelijke invloeden. Ze beschermen niet alleen de lak, maar geven uw auto ook een diepe, glanzende afwerking die langdurig behouden blijft.</p>
-      <p>Met de auto coating van Lavis Detailing hoeft u zich geen zorgen meer te maken over veelvuldig wassen, wasstraatkrassen en/of dure lakreparaties. De hydrofobe eigenschappen zorgen ervoor dat vuil en water gemakkelijk van de lak afglijden, waardoor uw auto langer schoon blijft en eenvoudiger te onderhouden is. Kies voor Lavis Detailing en geef uw auto de bescherming die het verdient.</p>
+      <p>Hier komt onze autocoating om de hoek kijken. Onze hoogwaardige coating, zoals Titan Coatings®, biedt een duurzame barrière tegen schadelijke invloeden. Titan Coatings is een rubberen membraancoating met nieuwe technologie die een langere standtijd biedt en 8 tot 10 keer dikker is dan de gemiddelde glas- of keramische coating. Deze coatings beschermen niet alleen de lak, maar geven uw auto ook een diepe, glanzende afwerking die langdurig behouden blijft.</p>
+      <p>Met de autocoating van Lavis Detailing hoeft u zich geen zorgen meer te maken over frequent wassen. Titan Coatings is zeer chemisch bestendig (pH 1 t/m 14) en heeft een hoog zelfreinigend effect. De hydrofobe eigenschappen zorgen ervoor dat vuil en water gemakkelijk van de lak afglijden, waardoor uw auto langer schoon blijft en eenvoudiger te onderhouden is. Kies voor Lavis Detailing en geef uw auto de bescherming die het verdient.</p>
     prose: >-
       <div style="padding-bottom: 178%; position: relative;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/ERzxlkXAxpk?color=white&controls=0&disablekb=1&loop=1&modestbranding=1&mute=1&playlist=ERzxlkXAxpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div>
   - _bookshop_name: src/content/blocks/offers
@@ -59,7 +56,8 @@ content_blocks:
         card:
           class: first-offer
         writeup: >-
-          <h2>Welke coating kiest u?</h2><p>Heeft u de keuze gemaakt om uw auto te laten coaten door onze hoogwaardige auto coating? Dan kunt u kiezen uit een 1-, 2- of 3-laagse coating. Om u alvast een beeld te geven wat u kunt verwachten van de coating hebben we de eigenschappen van onze 1-, 2- en 3-laagse coating op een rijtje gezet. Wij helpen u echter graag met het kiezen van de juiste coating. Plan hiervoor een intake met ons in.</p>
+          <h2>Welke auto coating kiest u?</h2><p>Heeft u besloten om uw auto te laten coaten met onze hoogwaardige autocoating? Dan kunt u kiezen uit verschillende lagen voor optimale bescherming. Om u een duidelijk beeld te geven van wat u kunt verwachten, hebben we de eigenschappen van onze 1-, 2- en 3-laagse coatings overzichtelijk voor u op een rij gezet. Voor de ultieme luxe bieden wij ook het exclusieve 4-laagse VIP-coatingpakket, “the best of the best”.</p>
+          <p>Wij staan klaar om u te helpen bij het maken van de juiste keuze. Plan gerust een intakegesprek met ons in, zodat we samen kunnen bepalen welke coating het beste bij uw auto en wensen past.</p>
         buttons:
           - _bookshop_name: elements/button
             label: Plan een gratis intake
@@ -183,7 +181,6 @@ content_blocks:
     image:
       _bookshop_name: elements/image
       src: /auto-coaten.webp
-      alt:
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in base</p><h2>TITAN COATING ZEUS</h2><p>Zeus™ is een elite
