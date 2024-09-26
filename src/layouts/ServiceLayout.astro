@@ -1,7 +1,7 @@
 ---
 import RenderBlocks from '@components/misc/RenderBlocks.astro'
-import ActionLayout from '@layouts/ActionLayout.astro'
 import type { CollectionEntry } from 'astro:content'
+import NavLayout from './NavLayout.astro'
 
 interface Props {
   entry: CollectionEntry<'services'>
@@ -10,14 +10,14 @@ interface Props {
 const { data } = Astro.props.entry
 ---
 
-<ActionLayout
+<NavLayout
   seo={data.seo}
   class="service-layout"
   id="service-layout"
   cta={data.cta}
 >
   <RenderBlocks blocks={data.content_blocks} />
-</ActionLayout>
+</NavLayout>
 
 <style is:global>
   .service-hero {

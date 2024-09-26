@@ -178,95 +178,14 @@ content_blocks:
       class: service-garanties
     writeup: >-
       <h3>De garanties van Lavis Detailing</h3>
-      <p>Bij auto coating door Lavis Detailing bieden wij de volgende garanties:</p>
+      <p>Bij auto detailen door Lavis Detailing bieden wij de volgende garanties:</p>
     specs:
-      - "<b>Duurzame bescherming:</b> We garanderen dat onze coating een langdurige bescherming biedt tegen UV-straling, vuil, en andere schadelijke invloeden."
-      - "<b>Verbeterde glans:</b> Uw auto krijgt een diepe, spiegelachtige glans die voor lange tijd behouden blijft."
-      - "<b>Water- en vuilafstotend:</b> Onze coating zorgt voor een sterk waterafstotend effect, waardoor uw auto langer schoon blijft en gemakkelijker te onderhouden is."
-      - "<b>Krasbestendig & Onderhoudsvriendelijk:</b> De coating vormt een harde laag die lichte krassen en slijtage effectief vermindert. Dankzij de zelfreinigende eigenschappen van onze coating garanderen wij dat het onderhoud van uw auto eenvoudiger en minder tijdrovend zal zijn."
+      - "<b>Grondige reiniging:</b> Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet."
+      - "<b>Bescherming van de lak:</b> Onze detailing diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd."
+      - "<b>Vuil-, vlek- en krasvrij:</b> Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
+      - "<b>Waarde verhogend:</b> Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
     image:
       _bookshop_name: elements/image
       src: /auto-coaten.webp
-  - _bookshop_name: src/content/blocks/spotlight
-    writeup: >-
-      <p>Gebruikt in base</p><h2>TITAN COATING ZEUS</h2><p>Zeus™ is een elite
-      coating die de gepatenteerde Dark Matter Technology®. Deze geavanceerde
-      coating is een combinatie van organische en anorganische chemie, verrijkt
-      met unieke koolstofnanorods.</p><p>De coating creëert een uiterst dichte,
-      erosiebestendige siliciumcarbide versterkte HyperQuartz®Elastomeer
-      Membraan™, versterkt met nanorods en Dark Matter Technology®. Dit membraan
-      is bijzonder flexibel, dik en heeft zelfherstellende eigenschappen dankzij
-      de elastomeercomponenten. Dit staaltje van chemische techniek zorgt voor
-      een topklasse glans, die nog verder verhoogd kan worden met de HydroTX145™
-      Top Coat, voor uitmuntende hydrofobische eigenschappen.</p>
-    buttons:
-      - _bookshop_name: elements/button
-        label: Plan intake
-        href: /intake
-      - _bookshop_name: elements/button
-        label: Meer informatie
-        href: https://www.titan-coatings.com/files/file_download/zeus
-    image:
-      _bookshop_name: elements/image
-      src: /titan-coatings-image-4.webp
-      alt:
-  - _bookshop_name: src/content/blocks/spotlight
-    writeup: >-
-      <p>Gebruikt in premium en exclusive</p><h2>TITAN COATING PX10</h2><p>De
-      PX10™ micron membraancoating maakt gebruik van ultra-geavanceerde
-      mimetische thermohardende componenten die uitzonderlijk dichte versterkte
-      matrixmembraan vormende eigenschappen bieden.</p><p>Deze met Dark Matter
-      Technology® versterkte super basis biedt permanente bescherming voor een
-      veelvoud aan oppervlakken.</p>
-    buttons:
-      - _bookshop_name: elements/button
-        label: Plan intake
-        href: /intake
-      - _bookshop_name: elements/button
-        label: Meer informatie
-        href: https://www.titan-coatings.com/files/file_download/px10
-    image:
-      _bookshop_name: elements/image
-      src: /titan-coatings-image-3.webp
-      alt:
-  - _bookshop_name: src/content/blocks/spotlight
-    writeup: >-
-      <p>Gebruikt in premium en exclusive</p><h2>TITAN COATING VULCAN</h2><p>De
-      VulcanTx155™ Elastomeer Membraan™ coating bevat ultra-geavanceerde
-      mimetische elastomeercomponenten die een uitzonderlijk dichte, maar toch
-      flexibele membraanvormende capaciteit bieden.</p><p>Deze met Dark Matter
-      Technology® versterkte topcoat verleent hydrofobische eigenschappen aan
-      onze Px10 basislaag, evenals het vermogen om zichzelf te regenereren en te
-      herstellen van slijtage, swirls en lichte krassen.</p>
-    buttons:
-      - _bookshop_name: elements/button
-        label: Plan intake
-        href: /intake
-      - _bookshop_name: elements/button
-        label: Meer informatie
-        href: https://www.titan-coatings.com/files/file_download/vulcantx155
-    image:
-      _bookshop_name: elements/image
-      src: /titan-coatings-image-2.webp
-      alt:
-  - _bookshop_name: src/content/blocks/spotlight
-    writeup: >-
-      <p>Gebruikt in exclusive</p><h2>TITAN COATING HYDRO TX145</h2><p>De
-      HYDROTX145™ Flexi Film nano-membraancoating bevat ultra-geavanceerde
-      nanocomponenten die uitzonderlijk gladde, hydrofobische en chemisch
-      resistente kenmerken bieden.</p><p>Deze met Dark Matter Technology®
-      versterkte topcoat geeft hydrofobische eigenschappen aan onze PX10 en ZEUS
-      basislagen, en biedt ook de mogelijkheid om bestaande door Titan Coatings
-      beschermde voertuigen snel en eenvoudig op te frissen.</p>
-    buttons:
-      - _bookshop_name: elements/button
-        label: Plan intake
-        href: /intake
-      - _bookshop_name: elements/button
-        label: Meer informatie
-        href: https://www.titan-coatings.com/files/file_download/hydrotx145
-    image:
-      _bookshop_name: elements/image
-      src: /titan-coatings-image-1.webp
-      alt:
+cta: false
 ---
