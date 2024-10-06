@@ -7,8 +7,7 @@ title: Coating
 description: Ervaar onze premium coating
 image:
   _bookshop_name: elements/image
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/image00036-1.webp
+  src: /services/coating/coating-1.webp
   alt: ''
 content_blocks:
   - _bookshop_name: src/content/blocks/hero
@@ -23,7 +22,7 @@ content_blocks:
         href: /intake
     image:
       _bookshop_name: elements/image
-      src: /image00036-1-1280x791.webp
+      src: /services/coating/coating-1.webp
       alt:
   - _bookshop_name: src/content/blocks/features
     section:
@@ -180,7 +179,7 @@ content_blocks:
       - "<b>Krasbestendig & Onderhoudsvriendelijk:</b> De coating vormt een harde laag die lichte krassen en slijtage effectief vermindert. Dankzij de zelfreinigende eigenschappen van onze coating garanderen wij dat het onderhoud van uw auto eenvoudiger en minder tijdrovend zal zijn."
     image:
       _bookshop_name: elements/image
-      src: /auto-coaten.webp
+      src: /services/coating/coating-3.webp
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Gebruikt in base</p><h2>TITAN COATING ZEUS</h2><p>Zeus™ is een elite

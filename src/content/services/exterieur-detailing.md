@@ -7,8 +7,7 @@ title: Exterieur detailing
 description: Ervaar perfectie en oog voor detail
 image:
   _bookshop_name: elements/image
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/exterieur-detailing.webp
+  src: /services/exterieur/exterieur1.webp
   alt: ''
 content_blocks:
   - _bookshop_name: src/content/blocks/hero
@@ -23,7 +22,7 @@ content_blocks:
         href: /intake
     image:
       _bookshop_name: elements/image
-      src: /image00036-1-1280x791.webp
+      src: /services/exterieur/exterieur1.webp
       alt:
   - _bookshop_name: src/content/blocks/features
     section:
@@ -45,7 +44,7 @@ content_blocks:
       <p>Kies voor Lavis Detailing om je auto er weer als nieuw uit te laten zien, het rijcomfort te verhogen en de waarde van je voertuig te behouden. Ervaar het verschil en laat je auto detailen bij Lavis Detailing. Professioneel en op maat.</p>
     image:
       _bookshop_name: elements/image
-      src: /image00036-1-1280x791.webp
+      src: /services/exterieur/exterieur2.webp
   - _bookshop_name: src/content/blocks/offers
     section:
       class: service-offers
@@ -183,6 +182,6 @@ content_blocks:
       - "<b>Waarde verhogend:</b> Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
     image:
       _bookshop_name: elements/image
-      src: /auto-coaten.webp
+      src: /services/exterieur/exterieur3.webp
 cta: false
 ---
