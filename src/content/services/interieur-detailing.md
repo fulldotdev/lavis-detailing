@@ -29,13 +29,13 @@ content_blocks:
       class: service-features
     features:
       - _card_name: features
-        writeup: ✔ Fris & Vlekvrij
+        writeup: ✓ Fris & Vlekvrij
       - _card_name: features
-        writeup: ✔ Eliminatie van ongewenste geuren
+        writeup: ✓ Eliminatie van ongewenste geuren
       - _card_name: features
-        writeup: ✔ Slijtage verlagend
+        writeup: ✓ Slijtage verlagend
       - _card_name: features
-        writeup: ✔ Waarde verhogend
+        writeup: ✓ Waarde verhogend
   - _bookshop_name: src/content/blocks/content
     writeup: >-
       <h2>Waarom auto interieur reiniging?</h2>

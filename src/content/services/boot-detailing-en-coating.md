@@ -30,13 +30,13 @@ content_blocks:
       class: service-features
     features:
       - _card_name: features
-        writeup: ✔ Superieure bescherming
+        writeup: ✓ Superieure bescherming
       - _card_name: features
-        writeup: ✔ Langdurige glans
+        writeup: ✓ Langdurige glans
       - _card_name: features
-        writeup: ✔ Minder onderhoud
+        writeup: ✓ Minder onderhoud
       - _card_name: features
-        writeup: ✔ Waarde behoud
+        writeup: ✓ Waarde behoud
   - _bookshop_name: src/content/blocks/content
     writeup: >-
       <h2>Waarom uw boot laten coaten en polijsten met Titan Coatings®?</h2>
