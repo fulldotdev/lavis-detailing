@@ -94,7 +94,7 @@ content_blocks:
           <ul>
           <li>Carbon micron & Elastomer Membrane coating</li>
           <li>'PH-tolerantie: 1-14'</li>
-          <li>'Bescherming: 8-9 micron (3 laags coating)'</li>
+          <li>'Bescherming: 8-10 micron (3 laags coating)'</li>
           <li>Zelf herstellend van kleine beschadigingen en (was)krassen</li>
           <li>Water- en vuilafstotend</li>
           <li>Self-cleaning effect</li>
