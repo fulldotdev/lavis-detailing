@@ -67,7 +67,7 @@ content_blocks:
           <ul>
           <li>Carbon HyperQuartz-coating</li>
           <li>'PH-tolerantie: 1-13'</li>
-          <li>'Bescherming: 2-2,5 micron (1 laags coating)'</li>
+          <li>'Bescherming: 3-5 micron (1 laags coating)'</li>
           <li>Zelf herstellend van kleine beschadigingen en (was)krassen</li>
           <li>Water- en vuilafstotend</li>
           <li>Self-cleaning effect</li>
@@ -80,7 +80,7 @@ content_blocks:
           <ul>
           <li>Elastomer Membrane coating</li>
           <li>'PH-tolerantie: 1-13'</li>
-          <li>'Bescherming: 4-5 micron (2 laags coating)'</li>
+          <li>'Bescherming: 7-9 micron (2 laags coating)'</li>
           <li>Zelf herstellend van kleine beschadigingen en (was)krassen</li>
           <li>Water- en vuilafstotend</li>
           <li>Self-cleaning effect</li>
