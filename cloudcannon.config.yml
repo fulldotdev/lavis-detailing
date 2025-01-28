@@ -116,7 +116,6 @@ collections_config:
 
 _inputs:
   seo:
-    hidden: true
     label: SEO
     comment: Search engine optimization
 
