@@ -1,8 +1,10 @@
 ---
 _schema: default
 seo:
-  title: Exterieur detailing voor uw auto | Lavis Detailing Sneek
-  description: Ervaar perfectie en oog voor detail
+  title: Auto laten detailen in Joure | Lavis Detailing
+  description: >-
+    Uw auto niet alleen laten poetsen, maar volledig detailen? Bij Lavis
+    Detailing kunt u uw auto in omgeving Joure laten detailen.
   image:
     _bookshop_name: elements/image
 title: Auto Laten Detailen Joure
@@ -17,13 +19,12 @@ image:
 content_blocks:
   - _bookshop_name: src/content/blocks/hero
     writeup: >-
-      <p></p><h1 class="heading">Auto detailen: laat het exterieur weer
-      stralen</h1><p></p> <p>Bij  Lavis Detailing gaan wij verder dan standaard
-      autopoetsen. Wij reinigen, polijsten en perfectioneren jouw auto tot in de
-      kleinste details. Het resultaat? Een diepe glans, een vlekkeloos exterieur
-      en optimale lakbescherming.  Ben je op zoek naar een auto detailer in de
-      buurt van Joure? Neem dan gerust contact op en gun jouw auto de
-      behandeling die het verdient!</p>
+      <h1>Auto laten detailen in omgeving Joure</h1><p>Bij  Lavis Detailing gaan
+      wij verder dan standaard autopoetsen. Wij reinigen, polijsten en
+      perfectioneren jouw auto tot in de kleinste details. Het resultaat? Een
+      diepe glans, een vlekkeloos exterieur en optimale lakbescherming.  Ben je
+      op zoek naar een auto detailer in de buurt van Joure? Neem dan gerust
+      contact op en gun jouw auto de behandeling die het verdient!</p>
     buttons:
       - _bookshop_name: elements/button
         label: Plan een gratis intake
@@ -47,25 +48,27 @@ content_blocks:
     section:
       class: service-features
   - _bookshop_name: src/content/blocks/content
+    prose: ''
     image:
       _bookshop_name: elements/image
       src: /services/exterieur/exterieur2.webp
     writeup: >-
-      <h2>Waarom je auto laten detailen?</h2> <p>Ervaar jij problemen met
-      hardnekkig vuil, vlekken en kleine krassen die het uiterlijk en de waarde
-      van jouw auto negatief beïnvloeden? Standaard wasbeurten zijn vaak niet
-      voldoende om deze problemen effectief aan te pakken, waardoor je auto er
-      dof en verouderd uitziet. Zonde!</p> <p>Door je auto te laten detailen bij
-      Lavis Detailing los je al deze problemen in een keer op. Onze ervaren
-      specialisten maken gebruik van geavanceerde technieken en premium
-      producten om je auto grondig te reinigen, te polijsten en te beschermen.
-      Dit zorgt niet alleen voor een diepgaande reiniging en een schitterende
-      glans, maar beschermt ook de lak tegen toekomstige schade en werkt waarde
-      verhogend. Desgewenst kunnen we het interieur nog meenemen voor een super
-      strak eindresultaat.</p> <p>Kies voor Lavis Detailing om je auto er weer
-      als nieuw uit te laten zien, het rijcomfort te verhogen en de waarde van
-      je voertuig te behouden. Ervaar het verschil en laat je auto detailen bij
-      Lavis Detailing. Professioneel en op maat.</p>
+      <h2>Waarom je auto laten detailen in Joure?</h2> <p>Heb je last van
+      hardnekkig vuil, vlekken of kleine krassen die de uitstraling en waarde
+      van je auto verminderen? Een standaard wasbeurt pakt deze problemen vaak
+      niet grondig genoeg aan, waardoor je voertuig er dof en verouderd uit
+      blijft zien. Zonde!</p><p>Bij Lavis Detailing zorgen wij ervoor dat jouw
+      auto weer straalt als nieuw. Onze ervaren specialisten maken gebruik van
+      geavanceerde technieken en premium producten om elk detail van je voertuig
+      grondig te reinigen, te polijsten en langdurig te beschermen. Dit betekent
+      niet alleen een diepgaande reiniging en hernieuwde glans, maar ook een
+      lakbescherming die de levensduur van je auto verlengt. Wil je een complete
+      make-over? Dan nemen we het interieur direct mee voor een perfect
+      afgewerkt eindresultaat. Wij zitten in Sneek, een klein stukje rijden
+      vanuit Joure en dus mooi in de buurt.</p><p>Kies voor de expertise van
+      Lavis Detailing en ervaar het verschil. Laat je auto professioneel
+      detailen, behoud de waarde en geniet van een showroomwaardige uitstraling.
+      Lavis Detailing – vakmanschap op maat, ook in Joure!</p>
   - _bookshop_name: src/content/blocks/offers
     offers:
       - _card_name: offers
