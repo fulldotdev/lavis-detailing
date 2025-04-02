@@ -7,6 +7,7 @@ seo:
     Detailing kunt u uw auto in Heerenveen en omstreken laten detailen.
   image:
     _bookshop_name: elements/image
+    src: /autolak-beschermen-640x427.webp
 title: Auto Laten Detailen Heerenveen
 description: >-
   Op zoek naar een betrouwbare detailer voor uw auto in Heerenveen? Laat uw auto

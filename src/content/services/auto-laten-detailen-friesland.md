@@ -7,6 +7,7 @@ seo:
     is dé specialist in Friesland in het detailen van uw auto
   image:
     _bookshop_name: elements/image
+    src: /car-detailing-image-interior-640x427.webp
 title: Auto Laten Detailen Friesland
 description: >-
   Op zoek naar een kwalitatieve detailer voor uw auto in Friesland? Laat uw auto

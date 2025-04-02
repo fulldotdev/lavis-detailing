@@ -7,6 +7,7 @@ seo:
     Detailing kunt u uw auto in omgeving Bolsward laten detailen.
   image:
     _bookshop_name: elements/image
+    src: /auto-zijkant-1280x962.webp
 title: Auto Laten Detailen Bolsward
 description: >-
   Op zoek naar een kwalitatieve detailer voor uw auto in Bolsward? Laat uw auto

@@ -7,6 +7,7 @@ seo:
     Detailing kunt u uw auto in omgeving Joure laten detailen.
   image:
     _bookshop_name: elements/image
+    src: /exterieur-detailing-1280x711 (1).webp
 title: Auto Laten Detailen Joure
 description: >-
   Op zoek naar een kwalitatieve detailer voor uw auto in Joure? Laat uw auto
