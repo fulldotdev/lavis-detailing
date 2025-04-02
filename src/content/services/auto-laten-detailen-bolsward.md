@@ -1,16 +1,17 @@
 ---
 _schema: default
 seo:
-  title: Auto laten detailen in Heerenveen | Lavis Detailing
+  title: Auto laten detailen in Bolsward| Lavis Detailing
   description: >-
     Uw auto niet alleen laten poetsen, maar volledig detailen? Bij Lavis
-    Detailing kunt u uw auto in Heerenveen en omstreken laten detailen.
+    Detailing kunt u uw auto in omgeving Bolsward laten detailen.
   image:
     _bookshop_name: elements/image
-title: Auto Laten Detailen Heerenveen
+title: Auto Laten Detailen Bolsward
 description: >-
-  Op zoek naar een betrouwbare detailer voor uw auto in Heerenveen? Laat uw auto
-  professioneel reinigen, polijsten en coaten voor een geweldige uitstraling. 
+  Op zoek naar een kwalitatieve detailer voor uw auto in Bolsward? Laat uw auto
+  professioneel reinigen, polijsten en beschermen voor een showroomwaardige
+  uitstraling. 
 image:
   _bookshop_name: elements/image
   src: /services/exterieur/exterieur1.webp
@@ -18,13 +19,12 @@ image:
 content_blocks:
   - _bookshop_name: src/content/blocks/hero
     writeup: >-
-      <h1>Auto laten detailen in Heerenveen en omstreken</h1><p>Bij Lavis
-      Detailing in Heerenveen gaan we verder dan standaard autopoetsen – wij
-      reinigen, polijsten en perfectioneren jouw auto tot in de kleinste
-      details. Het resultaat is een diepe glans, een vlekkeloos exterieur en
-      langdurige lakbescherming. Zoek je een professionele auto detailer in
-      Heerenveen of omstreken? Neem dan gerust contact met ons op en gun jouw
-      auto de hoogwaardige behandeling die het verdient.</p><p></p>
+      <h1><strong>Auto laten detailen in de omgeving van Bolsward? Lavis
+      Detailing staat voor je klaar.</strong></h1><p>Bij Lavis Detailing draait
+      het om méér dan alleen een schone auto. Wij reinigen, polijsten en
+      perfectioneren jouw voertuig tot in de kleinste details. Geen snelle
+      wasbeurt, maar een complete behandeling die zorgt voor een diepe glans,
+      een strak exterieur en langdurige bescherming van de lak.</p>
     buttons:
       - _bookshop_name: elements/button
         label: Plan een gratis intake
@@ -53,22 +53,22 @@ content_blocks:
       _bookshop_name: elements/image
       src: /services/exterieur/exterieur2.webp
     writeup: >-
-      <h2><strong>Auto laten detailen in Heerenveen? Geef je auto de zorg die
-      het verdient.</strong></h2><p>Ziet je auto er dof uit, met krassen,
-      vlekken of aanslag die er met een gewone wasbeurt niet afgaan? Dan is het
-      tijd voor een echte upgrade. Bij Lavis Detailing, vlakbij Heerenveen,
-      pakken we je auto aan met oog voor elk detail. Niet even snel poetsen,
-      maar grondig reinigen, polijsten en beschermen – precies wat jouw auto
-      nodig heeft om weer als nieuw te ogen.</p><p>Onze specialisten werken met
-      hoogwaardige producten en geavanceerde technieken die zorgen voor een
-      diepe glans, een gladde lak en een langdurige bescherming tegen vuil,
-      weersinvloeden en kleine beschadigingen. Of het nu gaat om het exterieur,
-      het interieur of allebei: wij zorgen voor een resultaat dat je voelt én
-      ziet.</p><p>Lavis Detailing is gevestigd in Sneek, op korte rijafstand van
-      Heerenveen. Dus woon je in Heerenveen of omgeving en wil je jouw auto
-      laten detailen door vakmensen die hun werk serieus nemen? Dan staan wij
-      voor je klaar.</p><p>Kies voor kwaliteit, vakmanschap en een afwerking
-      waar je trots op kunt zijn. Jouw auto verdient het.</p>
+      <h2><strong>Auto detailen in Bolsward? Breng jouw auto weer tot
+      leven.</strong></h2><p>Heeft jouw auto last van doffe lak, lichte krassen
+      of vuil dat maar niet weggaat? Dan is het tijd voor meer dan een simpele
+      wasbeurt. Bij Lavis Detailing – op korte afstand van Bolsward – zorgen we
+      voor een grondige en professionele behandeling waarmee je auto weer
+      straalt als nooit tevoren.</p><p>Wij gaan verder dan standaard poetswerk.
+      Met hoogwaardige producten en specialistische technieken reinigen,
+      polijsten en beschermen we jouw voertuig tot in de kleinste details. Het
+      resultaat? Een diepe glans, een langdurige lakbescherming en een interieur
+      dat weer als nieuw aanvoelt. Of je nu gaat voor een snelle opfrisbeurt of
+      een complete detailbehandeling: wij leveren vakwerk op maat.</p><p>Lavis
+      Detailing is gevestigd in Sneek, dus woon je in Bolsward of in de buurt,
+      dan ben je zo bij ons. Gun jouw auto de verzorging die het verdient en
+      ervaar zelf het verschil tussen gewoon schoon en écht
+      gedetailleerd.</p><p>Maak vandaag nog een afspraak en laat je verrassen
+      door het resultaat.</p>
   - _bookshop_name: src/content/blocks/offers
     offers:
       - _card_name: offers
