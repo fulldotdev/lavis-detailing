@@ -1,16 +1,17 @@
 ---
 _schema: default
 seo:
-  title: Auto laten detailen in Heerenveen | Lavis Detailing
+  title: Auto laten detailen in Friesland | Lavis Detailing
   description: >-
-    Uw auto niet alleen laten poetsen, maar volledig detailen? Bij Lavis
-    Detailing kunt u uw auto in Heerenveen en omstreken laten detailen.
+    Uw auto niet alleen laten poetsen, maar volledig detailen? Lavis Detailing
+    is dé specialist in Friesland in het detailen van uw auto
   image:
     _bookshop_name: elements/image
-title: Auto Laten Detailen Heerenveen
+title: Auto Laten Detailen Friesland
 description: >-
-  Op zoek naar een betrouwbare detailer voor uw auto in Heerenveen? Laat uw auto
-  professioneel reinigen, polijsten en coaten voor een geweldige uitstraling. 
+  Op zoek naar een kwalitatieve detailer voor uw auto in Friesland? Laat uw auto
+  professioneel reinigen, polijsten en beschermen voor een showroomwaardige
+  uitstraling. 
 image:
   _bookshop_name: elements/image
   src: /services/exterieur/exterieur1.webp
@@ -18,13 +19,15 @@ image:
 content_blocks:
   - _bookshop_name: src/content/blocks/hero
     writeup: >-
-      <h1>Auto laten detailen in Heerenveen en omstreken</h1><p>Bij Lavis
-      Detailing in Heerenveen gaan we verder dan standaard autopoetsen – wij
-      reinigen, polijsten en perfectioneren jouw auto tot in de kleinste
-      details. Het resultaat is een diepe glans, een vlekkeloos exterieur en
-      langdurige lakbescherming. Zoek je een professionele auto detailer in
-      Heerenveen of omstreken? Neem dan gerust contact met ons op en gun jouw
-      auto de hoogwaardige behandeling die het verdient.</p><p></p>
+      <h1>Auto laten detailen in hartje Friesland</h1><p>Ben je op zoek naar een
+      professionele auto detailer ergens in Friesland? Lavis Detailing –
+      gevestigd in Sneek – is centraal gelegen en goed bereikbaar vanuit de hele
+      provincie. Neem gerust contact met ons op en gun jouw auto de hoogwaardige
+      behandeling die het verdient.</p><p>Bij Lavis Detailing in Friesland gaan
+      we verder dan standaard autopoetsen – wij reinigen, polijsten en
+      perfectioneren jouw auto tot in de kleinste details. Het resultaat? Een
+      diepe glans, een strak en vlekkeloos exterieur én een langdurige
+      lakbescherming die jouw auto optimaal beschermt.</p>
     buttons:
       - _bookshop_name: elements/button
         label: Plan een gratis intake
@@ -53,22 +56,24 @@ content_blocks:
       _bookshop_name: elements/image
       src: /services/exterieur/exterieur2.webp
     writeup: >-
-      <h2><strong>Auto laten detailen in Heerenveen? Geef je auto de zorg die
-      het verdient.</strong></h2><p>Ziet je auto er dof uit, met krassen,
-      vlekken of aanslag die er met een gewone wasbeurt niet afgaan? Dan is het
-      tijd voor een echte upgrade. Bij Lavis Detailing, vlakbij Heerenveen,
-      pakken we je auto aan met oog voor elk detail. Niet even snel poetsen,
-      maar grondig reinigen, polijsten en beschermen – precies wat jouw auto
-      nodig heeft om weer als nieuw te ogen.</p><p>Onze specialisten werken met
-      hoogwaardige producten en geavanceerde technieken die zorgen voor een
-      diepe glans, een gladde lak en een langdurige bescherming tegen vuil,
-      weersinvloeden en kleine beschadigingen. Of het nu gaat om het exterieur,
-      het interieur of allebei: wij zorgen voor een resultaat dat je voelt én
-      ziet.</p><p>Lavis Detailing is gevestigd in Sneek, op korte rijafstand van
-      Heerenveen. Dus woon je in Heerenveen of omgeving en wil je jouw auto
-      laten detailen door vakmensen die hun werk serieus nemen? Dan staan wij
-      voor je klaar.</p><p>Kies voor kwaliteit, vakmanschap en een afwerking
-      waar je trots op kunt zijn. Jouw auto verdient het.</p>
+      <h2><strong>Auto laten detailen in Friesland? Ontdek het verschil met
+      Lavis Detailing.</strong></h2><p>Bij Lavis Detailing gaan we verder dan
+      een standaard poetsbeurt. Wij tillen autoverzorging naar het hoogste
+      niveau door jouw voertuig tot in de kleinste details te reinigen,
+      polijsten en beschermen. Van hardnekkig vuil tot fijne krassen – wij
+      zorgen ervoor dat jouw auto er weer als nieuw uitziet.</p><p>Wat kun je
+      verwachten? Een diepe, spiegelende glans, een strak en vlekkeloos
+      exterieur en een duurzame lakbescherming die jouw auto helpt beschermen
+      tegen weersinvloeden, vuil en slijtage. Ook het interieur nemen we graag
+      mee in de behandeling, zodat jouw auto niet alleen van buiten straalt,
+      maar ook van binnen fris en verzorgd aanvoelt. Het resultaat is een auto
+      die nieuwer oogt, prettiger rijdt en beter zijn waarde behoudt.</p><p>Of
+      je nu in Leeuwarden, Drachten, Sneek, Joure of ergens anders in Friesland
+      woont – Lavis Detailing is jouw partner in professionele autodetailing.
+      Vanuit onze locatie in Sneek zijn wij centraal en goed bereikbaar voor
+      klanten uit de hele provincie.</p><p>Gun jouw auto de aandacht die het
+      verdient. Neem vandaag nog contact met ons op en ervaar zelf het verschil
+      van echte kwaliteit en vakmanschap.</p>
   - _bookshop_name: src/content/blocks/offers
     offers:
       - _card_name: offers
