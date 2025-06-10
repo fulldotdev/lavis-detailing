@@ -21,7 +21,7 @@ categories:
   - src/content/categories/motorruimte.md
   - src/content/categories/velgen-reiniger.md
   - src/content/categories/koch-chemie.md
-price: 9.95
+price: 10.99
 prices:
   options:
     - key: null

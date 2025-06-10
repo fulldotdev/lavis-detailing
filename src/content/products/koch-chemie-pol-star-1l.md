@@ -18,7 +18,7 @@ images:
 categories:
   - src/content/categories/koch-chemie.md
   - src/content/categories/interieur.md
-price: 9.45
+price: 12.99
 prices:
   options:
     - key: null
