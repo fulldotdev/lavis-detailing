@@ -12,7 +12,7 @@ seo:
 content_blocks:
   - _bookshop_name: src/content/blocks/hero
     writeup: >-
-      <p>&nbsp;Beoordeeld met 5 sterren uit 30+ reviews</p><h1>PERFECTIE IN
+      <p>&nbsp;Beoordeeld met 5 sterren uit 70+ reviews</p><h1>PERFECTIE IN
       DETAILING</h1><p>Detailing met perfectie tot in het laatste detail, dat is
       Lavis Detailing </p>
     buttons:
@@ -26,6 +26,23 @@ content_blocks:
       _bookshop_name: elements/image
       src: /lavis-bg-4-optimized.webp
       alt: Lavis Detailing Sneek
+  
+  - _bookshop_name: src/content/blocks/services
+    writeup:
+    buttons:
+    services:
+      - src/content/services/exterieur-detailing.md
+      - src/content/services/interieur-detailing.md
+      - src/content/services/dagbehandeling.md
+      - src/content/services/coating.md
+  - _bookshop_name: src/content/blocks/services-secondary
+    writeup:
+    buttons:
+    services:
+      - src/content/services/boot-detailing-en-coating.md
+      - src/content/services/camper-detailing-en-coating.md
+      - src/content/services/schadeherstel.md
+      - src/content/services/velgreparatie.md
   - _bookshop_name: src/content/blocks/reviews
     writeup: <h2>JAREN ERVARING, EN DAT ZIE JE...</h2>
     reviews:
@@ -47,22 +64,6 @@ content_blocks:
       - src/content/reviews/reviews47.md
       - src/content/reviews/reviews492.md
       - src/content/reviews/reviews78.md
-  - _bookshop_name: src/content/blocks/services
-    writeup:
-    buttons:
-    services:
-      - src/content/services/exterieur-detailing.md
-      - src/content/services/interieur-detailing.md
-      - src/content/services/dagbehandeling.md
-      - src/content/services/coating.md
-  - _bookshop_name: src/content/blocks/services-secondary
-    writeup:
-    buttons:
-    services:
-      - src/content/services/boot-detailing-en-coating.md
-      - src/content/services/camper-detailing-en-coating.md
-      - src/content/services/schadeherstel.md
-      - src/content/services/velgreparatie.md
   - _bookshop_name: src/content/blocks/spotlight
     writeup: >-
       <p>Kwalitatieve merken</p><h1>Wij gebruiken de meest hoogwaardige

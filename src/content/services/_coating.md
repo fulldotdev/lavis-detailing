@@ -148,7 +148,7 @@ content_blocks:
       - src/content/reviews/reviews330.md
   - _bookshop_name: src/content/blocks/cta
     writeup: >-
-      <p>&nbsp;Beoordeeld met 5 sterren uit 30+ reviews</p><h2>PLAN EEN
+      <p>&nbsp;Beoordeeld met 5 sterren uit 70+ reviews</p><h2>PLAN EEN
       INTAKE</h2><p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
     buttons:
       - _bookshop_name: elements/button
