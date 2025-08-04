@@ -222,9 +222,10 @@ content_blocks:
       gedetailleerd.</p><p>Maak vandaag nog een afspraak en laat je verrassen
       door het resultaat.</p>
   - _bookshop_name: src/content/blocks/content
+    prose: ''
     image:
       _bookshop_name: elements/image
-      src: /services/exterieur/exterieur3.webp
+      src: /schermafbeelding-2025-08-04-084334.png
     section:
       class: service-garanties
     writeup: >-
