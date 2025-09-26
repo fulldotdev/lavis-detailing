@@ -1,9 +1,7 @@
 <script>
   import { cart } from '@stores/cartStore'
   import Stripe from 'stripe'
-  const stripe = new Stripe(
-   import.meta.env.PUBLIC_STRIPE_CHECKOUT_KEY
-  )
+  const stripe = new Stripe(import.meta.env.PUBLIC_STRIPE_CHECKOUT_KEY)
 
   const handleOnclick = async () => {
     const lineItems = $cart.map((item) => {
@@ -25,13 +23,15 @@
       success_url: `${import.meta.env.PUBLIC_APP_URL}/bestelling-ontvangen`,
       line_items: lineItems,
       mode: 'payment',
-      "customer_creation": "always",
+      customer_creation: 'always',
       shipping_address_collection: {
         allowed_countries: ['NL'],
-    }   ,  
-      shipping_options: [{
-        shipping_rate: 'shr_1Ofh0UA46xQDCsGFCdg3rwfz'
-      }],
+      },
+      shipping_options: [
+        {
+          shipping_rate: 'shr_1Ofh0UA46xQDCsGFCdg3rwfz',
+        },
+      ],
     })
     window.location.replace(checkoutSession.url)
   }

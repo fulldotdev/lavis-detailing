@@ -42,7 +42,7 @@ content_blocks:
       - src/content/services/boot-detailing-en-coating.md
       - src/content/services/camper-detailing-en-coating.md
       - src/content/services/schadeherstel.md
-      - src/content/services/velgreparatie.md
+      # - src/content/services/velgreparatie.md
   - _bookshop_name: src/content/blocks/reviews
     writeup: <h2>JAREN ERVARING, EN DAT ZIE JE...</h2>
     reviews:
