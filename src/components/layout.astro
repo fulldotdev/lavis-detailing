@@ -1,0 +1,128 @@
+---
+import { SEO } from "astro-seo"
+import { Font } from "astro:assets"
+import { getEntry } from "astro:content"
+
+import { Button } from "@/components/ui/button"
+import Block from "@/components/block.astro"
+
+import "@/styles/globals.css"
+
+import { Icon } from "@/components/ui/icon"
+import ModeToggleProvider from "@/components/ui/mode-toggle/mode-toggle-provider.astro"
+import { SectionProvider } from "@/components/ui/section"
+
+type Props = {
+  layout?: string
+  title?: string
+  description?: string
+  image?: {
+    src?: string
+    alt?: string
+  }
+}
+
+const { layout, ...props } = Astro.props
+
+const indexLayout = await getEntry("layouts", "index")
+const pageLayout = layout ? await getEntry("layouts", layout) : undefined
+
+const {
+  title,
+  description,
+  image,
+  header,
+  banner,
+  sections,
+  footer,
+  bubble,
+  head,
+  body,
+  css,
+} = {
+  ...indexLayout?.data,
+  ...pageLayout?.data,
+  ...props,
+}
+
+const baseUrl = Astro.site?.origin || Astro.url.origin
+const pagePathname = Astro.url.pathname.endsWith("/")
+  ? Astro.url.pathname
+  : `${Astro.url.pathname}/`
+const pageUrl = `${baseUrl}${pagePathname}`
+---
+
+<html
+  class="layout scroll-smooth"
+  lang={Astro.currentLocale}
+  transition:name="root"
+>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <SEO
+      charset="UTF-8"
+      title={title}
+      description={description}
+      canonical={pageUrl}
+      openGraph={{
+        basic: {
+          title: title || "",
+          image: image?.src ? baseUrl + image.src : "",
+          type: "website",
+          url: Astro.url.href,
+        },
+        image: image?.src
+          ? {
+              url: baseUrl + image.src,
+              alt: image?.alt,
+            }
+          : undefined,
+        optional: {
+          description: description,
+          locale: Astro.currentLocale,
+        },
+      }}
+    />
+    <ModeToggleProvider />
+    <Font cssVariable="--font-base" preload />
+    <Font cssVariable="--font-heading" preload />
+    <Fragment set:html={head} />
+  </head>
+  <body
+    class="text-foreground bg-background font-base @container overscroll-none antialiased"
+    id={Astro.url.pathname}
+  >
+    {header && <Block {...header} />}
+    {banner && <Block {...banner} />}
+    <SectionProvider>
+      <slot />
+      {sections?.map((section) => <Block {...section} />)}
+    </SectionProvider>
+    {footer && <Block {...footer} />}
+    {
+      bubble && (
+        <Button
+          class="absolute right-4 bottom-4"
+          size="icon-lg"
+          target="_blank"
+          {...bubble}
+        >
+          <Icon {...bubble} />
+        </Button>
+      )
+    }
+    <Fragment set:html={body} />
+    <style set:html={css}></style>
+    <style>
+      body {
+        font-family: var(--font-base);
+
+        h1,
+        h2 {
+          font-family: var(--font-heading);
+        }
+      }
+    </style>
+  </body>
+</html>

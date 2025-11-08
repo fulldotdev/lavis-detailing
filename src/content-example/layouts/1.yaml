@@ -1,0 +1,26 @@
+title: Eva Lien Veenstra
+header:
+  block: header-2
+  logo:
+    title: Eva Lien Veenstra
+  buttons:
+    - text: Contact me
+      href: "#contact"
+  menus:
+    - text: Work
+      href: "/work/"
+    - text: Team
+      href: "/team/"
+    - text: Contact
+      href: "/contact/"
+footer:
+  block: footer-4
+  logo:
+    title: Eva Lien Veenstra
+  links:
+    - text: Work
+      href: "/work/"
+    - text: Team
+      href: "/team/"
+    - text: Contact
+      href: "/contact/"

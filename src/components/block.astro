@@ -1,0 +1,68 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content"
+
+import type { BlockSchema } from "@/lib/schemas"
+
+type Props = BlockSchema
+
+const props = Astro.props
+
+function getHref(entry: CollectionEntry<"pages">) {
+  // If there is no content, return undefined
+  if (!entry.data.sections?.length && !entry.body?.length) return undefined
+  // If the page is the index, return the root
+  if (entry.id === "index") return "/"
+  // else return href b yid
+  return `/${entry.id}/`
+}
+
+// Populate references to pages of each type
+async function populateReferences<
+  T extends string | string[] | object[] | undefined,
+>(value: T) {
+  // If undefined, return undefined
+  if (value === undefined) return
+  // If a single string, return an array matching the glob
+  else if (typeof value === "string") {
+    return (
+      await getCollection("pages", (entry) => entry.id.startsWith(value))
+    ).map((entry) => ({
+      href: getHref(entry),
+      ...entry.data,
+    }))
+  }
+  // If an array of strings, return an array matching all ids
+  else if (value.every((item) => typeof item === "string")) {
+    return (
+      await getCollection("pages", (entry) =>
+        value.some((item) => entry.id === item)
+      )
+    ).map((entry) => ({
+      href: getHref(entry),
+      ...entry.data,
+    }))
+  } else if (value.every((item) => typeof item === "object")) {
+    return value
+  }
+}
+
+// Populate each page type
+if ("items" in props) {
+  props.items = (await populateReferences(props.items)) as any
+}
+
+const blockImports = import.meta.glob("./blocks/**/*.astro")
+const { block, ...rest } = props
+const blockPath = `./blocks/${block}.astro`
+const blockImport = (await blockImports[blockPath]?.()) as any
+const BlockComponent = blockImport?.default as any
+---
+
+{
+  BlockComponent && (
+    <BlockComponent {...rest}>
+      <slot />
+      {"html" in rest && <Fragment set:html={rest.html} />}
+    </BlockComponent>
+  )
+}

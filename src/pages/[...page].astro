@@ -1,0 +1,32 @@
+---
+import { getCollection, render } from "astro:content"
+
+import Block from "@/components/block.astro"
+import Layout from "@/components/layout.astro"
+
+export async function getStaticPaths() {
+  const pages = await getCollection("pages")
+  return pages.map((page) => {
+    return {
+      params: {
+        page: page.id === "index" ? undefined : page.id,
+      },
+      props: page,
+    }
+  })
+}
+
+const { sections, ...data } = Astro.props.data
+const { Content } = await render(Astro.props)
+---
+
+<Layout {...data}>
+  <Block {...data} id="page">
+    <Content />
+  </Block>
+  {
+    sections?.map((section, index) => (
+      <Block id={`${index + 1}`} {...section} />
+    ))
+  }
+</Layout>

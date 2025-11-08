@@ -1,0 +1,26 @@
+sections:
+  - block: videos-1
+    id: film
+    html: <h2><strong>More of my film work.</strong></h2>
+    items: film/
+  - block: cta-2
+    html: >-
+      <h1><strong>Contact me.</strong></h1>
+      <p>This is a dummy text for contact.</p>
+    buttons:
+      - text: Contact me
+        href: "/contact/"
+    items:
+      - title: 06-12517010
+        description: Whatsapp
+        href: tel:+31612517010
+      - title: info@evalienveenstra.com
+        description: Email
+        href: mailto:info@evalienveenstra.com
+      - title: Whatsapp
+        description: Whatsapp
+        href: https://wa.me/31612517010
+        icon: whatsapp
+    image:
+      src: /eva-2.jpg
+      alt: Eva Lien Veenstra
