@@ -1,15 +1,12 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: Auto Detailing in slechts één dag bij Lavis Detailing in Sneek
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-zijkant.webp
   alt: ''

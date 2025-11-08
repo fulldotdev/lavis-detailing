@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8AWZWIkAgc59
 _stripe_price_id: price_1OABtyA46xQDCsGF1aeN4cYW
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Optimum No Rinse Wash and Shine - 950ml
@@ -16,9 +14,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-4-f6d136d9da4f.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/optimum-polymer-technologies.md
-  - src/content/categories/wassen.md
+  - categories/exterieur
+  - categories/optimum-polymer-technologies
+  - categories/wassen
 price: 20.75
 prices:
   options:

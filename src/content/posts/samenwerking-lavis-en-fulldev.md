@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: De nieuwe website van Lavis Detailing ontwikkeld door Fulldev
 description: 'Hoe de nieuwe website van Lavis Detailing is ontwikkeld '
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/samenwerking-lavis-fulldev.webp
   alt: ''

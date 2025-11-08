@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy5m2O9giRtN4M
 _stripe_price_id: '0'
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Rinse Drooghulp & Coating 1L
@@ -20,9 +18,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Rinse-GL-1L-1.webp
     alt: null
 categories:
-  - src/content/categories/lak-bescherming.md
-  - src/content/categories/gl.md
-  - src/content/categories/wassen.md
+  - categories/lak-bescherming
+  - categories/gl
+  - categories/wassen
 price: 19.99
 prices:
   options:

@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7wSw1heiZ1Iy
 _stripe_price_id: price_1OABgRA46xQDCsGFIeyGLcCp
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Eagle Microfiber Detailing Applicator Sponge
@@ -16,8 +14,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eagle-Microfiber-Detailing-Applicator-Sponge.webp
     alt: null
 categories:
-  - src/content/categories/trc.md
-  - src/content/categories/sponzen.md
+  - categories/trc
+  - categories/sponzen
 price: 5.5
 prices:
   options:

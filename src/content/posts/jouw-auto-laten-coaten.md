@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: 'Jouw auto laten coaten: dit zijn de voordelen!'
 description: Ontdek voordelen van auto coaten
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Coating
     image-1.webp

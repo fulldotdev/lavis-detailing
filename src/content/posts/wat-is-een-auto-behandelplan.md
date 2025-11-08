@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: Wat is een auto behandelplan?
 description: Leer alles over auto behandelplannen
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/blauwdruk-auto-behandelplan.webp
   alt: ''

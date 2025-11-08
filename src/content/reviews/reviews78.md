@@ -4,7 +4,6 @@ description: >
   week achter gelaten en een volledige detail beurt laten uitvoeren met de gave
   Titan Coating eroverheen.
 
-
   De auto kwam heel netjes terug. Steenslagen verwijderd en netjes gepoetst, de
   heftige swirls van de vorige eigenaar waren ook volledig verdwenen. Hierdoor
   is de auto net een spiegeltje geworden echt abnormaal.

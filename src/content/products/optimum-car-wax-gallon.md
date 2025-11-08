@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7Wy8mbB45ED0
 _stripe_price_id: price_1OABH9A46xQDCsGF3DBgBQpJ
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: OPTIMUM Car Wax - Gallon
@@ -21,9 +19,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Car-Wax.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/lak-bescherming.md
-  - src/content/categories/optimum-polymer-technologies.md
+  - categories/exterieur
+  - categories/lak-bescherming
+  - categories/optimum-polymer-technologies
 price: 61.99
 prices:
   options:

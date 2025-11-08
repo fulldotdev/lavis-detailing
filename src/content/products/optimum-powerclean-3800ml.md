@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy83b2wIEmjELo
 _stripe_price_id: price_1OABnkA46xQDCsGFtpn6PRUF
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: OPTIMUM PowerClean 3800ml
@@ -16,12 +14,12 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/optimum-power-clean-3800-ml.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/interieur.md
-  - src/content/categories/motorruimte.md
-  - src/content/categories/wassen.md
-  - src/content/categories/velgen-reiniger.md
-  - src/content/categories/optimum-polymer-technologies.md
+  - categories/exterieur
+  - categories/interieur
+  - categories/motorruimte
+  - categories/wassen
+  - categories/velgen-reiniger
+  - categories/optimum-polymer-technologies
 price: 50
 prices:
   options:

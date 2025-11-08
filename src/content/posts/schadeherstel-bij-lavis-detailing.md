@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: Schadeherstel bij Lavis Detailing
 description: Perfectionisme in elk detail
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-geel-voorkant.webp
   alt: ''

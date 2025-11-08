@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: 'Exterieur detailing: wat houdt het in?'
 description: Verhoog de Waarde en Uitstraling van uw Auto
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/exterieur-detailing.webp
   alt: ''

@@ -7,9 +7,7 @@ description: >-
 
   Kritisch en dragen zorg voor een goed resultaat.
 
-
   Zou hier mijn volgende auto zo weer naartoe brengen!
-
 
   Services: Full body wash, Auto detailing
 rating: 5

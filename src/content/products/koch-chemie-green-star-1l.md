@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy82YJ8HubVbJh
 _stripe_price_id: price_1OABmQA46xQDCsGF2aFzMslQ
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Koch Chemie Green Star (1L)
@@ -16,11 +14,11 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Green-Star-1L.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/interieur.md
-  - src/content/categories/motorruimte.md
-  - src/content/categories/velgen-reiniger.md
-  - src/content/categories/koch-chemie.md
+  - categories/exterieur
+  - categories/interieur
+  - categories/motorruimte
+  - categories/velgen-reiniger
+  - categories/koch-chemie
 price: 10.99
 prices:
   options:

@@ -1,5 +1,4 @@
 ---
-_schema: default
 _stripe_product_id: prod_P0kGJ5gGG1YH4b
 _stripe_price_id: '0'
 draft: true
@@ -7,7 +6,6 @@ seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: GL Brutal Insectenverwijderaar -  5L
@@ -22,8 +20,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/BRUTAL-GL-5L-3.webp
     alt: null
 categories:
-  - src/content/categories/gl.md
-  - src/content/categories/exterieur.md
+  - categories/gl
+  - categories/exterieur
 price: 44.99
 prices:
   options:

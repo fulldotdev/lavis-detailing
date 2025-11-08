@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7y4KTLLhWeJ6
 _stripe_price_id: price_1OABiNA46xQDCsGFhOwBlTLk
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: IK Multi HC TR-1
@@ -19,8 +17,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ik-multi-hc-tr-1-trigger-sprayer-front.webp
     alt: null
 categories:
-  - src/content/categories/sprayers.md
-  - src/content/categories/ik.md
+  - categories/sprayers
+  - categories/ik
 price: 10.5
 prices:
   options:

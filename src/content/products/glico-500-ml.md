@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8KEsRg9CYtaf
 _stripe_price_id: price_1OAC3OA46xQDCsGFQL52VHQf
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Glico 500 ML
@@ -15,8 +13,8 @@ images:
   - src: https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB99.webp
     alt: null
 categories:
-  - src/content/categories/labocosmetica.md
-  - src/content/categories/interieur.md
+  - categories/labocosmetica
+  - categories/interieur
 price: 14.99
 prices:
   options:

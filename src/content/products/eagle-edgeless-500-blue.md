@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7RzgfuqKMtCa
 _stripe_price_id: price_1OABCpA46xQDCsGFIDuHaMcZ
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Eagle Edgeless 500 - Blue
@@ -16,8 +14,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eagle-Edgeless-500-BLUE.webp
     alt: null
 categories:
-  - src/content/categories/trc.md
-  - src/content/categories/doeken.md
+  - categories/trc
+  - categories/doeken
 price: 7.5
 prices:
   options:

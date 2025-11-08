@@ -9,7 +9,6 @@ description: >-
   aan veranderd en de auto ziet er een stuk witter uit als voorheen.  Zeker een
   aanrader :)
 
-
   Services: Full body wash, Auto detailing
 rating: 5
 image:

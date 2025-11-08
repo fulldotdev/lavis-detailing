@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7ynY1Zkp81yu
 _stripe_price_id: price_1OABitA46xQDCsGFhtpkOuz9
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: IK Multi Pro-2
@@ -26,8 +24,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/IK-Multi-Pro-2-Main__98263.1579733735.1280.1280.webp
     alt: null
 categories:
-  - src/content/categories/sprayers.md
-  - src/content/categories/ik.md
+  - categories/sprayers
+  - categories/ik
 price: 26.75
 prices:
   options:
@@ -58,8 +56,6 @@ _inputs:
 * Bredere mond- en trechteropening zorgen voor een eenvoudig vulproces en een eenvoudige reinigingsprocedure;
 * Alle iK-slangen zijn gemaakt van sterk PVC met de perfecte hoeveelheid flexibiliteit;
 * Alle iK-spuittoestellen worden geleverd met overdrukventielen.
-
-
 
 ## Kenmerken:
 

@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: Auto laten wassen
 description: Auto laten wassen voor een betere uitstraling en veiligheid.
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-wassen-afbeelding-lavis-1.webp
   alt: ''

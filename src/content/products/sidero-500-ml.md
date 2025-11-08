@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8IZcY8CPrPjs
 _stripe_price_id: price_1OAC1YA46xQDCsGFsAENa5Sl
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Sidero 500 ML
@@ -20,9 +18,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LABOCOSMETICA-Sidero-500-ml.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/labocosmetica.md
-  - src/content/categories/velgen-reiniger.md
+  - categories/exterieur
+  - categories/labocosmetica
+  - categories/velgen-reiniger
 price: 16.53
 prices:
   options:

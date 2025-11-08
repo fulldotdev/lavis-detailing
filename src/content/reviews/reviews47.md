@@ -1,5 +1,4 @@
 ---
-_schema: default
 rating: 5
 title: Bas Lassooij
 tagline: Seat Leon
@@ -11,7 +10,6 @@ description: >-
   Echt een top service, kwaliteit gaat boven kwantiteit en dat is terug te zien
   in de auto.
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Seat Leon
     coating.webp

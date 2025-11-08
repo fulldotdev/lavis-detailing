@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy5nnoL8v3mTY5
 _stripe_price_id: price_1OAAqJA46xQDCsGFQrFL02ug
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Robust Neutrale Velgenreiniger. -  5L
@@ -20,9 +18,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Robust-GL-1L-2.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/velgen-reiniger.md
-  - src/content/categories/gl.md
+  - categories/exterieur
+  - categories/velgen-reiniger
+  - categories/gl
 price: 60
 prices:
   options:

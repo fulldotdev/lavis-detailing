@@ -1,5 +1,4 @@
 ---
-_schema: default
 rating: 5
 title: Aerial Promos
 description: >-
@@ -9,6 +8,5 @@ description: >-
 
   Service: Paint repair
 image:
-  _bookshop_name: elements/image
   alt: ''
 ---

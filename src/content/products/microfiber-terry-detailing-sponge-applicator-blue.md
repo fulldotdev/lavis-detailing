@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7VdLfllj90In
 _stripe_price_id: price_1OABGSA46xQDCsGFcqVel3S3
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Microfiber Terry Detailing Sponge Applicator - Blue
@@ -16,8 +14,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Microfiber-Terry-Detailing-Sponge-Applicator-Blue.webp
     alt: null
 categories:
-  - src/content/categories/sponzen.md
-  - src/content/categories/trc.md
+  - categories/sponzen
+  - categories/trc
 price: 2.7
 prices:
   options:

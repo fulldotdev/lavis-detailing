@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: Professionele Velgreparatie Service in Sneek
 description: Wij herstellen uw beschadigde velgen weer naar hun oorspronkelijke glans.
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Velgen-poetsen.webp
   alt: ''

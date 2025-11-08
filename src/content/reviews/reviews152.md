@@ -1,5 +1,4 @@
 ---
-_schema: default
 rating: 5
 title: Branco K
 tagline: Volkswagen Polo
@@ -13,10 +12,8 @@ description: >-
   aan veranderd en de auto ziet er een stuk witter uit als voorheen.  Zeker een
   aanrader :)
 
-
   Services: Full body wash, Auto detailing
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/VW Polo
     coating.webp

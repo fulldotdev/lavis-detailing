@@ -1,17 +1,14 @@
 ---
-_schema: default
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Detail Factory Brushes 2-pack - Blue
 summary: >-
   De Premium Detail Factory Brushes van Lavis Detailing Sneek zijn onovertroffen
   in de branche voor zowel professionals als liefhebbers.
-
 
   Met de focus op het creëren van innovatieve tools die in hun marktbehoefte
   voorzien en de concurrentie ver achter zich laten, zijn wij van Lavis
@@ -26,9 +23,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-blue-2-pack-main-web.webp
     alt: null
 categories:
-  - src/content/categories/detail-factory.md
-  - src/content/categories/interieur.md
-  - src/content/categories/exterieur.md
+  - categories/detail-factory
+  - categories/interieur
+  - categories/exterieur
 price: null
 prices:
   options:
@@ -53,8 +50,6 @@ _inputs:
         - maat
 ---
 ## Pak je voordeel met de Detail Factory Brushes:
-
-
 
 * Ergonomisch ontworpen handgreepprofiel (Custom TRC Blue!);
 * Getextureerd gripgebied;

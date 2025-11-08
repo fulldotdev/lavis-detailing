@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy85j8jsMUCvuZ
 _stripe_price_id: price_1OABpnA46xQDCsGFYhJpsyJJ
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: The Liquid8r 41x41 cm
@@ -16,8 +14,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/the-liquid8r-drying-towel-main.webp
     alt: null
 categories:
-  - src/content/categories/doeken.md
-  - src/content/categories/trc.md
+  - categories/doeken
+  - categories/trc
 price: 7.5
 prices:
   options:

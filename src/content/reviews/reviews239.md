@@ -1,11 +1,9 @@
 ---
-_schema: default
 rating: 5
 title: Guido Wagenaar
 tagline: Ford Focus ST Line
 description: >-
   Op aanbeveling van een eerdere klant terecht gekomen bij Lavis Detailing.
-
 
   De auto was in een slechte staat voor de behandeling en het resultaat mag er
   wezen. De mannen van Lavis hebben echt top werk geleverd, de auto ziet er
@@ -14,14 +12,11 @@ description: >-
 
   Met de 3 laagse titan coating is het echt een spiegel.
 
-
   Kortom de mannen van Lavis hebben echt geweldig werk geleverd en wil ze daar
   ook echt voor bedanken.
 
-
   Services: Clay bar treatment, Auto detailing, Car waxing, Paint repair
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ford Focus ST
     Line Coating.webp

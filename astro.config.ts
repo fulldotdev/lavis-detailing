@@ -6,7 +6,7 @@ import { defineConfig, fontProviders } from "astro/config"
 
 export default defineConfig({
   output: "static",
-  site: "https://evalienveenstra.nl",
+  site: "https://lavis-detailing.nl",
   image: {
     responsiveStyles: true,
     breakpoints: [640, 750, 828, 1080, 1280, 1668, 2048, 2560],
@@ -59,21 +59,26 @@ export default defineConfig({
       changefreq: "weekly",
       lastmod: new Date(),
       i18n: {
-        defaultLocale: "en",
+        defaultLocale: "nl",
         locales: {
-          en: "en",
+          nl: "nl",
         },
       },
     }),
     favicons({
       input: {
-        favicons: ["src/assets/logo.png"],
+        favicons: ["src/assets/lavis-logo.svg"],
       },
-      name: "Eva Lien Veenstra",
-      short_name: "Eva Lien Veenstra",
+      name: "Lavis Detailing",
+      short_name: "Lavis Detailing",
     }),
   ],
   vite: {
     plugins: [tailwindcss()],
   },
+  redirects: {
+    '/algemene-voorwaarden': '/policies/algemene-voorwaarden/',
+    '/disclaimer': '/policies/disclaimer/',
+    '/privacyverklaring': '/policies/privacyverklaring/',
+  }
 })

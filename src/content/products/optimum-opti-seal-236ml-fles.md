@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7Xsfw2S3Je6p
 _stripe_price_id: price_1OABIPA46xQDCsGFfISjQmlO
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: OPTIMUM Opti-Seal 236ml - Fles
@@ -16,7 +14,6 @@ summary: >-
   creëert. Dit product laat geen lelijke sporen achter en vereist geen
   polijsten. Geniet van maandenlange duurzame polymeerbescherming met slechts
   enkele druppels Optimum Opti-Seal.
-
 
   Optimum Opti-Seal is een echte verfkit zonder reinigende eigenschappen. Het
   verzegelt en beschermt verf onder een kristalheldere barrière van verknoopte
@@ -28,8 +25,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Seal-LARGE.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/lak-bescherming.md
+  - categories/exterieur
+  - categories/lak-bescherming
 price: 29.75
 prices:
   options:

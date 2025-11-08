@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy83X7hd7Raevv
 _stripe_price_id: price_1OABmyA46xQDCsGFsJ2g6s9s
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Optimum Protectant Plus (Leather Protectant) 500ml
@@ -21,9 +19,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Leather-Protectant-SPRAY.webp
     alt: null
 categories:
-  - src/content/categories/interieur.md
-  - src/content/categories/leer-bescherming.md
-  - src/content/categories/optimum-polymer-technologies.md
+  - categories/interieur
+  - categories/leer-bescherming
+  - categories/optimum-polymer-technologies
 price: 18
 prices:
   options:

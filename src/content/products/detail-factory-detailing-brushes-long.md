@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy89vds6ANZeYf
 _stripe_price_id: price_1OABtSA46xQDCsGF1pGLtKQR
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Detail Factory Detailing Brushes (Long)
@@ -16,10 +14,10 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Boar-Hair-Brush.webp
     alt: null
 categories:
-  - src/content/categories/detail-factory.md
-  - src/content/categories/borstels-en-kwasten.md
-  - src/content/categories/interieur.md
-  - src/content/categories/exterieur.md
+  - categories/detail-factory
+  - categories/borstels-en-kwasten
+  - categories/interieur
+  - categories/exterieur
 price: 19.5
 prices:
   options:

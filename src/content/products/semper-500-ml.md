@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8HeSyykaSyIe
 _stripe_price_id: price_1OAC0wA46xQDCsGFH9mjZGtY
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Semper 500 ML
@@ -24,9 +22,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB02_2-600x584-1.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/labocosmetica.md
-  - src/content/categories/wassen.md
+  - categories/exterieur
+  - categories/labocosmetica
+  - categories/wassen
 price: 16.01
 prices:
   options:

@@ -1,15 +1,12 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: "Auto interieur reinigen. Op pad met een schone auto!\_"
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/car-detailing-image-interior.webp
   alt: ''

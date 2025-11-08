@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7PVuxT9dWpqW
 _stripe_price_id: price_1OABBIA46xQDCsGFzoYML0Oy
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: P&S Bead Maker - Fles
@@ -16,7 +14,7 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/PS-Bead-Maker-Spray-BOTTLE.webp
     alt: null
 categories:
-  - src/content/categories/p-s.md
+  - categories/p-s
 price: 6.95
 prices:
   options:

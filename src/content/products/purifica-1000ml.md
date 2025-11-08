@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8Hp3lLBu5oe5
 _stripe_price_id: price_1OAC1GA46xQDCsGFWgoMBuFy
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Purifica 1000ML
@@ -19,9 +17,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/LAB23_2-600x584-1.webp
     alt: null
 categories:
-  - src/content/categories/labocosmetica.md
-  - src/content/categories/exterieur.md
-  - src/content/categories/wassen.md
+  - categories/labocosmetica
+  - categories/exterieur
+  - categories/wassen
 price: 23.78
 prices:
   options:

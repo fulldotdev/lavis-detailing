@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7n51KRrGvZY5
 _stripe_price_id: price_1OABYJA46xQDCsGFLHVet1S9
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Diamond Glass Towel - Blue
@@ -23,8 +21,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Blue-Diamond-Glass-Towel-16x24-Layered-NEW-web.webp
     alt: null
 categories:
-  - src/content/categories/trc.md
-  - src/content/categories/ramen-reinigen.md
+  - categories/trc
+  - categories/ramen-reinigen
 price: 3.9
 prices:
   options:

@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8BLS2M73HtpM
 _stripe_price_id: price_1OABvHA46xQDCsGF1Fc2lD69
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: OPTIMUM No Rinse Wash And Wax -  950ml
@@ -22,9 +20,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-4-3be95e5fd242.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/wassen.md
-  - src/content/categories/optimum-polymer-technologies.md
+  - categories/exterieur
+  - categories/wassen
+  - categories/optimum-polymer-technologies
 price: 28.4
 prices:
   options:

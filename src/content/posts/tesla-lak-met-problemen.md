@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: "Tesla lak met problemen?\_"
 description: Bescherm je Tesla lak tegen problemen
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/tesla-coating-lavis.webp
   alt: ''

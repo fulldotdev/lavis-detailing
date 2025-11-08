@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8JSDYrdPGL9p
 _stripe_price_id: price_1OAC2oA46xQDCsGFVZEim3pk
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Cupido 500 ML
@@ -18,9 +16,9 @@ images:
   - src: https://storage.googleapis.com/fulldev-payload/lavis-detailing/Cupdio.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/lak-bescherming.md
-  - src/content/categories/labocosmetica.md
+  - categories/exterieur
+  - categories/lak-bescherming
+  - categories/labocosmetica
 price: 22.99
 prices:
   options:

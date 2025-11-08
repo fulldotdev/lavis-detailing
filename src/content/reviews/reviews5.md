@@ -1,5 +1,4 @@
 ---
-_schema: default
 rating: 5
 title: Robert “RaccoonV”
 description: >-
@@ -7,6 +6,5 @@ description: >-
   Detailing. De service is perfect, het resultaat zelfs nog beter dan perfect.
   Heb je een mooie auto die je mooi wilt houden? Dan is dit het adres.
 image:
-  _bookshop_name: elements/image
   alt: ''
 ---

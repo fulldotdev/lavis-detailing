@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: De verschillen tussen een detailer en een autopoetsbedrijf
 description: ''
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-wassen-afbeelding-lavis-1.webp
   alt: ''

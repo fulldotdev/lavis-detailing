@@ -1,10 +1,8 @@
 ---
-_schema: default
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Edgeless 365 Premium Microfiber Terry Detailing Towel (10-pack) - Blue
@@ -14,10 +12,10 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Edgeless-Royal-Blue-365-pack.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/interieur.md
-  - src/content/categories/trc.md
-  - src/content/categories/doeken.md
+  - categories/exterieur
+  - categories/interieur
+  - categories/trc
+  - categories/doeken
 prices:
   options:
     - key: null

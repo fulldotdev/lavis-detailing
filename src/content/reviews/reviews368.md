@@ -1,5 +1,4 @@
 ---
-_schema: default
 rating: 5
 title: Laura Kuivenhoven
 tagline: Mercedes Sprinter
@@ -9,15 +8,12 @@ description: >-
   verschillen op de bus te zien, welke na de behandeling helemaal waren
   verdwenen!
 
-
   We zijn ontzettend vriendelijk geholpen en werden tussendoor op de hoogte
   gehouden met foto’s en filmpjes (ook leuke before/after foto’s). Het
   eindresultaat was nóg veel beter dan verwacht. We zijn ontzettend blij en
   kunnen dit bedrijf absoluut aanraden 🙏🏻
 
-
   Services: Full body wash, Auto detailing, Car waxing
 image:
-  _bookshop_name: elements/image
   alt: ''
 ---

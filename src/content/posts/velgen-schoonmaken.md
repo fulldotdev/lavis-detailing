@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: "Velgen schoonmaken: Hoe kom je van die vieze velgen af?\_"
 description: Tips voor het Reinigen van Autovelgen
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Velgen-poetsen.webp
   alt: ''

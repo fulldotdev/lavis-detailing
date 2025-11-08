@@ -10,7 +10,6 @@ description: >-
 
   Super kwaliteit, er wordt echt met liefde aan gewerkt, echte aanrader!
 
-
   Positive: Professionalism, Quality
 rating: 5
 image:

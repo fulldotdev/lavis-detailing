@@ -1,5 +1,4 @@
 ---
-_schema: default
 rating: 5
 title: Hans
 description: >-
@@ -7,9 +6,7 @@ description: >-
   nog het tapijt uitgezogen, wat dat betreft is hij een perfectionist. Ik kom
   vast nog wel een keer terug voor andere klussen.
 
-
   Service: Seat shampooing
 image:
-  _bookshop_name: elements/image
   alt: ''
 ---

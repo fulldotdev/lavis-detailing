@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8CyKBBLTKhqA
 _stripe_price_id: price_1OABwEA46xQDCsGFrLYPdd0A
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: The ultra black spons
@@ -21,9 +19,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-6-0bdeb1d50475.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/wassen.md
-  - src/content/categories/optimum-polymer-technologies.md
+  - categories/exterieur
+  - categories/wassen
+  - categories/optimum-polymer-technologies
 price: 31.99
 prices:
   options:

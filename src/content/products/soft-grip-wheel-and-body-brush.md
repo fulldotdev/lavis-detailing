@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7pdLuLuyQYba
 _stripe_price_id: price_1OABZxA46xQDCsGFUfjK8E2v
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: SOFT GRIP WHEEL AND BODY BRUSH
@@ -16,9 +14,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Green-Brush.webp
     alt: null
 categories:
-  - src/content/categories/wassen.md
-  - src/content/categories/velgen-reiniger.md
-  - src/content/categories/borstels-en-kwasten.md
+  - categories/wassen
+  - categories/velgen-reiniger
+  - categories/borstels-en-kwasten
 price: 19.5
 prices:
   options:

@@ -1,5 +1,4 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8EEufKngYKNU
 _stripe_price_id: price_1OABxZA46xQDCsGFRMSmWm4T
 draft: true
@@ -7,7 +6,6 @@ seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Premium Microfiber Glass Towel
@@ -18,9 +16,9 @@ summary: >-
   is helemaal glad om na te wrijven.
 images: []
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/ramen-reinigen.md
-  - src/content/categories/trc.md
+  - categories/exterieur
+  - categories/ramen-reinigen
+  - categories/trc
 price: 5.49
 prices:
   options:

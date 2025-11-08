@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7NdGHu3EmUnR
 _stripe_price_id: price_1OAB93A46xQDCsGFtOc8WuU4
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Creature Edgeless 420GSM - Lime Green
@@ -22,7 +20,7 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-420GSM-LIME-GREEN.webp
     alt: null
 categories:
-  - src/content/categories/trc.md
+  - categories/trc
 price: 3.9
 prices:
   options:

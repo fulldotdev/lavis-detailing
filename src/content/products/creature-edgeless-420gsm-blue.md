@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7Nsu1gxDuCap
 _stripe_price_id: price_1OAB8fA46xQDCsGFXkWgSqO9
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Creature Edgeless 420GSM -  Blue
@@ -21,8 +19,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Creature-Edgeless-Pack-1.webp
     alt: null
 categories:
-  - src/content/categories/doeken.md
-  - src/content/categories/trc.md
+  - categories/doeken
+  - categories/trc
 price: 3.9
 prices:
   options:

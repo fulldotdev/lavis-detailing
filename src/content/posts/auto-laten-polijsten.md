@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: Auto laten polijsten. Is dit wat voor jou?
 description: Auto polijsten voor een glanzende lak!
 image:
-  _bookshop_name: elements/image
   alt: ''
 ---
 Je&nbsp;**auto laten polijsten**. Is dit wat voor jou, of totaal niet de moeite waard? Wellicht heb je een auto waarmee je al heel wat kilometers hebt gereden. Je gaat er elke week mee naar kantoor en in de weekenden ga je er lekker mee op uit. Tijdens deze ritjes kan de lak van je auto beschadigen. Er kunnen kleine krasjes ontstaan en de lak kan dof worden.

@@ -1,10 +1,8 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: Professionele Camper Service
@@ -12,7 +10,6 @@ description: >-
   Lavis Detailing Sneek voor top camper services. Polijsten tot interieur
   reinigen, wij brengen uw camper in nieuwstaat. 
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/camper-detailing-1.webp
   alt: ''

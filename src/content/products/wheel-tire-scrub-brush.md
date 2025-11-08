@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7voSXppb21Up
 _stripe_price_id: price_1OABfCA46xQDCsGF8NacPs3r
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Wheel & Tire Scrub Brush
@@ -18,8 +16,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Wheel-Tire-Scrub-Brush.webp
     alt: null
 categories:
-  - src/content/categories/wassen.md
-  - src/content/categories/borstels-en-kwasten.md
+  - categories/wassen
+  - categories/borstels-en-kwasten
 price: 14.75
 _inputs:
 

@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: 'Auto detailing prijzen: wat kost zo’n grondige reiniging?'
 description: Wat kost het en wat levert het op?
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/Is-detailing-het-waardjpg.webp
   alt: ''

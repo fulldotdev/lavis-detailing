@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8BcJhFDDqXyn
 _stripe_price_id: price_1OABvbA46xQDCsGFoemIPqEb
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Pride krachtige schuim. -  5L
@@ -22,11 +20,11 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Pride-GL-1L-scaled.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/motorruimte.md
-  - src/content/categories/velgen-reiniger.md
-  - src/content/categories/wassen.md
-  - src/content/categories/pride.md
+  - categories/exterieur
+  - categories/motorruimte
+  - categories/velgen-reiniger
+  - categories/wassen
+  - categories/pride
 price: 59.99
 prices:
   options:

@@ -1,5 +1,4 @@
 ---
-_schema: default
 rating: 5
 title: Maxime Landstra
 tagline: Volkswagen Golf 7 GTE
@@ -11,6 +10,5 @@ description: >-
   Onwijs veel glans & ook mijn auto reinigen is een stuk makkelijker geworden!
   Top service & een bedrijf met veel passie en kwaliteit!
 image:
-  _bookshop_name: elements/image
   alt: ''
 ---

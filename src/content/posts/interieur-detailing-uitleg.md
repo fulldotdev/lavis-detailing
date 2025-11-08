@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: 'Interieur Detailing: Laat Uw Auto Weer Stralen'
 description: Laat Uw Auto Weer Stralen met Lavis Detailing
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/interieur
     detailing main afbeelding mercedes.webp

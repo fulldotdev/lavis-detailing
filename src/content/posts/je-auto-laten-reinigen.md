@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: Je auto laten reinigen
 description: Professionele reiniging voor een glimmende bolide
 image:
-  _bookshop_name: elements/image
   alt: ''
 ---
 Je&nbsp;**auto laten reinigen**&nbsp;kost (als je dit zelf doet) behoorlijk wat tijd, vergt de juiste aanpak en het correcte gereedschap. Je kunt er voor kiezen om dit allemaal zelf te doen, maar je kunt het ook door professionals laten doen! Een vieze auto met een smerig interieur belemmert je tijdens het rijden, en ontneemt je het rijplezier dat je zult hebben in een brandschone auto. &nbsp;&nbsp;

@@ -1,16 +1,13 @@
 ---
-_schema: default
 seo:
   title:
   description:
   image:
-    _bookshop_name: elements/image
     src:
     alt:
 title: Nieuwe autolak beschermen?
 description: Bescherm je autolak tegen beschadigingen en houd je auto langer mooi
 image:
-  _bookshop_name: elements/image
   src: >-
     https://storage.googleapis.com/fulldev-payload/lavis-detailing/autolak-beschermen.webp
   alt: ''
