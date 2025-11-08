@@ -21,8 +21,8 @@ sections:
   - block: features-1
     html: <h2>Perfect te combineren met</h2>
     items:
-      - services/exterieur-detailing
-      - services/interieur-detailing
-      - services/dagbehandeling
-      - services/coating
+      - diensten/exterieur-detailing
+      - diensten/interieur-detailing
+      - diensten/dagbehandeling
+      - diensten/coating
 ---

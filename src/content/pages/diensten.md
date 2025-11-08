@@ -13,15 +13,15 @@ sections:
 
   - block: features-1
     items:
-      - services/exterieur-detailing
-      - services/interieur-detailing
-      - services/dagbehandeling
-      - services/coating
+      - diensten/exterieur-detailing
+      - diensten/interieur-detailing
+      - diensten/dagbehandeling
+      - diensten/coating
 
   - block: features-1
     items:
-      - services/boot-detailing-en-coating
-      - services/camper-detailing-en-coating
-      - services/schadeherstel
-      - services/velgreparatie
+      - diensten/boot-detailing-en-coating
+      - diensten/camper-detailing-en-coating
+      - diensten/schadeherstel
+      - diensten/velgreparatie
 ---

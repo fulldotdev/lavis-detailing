@@ -6,7 +6,7 @@ seo:
   title: Exterieur detailing voor uw auto | Lavis Detailing Sneek
   description: Ervaar perfectie en oog voor detail
 image:
-  src: /services/exterieur/exterieur1.webp
+  src: /exterieur1.webp
   alt: Exterieur detailing
 
 sections:
@@ -18,7 +18,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /services/exterieur/exterieur1.webp
+      src: /exterieur1.webp
       alt: Exterieur detailing
 
   - block: features-1
@@ -39,7 +39,7 @@ sections:
       <p>Door je auto te laten detailen bij Lavis Detailing los je al deze problemen in een keer op. Onze ervaren specialisten maken gebruik van geavanceerde technieken en premium producten om je auto grondig te reinigen, te polijsten en te beschermen. Dit zorgt niet alleen voor een diepgaande reiniging en een schitterende glans, maar beschermt ook de lak tegen toekomstige schade en werkt waarde verhogend. Desgewenst kunnen we het interieur nog meenemen voor een super strak eindresultaat.</p>
       <p>Kies voor Lavis Detailing om je auto er weer als nieuw uit te laten zien, het rijcomfort te verhogen en de waarde van je voertuig te behouden. Ervaar het verschil en laat je auto detailen bij Lavis Detailing. Professioneel en op maat.</p>
     image:
-      src: /services/exterieur/exterieur2.webp
+      src: /exterieur2.webp
       alt: Exterieur detailing
 
   - block: content-1
@@ -152,6 +152,6 @@ sections:
       - title: Waarde verhogend
         description: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
     image:
-      src: /services/exterieur/exterieur3.webp
+      src: /exterieur3.webp
       alt: Exterieur detailing garanties
 ---

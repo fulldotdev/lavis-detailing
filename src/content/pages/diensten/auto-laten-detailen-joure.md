@@ -9,7 +9,7 @@ seo:
     src: /exterieur-detailing-1280x711 (1).webp
     alt: Auto laten detailen Joure
 image:
-  src: /services/exterieur/exterieur1.webp
+  src: /exterieur1.webp
   alt: Auto laten detailen Joure
 
 sections:
@@ -21,7 +21,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /services/exterieur/exterieur1.webp
+      src: /exterieur1.webp
       alt: Auto laten detailen Joure
 
   - block: features-1
@@ -42,7 +42,7 @@ sections:
       <p>Bij Lavis Detailing zorgen wij ervoor dat jouw auto weer straalt als nieuw. Onze ervaren specialisten maken gebruik van geavanceerde technieken en premium producten om elk detail van je voertuig grondig te reinigen, te polijsten en langdurig te beschermen. Dit betekent niet alleen een diepgaande reiniging en hernieuwde glans, maar ook een lakbescherming die de levensduur van je auto verlengt. Wil je een complete make-over? Dan nemen we het interieur direct mee voor een perfect afgewerkt eindresultaat. Wij zitten in Sneek, een klein stukje rijden vanuit Joure en dus mooi in de buurt.</p>
       <p>Kies voor de expertise van Lavis Detailing en ervaar het verschil. Laat je auto professioneel detailen, behoud de waarde en geniet van een showroomwaardige uitstraling. Lavis Detailing – vakmanschap op maat, ook in Joure!</p>
     image:
-      src: /services/exterieur/exterieur2.webp
+      src: /exterieur2.webp
       alt: Auto detailen Joure
 
   - block: content-1
@@ -158,6 +158,6 @@ sections:
       - title: Waarde verhogend
         description: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
     image:
-      src: /services/exterieur/exterieur3.webp
+      src: /exterieur3.webp
       alt: Garanties Lavis Detailing
 ---

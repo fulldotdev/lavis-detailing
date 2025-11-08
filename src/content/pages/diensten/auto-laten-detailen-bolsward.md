@@ -9,7 +9,7 @@ seo:
     src: /auto-zijkant-1280x962.webp
     alt: Auto laten detailen Bolsward
 image:
-  src: /services/exterieur/exterieur1.webp
+  src: /exterieur1.webp
   alt: Auto laten detailen Bolsward
 
 sections:
@@ -21,7 +21,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /services/exterieur/exterieur1.webp
+      src: /exterieur1.webp
       alt: Auto laten detailen Bolsward
 
   - block: features-1
@@ -43,7 +43,7 @@ sections:
       <p>Lavis Detailing is gevestigd in Sneek, dus woon je in Bolsward of in de buurt, dan ben je zo bij ons. Gun jouw auto de verzorging die het verdient en ervaar zelf het verschil tussen gewoon schoon en écht gedetailleerd.</p>
       <p>Maak vandaag nog een afspraak en laat je verrassen door het resultaat.</p>
     image:
-      src: /services/exterieur/exterieur2.webp
+      src: /exterieur2.webp
       alt: Auto detailen Bolsward
 
   - block: content-1
@@ -159,6 +159,6 @@ sections:
       - title: Waarde verhogend
         description: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
     image:
-      src: /services/exterieur/exterieur3.webp
+      src: /exterieur3.webp
       alt: Garanties Lavis Detailing
 ---

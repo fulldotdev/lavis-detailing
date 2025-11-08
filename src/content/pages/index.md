@@ -26,23 +26,23 @@ sections:
   - block: services-1
     html: <h2>ONZE DIENSTEN</h2>
     items:
-      - services/exterieur-detailing
-      - services/interieur-detailing
-      - services/dagbehandeling
-      - services/coating
+      - diensten/exterieur-detailing
+      - diensten/interieur-detailing
+      - diensten/dagbehandeling
+      - diensten/coating
 
   - block: services-1
     items:
-      - services/boot-detailing-en-coating
-      - services/camper-detailing-en-coating
-      - services/schadeherstel
-      - services/velgreparatie
+      - diensten/boot-detailing-en-coating
+      - diensten/camper-detailing-en-coating
+      - diensten/schadeherstel
+      - diensten/velgreparatie
 
   - block: reviews-1
     html: <h2>JAREN ERVARING, EN DAT ZIE JE...</h2>
     items: reviews/
 
-  - block: content-1
+  - block: cta-2
     html: >
       <p>Kwalitatieve merken</p>
       <h1>Wij gebruiken de meest hoogwaardige producten</h1>
@@ -54,7 +54,7 @@ sections:
       src: image00128-1-1280x786.webp
       alt: Titan Coatings
 
-  - block: content-1
+  - block: cta-2
     html: >
       <p>Kwaliteit boven alles</p>
       <h1>Het verschil tussen een detailer en een poetsbedrijf</h1>

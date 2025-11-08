@@ -6,41 +6,36 @@ seo:
   title: Auto laten coaten | Lavis Detailing Sneek
   description: Ervaar onze premium coating
 image:
-  src: /services/coating/coating-1.webp
+  src: /coating-1.webp
   alt: Coating
 
 sections:
-  - block: hero-1
+  - block: cta-2
     html: >
       <h1 class="heading">Auto coating: Bescherm je auto met onze hoogwaardige Titan Coating®</h1>
       <p>Door het aanbrengen van Titan Coating® aan uw auto zorgt u ervoor dat vuil zich minder snel hecht aan de lak, waardoor uw auto langer schoon blijft en makkelijker kan worden gewassen. Maar de voordelen gaan veel verder dan dat.</p>
+    list:
+      - Langdurige bescherming
+      - Verbeterde glans
+      - Water- en vuilafstotend
+      - Krasbestendig & onderhoudsvriendelijk
     buttons:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /services/coating/coating-1.webp
+      src: /coating-1.webp
       alt: Coating
-
-  - block: features-1
-    items:
-      - icon: check
-        title: Langdurige bescherming
-      - icon: check
-        title: Verbeterde glans
-      - icon: check
-        title: Water- en vuilafstotend
-      - icon: check
-        title: Krasbestendig & onderhoudsvriendelijk
-
-  - block: content-1
+  - block: video-2
     id: youtube-short
     html: >
       <h2>Waarom Titan Coatings®</h2>
       <p>Zonder de juiste bescherming kan de lak van uw auto snel verslechteren door schadelijke UV-straling, zure regen, vogelpoep, en andere verontreinigingen. Dit resulteert in doffe plekken, krassen en verkleuringen die de uitstraling en waarde van uw auto negatief beïnvloeden. Dat wilt u niet toch?</p>
       <p>Hier komt onze autocoating om de hoek kijken. Onze hoogwaardige coating, zoals Titan Coatings®, biedt een duurzame barrière tegen schadelijke invloeden. Titan Coatings is een rubberen membraancoating met nieuwe technologie die een langere standtijd biedt en 8 tot 10 keer dikker is dan de gemiddelde glas- of keramische coating. Deze coatings beschermen niet alleen de lak, maar geven uw auto ook een diepe, glanzende afwerking die langdurig behouden blijft.</p>
       <p>Met de autocoating van Lavis Detailing hoeft u zich geen zorgen meer te maken over frequent wassen. Titan Coatings is zeer chemisch bestendig (pH 1 t/m 14) en heeft een hoog zelfreinigend effect. De hydrofobe eigenschappen zorgen ervoor dat vuil en water gemakkelijk van de lak afglijden, waardoor uw auto langer schoon blijft en eenvoudiger te onderhouden is. Kies voor Lavis Detailing en geef uw auto de bescherming die het verdient.</p>
-
-  - block: content-1
+    video:
+      src: https://www.youtube.com/watch?v=ERzxlkXAxpk&list=TLGG9xCl_hXrdOcwODExMjAyNQ
+      alt: Titan Coatings®
+  - block: pricings-1
     html: >
       <h2>Welke auto coating kiest u?</h2>
       <p>Heeft u besloten om uw auto te laten coaten met onze hoogwaardige autocoating? Dan kunt u kiezen uit verschillende lagen voor optimale bescherming. Om u een duidelijk beeld te geven van wat u kunt verwachten, hebben we de eigenschappen van onze 1-, 2- en 3-laagse coatings overzichtelijk voor u op een rij gezet. Voor de ultieme luxe bieden wij ook het exclusieve 4-laagse VIP-coatingpakket, "the best of the best".</p>
@@ -50,43 +45,46 @@ sections:
         price: €500
         description: >
           1 Laags coating - €500 excl. btw
-          - Carbon HyperQuartz-coating
-          - PH-tolerantie: 1-13
-          - Bescherming: 3-5 micron (1 laags coating)
-          - Zelf herstellend van kleine beschadigingen en (was)krassen
-          - Water- en vuilafstotend
-          - Self-cleaning effect
-          - Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud
-          - 4/5 sterren hydrofoob
+        list:
+          - "Carbon HyperQuartz-coating"
+          - "PH-tolerantie: 1-13"
+          - "Bescherming: 3-5 micron (1 laags coating)"
+          - "Zelf herstellend van kleine beschadigingen en (was)krassen"
+          - "Water- en vuilafstotend"
+          - "Self-cleaning effect"
+          - "Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud"
+          - "4/5 sterren hydrofoob"
       - title: Titan Coatings® PREMIUM
         price: €900
         description: >
           2 Laags coating - €900 excl. btw
-          - Elastomer Membrane coating
-          - PH-tolerantie: 1-13
-          - Bescherming: 7-9 micron (2 laags coating)
-          - Zelf herstellend van kleine beschadigingen en (was)krassen
-          - Water- en vuilafstotend
-          - Self-cleaning effect
-          - Duurzaamheid: tot +- 10 jaar, afhankelijk van onderhoud
-          - 5/5 sterren hydrofoob
-          - Extra beschermd tegen chemische stoffen
+        list:
+          - "Elastomer Membrane coating"
+          - "PH-tolerantie: 1-13"
+          - "Bescherming: 7-9 micron (2 laags coating)"
+          - "Zelf herstellend van kleine beschadigingen en (was)krassen"
+          - "Water- en vuilafstotend"
+          - "Self-cleaning effect"
+          - "Duurzaamheid: tot +- 10 jaar, afhankelijk van onderhoud"
+          - "5/5 sterren hydrofoob"
+          - "Extra beschermd tegen chemische stoffen"
       - title: Titan Coatings® EXCLUSIVE
         price: €1280
         description: >
           3 Laags coating - €1280 excl. btw
-          - Carbon micron & Elastomer Membrane coating
-          - PH-tolerantie: 1-14
-          - Bescherming: 8-10 micron (3 laags coating)
-          - Zelf herstellend van kleine beschadigingen en (was)krassen
-          - Water- en vuilafstotend
-          - Self-cleaning effect
-          - Duurzaamheid: tot +- 15 jaar, afhankelijk van onderhoud
-          - 5/5 sterren hydrofoob
-          - Ultieme permanente bescherming
-          - Ultra bescherming tegen chemische invloeden
-          - Hydrocarbon technologie
-          - Meer glans nog gladder oppervlakte
+        list:
+          - "Carbon micron & Elastomer Membrane coating"
+          - "PH-tolerantie: 1-14"
+          - "Bescherming: 8-10 micron (3 laags coating)"
+          - "Zelf herstellend van kleine beschadigingen en (was)krassen"
+          - "Water- en vuilafstotend"
+          - "Self-cleaning effect"
+          - "Duurzaamheid: tot +- 15 jaar, afhankelijk van onderhoud"
+          - "5/5 sterren hydrofoob"
+          - "Ultieme permanente bescherming"
+          - "Ultra bescherming tegen chemische invloeden"
+          - "Hydrocarbon technologie"
+          - "Meer glans nog gladder oppervlakte"
     buttons:
       - text: Plan een gratis intake
         href: /intake/
@@ -141,24 +139,19 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
 
-  - block: content-1
+  - block: features-
     html: >
       <h3>De garanties van Lavis Detailing</h3>
       <p>Bij auto coating door Lavis Detailing bieden wij de volgende garanties:</p>
-    items:
-      - title: Duurzame bescherming
-        description: We garanderen dat onze coating een langdurige bescherming biedt tegen UV-straling, vuil, en andere schadelijke invloeden.
-      - title: Verbeterde glans
-        description: Uw auto krijgt een diepe, spiegelachtige glans die voor lange tijd behouden blijft.
-      - title: Water- en vuilafstotend
-        description: Onze coating zorgt voor een sterk waterafstotend effect, waardoor uw auto langer schoon blijft en gemakkelijker te onderhouden is.
-      - title: Krasbestendig & Onderhoudsvriendelijk
-        description: De coating vormt een harde laag die lichte krassen en slijtage effectief vermindert. Dankzij de zelfreinigende eigenschappen van onze coating garanderen wij dat het onderhoud van uw auto eenvoudiger en minder tijdrovend zal zijn.
+    list:
+      - "Duurzame bescherming: We garanderen dat onze coating een langdurige bescherming biedt tegen UV-straling, vuil, en andere schadelijke invloeden."
+      - "Verbeterde glans: Uw auto krijgt een diepe, spiegelachtige glans die voor lange tijd behouden blijft."
+      - "Water- en vuilafstotend: Onze coating zorgt voor een sterk waterafstotend effect, waardoor uw auto langer schoon blijft en gemakkelijker te onderhouden is."
+      - "Krasbestendig & Onderhoudsvriendelijk: De coating vormt een harde laag die lichte krassen en slijtage effectief vermindert. Dankzij de zelfreinigende eigenschappen van onze coating garanderen wij dat het onderhoud van uw auto eenvoudiger en minder tijdrovend zal zijn."
     image:
-      src: /services/coating/coating-3.webp
+      src: /coating-3.webp
       alt: Coating garanties
-
-  - block: spotlight-1
+  - block: cta-2
     html: >
       <p>Gebruikt in base</p>
       <h2>TITAN COATING ZEUS</h2>
@@ -173,7 +166,7 @@ sections:
       src: /titan-coatings-image-4.webp
       alt: Titan Coating Zeus
 
-  - block: spotlight-1
+  - block: cta-2
     html: >
       <p>Gebruikt in premium en exclusive</p>
       <h2>TITAN COATING PX10</h2>
@@ -188,7 +181,7 @@ sections:
       src: /titan-coatings-image-3.webp
       alt: Titan Coating PX10
 
-  - block: spotlight-1
+  - block: cta-2
     html: >
       <p>Gebruikt in premium en exclusive</p>
       <h2>TITAN COATING VULCAN</h2>
@@ -203,7 +196,7 @@ sections:
       src: /titan-coatings-image-2.webp
       alt: Titan Coating Vulcan
 
-  - block: spotlight-1
+  - block: cta-2
     html: >
       <p>Gebruikt in exclusive</p>
       <h2>TITAN COATING HYDRO TX145</h2>

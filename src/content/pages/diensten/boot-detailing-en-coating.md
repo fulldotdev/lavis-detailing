@@ -6,7 +6,7 @@ seo:
   title: Boot detailing en coating | Lavis Detailing Sneek
   description: Uw boot, ons meesterwerk
 image:
-  src: /services/boot/boot coaten 1.webp
+  src: /boot coaten 1.webp
   alt: Boot detailing en coating
 
 sections:
@@ -18,7 +18,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /services/boot/boot coaten 1.webp
+      src: /boot coaten 1.webp
       alt: Boot detailing en coating
 
   - block: features-1
@@ -39,7 +39,7 @@ sections:
       <p>Dat is waar onze polijst- en coatingdiensten voor boten om de hoek komt kijken. Onze experts gebruiken geavanceerde technieken om de gelcoat van uw boot te polijsten, wat krassen en oxidatie verwijdert en de originele glans herstelt. Daarna brengen we een hoogwaardige TRITON TX550™ coating aan die uw boot beschermt tegen verdere schade door UV-straling, zoutwater en andere omgevingsfactoren.</p>
       <p>Door uw boot te laten polijsten en coaten bij Lavis Detailing, zorgt u ervoor dat uw vaartuig er weer als nieuw uitziet en beter bestand is tegen toekomstige slijtage, zodat u langer kunt genieten van zorgeloos varen.</p>
     image:
-      src: /services/boot/boot coaten 2.webp
+      src: /boot coaten 2.webp
       alt: Boot detailing en coating
 
   - block: spotlight-1
@@ -119,6 +119,6 @@ sections:
       - title: Waarde behoud
         description: De hoogwaardige bescherming en afwerking helpen de waarde van uw boot te behouden, wat voordelig is bij eventuele verkoop in de toekomst.
     image:
-      src: /services/boot/boot coaten 3.webp
+      src: /boot coaten 3.webp
       alt: Garanties
 ---

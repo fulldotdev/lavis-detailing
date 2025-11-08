@@ -121,6 +121,7 @@ const section = z
     video: video,
     form: form,
     socials: z.string().array(),
+    list: z.string().array(),
     item: item,
     items: items,
   })

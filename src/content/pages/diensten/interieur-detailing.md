@@ -6,7 +6,7 @@ seo:
   title: Auto interieur detailing | Lavis Detailing Sneek
   description: Hoe heerlijk is een vlekkeloos interieur?
 image:
-  src: /services/interieur/interieur-reinigen-1.webp
+  src: /interieur-reinigen-1.webp
   alt: Interieur detailing
 
 sections:
@@ -18,7 +18,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /services/interieur/interieur-reinigen-1.webp
+      src: /interieur-reinigen-1.webp
       alt: Interieur detailing
 
   - block: features-1
@@ -39,7 +39,7 @@ sections:
       <p>Bij Lavis Detailing begrijpen we deze problemen en bieden we de perfecte oplossing met onze professionele auto interieur reiniging. Wij gebruiken geavanceerde technieken en hoogwaardige reinigingsproducten om hardnekkige vlekken en vieze geuren effectief te verwijderen. We zorgen voor een diepgaande reiniging die verder gaat dan oppervlakkig schoonmaken.</p>
       <p>Door te kiezen voor Lavis Detailing, investeer je in een schone, frisse en gezonde rijervaring. Bovendien helpen onze diensten de levensduur van de interieurmaterialen te verlengen en de waarde van je auto te behouden.</p>
     image:
-      src: /services/interieur/interieur-reinigen-2.webp
+      src: /interieur-reinigen-2.webp
       alt: Interieur detailing
 
   - block: content-1
@@ -160,6 +160,6 @@ sections:
       - title: Waarde verhogend
         description: Een goed onderhouden interieur verhoogt de doorverkoopwaarde van je auto en maakt deze aantrekkelijker voor potentiële kopers.
     image:
-      src: /services/interieur/interieur-reinigen-3.webp
+      src: /interieur-reinigen-3.webp
       alt: Garanties Lavis Detailing
 ---

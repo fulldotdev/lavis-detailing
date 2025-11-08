@@ -9,7 +9,7 @@ seo:
     src: /autolak-beschermen-640x427.webp
     alt: Auto laten detailen Heerenveen
 image:
-  src: /services/exterieur/exterieur1.webp
+  src: /exterieur1.webp
   alt: Auto laten detailen Heerenveen
 
 sections:
@@ -21,7 +21,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /services/exterieur/exterieur1.webp
+      src: /exterieur1.webp
       alt: Auto laten detailen Heerenveen
 
   - block: features-1
@@ -43,7 +43,7 @@ sections:
       <p>Lavis Detailing is gevestigd in Sneek, op korte rijafstand van Heerenveen. Dus woon je in Heerenveen of omgeving en wil je jouw auto laten detailen door vakmensen die hun werk serieus nemen? Dan staan wij voor je klaar.</p>
       <p>Kies voor kwaliteit, vakmanschap en een afwerking waar je trots op kunt zijn. Jouw auto verdient het.</p>
     image:
-      src: /services/exterieur/exterieur2.webp
+      src: /exterieur2.webp
       alt: Auto detailen Heerenveen
 
   - block: content-1
@@ -159,6 +159,6 @@ sections:
       - title: Waarde verhogend
         description: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
     image:
-      src: /services/exterieur/exterieur3.webp
+      src: /exterieur3.webp
       alt: Garanties Lavis Detailing
 ---

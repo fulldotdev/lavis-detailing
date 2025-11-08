@@ -9,7 +9,7 @@ seo:
     src: /car-detailing-image-interior-640x427.webp
     alt: Auto laten detailen Friesland
 image:
-  src: /services/exterieur/exterieur1.webp
+  src: /exterieur1.webp
   alt: Auto laten detailen Friesland
 
 sections:
@@ -22,7 +22,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /services/exterieur/exterieur1.webp
+      src: /exterieur1.webp
       alt: Auto laten detailen Friesland
 
   - block: features-1
@@ -44,7 +44,7 @@ sections:
       <p>Of je nu in Leeuwarden, Drachten, Sneek, Joure of ergens anders in Friesland woont – Lavis Detailing is jouw partner in professionele autodetailing. Vanuit onze locatie in Sneek zijn wij centraal en goed bereikbaar voor klanten uit de hele provincie.</p>
       <p>Gun jouw auto de aandacht die het verdient. Neem vandaag nog contact met ons op en ervaar zelf het verschil van echte kwaliteit en vakmanschap.</p>
     image:
-      src: /services/exterieur/exterieur2.webp
+      src: /exterieur2.webp
       alt: Auto detailen Friesland
 
   - block: content-1
@@ -160,6 +160,6 @@ sections:
       - title: Waarde verhogend
         description: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
     image:
-      src: /services/exterieur/exterieur3.webp
+      src: /exterieur3.webp
       alt: Garanties Lavis Detailing
 ---
