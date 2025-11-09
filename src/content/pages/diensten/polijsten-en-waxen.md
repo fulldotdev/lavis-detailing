@@ -10,10 +10,15 @@ image:
   alt: Auto polijsten en waxen
 
 sections:
-  - block: hero-1
+  - block: cta-2
     html: >
       <h1 class="heading">Auto laten polijsten en waxen: het lak weer als nieuw</h1>
       <p>Glanzend als nooit te voren, vlek- en krasvrij en de best mogelijke lakbescherming, dat wil jij toch ook voor jouw auto? Door je auto te laten polijsten en waxen wordt het lak weer zo goed als nieuw. Een exterieur waarmee je tussen andere auto's uit zult springen.</p>
+    list:
+      - Diepe glans
+      - Langdurige bescherming
+      - Verwijdert swirls en krasjes
+      - Verbetert lakconditie
     buttons:
       - text: Plan een gratis intake
         href: /intake/
@@ -21,18 +26,7 @@ sections:
       src: /polijsten-en-waxen-1.webp
       alt: Polijsten en waxen
 
-  - block: features-1
-    items:
-      - icon: check
-        title: Diepe glans
-      - icon: check
-        title: Langdurige bescherming
-      - icon: check
-        title: Verwijdert swirls en krasjes
-      - icon: check
-        title: Verbetert lakconditie
-
-  - block: content-1
+  - block: cta-2
     html: >
       <h2>Waarom je auto laten polijsten en waxen?</h2>
       <p>Merk je dat de lak van je auto na verloop van tijd dof wordt en kleine krassen ontstaan door dagelijks gebruik, weersinvloeden en verkeerd wassen? Dit kan de uitstraling en waarde van het voertuig aanzienlijk verminderen.</p>
@@ -42,7 +36,7 @@ sections:
       src: /polijsten-en-waxen-2.webp
       alt: Polijsten en waxen
 
-  - block: content-1
+  - block: pricings-1
     html: >
       <h2>1-, 2- of 3-staps polijsten?</h2>
       <p>Wil je jouw auto laten polijsten en waxen met het meest strakke eindresultaat? Dan kies je voor Lavis Detailing. Wij hebben drie polijstbehandelingen (1-, 2- of 3-staps polijsten) waar je uit kunt kiezen. Welke behandeling jij nodig hebt hangt af van de huidige status van het exterieur, het type auto en uiteraard jouw wens.</p>
@@ -51,42 +45,44 @@ sections:
     items:
       - title: 1 Staps polijsten
         description: >
-          - Een 1-staps polijstbehandeling, plus al het onderstaande
-          - Uitgebreide wasbeurt met de hand
-          - Velgen reinigen
-          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)
-          - Lak kleien voor het laatste hardnekkige vuil
-          - Sponningen reinigen
-          - Voeden en op kleur brengen kunststofdelen
-          - Ramen reinigen binnen- en buitenzijde
-          - Banden verzorgen en op kleur brengen
-          - Lak ontvetten
-          - Een high-end sealant aanbrengen
+          Een 1-staps polijstbehandeling, plus al het onderstaande:
+        list:
+          - "Uitgebreide wasbeurt met de hand"
+          - "Velgen reinigen"
+          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)"
+          - "Lak kleien voor het laatste hardnekkige vuil"
+          - "Sponningen reinigen"
+          - "Voeden en op kleur brengen kunststofdelen"
+          - "Ramen reinigen binnen- en buitenzijde"
+          - "Banden verzorgen en op kleur brengen"
+          - "Lak ontvetten"
+          - "Een high-end sealant aanbrengen"
       - title: 2 Staps polijsten
-        description: >
-          - Uitgebreide wasbeurt met de hand
-          - Velgen reinigen
-          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)
-          - Lak kleien voor het laatste hardnekkige vuil
-          - Sponningen reinigen
-          - Voeden en op kleur brengen kunststofdelen
-          - Ramen reinigen binnen- en buitenzijde
-          - Banden verzorgen en op kleur brengen
-          - Lak ontvetten
-          - Een high-end sealant aanbrengen
+        list:
+          - "Uitgebreide wasbeurt met de hand"
+          - "Velgen reinigen"
+          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)"
+          - "Lak kleien voor het laatste hardnekkige vuil"
+          - "Sponningen reinigen"
+          - "Voeden en op kleur brengen kunststofdelen"
+          - "Ramen reinigen binnen- en buitenzijde"
+          - "Banden verzorgen en op kleur brengen"
+          - "Lak ontvetten"
+          - "Een high-end sealant aanbrengen"
       - title: 3 Staps polijsten
         description: >
-          - Een 3- of 3-staps+ polijstbehandeling. De lak wordt zowel excentrisch als roterend behandeld voor een optimaal resultaat. Plus al het onderstaande:
-          - Uitgebreide wasbeurt met de hand
-          - Velgen reinigen
-          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)
-          - Lak kleien voor het laatste hardnekkige vuil
-          - Sponningen reinigen
-          - Voeden en op kleur brengen kunststofdelen
-          - Ramen reinigen binnen- en buitenzijde
-          - Banden verzorgen en op kleur brengen
-          - Lak ontvetten
-          - Een high-end sealant aanbrengen
+          Een 3- of 3-staps+ polijstbehandeling. De lak wordt zowel excentrisch als roterend behandeld voor een optimaal resultaat. Plus al het onderstaande:
+        list:
+          - "Uitgebreide wasbeurt met de hand"
+          - "Velgen reinigen"
+          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)"
+          - "Lak kleien voor het laatste hardnekkige vuil"
+          - "Sponningen reinigen"
+          - "Voeden en op kleur brengen kunststofdelen"
+          - "Ramen reinigen binnen- en buitenzijde"
+          - "Banden verzorgen en op kleur brengen"
+          - "Lak ontvetten"
+          - "Een high-end sealant aanbrengen"
     buttons:
       - text: Plan een gratis intake
         href: /intake/
@@ -104,19 +100,15 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
 
-  - block: content-1
+  - block: cta-2
     html: >
       <h3>De garanties van Lavis Detailing</h3>
       <p>Jouw auto laten polijsten en waxen door Lavis Detailing biedt de volgende garanties:</p>
-    items:
-      - title: Grondige reiniging
-        description: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet.
-      - title: Bescherming van de lak
-        description: Onze polijst en wax diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd.
-      - title: Vuil-, vlek- en krasvrij
-        description: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt.
-      - title: Waarde verhogend
-        description: Professioneel polijsten en waxen door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
+    list:
+      - "Grondige reiniging: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet."
+      - "Bescherming van de lak: Onze polijst en wax diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd."
+      - "Vuil-, vlek- en krasvrij: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
+      - "Waarde verhogend: Professioneel polijsten en waxen door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
     image:
       src: /polijsten-en-waxen-3.webp
       alt: Garanties

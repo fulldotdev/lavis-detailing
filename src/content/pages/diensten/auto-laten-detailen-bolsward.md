@@ -13,10 +13,15 @@ image:
   alt: Auto laten detailen Bolsward
 
 sections:
-  - block: hero-1
+  - block: cta-2
     html: >
       <h1><strong>Auto laten detailen in de omgeving van Bolsward? Lavis Detailing staat voor je klaar.</strong></h1>
       <p>Bij Lavis Detailing draait het om méér dan alleen een schone auto. Wij reinigen, polijsten en perfectioneren jouw voertuig tot in de kleinste details. Geen snelle wasbeurt, maar een complete behandeling die zorgt voor een diepe glans, een strak exterieur en langdurige bescherming van de lak.</p>
+    list:
+      - Grondige reiniging
+      - Bescherming van de lak
+      - Vuil-, vlek- en krasvrij
+      - Waarde verhogend
     buttons:
       - text: Plan een gratis intake
         href: /intake/
@@ -24,18 +29,7 @@ sections:
       src: /exterieur1.webp
       alt: Auto laten detailen Bolsward
 
-  - block: features-1
-    items:
-      - icon: check
-        title: Grondige reiniging
-      - icon: check
-        title: Bescherming van de lak
-      - icon: check
-        title: Vuil-, vlek- en krasvrij
-      - icon: check
-        title: Waarde verhogend
-
-  - block: content-1
+  - block: cta-2
     html: >
       <h2><strong>Auto detailen in Bolsward? Breng jouw auto weer tot leven.</strong></h2>
       <p>Heeft jouw auto last van doffe lak, lichte krassen of vuil dat maar niet weggaat? Dan is het tijd voor meer dan een simpele wasbeurt. Bij Lavis Detailing – op korte afstand van Bolsward – zorgen we voor een grondige en professionele behandeling waarmee je auto weer straalt als nooit tevoren.</p>
@@ -46,7 +40,7 @@ sections:
       src: /exterieur2.webp
       alt: Auto detailen Bolsward
 
-  - block: content-1
+  - block: pricings-1
     html: >
       <h2>1-, 2- of 3-staps polijsten?</h2>
       <p>Wil je jouw auto laten detailen met het meest strakke eindresultaat? Dan kies je voor Lavis Detailing. Wij hebben drie polijstbehandelingen (1-, 2- of 3-staps polijsten) waar je uit kunt kiezen. Welke behandeling jij nodig hebt hangt af van de huidige status van het exterieur, het type auto en uiteraard jouw wens.</p>
@@ -56,16 +50,18 @@ sections:
       - title: 1 Staps polijsten
         description: >
           Een 1-staps polijstbehandeling, plus al het onderstaande:
-          - Uitgebreide wasbeurt met de hand
-          - Velgen reinigen
-          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)
-          - Lak kleien voor het laatste hardnekkige vuil
-          - Sponningen reinigen
-          - Voeden en op kleur brengen kunststofdelen
-          - Ramen reinigen binnen- en buitenzijde
-          - Banden verzorgen en op kleur brengen
-          - Lak ontvetten
-          - Een high-end sealant aanbrengen
+
+        list:
+          - "Uitgebreide wasbeurt met de hand"
+          - "Velgen reinigen"
+          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)"
+          - "Lak kleien voor het laatste hardnekkige vuil"
+          - "Sponningen reinigen"
+          - "Voeden en op kleur brengen kunststofdelen"
+          - "Ramen reinigen binnen- en buitenzijde"
+          - "Banden verzorgen en op kleur brengen"
+          - "Lak ontvetten"
+          - "Een high-end sealant aanbrengen"
         button:
           text: Plan een gratis intake
           href: /intake/
@@ -145,19 +141,15 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
 
-  - block: content-1
+  - block: cta-2
     html: >
       <h3>De garanties van Lavis Detailing</h3>
       <p>Bij auto detailen door Lavis Detailing bieden wij de volgende garanties:</p>
-    items:
-      - title: Grondige reiniging
-        description: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet.
-      - title: Bescherming van de lak
-        description: Onze detailing diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd.
-      - title: Vuil-, vlek- en krasvrij
-        description: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt.
-      - title: Waarde verhogend
-        description: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
+    list:
+      - "Grondige reiniging: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet."
+      - "Bescherming van de lak: Onze detailing diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd."
+      - "Vuil-, vlek- en krasvrij: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
+      - "Waarde verhogend: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
     image:
       src: /exterieur3.webp
       alt: Garanties Lavis Detailing

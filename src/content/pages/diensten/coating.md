@@ -139,7 +139,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
 
-  - block: features-
+  - block: cta-2
     html: >
       <h3>De garanties van Lavis Detailing</h3>
       <p>Bij auto coating door Lavis Detailing bieden wij de volgende garanties:</p>

@@ -23,26 +23,27 @@ sections:
         price: €475
         description: >
           €475,- ex. btw
-          - Voorreinigen van de auto
-          - Handwassen met pH-neutrale shampoo
-          - Deursponningen reinigen
-          - Velgen en wielkasten reinigen met speciale velgenborstels
-          - Drogen met ultiem zachte droogdoeken
-          - Ramen streeploos reinigen aan binnen- en buitenzijde
-          - Diepte reiniging lak door te kleien
-          - Licht polijsten van de lak
-          - Een high-end sealant aanbrengen
-          - Interieur opfrissen
+        list:
+          - "Voorreinigen van de auto"
+          - "Handwassen met pH-neutrale shampoo"
+          - "Deursponningen reinigen"
+          - "Velgen en wielkasten reinigen met speciale velgenborstels"
+          - "Drogen met ultiem zachte droogdoeken"
+          - "Ramen streeploos reinigen aan binnen- en buitenzijde"
+          - "Diepte reiniging lak door te kleien"
+          - "Licht polijsten van de lak"
+          - "Een high-end sealant aanbrengen"
+          - "Interieur opfrissen"
         button:
           text: Plan een intake
           href: /intake/
       - title: Een stap verder
-        description: >
-          - Kwalitatieve Titan coatings
-          - Uitgebreide interieur detailing
-          - Uitgebreide exterieur detailing
-          - Reparatie van uw velgen
-          - En nog veel meer...
+        list:
+          - "Kwalitatieve Titan coatings"
+          - "Uitgebreide interieur detailing"
+          - "Uitgebreide exterieur detailing"
+          - "Reparatie van uw velgen"
+          - "En nog veel meer..."
         button:
           text: Plan een intake
           href: /intake/
@@ -112,7 +113,7 @@ sections:
       src: /autolak-beschermen-640x427.webp
       alt: Lakbescherming
 
-  - block: features-1
+  - block: cta-2
     html: <h2>WAT WE DOEN</h2>
     items:
       - title: Zachte Reiniging

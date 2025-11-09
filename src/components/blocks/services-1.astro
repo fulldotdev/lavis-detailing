@@ -53,19 +53,19 @@ const { buttons, items } = Astro.props
         ))
       }
     </SectionActions>
-    <SectionGrid>
-      {
-        items?.map(({ href, title, description, image }) => (
-          <Tile href={href}>
-            <TileMedia>
-              <Image {...image} />
-            </TileMedia>
-            <TileContent>
-              <TileTypography title={title} description={description} />
-            </TileContent>
-          </Tile>
-        ))
-      }
-    </SectionGrid>
   </SectionContent>
+  <SectionGrid>
+    {
+      items?.map(({ href, title, description, image }) => (
+        <Tile href={href} variant="muted">
+          <TileMedia class="aspect-video" variant="inset">
+            <Image class="size-full object-cover" {...image} />
+          </TileMedia>
+          <TileContent>
+            <TileTypography title={title} description={description} />
+          </TileContent>
+        </Tile>
+      ))
+    }
+  </SectionGrid>
 </Section>

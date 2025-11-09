@@ -10,10 +10,15 @@ image:
   alt: Boot detailing en coating
 
 sections:
-  - block: hero-1
+  - block: cta-2
     html: >
       <h1 class="heading">Boot coaten: Bescherm en laat uw boot stralen door onze hoogwaardige Titan Coatings®</h1>
       <p>Door weersinvloeden en zout water wordt de lak van uw boot snel aangetast. Met het aanbrengen van onze Titan Coatings® (TRITON TX550™) houdt u uw boot glanzend, versterkt het oppervlakte en beschermt u het tegen alle weersinvloeden. Voor een professioneel resultaat laat u uw boot coaten en polijsten door Lavis Detailing.</p>
+    list:
+      - Superieure bescherming
+      - Langdurige glans
+      - Minder onderhoud
+      - Waarde behoud
     buttons:
       - text: Plan een gratis intake
         href: /intake/
@@ -21,18 +26,7 @@ sections:
       src: /boot coaten 1.webp
       alt: Boot detailing en coating
 
-  - block: features-1
-    items:
-      - icon: check
-        title: Superieure bescherming
-      - icon: check
-        title: Langdurige glans
-      - icon: check
-        title: Minder onderhoud
-      - icon: check
-        title: Waarde behoud
-
-  - block: content-1
+  - block: cta-2
     html: >
       <h2>Waarom uw boot laten coaten en polijsten met Titan Coatings®?</h2>
       <p>Na verloop van tijd merkt u misschien dat de glans van uw boot vervaagt en dat er kleine krassen en verkleuringen ontstaan door blootstelling aan zon, water en zout. Dit doet niet alleen afbreuk aan het uiterlijk van uw boot, maar kan ook de waarde ervan verminderen.</p>
@@ -42,7 +36,7 @@ sections:
       src: /boot coaten 2.webp
       alt: Boot detailing en coating
 
-  - block: spotlight-1
+  - block: cta-2
     html: >
       <h2>De bewezen voordelen van TRITON TX550™</h2>
       <p>TRITON TX550™ bevat onze HyperQuartz® en Dark Matter Technology® die een chemisch resistente hydrofobe Elastomer Membrane™ op Gelcoat en GRP-bases creëert. Dit wil zeggen dat het het oppervlak van uw boot waterafstotend maakt, waardoor vuil en (zout)water minder snel hechten en de boot makkelijker schoon te maken is.</p>
@@ -105,19 +99,15 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
 
-  - block: content-1
+  - block: cta-2
     html: >
       <h3>De garanties van Lavis Detailing</h3>
       <p>Een boot coaten en polijsten door Lavis Detailing biedt u de volgende garanties:</p>
-    items:
-      - title: Superieure bescherming
-        description: TRITON TX550 vormt een extreem duurzame barrière tegen UV-straling, zoutwater, algen en andere schadelijke invloeden, waardoor uw boot beter bestand is tegen slijtage en verkleuring.
-      - title: Langdurige glans
-        description: Onze coating zorgt ervoor dat uw boot langdurig zijn glans behoudt, waardoor deze er altijd als nieuw uitziet, zelfs na intensief gebruik.
-      - title: Minder onderhoud
-        description: Wij beloven dat uw boot na de coating gemakkelijker schoon te maken is en minder onderhoud vereist, wat u tijd en moeite bespaart.
-      - title: Waarde behoud
-        description: De hoogwaardige bescherming en afwerking helpen de waarde van uw boot te behouden, wat voordelig is bij eventuele verkoop in de toekomst.
+    list:
+      - "Superieure bescherming: TRITON TX550 vormt een extreem duurzame barrière tegen UV-straling, zoutwater, algen en andere schadelijke invloeden, waardoor uw boot beter bestand is tegen slijtage en verkleuring."
+      - "Langdurige glans: Onze coating zorgt ervoor dat uw boot langdurig zijn glans behoudt, waardoor deze er altijd als nieuw uitziet, zelfs na intensief gebruik."
+      - "Minder onderhoud: Wij beloven dat uw boot na de coating gemakkelijker schoon te maken is en minder onderhoud vereist, wat u tijd en moeite bespaart."
+      - "Waarde behoud: De hoogwaardige bescherming en afwerking helpen de waarde van uw boot te behouden, wat voordelig is bij eventuele verkoop in de toekomst."
     image:
       src: /boot coaten 3.webp
       alt: Garanties

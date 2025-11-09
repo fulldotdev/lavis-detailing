@@ -9,7 +9,7 @@ seo:
     alt: Lavis Detailing Sneek
 
 sections:
-  - block: cta-1
+  - block: cta-3
     html: >
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
       <h1>PERFECTIE IN DETAILING</h1>
@@ -17,8 +17,6 @@ sections:
     buttons:
       - text: Plan intake
         href: /intake/
-      - text: Bekijk diensten
-        href: /diensten/
     image:
       src: /lavis-bg-4-optimized.webp
       alt: Lavis Detailing Sneek

@@ -10,10 +10,15 @@ image:
   alt: Exterieur detailing
 
 sections:
-  - block: hero-1
+  - block: cta-2
     html: >
       <h1 class="heading">Auto detailen: laat het exterieur weer stralen</h1>
       <p>Met auto detailen gaat Lavis Detailing verder daar waar het autopoetsen stopt. We reinigen, poetsen en perfectioneren jouw auto tot in de kleinste details. Het resultaat: jouw auto glanzend als nooit te voren, vlek- en krasvrij en een optimale lakbescherming. Dat wil jij toch ook?</p>
+    list:
+      - Grondige reiniging
+      - Bescherming van de lak
+      - Vuil-, vlek- en krasvrij
+      - Waarde verhogend
     buttons:
       - text: Plan een gratis intake
         href: /intake/
@@ -21,18 +26,7 @@ sections:
       src: /exterieur1.webp
       alt: Exterieur detailing
 
-  - block: features-1
-    items:
-      - icon: check
-        title: Grondige reiniging
-      - icon: check
-        title: Bescherming van de lak
-      - icon: check
-        title: Vuil-, vlek- en krasvrij
-      - icon: check
-        title: Waarde verhogend
-
-  - block: content-1
+  - block: cta-2
     html: >
       <h2>Waarom je auto laten detailen?</h2>
       <p>Ervaar jij problemen met hardnekkig vuil, vlekken en kleine krassen die het uiterlijk en de waarde van jouw auto negatief beïnvloeden? Standaard wasbeurten zijn vaak niet voldoende om deze problemen effectief aan te pakken, waardoor je auto er dof en verouderd uitziet. Zonde!</p>
@@ -42,51 +36,57 @@ sections:
       src: /exterieur2.webp
       alt: Exterieur detailing
 
-  - block: content-1
+  - block: pricings-1
     html: >
       <h2>Onze behandelingen</h2>
+      <p><strong>1-, 2- of 3-staps polijsten?</strong></p>
+      <p>Wil je jouw auto laten detailen met het meest strakke eindresultaat? Dan kies je voor Lavis Detailing. Wij hebben drie polijstbehandelingen (1-, 2- of 3-staps polijsten) waar je uit kunt kiezen. Welke behandeling jij nodig hebt hangt af van de huidige status van het exterieur, het type auto en uiteraard jouw wens.</p>
+      <p>Naast het polijsten voorzien we jouw auto standaard van diverse poets- en reinigingswerkzaamheden. Zo verzekeren we je met auto detailen van het best mogelijke eindresultaat.</p>
+      <p>Wil je weten welke polijstbehandeling jouw auto nodig heeft? Wij helpen je graag met het maken van de juiste keuze. Plan hiervoor een intake met ons in.</p>
+    buttons:
+      - text: Plan een gratis intake
+        href: /intake/
     items:
       - title: 1 Staps polijsten
         description: >
           Een 1-staps polijstbehandeling, plus al het onderstaande:
-          - Uitgebreide wasbeurt met de hand
-          - Velgen reinigen
-          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest
-          - Lak kleien voor het laatste hardnekkige vuil
-          - Sponningen reinigen
-          - Voeden en op kleur brengen kunststofdelen
-          - Ramen reinigen binnen- en buitenzijde
-          - Banden verzorgen en op kleur brengen
-          - Lak ontvetten
-          - Een high-end sealant aanbrengen
-        button:
-          text: Plan een gratis intake
-          href: /intake/
+        list:
+          - "Uitgebreide wasbeurt met de hand"
+          - "Velgen reinigen"
+          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest"
+          - "Lak kleien voor het laatste hardnekkige vuil"
+          - "Sponningen reinigen"
+          - "Voeden en op kleur brengen kunststofdelen"
+          - "Ramen reinigen binnen- en buitenzijde"
+          - "Banden verzorgen en op kleur brengen"
+          - "Lak ontvetten"
+          - "Een high-end sealant aanbrengen"
       - title: 2 Staps polijsten
-        description: >
-          - Uitgebreide wasbeurt met de hand
-          - Velgen reinigen
-          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest
-          - Lak kleien voor het laatste hardnekkige vuil
-          - Sponningen reinigen
-          - Voeden en op kleur brengen kunststofdelen
-          - Ramen reinigen binnen- en buitenzijde
-          - Banden verzorgen en op kleur brengen
-          - Lak ontvetten
-          - Een high-end sealant aanbrengen
+        list:
+          - "Uitgebreide wasbeurt met de hand"
+          - "Velgen reinigen"
+          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest"
+          - "Lak kleien voor het laatste hardnekkige vuil"
+          - "Sponningen reinigen"
+          - "Voeden en op kleur brengen kunststofdelen"
+          - "Ramen reinigen binnen- en buitenzijde"
+          - "Banden verzorgen en op kleur brengen"
+          - "Lak ontvetten"
+          - "Een high-end sealant aanbrengen"
       - title: 3 Staps polijsten
         description: >
           Een 3- of 3-staps+ polijstbehandeling. De lak wordt zowel excentrisch als roterend behandeld voor een optimaal resultaat. Plus al het onderstaande:
-          - Uitgebreide wasbeurt met de hand
-          - Velgen reinigen
-          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest
-          - Lak kleien voor het laatste hardnekkige vuil
-          - Sponningen reinigen
-          - Voeden en op kleur brengen kunststofdelen
-          - Ramen reinigen binnen- en buitenzijde
-          - Banden verzorgen en op kleur brengen
-          - Lak ontvetten
-          - Een high-end sealant aanbrengen
+        list:
+          - "Uitgebreide wasbeurt met de hand"
+          - "Velgen reinigen"
+          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest"
+          - "Lak kleien voor het laatste hardnekkige vuil"
+          - "Sponningen reinigen"
+          - "Voeden en op kleur brengen kunststofdelen"
+          - "Ramen reinigen binnen- en buitenzijde"
+          - "Banden verzorgen en op kleur brengen"
+          - "Lak ontvetten"
+          - "Een high-end sealant aanbrengen"
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
@@ -129,28 +129,15 @@ sections:
       - reviews/reviews99
       - reviews/reviews330
 
-  - block: cta-1
-    html: >
-      <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
-      <h2>PLAN EEN INTAKE</h2>
-      <p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
-    buttons:
-      - text: Plan een gratis intake
-        href: /intake/
-
-  - block: content-1
+  - block: cta-2
     html: >
       <h3>De garanties van Lavis Detailing</h3>
       <p>Bij auto detailen door Lavis Detailing bieden wij de volgende garanties:</p>
-    items:
-      - title: Grondige reiniging
-        description: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet.
-      - title: Bescherming van de lak
-        description: Onze detailing diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd.
-      - title: Vuil-, vlek- en krasvrij
-        description: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt.
-      - title: Waarde verhogend
-        description: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
+    list:
+      - "Grondige reiniging: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet."
+      - "Bescherming van de lak: Onze detailing diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd."
+      - "Vuil-, vlek- en krasvrij: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
+      - "Waarde verhogend: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
     image:
       src: /exterieur3.webp
       alt: Exterieur detailing garanties

@@ -8,15 +8,18 @@ header:
       href: /
     - text: Diensten
       href: /diensten/
-    - text: Producten
-      href: /producten/
-    - text: Blog
-      href: /posts/
-    - text: Over ons
-      href: /over-ons/
+    # - text: Producten
+    #   href: /producten/
+    # - text: Blog
+    #   href: /posts/
+    # - text: Over ons
+    #   href: /over-ons/
   buttons:
     - text: Contact
       href: /contact/
+      variant: secondary
+    - text: Plan intake
+      href: /intake/
 
 sections:
   - block: cta-1
@@ -29,60 +32,59 @@ sections:
         href: /intake/
       - text: Bekijk diensten
         href: /diensten/
-
-footer:
-  block: footer-1
-  logo:
-    src: /lavis-logo.svg
-    alt: Lavis Detailing
-  description: Auto detailing en coating specialist in Sneek
-  channels:
-    - text: WhatsApp
-      href: https://wa.me/31610158706
-    - text: info@lavis-detailing.nl
-      href: info@lavis-detailing.nl
-    - text: +316 10158706
-      href: '316 10158706'
-    - text: Top 8, 8606JT, Sneek
-      href: https://maps.app.goo.gl/dxUfXBNubLk7f6jB8
-  menus:
-    - text: Diensten
-      links:
-        - text: Interieur detailing
-          href: /diensten/interieur-detailing
-        - text: Exterieur detailing
-          href: /diensten/exterieur-detailing
-        - text: Coating
-          href: /diensten/coating
-        - text: Dagbehandeling
-          href: /diensten/dagbehandeling
-        - text: Schadeherstel
-          href: /diensten/schadeherstel
-        - text: Velgreparatie
-          href: /diensten/velgreparatie
-        - text: Boot detailing en coating
-          href: /diensten/boot-detailing-en-coating
-        - text: Camper detailing en coating
-          href: /diensten/camper-detailing-en-coating
-    - text: Bedrijf
-      links:
-        - text: Over ons
-          href: /over-ons/
-        - text: Producten
-          href: /producten/
-        - text: Blog
-          href: /posts/
-        - text: Contact
-          href: /contact/
-        - text: Plan intake
-          href: /intake/
-  links:
-    - text: Kvk. 75337231
-      href: https://www.kvk.nl/zoeken/ondernemer/?kvknummer=75337231
-    - text: Algemene voorwaarden
-      href: /algemene-voorwaarden/
-    - text: Disclaimer
-      href: /disclaimer/
-    - text: Privacyverklaring
-      href: /privacyverklaring/
-  copyright: Lavis Detailing
+# footer:
+#   block: footer-1
+#   logo:
+#     src: /lavis-logo.svg
+#     alt: Lavis Detailing
+#   description: Auto detailing en coating specialist in Sneek
+#   channels:
+#     - text: WhatsApp
+#       href: https://wa.me/31610158706
+#     - text: info@lavis-detailing.nl
+#       href: info@lavis-detailing.nl
+#     - text: +316 10158706
+#       href: "316 10158706"
+#     - text: Top 8, 8606JT, Sneek
+#       href: https://maps.app.goo.gl/dxUfXBNubLk7f6jB8
+#   menus:
+#     - text: Diensten
+#       links:
+#         - text: Interieur detailing
+#           href: /diensten/interieur-detailing
+#         - text: Exterieur detailing
+#           href: /diensten/exterieur-detailing
+#         - text: Coating
+#           href: /diensten/coating
+#         - text: Dagbehandeling
+#           href: /diensten/dagbehandeling
+#         - text: Schadeherstel
+#           href: /diensten/schadeherstel
+#         - text: Velgreparatie
+#           href: /diensten/velgreparatie
+#         - text: Boot detailing en coating
+#           href: /diensten/boot-detailing-en-coating
+#         - text: Camper detailing en coating
+#           href: /diensten/camper-detailing-en-coating
+#     - text: Bedrijf
+#       links:
+#         - text: Over ons
+#           href: /over-ons/
+#         - text: Producten
+#           href: /producten/
+#         - text: Blog
+#           href: /posts/
+#         - text: Contact
+#           href: /contact/
+#         - text: Plan intake
+#           href: /intake/
+#   links:
+#     - text: Kvk. 75337231
+#       href: https://www.kvk.nl/zoeken/ondernemer/?kvknummer=75337231
+#     - text: Algemene voorwaarden
+#       href: /algemene-voorwaarden/
+#     - text: Disclaimer
+#       href: /disclaimer/
+#     - text: Privacyverklaring
+#       href: /privacyverklaring/
+#   copyright: Lavis Detailing

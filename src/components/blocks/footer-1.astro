@@ -28,8 +28,7 @@ interface Props {
   description?: string
   copyright?: string
   channels?: {
-    title?: string
-    description?: string
+    text?: string
     href?: string
     icon?: string
   }[]
@@ -47,7 +46,8 @@ interface Props {
   }[]
 }
 
-const { logo, description, copyright, channels, socials, menus, policies } = Astro.props
+const { logo, description, copyright, channels, socials, menus, policies } =
+  Astro.props
 ---
 
 <Footer>
@@ -61,11 +61,11 @@ const { logo, description, copyright, channels, socials, menus, policies } = Ast
         <FooterDescription>{description}</FooterDescription>
         <FooterMenu>
           {
-            channels?.map(({ href, icon, title }) => (
+            channels?.map(({ href, icon, text }) => (
               <FooterMenuItem>
                 <FooterMenuLink href={href}>
                   <Icon name={icon} href={href} />
-                  {title}
+                  {text}
                 </FooterMenuLink>
               </FooterMenuItem>
             ))

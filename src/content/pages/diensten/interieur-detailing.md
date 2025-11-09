@@ -10,10 +10,15 @@ image:
   alt: Interieur detailing
 
 sections:
-  - block: hero-1
+  - block: cta-2
     html: >
       <h1 class="heading">Auto interieur reinigen: voor een frisse rit</h1>
       <p>Hoe mooi je auto er van de buitenkant ook uitziet, als het interieur vies is, kleverig of zelfs stinkt dan is autorijden geen pretje. Met een professionele auto interieur reiniging van Lavis Detailing laat je jouw auto interieur weer stralen.</p>
+    list:
+      - Fris & Vlekvrij
+      - Eliminatie van ongewenste geuren
+      - Slijtage verlagend
+      - Waarde verhogend
     buttons:
       - text: Plan een gratis intake
         href: /intake/
@@ -21,18 +26,7 @@ sections:
       src: /interieur-reinigen-1.webp
       alt: Interieur detailing
 
-  - block: features-1
-    items:
-      - icon: check
-        title: Fris & Vlekvrij
-      - icon: check
-        title: Eliminatie van ongewenste geuren
-      - icon: check
-        title: Slijtage verlagend
-      - icon: check
-        title: Waarde verhogend
-
-  - block: content-1
+  - block: cta-2
     html: >
       <h2>Waarom auto interieur reiniging?</h2>
       <p>Veel autobezitters worstelen met het schoon en fris houden van hun auto interieur. Dagelijks gebruik zorgt voor ophoping van vuil, vlekken en ongewenste geuren, wat niet alleen onaangenaam is, maar ook een negatieve invloed kan hebben op de gezondheid. Stof, allergenen en bacteriën kunnen zich in de bekleding en vloermatten nestelen, wat kan leiden tot allergische reacties en een ongezonde rijomgeving.</p>
@@ -42,40 +36,46 @@ sections:
       src: /interieur-reinigen-2.webp
       alt: Interieur detailing
 
-  - block: content-1
+  - block: pricings-1
     html: >
       <h2>Welk reinigingspakket kies jij?</h2>
       <p>Wil je jouw auto interieur professioneel laten reinigen dan kies je voor Lavis Detailing. Wij hebben drie pakketten (Basis, Medium en Exclusive) waar je uit kunt kiezen. Welke jij nodig hebt hangt af van de huidige status van het auto interieur, het type auto en uiteraard jouw wens.</p>
       <p>Wij helpen je graag met het maken van de juiste keuze. Plan hiervoor een intake met ons in.</p>
     items:
       - title: Basis
+        price: €95
         description: >
           Vanaf €95 ex. btw (1.5 uren)
-          - Stofzuigen gehele interieur
-          - Dashboard, verluchtingsroosters en middenconsole worden stofvrij gemaakt en afgenomen
-          - Binnenzijde ramen worden streeploos gereinigd
+        list:
+          - "Stofzuigen gehele interieur"
+          - "Dashboard, verluchtingsroosters en middenconsole worden stofvrij gemaakt en afgenomen"
+          - "Binnenzijde ramen worden streeploos gereinigd"
         button:
           text: Plan een gratis intake
           href: /intake/
       - title: Medium
+        price: €175
         description: >
           Vanaf €175 ex. btw (3 uren)
-          - Stofzuigen gehele interieur
-          - Vloerbekleding Reinigen d.m.v. luchtdruk
-          - Dashboard Verluchtingsroosters en middenconsole worden stofvrij gemaakt en afgenomen
-          - Licht reiniging dashboard, middenconsole en deurpanelen
-          - Binnen zijde ramen worden streeploos gereinigd
+        list:
+          - "Stofzuigen gehele interieur"
+          - "Vloerbekleding Reinigen d.m.v. luchtdruk"
+          - "Dashboard Verluchtingsroosters en middenconsole worden stofvrij gemaakt en afgenomen"
+          - "Licht reiniging dashboard, middenconsole en deurpanelen"
+          - "Binnen zijde ramen worden streeploos gereinigd"
       - title: Exclusive
+        price: €275
         description: >
           Vanaf €275 ex. btw (4,5uren), voor zware vervuiling rekenen wij een extra toeslag van €55 per uur
-          - Alles in Basis
-          - Diepte reiniging dashboard, middenconsole en deurpanelen
-          - Vloermatten diepte reiniging (stoomextractie machine)
-          - Vloerbekleding reiniging d.m.v. luchtdruk
-          - Sponningen reinigen
-          - Het dashboard en alle kunststof delen voeden
+        list:
+          - "Alles in Basis"
+          - "Diepte reiniging dashboard, middenconsole en deurpanelen"
+          - "Vloermatten diepte reiniging (stoomextractie machine)"
+          - "Vloerbekleding reiniging d.m.v. luchtdruk"
+          - "Sponningen reinigen"
+          - "Het dashboard en alle kunststof delen voeden"
 
-  - block: content-1
+  - block: cta-2
     html: >
       <h3>Extra mogelijkheden</h3>
       <p>Wij bieden ook de mogelijkheid om uw interieur te voorzien van een geur naar keuze.</p>
@@ -146,19 +146,15 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
 
-  - block: content-1
+  - block: cta-2
     html: >
       <h3>De garanties van Lavis Detailing</h3>
       <p>Bij auto interieur reiniging door Lavis Detailing bieden wij de volgende garanties:</p>
-    items:
-      - title: Fris & Vlekvrij
-        description: Hardnekkige vlekken en vuil worden effectief verwijderd, waardoor je interieur er weer als nieuw uitziet.
-      - title: Eliminatie van ongewenste geuren
-        description: Ongewenste geuren zoals rook of huisdieren worden volledig verwijderd, wat zorgt voor een frisse en aangename geur in de auto.
-      - title: Slijtage verlagend
-        description: Onze reinigingsmethoden beschermen en behouden de kwaliteit van de bekleding en andere interieurmaterialen, waardoor hun levensduur verlengd wordt.
-      - title: Waarde verhogend
-        description: Een goed onderhouden interieur verhoogt de doorverkoopwaarde van je auto en maakt deze aantrekkelijker voor potentiële kopers.
+    list:
+      - "Fris & Vlekvrij: Hardnekkige vlekken en vuil worden effectief verwijderd, waardoor je interieur er weer als nieuw uitziet."
+      - "Eliminatie van ongewenste geuren: Ongewenste geuren zoals rook of huisdieren worden volledig verwijderd, wat zorgt voor een frisse en aangename geur in de auto."
+      - "Slijtage verlagend: Onze reinigingsmethoden beschermen en behouden de kwaliteit van de bekleding en andere interieurmaterialen, waardoor hun levensduur verlengd wordt."
+      - "Waarde verhogend: Een goed onderhouden interieur verhoogt de doorverkoopwaarde van je auto en maakt deze aantrekkelijker voor potentiële kopers."
     image:
       src: /interieur-reinigen-3.webp
       alt: Garanties Lavis Detailing

@@ -55,7 +55,7 @@ const { buttons, items } = Astro.props
   <SectionGrid>
     {
       items?.map(({ title, description, button, list, price, unit }) => (
-        <Tile>
+        <Tile variant="muted">
           <TileContent>
             <TileTypography title={title} description={description} />
             {(price || unit) && (
