@@ -1,7 +1,6 @@
 ---
-import { getCollection, render } from "astro:content"
+import { getCollection, getEntry, render } from "astro:content"
 
-import Block from "@/components/block.astro"
 import Layout from "@/components/layout.astro"
 
 export async function getStaticPaths() {
@@ -16,17 +15,23 @@ export async function getStaticPaths() {
   })
 }
 
-const { sections, ...data } = Astro.props.data
+const page = Astro.props
+const { layout } = page.data
 const { Content } = await render(Astro.props)
+
+const indexLayout = await getEntry("layouts", "index")
+const pageLayout = layout ? await getEntry("layouts", layout) : undefined
 ---
 
-<Layout {...data}>
-  <Block {...data} id="page">
-    <Content />
-  </Block>
-  {
-    sections?.map((section, index) => (
-      <Block id={`${index + 1}`} {...section} />
-    ))
-  }
+<Layout
+  {...indexLayout?.data}
+  {...pageLayout?.data}
+  {...page.data}
+  sections={[
+    ...(page.data?.sections || []),
+    ...(pageLayout?.data?.sections || []),
+    ...(indexLayout?.data?.sections || []),
+  ]}
+>
+  <Content />
 </Layout>

@@ -1,4 +1,5 @@
 ---
+import { cn } from "@/lib/utils"
 import { Avatar, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Icon } from "@/components/ui/icon"
@@ -9,20 +10,20 @@ import {
   ItemDescription,
   ItemMedia,
 } from "@/components/ui/item"
-import { List, ListItem } from "@/components/ui/list"
 import { Rating } from "@/components/ui/rating"
 import {
   Section,
   SectionActions,
   SectionContent,
   SectionMedia,
+  SectionProse,
   SectionSplit,
-  SectionTypography,
 } from "@/components/ui/section"
 
 interface Props {
-  list?: string[]
-  buttons?: {
+  class?: string
+  id?: string
+  links?: {
     icon?: string
     text?: string
     href?: string
@@ -34,38 +35,27 @@ interface Props {
     title?: string
   }
   item?: {
-    avatars?: {
+    images?: {
       src: string
       alt: string
-      title?: string
     }[]
     rating?: number
     description?: string
   }
 }
 
-const { list, buttons, image, item } = Astro.props
+const { class: className, id, links, image, item } = Astro.props
 ---
 
-<Section>
+<Section class={cn("", className)} frame="panel" id={id}>
   <SectionSplit>
     <SectionContent>
-      <SectionTypography>
+      <SectionProse>
         <slot />
-      </SectionTypography>
-      <List>
-        {
-          list?.map((item) => (
-            <ListItem>
-              <Icon name="check" />
-              {item}
-            </ListItem>
-          ))
-        }
-      </List>
+      </SectionProse>
       <SectionActions>
         {
-          buttons?.map(({ icon, text, ...button }, i) => (
+          links?.map(({ icon, text, ...button }, i) => (
             <Button variant={i === 0 ? "default" : "outline"} {...button}>
               {icon && <Icon name={icon} />}
               {text}
@@ -76,22 +66,24 @@ const { list, buttons, image, item } = Astro.props
       <Item class="-m-4">
         <ItemMedia class="-space-x-4">
           {
-            item?.avatars?.map((avatar) => (
+            item?.images?.map((image) => (
               <Avatar class="ring-background size-10 ring-2">
-                <AvatarImage {...avatar} />
+                <AvatarImage {...image} />
               </Avatar>
             ))
           }
         </ItemMedia>
-        <ItemContent class="gap-1.5">
+        <ItemContent>
           <Rating rating={item?.rating} />
-          <ItemDescription class="leading-none">
+          <ItemDescription>
             {item?.description}
           </ItemDescription>
         </ItemContent>
       </Item>
     </SectionContent>
-    <SectionMedia>
+    <SectionMedia
+      class="-mx-(--section-px) rounded-none @5xl:-my-(--section-py) @5xl:-ml-0"
+    >
       <Image {...image} />
     </SectionMedia>
   </SectionSplit>

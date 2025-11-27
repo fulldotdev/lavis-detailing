@@ -20,7 +20,7 @@ sections:
 
   - block: cta-2
     html: <h2>Perfect te combineren met</h2>
-    items:
+    refs:
       - diensten/exterieur-detailing
       - diensten/interieur-detailing
       - diensten/dagbehandeling

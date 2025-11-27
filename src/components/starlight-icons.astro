@@ -1,0 +1,23 @@
+---
+import { getEntry } from "astro:content"
+
+import { Button } from "@/components/ui/button"
+import { HeaderActions } from "@/components/ui/header"
+import { Icon } from "@/components/ui/icon"
+import { ModeToggle } from "@/components/ui/mode-toggle"
+
+const layout = await getEntry("layouts", "index")
+
+const socials = layout?.data?.headers?.[1]?.socials
+---
+
+<HeaderActions>
+  {
+    socials?.map((social) => (
+      <Button variant="ghost" size="icon-sm" href={social} target="_blank">
+        <Icon href={social} />
+      </Button>
+    ))
+  }
+  <ModeToggle />
+</HeaderActions>

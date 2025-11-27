@@ -19,7 +19,7 @@ sections:
       - Eliminatie van ongewenste geuren
       - Slijtage verlagend
       - Waarde verhogend
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
     image:
@@ -50,9 +50,9 @@ sections:
           - "Stofzuigen gehele interieur"
           - "Dashboard, verluchtingsroosters en middenconsole worden stofvrij gemaakt en afgenomen"
           - "Binnenzijde ramen worden streeploos gereinigd"
-        button:
-          text: Plan een gratis intake
-          href: /intake/
+        links:
+          - text: Plan een gratis intake
+            href: /intake/
       - title: Medium
         price: €175
         description: >
@@ -90,7 +90,7 @@ sections:
           - Titan Leather coating: prijs op aanvraag
           - Geur (ozon) behandeling: €90 (aanbevolen icm premium interieur behandeling)
           - Luchtkanaal behandeling, verwijderen van bacteriën en duffe geurtjes uit het ventilatiesysteem: €30
-    buttons:
+    links:
       - text: Plan een intake
         href: /intake/
       - text: Neem contact op
@@ -98,7 +98,7 @@ sections:
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
-    items:
+    refs:
       - reviews/reviews129
       - reviews/reviews164
       - reviews/reviews17
@@ -142,7 +142,7 @@ sections:
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
       <h2>PLAN EEN INTAKE</h2>
       <p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
 

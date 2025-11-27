@@ -34,9 +34,9 @@ sections:
           - "Licht polijsten van de lak"
           - "Een high-end sealant aanbrengen"
           - "Interieur opfrissen"
-        button:
-          text: Plan een intake
-          href: /intake/
+        links:
+          - text: Plan een intake
+            href: /intake/
       - title: Een stap verder
         list:
           - "Kwalitatieve Titan coatings"
@@ -44,13 +44,13 @@ sections:
           - "Uitgebreide exterieur detailing"
           - "Reparatie van uw velgen"
           - "En nog veel meer..."
-        button:
-          text: Plan een intake
-          href: /intake/
+        links:
+          - text: Plan een intake
+            href: /intake/
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
-    items:
+    refs:
       - reviews/reviews129
       - reviews/reviews164
       - reviews/reviews17
@@ -94,7 +94,7 @@ sections:
       <p>Verfijnde Glans</p>
       <h2>DIEPTE REINIGING</h2>
       <p>Laat uw auto weer stralen met onze dieptereiniging. De kleibehandeling zorgt voor een ongekende gladheid en voorbereiding op een hoogwaardige polijstbeurt. Dit is de eerste stap naar een auto die niet alleen schoon is, maar ook glanst met vernieuwde pracht.</p>
-    buttons:
+    links:
       - text: Plan een intake
         href: /intake/
     image:
@@ -106,7 +106,7 @@ sections:
       <p>Langdurig</p>
       <h2>HOOGWAARDIGE LAKBESCHERMING</h2>
       <p>Bescherm uw auto met onze high-end sealant die een langdurige glans en bescherming biedt. Deze afwerking zorgt ervoor dat uw auto maandenlang zijn schitterende uitstraling behoudt, ongeacht de weersomstandigheden.</p>
-    buttons:
+    links:
       - text: Plan een intake
         href: /intake/
     image:

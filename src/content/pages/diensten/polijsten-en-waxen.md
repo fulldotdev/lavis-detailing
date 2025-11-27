@@ -19,7 +19,7 @@ sections:
       - Langdurige bescherming
       - Verwijdert swirls en krasjes
       - Verbetert lakconditie
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
     image:
@@ -83,20 +83,20 @@ sections:
           - "Banden verzorgen en op kleur brengen"
           - "Lak ontvetten"
           - "Een high-end sealant aanbrengen"
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
-    items: reviews/
+    glob: reviews/
 
   - block: cta-1
     html: >
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
       <h2>PLAN EEN INTAKE</h2>
       <p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
 

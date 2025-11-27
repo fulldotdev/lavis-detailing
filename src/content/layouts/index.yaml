@@ -1,25 +1,24 @@
-header:
-  block: header-1
-  logo:
-    src: /lavis-logo.svg
-    alt: Lavis Detailing
-  menus:
-    - text: Home
-      href: /
-    - text: Diensten
-      href: /diensten/
-    # - text: Producten
-    #   href: /producten/
-    # - text: Blog
-    #   href: /posts/
-    # - text: Over ons
-    #   href: /over-ons/
-  buttons:
-    - text: Contact
-      href: /contact/
-      variant: secondary
-    - text: Plan intake
-      href: /intake/
+headers:
+  - block: header-1
+    image:
+      src: ../../assets/lavis-logo.svg
+      alt: Lavis Detailing
+    menus:
+      - text: Home
+        href: /
+      - text: Diensten
+        href: /diensten/
+      # - text: Producten
+      #   href: /producten/
+      # - text: Blog
+      #   href: /posts/
+      # - text: Over ons
+      #   href: /over-ons/
+    links:
+      - text: Contact
+        href: /contact/
+      - text: Plan intake
+        href: /intake/
 
 sections:
   - block: cta-1
@@ -27,7 +26,7 @@ sections:
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
       <h2>PLAN EEN INTAKE</h2>
       <p>Maak vandaag nog een afspraak en geniet van een als nieuwe auto</p>
-    buttons:
+    links:
       - text: Plan intake
         href: /intake/
       - text: Bekijk diensten

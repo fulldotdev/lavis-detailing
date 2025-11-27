@@ -14,5 +14,5 @@ sections:
 
   - block: reviews-1
     html: <h2>JAREN ERVARING, EN DAT ZIE JE...</h2>
-    items: reviews/
+    glob: reviews/
 ---

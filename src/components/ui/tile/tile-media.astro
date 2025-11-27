@@ -6,21 +6,15 @@ import { cn } from "@/lib/utils"
 
 const variants = cva(
   [
-    "w-full flex shrink-0 items-center justify-center gap-2 group-has-[[data-slot=tile-description]]/tile:self-start [&_svg]:pointer-events-none group-has-[[data-slot=tile-description]]/tile:translate-y-0.5",
-    "[&:is(a:hover>&)]:opacity-75 transition-opacity duration-100",
-    "relative overflow-hidden",
+    "flex shrink-0 items-center justify-center gap-2 group-has-[[data-slot=tile-description]]/tile:translate-y-0.5 group-has-[[data-slot=tile-description]]/tile:self-start [&_svg]:pointer-events-none",
+    "transition-opacity duration-100 [&:is(a:hover>&)]:opacity-75",
+    "relative overflow-hidden rounded-md",
   ],
   {
     variants: {
       variant: {
-        default: "*:rounded-md",
-        background: "absolute inset-0 size-full *:opacity-25",
-        inset: [
-          "-mx-6 -mt-6 w-[calc(100%+48px)]",
-          "[a:has(&)]:overflow-hidden",
-          "[div:has(&)]:overflow-hidden",
-        ],
-        icon: "size-8 border rounded-sm bg-muted [&_svg:not([class*='size-'])]:size-4",
+        default: "rounded-md *:size-full *:object-cover",
+        icon: "bg-muted size-8 rounded-sm border [&_svg:not([class*='size-'])]:size-4",
       },
     },
     defaultVariants: {
@@ -37,9 +31,10 @@ const slot = await Astro.slots.render("default")
 ---
 
 {
-  slot.trim().length > 0 && (
+  slot?.trim().length > 0 && (
     <div
       data-slot="tile-media"
+      data-variant={variant}
       class={cn(variants({ variant }), className)}
       {...props}
     >

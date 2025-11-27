@@ -1,6 +1,6 @@
 {
   "name": "lavis-detailing",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "astro": "astro",
@@ -10,20 +10,15 @@
     "check": "astro check",
     "preview": "astro preview",
     "build:prod": "astro check && astro build",
-    "test": "astro check && astro build && astro preview --host",
-    "registry:build": "shadcn build",
-    "shadcn:update": "pnpm dlx shadcn@latest add -a -y -o && pnpm dlx shadcn@latest migrate radix"
+    "test": "astro check && astro build && astro preview --host"
   },
   "dependencies": {
-    "@astro-community/astro-embed-vimeo": "^0.3.10",
-    "@astro-community/astro-embed-youtube": "^0.5.7",
+    "@astrojs/netlify": "^6.5.13",
     "@astrojs/sitemap": "^3.6.0",
     "@tailwindcss/vite": "^4.1.14",
     "astro": "^5.14.5",
-    "astro-embed": "^0.9.1",
     "astro-favicons": "^3.1.5",
     "astro-robots-txt": "^1.0.0",
-    "astro-seo": "^0.8.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",

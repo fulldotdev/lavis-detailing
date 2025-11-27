@@ -8,13 +8,13 @@ seo:
 sections:
   - block: features-1
     html: <h1>Hoogwaardige producten voor binnen en buiten</h1>
-    items:
+    refs:
       - categories/exterieur
       - categories/interieur
 
   - block: features-1
     html: <h2>Populaire producten</h2>
-    items:
+    refs:
       - products/charming-interieur-verfraaier-5l
       - products/charming-interieur-verfraaier-500ml
       - products/creature-edgeless-420gsm-blue
@@ -24,7 +24,7 @@ sections:
 
   - block: features-1
     html: <h1>Productcategorieen</h1>
-    items:
+    refs:
       - categories/borstels-en-kwasten
       - categories/doeken
       - categories/lak-bescherming
@@ -38,7 +38,7 @@ sections:
 
   - block: features-1
     html: <h1>Hoogwaardige merken</h1>
-    items:
+    refs:
       - categories/ik
       - categories/koch-chemie
       - categories/gl
@@ -48,5 +48,5 @@ sections:
 
   - block: features-1
     html: <h2>Alle producten</h2>
-    items: products/
+    glob: products/
 ---

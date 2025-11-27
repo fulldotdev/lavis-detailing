@@ -14,7 +14,7 @@ sections:
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
       <h1>PERFECTIE IN DETAILING</h1>
       <p>Detailing met perfectie tot in het laatste detail, dat is Lavis Detailing</p>
-    buttons:
+    links:
       - text: Plan intake
         href: /intake/
     image:
@@ -23,14 +23,14 @@ sections:
 
   - block: services-1
     html: <h2>ONZE DIENSTEN</h2>
-    items:
+    refs:
       - diensten/exterieur-detailing
       - diensten/interieur-detailing
       - diensten/dagbehandeling
       - diensten/coating
 
   - block: services-1
-    items:
+    refs:
       - diensten/boot-detailing-en-coating
       - diensten/camper-detailing-en-coating
       - diensten/schadeherstel
@@ -38,14 +38,14 @@ sections:
 
   - block: reviews-1
     html: <h2>JAREN ERVARING, EN DAT ZIE JE...</h2>
-    items: reviews/
+    glob: reviews/
 
   - block: cta-2
     html: >
       <p>Kwalitatieve merken</p>
       <h1>Wij gebruiken de meest hoogwaardige producten</h1>
       <p>Bij onze autoverzorging maken we gebruik van hoogwaardige apparatuur en producten. Elk aspect van je auto wordt met zorg en aandacht grondig behandeld. Ons streven is kwaliteit boven kwantiteit, en we zetten alles op alles om ervoor te zorgen dat uw auto in topconditie is.</p>
-    buttons:
+    links:
       - text: Titan coating
         href: /diensten/coating/
     image:
@@ -57,7 +57,7 @@ sections:
       <p>Kwaliteit boven alles</p>
       <h1>Het verschil tussen een detailer en een poetsbedrijf</h1>
       <p>Auto Detailing is het grondig reinigen van je auto. Alle aspecten worden aangepakt. Er wordt tijd en aandacht besteed aan je auto en de kwaliteit staat boven de kwantiteit. Alles wordt uit de kast gehaald om jouw auto weer te laten glinsteren.</p>
-    buttons:
+    links:
       - text: Lees verder
         href: /posts/coating-services-van-lavis-detailing/
       - text: Plan intake

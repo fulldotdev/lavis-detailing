@@ -19,7 +19,7 @@ sections:
       - Verbeterde glans
       - Water- en vuilafstotend
       - Krasbestendig & onderhoudsvriendelijk
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
     image:
@@ -32,9 +32,7 @@ sections:
       <p>Zonder de juiste bescherming kan de lak van uw auto snel verslechteren door schadelijke UV-straling, zure regen, vogelpoep, en andere verontreinigingen. Dit resulteert in doffe plekken, krassen en verkleuringen die de uitstraling en waarde van uw auto negatief beïnvloeden. Dat wilt u niet toch?</p>
       <p>Hier komt onze autocoating om de hoek kijken. Onze hoogwaardige coating, zoals Titan Coatings®, biedt een duurzame barrière tegen schadelijke invloeden. Titan Coatings is een rubberen membraancoating met nieuwe technologie die een langere standtijd biedt en 8 tot 10 keer dikker is dan de gemiddelde glas- of keramische coating. Deze coatings beschermen niet alleen de lak, maar geven uw auto ook een diepe, glanzende afwerking die langdurig behouden blijft.</p>
       <p>Met de autocoating van Lavis Detailing hoeft u zich geen zorgen meer te maken over frequent wassen. Titan Coatings is zeer chemisch bestendig (pH 1 t/m 14) en heeft een hoog zelfreinigend effect. De hydrofobe eigenschappen zorgen ervoor dat vuil en water gemakkelijk van de lak afglijden, waardoor uw auto langer schoon blijft en eenvoudiger te onderhouden is. Kies voor Lavis Detailing en geef uw auto de bescherming die het verdient.</p>
-    video:
-      src: https://www.youtube.com/watch?v=ERzxlkXAxpk&list=TLGG9xCl_hXrdOcwODExMjAyNQ
-      alt: Titan Coatings®
+    video: https://www.youtube.com/watch?v=ERzxlkXAxpk&list=TLGG9xCl_hXrdOcwODExMjAyNQ
   - block: pricings-1
     html: >
       <h2>Welke auto coating kiest u?</h2>
@@ -85,13 +83,13 @@ sections:
           - "Ultra bescherming tegen chemische invloeden"
           - "Hydrocarbon technologie"
           - "Meer glans nog gladder oppervlakte"
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
-    items:
+    refs:
       - reviews/reviews129
       - reviews/reviews164
       - reviews/reviews17
@@ -135,7 +133,7 @@ sections:
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
       <h2>PLAN EEN INTAKE</h2>
       <p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
 
@@ -157,7 +155,7 @@ sections:
       <h2>TITAN COATING ZEUS</h2>
       <p>Zeus™ is een elite coating die de gepatenteerde Dark Matter Technology® gebruikt. Deze geavanceerde coating is een combinatie van organische en anorganische chemie, verrijkt met unieke koolstofnanorods.</p>
       <p>De coating creëert een uiterst dichte, erosiebestendige siliciumcarbide versterkte HyperQuartz® Elastomeer Membraan™, versterkt met nanorods en Dark Matter Technology®. Dit membraan is bijzonder flexibel, dik en heeft zelfherstellende eigenschappen dankzij de elastomeercomponenten. Dit staaltje van chemische techniek zorgt voor een topklasse glans, die nog verder verhoogd kan worden met de HydroTX145™ Top Coat, voor uitmuntende hydrofobische eigenschappen.</p>
-    buttons:
+    links:
       - text: Plan intake
         href: /intake/
       - text: Meer informatie
@@ -172,7 +170,7 @@ sections:
       <h2>TITAN COATING PX10</h2>
       <p>De PX10™ micron membraancoating maakt gebruik van ultra-geavanceerde mimetische thermohardende componenten die uitzonderlijk dichte versterkte matrixmembraan vormende eigenschappen bieden.</p>
       <p>Deze met Dark Matter Technology® versterkte super basis biedt permanente bescherming voor een veelvoud aan oppervlakken.</p>
-    buttons:
+    links:
       - text: Plan intake
         href: /intake/
       - text: Meer informatie
@@ -187,7 +185,7 @@ sections:
       <h2>TITAN COATING VULCAN</h2>
       <p>De VulcanTx155™ Elastomeer Membraan™ coating bevat ultra-geavanceerde mimetische elastomeercomponenten die een uitzonderlijk dichte, maar toch flexibele membraanvormende capaciteit bieden.</p>
       <p>Deze met Dark Matter Technology® versterkte topcoat verleent hydrofobische eigenschappen aan onze Px10 basislaag, evenals het vermogen om zichzelf te regenereren en te herstellen van slijtage, swirls en lichte krassen.</p>
-    buttons:
+    links:
       - text: Plan intake
         href: /intake/
       - text: Meer informatie
@@ -202,7 +200,7 @@ sections:
       <h2>TITAN COATING HYDRO TX145</h2>
       <p>De HYDROTX145™ Flexi Film nano-membraancoating bevat ultra-geavanceerde nanocomponenten die uitzonderlijk gladde, hydrofobische en chemisch resistente kenmerken bieden.</p>
       <p>Deze met Dark Matter Technology® versterkte topcoat geeft hydrofobische eigenschappen aan onze PX10 en ZEUS basislagen, en biedt ook de mogelijkheid om bestaande door Titan Coatings beschermde voertuigen snel en eenvoudig op te frissen.</p>
-    buttons:
+    links:
       - text: Plan intake
         href: /intake/
       - text: Meer informatie

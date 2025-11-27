@@ -23,7 +23,7 @@ sections:
       - Bescherming van de lak
       - Vuil-, vlek- en krasvrij
       - Waarde verhogend
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
     image:
@@ -62,9 +62,9 @@ sections:
           - "Banden verzorgen en op kleur brengen"
           - "Lak ontvetten"
           - "Een high-end sealant aanbrengen"
-        button:
-          text: Plan een gratis intake
-          href: /intake/
+        links:
+          - text: Plan een gratis intake
+            href: /intake/
       - title: 2 Staps polijsten
         list:
           - "Uitgebreide wasbeurt met de hand"
@@ -94,7 +94,7 @@ sections:
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
-    items:
+    refs:
       - reviews/reviews129
       - reviews/reviews164
       - reviews/reviews17
@@ -138,7 +138,7 @@ sections:
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
       <h2>PLAN EEN INTAKE</h2>
       <p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
 

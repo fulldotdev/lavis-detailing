@@ -1,4 +1,5 @@
 ---
+import type { ComponentProps } from "astro/types"
 import MenuIcon from "lucide-static/icons/menu.svg"
 
 import { Button } from "@/components/ui/button"
@@ -7,7 +8,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible"
-import { Header, HeaderActions, HeaderContent } from "@/components/ui/header"
+import { Header, HeaderActions } from "@/components/ui/header"
 import { Icon } from "@/components/ui/icon"
 import { Logo, LogoImage, LogoText } from "@/components/ui/logo"
 import { ModeToggle } from "@/components/ui/mode-toggle"
@@ -17,6 +18,9 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
+  NavigationMenuSub,
+  NavigationMenuSubItem,
+  NavigationMenuSubLink,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -30,12 +34,9 @@ import {
 } from "@/components/ui/sidebar"
 
 interface Props {
-  logo?: {
-    src?: string
-    alt?: string
-    title?: string
-  }
-  buttons?: {
+  name?: string
+  image?: ComponentProps<typeof LogoImage>
+  links?: {
     icon?: string
     text?: string
     href?: string
@@ -52,41 +53,45 @@ interface Props {
   }[]
 }
 
-const { logo, menus, buttons, socials } = Astro.props
+const { name, image, menus, links, socials } = Astro.props
 ---
 
-<Header>
+<Header variant="outline">
   <Logo href="/">
-    <LogoImage src={logo?.src} alt={logo?.alt} />
-    <LogoText>{logo?.title}</LogoText>
+    <LogoImage {...image} />
+    <LogoText>{name}</LogoText>
   </Logo>
-  <NavigationMenu class="mr-auto max-lg:hidden">
+  <NavigationMenu class="mr-auto @max-5xl:hidden">
     <NavigationMenuList>
       {
         menus?.map((menu) => (
           <NavigationMenuItem>
             {menu.links && menu.links.length > 0 ? (
               <>
-                <NavigationMenuTrigger href={menu.href}>
+                <NavigationMenuTrigger
+                  class="inline-flex h-8 items-center bg-transparent px-3 py-0"
+                  href={menu.href}
+                >
                   {menu.text}
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul class="flex min-w-[200px] flex-col gap-2">
+                  <NavigationMenuSub>
                     {menu.links?.map((link) => (
-                      <li class="w-full">
-                        <NavigationMenuLink
-                          class="flex w-full justify-start text-start"
-                          href={link.href}
-                        >
+                      <NavigationMenuSubItem>
+                        <NavigationMenuSubLink href={link.href}>
                           {link.text}
-                        </NavigationMenuLink>
-                      </li>
+                        </NavigationMenuSubLink>
+                      </NavigationMenuSubItem>
                     ))}
-                  </ul>
+                  </NavigationMenuSub>
                 </NavigationMenuContent>
               </>
             ) : (
-              <NavigationMenuLink variant="trigger" href={menu.href}>
+              <NavigationMenuLink
+                class="inline-flex h-8 items-center bg-transparent px-3 py-0"
+                variant="trigger"
+                href={menu.href}
+              >
                 {menu.text}
               </NavigationMenuLink>
             )}
@@ -95,19 +100,21 @@ const { logo, menus, buttons, socials } = Astro.props
       }
     </NavigationMenuList>
   </NavigationMenu>
-  <HeaderActions class="max-lg:hidden">
-    <!-- <ModeToggle /> -->
+  <HeaderActions class="@max-5xl:hidden">
     {
       socials?.map((social) => (
-        <Button variant="ghost" size="icon" href={social} target="_blank">
-          <Icon href={social} />
-        </Button>
+        <>
+          <Button variant="ghost" size="icon-sm" href={social} target="_blank">
+            <Icon href={social} />
+          </Button>
+        </>
       ))
     }
+    <ModeToggle />
     {
-      buttons?.map(({ icon, text, ...button }, i) => (
+      links?.map(({ icon, text, ...button }, i) => (
         <Button
-          variant={i === buttons.length - 1 ? "default" : "ghost"}
+          variant={i === links.length - 1 ? "default" : "ghost"}
           size="sm"
           {...button}
         >
@@ -117,11 +124,11 @@ const { logo, menus, buttons, socials } = Astro.props
       ))
     }
   </HeaderActions>
-  <Sheet class="first:ml-auto lg:hidden">
+  <Sheet class="first:ml-auto @5xl:hidden">
     <SheetTrigger variant="ghost" size="icon">
-      <MenuIcon class="size-6" />
+      <MenuIcon class="size-5" />
     </SheetTrigger>
-    <SheetContent class="overflow-y-auto px-4 py-8">
+    <SheetContent class="overflow-y-auto px-4 py-12">
       <SidebarMenu>
         {
           menus?.map((menu) => (
@@ -144,7 +151,10 @@ const { logo, menus, buttons, socials } = Astro.props
                   </CollapsibleContent>
                 </Collapsible>
               ) : (
-                <SidebarMenuButton href={menu.href}>
+                <SidebarMenuButton
+                  class="h-10 w-full rounded-md px-4 text-xl has-[>svg]:px-4"
+                  href={menu.href}
+                >
                   {menu.text}
                 </SidebarMenuButton>
               )}
@@ -152,32 +162,28 @@ const { logo, menus, buttons, socials } = Astro.props
           ))
         }
       </SidebarMenu>
-      {
-        buttons && buttons.length > 0 && (
-          <div class="mt-6 flex w-full flex-col gap-2">
-            {buttons?.map(({ icon, text, ...button }, i) => (
-              <Button
-                variant={i === buttons.length - 1 ? "default" : "ghost"}
-                {...button}
-              >
-                {icon && <Icon name={icon} />}
-                {text}
-              </Button>
-            ))}
-          </div>
-        )
-      }
-      {
-        socials && socials.length > 0 && (
-          <div class="mx-auto mt-6 flex gap-2">
-            {socials?.map((social) => (
-              <Button variant="ghost" size="icon" href={social}>
-                <Icon href={social} />
-              </Button>
-            ))}
-          </div>
-        )
-      }
+      <HeaderActions>
+        {
+          links?.map(({ icon, text, ...button }, i) => (
+            <Button
+              variant={i === links.length - 1 ? "default" : "ghost"}
+              {...button}
+            >
+              {icon && <Icon name={icon} />}
+              {text}
+            </Button>
+          ))
+        }
+      </HeaderActions>
+      <HeaderActions>
+        {
+          socials?.map((social) => (
+            <Button variant="ghost" size="icon" href={social}>
+              <Icon href={social} />
+            </Button>
+          ))
+        }
+      </HeaderActions>
     </SheetContent>
   </Sheet>
 </Header>

@@ -29,7 +29,7 @@ sections:
       <h2>TITAN COATING PX10</h2>
       <p>De PX10™ micron membraancoating maakt gebruik van ultra-geavanceerde mimetische thermohardende componenten die uitzonderlijk dichte versterkte matrixmembraan vormende eigenschappen bieden.</p>
       <p>Deze met Dark Matter Technology® versterkte super basis biedt permanente bescherming voor een veelvoud aan oppervlakken.</p>
-    buttons:
+    links:
       - text: Plan intake
         href: /intake/
       - text: Meer informatie
@@ -43,7 +43,7 @@ sections:
       <h2>TITAN COATING VULCAN</h2>
       <p>De VulcanTx155™ Elastomeer Membraan™ coating bevat ultra-geavanceerde mimetische elastomeercomponenten die een uitzonderlijk dichte, maar toch flexibele membraanvormende capaciteit bieden.</p>
       <p>Deze met Dark Matter Technology® versterkte topcoat verleent hydrofobische eigenschappen aan onze Px10 basislaag, evenals het vermogen om zichzelf te regenereren en te herstellen van slijtage, swirls en lichte krassen.</p>
-    buttons:
+    links:
       - text: Plan intake
         href: /intake/
       - text: Meer informatie

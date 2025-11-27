@@ -19,7 +19,7 @@ sections:
       - Langdurige glans
       - Minder onderhoud
       - Waarde behoud
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
     image:
@@ -42,7 +42,7 @@ sections:
       <p>TRITON TX550™ bevat onze HyperQuartz® en Dark Matter Technology® die een chemisch resistente hydrofobe Elastomer Membrane™ op Gelcoat en GRP-bases creëert. Dit wil zeggen dat het het oppervlak van uw boot waterafstotend maakt, waardoor vuil en (zout)water minder snel hechten en de boot makkelijker schoon te maken is.</p>
       <p>Deze ongelooflijk dikke beschermingslaag biedt tot 2-3 jaar bescherming tegen ophoping van verontreiniging onder de waterlijn en tot wel 5 jaar boven de waterlijn. TRITON TX550™ is eenvoudig aan te brengen en heeft bewezen activa zoals boten, jachten en jetski's langer goed te laten uitzien.</p>
       <p>TRITON TX550™ is een coating die alleen voor professioneel gebruik is. Wilt u weten of wij uw vaartuig hiermee opnieuw kunnen laten glinsteren op het water? Plan dan een intake met ons in.</p>
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
     image:
@@ -51,7 +51,7 @@ sections:
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
-    items:
+    refs:
       - reviews/reviews129
       - reviews/reviews164
       - reviews/reviews17
@@ -95,7 +95,7 @@ sections:
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
       <h2>PLAN EEN INTAKE</h2>
       <p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
 

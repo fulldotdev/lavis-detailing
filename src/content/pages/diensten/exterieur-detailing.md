@@ -19,7 +19,7 @@ sections:
       - Bescherming van de lak
       - Vuil-, vlek- en krasvrij
       - Waarde verhogend
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
     image:
@@ -43,7 +43,7 @@ sections:
       <p>Wil je jouw auto laten detailen met het meest strakke eindresultaat? Dan kies je voor Lavis Detailing. Wij hebben drie polijstbehandelingen (1-, 2- of 3-staps polijsten) waar je uit kunt kiezen. Welke behandeling jij nodig hebt hangt af van de huidige status van het exterieur, het type auto en uiteraard jouw wens.</p>
       <p>Naast het polijsten voorzien we jouw auto standaard van diverse poets- en reinigingswerkzaamheden. Zo verzekeren we je met auto detailen van het best mogelijke eindresultaat.</p>
       <p>Wil je weten welke polijstbehandeling jouw auto nodig heeft? Wij helpen je graag met het maken van de juiste keuze. Plan hiervoor een intake met ons in.</p>
-    buttons:
+    links:
       - text: Plan een gratis intake
         href: /intake/
     items:
@@ -90,7 +90,7 @@ sections:
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
-    items:
+    refs:
       - reviews/reviews129
       - reviews/reviews164
       - reviews/reviews17

@@ -4,12 +4,15 @@ import favicons from "astro-favicons"
 import robotsTxt from "astro-robots-txt"
 import { defineConfig, fontProviders } from "astro/config"
 
+import site from "./site.json"
+
 export default defineConfig({
-  output: "static",
-  site: "https://lavis-detailing.nl",
+  site: site.site,
+  trailingSlash: "always",
   image: {
-    responsiveStyles: true,
     breakpoints: [640, 750, 828, 1080, 1280, 1668, 2048, 2560],
+    responsiveStyles: false,
+    layout: "full-width",
   },
   prefetch: {
     prefetchAll: true,
@@ -17,12 +20,21 @@ export default defineConfig({
   devToolbar: {
     enabled: false,
   },
+  i18n: {
+    defaultLocale: site.defaultLocale,
+    locales: site.locales,
+    routing: {
+      prefixDefaultLocale: false,
+      redirectToDefaultLocale: false,
+      fallbackType: "redirect",
+    },
+  },
   experimental: {
     fonts: [
       {
         provider: fontProviders.google(),
         cssVariable: "--font-base",
-        name: "Geist",
+        name: site.fonts.base,
         weights: [
           "100",
           "200",
@@ -38,7 +50,7 @@ export default defineConfig({
       {
         provider: fontProviders.google(),
         cssVariable: "--font-heading",
-        name: "Geist",
+        name: site.fonts.heading || site.fonts.base,
         weights: [
           "100",
           "200",
@@ -53,32 +65,27 @@ export default defineConfig({
       },
     ],
   },
+  vite: {
+    plugins: [tailwindcss()],
+  },
   integrations: [
     robotsTxt(),
     sitemap({
       changefreq: "weekly",
       lastmod: new Date(),
       i18n: {
-        defaultLocale: "nl",
-        locales: {
-          nl: "nl",
-        },
+        defaultLocale: site.defaultLocale,
+        locales: Object.fromEntries(
+          site.locales.map((locale) => [locale, locale])
+        ),
       },
     }),
     favicons({
       input: {
-        favicons: ["src/assets/lavis-logo.svg"],
+        favicons: [site.favicon],
       },
-      name: "Lavis Detailing",
-      short_name: "Lavis Detailing",
+      name: site.name,
+      short_name: site.name,
     }),
   ],
-  vite: {
-    plugins: [tailwindcss()],
-  },
-  redirects: {
-    '/algemene-voorwaarden': '/policies/algemene-voorwaarden/',
-    '/disclaimer': '/policies/disclaimer/',
-    '/privacyverklaring': '/policies/privacyverklaring/',
-  }
 })

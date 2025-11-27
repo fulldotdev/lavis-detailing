@@ -12,14 +12,14 @@ sections:
       <p>Lavis Detailing niet alleen voor coating en car detailing, maar ook voor autowassen, autopoetsen (van binnen en buiten) en het verhelpen van schade aan uw auto.</p>
 
   - block: services-1
-    items:
+    refs:
       - diensten/exterieur-detailing
       - diensten/interieur-detailing
       - diensten/dagbehandeling
       - diensten/coating
 
   - block: services-1
-    items:
+    refs:
       - diensten/boot-detailing-en-coating
       - diensten/camper-detailing-en-coating
       - diensten/schadeherstel

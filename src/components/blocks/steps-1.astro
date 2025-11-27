@@ -2,6 +2,7 @@
 import CircleCheck from "lucide-static/icons/circle-check.svg"
 import X from "lucide-static/icons/x.svg"
 
+import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Icon } from "@/components/ui/icon"
 import { List, ListItem } from "@/components/ui/list"
@@ -9,13 +10,21 @@ import {
   Section,
   SectionActions,
   SectionContent,
+  SectionProse,
   SectionSplit,
-  SectionTypography,
 } from "@/components/ui/section"
-import { Tile, TileContent, TileDescription, TileMedia, TileTitle } from "@/components/ui/tile"
+import {
+  Tile,
+  TileContent,
+  TileDescription,
+  TileMedia,
+  TileTitle,
+} from "@/components/ui/tile"
 
 interface Props {
-  buttons?: {
+  class?: string
+  id?: string
+  links?: {
     icon?: string
     text?: string
     href?: string
@@ -28,17 +37,17 @@ interface Props {
   }[]
 }
 
-const { buttons, items } = Astro.props
+const { class: className, id, links, items } = Astro.props
 ---
 
-<Section>
+<Section class={cn("", className)} id={id}>
   <SectionContent>
-    <SectionTypography>
+    <SectionProse>
       <slot />
-    </SectionTypography>
+    </SectionProse>
     <SectionActions>
       {
-        buttons?.map(({ icon, text, ...button }, i) => (
+        links?.map(({ icon, text, ...button }, i) => (
           <Button variant={i === 0 ? "default" : "outline"} {...button}>
             {icon && <Icon name={icon} />}
             {text}
@@ -46,30 +55,30 @@ const { buttons, items } = Astro.props
         ))
       }
     </SectionActions>
-    {
-      items && items.length > 0 && (
-        <SectionSplit class="before:bg-border relative gap-8 before:absolute before:left-5.5 before:h-full before:w-px before:lg:top-5.5 before:lg:h-px before:lg:w-full">
-          {items?.map(({ title, description, list }, i) => (
-            <Tile class="items-start gap-8 gap-x-4 max-lg:flex-row">
-              <TileMedia variant="icon">{i + 1}</TileMedia>
-              <TileContent class="p-0">
-                <TileTitle class="not-first:mt-4">{title}</TileTitle>
-                <TileDescription>{description}</TileDescription>
-                <List
-                  class={`not-first:mt-4 ${i === 0 ? "text-muted-foreground" : "text-foreground"}`}
-                >
-                  {list?.map((item) => (
-                    <ListItem>
-                      {i === 0 ? <X /> : <CircleCheck />}
-                      {item}
-                    </ListItem>
-                  ))}
-                </List>
-              </TileContent>
-            </Tile>
-          ))}
-        </SectionSplit>
-      )
-    }
+    <SectionSplit
+      class="before:bg-border relative gap-8 before:absolute before:left-5.5 before:h-full before:w-px before:@5xl:top-5.5 before:@5xl:h-px before:@5xl:w-full"
+    >
+      {
+        items?.map(({ title, description, list }, i) => (
+          <Tile class="items-start gap-8 gap-x-4 @max-5xl:flex-row">
+            <TileMedia variant="icon">{i + 1}</TileMedia>
+            <TileContent class="p-0">
+              <TileTitle class="not-first:mt-4">{title}</TileTitle>
+              <TileDescription>{description}</TileDescription>
+              <List
+                class={`not-first:mt-4 ${i === 0 ? "text-muted-foreground" : "text-foreground"}`}
+              >
+                {list?.map((item) => (
+                  <ListItem>
+                    {i === 0 ? <X /> : <CircleCheck />}
+                    {item}
+                  </ListItem>
+                ))}
+              </List>
+            </TileContent>
+          </Tile>
+        ))
+      }
+    </SectionSplit>
   </SectionContent>
 </Section>

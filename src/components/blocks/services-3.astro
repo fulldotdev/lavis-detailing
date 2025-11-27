@@ -1,12 +1,13 @@
 ---
+import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Icon } from "@/components/ui/icon"
 import {
   Section,
   SectionActions,
   SectionContent,
+  SectionProse,
   SectionSpread,
-  SectionTypography,
 } from "@/components/ui/section"
 import {
   Tile,
@@ -17,7 +18,9 @@ import {
 } from "@/components/ui/tile"
 
 interface Props {
-  buttons?: {
+  class?: string
+  id?: string
+  links?: {
     icon?: string
     text?: string
     href?: string
@@ -30,17 +33,17 @@ interface Props {
   }[]
 }
 
-const { buttons, items } = Astro.props
+const { class: className, id, links, items } = Astro.props
 ---
 
-<Section>
+<Section class={cn("", className)} id={id}>
   <SectionContent>
-    <SectionTypography>
+    <SectionProse>
       <slot />
-    </SectionTypography>
+    </SectionProse>
     <SectionActions>
       {
-        buttons?.map(({ icon, text, ...button }, i) => (
+        links?.map(({ icon, text, ...button }, i) => (
           <Button variant={i === 0 ? "default" : "outline"} {...button}>
             {icon && <Icon name={icon} />}
             {text}

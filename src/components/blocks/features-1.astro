@@ -6,17 +6,19 @@ import {
   SectionActions,
   SectionContent,
   SectionGrid,
-  SectionTypography,
+  SectionProse,
 } from "@/components/ui/section"
 import {
   Tile,
+  TileActions,
   TileContent,
+  TileDescription,
   TileMedia,
-  TileTypography,
+  TileTitle,
 } from "@/components/ui/tile"
 
 interface Props {
-  buttons?: {
+  links?: {
     icon?: string
     text?: string
     href?: string
@@ -25,27 +27,28 @@ interface Props {
   items?: {
     title?: string
     description?: string
-    html?: string
     icon?: string
-    button?: {
+    href?: string
+    links?: {
+      icon?: string
       text?: string
       href?: string
       target?: string
-    }
+    }[]
   }[]
 }
 
-const { buttons, items } = Astro.props
+const { links, items } = Astro.props
 ---
 
 <Section>
   <SectionContent>
-    <SectionTypography>
+    <SectionProse>
       <slot />
-    </SectionTypography>
+    </SectionProse>
     <SectionActions>
       {
-        buttons?.map(({ icon, text, ...button }, i) => (
+        links?.map(({ icon, text, ...button }, i) => (
           <Button variant={i === 0 ? "default" : "outline"} {...button}>
             {icon && <Icon name={icon} />}
             {text}
@@ -56,19 +59,23 @@ const { buttons, items } = Astro.props
   </SectionContent>
   <SectionGrid>
     {
-      items?.map(({ title, description, html, icon, button }) => (
+      items?.map(({ title, description, icon, links }) => (
         <Tile>
           <TileMedia variant="icon">
             <Icon name={icon} />
           </TileMedia>
           <TileContent>
-            <TileTypography
-              title={title}
-              description={description}
-              html={html}
-            />
-            <Button class="px-0" variant="link" {...button} />
+            <TileTitle>{title}</TileTitle>
+            <TileDescription>{description}</TileDescription>
           </TileContent>
+          <TileActions>
+            {links?.map(({ icon, text, href, target }) => (
+              <Button class="-mx-4" variant="link" href={href} target={target}>
+                {icon && <Icon name={icon} />}
+                {text}
+              </Button>
+            ))}
+          </TileActions>
         </Tile>
       ))
     }
