@@ -1,11 +1,11 @@
 ---
-title: Coating
+title: Velg coating
 seo:
   title: Auto laten coaten | Lavis Detailing Sneek
   description: Ervaar onze premium coating
 image:
   src: ../../../assets/coating-1.webp
-  alt: Coating
+  alt: Velg coating
 
 sections:
   - block: cta-2

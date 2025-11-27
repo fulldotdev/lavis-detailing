@@ -1,22 +1,22 @@
 ---
-title: Auto Laten Detailen Heerenveen
-tagline: Op zoek naar een betrouwbare detailer voor uw auto in Heerenveen?
-description: Op zoek naar een betrouwbare detailer voor uw auto in Heerenveen? Laat uw auto professioneel reinigen, polijsten en coaten voor een geweldige uitstraling.
+title: Auto Laten Detailen Joure
+tagline: Op zoek naar een kwalitatieve detailer voor uw auto in Joure?
+description: Op zoek naar een kwalitatieve detailer voor uw auto in Joure? Laat uw auto professioneel reinigen, polijsten en beschermen voor een showroomwaardige uitstraling.
 seo:
-  title: Auto laten detailen in Heerenveen | Lavis Detailing
-  description: Uw auto niet alleen laten poetsen, maar volledig detailen? Bij Lavis Detailing kunt u uw auto in Heerenveen en omstreken laten detailen.
+  title: Auto laten detailen in Joure | Lavis Detailing
+  description: Uw auto niet alleen laten poetsen, maar volledig detailen? Bij Lavis Detailing kunt u uw auto in omgeving Joure laten detailen.
   image:
-    src: /autolak-beschermen-640x427.webp
-    alt: Auto laten detailen Heerenveen
+    src: ../../assets/exterieur-detailing-1280x711 (1).webp
+    alt: Auto laten detailen Joure
 image:
-  src: /exterieur1.webp
-  alt: Auto laten detailen Heerenveen
+  src: ../../assets/exterieur1.webp
+  alt: Auto laten detailen Joure
 
 sections:
   - block: cta-2
     html: >
-      <h1>Auto laten detailen in Heerenveen en omstreken</h1>
-      <p>Bij Lavis Detailing in Heerenveen gaan we verder dan standaard autopoetsen – wij reinigen, polijsten en perfectioneren jouw auto tot in de kleinste details. Het resultaat is een diepe glans, een vlekkeloos exterieur en langdurige lakbescherming. Zoek je een professionele auto detailer in Heerenveen of omstreken? Neem dan gerust contact met ons op en gun jouw auto de hoogwaardige behandeling die het verdient.</p>
+      <h1>Auto laten detailen in omgeving Joure</h1>
+      <p>Bij Lavis Detailing gaan wij verder dan standaard autopoetsen. Wij reinigen, polijsten en perfectioneren jouw auto tot in de kleinste details. Het resultaat? Een diepe glans, een vlekkeloos exterieur en optimale lakbescherming. Ben je op zoek naar een auto detailer in de buurt van Joure? Neem dan gerust contact op en gun jouw auto de behandeling die het verdient!</p>
     list:
       - Grondige reiniging
       - Bescherming van de lak
@@ -26,19 +26,18 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /exterieur1.webp
-      alt: Auto laten detailen Heerenveen
+      src: ../../assets/exterieur1.webp
+      alt: Auto laten detailen Joure
 
   - block: cta-2
     html: >
-      <h2><strong>Auto laten detailen in Heerenveen? Geef je auto de zorg die het verdient.</strong></h2>
-      <p>Ziet je auto er dof uit, met krassen, vlekken of aanslag die er met een gewone wasbeurt niet afgaan? Dan is het tijd voor een echte upgrade. Bij Lavis Detailing, vlakbij Heerenveen, pakken we je auto aan met oog voor elk detail. Niet even snel poetsen, maar grondig reinigen, polijsten en beschermen – precies wat jouw auto nodig heeft om weer als nieuw te ogen.</p>
-      <p>Onze specialisten werken met hoogwaardige producten en geavanceerde technieken die zorgen voor een diepe glans, een gladde lak en een langdurige bescherming tegen vuil, weersinvloeden en kleine beschadigingen. Of het nu gaat om het exterieur, het interieur of allebei: wij zorgen voor een resultaat dat je voelt én ziet.</p>
-      <p>Lavis Detailing is gevestigd in Sneek, op korte rijafstand van Heerenveen. Dus woon je in Heerenveen of omgeving en wil je jouw auto laten detailen door vakmensen die hun werk serieus nemen? Dan staan wij voor je klaar.</p>
-      <p>Kies voor kwaliteit, vakmanschap en een afwerking waar je trots op kunt zijn. Jouw auto verdient het.</p>
+      <h2>Waarom je auto laten detailen in Joure?</h2>
+      <p>Heb je last van hardnekkig vuil, vlekken of kleine krassen die de uitstraling en waarde van je auto verminderen? Een standaard wasbeurt pakt deze problemen vaak niet grondig genoeg aan, waardoor je voertuig er dof en verouderd uit blijft zien. Zonde!</p>
+      <p>Bij Lavis Detailing zorgen wij ervoor dat jouw auto weer straalt als nieuw. Onze ervaren specialisten maken gebruik van geavanceerde technieken en premium producten om elk detail van je voertuig grondig te reinigen, te polijsten en langdurig te beschermen. Dit betekent niet alleen een diepgaande reiniging en hernieuwde glans, maar ook een lakbescherming die de levensduur van je auto verlengt. Wil je een complete make-over? Dan nemen we het interieur direct mee voor een perfect afgewerkt eindresultaat. Wij zitten in Sneek, een klein stukje rijden vanuit Joure en dus mooi in de buurt.</p>
+      <p>Kies voor de expertise van Lavis Detailing en ervaar het verschil. Laat je auto professioneel detailen, behoud de waarde en geniet van een showroomwaardige uitstraling. Lavis Detailing – vakmanschap op maat, ook in Joure!</p>
     image:
-      src: /exterieur2.webp
-      alt: Auto detailen Heerenveen
+      src: ../../assets/exterieur2.webp
+      alt: Auto detailen Joure
 
   - block: pricings-1
     html: >
@@ -50,6 +49,7 @@ sections:
       - title: 1 Staps polijsten
         description: >
           Een 1-staps polijstbehandeling, plus al het onderstaande:
+
         list:
           - "Uitgebreide wasbeurt met de hand"
           - "Velgen reinigen"
@@ -65,31 +65,30 @@ sections:
           - text: Plan een gratis intake
             href: /intake/
       - title: 2 Staps polijsten
-        list:
-          - "Uitgebreide wasbeurt met de hand"
-          - "Velgen reinigen"
-          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)"
-          - "Lak kleien voor het laatste hardnekkige vuil"
-          - "Sponningen reinigen"
-          - "Voeden en op kleur brengen kunststofdelen"
-          - "Ramen reinigen binnen- en buitenzijde"
-          - "Banden verzorgen en op kleur brengen"
-          - "Lak ontvetten"
-          - "Een high-end sealant aanbrengen"
+        description: >
+          - Uitgebreide wasbeurt met de hand
+          - Velgen reinigen
+          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)
+          - Lak kleien voor het laatste hardnekkige vuil
+          - Sponningen reinigen
+          - Voeden en op kleur brengen kunststofdelen
+          - Ramen reinigen binnen- en buitenzijde
+          - Banden verzorgen en op kleur brengen
+          - Lak ontvetten
+          - Een high-end sealant aanbrengen
       - title: 3 Staps polijsten
         description: >
           Een 3- of 3-staps+ polijstbehandeling. De lak wordt zowel excentrisch als roterend behandeld voor een optimaal resultaat. Plus al het onderstaande:
-        list:
-          - "Uitgebreide wasbeurt met de hand"
-          - "Velgen reinigen"
-          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)"
-          - "Lak kleien voor het laatste hardnekkige vuil"
-          - "Sponningen reinigen"
-          - "Voeden en op kleur brengen kunststofdelen"
-          - "Ramen reinigen binnen- en buitenzijde"
-          - "Banden verzorgen en op kleur brengen"
-          - "Lak ontvetten"
-          - "Een high-end sealant aanbrengen"
+          - Uitgebreide wasbeurt met de hand
+          - Velgen reinigen
+          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)
+          - Lak kleien voor het laatste hardnekkige vuil
+          - Sponningen reinigen
+          - Voeden en op kleur brengen kunststofdelen
+          - Ramen reinigen binnen- en buitenzijde
+          - Banden verzorgen en op kleur brengen
+          - Lak ontvetten
+          - Een high-end sealant aanbrengen
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
@@ -151,6 +150,6 @@ sections:
       - "Vuil-, vlek- en krasvrij: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
       - "Waarde verhogend: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
     image:
-      src: /exterieur3.webp
+      src: ../../assets/exterieur3.webp
       alt: Garanties Lavis Detailing
 ---

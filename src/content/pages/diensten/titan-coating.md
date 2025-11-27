@@ -1,5 +1,5 @@
 ---
-title: Coating
+title: Titan coating
 seo:
   title: Auto laten coaten | Lavis Detailing Sneek
   description: Ervaar onze premium coating

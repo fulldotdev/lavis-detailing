@@ -1,12 +1,11 @@
 ---
-title: Boot detailing en coating
-tagline: Uw boot, ons meesterwerk
-description: Uw boot, ons meesterwerk
+title: Boot detailing
+description: Al onze diensten, maar dan voor uw boot
 seo:
   title: Boot detailing en coating | Lavis Detailing Sneek
   description: Uw boot, ons meesterwerk
 image:
-  src: /boot coaten 1.webp
+  src: ../../../assets/boot coaten 1.webp
   alt: Boot detailing en coating
 
 sections:
@@ -23,7 +22,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /boot coaten 1.webp
+      src: ../../../assets/boot coaten 1.webp
       alt: Boot detailing en coating
 
   - block: cta-2
@@ -33,7 +32,7 @@ sections:
       <p>Dat is waar onze polijst- en coatingdiensten voor boten om de hoek komt kijken. Onze experts gebruiken geavanceerde technieken om de gelcoat van uw boot te polijsten, wat krassen en oxidatie verwijdert en de originele glans herstelt. Daarna brengen we een hoogwaardige TRITON TX550™ coating aan die uw boot beschermt tegen verdere schade door UV-straling, zoutwater en andere omgevingsfactoren.</p>
       <p>Door uw boot te laten polijsten en coaten bij Lavis Detailing, zorgt u ervoor dat uw vaartuig er weer als nieuw uitziet en beter bestand is tegen toekomstige slijtage, zodat u langer kunt genieten van zorgeloos varen.</p>
     image:
-      src: /boot coaten 2.webp
+      src: ../../../assets/boot coaten 2.webp
       alt: Boot detailing en coating
 
   - block: cta-2
@@ -46,7 +45,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /triton-tx550-1179x1554.webp
+      src: ../../../assets/triton-tx550-1179x1554.webp
       alt: TRITON TX550
 
   - block: reviews-1
@@ -109,6 +108,6 @@ sections:
       - "Minder onderhoud: Wij beloven dat uw boot na de coating gemakkelijker schoon te maken is en minder onderhoud vereist, wat u tijd en moeite bespaart."
       - "Waarde behoud: De hoogwaardige bescherming en afwerking helpen de waarde van uw boot te behouden, wat voordelig is bij eventuele verkoop in de toekomst."
     image:
-      src: /boot coaten 3.webp
+      src: ../../../assets/boot coaten 3.webp
       alt: Garanties
 ---

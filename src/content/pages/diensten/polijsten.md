@@ -1,12 +1,10 @@
 ---
-title: Auto polijsten en waxen
-tagline: Het lak weer als nieuw
-description: Professioneel polijsten en waxen
+title: Polijsten
 seo:
   title: Auto polijsten en waxen | Lavis Detailing Sneek
   description: Laat uw auto professioneel polijsten en waxen voor een diepe glans, langdurige bescherming en verbeterde lakconditie. Ervaar het verschil bij Lavis Detailing.
 image:
-  src: /polijsten-en-waxen-1.webp
+  src: ../../../assets/polijsten-en-waxen-1.webp
   alt: Auto polijsten en waxen
 
 sections:
@@ -23,7 +21,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /polijsten-en-waxen-1.webp
+      src: ../../../assets/polijsten-en-waxen-1.webp
       alt: Polijsten en waxen
 
   - block: cta-2
@@ -33,7 +31,7 @@ sections:
       <p>Bij Lavis Detailing bieden we een oplossing met onze professionele polijstbehandelingen. Wij gebruiken geavanceerde technieken en hoogwaardige producten om de lak van je auto grondig te polijsten. Dit verwijdert kleine krassen, herstelt de glans en zorgt voor een gladde, spiegelachtige afwerking. Vervolgens brengen we een beschermende waxlaag aan die de lak beschermt tegen UV-straling, vuil en water.</p>
       <p>Kies voor Lavis Detailing om je auto weer te laten stralen, de lak te beschermen en de waarde van je voertuig te behouden. Ervaar het verschil van een professioneel gepolijste en gewaxte auto.</p>
     image:
-      src: /polijsten-en-waxen-2.webp
+      src: ../../../assets/polijsten-en-waxen-2.webp
       alt: Polijsten en waxen
 
   - block: pricings-1
@@ -110,6 +108,6 @@ sections:
       - "Vuil-, vlek- en krasvrij: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
       - "Waarde verhogend: Professioneel polijsten en waxen door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
     image:
-      src: /polijsten-en-waxen-3.webp
+      src: ../../../assets/polijsten-en-waxen-3.webp
       alt: Garanties
 ---

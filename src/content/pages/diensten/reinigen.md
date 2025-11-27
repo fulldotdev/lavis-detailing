@@ -1,12 +1,11 @@
 ---
-title: Auto professioneel reinigen
+title: Reinigen
 tagline: Interieur & exterieur reiniging
-description: Professionele auto reiniging
 seo:
   title: Exterieur detailing voor uw auto | Lavis Detailing Sneek
   description: Ervaar perfectie en oog voor detail
 image:
-  src: /professioneelreinigen1.webp
+  src: ../../../assets/professioneelreinigen1.webp
   alt: Professioneel reinigen
 
 sections:
@@ -23,7 +22,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /professioneelreinigen1.webp
+      src: ../../../assets/professioneelreinigen1.webp
       alt: Professioneel reinigen
 
   - block: cta-2
@@ -33,7 +32,7 @@ sections:
       <p>Bij Lavis Detailing kennen we deze uitdagingen en bieden we de perfecte oplossing door jouw auto professioneel te reinigen. Wij maken gebruik van geavanceerde technieken en hoogwaardige producten om je auto grondig te reinigen, zowel van binnen als van buiten. Dit zorgt voor een diepe reiniging die verder gaat dan oppervlakkig schoonmaken.</p>
       <p>Door te kiezen voor professionele reiniging bij Lavis Detailing, investeer je in een schonere, gezondere en frissere auto. Daarnaast beschermen onze diensten de lak en bekleding, wat de levensduur van de materialen verlengt en de doorverkoopwaarde van je voertuig verhoogt. Ervaar het verschil van een professioneel gereinigde auto met Lavis Detailing.</p>
     image:
-      src: /professioneelreinigen2.webp
+      src: ../../../assets/professioneelreinigen2.webp
       alt: Professioneel reinigen
 
   - block: pricings-1
@@ -87,6 +86,6 @@ sections:
       - "Hoger comfort & rijplezier: Wij zorgen voor een frisse en schone auto, wat het rijcomfort en -plezier aanzienlijk verhoogt. Een schone omgeving draagt bij aan een prettige rijervaring."
       - "Verbeterde waarde & uiterlijk: Een professioneel gereinigde auto ziet er niet alleen beter uit, maar behoudt ook beter zijn waarde. Dit is gunstig voor de doorverkoop en maakt je auto aantrekkelijker voor potentiële kopers."
     image:
-      src: /professioneelreinigen3.webp
+      src: ../../../assets/professioneelreinigen3.webp
       alt: Garanties
 ---

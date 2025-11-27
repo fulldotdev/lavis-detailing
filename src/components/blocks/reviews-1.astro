@@ -69,7 +69,7 @@ const { class: className, id, links, items } = Astro.props
   <SectionMasonry>
     {
       items?.map(({ title, description, rating, href, image, tagline }) => (
-        <Tile href={href}>
+        <Tile href={href} frame="panel" variant="outline">
           <Item class="-m-4">
             <ItemMedia>
               <Avatar>

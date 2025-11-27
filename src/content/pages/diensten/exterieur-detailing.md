@@ -1,12 +1,11 @@
 ---
 title: Exterieur detailing
-tagline: Ervaar perfectie en oog voor detail
-description: Ervaar perfectie en oog voor detail
+description: Poetsen, polijsten, coaten en meer...
 seo:
   title: Exterieur detailing voor uw auto | Lavis Detailing Sneek
   description: Ervaar perfectie en oog voor detail
 image:
-  src: /exterieur1.webp
+  src: ../../../assets/exterieur1.webp
   alt: Exterieur detailing
 
 sections:
@@ -23,7 +22,7 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /exterieur1.webp
+      src: ../../../assets/exterieur1.webp
       alt: Exterieur detailing
 
   - block: cta-2
@@ -33,7 +32,7 @@ sections:
       <p>Door je auto te laten detailen bij Lavis Detailing los je al deze problemen in een keer op. Onze ervaren specialisten maken gebruik van geavanceerde technieken en premium producten om je auto grondig te reinigen, te polijsten en te beschermen. Dit zorgt niet alleen voor een diepgaande reiniging en een schitterende glans, maar beschermt ook de lak tegen toekomstige schade en werkt waarde verhogend. Desgewenst kunnen we het interieur nog meenemen voor een super strak eindresultaat.</p>
       <p>Kies voor Lavis Detailing om je auto er weer als nieuw uit te laten zien, het rijcomfort te verhogen en de waarde van je voertuig te behouden. Ervaar het verschil en laat je auto detailen bij Lavis Detailing. Professioneel en op maat.</p>
     image:
-      src: /exterieur2.webp
+      src: ../../../assets/exterieur2.webp
       alt: Exterieur detailing
 
   - block: pricings-1
@@ -139,6 +138,6 @@ sections:
       - "Vuil-, vlek- en krasvrij: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
       - "Waarde verhogend: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
     image:
-      src: /exterieur3.webp
+      src: ../../../assets/exterieur3.webp
       alt: Exterieur detailing garanties
 ---

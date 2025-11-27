@@ -6,7 +6,7 @@ seo:
   title: Dagbehandeling voor uw auto | Lavis Detailing Sneek
   description: Maak uw auto het gesprek van de dag
 image:
-  src: /auto-zijkant-1280x962.webp
+  src: ../../../assets/auto-zijkant-1280x962.webp
   alt: Dagbehandeling
 sections:
   - block: cta-2
@@ -14,7 +14,7 @@ sections:
       <h1>Dagbehandeling</h1>
       <p>Ons gepassioneerde team van autoliefhebbers begrijpt de waarde van uw auto. Ervaar onze dagbehandeling, waarbij uw auto in één dag volledig verzorgd wordt. Uw auto zal dankbaar zijn voor de kwaliteit en aandacht die het ontvangt. Onze experts staan klaar om elk aspect van uw auto grondig aan te pakken en hem weer te laten stralen als nieuw. Vertrouw op onze hoogwaardige producten en technieken om de beste resultaten te behalen. Geef uw auto de behandeling die het verdient en zie het verschil dat het kan maken.</p>
     image:
-      src: /auto-zijkant-1280x962.webp
+      src: ../../../assets/auto-zijkant-1280x962.webp
       alt: Dagbehandeling
   - block: pricings-1
     html: <h2>EEN OVERZICHT VAN DE MOGELIJKHEDEN</h2>
@@ -98,7 +98,7 @@ sections:
       - text: Plan een intake
         href: /intake/
     image:
-      src: /auto-laten-polijsten-640x427.webp
+      src: ../../../assets/auto-laten-polijsten-640x427.webp
       alt: Diepte reiniging
 
   - block: cta-2
@@ -110,7 +110,7 @@ sections:
       - text: Plan een intake
         href: /intake/
     image:
-      src: /autolak-beschermen-640x427.webp
+      src: ../../../assets/autolak-beschermen-640x427.webp
       alt: Lakbescherming
 
   - block: cta-2

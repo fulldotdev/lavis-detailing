@@ -1,22 +1,23 @@
 ---
-title: Auto Laten Detailen Bolsward
-tagline: Op zoek naar een kwalitatieve detailer voor uw auto in Bolsward?
-description: Op zoek naar een kwalitatieve detailer voor uw auto in Bolsward? Laat uw auto professioneel reinigen, polijsten en beschermen voor een showroomwaardige uitstraling.
+title: Auto Laten Detailen Friesland
+tagline: Op zoek naar een kwalitatieve detailer voor uw auto in Friesland?
+description: Op zoek naar een kwalitatieve detailer voor uw auto in Friesland? Laat uw auto professioneel reinigen, polijsten en beschermen voor een showroomwaardige uitstraling.
 seo:
-  title: Auto laten detailen in Bolsward | Lavis Detailing
-  description: Uw auto niet alleen laten poetsen, maar volledig detailen? Bij Lavis Detailing kunt u uw auto in omgeving Bolsward laten detailen.
+  title: Auto laten detailen in Friesland | Lavis Detailing
+  description: Uw auto niet alleen laten poetsen, maar volledig detailen? Lavis Detailing is dé specialist in Friesland in het detailen van uw auto
   image:
-    src: /auto-zijkant-1280x962.webp
-    alt: Auto laten detailen Bolsward
+    src: ../../assets/car-detailing-image-interior-640x427.webp
+    alt: Auto laten detailen Friesland
 image:
-  src: /exterieur1.webp
-  alt: Auto laten detailen Bolsward
+  src: ../../assets/exterieur1.webp
+  alt: Auto laten detailen Friesland
 
 sections:
   - block: cta-2
     html: >
-      <h1><strong>Auto laten detailen in de omgeving van Bolsward? Lavis Detailing staat voor je klaar.</strong></h1>
-      <p>Bij Lavis Detailing draait het om méér dan alleen een schone auto. Wij reinigen, polijsten en perfectioneren jouw voertuig tot in de kleinste details. Geen snelle wasbeurt, maar een complete behandeling die zorgt voor een diepe glans, een strak exterieur en langdurige bescherming van de lak.</p>
+      <h1>Auto laten detailen in hartje Friesland</h1>
+      <p>Ben je op zoek naar een professionele auto detailer ergens in Friesland? Lavis Detailing – gevestigd in Sneek – is centraal gelegen en goed bereikbaar vanuit de hele provincie. Neem gerust contact met ons op en gun jouw auto de hoogwaardige behandeling die het verdient.</p>
+      <p>Bij Lavis Detailing in Friesland gaan we verder dan standaard autopoetsen – wij reinigen, polijsten en perfectioneren jouw auto tot in de kleinste details. Het resultaat? Een diepe glans, een strak en vlekkeloos exterieur én een langdurige lakbescherming die jouw auto optimaal beschermt.</p>
     list:
       - Grondige reiniging
       - Bescherming van de lak
@@ -26,19 +27,19 @@ sections:
       - text: Plan een gratis intake
         href: /intake/
     image:
-      src: /exterieur1.webp
-      alt: Auto laten detailen Bolsward
+      src: ../../assets/exterieur1.webp
+      alt: Auto laten detailen Friesland
 
   - block: cta-2
     html: >
-      <h2><strong>Auto detailen in Bolsward? Breng jouw auto weer tot leven.</strong></h2>
-      <p>Heeft jouw auto last van doffe lak, lichte krassen of vuil dat maar niet weggaat? Dan is het tijd voor meer dan een simpele wasbeurt. Bij Lavis Detailing – op korte afstand van Bolsward – zorgen we voor een grondige en professionele behandeling waarmee je auto weer straalt als nooit tevoren.</p>
-      <p>Wij gaan verder dan standaard poetswerk. Met hoogwaardige producten en specialistische technieken reinigen, polijsten en beschermen we jouw voertuig tot in de kleinste details. Het resultaat? Een diepe glans, een langdurige lakbescherming en een interieur dat weer als nieuw aanvoelt. Of je nu gaat voor een snelle opfrisbeurt of een complete detailbehandeling: wij leveren vakwerk op maat.</p>
-      <p>Lavis Detailing is gevestigd in Sneek, dus woon je in Bolsward of in de buurt, dan ben je zo bij ons. Gun jouw auto de verzorging die het verdient en ervaar zelf het verschil tussen gewoon schoon en écht gedetailleerd.</p>
-      <p>Maak vandaag nog een afspraak en laat je verrassen door het resultaat.</p>
+      <h2><strong>Auto laten detailen in Friesland? Ontdek het verschil met Lavis Detailing.</strong></h2>
+      <p>Bij Lavis Detailing gaan we verder dan een standaard poetsbeurt. Wij tillen autoverzorging naar het hoogste niveau door jouw voertuig tot in de kleinste details te reinigen, polijsten en beschermen. Van hardnekkig vuil tot fijne krassen – wij zorgen ervoor dat jouw auto er weer als nieuw uitziet.</p>
+      <p>Wat kun je verwachten? Een diepe, spiegelende glans, een strak en vlekkeloos exterieur en een duurzame lakbescherming die jouw auto helpt beschermen tegen weersinvloeden, vuil en slijtage. Ook het interieur nemen we graag mee in de behandeling, zodat jouw auto niet alleen van buiten straalt, maar ook van binnen fris en verzorgd aanvoelt. Het resultaat is een auto die nieuwer oogt, prettiger rijdt en beter zijn waarde behoudt.</p>
+      <p>Of je nu in Leeuwarden, Drachten, Sneek, Joure of ergens anders in Friesland woont – Lavis Detailing is jouw partner in professionele autodetailing. Vanuit onze locatie in Sneek zijn wij centraal en goed bereikbaar voor klanten uit de hele provincie.</p>
+      <p>Gun jouw auto de aandacht die het verdient. Neem vandaag nog contact met ons op en ervaar zelf het verschil van echte kwaliteit en vakmanschap.</p>
     image:
-      src: /exterieur2.webp
-      alt: Auto detailen Bolsward
+      src: ../../assets/exterieur2.webp
+      alt: Auto detailen Friesland
 
   - block: pricings-1
     html: >
@@ -50,7 +51,6 @@ sections:
       - title: 1 Staps polijsten
         description: >
           Een 1-staps polijstbehandeling, plus al het onderstaande:
-
         list:
           - "Uitgebreide wasbeurt met de hand"
           - "Velgen reinigen"
@@ -66,30 +66,31 @@ sections:
           - text: Plan een gratis intake
             href: /intake/
       - title: 2 Staps polijsten
-        description: >
-          - Uitgebreide wasbeurt met de hand
-          - Velgen reinigen
-          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)
-          - Lak kleien voor het laatste hardnekkige vuil
-          - Sponningen reinigen
-          - Voeden en op kleur brengen kunststofdelen
-          - Ramen reinigen binnen- en buitenzijde
-          - Banden verzorgen en op kleur brengen
-          - Lak ontvetten
-          - Een high-end sealant aanbrengen
+        list:
+          - "Uitgebreide wasbeurt met de hand"
+          - "Velgen reinigen"
+          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)"
+          - "Lak kleien voor het laatste hardnekkige vuil"
+          - "Sponningen reinigen"
+          - "Voeden en op kleur brengen kunststofdelen"
+          - "Ramen reinigen binnen- en buitenzijde"
+          - "Banden verzorgen en op kleur brengen"
+          - "Lak ontvetten"
+          - "Een high-end sealant aanbrengen"
       - title: 3 Staps polijsten
         description: >
           Een 3- of 3-staps+ polijstbehandeling. De lak wordt zowel excentrisch als roterend behandeld voor een optimaal resultaat. Plus al het onderstaande:
-          - Uitgebreide wasbeurt met de hand
-          - Velgen reinigen
-          - Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)
-          - Lak kleien voor het laatste hardnekkige vuil
-          - Sponningen reinigen
-          - Voeden en op kleur brengen kunststofdelen
-          - Ramen reinigen binnen- en buitenzijde
-          - Banden verzorgen en op kleur brengen
-          - Lak ontvetten
-          - Een high-end sealant aanbrengen
+        list:
+          - "Uitgebreide wasbeurt met de hand"
+          - "Velgen reinigen"
+          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest (ijzerdeeltjes)"
+          - "Lak kleien voor het laatste hardnekkige vuil"
+          - "Sponningen reinigen"
+          - "Voeden en op kleur brengen kunststofdelen"
+          - "Ramen reinigen binnen- en buitenzijde"
+          - "Banden verzorgen en op kleur brengen"
+          - "Lak ontvetten"
+          - "Een high-end sealant aanbrengen"
 
   - block: reviews-1
     html: <h2>HIER DEDEN WE HET AL</h2>
@@ -151,6 +152,6 @@ sections:
       - "Vuil-, vlek- en krasvrij: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
       - "Waarde verhogend: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
     image:
-      src: /exterieur3.webp
+      src: ../../assets/exterieur3.webp
       alt: Garanties Lavis Detailing
 ---

@@ -8,29 +8,27 @@ headers:
         href: /
       - text: Diensten
         href: /diensten/
+      - text: Portfolio
+        href: /portfolio/
+      - text: Over ons
+        href: /over-ons/
       # - text: Producten
-      #   href: /producten/
-      # - text: Blog
-      #   href: /posts/
-      # - text: Over ons
-      #   href: /over-ons/
+      #   href: "#"
+      - text: Blog
+        href: /posts/
     links:
-      - text: Contact
+      - text: Contact opnemen
         href: /contact/
-      - text: Plan intake
-        href: /intake/
 
 sections:
   - block: cta-1
     html: >
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
-      <h2>PLAN EEN INTAKE</h2>
-      <p>Maak vandaag nog een afspraak en geniet van een als nieuwe auto</p>
+      <h2>VRAAG VRIJBLIJVEND EEN OFFERTE AAN</h2>
+      <p>Neem vrijblijvend contact op met ons voor een vrijblijvende offerte</p>
     links:
-      - text: Plan intake
-        href: /intake/
-      - text: Bekijk diensten
-        href: /diensten/
+      - text: Offerte aanvragen
+        href: /contact/
 # footer:
 #   block: footer-1
 #   logo:

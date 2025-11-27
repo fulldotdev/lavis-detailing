@@ -69,7 +69,7 @@ const { class: className, id, links, items } = Astro.props
     {
       items?.map(({ title, tagline, description, href, image, links }) => (
         <Tile href={href}>
-          <TileMedia>
+          <TileMedia class="aspect-video">
             <Image {...image} />
           </TileMedia>
           <TileSpread>
