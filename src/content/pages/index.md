@@ -1,6 +1,6 @@
 ---
 sections:
-  - block: hero-1
+  - block: hero-6
     item:
       images:
         - src: ../../assets/sil-veltman.jpeg
@@ -11,21 +11,33 @@ sections:
       rating: 5
       description: Uit 75+ reviews op Google
     html: >
-      <h1>PERFECTIE IN DETAILING</h1>
-      <p>Detailing met perfectie tot in het laatste detail, dat is Lavis Detailing</p>
+      <h1><strong>DETAILING MET PERFECTIE</strong> tot in het laatste detail.</h1>
+      <p>Exterieur en interieur detailing, coating, polijsten, waxen en meer.</p>
     links:
-      - text: Plan intake
-        href: /intake/
+      - text: Direct contact opnemen
+        href: /contact/
+      - text: Bekijk onze diensten
+        href: /diensten/
     image:
-      src: ../../assets/lavis-bg-4-optimized.webp
+      src: ../../assets/hero.jpg
       alt: Lavis Detailing Sneek
-  - block: tiles-1
-    html: <h2>WIJ DETAILEN EXTERIEUR EN INTERIEUR</h2>
+  - block: tiles-5
+    html: |
+      <h2>Wij detailen <strong>EXTERIEUR</strong> en <strong>INTERIEUR.</strong></h2>
+      <p>Bekijk ons uitgebreide aanbod van diensten die speciaal voor jou zijn samengesteld.</p>
     refs:
       - /src/content/pages/diensten/exterieur-detailing.md
       - /src/content/pages/diensten/interieur-detailing.md
-  - block: downloads-1
-    html: <h2>AL ONZE DIENSTEN OP EEN RIJ</h2>
+    links:
+      - text: Contact opnemen
+        href: /contact/
+  - block: tiles-6
+    html: |
+      <h2><Strong>SUB DIENSTEN</Strong> voor interieur en exterieur.</h2>
+      <p>Een overzicht van de sub diensten voor interieur en exterieur detailing.</p>
+    links:
+      - text: Contact opnemen
+        href: /contact/
     refs:
       - /src/content/pages/diensten/coating.md
       - /src/content/pages/diensten/polijsten.md
@@ -36,12 +48,17 @@ sections:
       - /src/content/pages/diensten/velgcoating.md
       - /src/content/pages/diensten/koplamprestauratie.md
       - /src/content/pages/diensten/ramen-tinten.md
-  - block: tiles-1
-    html: <h2>WIJ DETAILEN OOK BOTEN EN CAMPERS</h2>
+  - block: tiles-5
+    html: |
+      <h2>Wij detailen ook <strong>BOTEN</strong> en <strong>CAMPERS.</strong></h2>
+      <p>Wij detailen niet alleen auto's, maar ook boot en campers. Onze diensten zijn beschikbaar voor alle merken en modellen.</p>
+    links:
+      - text: Contact opnemen
+        href: /diensten/
     refs:
       - /src/content/pages/diensten/boot-detailing.md
       - /src/content/pages/diensten/camper-detailing.md
-  - block: content-2
+  - block: content-4
     html: >
       <h1>PREMIUM PARTNER VAN HOOGWAARDIGE TITAN COATING</h1>
       <p>Bij onze autoverzorging maken we gebruik van hoogwaardige apparatuur en producten. Elk aspect van je auto wordt met zorg en aandacht grondig behandeld. Ons streven is kwaliteit boven kwantiteit, en we zetten alles op alles om ervoor te zorgen dat uw auto in topconditie is.</p>
@@ -59,11 +76,17 @@ sections:
       - /src/content/pages/portfolio/lorem-ipsum.md
   - block: reviews-1
     html: |
-      <h2>JAREN ERVARING, EN DAT ZIE JE.</h2>
-      <p>Nog nooit een lagere beoordelingen dan 5 sterren, uit 75+ reviews op Google.</p>
+      <h2><strong>JAREN ERVARING,</strong> en dat zie je.</h2>
+      <p>Nog nooit een lagere beoordelingen dan <strong class="text-primary">5 sterren met 75+ reviews</strong> op Google.</p>
     links:
       - text: Bekijk op Google
         href: "#"
+    item:
+      image:
+        src: ../../assets/google-logo.png
+        alt: Lavis Detailing Sneek
+      rating: 5
+      description: Uit 75+ reviews op Google
     refs:
       - /src/content/pages/reviews/reviews5.md
       - /src/content/pages/reviews/reviews17.md

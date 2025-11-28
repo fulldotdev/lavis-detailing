@@ -19,16 +19,26 @@ headers:
     links:
       - text: Contact opnemen
         href: /contact/
-
 sections:
-  - block: cta-1
+  - block: cta-7
     html: >
-      <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
-      <h2>VRAAG VRIJBLIJVEND EEN OFFERTE AAN</h2>
+      <h2>Vraag <strong>VRIJBLIJVEND INFORMATIE</strong> op.</h2>
       <p>Neem vrijblijvend contact op met ons voor een vrijblijvende offerte</p>
+    image:
+      src: ../../assets/lavis-bg-4-optimized.webp
+      alt: Lavis Detailing Sneek
     links:
-      - text: Offerte aanvragen
+      - text: Contact opnemen
         href: /contact/
+    item:
+      images:
+        - src: ../../assets/sil-veltman.jpeg
+          alt: Lavis Detailing Sneek
+        - src: ../../assets/sil-veltman.jpeg
+          alt: Lavis Detailing Sneek
+        - src: ../../assets/sil-veltman.jpeg
+      rating: 5
+      description: Uit 75+ reviews op Google
 # footer:
 #   block: footer-1
 #   logo:

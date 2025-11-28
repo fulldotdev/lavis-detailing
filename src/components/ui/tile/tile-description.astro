@@ -12,7 +12,10 @@ const slot = await Astro.slots.render("default")
 
 {
   slot?.trim().length > 0 && (
-    <p class={cn("text-sm text-inherit", className)} {...props}>
+    <p
+      class={cn("text-muted-foreground text-sm leading-[1.6]", className)}
+      {...props}
+    >
       <Fragment set:html={slot} />
     </p>
   )

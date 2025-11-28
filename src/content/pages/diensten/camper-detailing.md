@@ -1,6 +1,6 @@
 ---
 title: Camper detailing
-description: Al onze diensten, maar dan voor uw camper
+description: Al onze diensten, maar dan voor uw camper.
 seo:
   title: Camper detailing en coating | Lavis Detailing Sneek
   description: Glanzend, schoon, klaar voor avontuur

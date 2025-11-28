@@ -3,18 +3,20 @@ import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Icon } from "@/components/ui/icon"
 import { Image } from "@/components/ui/image"
+import { List, ListItem } from "@/components/ui/list"
 import {
   Section,
   SectionActions,
   SectionContent,
   SectionMedia,
   SectionProse,
-  SectionSpread,
+  SectionSplit,
 } from "@/components/ui/section"
 
 interface Props {
   class?: string
   id?: string
+  list?: string[]
   links?: {
     icon?: string
     text?: string
@@ -28,17 +30,25 @@ interface Props {
   }
 }
 
-const { class: className, id, links, image } = Astro.props
+const { class: className, id, list, links, image } = Astro.props
 ---
 
-<Section class={cn("", className)} id={id} frame="panel" size="lg">
-  <SectionSpread class="@5xl:items-center">
+<Section class={cn("", className)} id={id}>
+  <SectionSplit class="@5xl:grid-cols-[1fr_2fr] @5xl:items-center">
     <SectionContent>
       <SectionProse>
         <slot />
       </SectionProse>
-    </SectionContent>
-    <SectionContent>
+      <List>
+        {
+          list?.map((item) => (
+            <ListItem>
+              <Icon name="check" />
+              {item}
+            </ListItem>
+          ))
+        }
+      </List>
       <SectionActions>
         {
           links?.map(({ icon, text, ...button }, i) => (
@@ -50,8 +60,8 @@ const { class: className, id, links, image } = Astro.props
         }
       </SectionActions>
     </SectionContent>
-  </SectionSpread>
-  <SectionMedia class="absolute inset-0 size-full opacity-50">
-    <Image {...image} />
-  </SectionMedia>
+    <SectionMedia>
+      <Image {...image} />
+    </SectionMedia>
+  </SectionSplit>
 </Section>

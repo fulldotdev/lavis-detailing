@@ -1,5 +1,6 @@
 ---
 title: Polijsten
+description: Herstel de glans van je auto.
 seo:
   title: Auto polijsten en waxen | Lavis Detailing Sneek
   description: Laat uw auto professioneel polijsten en waxen voor een diepe glans, langdurige bescherming en verbeterde lakconditie. Ervaar het verschil bij Lavis Detailing.

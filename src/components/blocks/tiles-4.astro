@@ -68,11 +68,8 @@ const { class: className, id, links, items } = Astro.props
   <SectionGrid>
     {
       items?.map(({ title, tagline, description, href, image, links }) => (
-        <Tile href={href}>
-          <TileMedia>
-            <Image {...image} />
-          </TileMedia>
-          <TileSpread>
+        <Tile href={href} frame="panel" variant="outline">
+          <TileSpread class="py-3">
             <TileContent>
               <TileDescription class="text-primary text-xs font-medium">
                 {tagline}
@@ -80,7 +77,12 @@ const { class: className, id, links, items } = Astro.props
               <TileTitle>{title}</TileTitle>
               <TileDescription>{description}</TileDescription>
             </TileContent>
-            {href && <Icon name="arrow-right" />}
+            {href && (
+              <Icon
+                name="arrow-right"
+                class="mr-3 size-5 transition-transform group-hover/tile:translate-x-3"
+              />
+            )}
           </TileSpread>
           <SectionActions>
             {links?.map(({ text, icon, href, target }, i) => (
@@ -94,6 +96,9 @@ const { class: className, id, links, items } = Astro.props
               </Button>
             ))}
           </SectionActions>
+          <TileMedia class="-mr-(--tile-p) rounded-r-none">
+            <Image {...image} />
+          </TileMedia>
         </Tile>
       ))
     }

@@ -22,7 +22,7 @@ const variants = cva(
       },
       variant: {
         default: "",
-        outline: "border-border border",
+        outline: "border-border border bg-transparent",
         muted: "bg-muted/50 border-0",
       },
     },
@@ -57,10 +57,10 @@ const Comp = href ? "a" : "div"
 
 <style is:global>
   [data-slot="tile"] {
-    --tile-padding: 0px;
+    --tile-p: 0px;
   }
 
   [data-slot="tile"][data-frame="panel"] {
-    --tile-padding: 24px;
+    --tile-p: 24px;
   }
 </style>

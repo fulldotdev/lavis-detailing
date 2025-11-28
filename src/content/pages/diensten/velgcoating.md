@@ -1,5 +1,6 @@
 ---
 title: Velg coating
+description: Bescherm je velgen tegen vuil en remstof.
 seo:
   title: Auto laten coaten | Lavis Detailing Sneek
   description: Ervaar onze premium coating

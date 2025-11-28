@@ -1,5 +1,6 @@
 ---
 title: Schadeherstel
+description: Professioneel herstel van kleine schades.
 tagline: Breng uw auto terug naar zijn glorie
 seo:
   title: Schade van uw auto laten herstellen | Lavis Detailing Sneek

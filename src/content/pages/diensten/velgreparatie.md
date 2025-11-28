@@ -1,5 +1,6 @@
 ---
 title: Velgreparatie
+description: Laat je velgen weer stralen als nieuw.
 seo:
   title: Velgen laten repareren | Lavis Detailing Sneek
   description: Laat uw beschadigde velgen weer stralen

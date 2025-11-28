@@ -56,7 +56,7 @@ interface Props {
 const { name, image, menus, links, socials } = Astro.props
 ---
 
-<Header variant="outline">
+<Header class="bg-background/75 backdrop-blur-md">
   <Logo href="/">
     <LogoImage {...image} />
     <LogoText>{name}</LogoText>
@@ -102,7 +102,7 @@ const { name, image, menus, links, socials } = Astro.props
   </NavigationMenu>
   <HeaderActions class="@max-5xl:hidden">
     {
-      socials?.map((social) => (
+      socials?.map((social, i) => (
         <>
           <Button variant="ghost" size="icon-sm" href={social} target="_blank">
             <Icon href={social} />
@@ -110,11 +110,11 @@ const { name, image, menus, links, socials } = Astro.props
         </>
       ))
     }
-    <ModeToggle />
+    <!-- <ModeToggle /> -->
     {
       links?.map(({ icon, text, ...button }, i) => (
         <Button
-          variant={i === links.length - 1 ? "default" : "ghost"}
+          variant={i === links.length - 1 ? "default" : "secondary"}
           size="sm"
           {...button}
         >

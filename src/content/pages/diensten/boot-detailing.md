@@ -1,6 +1,6 @@
 ---
 title: Boot detailing
-description: Al onze diensten, maar dan voor uw boot
+description: Al onze diensten, maar dan voor uw boot.
 seo:
   title: Boot detailing en coating | Lavis Detailing Sneek
   description: Uw boot, ons meesterwerk

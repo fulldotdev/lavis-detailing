@@ -1,5 +1,6 @@
 ---
 title: Coating
+description: Langdurige bescherming voor je lak.
 seo:
   title: Auto laten coaten | Lavis Detailing Sneek
   description: Ervaar onze premium coating

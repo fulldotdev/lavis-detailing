@@ -1,14 +1,32 @@
 ---
 title: Interieur detailing
 description: Stofzuigen, schoonmaken en meer...
-seo:
-  title: Auto interieur detailing | Lavis Detailing Sneek
-  description: Hoe heerlijk is een vlekkeloos interieur?
 image:
   src: ../../../assets/interieur-reinigen-1.webp
   alt: Interieur detailing
-
 sections:
+  - block: content-4
+    html: |
+      <h1>Hoogwaardige <Strong>INTERIEUR DETAILING</Strong> door Lavis Detailing.</h1>
+      <p>Hoe heerlijk is een vlekkeloos interieur? Met onze interieur detailing services laat je jouw auto interieur weer stralen.</p>
+    links:
+      - text: Contact opnemen
+        href: /contact/
+    image:
+      src: ../../../assets/interieur-reinigen-1.webp
+      alt: Interieur detailing
+  - block: tiles-6
+    html: |
+      <h2>Wat er mogelijk is met <Strong>INTERIEUR DETAILING.</Strong></h2>
+      <p>Stofzuigen, schoonmaken en meer...</p>
+    links:
+      - text: Bekijk alle diensten
+        href: /diensten/
+    refs:
+      - /src/content/pages/diensten/stofzuigen.md
+      - /src/content/pages/diensten/reinigen.md
+      - /src/content/pages/diensten/ozonreiniging.md
+      - /src/content/pages/diensten/stoomreinigen.md
   - block: cta-2
     html: >
       <h1 class="heading">Auto interieur reinigen: voor een frisse rit</h1>
@@ -157,4 +175,7 @@ sections:
     image:
       src: ../../../assets/interieur-reinigen-3.webp
       alt: Garanties Lavis Detailing
+seo:
+  title: Auto interieur detailing | Lavis Detailing Sneek
+  description: Hoe heerlijk is een vlekkeloos interieur?
 ---
