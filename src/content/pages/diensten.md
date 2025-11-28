@@ -14,12 +14,22 @@ sections:
       - /src/content/pages/diensten/coating.md
       - /src/content/pages/diensten/polijsten.md
       - /src/content/pages/diensten/waxen.md
-      - /src/content/pages/diensten/reinigen.md
-      - /src/content/pages/diensten/schadeherstel.md
-      - /src/content/pages/diensten/velgreparatie.md
       - /src/content/pages/diensten/velgcoating.md
       - /src/content/pages/diensten/koplamprestauratie.md
+      - /src/content/pages/diensten/wassen.md
+      - /src/content/pages/diensten/reinigen.md
+      - /src/content/pages/diensten/ozonreiniging.md
+      - /src/content/pages/diensten/stoomreinigen.md
+      - /src/content/pages/diensten/stofzuigen.md
+
+  - block: downloads-1
+    html: <h2>UITBESTEDE DIENSTEN</h2>
+    refs:
+      - /src/content/pages/diensten/schadeherstel.md
+      - /src/content/pages/diensten/velgreparatie.md
       - /src/content/pages/diensten/ramen-tinten.md
+      - /src/content/pages/diensten/ppf.md
+      - /src/content/pages/diensten/wrapping.md
   - block: tiles-1
     html: <h2>WIJ DETAILEN OOK BOTEN EN CAMPERS</h2>
     refs:
