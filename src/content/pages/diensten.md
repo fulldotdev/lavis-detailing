@@ -2,7 +2,7 @@
 sections:
   - block: tiles-5
     html: |
-      <h1>WIJ DETAILEN <strong>EXTERIEUR</strong> EN <strong>INTERIEUR.</strong></h1>
+      <h1>Wij detailen <strong>EXTERIEUR</strong> en <strong>INTERIEUR.</strong></h1>
       <p>Wij detailen niet alleen auto's, maar ook boot en campers. Onze diensten zijn beschikbaar voor alle merken en modellen.</p>
     links:
       - text: Contact opnemen
@@ -11,7 +11,7 @@ sections:
       - /src/content/pages/diensten/exterieur-detailing.md
       - /src/content/pages/diensten/interieur-detailing.md
   - block: tiles-6
-    html: <h2>AL ONZE DIENSTEN OP EEN RIJ</h2>
+    html: <h2>Al onze <strong>DIENSTEN</strong> op een rij</h2>
     refs:
       - /src/content/pages/diensten/coating.md
       - /src/content/pages/diensten/polijsten.md
@@ -25,7 +25,7 @@ sections:
       - /src/content/pages/diensten/stofzuigen.md
   - block: tiles-6
     html: |
-      <h2>UITBESTEDE <strong>DIENSTEN.</strong></h2>
+      <h2>Uitbestede <strong>DIENSTEN.</strong></h2>
       <p>Wij bieden ook uitgebreide diensten voor uw boot en camper.</p>
     refs:
       - /src/content/pages/diensten/schadeherstel.md
@@ -35,7 +35,7 @@ sections:
       - /src/content/pages/diensten/wrapping.md
   - block: tiles-5
     html: |
-      <h2>WIJ DETAILEN OOK <strong>BOTEN</strong> EN <strong>CAMPERS.</strong></h2>
+      <h2>Wij detailen ook <strong>BOTEN</strong> en <strong>CAMPERS.</strong></h2>
       <p>Wij detailen niet alleen auto's, maar ook boot en campers. Onze diensten zijn beschikbaar voor alle merken en modellen.</p>
     links:
       - text: Contact opnemen

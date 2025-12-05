@@ -22,8 +22,8 @@ headers:
 sections:
   - block: cta-7
     html: >
-      <h2>Vraag <strong>VRIJBLIJVEND INFORMATIE</strong> op.</h2>
-      <p>Neem vrijblijvend contact op met ons voor een vrijblijvende offerte</p>
+      <h2>Vraag <strong>INFORMATIE</strong> op.</h2>
+      <p>Neem vrijblijvend contact op voor vragen of een offerte.</p>
     image:
       src: ../../assets/lavis-bg-4-optimized.webp
       alt: Lavis Detailing Sneek
@@ -39,59 +39,79 @@ sections:
         - src: ../../assets/sil-veltman.jpeg
       rating: 5
       description: Uit 75+ reviews op Google
-# footer:
-#   block: footer-1
-#   logo:
-#     src: /lavis-logo.svg
-#     alt: Lavis Detailing
-#   description: Auto detailing en coating specialist in Sneek
-#   channels:
-#     - text: WhatsApp
-#       href: https://wa.me/31610158706
-#     - text: info@lavis-detailing.nl
-#       href: info@lavis-detailing.nl
-#     - text: +316 10158706
-#       href: "316 10158706"
-#     - text: Top 8, 8606JT, Sneek
-#       href: https://maps.app.goo.gl/dxUfXBNubLk7f6jB8
-#   menus:
-#     - text: Diensten
-#       links:
-#         - text: Interieur detailing
-#           href: /diensten/interieur-detailing
-#         - text: Exterieur detailing
-#           href: /diensten/exterieur-detailing
-#         - text: Coating
-#           href: /diensten/coating
-#         - text: Dagbehandeling
-#           href: /diensten/dagbehandeling
-#         - text: Schadeherstel
-#           href: /diensten/schadeherstel
-#         - text: Velgreparatie
-#           href: /diensten/velgreparatie
-#         - text: Boot detailing en coating
-#           href: /diensten/boot-detailing-en-coating
-#         - text: Camper detailing en coating
-#           href: /diensten/camper-detailing-en-coating
-#     - text: Bedrijf
-#       links:
-#         - text: Over ons
-#           href: /over-ons/
-#         - text: Producten
-#           href: /producten/
-#         - text: Blog
-#           href: /posts/
-#         - text: Contact
-#           href: /contact/
-#         - text: Plan intake
-#           href: /intake/
-#   links:
-#     - text: Kvk. 75337231
-#       href: https://www.kvk.nl/zoeken/ondernemer/?kvknummer=75337231
-#     - text: Algemene voorwaarden
-#       href: /algemene-voorwaarden/
-#     - text: Disclaimer
-#       href: /disclaimer/
-#     - text: Privacyverklaring
-#       href: /privacyverklaring/
-#   copyright: Lavis Detailing
+footers:
+  - block: footer-1
+    description: Auto detailing en coating specialist in Sneek
+    image:
+      src: ../../assets/lavis-logo.svg
+      alt: Lavis Detailing
+    html: >
+      <p>Auto detailing en coating specialist in Sneek</p>
+      <p>&copy; Lavis Detailing</p>
+    links:
+      - icon: whatsapp
+        text: WhatsApp
+        href: https://wa.me/31610158706
+      - icon: mail
+        text: info@lavis-detailing.nl
+        href: mailto:info@lavis-detailing.nl
+      - icon: phone
+        text: +316 10158706
+        href: tel:+31610158706
+      - icon: map-pin
+        text: Top 8, 8606JT, Sneek
+        href: https://maps.app.goo.gl/dxUfXBNubLk7f6jB8
+    menus:
+      - text: Hoofddiensten
+        links:
+          - text: Alle diensten
+            href: /diensten/
+          - text: Interieur detailing
+            href: /diensten/interieur-detailing/
+          - text: Exterieur detailing
+            href: /diensten/exterieur-detailing/
+          - text: Coating
+            href: /diensten/coating/
+          - text: Polijsten
+            href: /diensten/polijsten/
+          - text: Boot detailing
+            href: /diensten/boot-detailing/
+          - text: Camper detailing
+            href: /diensten/camper-detailing/
+      - text: Overige diensten
+        links:
+          - text: Wassen
+            href: /diensten/wassen/
+          - text: Reinigen
+            href: /diensten/reinigen/
+          - text: Velgreparatie
+            href: /diensten/velgreparatie/
+          - text: Schadeherstel
+            href: /diensten/schadeherstel/
+          - text: Koplamp restauratie
+            href: /diensten/koplamprestauratie/
+          - text: PPF
+            href: /diensten/ppf/
+          - text: Wrapping
+            href: /diensten/wrapping/
+      - text: Bedrijf
+        links:
+          - text: Over ons
+            href: /over-ons/
+          - text: Portfolio
+            href: /portfolio/
+          - text: Blog
+            href: /posts/
+          - text: Contact
+            href: /contact/
+          - text: Plan intake
+            href: /intake/
+    # links:
+    #   - text: Kvk. 75337231
+    #     href: https://www.kvk.nl/zoeken/ondernemer/?kvknummer=75337231
+    #   - text: Algemene voorwaarden
+    #     href: /algemene-voorwaarden/
+    #   - text: Disclaimer
+    #     href: /disclaimer/
+    #   - text: Privacyverklaring
+    #     href: /privacyverklaring/

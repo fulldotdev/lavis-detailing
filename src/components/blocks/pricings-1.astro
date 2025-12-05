@@ -64,7 +64,7 @@ const { class: className, id, links, items } = Astro.props
   <SectionGrid>
     {
       items?.map(({ title, description, button, list, price, unit }) => (
-        <Tile>
+        <Tile frame="panel" variant="outline">
           <TileContent>
             <TileTitle>{title}</TileTitle>
             <TileDescription>{description}</TileDescription>

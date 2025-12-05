@@ -4,7 +4,8 @@ block: article-1
 title: Je auto laten reinigen
 description: Professionele reiniging voor een glimmende bolide
 image:
-  alt: ""
+  src: ../../../assets/interieur-reinigen-1.webp
+  alt: "Professionele auto reiniging en detailing"
 ---
 
 Je&nbsp;**auto laten reinigen**&nbsp;kost (als je dit zelf doet) behoorlijk wat tijd, vergt de juiste aanpak en het correcte gereedschap. Je kunt er voor kiezen om dit allemaal zelf te doen, maar je kunt het ook door professionals laten doen! Een vieze auto met een smerig interieur belemmert je tijdens het rijden, en ontneemt je het rijplezier dat je zult hebben in een brandschone auto. &nbsp;&nbsp;

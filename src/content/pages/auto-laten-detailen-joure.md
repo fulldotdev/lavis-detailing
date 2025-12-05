@@ -91,7 +91,7 @@ sections:
           - Een high-end sealant aanbrengen
 
   - block: reviews-1
-    html: <h2>HIER DEDEN WE HET AL</h2>
+    html: <h2>Hier deden we het, nu <strong>JOUW AUTO.</strong></h2>
     refs:
       - reviews/reviews129
       - reviews/reviews164
@@ -134,7 +134,7 @@ sections:
   - block: cta-1
     html: >
       <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
-      <h2>PLAN EEN INTAKE</h2>
+      <h2>Plan een <strong>INTAKE</strong></h2>
       <p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
     links:
       - text: Plan een gratis intake

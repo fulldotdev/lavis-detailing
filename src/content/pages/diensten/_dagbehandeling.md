@@ -2,22 +2,19 @@
 title: Dagbehandeling
 tagline: Maak uw auto het gesprek van de dag
 description: Maak uw auto het gesprek van de dag
-seo:
-  title: Dagbehandeling voor uw auto | Lavis Detailing Sneek
-  description: Maak uw auto het gesprek van de dag
 image:
   src: ../../../assets/auto-zijkant-1280x962.webp
   alt: Dagbehandeling
 sections:
-  - block: cta-2
+  - block: hero-7
     html: >
-      <h1>Dagbehandeling</h1>
+      <h1><strong>DAGBEHANDELING</strong></h1>
       <p>Ons gepassioneerde team van autoliefhebbers begrijpt de waarde van uw auto. Ervaar onze dagbehandeling, waarbij uw auto in één dag volledig verzorgd wordt. Uw auto zal dankbaar zijn voor de kwaliteit en aandacht die het ontvangt. Onze experts staan klaar om elk aspect van uw auto grondig aan te pakken en hem weer te laten stralen als nieuw. Vertrouw op onze hoogwaardige producten en technieken om de beste resultaten te behalen. Geef uw auto de behandeling die het verdient en zie het verschil dat het kan maken.</p>
     image:
       src: ../../../assets/auto-zijkant-1280x962.webp
       alt: Dagbehandeling
   - block: pricings-1
-    html: <h2>EEN OVERZICHT VAN DE MOGELIJKHEDEN</h2>
+    html: <h2>Een overzicht van de <strong>MOGELIJKHEDEN</strong></h2>
     items:
       - title: De basis
         price: €475
@@ -49,50 +46,50 @@ sections:
             href: /intake/
 
   - block: reviews-1
-    html: <h2>HIER DEDEN WE HET AL</h2>
+    html: <h2>Hier deden we het, nu <strong>JOUW AUTO.</strong></h2>
     refs:
-      - reviews/reviews129
-      - reviews/reviews164
-      - reviews/reviews17
-      - reviews/reviews170
-      - reviews/reviews180
-      - reviews/reviews235
-      - reviews/reviews247
-      - reviews/reviews267
-      - reviews/reviews220
-      - reviews/reviews273
-      - reviews/reviews288
-      - reviews/reviews210
-      - reviews/reviews292
-      - reviews/reviews302
-      - reviews/reviews466
-      - reviews/reviews347
-      - reviews/reviews301
-      - reviews/reviews315
-      - reviews/reviews443
-      - reviews/reviews360
-      - reviews/reviews369
-      - reviews/reviews106
-      - reviews/reviews313
-      - reviews/reviews371
-      - reviews/reviews422
-      - reviews/reviews437
-      - reviews/reviews415
-      - reviews/reviews435
-      - reviews/reviews5
-      - reviews/reviews51
-      - reviews/reviews60
-      - reviews/reviews7
-      - reviews/reviews483
-      - reviews/reviews497
-      - reviews/reviews92
-      - reviews/reviews99
-      - reviews/reviews330
+      - /src/content/pages/reviews/reviews129.md
+      - /src/content/pages/reviews/reviews164.md
+      - /src/content/pages/reviews/reviews17.md
+      - /src/content/pages/reviews/reviews170.md
+      - /src/content/pages/reviews/reviews180.md
+      - /src/content/pages/reviews/reviews235.md
+      - /src/content/pages/reviews/reviews247.md
+      - /src/content/pages/reviews/reviews267.md
+      - /src/content/pages/reviews/reviews220.md
+      - /src/content/pages/reviews/reviews273.md
+      - /src/content/pages/reviews/reviews288.md
+      - /src/content/pages/reviews/reviews210.md
+      - /src/content/pages/reviews/reviews292.md
+      - /src/content/pages/reviews/reviews302.md
+      - /src/content/pages/reviews/reviews466.md
+      - /src/content/pages/reviews/reviews347.md
+      - /src/content/pages/reviews/reviews301.md
+      - /src/content/pages/reviews/reviews315.md
+      - /src/content/pages/reviews/reviews443.md
+      - /src/content/pages/reviews/reviews360.md
+      - /src/content/pages/reviews/reviews369.md
+      - /src/content/pages/reviews/reviews106.md
+      - /src/content/pages/reviews/reviews313.md
+      - /src/content/pages/reviews/reviews371.md
+      - /src/content/pages/reviews/reviews422.md
+      - /src/content/pages/reviews/reviews437.md
+      - /src/content/pages/reviews/reviews415.md
+      - /src/content/pages/reviews/reviews435.md
+      - /src/content/pages/reviews/reviews5.md
+      - /src/content/pages/reviews/reviews51.md
+      - /src/content/pages/reviews/reviews60.md
+      - /src/content/pages/reviews/reviews7.md
+      - /src/content/pages/reviews/reviews483.md
+      - /src/content/pages/reviews/reviews497.md
+      - /src/content/pages/reviews/reviews92.md
+      - /src/content/pages/reviews/reviews99.md
+      - /src/content/pages/reviews/reviews330.md
 
-  - block: cta-2
+  - block: content-2
     html: >
       <p>Verfijnde Glans</p>
-      <h2>DIEPTE REINIGING</h2>
+      <h2><strong>DIEPTE REINIGING</strong></h2>
       <p>Laat uw auto weer stralen met onze dieptereiniging. De kleibehandeling zorgt voor een ongekende gladheid en voorbereiding op een hoogwaardige polijstbeurt. Dit is de eerste stap naar een auto die niet alleen schoon is, maar ook glanst met vernieuwde pracht.</p>
     links:
       - text: Plan een intake
@@ -101,10 +98,10 @@ sections:
       src: ../../../assets/auto-laten-polijsten-640x427.webp
       alt: Diepte reiniging
 
-  - block: cta-2
+  - block: content-2
     html: >
       <p>Langdurig</p>
-      <h2>HOOGWAARDIGE LAKBESCHERMING</h2>
+      <h2><strong>HOOGWAARDIGE LAKBESCHERMING</strong></h2>
       <p>Bescherm uw auto met onze high-end sealant die een langdurige glans en bescherming biedt. Deze afwerking zorgt ervoor dat uw auto maandenlang zijn schitterende uitstraling behoudt, ongeacht de weersomstandigheden.</p>
     links:
       - text: Plan een intake
@@ -113,8 +110,8 @@ sections:
       src: ../../../assets/autolak-beschermen-640x427.webp
       alt: Lakbescherming
 
-  - block: cta-2
-    html: <h2>WAT WE DOEN</h2>
+  - block: features-1
+    html: <h2>Wat we <strong>DOEN</strong></h2>
     items:
       - title: Zachte Reiniging
         description: >
@@ -140,4 +137,14 @@ sections:
         description: >
           Licht Polijsten van de Lak
           Licht polijsten verwijdert fijne krasjes en herstelt de originele glans van uw auto, waardoor de lak weer als nieuw lijkt.
+
+  - block: tiles-6
+    html: <h2>Perfect te combineren met</h2>
+    refs:
+      - /src/content/pages/diensten/exterieur-detailing.md
+      - /src/content/pages/diensten/interieur-detailing.md
+      - /src/content/pages/diensten/coating.md
+seo:
+  title: Dagbehandeling voor uw auto | Lavis Detailing Sneek
+  description: Maak uw auto het gesprek van de dag
 ---

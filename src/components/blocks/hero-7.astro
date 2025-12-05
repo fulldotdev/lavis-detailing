@@ -10,6 +10,7 @@ import {
   ItemDescription,
   ItemMedia,
 } from "@/components/ui/item"
+import { List, ListItem } from "@/components/ui/list"
 import { Rating } from "@/components/ui/rating"
 import {
   Section,
@@ -17,12 +18,13 @@ import {
   SectionContent,
   SectionMedia,
   SectionProse,
-  SectionSpread,
+  SectionSplit,
 } from "@/components/ui/section"
 
 interface Props {
   class?: string
   id?: string
+  list?: string[]
   links?: {
     icon?: string
     text?: string
@@ -38,30 +40,50 @@ interface Props {
     images?: {
       src: string
       alt: string
+      title?: string
     }[]
     rating?: number
     description?: string
   }
+  items?: {
+    title?: string
+    description?: string
+    icon?: string
+    href?: string
+    links?: {
+      icon?: string
+      text?: string
+      href?: string
+      target?: string
+    }[]
+  }[]
 }
 
-const { class: className, id, links, image, item } = Astro.props
+const { class: className, id, list, links, image, item } = Astro.props
 ---
 
-<Section class={cn("", className)} id={id} size="lg">
-  <SectionMedia class="absolute inset-0 size-full rounded-none mask-y-from-50%">
-    <Image {...image} />
-  </SectionMedia>
-  <SectionSpread class="relative @5xl:items-center">
-    <SectionProse size="lg">
-      <slot />
-    </SectionProse>
-    <SectionContent class="shrink-0">
+<Section class={cn("-mt-(--header-height)", className)} id={id}>
+  <SectionSplit>
+    <SectionContent class="relative z-10 pt-(--header-height)">
+      <SectionProse>
+        <slot />
+      </SectionProse>
+      <List>
+        {
+          list?.map((item) => (
+            <ListItem>
+              <Icon name="check" />
+              {item}
+            </ListItem>
+          ))
+        }
+      </List>
       <SectionActions>
         {
           links?.map(({ icon, text, ...button }, i) => (
             <Button
-              class="w-full"
               variant={i === 0 ? "default" : "secondary"}
+              size="lg"
               {...button}
             >
               {icon && <Icon name={icon} />}
@@ -70,11 +92,11 @@ const { class: className, id, links, image, item } = Astro.props
           ))
         }
       </SectionActions>
-      <Item class="-m-4 shrink-0">
+      <Item class="-m-4">
         <ItemMedia class="-space-x-4">
           {
             item?.images?.map((image) => (
-              <Avatar class="ring-foreground size-10 ring-2">
+              <Avatar class="ring-background size-10 ring-2">
                 <AvatarImage {...image} />
               </Avatar>
             ))
@@ -82,11 +104,16 @@ const { class: className, id, links, image, item } = Astro.props
         </ItemMedia>
         <ItemContent>
           <Rating rating={item?.rating} />
-          <ItemDescription class="text-foreground line-clamp-none">
+          <ItemDescription>
             {item?.description}
           </ItemDescription>
         </ItemContent>
       </Item>
     </SectionContent>
-  </SectionSpread>
+    <SectionMedia
+      class="-mx-(--section-px) @max-5xl:mask-y-from-50% @5xl:-my-(--section-py) @5xl:-ml-[25%] @5xl:mask-b-from-50% @5xl:mask-l-from-0%"
+    >
+      <Image {...image} />
+    </SectionMedia>
+  </SectionSplit>
 </Section>

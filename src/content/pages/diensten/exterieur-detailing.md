@@ -1,17 +1,14 @@
 ---
 title: Exterieur detailing
 description: Poetsen, polijsten, coaten en meer...
-seo:
-  title: Exterieur detailing voor uw auto | Lavis Detailing Sneek
-  description: Ervaar perfectie en oog voor detail
 image:
   src: ../../../assets/exterieur1.webp
   alt: Exterieur detailing
 
 sections:
-  - block: cta-2
+  - block: hero-7
     html: >
-      <h1 class="heading">Auto detailen: laat het exterieur weer stralen</h1>
+      <h1><strong>AUTO DETAILEN:</strong> laat het exterieur weer stralen</h1>
       <p>Met auto detailen gaat Lavis Detailing verder daar waar het autopoetsen stopt. We reinigen, poetsen en perfectioneren jouw auto tot in de kleinste details. Het resultaat: jouw auto glanzend als nooit te voren, vlek- en krasvrij en een optimale lakbescherming. Dat wil jij toch ook?</p>
     list:
       - Grondige reiniging
@@ -25,9 +22,22 @@ sections:
       src: ../../../assets/exterieur1.webp
       alt: Exterieur detailing
 
-  - block: cta-2
+  - block: tiles-6
+    html: |
+      <h2>Wat er mogelijk is met <Strong>EXTERIEUR DETAILING.</Strong></h2>
+      <p>Wassen, polijsten, coaten en meer...</p>
+    links:
+      - text: Bekijk alle diensten
+        href: /diensten/
+    refs:
+      - /src/content/pages/diensten/wassen.md
+      - /src/content/pages/diensten/polijsten.md
+      - /src/content/pages/diensten/coating.md
+      - /src/content/pages/diensten/koplamprestauratie.md
+
+  - block: content-2
     html: >
-      <h2>Waarom je auto laten detailen?</h2>
+      <h2>Waarom je auto laten <strong>DETAILEN?</strong></h2>
       <p>Ervaar jij problemen met hardnekkig vuil, vlekken en kleine krassen die het uiterlijk en de waarde van jouw auto negatief beïnvloeden? Standaard wasbeurten zijn vaak niet voldoende om deze problemen effectief aan te pakken, waardoor je auto er dof en verouderd uitziet. Zonde!</p>
       <p>Door je auto te laten detailen bij Lavis Detailing los je al deze problemen in een keer op. Onze ervaren specialisten maken gebruik van geavanceerde technieken en premium producten om je auto grondig te reinigen, te polijsten en te beschermen. Dit zorgt niet alleen voor een diepgaande reiniging en een schitterende glans, maar beschermt ook de lak tegen toekomstige schade en werkt waarde verhogend. Desgewenst kunnen we het interieur nog meenemen voor een super strak eindresultaat.</p>
       <p>Kies voor Lavis Detailing om je auto er weer als nieuw uit te laten zien, het rijcomfort te verhogen en de waarde van je voertuig te behouden. Ervaar het verschil en laat je auto detailen bij Lavis Detailing. Professioneel en op maat.</p>
@@ -37,7 +47,7 @@ sections:
 
   - block: pricings-1
     html: >
-      <h2>Onze behandelingen</h2>
+      <h2>Onze <strong>BEHANDELINGEN</strong></h2>
       <p><strong>1-, 2- of 3-staps polijsten?</strong></p>
       <p>Wil je jouw auto laten detailen met het meest strakke eindresultaat? Dan kies je voor Lavis Detailing. Wij hebben drie polijstbehandelingen (1-, 2- of 3-staps polijsten) waar je uit kunt kiezen. Welke behandeling jij nodig hebt hangt af van de huidige status van het exterieur, het type auto en uiteraard jouw wens.</p>
       <p>Naast het polijsten voorzien we jouw auto standaard van diverse poets- en reinigingswerkzaamheden. Zo verzekeren we je met auto detailen van het best mogelijke eindresultaat.</p>
@@ -88,56 +98,35 @@ sections:
           - "Een high-end sealant aanbrengen"
 
   - block: reviews-1
-    html: <h2>HIER DEDEN WE HET AL</h2>
+    html: <h2>Hier deden we het, nu <strong>JOUW AUTO.</strong></h2>
     refs:
-      - reviews/reviews129
-      - reviews/reviews164
-      - reviews/reviews17
-      - reviews/reviews170
-      - reviews/reviews180
-      - reviews/reviews235
-      - reviews/reviews247
-      - reviews/reviews267
-      - reviews/reviews220
-      - reviews/reviews273
-      - reviews/reviews288
-      - reviews/reviews210
-      - reviews/reviews292
-      - reviews/reviews302
-      - reviews/reviews466
-      - reviews/reviews347
-      - reviews/reviews301
-      - reviews/reviews315
-      - reviews/reviews443
-      - reviews/reviews360
-      - reviews/reviews369
-      - reviews/reviews106
-      - reviews/reviews313
-      - reviews/reviews371
-      - reviews/reviews422
-      - reviews/reviews437
-      - reviews/reviews415
-      - reviews/reviews435
-      - reviews/reviews5
-      - reviews/reviews51
-      - reviews/reviews60
-      - reviews/reviews7
-      - reviews/reviews483
-      - reviews/reviews497
-      - reviews/reviews92
-      - reviews/reviews99
-      - reviews/reviews330
+      - /src/content/pages/reviews/reviews129.md
+      - /src/content/pages/reviews/reviews180.md
+      - /src/content/pages/reviews/reviews235.md
+      - /src/content/pages/reviews/reviews267.md
+      - /src/content/pages/reviews/reviews106.md
+      - /src/content/pages/reviews/reviews107.md
+      - /src/content/pages/reviews/reviews60.md
+      - /src/content/pages/reviews/reviews99.md
 
-  - block: cta-2
+  - block: features-1
     html: >
-      <h3>De garanties van Lavis Detailing</h3>
+      <h2>De garanties van <strong>LAVIS DETAILING.</strong></h2>
       <p>Bij auto detailen door Lavis Detailing bieden wij de volgende garanties:</p>
-    list:
-      - "Grondige reiniging: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet."
-      - "Bescherming van de lak: Onze detailing diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd."
-      - "Vuil-, vlek- en krasvrij: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
-      - "Waarde verhogend: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
-    image:
-      src: ../../../assets/exterieur3.webp
-      alt: Exterieur detailing garanties
+    items:
+      - icon: check
+        title: Grondige reiniging
+        description: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet.
+      - icon: check
+        title: Bescherming van de lak
+        description: Onze detailing diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd.
+      - icon: check
+        title: Vuil-, vlek- en krasvrij
+        description: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt.
+      - icon: check
+        title: Waarde verhogend
+        description: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
+seo:
+  title: Exterieur detailing voor uw auto | Lavis Detailing Sneek
+  description: Ervaar perfectie en oog voor detail
 ---

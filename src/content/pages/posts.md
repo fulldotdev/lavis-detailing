@@ -1,8 +1,8 @@
 ---
 sections:
-  - block: content-1
+  - block: articles-1
     html: >
-      <h1>BLOG</h1>
-  - block: tiles-1
+      <h2>Onze <strong>BLOG.</strong></h2>
+      <p>Lees meer over detailing, coating, polijsten, waxen en meer.</p>
     glob: posts/
 ---

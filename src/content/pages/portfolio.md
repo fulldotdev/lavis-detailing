@@ -1,8 +1,8 @@
 ---
 sections:
-  - block: content-1
+  - block: content-2
     html: >
-      <h1>ONZE PORTFOLIO</h1>
+      <h1>Onze <strong>PORTFOLIO</strong></h1>
   - block: tiles-1
     refs:
       - /src/content/pages/portfolio/lorem-ipsum.md

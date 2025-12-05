@@ -1,17 +1,14 @@
 ---
 title: Polijsten
 description: Herstel de glans van je auto.
-seo:
-  title: Auto polijsten en waxen | Lavis Detailing Sneek
-  description: Laat uw auto professioneel polijsten en waxen voor een diepe glans, langdurige bescherming en verbeterde lakconditie. Ervaar het verschil bij Lavis Detailing.
 image:
   src: ../../../assets/polijsten-en-waxen-1.webp
   alt: Auto polijsten en waxen
 
 sections:
-  - block: cta-2
+  - block: hero-7
     html: >
-      <h1 class="heading">Auto laten polijsten en waxen: het lak weer als nieuw</h1>
+      <h1>Auto laten polijsten en waxen: het lak weer als nieuw</h1>
       <p>Glanzend als nooit te voren, vlek- en krasvrij en de best mogelijke lakbescherming, dat wil jij toch ook voor jouw auto? Door je auto te laten polijsten en waxen wordt het lak weer zo goed als nieuw. Een exterieur waarmee je tussen andere auto's uit zult springen.</p>
     list:
       - Diepe glans
@@ -25,7 +22,7 @@ sections:
       src: ../../../assets/polijsten-en-waxen-1.webp
       alt: Polijsten en waxen
 
-  - block: cta-2
+  - block: content-2
     html: >
       <h2>Waarom je auto laten polijsten en waxen?</h2>
       <p>Merk je dat de lak van je auto na verloop van tijd dof wordt en kleine krassen ontstaan door dagelijks gebruik, weersinvloeden en verkeerd wassen? Dit kan de uitstraling en waarde van het voertuig aanzienlijk verminderen.</p>
@@ -87,28 +84,35 @@ sections:
         href: /intake/
 
   - block: reviews-1
-    html: <h2>HIER DEDEN WE HET AL</h2>
-    glob: reviews/
+    html: <h2>Hier deden we het, nu <strong>JOUW AUTO.</strong></h2>
+    refs:
+      - /src/content/pages/reviews/reviews129.md
+      - /src/content/pages/reviews/reviews170.md
+      - /src/content/pages/reviews/reviews180.md
+      - /src/content/pages/reviews/reviews235.md
+      - /src/content/pages/reviews/reviews220.md
+      - /src/content/pages/reviews/reviews267.md
+      - /src/content/pages/reviews/reviews369.md
+      - /src/content/pages/reviews/reviews231.md
 
-  - block: cta-1
+  - block: features-1
     html: >
-      <p>Beoordeeld met 5 sterren uit 70+ reviews</p>
-      <h2>PLAN EEN INTAKE</h2>
-      <p>Maak vandaag nog een afspraak en laat uw auto beschermen met onze hoogwaardige coating</p>
-    links:
-      - text: Plan een gratis intake
-        href: /intake/
-
-  - block: cta-2
-    html: >
-      <h3>De garanties van Lavis Detailing</h3>
+      <h2>De garanties van <strong>LAVIS DETAILING.</strong></h2>
       <p>Jouw auto laten polijsten en waxen door Lavis Detailing biedt de volgende garanties:</p>
-    list:
-      - "Grondige reiniging: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet."
-      - "Bescherming van de lak: Onze polijst en wax diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd."
-      - "Vuil-, vlek- en krasvrij: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt."
-      - "Waarde verhogend: Professioneel polijsten en waxen door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop."
-    image:
-      src: ../../../assets/polijsten-en-waxen-3.webp
-      alt: Garanties
+    items:
+      - icon: check
+        title: Grondige reiniging
+        description: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet.
+      - icon: check
+        title: Bescherming van de lak
+        description: Onze polijst en wax diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd.
+      - icon: check
+        title: Vuil-, vlek- en krasvrij
+        description: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt.
+      - icon: check
+        title: Waarde verhogend
+        description: Professioneel polijsten en waxen door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
+seo:
+  title: Auto polijsten en waxen | Lavis Detailing Sneek
+  description: Laat uw auto professioneel polijsten en waxen voor een diepe glans, langdurige bescherming en verbeterde lakconditie. Ervaar het verschil bij Lavis Detailing.
 ---

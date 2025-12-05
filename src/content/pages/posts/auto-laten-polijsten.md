@@ -4,7 +4,8 @@ block: article-1
 title: Auto laten polijsten. Is dit wat voor jou?
 description: Auto polijsten voor een glanzende lak!
 image:
-  alt: ""
+  src: ../../../assets/polijsten-en-waxen-2.webp
+  alt: "Auto polijsten met professionele apparatuur"
 ---
 
 Je&nbsp;**auto laten polijsten**. Is dit wat voor jou, of totaal niet de moeite waard? Wellicht heb je een auto waarmee je al heel wat kilometers hebt gereden. Je gaat er elke week mee naar kantoor en in de weekenden ga je er lekker mee op uit. Tijdens deze ritjes kan de lak van je auto beschadigen. Er kunnen kleine krasjes ontstaan en de lak kan dof worden.

@@ -60,7 +60,7 @@ sections:
       - /src/content/pages/diensten/camper-detailing.md
   - block: content-4
     html: >
-      <h1>PREMIUM PARTNER VAN HOOGWAARDIGE TITAN COATING</h1>
+      <h2>Exclusieve partner van <strong>TITAN COATINGS.</strong></h2>
       <p>Bij onze autoverzorging maken we gebruik van hoogwaardige apparatuur en producten. Elk aspect van je auto wordt met zorg en aandacht grondig behandeld. Ons streven is kwaliteit boven kwantiteit, en we zetten alles op alles om ervoor te zorgen dat uw auto in topconditie is.</p>
     links:
       - text: Titan coating
@@ -68,8 +68,8 @@ sections:
     image:
       src: ../../assets/image00128-1-1280x786.webp
       alt: Titan Coatings
-  - block: tiles-1
-    html: <h2>RECENTE UIT ONS PORTFOLIO</h2>
+  - block: articles-1
+    html: <h2>Recent uit ons <strong>PORTFOLIO.</strong></h2>
     refs:
       - /src/content/pages/portfolio/lorem-ipsum.md
       - /src/content/pages/portfolio/lorem-ipsum.md
@@ -78,9 +78,6 @@ sections:
     html: |
       <h2><strong>JAREN ERVARING,</strong> en dat zie je.</h2>
       <p>Nog nooit een lagere beoordelingen dan <strong class="text-primary">5 sterren met 75+ reviews</strong> op Google.</p>
-    links:
-      - text: Bekijk op Google
-        href: "#"
     item:
       image:
         src: ../../assets/google-logo.png
