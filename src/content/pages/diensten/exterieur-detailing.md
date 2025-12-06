@@ -45,58 +45,6 @@ sections:
       src: ../../../assets/exterieur2.webp
       alt: Exterieur detailing
 
-  - block: pricings-1
-    html: >
-      <h2>Onze <strong>BEHANDELINGEN</strong></h2>
-      <p><strong>1-, 2- of 3-staps polijsten?</strong></p>
-      <p>Wil je jouw auto laten detailen met het meest strakke eindresultaat? Dan kies je voor Lavis Detailing. Wij hebben drie polijstbehandelingen (1-, 2- of 3-staps polijsten) waar je uit kunt kiezen. Welke behandeling jij nodig hebt hangt af van de huidige status van het exterieur, het type auto en uiteraard jouw wens.</p>
-      <p>Naast het polijsten voorzien we jouw auto standaard van diverse poets- en reinigingswerkzaamheden. Zo verzekeren we je met auto detailen van het best mogelijke eindresultaat.</p>
-      <p>Wil je weten welke polijstbehandeling jouw auto nodig heeft? Wij helpen je graag met het maken van de juiste keuze. Plan hiervoor een intake met ons in.</p>
-    links:
-      - text: Plan een gratis intake
-        href: /intake/
-    items:
-      - title: 1 Staps polijsten
-        description: >
-          Een 1-staps polijstbehandeling, plus al het onderstaande:
-        list:
-          - "Uitgebreide wasbeurt met de hand"
-          - "Velgen reinigen"
-          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest"
-          - "Lak kleien voor het laatste hardnekkige vuil"
-          - "Sponningen reinigen"
-          - "Voeden en op kleur brengen kunststofdelen"
-          - "Ramen reinigen binnen- en buitenzijde"
-          - "Banden verzorgen en op kleur brengen"
-          - "Lak ontvetten"
-          - "Een high-end sealant aanbrengen"
-      - title: 2 Staps polijsten
-        list:
-          - "Uitgebreide wasbeurt met de hand"
-          - "Velgen reinigen"
-          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest"
-          - "Lak kleien voor het laatste hardnekkige vuil"
-          - "Sponningen reinigen"
-          - "Voeden en op kleur brengen kunststofdelen"
-          - "Ramen reinigen binnen- en buitenzijde"
-          - "Banden verzorgen en op kleur brengen"
-          - "Lak ontvetten"
-          - "Een high-end sealant aanbrengen"
-      - title: 3 Staps polijsten
-        description: >
-          Een 3- of 3-staps+ polijstbehandeling. De lak wordt zowel excentrisch als roterend behandeld voor een optimaal resultaat. Plus al het onderstaande:
-        list:
-          - "Uitgebreide wasbeurt met de hand"
-          - "Velgen reinigen"
-          - "Verwijderen van teer, chemische en ijzeren resten in de lak en vliegroest"
-          - "Lak kleien voor het laatste hardnekkige vuil"
-          - "Sponningen reinigen"
-          - "Voeden en op kleur brengen kunststofdelen"
-          - "Ramen reinigen binnen- en buitenzijde"
-          - "Banden verzorgen en op kleur brengen"
-          - "Lak ontvetten"
-          - "Een high-end sealant aanbrengen"
-
   - block: reviews-1
     html: <h2>Hier deden we het, nu <strong>JOUW AUTO.</strong></h2>
     refs:

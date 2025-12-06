@@ -32,7 +32,7 @@ sections:
       alt: Titan Coatings technologie
   - block: content-2
     html: >
-      <p>Gebruikt in BASE pakket</p>
+      <p>Gebruikt in het BASE pakket</p>
       <h2><strong>TITAN COATING ZEUS™</strong></h2>
       <p>Zeus™ is een elite coating die de gepatenteerde Dark Matter Technology® gebruikt. Deze geavanceerde coating is een combinatie van organische en anorganische chemie, verrijkt met unieke koolstofnanorods.</p>
       <p>De coating creëert een uiterst dichte, erosiebestendige siliciumcarbide versterkte HyperQuartz® Elastomeer Membraan™, versterkt met nanorods en Dark Matter Technology®. Dit membraan is bijzonder flexibel, dik en heeft zelfherstellende eigenschappen dankzij de elastomeercomponenten. Dit staaltje van chemische techniek zorgt voor een topklasse glans, die nog verder verhoogd kan worden met de HydroTX145™ Top Coat, voor uitmuntende hydrofobische eigenschappen.</p>
@@ -47,7 +47,7 @@ sections:
 
   - block: content-2
     html: >
-      <p>Gebruikt in PREMIUM en EXCLUSIVE pakketten</p>
+      <p>Gebruikt in de PREMIUM en EXCLUSIVE pakketten</p>
       <h2><strong>TITAN COATING PX10™</strong></h2>
       <p>De PX10™ micron membraancoating maakt gebruik van ultra-geavanceerde mimetische thermohardende componenten die uitzonderlijk dichte versterkte matrixmembraan vormende eigenschappen bieden.</p>
       <p>Deze met Dark Matter Technology® versterkte super basis biedt permanente bescherming voor een veelvoud aan oppervlakken. De coating is zeer chemisch bestendig en vormt een extreem duurzame laag die tot 15 jaar bescherming kan bieden.</p>
@@ -62,7 +62,7 @@ sections:
 
   - block: content-2
     html: >
-      <p>Gebruikt in PREMIUM en EXCLUSIVE pakketten</p>
+      <p>Gebruikt in de PREMIUM en EXCLUSIVE pakketten</p>
       <h2><strong>TITAN COATING VULCAN TX155™</strong></h2>
       <p>De VulcanTx155™ Elastomeer Membraan™ coating bevat ultra-geavanceerde mimetische elastomeercomponenten die een uitzonderlijk dichte, maar toch flexibele membraanvormende capaciteit bieden.</p>
       <p>Deze met Dark Matter Technology® versterkte topcoat verleent hydrofobische eigenschappen aan onze Px10 basislaag, evenals het vermogen om zichzelf te regenereren en te herstellen van slijtage, swirls en lichte krassen. De flexibele eigenschappen zorgen ervoor dat de coating niet barst bij temperatuurwisselingen.</p>
@@ -77,7 +77,7 @@ sections:
 
   - block: content-2
     html: >
-      <p>Gebruikt in EXCLUSIVE pakket</p>
+      <p>Gebruikt in het EXCLUSIVE pakket</p>
       <h2><strong>TITAN COATING HYDRO TX145™</strong></h2>
       <p>De HYDROTX145™ Flexi Film nano-membraancoating bevat ultra-geavanceerde nanocomponenten die uitzonderlijk gladde, hydrofobische en chemisch resistente kenmerken bieden.</p>
       <p>Deze met Dark Matter Technology® versterkte topcoat geeft hydrofobische eigenschappen aan onze PX10 en ZEUS basislagen, en biedt ook de mogelijkheid om bestaande door Titan Coatings beschermde voertuigen snel en eenvoudig op te frissen. De nano-membraan zorgt voor extreme waterafstoting en zelfreinigend effect.</p>

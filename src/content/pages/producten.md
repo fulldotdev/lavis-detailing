@@ -1,19 +1,16 @@
 ---
-title: Kwalitatieve auto detailing producten | Lavis Detailing Sneek
+title: Producten
 description: Kwalitatieve auto detailing producten
-seo:
-  title: Kwalitatieve auto detailing producten | Lavis Detailing Sneek
-  description: Kwalitatieve auto detailing producten
 
 sections:
   - block: features-1
-    html: <h1>Hoogwaardige producten voor binnen en buiten</h1>
+    html: <h1>Hoogwaardige <strong>PRODUCTEN</strong> voor binnen en buiten</h1>
     refs:
       - categories/exterieur
       - categories/interieur
 
   - block: features-1
-    html: <h2>Populaire producten</h2>
+    html: <h2>Populaire <strong>PRODUCTEN</strong></h2>
     refs:
       - products/charming-interieur-verfraaier-5l
       - products/charming-interieur-verfraaier-500ml
@@ -23,7 +20,7 @@ sections:
       - products/creature-edgeless-420gsm-lime-green
 
   - block: features-1
-    html: <h1>Productcategorieen</h1>
+    html: <h2><strong>PRODUCTCATEGORIEËN</strong></h2>
     refs:
       - categories/borstels-en-kwasten
       - categories/doeken
@@ -37,7 +34,7 @@ sections:
       - categories/wassen
 
   - block: features-1
-    html: <h1>Hoogwaardige merken</h1>
+    html: <h2>Hoogwaardige <strong>MERKEN</strong></h2>
     refs:
       - categories/ik
       - categories/koch-chemie
@@ -47,6 +44,9 @@ sections:
       - categories/trc
 
   - block: features-1
-    html: <h2>Alle producten</h2>
+    html: <h2>Alle <strong>PRODUCTEN</strong></h2>
     glob: products/
+seo:
+  title: Kwalitatieve auto detailing producten | Lavis Detailing Sneek
+  description: Ontdek ons assortiment hoogwaardige auto detailing producten. Van reinigingsmiddelen tot beschermende coatings.
 ---

@@ -14,39 +14,17 @@ sections:
       alt: Camper detailing
   - block: content-2
     html: >
-      <h2><strong>CAMPER COATING</strong></h2>
-      <p>Ontdek de ultieme bescherming voor uw camper met onze geavanceerde Titan Coatings. Onze unieke rubberen membraan coating vormt een ondoordringbare barrière tegen de meest extreme weersinvloeden van buitenaf. In vergelijking met traditionele glascoatings is onze coating niet alleen dikker, maar biedt ook langdurigere bescherming. Met Titan Coatings wordt jouw camper verzegeld, waardoor hij bestand is tegen alle elementen. Het resultaat? Een camper die er altijd als nieuw uitziet en gemakkelijker schoon te maken is. Kies voor duurzaamheid, kies voor Titan Coatings. Ontdek vandaag nog de voordelen van onze revolutionaire camperbescherming.</p>
+      <h2>Waarom jouw camper laten <strong>COATEN?</strong></h2>
+      <p>Ontdek de ultieme bescherming voor uw camper met onze geavanceerde Titan Coatings. Onze unieke rubberen membraan coating vormt een ondoordringbare barrière tegen de meest extreme weersinvloeden van buitenaf. In vergelijking met traditionele glascoatings is onze coating niet alleen dikker, maar biedt ook langdurigere bescherming.</p>
+      <p>Met Titan Coatings wordt jouw camper verzegeld, waardoor hij bestand is tegen alle elementen. Het resultaat? Een camper die er altijd als nieuw uitziet en gemakkelijker schoon te maken is. Kies voor duurzaamheid, kies voor Titan Coatings. Ontdek vandaag nog de voordelen van onze revolutionaire camperbescherming.</p>
+    links:
+      - text: Plan een gratis intake
+        href: /intake/
+      - text: Meer over Titan Coatings
+        href: /diensten/titan-coating/
     image:
       src: ../../../assets/image00036-1-1280x791.webp
       alt: Camper coating
-  - block: content-2
-    html: >
-      <p>Gebruikt in premium en exclusive</p>
-      <h2><strong>TITAN COATING PX10</strong></h2>
-      <p>De PX10™ micron membraancoating maakt gebruik van ultra-geavanceerde mimetische thermohardende componenten die uitzonderlijk dichte versterkte matrixmembraan vormende eigenschappen bieden.</p>
-      <p>Deze met Dark Matter Technology® versterkte super basis biedt permanente bescherming voor een veelvoud aan oppervlakken.</p>
-    links:
-      - text: Plan intake
-        href: /intake/
-      - text: Meer informatie
-        href: https://www.titan-coatings.com/files/file_download/px10
-    image:
-      src: ../../../assets/titan-coatings-image-3.webp
-      alt: Titan Coating PX10
-  - block: content-2
-    html: >
-      <p>Gebruikt in premium en exclusive</p>
-      <h2><strong>TITAN COATING VULCAN</strong></h2>
-      <p>De VulcanTx155™ Elastomeer Membraan™ coating bevat ultra-geavanceerde mimetische elastomeercomponenten die een uitzonderlijk dichte, maar toch flexibele membraanvormende capaciteit bieden.</p>
-      <p>Deze met Dark Matter Technology® versterkte topcoat verleent hydrofobische eigenschappen aan onze Px10 basislaag, evenals het vermogen om zichzelf te regenereren en te herstellen van slijtage, swirls en lichte krassen.</p>
-    links:
-      - text: Plan intake
-        href: /intake/
-      - text: Meer informatie
-        href: https://www.titan-coatings.com/files/file_download/vulcantx155
-    image:
-      src: ../../../assets/titan-coatings-image-2.webp
-      alt: Titan Coating Vulcan
 
   - block: reviews-1
     html: <h2>Hier deden we het, nu <strong>JOUW CAMPER.</strong></h2>

@@ -1,12 +1,12 @@
 ---
-title: Plan een intake | Lavis Detailing Sneek
-seo:
-  title: Plan een intake | Lavis Detailing Sneek
+title: Plan een intake
+description: Plan een gratis intake voor jouw auto bij Lavis Detailing
+
 sections:
   - block: contact-1
     html: >
-      <h1>Waarin heeft u interesse?</h1>
-      <p>Geef hieronder aan in welke diensten u interesse heeft. Uiteraard denken we mee in wat wij denken wat uw auto het beste kan gebruiken. Op basis hiervan geven we een prijsindicatie.</p>
+      <h1>Waarin heb je <strong>INTERESSE?</strong></h1>
+      <p>Geef hieronder aan in welke diensten je interesse hebt. Uiteraard denken we mee in wat jouw auto het beste kan gebruiken. Op basis hiervan geven we een prijsindicatie.</p>
     form:
       inbox: your-inbox-id
       action: /intake-ontvangen/
@@ -25,7 +25,7 @@ sections:
           required: true
         - name: service
           type: select
-          label: Welke diensten interesseren u?
+          label: Welke diensten interesseren je?
           required: true
           options:
             - Exterieur Detailing
@@ -41,4 +41,7 @@ sections:
           label: Bericht
           required: true
       submit: Verstuur aanvraag
+seo:
+  title: Plan een intake | Lavis Detailing Sneek
+  description: Plan een gratis intake voor jouw auto. Wij denken graag mee in wat jouw auto nodig heeft en geven een prijsindicatie.
 ---

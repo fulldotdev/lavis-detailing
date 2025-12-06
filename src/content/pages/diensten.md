@@ -43,4 +43,7 @@ sections:
     refs:
       - /src/content/pages/diensten/boot-detailing.md
       - /src/content/pages/diensten/camper-detailing.md
+seo:
+  title: Al onze diensten | Lavis Detailing Sneek
+  description: Ontdek al onze auto detailing diensten. Van interieur en exterieur detailing tot coating, polijsten en meer.
 ---

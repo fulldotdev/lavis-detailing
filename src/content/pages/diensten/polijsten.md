@@ -53,6 +53,9 @@ sections:
           - "Banden verzorgen en op kleur brengen"
           - "Lak ontvetten"
           - "Een high-end sealant aanbrengen"
+        links:
+          - text: Contact opnemen
+            href: /contact/
       - title: 2 Staps polijsten
         list:
           - "Uitgebreide wasbeurt met de hand"
@@ -65,6 +68,9 @@ sections:
           - "Banden verzorgen en op kleur brengen"
           - "Lak ontvetten"
           - "Een high-end sealant aanbrengen"
+        links:
+          - text: Contact opnemen
+            href: /contact/
       - title: 3 Staps polijsten
         description: >
           Een 3- of 3-staps+ polijstbehandeling. De lak wordt zowel excentrisch als roterend behandeld voor een optimaal resultaat. Plus al het onderstaande:
@@ -79,9 +85,9 @@ sections:
           - "Banden verzorgen en op kleur brengen"
           - "Lak ontvetten"
           - "Een high-end sealant aanbrengen"
-    links:
-      - text: Plan een gratis intake
-        href: /intake/
+        links:
+          - text: Contact opnemen
+            href: /contact/
 
   - block: reviews-1
     html: <h2>Hier deden we het, nu <strong>JOUW AUTO.</strong></h2>

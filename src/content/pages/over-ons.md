@@ -20,4 +20,5 @@ sections:
     glob: reviews/
 seo:
   title: Over ons | Lavis Detailing Sneek
+  description: Lavis Detailing is opgericht door Arjen Visser en is ontstaan door een uit de hand gelopen hobby. Lees meer over ons verhaal.
 ---

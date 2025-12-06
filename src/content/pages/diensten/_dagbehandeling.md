@@ -88,7 +88,7 @@ sections:
 
   - block: content-2
     html: >
-      <p>Verfijnde Glans</p>
+      <p>Verfijnde glans</p>
       <h2><strong>DIEPTE REINIGING</strong></h2>
       <p>Laat uw auto weer stralen met onze dieptereiniging. De kleibehandeling zorgt voor een ongekende gladheid en voorbereiding op een hoogwaardige polijstbeurt. Dit is de eerste stap naar een auto die niet alleen schoon is, maar ook glanst met vernieuwde pracht.</p>
     links:
@@ -100,7 +100,7 @@ sections:
 
   - block: content-2
     html: >
-      <p>Langdurig</p>
+      <p>Langdurige bescherming</p>
       <h2><strong>HOOGWAARDIGE LAKBESCHERMING</strong></h2>
       <p>Bescherm uw auto met onze high-end sealant die een langdurige glans en bescherming biedt. Deze afwerking zorgt ervoor dat uw auto maandenlang zijn schitterende uitstraling behoudt, ongeacht de weersomstandigheden.</p>
     links:

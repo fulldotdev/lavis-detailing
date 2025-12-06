@@ -32,7 +32,7 @@ sections:
       src: ../../../assets/boot coaten 2.webp
       alt: Boot detailing en coating
 
-  - block: cta-2
+  - block: content-2
     html: >
       <h2>De bewezen voordelen van <strong>TRITON TX550™</strong></h2>
       <p>TRITON TX550™ bevat onze HyperQuartz® en Dark Matter Technology® die een chemisch resistente hydrofobe Elastomer Membrane™ op Gelcoat en GRP-bases creëert. Dit wil zeggen dat het het oppervlak van uw boot waterafstotend maakt, waardoor vuil en (zout)water minder snel hechten en de boot makkelijker schoon te maken is.</p>
