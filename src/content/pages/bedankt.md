@@ -18,7 +18,7 @@ sections:
       <p>Bekijk alvast wat we allemaal voor je kunnen betekenen.</p>
     refs:
       - /src/content/pages/diensten/exterieur-detailing.md
-      - /src/content/pages/diensten/interieur-detailing.md
+      - /src/content/pages/diensten/interieur-reiniging.md
       - /src/content/pages/diensten/coating.md
       - /src/content/pages/diensten/polijsten.md
 

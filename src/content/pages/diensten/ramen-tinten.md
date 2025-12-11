@@ -47,9 +47,9 @@ sections:
   - block: tiles-6
     html: <h2>Perfect te combineren met</h2>
     refs:
-      - /src/content/pages/diensten/wrapping.md
+      - /src/content/pages/diensten/ppf-en-wrapping.md
       - /src/content/pages/diensten/coating.md
-      - /src/content/pages/diensten/interieur-detailing.md
+      - /src/content/pages/diensten/interieur-reiniging.md
 seo:
   title: Auto ramen tinten | Lavis Detailing Sneek
   description: Professioneel ramen tinten voor meer privacy, koelte en een stijlvolle uitstraling

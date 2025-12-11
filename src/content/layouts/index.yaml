@@ -1,4 +1,7 @@
 headers:
+  # - block: banner-1
+  #   title: Wij zijn Titan Coatings distributeur
+  #   description: Wil je je aansluiten als detailer? Klik hier >
   - block: header-1
     image:
       src: ../../assets/lavis-logo.svg
@@ -8,14 +11,15 @@ headers:
         href: /
       - text: Diensten
         href: /diensten/
-      - text: Portfolio
-        href: /portfolio/
       - text: Over ons
         href: /over-ons/
       # - text: Producten
       #   href: "#"
       - text: Blog
         href: /posts/
+      - text: Portfolio
+        href: https://instagram.com/lavis_detailing
+        target: _blank
     links:
       - text: Contact opnemen
         href: /contact/

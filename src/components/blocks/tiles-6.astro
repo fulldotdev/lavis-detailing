@@ -34,6 +34,7 @@ interface Props {
     tagline?: string
     title?: string
     description?: string
+    icon?: string
     image?: {
       src: string
       alt: string
@@ -68,8 +69,11 @@ const { class: className, id, links, items } = Astro.props
     </SectionContent>
     <SectionGrid class="@5xl:grid-cols-2">
       {
-        items?.map(({ title, description, href }) => (
+        items?.map(({ title, description, href, icon }) => (
           <Tile href={href} frame="panel" variant="muted">
+            <TileMedia variant="icon">
+              <Icon name={icon} />
+            </TileMedia>
             <TileSpread>
               <TileContent>
                 <TileTitle>{title}</TileTitle>

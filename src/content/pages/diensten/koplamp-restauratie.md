@@ -47,7 +47,7 @@ sections:
     html: <h2>Perfect te combineren met</h2>
     refs:
       - /src/content/pages/diensten/exterieur-detailing.md
-      - /src/content/pages/diensten/wassen.md
+      - /src/content/pages/diensten/onderhouds-wasbeurt.md
       - /src/content/pages/diensten/polijsten.md
 seo:
   title: Koplamp restauratie | Lavis Detailing Sneek

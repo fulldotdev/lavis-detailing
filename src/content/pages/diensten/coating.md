@@ -31,27 +31,23 @@ sections:
         href: /diensten/
     refs:
       - /src/content/pages/diensten/titan-coating.md
-      - /src/content/pages/diensten/velgcoating.md
+      - /src/content/pages/diensten/matte-coating.md
+      - /src/content/pages/diensten/velg-coating.md
 
-  - block: video-2
-    id: youtube-short
-    html: >
-      <h2>Waarom <strong>TITAN COATINGS®</strong></h2>
-      <p>Zonder de juiste bescherming kan de lak van uw auto snel verslechteren door schadelijke UV-straling, zure regen, vogelpoep, en andere verontreinigingen. Dit resulteert in doffe plekken, krassen en verkleuringen die de uitstraling en waarde van uw auto negatief beïnvloeden. Dat wilt u niet toch?</p>
-      <p>Hier komt onze autocoating om de hoek kijken. Onze hoogwaardige coating, zoals Titan Coatings®, biedt een duurzame barrière tegen schadelijke invloeden. Titan Coatings is een rubberen membraancoating met nieuwe technologie die een langere standtijd biedt en 8 tot 10 keer dikker is dan de gemiddelde glas- of keramische coating. Deze coatings beschermen niet alleen de lak, maar geven uw auto ook een diepe, glanzende afwerking die langdurig behouden blijft.</p>
-      <p>Met de autocoating van Lavis Detailing hoeft u zich geen zorgen meer te maken over frequent wassen. Titan Coatings is zeer chemisch bestendig (pH 1 t/m 14) en heeft een hoog zelfreinigend effect. De hydrofobe eigenschappen zorgen ervoor dat vuil en water gemakkelijk van de lak afglijden, waardoor uw auto langer schoon blijft en eenvoudiger te onderhouden is. Kies voor Lavis Detailing en geef uw auto de bescherming die het verdient.</p>
-    video: https://www.youtube.com/watch?v=ERzxlkXAxpk&list=TLGG9xCl_hXrdOcwODExMjAyNQ
   - block: pricings-1
     html: >
       <h2>Welke <strong>AUTO COATING</strong> kiest u?</h2>
       <p>Heeft u besloten om uw auto te laten coaten met onze hoogwaardige autocoating? Dan kunt u kiezen uit verschillende lagen voor optimale bescherming. Om u een duidelijk beeld te geven van wat u kunt verwachten, hebben we de eigenschappen van onze 1-, 2- en 3-laagse coatings overzichtelijk voor u op een rij gezet. Voor de ultieme luxe bieden wij ook het exclusieve 4-laagse VIP-coatingpakket, "the best of the best".</p>
       <p>Wij staan klaar om u te helpen bij het maken van de juiste keuze. Plan gerust een intakegesprek met ons in, zodat we samen kunnen bepalen welke coating het beste bij uw auto en wensen past.</p>
     items:
-      - title: Titan Coatings® BASE
+      - tagline: PREMIUM
+        title: Paradox coatings
         price: €500
+        unit: excl. voorbereiding
         description: >
-          1 Laags coating - €500 excl. btw
+          2 laags coatings
         list:
+          - "Chemisch bestendigheid: 8,5/10"
           - "Carbon HyperQuartz-coating"
           - "PH-tolerantie: 1-13"
           - "Bescherming: 3-5 micron (1 laags coating)"
@@ -60,25 +56,30 @@ sections:
           - "Self-cleaning effect"
           - "Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud"
           - "4/5 sterren hydrofoob"
-      - title: Titan Coatings® PREMIUM
-        price: €900
+      - tagline: PREMIUM +
+        title: Apex coatings
+        price: €500
+        unit: excl. voorbereiding
         description: >
-          2 Laags coating - €900 excl. btw
+          2 laags coatings
         list:
-          - "Elastomer Membrane coating"
+          - "Chemisch bestendigheid: 9/10"
+          - "Carbon HyperQuartz-coating"
           - "PH-tolerantie: 1-13"
-          - "Bescherming: 7-9 micron (2 laags coating)"
+          - "Bescherming: 3-5 micron (1 laags coating)"
           - "Zelf herstellend van kleine beschadigingen en (was)krassen"
           - "Water- en vuilafstotend"
           - "Self-cleaning effect"
-          - "Duurzaamheid: tot +- 10 jaar, afhankelijk van onderhoud"
-          - "5/5 sterren hydrofoob"
-          - "Extra beschermd tegen chemische stoffen"
-      - title: Titan Coatings® EXCLUSIVE
-        price: €1280
+          - "Duurzaamheid: tot +- 4 jaar, afhankelijk van onderhoud"
+          - "4/5 sterren hydrofoob"
+      - tagline: EXCLUSIVE
+        title: Titan Coatings®
+        price: €900 - €1280 - €1650
+        unit: excl. voorbereiding
         description: >
-          3 Laags coating - €1280 excl. btw
+          2, 3, of 4 laags coatings
         list:
+          - "Chemisch bestendigheid: 10/10"
           - "Carbon micron & Elastomer Membrane coating"
           - "PH-tolerantie: 1-14"
           - "Bescherming: 8-10 micron (3 laags coating)"
@@ -92,8 +93,17 @@ sections:
           - "Hydrocarbon technologie"
           - "Meer glans nog gladder oppervlakte"
     links:
-      - text: Plan een gratis intake
-        href: /intake/
+      - text: Krijg vrijblijvend advies
+        href: /contact/
+
+  - block: video-2
+    id: youtube-short
+    html: >
+      <h2>Waarom <strong>TITAN COATINGS®</strong></h2>
+      <p>Zonder de juiste bescherming kan de lak van uw auto snel verslechteren door schadelijke UV-straling, zure regen, vogelpoep, en andere verontreinigingen. Dit resulteert in doffe plekken, krassen en verkleuringen die de uitstraling en waarde van uw auto negatief beïnvloeden. Dat wilt u niet toch?</p>
+      <p>Hier komt onze autocoating om de hoek kijken. Onze hoogwaardige coating, zoals Titan Coatings®, biedt een duurzame barrière tegen schadelijke invloeden. Titan Coatings is een rubberen membraancoating met nieuwe technologie die een langere standtijd biedt en 8 tot 10 keer dikker is dan de gemiddelde glas- of keramische coating. Deze coatings beschermen niet alleen de lak, maar geven uw auto ook een diepe, glanzende afwerking die langdurig behouden blijft.</p>
+      <p>Met de autocoating van Lavis Detailing hoeft u zich geen zorgen meer te maken over frequent wassen. Titan Coatings is zeer chemisch bestendig (pH 1 t/m 14) en heeft een hoog zelfreinigend effect. De hydrofobe eigenschappen zorgen ervoor dat vuil en water gemakkelijk van de lak afglijden, waardoor uw auto langer schoon blijft en eenvoudiger te onderhouden is. Kies voor Lavis Detailing en geef uw auto de bescherming die het verdient.</p>
+    video: https://www.youtube.com/watch?v=ERzxlkXAxpk&list=TLGG9xCl_hXrdOcwODExMjAyNQ
 
   - block: reviews-1
     html: <h2>Hier deden we het, nu <strong>JOUW AUTO.</strong></h2>

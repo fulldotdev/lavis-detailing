@@ -1,5 +1,5 @@
 ---
-title: Wassen
+title: Onderhouds wasbeurt
 description: Professioneel auto wassen voor een glanzend resultaat
 tagline: Exterieur detailing en bescherming
 image:

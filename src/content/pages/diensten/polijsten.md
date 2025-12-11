@@ -3,13 +3,13 @@ title: Polijsten
 description: Herstel de glans van je auto.
 image:
   src: ../../../assets/polijsten-en-waxen-1.webp
-  alt: Auto polijsten en waxen
+  alt: Auto polijsten
 
 sections:
   - block: hero-7
     html: >
-      <h1>Auto laten polijsten en waxen: het lak weer als nieuw</h1>
-      <p>Glanzend als nooit te voren, vlek- en krasvrij en de best mogelijke lakbescherming, dat wil jij toch ook voor jouw auto? Door je auto te laten polijsten en waxen wordt het lak weer zo goed als nieuw. Een exterieur waarmee je tussen andere auto's uit zult springen.</p>
+      <h1>Auto laten polijsten: het lak weer als nieuw</h1>
+      <p>Glanzend als nooit te voren, vlek- en krasvrij en de best mogelijke lakbescherming, dat wil jij toch ook voor jouw auto? Door je auto te laten polijsten wordt het lak weer zo goed als nieuw. Een exterieur waarmee je tussen andere auto's uit zult springen.</p>
     list:
       - Diepe glans
       - Langdurige bescherming
@@ -20,22 +20,22 @@ sections:
         href: /intake/
     image:
       src: ../../../assets/polijsten-en-waxen-1.webp
-      alt: Polijsten en waxen
+      alt: Polijsten
 
   - block: content-2
     html: >
-      <h2>Waarom je auto laten polijsten en waxen?</h2>
+      <h2>Waarom je auto laten polijsten?</h2>
       <p>Merk je dat de lak van je auto na verloop van tijd dof wordt en kleine krassen ontstaan door dagelijks gebruik, weersinvloeden en verkeerd wassen? Dit kan de uitstraling en waarde van het voertuig aanzienlijk verminderen.</p>
-      <p>Bij Lavis Detailing bieden we een oplossing met onze professionele polijstbehandelingen. Wij gebruiken geavanceerde technieken en hoogwaardige producten om de lak van je auto grondig te polijsten. Dit verwijdert kleine krassen, herstelt de glans en zorgt voor een gladde, spiegelachtige afwerking. Vervolgens brengen we een beschermende waxlaag aan die de lak beschermt tegen UV-straling, vuil en water.</p>
-      <p>Kies voor Lavis Detailing om je auto weer te laten stralen, de lak te beschermen en de waarde van je voertuig te behouden. Ervaar het verschil van een professioneel gepolijste en gewaxte auto.</p>
+      <p>Bij Lavis Detailing bieden we een oplossing met onze professionele polijstbehandelingen. Wij gebruiken geavanceerde technieken en hoogwaardige producten om de lak van je auto grondig te polijsten. Dit verwijdert kleine krassen, herstelt de glans en zorgt voor een gladde, spiegelachtige afwerking. Uiteraard zorgen we na het polijsten voor een goede bescherming van het resultaat.</p>
+      <p>Kies voor Lavis Detailing om je auto weer te laten stralen, de lak te herstellen en de waarde van je voertuig te behouden. Ervaar het verschil van een professioneel gepolijste auto.</p>
     image:
       src: ../../../assets/polijsten-en-waxen-2.webp
-      alt: Polijsten en waxen
+      alt: Polijsten
 
   - block: pricings-1
     html: >
       <h2>1-, 2- of 3-staps polijsten?</h2>
-      <p>Wil je jouw auto laten polijsten en waxen met het meest strakke eindresultaat? Dan kies je voor Lavis Detailing. Wij hebben drie polijstbehandelingen (1-, 2- of 3-staps polijsten) waar je uit kunt kiezen. Welke behandeling jij nodig hebt hangt af van de huidige status van het exterieur, het type auto en uiteraard jouw wens.</p>
+      <p>Wil je jouw auto laten polijsten met het meest strakke eindresultaat? Dan kies je voor Lavis Detailing. Wij hebben drie polijstbehandelingen (1-, 2- of 3-staps polijsten) waar je uit kunt kiezen. Welke behandeling jij nodig hebt hangt af van de huidige status van het exterieur, het type auto en uiteraard jouw wens.</p>
       <p>Naast het polijsten voorzien we jouw auto standaard van diverse poets- en reinigingswerkzaamheden. Zo verzekeren we je van het best mogelijke eindresultaat.</p>
       <p>Wil je weten welke polijstbehandeling jouw auto nodig heeft? Wij helpen je graag met het maken van de juiste keuze. Plan hiervoor een intake met ons in.</p>
     items:
@@ -104,21 +104,21 @@ sections:
   - block: features-1
     html: >
       <h2>De garanties van <strong>LAVIS DETAILING.</strong></h2>
-      <p>Jouw auto laten polijsten en waxen door Lavis Detailing biedt de volgende garanties:</p>
+      <p>Jouw auto laten polijsten door Lavis Detailing biedt de volgende garanties:</p>
     items:
       - icon: check
         title: Grondige reiniging
         description: Wij garanderen een diepgaande reiniging die hardnekkig vuil en vlekken effectief verwijdert, zodat je auto er weer als nieuw uitziet.
       - icon: check
-        title: Bescherming van de lak
-        description: Onze polijst en wax diensten beschermen de lak tegen schadelijke invloeden zoals UV-straling en vuil, waardoor de levensduur van je lak aanzienlijk wordt verlengd.
+        title: Herstel van de lak
+        description: Onze polijst diensten herstellen de lak door krassen en dofheid te verwijderen, waardoor de oorspronkelijke glans terugkeert.
       - icon: check
         title: Vuil-, vlek- en krasvrij
         description: Wij zorgen ervoor dat je auto vrij is van vuil, vlekken en lichte krassen, waardoor je voertuig een onberispelijke afwerking krijgt.
       - icon: check
         title: Waarde verhogend
-        description: Professioneel polijsten en waxen door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
+        description: Professioneel polijsten door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
 seo:
-  title: Auto polijsten en waxen | Lavis Detailing Sneek
-  description: Laat uw auto professioneel polijsten en waxen voor een diepe glans, langdurige bescherming en verbeterde lakconditie. Ervaar het verschil bij Lavis Detailing.
+  title: Auto polijsten | Lavis Detailing Sneek
+  description: Laat uw auto professioneel polijsten voor een diepe glans, herstel van krassen en verbeterde lakconditie. Ervaar het verschil bij Lavis Detailing.
 ---

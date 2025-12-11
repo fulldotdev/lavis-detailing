@@ -31,6 +31,7 @@ interface Props {
   items?: {
     title?: string
     description?: string
+    tagline?: string
     icon?: string
     list?: string[]
     links?: {
@@ -64,33 +65,36 @@ const { class: className, id, links, items } = Astro.props
   </SectionContent>
   <SectionGrid>
     {
-      items?.map(({ title, description, links, list, price, unit }) => (
-        <Tile frame="panel" variant="outline" class="justify-between">
-          <TileContent>
-            <TileTitle class="text-xl">{title}</TileTitle>
-            <TileDescription>{description}</TileDescription>
-            <Price>
-              <PriceValue price={price} />
-              <PriceUnit>{unit}</PriceUnit>
-            </Price>
-            <List class="mt-4">
-              {list?.map((item) => (
-                <ListItem>
-                  <Icon name="check" />
-                  {item}
-                </ListItem>
+      items?.map(
+        ({ title, description, tagline, links, list, price, unit }) => (
+          <Tile frame="panel" variant="outline" class="justify-between">
+            <TileContent>
+              <p class="text-primary text-sm font-medium">{tagline}</p>
+              <TileTitle class="text-xl">{title}</TileTitle>
+              <TileDescription>{description}</TileDescription>
+              <Price>
+                <PriceValue price={price} />
+                <PriceUnit>{unit}</PriceUnit>
+              </Price>
+              <List class="mt-4">
+                {list?.map((item) => (
+                  <ListItem>
+                    <Icon name="check" />
+                    {item}
+                  </ListItem>
+                ))}
+              </List>
+            </TileContent>
+            <TileActions class="w-full">
+              {links?.map(({ text, href, target }) => (
+                <Button class="w-full" href={href} target={target}>
+                  {text}
+                </Button>
               ))}
-            </List>
-          </TileContent>
-          <TileActions class="w-full">
-            {links?.map(({ text, href, target }) => (
-              <Button class="w-full" href={href} target={target}>
-                {text}
-              </Button>
-            ))}
-          </TileActions>
-        </Tile>
-      ))
+            </TileActions>
+          </Tile>
+        )
+      )
     }
   </SectionGrid>
 </Section>

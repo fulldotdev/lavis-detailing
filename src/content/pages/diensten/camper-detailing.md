@@ -42,7 +42,7 @@ sections:
     html: <h2>Perfect te combineren met</h2>
     refs:
       - /src/content/pages/diensten/coating.md
-      - /src/content/pages/diensten/interieur-detailing.md
+      - /src/content/pages/diensten/interieur-reiniging.md
       - /src/content/pages/diensten/exterieur-detailing.md
 seo:
   title: Camper detailing en coating | Lavis Detailing Sneek

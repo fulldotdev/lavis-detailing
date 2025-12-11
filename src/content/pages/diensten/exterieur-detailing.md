@@ -30,10 +30,10 @@ sections:
       - text: Bekijk alle diensten
         href: /diensten/
     refs:
-      - /src/content/pages/diensten/wassen.md
+      - /src/content/pages/diensten/onderhouds-wasbeurt.md
       - /src/content/pages/diensten/polijsten.md
       - /src/content/pages/diensten/coating.md
-      - /src/content/pages/diensten/koplamprestauratie.md
+      - /src/content/pages/diensten/koplamp-restauratie.md
 
   - block: content-2
     html: >

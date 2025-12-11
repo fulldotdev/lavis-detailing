@@ -30,7 +30,7 @@ sections:
     html: <h2>Perfect te combineren met</h2>
     refs:
       - /src/content/pages/diensten/exterieur-detailing.md
-      - /src/content/pages/diensten/velgcoating.md
+      - /src/content/pages/diensten/velg-coating.md
       - /src/content/pages/diensten/polijsten.md
 seo:
   title: Velgen laten repareren | Lavis Detailing Sneek

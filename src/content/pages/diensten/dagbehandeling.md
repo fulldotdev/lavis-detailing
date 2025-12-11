@@ -114,29 +114,17 @@ sections:
     html: <h2>Wat we <strong>DOEN</strong></h2>
     items:
       - title: Zachte Reiniging
-        description: >
-          Handwassen met pH-neutrale shampoo
-          Elk voertuig wordt met de hand gewassen met pH-neutrale shampoo, waarbij zorgvuldigheid en aandacht voor detail centraal staan om de lak te beschermen en te laten glanzen.
+        description: Elk voertuig wordt met de hand gewassen met pH-neutrale shampoo, waarbij zorgvuldigheid en aandacht voor detail centraal staan om de lak te beschermen en te laten glanzen.
       - title: Grondige Verzorging
-        description: >
-          Deursponningen en Velgen Reinigen
-          De deursponningen en velgen krijgen extra aandacht met speciale borstels en reinigingsmiddelen, zodat ook deze vaak vergeten gebieden er onberispelijk uitzien.
+        description: De deursponningen en velgen krijgen extra aandacht met speciale borstels en reinigingsmiddelen, zodat ook deze vaak vergeten gebieden er onberispelijk uitzien.
       - title: Zorgvuldige Afwerking
-        description: >
-          Drogen met ultiem zachte droogdoeken
-          Na het wassen drogen we de auto met ultra-zachte droogdoeken om waterplekken te voorkomen en de lak te beschermen tegen krassen.
+        description: Na het wassen drogen we de auto met ultra-zachte droogdoeken om waterplekken te voorkomen en de lak te beschermen tegen krassen.
       - title: Helder Zicht
-        description: >
-          Ramen Schoonmaken
-          Ramen worden zowel aan de binnen- als buitenzijde gereinigd, wat resulteert in een kristalhelder zicht en een perfecte afwerking.
+        description: Ramen worden zowel aan de binnen- als buitenzijde gereinigd, wat resulteert in een kristalhelder zicht en een perfecte afwerking.
       - title: Lakverfijning
-        description: >
-          Diepte Reiniging Lak door te Kleien
-          Onze kleibehandeling verwijdert de kleinste onzuiverheden uit de lak, wat essentieel is voor een gladde afwerking en voorbereiding op het polijsten.
+        description: Onze kleibehandeling verwijdert de kleinste onzuiverheden uit de lak, wat essentieel is voor een gladde afwerking en voorbereiding op het polijsten.
       - title: Glansherstel
-        description: >
-          Licht Polijsten van de Lak
-          Licht polijsten verwijdert fijne krasjes en herstelt de originele glans van uw auto, waardoor de lak weer als nieuw lijkt.
+        description: Licht polijsten verwijdert fijne krasjes en herstelt de originele glans van uw auto, waardoor de lak weer als nieuw lijkt.
 
   - block: tiles-6
     html: <h2>Perfect te combineren met</h2>
