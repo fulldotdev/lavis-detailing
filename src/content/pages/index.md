@@ -3,12 +3,12 @@ sections:
   - block: hero-6
     item:
       images:
-        - src: ../../assets/sil-veltman.jpeg
-          alt: Lavis Detailing Sneek
-        - src: ../../assets/sil-veltman.jpeg
-          alt: Lavis Detailing Sneek
-        - src: ../../assets/sil-veltman.jpeg
-          alt: Lavis Detailing Sneek
+        - src: ../../assets/polijsten-en-waxen-1.webp
+          alt: Auto polijsten en waxen resultaat
+        - src: ../../assets/auto-laten-polijsten-640x427.webp
+          alt: Professionele auto polijsten behandeling
+        - src: ../../assets/auto-zijkant-1280x962.webp
+          alt: Lavis Detailing auto detail werk
       rating: 5
       description: Uit 75+ reviews op Google
     html: >
