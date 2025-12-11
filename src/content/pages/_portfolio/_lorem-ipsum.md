@@ -5,7 +5,7 @@ title: "Auto detailing prijzen: wat kost zo’n grondige reiniging?"
 description: Wat kost het en wat levert het op?
 image:
   src: ../../../assets/coating-1.webp
-  alt: ""
+  alt: Auto detailing behandeling
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

@@ -90,5 +90,5 @@ sections:
         description: Een professioneel gewassen auto ziet er niet alleen beter uit, maar behoudt ook beter zijn waarde. Dit is gunstig voor de doorverkoop en maakt je auto aantrekkelijker voor potentiële kopers.
 seo:
   title: Exterieur detailing en auto wassen | Lavis Detailing Sneek
-  description: Professioneel auto wassen en exterieur detailing voor een glanzend resultaat
+  description: Professioneel auto wassen en exterieur detailing voor een glanzend resultaat. Grondige reiniging met handwassen, kleien en sealant voor optimale bescherming.
 ---

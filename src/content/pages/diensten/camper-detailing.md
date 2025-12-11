@@ -46,5 +46,5 @@ sections:
       - /src/content/pages/diensten/exterieur-detailing.md
 seo:
   title: Camper detailing en coating | Lavis Detailing Sneek
-  description: Glanzend, schoon, klaar voor avontuur
+  description: Glanzend, schoon, klaar voor avontuur. Professionele camper detailing en coating met Titan Coatings® voor maximale bescherming tegen weersinvloeden.
 ---

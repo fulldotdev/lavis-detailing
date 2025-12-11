@@ -35,5 +35,5 @@ sections:
       - /src/content/pages/diensten/coating.md
 seo:
   title: Schade van uw auto laten herstellen | Lavis Detailing Sneek
-  description: Breng uw auto terug naar zijn glorie
+  description: Breng uw auto terug naar zijn glorie. Professioneel schadeherstel met grondige nacontrole en detailing voor een perfect eindresultaat.
 ---

@@ -34,5 +34,5 @@ sections:
       - /src/content/pages/diensten/polijsten.md
 seo:
   title: Velgen laten repareren | Lavis Detailing Sneek
-  description: Laat uw beschadigde velgen weer stralen
+  description: Laat uw beschadigde velgen weer stralen. Professionele velgreparatie voor krassen, deuken en andere schade. Snelle en betaalbare service.
 ---

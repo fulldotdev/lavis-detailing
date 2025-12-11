@@ -8,6 +8,7 @@ sections:
         - src: ../../assets/sil-veltman.jpeg
           alt: Lavis Detailing Sneek
         - src: ../../assets/sil-veltman.jpeg
+          alt: Lavis Detailing Sneek
       rating: 5
       description: Uit 75+ reviews op Google
     html: >
@@ -29,7 +30,6 @@ sections:
     refs:
       - /src/content/pages/diensten/coating.md
       - /src/content/pages/diensten/polijsten.md
-      # cabrio dak
       - /src/content/pages/diensten/interieur-reiniging.md
     links:
       - text: Contact opnemen

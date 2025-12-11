@@ -77,6 +77,5 @@ sections:
         description: Zowel PPF als wrapping beschermen de originele lak, wat gunstig is voor de restwaarde.
 seo:
   title: PPF en Car Wrapping | Lavis Detailing Sneek
-  description: Bescherm je auto met Paint Protection Film (PPF) of geef hem een nieuwe look met Car Wrapping.
+  description: Bescherm je auto met Paint Protection Film (PPF) of geef hem een nieuwe look met Car Wrapping. Onzichtbare lakbescherming en unieke styling.
 ---
-

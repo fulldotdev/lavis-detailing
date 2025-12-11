@@ -52,5 +52,5 @@ sections:
       - /src/content/pages/diensten/interieur-reiniging.md
 seo:
   title: Auto ramen tinten | Lavis Detailing Sneek
-  description: Professioneel ramen tinten voor meer privacy, koelte en een stijlvolle uitstraling
+  description: Professioneel ramen tinten voor meer privacy, koelte en een stijlvolle uitstraling. Tot 99% UV-bescherming en 60% koeler interieur in de zomer.
 ---

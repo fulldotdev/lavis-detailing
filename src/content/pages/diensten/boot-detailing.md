@@ -83,5 +83,5 @@ sections:
         description: De hoogwaardige bescherming en afwerking helpen de waarde van uw boot te behouden, wat voordelig is bij eventuele verkoop in de toekomst.
 seo:
   title: Boot detailing en coating | Lavis Detailing Sneek
-  description: Uw boot, ons meesterwerk
+  description: Uw boot, ons meesterwerk. Professionele boot detailing en coating met Titan Coatings® TRITON TX550™ voor maximale bescherming tegen zout water en weersinvloeden.
 ---

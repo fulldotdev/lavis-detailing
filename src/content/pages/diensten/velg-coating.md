@@ -94,5 +94,5 @@ sections:
         description: De coating behoudt de glans van je velgen en beschermt tegen verkleuring.
 seo:
   title: Velgen laten coaten | Lavis Detailing Sneek
-  description: Bescherm je velgen met keramische coating tegen remstof en vuil
+  description: Bescherm je velgen met keramische coating tegen remstof en vuil. Hittebestendig tot 600°C met hydrofobe eigenschappen voor eenvoudig onderhoud.
 ---

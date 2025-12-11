@@ -136,5 +136,5 @@ sections:
         description: De coating vormt een harde laag die lichte krassen en slijtage effectief vermindert. Dankzij de zelfreinigende eigenschappen van onze coating garanderen wij dat het onderhoud van uw auto eenvoudiger en minder tijdrovend zal zijn.
 seo:
   title: Auto laten coaten | Lavis Detailing Sneek
-  description: Ervaar onze premium coating
+  description: Ervaar onze premium coating. Van Paradox en Apex coatings tot exclusieve Titan Coatings® met langdurige bescherming en zelfreinigende eigenschappen.
 ---

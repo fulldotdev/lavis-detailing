@@ -76,5 +76,5 @@ sections:
         description: Professionele detailing door Lavis Detailing helpt de waarde van je auto te behouden en te verhogen, wat gunstig is bij eventuele doorverkoop.
 seo:
   title: Exterieur detailing voor uw auto | Lavis Detailing Sneek
-  description: Ervaar perfectie en oog voor detail
+  description: Ervaar perfectie en oog voor detail. Professionele auto detailing met grondige reiniging, polijsten en bescherming voor een glanzend resultaat.
 ---

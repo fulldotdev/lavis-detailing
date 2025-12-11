@@ -110,5 +110,5 @@ sections:
       - /src/content/pages/diensten/polijsten.md
 seo:
   title: Titan Coatings® producten | Lavis Detailing Sneek
-  description: Ontdek onze hoogwaardige Titan Coatings® producten met Dark Matter Technology®
+  description: Ontdek onze hoogwaardige Titan Coatings® producten met Dark Matter Technology®. 8-10x dikker dan keramische coating met tot 15 jaar bescherming.
 ---

@@ -134,5 +134,5 @@ sections:
       - /src/content/pages/diensten/coating.md
 seo:
   title: Dagbehandeling voor uw auto | Lavis Detailing Sneek
-  description: Maak uw auto het gesprek van de dag
+  description: Maak uw auto het gesprek van de dag met onze professionele dagbehandeling. In één dag volledig verzorgd en beschermd tegen weersinvloeden.
 ---

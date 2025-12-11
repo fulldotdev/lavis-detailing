@@ -6,7 +6,7 @@ description: >-
   volgende auto gaat ook hierheen!
 image:
   src: https://storage.googleapis.com/fulldev-payload/lavis-detailing/Dec 8.webp
-  alt: ''
+  alt: Audi S8 na polijsten en Titan coating behandeling
 title: A A
 tagline: Audi S8
 rating: 5

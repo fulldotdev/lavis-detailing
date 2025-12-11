@@ -51,5 +51,5 @@ sections:
       - /src/content/pages/diensten/polijsten.md
 seo:
   title: Koplamp restauratie | Lavis Detailing Sneek
-  description: Herstel vergeelde en doffe koplampen voor beter zicht en uitstraling
+  description: Herstel vergeelde en doffe koplampen voor beter zicht en uitstraling. Professionele koplamp restauratie met beschermende coating voor kristalhelder resultaat.
 ---
