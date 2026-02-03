@@ -47,7 +47,7 @@ sections:
   - block: tiles-6
     html: <h2>Perfect te combineren met</h2>
     refs:
-      - /src/content/pages/diensten/ppf-en-wrapping.md
+      - /src/content/pages/diensten/wrapping-en-bestickering.md
       - /src/content/pages/diensten/coating.md
       - /src/content/pages/diensten/interieur-reiniging.md
 seo:

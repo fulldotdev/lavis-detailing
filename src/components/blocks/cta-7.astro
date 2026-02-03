@@ -39,6 +39,7 @@ interface Props {
       src: string
       alt: string
     }[]
+    href?: string
     rating?: number
     description?: string
   }
@@ -70,7 +71,7 @@ const { class: className, id, links, image, item } = Astro.props
           ))
         }
       </SectionActions>
-      <Item class="-m-4 shrink-0">
+      <Item class="-m-4 shrink-0" href={item?.href} target="_blank">
         <ItemMedia class="-space-x-4">
           {
             item?.images?.map((image) => (

@@ -22,7 +22,8 @@ sections:
         href: /contact/
     refs:
       - /src/content/pages/diensten/waxen.md
-      - /src/content/pages/diensten/ppf-en-wrapping.md
+      - /src/content/pages/diensten/ppf.md
+      - /src/content/pages/diensten/wrapping-en-bestickering.md
       - /src/content/pages/diensten/onderhouds-wasbeurt.md
       - /src/content/pages/diensten/velg-coating.md
       - /src/content/pages/diensten/koplamp-restauratie.md

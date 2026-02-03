@@ -101,6 +101,7 @@ const item = (ctx: SchemaContext) =>
       socials: z.string().array(),
       list: z.string().array(),
       video: z.string(),
+      halfHeight: z.boolean(),
     })
     .partial()
     .strict()

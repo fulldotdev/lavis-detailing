@@ -9,6 +9,7 @@ sections:
           alt: Professionele auto polijsten behandeling
         - src: ../../assets/auto-zijkant-1280x962.webp
           alt: Lavis Detailing auto detail werk
+      href: https://maps.app.goo.gl/dxUfXBNubLk7f6jB8
       rating: 5
       description: Uit 75+ reviews op Google
     html: >
@@ -31,6 +32,10 @@ sections:
       - /src/content/pages/diensten/coating.md
       - /src/content/pages/diensten/polijsten.md
       - /src/content/pages/diensten/interieur-reiniging.md
+      - /src/content/pages/diensten/ppf.md
+      - /src/content/pages/diensten/wrapping-en-bestickering.md
+      - /src/content/pages/diensten/velg-coating.md
+      - /src/content/pages/diensten/koplamp-restauratie.md
     links:
       - text: Contact opnemen
         href: /contact/
@@ -43,13 +48,12 @@ sections:
         href: /contact/
     refs:
       - /src/content/pages/diensten/waxen.md
-      - /src/content/pages/diensten/ppf-en-wrapping.md
+      - /src/content/pages/diensten/wrapping-en-bestickering.md
       - /src/content/pages/diensten/onderhouds-wasbeurt.md
-      - /src/content/pages/diensten/velg-coating.md
-      - /src/content/pages/diensten/koplamp-restauratie.md
       - /src/content/pages/diensten/ramen-tinten.md
-      - /src/content/pages/diensten/velgreparatie.md
       - /src/content/pages/diensten/schadeherstel.md
+      - /src/content/pages/diensten/velgreparatie.md
+
   - block: tiles-5
     html: |
       <h2>Wij detailen ook <strong>BOTEN</strong> en <strong>CAMPERS.</strong></h2>
@@ -86,6 +90,7 @@ sections:
       image:
         src: ../../assets/google-logo.png
         alt: Lavis Detailing Sneek
+      href: https://maps.app.goo.gl/dxUfXBNubLk7f6jB8
       rating: 5
       description: Uit 75+ reviews op Google
     refs:
