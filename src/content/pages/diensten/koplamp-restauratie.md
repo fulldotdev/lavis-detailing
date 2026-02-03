@@ -1,6 +1,7 @@
 ---
 title: Koplamp restauratie
 description: Heldere koplampen voor beter zicht.
+halfHeight: true
 image:
   src: ../../../assets/exterieur1.webp
   alt: Koplamp restauratie

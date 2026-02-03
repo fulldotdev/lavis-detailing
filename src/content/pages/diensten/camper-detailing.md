@@ -1,6 +1,7 @@
 ---
 title: Camper detailing
 description: Al onze diensten, maar dan voor uw camper.
+halfHeight: true
 image:
   src: ../../../assets/camper-detailing-1-1200x1200.webp
   alt: Camper detailing en coating

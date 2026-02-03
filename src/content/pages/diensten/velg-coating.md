@@ -1,6 +1,7 @@
 ---
 title: Velg coating
 description: Bescherm je velgen tegen vuil en remstof.
+halfHeight: true
 image:
   src: ../../../assets/Velgen-poetsen-1280x854.webp
   alt: Velg coating

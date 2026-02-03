@@ -1,6 +1,7 @@
 ---
 title: Boot detailing
 description: Al onze diensten, maar dan voor uw boot.
+halfHeight: true
 image:
   src: ../../../assets/boot coaten 1.webp
   alt: Boot detailing en coating
