@@ -79,4 +79,3 @@ seo:
   title: Car wrapping & bestickering | Lavis Detailing Sneek
   description: Geef je auto een nieuwe look met car wrapping of kies voor bestickering en belettering. Honderden kleuren/afwerkingen, strak gemonteerd en (meestal) verwijderbaar.
 ---
-

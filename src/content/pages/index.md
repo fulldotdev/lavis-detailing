@@ -33,7 +33,6 @@ sections:
       - /src/content/pages/diensten/polijsten.md
       - /src/content/pages/diensten/interieur-reiniging.md
       - /src/content/pages/diensten/ppf.md
-      - /src/content/pages/diensten/wrapping-en-bestickering.md
       - /src/content/pages/diensten/velg-coating.md
       - /src/content/pages/diensten/koplamp-restauratie.md
     links:
@@ -53,7 +52,6 @@ sections:
       - /src/content/pages/diensten/ramen-tinten.md
       - /src/content/pages/diensten/schadeherstel.md
       - /src/content/pages/diensten/velgreparatie.md
-
   - block: tiles-5
     html: |
       <h2>Wij detailen ook <strong>BOTEN</strong> en <strong>CAMPERS.</strong></h2>

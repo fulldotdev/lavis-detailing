@@ -8,11 +8,12 @@ sections:
       - text: Contact opnemen
         href: /contact/
     refs:
-      # - /src/content/pages/diensten/exterieur-detailing.md
       - /src/content/pages/diensten/coating.md
       - /src/content/pages/diensten/polijsten.md
-      # cabrio dak
       - /src/content/pages/diensten/interieur-reiniging.md
+      - /src/content/pages/diensten/ppf.md
+      - /src/content/pages/diensten/velg-coating.md
+      - /src/content/pages/diensten/koplamp-restauratie.md
   - block: tiles-6
     html: |
       <h2><Strong>MEER DIENSTEN</Strong> voor interieur en exterieur.</h2>
@@ -22,14 +23,11 @@ sections:
         href: /contact/
     refs:
       - /src/content/pages/diensten/waxen.md
-      - /src/content/pages/diensten/ppf.md
       - /src/content/pages/diensten/wrapping-en-bestickering.md
       - /src/content/pages/diensten/onderhouds-wasbeurt.md
-      - /src/content/pages/diensten/velg-coating.md
-      - /src/content/pages/diensten/koplamp-restauratie.md
       - /src/content/pages/diensten/ramen-tinten.md
-      - /src/content/pages/diensten/velgreparatie.md
       - /src/content/pages/diensten/schadeherstel.md
+      - /src/content/pages/diensten/velgreparatie.md
   - block: tiles-5
     html: |
       <h2>Wij detailen ook <strong>BOTEN</strong> en <strong>CAMPERS.</strong></h2>

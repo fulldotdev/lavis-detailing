@@ -70,4 +70,3 @@ seo:
   title: PPF (Paint Protection Film) | Lavis Detailing Sneek
   description: Bescherm je auto met Paint Protection Film (PPF). Onzichtbare, zelfherstellende lakbescherming tegen steenslag en krassen voor maximaal waardebehoud.
 ---
-
