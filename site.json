@@ -1,0 +1,12 @@
+{
+  "site": "https://lavis-detailing.nl",
+  "name": "Lavis Detailing",
+  "defaultLocale": "nl",
+  "locales": ["nl"],
+  "favicon": "src/assets/favicon.png",
+  "theme": "dark",
+  "fonts": {
+    "base": "Inter",
+    "heading": "Inter"
+  }
+}

@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7z06GBvR7ses
 _stripe_price_id: price_1OABk0A46xQDCsGFG2eVH9ln
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Koch Chemie Finish Spray Exterior (1L)
@@ -25,9 +23,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Finish-Spray-Exterior-1L.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/lak-bescherming.md
-  - src/content/categories/koch-chemie.md
+  - categories/exterieur
+  - categories/lak-bescherming
+  - categories/koch-chemie
 price: 13.5
 prices:
   options:

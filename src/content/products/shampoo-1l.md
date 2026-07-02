@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy716HdPWwghoQ
 _stripe_price_id: price_1OAAmzA46xQDCsGFFlScX46y
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Shampoo - 1L
@@ -16,9 +14,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Shampoo-GL-1L-2.webp
     alt: null
 categories:
-  - src/content/categories/gl.md
-  - src/content/categories/exterieur.md
-  - src/content/categories/wassen.md
+  - categories/gl
+  - categories/exterieur
+  - categories/wassen
 price: 15.99
 prices:
   options:

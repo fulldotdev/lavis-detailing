@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7vkQdlKleX4v
 _stripe_price_id: price_1OABg0A46xQDCsGF8pg6U2JY
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Detail Factory Brushes Mini 2-pack
@@ -28,10 +26,10 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-mini-2-pack.webp
     alt: null
 categories:
-  - src/content/categories/borstels-en-kwasten.md
-  - src/content/categories/detail-factory.md
-  - src/content/categories/exterieur.md
-  - src/content/categories/interieur.md
+  - categories/borstels-en-kwasten
+  - categories/detail-factory
+  - categories/exterieur
+  - categories/interieur
 price: 19.5
 prices:
   options:

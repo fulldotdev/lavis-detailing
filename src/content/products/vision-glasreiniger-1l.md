@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy6wjJcUxXrjkU
 _stripe_price_id: price_1OAAiPA46xQDCsGF3u0grwZh
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Vision Glasreiniger - 1L
@@ -19,8 +17,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vision-GL-1L-1.webp
     alt: null
 categories:
-  - src/content/categories/ramen-reinigen.md
-  - src/content/categories/gl.md
+  - categories/ramen-reinigen
+  - categories/gl
 price: 15.99
 _inputs:
 

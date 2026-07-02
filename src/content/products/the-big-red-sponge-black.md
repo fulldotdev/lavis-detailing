@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7ieGJizaMyXJ
 _stripe_price_id: price_1OABSdA46xQDCsGFOwNatRVM
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: The Big Red Sponge - Black
@@ -16,9 +14,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Big-Red-Sponge-1.webp
     alt: null
 categories:
-  - src/content/categories/wassen.md
-  - src/content/categories/sponzen.md
-  - src/content/categories/optimum-polymer-technologies.md
+  - categories/wassen
+  - categories/sponzen
+  - categories/optimum-polymer-technologies
 price: 34.9
 prices:
   options:

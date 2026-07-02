@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7w78Bvv57zE2
 _stripe_price_id: price_1OABhWA46xQDCsGFJ5nki8i6
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: IK Foam Pro 12 Sprayer
@@ -21,8 +19,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ik-foam-pro-12-main.webp
     alt: null
 categories:
-  - src/content/categories/sprayers.md
-  - src/content/categories/ik.md
+  - categories/sprayers
+  - categories/ik
 price: 139.99
 prices:
   options:

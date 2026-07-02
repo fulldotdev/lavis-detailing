@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy81oLvovc5KKA
 _stripe_price_id: price_1OABlpA46xQDCsGFBMCBI4CG
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Koch Chemie Plast Star (1L)
@@ -21,8 +19,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Plast-Star-siliconolfrei-1L.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/interieur.md
+  - categories/exterieur
+  - categories/interieur
 price: 20.4
 prices:
   options:

@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8DVzlE2swtMh
 _stripe_price_id: price_1OABwmA46xQDCsGFjgupc1wp
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Spectrum 420 dual-pile - Blue
@@ -21,10 +19,10 @@ images:
       Blue.webp
     alt: null
 categories:
-  - src/content/categories/interieur.md
-  - src/content/categories/exterieur.md
-  - src/content/categories/doeken.md
-  - src/content/categories/trc.md
+  - categories/interieur
+  - categories/exterieur
+  - categories/doeken
+  - categories/trc
 price: 4.2
 prices:
   options:

@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy89WfnWirlWJO
 _stripe_price_id: price_1OABslA46xQDCsGFmHyBv7gf
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Koch Chemie Pol Star (1L)
@@ -16,8 +14,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Koch-Chemie-Pol.webp
     alt: null
 categories:
-  - src/content/categories/koch-chemie.md
-  - src/content/categories/interieur.md
+  - categories/koch-chemie
+  - categories/interieur
 price: 12.99
 prices:
   options:

@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8MqWKMZ0DHqN
 _stripe_price_id: price_1OAC5IA46xQDCsGFrCeFLZH9
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Perfecta SiO2 500ML
@@ -16,9 +14,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/perfecta-sio2.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/lak-bescherming.md
-  - src/content/categories/labocosmetica.md
+  - categories/exterieur
+  - categories/lak-bescherming
+  - categories/labocosmetica
 price: 19.5
 prices:
   options:

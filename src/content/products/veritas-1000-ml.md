@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8IeSSIsUFlzx
 _stripe_price_id: price_1OAC24A46xQDCsGF5jRcUehK
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Veritas 1000 ML
@@ -22,9 +20,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/tabel-textiel-reiniging-aangepast-WEB-scaled.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/labocosmetica.md
-  - src/content/categories/interieur.md
+  - categories/exterieur
+  - categories/labocosmetica
+  - categories/interieur
 price: 22.64
 prices:
   options:

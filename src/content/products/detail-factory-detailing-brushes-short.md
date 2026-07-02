@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy88CSWZBqdvcF
 _stripe_price_id: price_1OABs8A46xQDCsGFv9zenFyq
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Detail Factory Detailing Brushes (Short)
@@ -16,11 +14,11 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-1-bd004cb296bd.webp
     alt: null
 categories:
-  - src/content/categories/motorruimte.md
-  - src/content/categories/borstels-en-kwasten.md
-  - src/content/categories/detail-factory.md
-  - src/content/categories/exterieur.md
-  - src/content/categories/interieur.md
+  - categories/motorruimte
+  - categories/borstels-en-kwasten
+  - categories/detail-factory
+  - categories/exterieur
+  - categories/interieur
 price: 16.5
 prices:
   options:

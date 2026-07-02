@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy71g4hy47txoK
 _stripe_price_id: price_1OAAnYA46xQDCsGF3UcE5tG8
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Shampoo -  500ml
@@ -19,9 +17,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Shampoo-GL-1L-1.webp
     alt: null
 categories:
-  - src/content/categories/wassen.md
-  - src/content/categories/gl.md
-  - src/content/categories/exterieur.md
+  - categories/wassen
+  - categories/gl
+  - categories/exterieur
 price: 10.99
 prices:
   options:

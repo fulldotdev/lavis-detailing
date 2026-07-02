@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7zaisCOnoN73
 _stripe_price_id: price_1OABjfA46xQDCsGFq6j1qv8A
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Koch Chemie Eulex (1L)
@@ -21,8 +19,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Eulex-1L.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/koch-chemie.md
+  - categories/exterieur
+  - categories/koch-chemie
 price: 11.8
 prices:
   options:

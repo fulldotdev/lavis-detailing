@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8E3TPDPED4XJ
 _stripe_price_id: price_1OABxvA46xQDCsGFYXQQXkOm
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: The liquid8r twist loop 63x91cm
@@ -21,8 +19,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/ezgif-6-c04af3366798.webp
     alt: null
 categories:
-  - src/content/categories/doeken.md
-  - src/content/categories/trc.md
+  - categories/doeken
+  - categories/trc
 price: 23.75
 prices:
   options:

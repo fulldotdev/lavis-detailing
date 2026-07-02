@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7Y2kr3KhlSCr
 _stripe_price_id: price_1OABMXA46xQDCsGFJHqjkqhF
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: OPTIMUM Opti-Bond Tire Gel - Fles
@@ -22,8 +20,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Opti-Bond-Tire-Gel-GALLON-1.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/optimum-polymer-technologies.md
+  - categories/exterieur
+  - categories/optimum-polymer-technologies
 price: 26.9
 prices:
   options:

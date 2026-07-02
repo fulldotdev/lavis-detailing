@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7xQGPTQh9GEN
 _stripe_price_id: price_1OABhnA46xQDCsGFiImAkifv
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: IK FOAM PRO 2 SPRAYER
@@ -26,8 +24,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/IK-Foam-Pro-2-Main__41518.1579733735.1280.1280.webp
     alt: null
 categories:
-  - src/content/categories/sprayers.md
-  - src/content/categories/ik.md
+  - categories/sprayers
+  - categories/ik
 price: 29.5
 prices:
   options:

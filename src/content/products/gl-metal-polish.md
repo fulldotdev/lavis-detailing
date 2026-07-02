@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8GOSAx6QTxDs
 _stripe_price_id: price_1OABzhA46xQDCsGF7aT6JoC4
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: GL Metal Polish
@@ -20,8 +18,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Metal-GL-225gr-scaled.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/gl.md
+  - categories/exterieur
+  - categories/gl
 price: 17.99
 prices:
   options:

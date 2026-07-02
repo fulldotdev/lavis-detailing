@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8IRBl3LOYyNQ
 _stripe_price_id: price_1OAC1oA46xQDCsGFqh240LXW
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Ductile 500 ML
@@ -20,8 +18,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ductile2.webp
     alt: null
 categories:
-  - src/content/categories/interieur.md
-  - src/content/categories/labocosmetica.md
+  - categories/interieur
+  - categories/labocosmetica
 price: 13.78
 prices:
   options:

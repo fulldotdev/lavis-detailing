@@ -1,0 +1,123 @@
+headers:
+  # - block: banner-1
+  #   title: Wij zijn Titan Coatings distributeur
+  #   description: Wil je je aansluiten als detailer? Klik hier >
+  - block: header-1
+    image:
+      src: ../../assets/lavis-logo.svg
+      alt: Lavis Detailing
+    menus:
+      - text: Home
+        href: /
+      - text: Diensten
+        href: /diensten/
+      - text: Over ons
+        href: /over-ons/
+      # - text: Producten
+      #   href: "#"
+      - text: Blog
+        href: /posts/
+      - text: Portfolio
+        href: https://instagram.com/lavis_detailing
+        target: _blank
+    links:
+      - text: Contact opnemen
+        href: /contact/
+sections:
+  - block: cta-7
+    html: >
+      <h2>Vraag <strong>INFORMATIE</strong> op.</h2>
+      <p>Neem vrijblijvend contact op voor vragen of een offerte.</p>
+    image:
+      src: ../../assets/lavis-bg-4-optimized.webp
+      alt: Lavis Detailing Sneek
+    links:
+      - text: Contact opnemen
+        href: /contact/
+    item:
+      images:
+        - src: ../../assets/polijsten-en-waxen-1.webp
+          alt: Auto polijsten en waxen resultaat
+        - src: ../../assets/auto-laten-polijsten-640x427.webp
+          alt: Professionele auto polijsten behandeling
+        - src: ../../assets/auto-zijkant-1280x962.webp
+          alt: Lavis Detailing auto detail werk
+      href: https://maps.app.goo.gl/dxUfXBNubLk7f6jB8
+      rating: 5
+      description: Uit 75+ reviews op Google
+footers:
+  - block: footer-1
+    description: Auto detailing en coating specialist in Sneek
+    image:
+      src: ../../assets/lavis-logo.svg
+      alt: Lavis Detailing
+    html: >
+      <p>Auto detailing en coating specialist in Sneek</p>
+      <p>&copy; Lavis Detailing</p>
+    links:
+      - icon: whatsapp
+        text: WhatsApp
+        href: https://wa.me/31610158706
+      - icon: mail
+        text: info@lavis-detailing.nl
+        href: mailto:info@lavis-detailing.nl
+      - icon: phone
+        text: +316 10158706
+        href: tel:+31610158706
+      - icon: map-pin
+        text: Top 8, 8606JT, Sneek
+        href: https://maps.app.goo.gl/dxUfXBNubLk7f6jB8
+    menus:
+      - text: Hoofddiensten
+        links:
+          - text: Alle diensten
+            href: /diensten/
+          - text: Interieur detailing
+            href: /diensten/interieur-detailing/
+          - text: Exterieur detailing
+            href: /diensten/exterieur-detailing/
+          - text: Coating
+            href: /diensten/coating/
+          - text: Polijsten
+            href: /diensten/polijsten/
+          - text: Boot detailing
+            href: /diensten/boot-detailing/
+          - text: Camper detailing
+            href: /diensten/camper-detailing/
+      - text: Overige diensten
+        links:
+          - text: Wassen
+            href: /diensten/wassen/
+          - text: Reinigen
+            href: /diensten/reinigen/
+          - text: Velgreparatie
+            href: /diensten/velgreparatie/
+          - text: Schadeherstel
+            href: /diensten/schadeherstel/
+          - text: Koplamp restauratie
+            href: /diensten/koplamprestauratie/
+          - text: PPF
+            href: /diensten/ppf/
+          - text: Wrapping
+            href: /diensten/wrapping/
+      - text: Bedrijf
+        links:
+          - text: Over ons
+            href: /over-ons/
+          - text: Portfolio
+            href: /portfolio/
+          - text: Blog
+            href: /posts/
+          - text: Contact
+            href: /contact/
+          - text: Plan intake
+            href: /intake/
+    # links:
+    #   - text: Kvk. 75337231
+    #     href: https://www.kvk.nl/zoeken/ondernemer/?kvknummer=75337231
+    #   - text: Algemene voorwaarden
+    #     href: /algemene-voorwaarden/
+    #   - text: Disclaimer
+    #     href: /disclaimer/
+    #   - text: Privacyverklaring
+    #     href: /privacyverklaring/

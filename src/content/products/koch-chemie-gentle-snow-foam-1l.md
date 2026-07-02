@@ -1,10 +1,8 @@
 ---
-_schema: default
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Koch Chemie Gentle Snow Foam (1L)
@@ -23,9 +21,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Gentle-Snow-Foam-1L.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/wassen.md
-  - src/content/categories/koch-chemie.md
+  - categories/exterieur
+  - categories/wassen
+  - categories/koch-chemie
 price: 16.5
 prices:
   options:

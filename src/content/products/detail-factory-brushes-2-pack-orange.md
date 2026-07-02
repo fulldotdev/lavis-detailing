@@ -1,10 +1,8 @@
 ---
-_schema: default
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Detail Factory Brushes 2-pack -  Orange
@@ -25,10 +23,10 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/detail-factory-brushes-blue-2-pack-main-web-1.webp
     alt: null
 categories:
-  - src/content/categories/detail-factory.md
-  - src/content/categories/borstels-en-kwasten.md
-  - src/content/categories/interieur.md
-  - src/content/categories/exterieur.md
+  - categories/detail-factory
+  - categories/borstels-en-kwasten
+  - categories/interieur
+  - categories/exterieur
 price: 19.5
 prices:
   options:

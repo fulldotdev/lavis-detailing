@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy8L4y7UCe9fli
 _stripe_price_id: price_1OAC4vA46xQDCsGFbWI4vkWQ
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Hydra 500ML
@@ -16,9 +14,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/labocosmetica-labocosmetica-hydra.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/interieur.md
-  - src/content/categories/labocosmetica.md
+  - categories/exterieur
+  - categories/interieur
+  - categories/labocosmetica
 price: 18.95
 prices:
   options:

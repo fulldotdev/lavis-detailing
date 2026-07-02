@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7uI4PvTsblNQ
 _stripe_price_id: price_1OABekA46xQDCsGF7iRIK3JY
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Interior Scrub Brush
@@ -18,9 +16,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Interior-Scrub-Brush.webp
     alt: null
 categories:
-  - src/content/categories/wassen.md
-  - src/content/categories/borstels-en-kwasten.md
-  - src/content/categories/interieur.md
+  - categories/wassen
+  - categories/borstels-en-kwasten
+  - categories/interieur
 price: 14.75
 prices:
   options:

@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7dEr4lxEhmLt
 _stripe_price_id: price_1OABNqA46xQDCsGFbhVMIozw
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: OPTIMUM Tire Protection Coating - Fles
@@ -20,8 +18,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/OPTIMUM-Tire-Protection-Coating-1L.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/optimum-polymer-technologies.md
+  - categories/exterieur
+  - categories/optimum-polymer-technologies
 price: 61.99
 prices:
   options:

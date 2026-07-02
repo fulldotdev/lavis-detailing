@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy81pf2Yi7DVla
 _stripe_price_id: price_1OABlFA46xQDCsGFRMYWMTup
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Koch Chemie Motorplas (500ml)
@@ -26,8 +24,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Motorplas-500-ml.webp
     alt: null
 categories:
-  - src/content/categories/motorruimte.md
-  - src/content/categories/koch-chemie.md
+  - categories/motorruimte
+  - categories/koch-chemie
 price: 11.4
 prices:
   options:

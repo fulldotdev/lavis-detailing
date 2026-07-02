@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy6xPNgtoXXOsb
 _stripe_price_id: price_1OAAkEA46xQDCsGFwy9FBVDG
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Vision Glasreiniger - 500ml
@@ -16,8 +14,8 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Vision-GL-05L-1.webp
     alt: null
 categories:
-  - src/content/categories/gl.md
-  - src/content/categories/ramen-reinigen.md
+  - categories/gl
+  - categories/ramen-reinigen
 price: 10.99
 prices:
   options:

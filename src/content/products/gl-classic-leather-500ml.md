@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy5k3xfnhM6sFf
 _stripe_price_id: price_1OA9rHA46xQDCsGFMiCkJA13
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: GL Classic Leather 500ml
@@ -19,9 +17,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Classic-GL-05L-1.webp
     alt: null
 categories:
-  - src/content/categories/interieur.md
-  - src/content/categories/leer-bescherming.md
-  - src/content/categories/gl.md
+  - categories/interieur
+  - categories/leer-bescherming
+  - categories/gl
 price: 19.99
 prices:
   options:

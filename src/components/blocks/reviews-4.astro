@@ -1,0 +1,99 @@
+---
+import { cn } from "@/lib/utils"
+import { Avatar, AvatarImage } from "@/components/ui/avatar"
+import { Button } from "@/components/ui/button"
+import { Icon } from "@/components/ui/icon"
+import {
+  Item,
+  ItemContent,
+  ItemDescription,
+  ItemMedia,
+  ItemTitle,
+} from "@/components/ui/item"
+import {
+  NativeCarousel,
+  NativeCarouselContent,
+  NativeCarouselItem,
+  NativeCarouselNext,
+  NativeCarouselPrevious,
+} from "@/components/ui/native-carousel"
+import { Rating } from "@/components/ui/rating"
+import {
+  Section,
+  SectionActions,
+  SectionContent,
+  SectionProse,
+} from "@/components/ui/section"
+import { Tile, TileContent, TileDescription } from "@/components/ui/tile"
+
+interface Props {
+  class?: string
+  id?: string
+  links?: {
+    icon?: string
+    text?: string
+    href?: string
+    target?: string
+  }[]
+  items?: {
+    title?: string
+    description?: string
+    rating?: number
+    href?: string
+    image?: {
+      src: string
+      alt: string
+    }
+    tagline?: string
+  }[]
+}
+
+const { class: className, id, links, items } = Astro.props
+---
+
+<Section class={cn("", className)} id={id}>
+  <SectionContent>
+    <SectionProse>
+      <slot />
+    </SectionProse>
+    <SectionActions>
+      {
+        links?.map(({ icon, text, ...button }, i) => (
+          <Button variant={i === 0 ? "default" : "outline"} {...button}>
+            {icon && <Icon name={icon} />}
+            {text}
+          </Button>
+        ))
+      }
+    </SectionActions>
+  </SectionContent>
+  <NativeCarousel>
+    <NativeCarouselContent>
+      {
+        items?.map(({ title, description, rating, href, image, tagline }) => (
+          <NativeCarouselItem>
+            <Tile href={href}>
+              <Rating rating={rating} />
+              <TileContent>
+                <TileDescription>{description}</TileDescription>
+              </TileContent>
+              <Item class="-m-4">
+                <ItemMedia>
+                  <Avatar>
+                    <AvatarImage src={image?.src} alt={image?.alt} />
+                  </Avatar>
+                </ItemMedia>
+                <ItemContent>
+                  <ItemTitle>{title}</ItemTitle>
+                  <ItemDescription>{tagline}</ItemDescription>
+                </ItemContent>
+              </Item>
+            </Tile>
+          </NativeCarouselItem>
+        ))
+      }
+    </NativeCarouselContent>
+    <NativeCarouselPrevious />
+    <NativeCarouselNext />
+  </NativeCarousel>
+</Section>

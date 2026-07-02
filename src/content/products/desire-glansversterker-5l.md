@@ -1,12 +1,10 @@
 ---
-_schema: default
 _stripe_product_id: prod_Oy7Fj3K5ByBZWw
 _stripe_price_id: price_1OAB18A46xQDCsGFJ6tG8k27
 seo:
   title: null
   description: null
   image:
-    _bookshop_name: elements/image
     src: null
     alt: null
 title: Desire Glansversterker -  5L
@@ -20,9 +18,9 @@ images:
       https://storage.googleapis.com/fulldev-payload/lavis-detailing/Desire-GL-05L-3.webp
     alt: null
 categories:
-  - src/content/categories/exterieur.md
-  - src/content/categories/lak-bescherming.md
-  - src/content/categories/gl.md
+  - categories/exterieur
+  - categories/lak-bescherming
+  - categories/gl
 price: 69.99
 prices:
   options:
