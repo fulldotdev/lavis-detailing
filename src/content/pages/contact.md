@@ -10,16 +10,16 @@ sections:
     items:
       - icon: phone
         title: Phone
-        description: 06-12517010
-        href: tel:+31612517010
+        description: 06 10158706
+        href: tel:+31610158706
       - icon: mail
         title: Email
         description: info@lavis-detailing.nl
         href: mailto:info@lavis-detailing.nl
       - icon: whatsapp
         title: Whatsapp
-        description: 06-12517010
-        href: https://wa.me/31612517010
+        description: 06 10158706
+        href: https://wa.me/31610158706
     form:
       inbox: lavis-detailing
       action: /bedankt/
