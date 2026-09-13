@@ -9,9 +9,7 @@ description: >-
   gepolijst en gecoat.
 rating: 5
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ford Escort
-    1300L 1983 Coating-1.webp
+  src: ""
   alt: ''
 
 title: Kevin Peters

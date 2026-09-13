@@ -14,8 +14,6 @@ description: >-
 
   Services: Full body wash, Auto detailing
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/VW Polo
-    coating.webp
+  src: ""
   alt: ''
 ---

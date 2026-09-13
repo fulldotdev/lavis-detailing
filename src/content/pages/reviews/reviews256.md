@@ -11,8 +11,6 @@ description: >-
   Arjen. Daar werden we vriendelijk ontvangen door super gedreven en
   enthousiaste mannen.
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Auto Wiebe de
-    Boer.webp
+  src: ""
   alt: ''
 ---

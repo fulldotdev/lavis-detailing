@@ -17,8 +17,6 @@ description: >-
 
   Services: Clay bar treatment, Auto detailing, Car waxing, Paint repair
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Ford Focus ST
-    Line Coating.webp
+  src: ""
   alt: ''
 ---
