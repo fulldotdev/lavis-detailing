@@ -3,8 +3,7 @@ layout: post
 block: article-1
 title: Auto Detailing in slechts één dag bij Lavis Detailing in Sneek
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-zijkant.webp
+  src: ../../../assets/auto-zijkant-1280x962.webp
   alt: ""
 ---
 

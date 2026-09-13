@@ -4,9 +4,7 @@ block: article-1
 title: "Jouw auto laten coaten: dit zijn de voordelen!"
 description: Ontdek voordelen van auto coaten
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Coating
-    image-1.webp
+  src: ../../../assets/Coating image-1.webp
   alt: ""
 ---
 

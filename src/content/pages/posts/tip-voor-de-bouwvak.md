@@ -4,8 +4,7 @@ block: article-1
 title: Tip voor de bouwvak
 description: ""
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/lavis-detailing-auto.webp
+  src: ../../../assets/lavis-detailing-auto-640x494.webp
   alt: ""
 ---
 

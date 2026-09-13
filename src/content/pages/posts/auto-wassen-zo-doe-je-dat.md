@@ -4,8 +4,7 @@ block: article-1
 title: "Auto wassen: zo doe je dat!"
 description: Meer dan alleen schoon
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-wassen-afbeelding-lavis-1.webp
+  src: ../../../assets/auto-wassen-afbeelding-lavis-1-1280x720.webp
   alt: ""
 ---
 

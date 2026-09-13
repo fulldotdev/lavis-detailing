@@ -4,8 +4,7 @@ block: article-1
 title: De nieuwe website van Lavis Detailing ontwikkeld door Fulldev
 description: "Hoe de nieuwe website van Lavis Detailing is ontwikkeld "
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/samenwerking-lavis-fulldev.webp
+  src: ../../../assets/samenwerking-lavis-fulldev-640x427.webp
   alt: ""
 ---
 

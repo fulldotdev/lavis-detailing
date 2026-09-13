@@ -3,8 +3,7 @@ layout: post
 block: article-1
 title: "Auto interieur reinigen. Op pad met een schone auto!\_"
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/car-detailing-image-interior.webp
+  src: ../../../assets/car-detailing-image-interior-640x427.webp
   alt: ""
 ---
 

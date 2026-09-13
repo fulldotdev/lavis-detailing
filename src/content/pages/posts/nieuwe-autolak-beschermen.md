@@ -4,8 +4,7 @@ block: article-1
 title: Nieuwe autolak beschermen?
 description: Bescherm je autolak tegen beschadigingen en houd je auto langer mooi
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/autolak-beschermen.webp
+  src: ../../../assets/autolak-beschermen-640x427.webp
   alt: ""
 ---
 

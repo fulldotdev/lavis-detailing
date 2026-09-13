@@ -4,8 +4,7 @@ block: article-1
 title: "Exterieur detailing: wat houdt het in?"
 description: Verhoog de Waarde en Uitstraling van uw Auto
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/exterieur-detailing.webp
+  src: ../../../assets/exterieur-detailing-1280x711.webp
   alt: ""
 ---
 

@@ -4,8 +4,7 @@ block: article-1
 title: Wat is een auto behandelplan?
 description: Leer alles over auto behandelplannen
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/blauwdruk-auto-behandelplan.webp
+  src: ../../../assets/blauwdruk-auto-behandelplan-640x374.webp
   alt: ""
 ---
 
