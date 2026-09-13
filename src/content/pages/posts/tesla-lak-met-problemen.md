@@ -4,8 +4,7 @@ block: article-1
 title: "Tesla lak met problemen?\_"
 description: Bescherm je Tesla lak tegen problemen
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/tesla-coating-lavis.webp
+  src: ../../../assets/tesla-coating-lavis-640x427.webp
   alt: ""
 ---
 

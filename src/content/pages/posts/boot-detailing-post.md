@@ -4,8 +4,7 @@ block: article-1
 title: Boot detailing en lak coating
 description: Essentieel voor de levensduur van uw boot
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Boot-detailing-lak-beschermen.webp
+  src: ../../../assets/Boot-detailing-lak-beschermen-1280x549.webp
   alt: ""
 ---
 

@@ -4,8 +4,7 @@ block: article-1
 title: Professionele Velgreparatie Service in Sneek
 description: Wij herstellen uw beschadigde velgen weer naar hun oorspronkelijke glans.
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Velgen-poetsen.webp
+  src: ../../../assets/Velgen-poetsen-1280x854.webp
   alt: ""
 ---
 

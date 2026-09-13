@@ -4,8 +4,7 @@ block: article-1
 title: "Auto detailing prijzen: wat kost zo’n grondige reiniging?"
 description: Wat kost het en wat levert het op?
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Is-detailing-het-waardjpg.webp
+  src: ../../../assets/Is-detailing-het-waardjpg-640x427.webp
   alt: ""
 ---
 

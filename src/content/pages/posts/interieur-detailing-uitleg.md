@@ -4,9 +4,7 @@ block: article-1
 title: "Interieur Detailing: Laat Uw Auto Weer Stralen"
 description: Laat Uw Auto Weer Stralen met Lavis Detailing
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/interieur
-    detailing main afbeelding mercedes.webp
+  src: ../../../assets/interieur detailing main afbeelding mercedes.webp
   alt: ""
 ---
 

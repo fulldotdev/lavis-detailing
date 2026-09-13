@@ -4,8 +4,7 @@ block: article-1
 title: Wat kost auto detailing?
 description: Ontdek de kosten van auto detailing
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/prijzen-auto-detailing.webp
+  src: ../../../assets/prijzen-auto-detailing-640x427.webp
   alt: ""
 ---
 

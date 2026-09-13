@@ -4,8 +4,7 @@ block: article-1
 title: Schadeherstel bij Lavis Detailing
 description: Perfectionisme in elk detail
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-geel-voorkant.webp
+  src: ../../../assets/auto-geel-voorkant-1280x1013.webp
   alt: ""
 ---
 

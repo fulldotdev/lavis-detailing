@@ -4,8 +4,7 @@ block: article-1
 title: De verschillen tussen een detailer en een autopoetsbedrijf
 description: ""
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-wassen-afbeelding-lavis-1.webp
+  src: ../../../assets/auto-wassen-afbeelding-lavis-1-1280x720.webp
   alt: ""
 ---
 

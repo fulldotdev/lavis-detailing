@@ -4,8 +4,7 @@ block: article-1
 title: "Velgen schoonmaken: Hoe kom je van die vieze velgen af?\_"
 description: Tips voor het Reinigen van Autovelgen
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Velgen-poetsen.webp
+  src: ../../../assets/Velgen-poetsen-1280x854.webp
   alt: ""
 ---
 

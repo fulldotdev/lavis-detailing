@@ -4,8 +4,7 @@ block: article-1
 title: Vliegroest verwijderen. Hoe doe je dat?
 description: ""
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/auto-laten-polijsten.webp
+  src: ../../../assets/auto-laten-polijsten-640x427.webp
   alt: ""
 ---
 

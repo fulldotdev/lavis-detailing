@@ -4,8 +4,7 @@ block: article-1
 title: Boot winterklaar maken
 description: Professionele bootdetailing
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Boot-detailing-lak-beschermen.webp
+  src: ../../../assets/Boot-detailing-lak-beschermen-1280x549.webp
   alt: ""
 ---
 
