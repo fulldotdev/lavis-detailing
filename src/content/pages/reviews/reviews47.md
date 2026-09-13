@@ -10,8 +10,6 @@ description: >-
   Echt een top service, kwaliteit gaat boven kwantiteit en dat is terug te zien
   in de auto.
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Seat Leon
-    coating.webp
+  src: ""
   alt: ''
 ---

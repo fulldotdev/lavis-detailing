@@ -14,8 +14,6 @@ description: >
   In tijden mijn auto niet zo netjes gezien. (Durfde er eerst bijna niet mee te
   rijden )
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Hyundai i30 N
-    Performance Coating.webp
+  src: ""
   alt: ''
 ---

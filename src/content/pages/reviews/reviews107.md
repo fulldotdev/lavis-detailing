@@ -7,9 +7,7 @@ description: >
   volgende!
 rating: 5
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/BMW X1
-    Coating.webp
+  src: ""
   alt: ''
 
 title: Sebastiaan

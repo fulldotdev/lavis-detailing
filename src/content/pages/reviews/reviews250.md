@@ -13,9 +13,7 @@ description: >-
   Positive: Professionalism, Quality
 rating: 5
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/VW Passat
-    Coating.webp
+  src: ""
   alt: ''
 
 title: Hessel-Willem Veldhuis

@@ -12,9 +12,7 @@ description: >
   rijden )
 rating: 5
 image:
-  src: >-
-    https://storage.googleapis.com/fulldev-payload/lavis-detailing/Hyundai i30 N
-    Performance Coating.webp
+  src: ""
   alt: ''
 
 title: Robin Barry
