@@ -40,7 +40,7 @@ Begin altijd met water. Hiermee verwijder je het hardnekkigste vuil. Dit kun je 
 
 ### 2\. Verwijder vervolgens de remstof
 
-Als je remt slijten de remschijven, daardoor ontstaat remstof. Remstof is een zwart laagje dat ontstaat op de velgen. Dit is hardnekkig vuil dat verwijderd dient te worden met een goede&nbsp;<a rel="" href="https://lavis-detailing.nl/product/robust-neutrale-velgenreiniger/">velgenreiniger.</a>&nbsp;
+Als je remt slijten de remschijven, daardoor ontstaat remstof. Remstof is een zwart laagje dat ontstaat op de velgen. Dit is hardnekkig vuil dat verwijderd dient te worden met een goede&nbsp;velgenreiniger.&nbsp;
 
 ### 3\. Verder werken met de hand
 
@@ -52,4 +52,4 @@ Als je het hardnekkige vuil zoals zand en de remstof hebt verwijderd, kun je ver
 
 Bij Lavis Detailing vinden we een schone auto natuurlijk erg belangrijk. We helpen je dan ook graag bij de schoonmaak met onze reinigingsproducten. In onze shop vind je doeken, velgenborstels en velgenshampoo, zodat ook jouw velgen glimmen als nooit tevoren.&nbsp;
 
-Benieuwd naar ons assortiment? Neem dan snel een kijkje in onze webshop.<a rel="" href="https://lavis-detailing.nl/webshop/">&nbsp;Die vind je hier.</a>&nbsp;
+Vragen over de juiste producten? <a href="/contact/">Neem contact met ons op.</a>

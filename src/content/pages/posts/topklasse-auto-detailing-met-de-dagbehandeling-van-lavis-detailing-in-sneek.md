@@ -23,4 +23,4 @@ Afsluitend brengen we een high-end sealant aan die uw auto beschermt tegen weers
 
 Lavis Detailing staat bekend om zijn precisie en expertise in autoverzorging. Onze dagbehandeling is een bewijs van onze toewijding aan kwaliteit en klanttevredenheid. Gevestigd in Sneek, zijn we gemakkelijk bereikbaar voor iedereen in Friesland die zijn auto de beste zorg wil geven.
 
-Klaar voor een showroom-klare auto?&nbsp;<a rel="" href="https://lavis-detailing.nl/posts/implement%20this">Plan vandaag nog een intake</a>&nbsp;voor de dagbehandeling bij Lavis Detailing en ervaar de beste autoverzorging in Sneek. Uw auto zal u dankbaar zijn.
+Klaar voor een showroom-klare auto?&nbsp;<a rel="" href="/intake/">Plan vandaag nog een intake</a>&nbsp;voor de dagbehandeling bij Lavis Detailing en ervaar de beste autoverzorging in Sneek. Uw auto zal u dankbaar zijn.

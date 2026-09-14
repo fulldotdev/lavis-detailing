@@ -21,7 +21,7 @@ Laten we beginnen met detailing. Wat houdt dit precies in? Auto Detailing is het
 - Het reinigen van de ramen;
 - Het reinigen van de deursponningen.
 
-Met welke werkzaamheden jij in aanmerking komt, hangt af van het pakket dat je kiest. Dit kan een&nbsp;<a rel="" href="https://lavis-detailing.nl/car-detailing-basis/">basis pakket</a>&nbsp;zijn, maar ook een&nbsp;<a rel="" href="https://lavis-detailing.nl/car-detailing-deluxe/">deluxe pakket.&nbsp;</a>
+Met welke werkzaamheden jij in aanmerking komt, hangt af van het pakket dat je kiest. Dit kan een&nbsp;<a rel="" href="/diensten/dagbehandeling/">basis pakket</a>&nbsp;zijn, maar ook een&nbsp;<a rel="" href="/diensten/dagbehandeling/">deluxe pakket.&nbsp;</a>
 
 ## Wat doet een autopoetsbedrijf
 
@@ -29,8 +29,8 @@ En hoe pakt een autopoetsbedrijf dit aan? Bij autopoetsen gaat het meer om de kw
 
 ## Welke dienst is geschikt voor mijn voertuig?&nbsp;
 
-Maar dan de vraag: “Welke dienst is geschikt voor mijn voertuig?” Dat hangt af van je wensen. Vind je het uiterlijk van je auto niet heel belangrijk en wil je gewoon dat deze erg verzorgt uitziet? Dan is autopoetsen vaak al voldoende. Vind je het belangrijk dat je auto er op en top uitziet? Dan is detailing een stuk interessanter.&nbsp;<a rel="" href="https://lavis-detailing.nl/auto-detailing-prijzen/">Het kost weliswaar wel wat meer geld</a>, maar je krijgt er een stuk meer voor terug.&nbsp;
+Maar dan de vraag: “Welke dienst is geschikt voor mijn voertuig?” Dat hangt af van je wensen. Vind je het uiterlijk van je auto niet heel belangrijk en wil je gewoon dat deze erg verzorgt uitziet? Dan is autopoetsen vaak al voldoende. Vind je het belangrijk dat je auto er op en top uitziet? Dan is detailing een stuk interessanter.&nbsp;<a rel="" href="/diensten/dagbehandeling/">Het kost weliswaar wel wat meer geld</a>, maar je krijgt er een stuk meer voor terug.&nbsp;
 
 ## Geïnteresseerd in autodetailing?&nbsp;
 
-Kan jouw auto wel een grondige schoonmaakbeurt gebruiken? Dan is autodetailing dé dienst die jij zoekt! Wij van Lavis Detailing zijn je graag van dienst.&nbsp;<a rel="" href="https://lavis-detailing.nl/car-detailing/">Maak snel een afspraak</a>&nbsp;of neem bij verdere vragen contact met ons op via het&nbsp;<a rel="" href="https://lavis-detailing.nl/contact/">contactformulier</a>. Bellen kan natuurlijk ook naar:&nbsp;<a rel="" href="tel:0610282906">06-10282906</a>
+Kan jouw auto wel een grondige schoonmaakbeurt gebruiken? Dan is autodetailing dé dienst die jij zoekt! Wij van Lavis Detailing zijn je graag van dienst.&nbsp;<a rel="" href="/intake/">Maak snel een afspraak</a>&nbsp;of neem bij verdere vragen contact met ons op via het&nbsp;<a rel="" href="https://lavis-detailing.nl/contact/">contactformulier</a>. Bellen kan natuurlijk ook naar:&nbsp;<a rel="" href="tel:0610282906">06-10282906</a>

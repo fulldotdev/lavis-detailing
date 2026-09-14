@@ -32,10 +32,10 @@ Het kan natuurlijk zo zijn dat je de roest te laat ontdekt en dat deze dusdanig 
 
 ## Autodetailing doet de trick!
 
-Krijg je de vliegroest zelf niet meer weg? Dan is&nbsp;<a rel="" href="https://lavis-detailing.nl/auto-detailing-prijzen/">autodetailing</a>&nbsp;een goede oplossing. Hierbij wordt jouw auto grondig gereinigd en worden lak en schade hersteld. Afhankelijk van het pakket dat je bij ons kiest, lappen wij jouw auto tot in detail op.&nbsp;
+Krijg je de vliegroest zelf niet meer weg? Dan is&nbsp;<a rel="" href="/diensten/dagbehandeling/">autodetailing</a>&nbsp;een goede oplossing. Hierbij wordt jouw auto grondig gereinigd en worden lak en schade hersteld. Afhankelijk van het pakket dat je bij ons kiest, lappen wij jouw auto tot in detail op.&nbsp;
 
 Tijdens het auto detailen wordt de hardnekkige vliegroest dus ook verwijderd. Dit doen wij op een professionele en vakkundige manier, zodat jouw auto als nieuw bij ons vandaan komt.&nbsp;
 
 ## Klinkt goed, waar kan ik de dienstverlening bekijken?
 
-Op onze website kun je onze pakketten bekijken. Hier vind je een basis en een deluxe pakket. Op basis van jouw wensen, kun je bepalen welke het beste bij jou past.&nbsp;<a rel="" href="https://lavis-detailing.nl/car-detailing/">Bekijk ze hier.</a>&nbsp;Heb je verdere vragen? Dan kun je altijd contact met ons opnemen via het&nbsp;<a rel="" href="https://lavis-detailing.nl/contact/">contactformulier.</a>
+Op onze website kun je onze pakketten bekijken. Hier vind je een basis en een deluxe pakket. Op basis van jouw wensen, kun je bepalen welke het beste bij jou past.&nbsp;<a rel="" href="/diensten/dagbehandeling/">Bekijk ze hier.</a>&nbsp;Heb je verdere vragen? Dan kun je altijd contact met ons opnemen via het&nbsp;<a rel="" href="https://lavis-detailing.nl/contact/">contactformulier.</a>
