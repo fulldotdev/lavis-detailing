@@ -15,7 +15,7 @@ sections:
     html: >
       <h1><strong>DETAILING MET PERFECTIE</strong> tot in het laatste detail.</h1>
       <p>Exterieur en interieur detailing, coating, polijsten, waxen en meer.</p>
-      <p>Wij zijn gecertificeerd Titan Coatings® distributeur. <a href="mailto:info@lavisdetailing.nl?subject=Aansluiten als detailer&body=Hallo, ik ben geïnteresseerd in het aansluiten als detailer bij Lavis Detailing.">Aansluiten als detailer?</a></p>
+      <p>Wij zijn gecertificeerd Titan Coatings® distributeur. <a href="mailto:info@lavis-detailing.nl?subject=Aansluiten als detailer&body=Hallo, ik ben geïnteresseerd in het aansluiten als detailer bij Lavis Detailing.">Aansluiten als detailer?</a></p>
     links:
       - text: Direct contact opnemen
         href: /contact/
@@ -70,7 +70,7 @@ sections:
       - text: Bekijk coating diensten
         href: /diensten/coating/
       - text: Aansluiten als detailer?
-        href: mailto:info@lavisdetailing.nl?subject=Aansluiten als detailer&body=Hallo, ik ben geïnteresseerd in het aansluiten als detailer bij Lavis Detailing.
+        href: mailto:info@lavis-detailing.nl?subject=Aansluiten als detailer&body=Hallo, ik ben geïnteresseerd in het aansluiten als detailer bij Lavis Detailing.
     image:
       src: ../../assets/image00128-1-1280x786.webp
       alt: Titan Coatings

@@ -45,4 +45,4 @@ Het laatste pakket is het 3 Staps polijsten en is beschikbaar v.a. € 525,- exc
 
 ## **Geïnteresseerd in één van onze pakketten?**
 
-Kan jouw auto wel een opknapbeurt gebruiken en ben je geïnteresseerd in auto detailing? Wij willen je graag te hulp schieten.<a rel="" href="https://lavis-detailing.nl/car-detailing/">&nbsp;Maak een afspraak</a>&nbsp;of neem bij verdere vragen contact met ons op via het<a rel="" href="https://lavis-detailing.nl/contact/">&nbsp;contactformulier</a>.
+Kan jouw auto wel een opknapbeurt gebruiken en ben je geïnteresseerd in auto detailing? Wij willen je graag te hulp schieten.<a rel="" href="/intake/">&nbsp;Maak een afspraak</a>&nbsp;of neem bij verdere vragen contact met ons op via het<a rel="" href="https://lavis-detailing.nl/contact/">&nbsp;contactformulier</a>.

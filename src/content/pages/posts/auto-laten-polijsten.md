@@ -30,7 +30,7 @@ Polijsten wordt gedaan met een polijstmachine en polijstschijven. Op deze schijv
 
 ## Wanneer laat je je auto polijsten?
 
-Waaraan kun je zien dat je auto een&nbsp;<a rel="" href="https://lavis-detailing.nl/car-detailing-deluxe/">polijstbeurt</a>&nbsp;nodig heeft? Dat kun je onder andere zien aan de volgende kenmerken:&nbsp;
+Waaraan kun je zien dat je auto een&nbsp;<a rel="" href="/diensten/polijsten/">polijstbeurt</a>&nbsp;nodig heeft? Dat kun je onder andere zien aan de volgende kenmerken:&nbsp;
 
 - Krasjes en lichte beschadigingen in de lak;
 - Kringen en doffe plekken in de lak;

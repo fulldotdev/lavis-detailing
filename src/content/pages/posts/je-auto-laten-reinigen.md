@@ -28,12 +28,12 @@ Met een normaal sopje dat je thuis klaarmaakt, kun je je auto natuurlijk reinige
 
 ## Wat pakken wij aan?
 
-Wij reinigen jouw interieur, exterieur of beiden. Deze dienst heet&nbsp;<a rel="" href="https://lavis-detailing.nl/car-detailing/">Car detailing</a>, of auto detailing. Car detailing is niet zomaar het poetsen van je auto, maar gaat nog een stapje verder. Het verschil zit hem in de kwaliteit die voorop staat en niet de kwantiteit.&nbsp;
+Wij reinigen jouw interieur, exterieur of beiden. Deze dienst heet&nbsp;<a rel="" href="/diensten/dagbehandeling/">Car detailing</a>, of auto detailing. Car detailing is niet zomaar het poetsen van je auto, maar gaat nog een stapje verder. Het verschil zit hem in de kwaliteit die voorop staat en niet de kwantiteit.&nbsp;
 
 Wij bieden verschillende pakketten aan op het gebied van Car detailing en interieur detailing. We doen onder andere aan: 1,2 of 3 staps polijsten, een wax sealant aanbrengen, een uitgebreide wasbeurt om chemicaliën te verwijderen en je hebt de optie om je deursponningen te laten reinigen.&nbsp;
 
-Wat betreft het interieur bieden wij<a rel="" href="https://lavis-detailing.nl/interieur-detailing/">&nbsp;twee pakketten&nbsp;</a>aan: een basis pakket en een uitgebreid pakket. Wat bij beiden terugkomt is het stofzuigen van het interieur, het reinigen van de binnenzijde van de ramen en het reinigen van het dashboard en de deurpanelen.&nbsp;
+Wat betreft het interieur bieden wij<a rel="" href="/diensten/interieur-reiniging/">&nbsp;twee pakketten&nbsp;</a>aan: een basis pakket en een uitgebreid pakket. Wat bij beiden terugkomt is het stofzuigen van het interieur, het reinigen van de binnenzijde van de ramen en het reinigen van het dashboard en de deurpanelen.&nbsp;
 
 ## Ik wil mijn auto toch laten schoonmaken!&nbsp;
 
-Wil je jouw auto toch laten schoonmaken door professionals? Zoek dan niet verder! Wij schieten je graag te hulp.<a rel="" href="https://lavis-detailing.nl/car-detailing/">&nbsp;Maak een afspraak</a>&nbsp;of neem bij verdere vragen contact met ons op via het<a rel="" href="https://lavis-detailing.nl/contact/">&nbsp;contactformulier</a>. Ook kun je altijd een belletje doen naar: 06-10282906
+Wil je jouw auto toch laten schoonmaken door professionals? Zoek dan niet verder! Wij schieten je graag te hulp.<a rel="" href="/intake/">&nbsp;Maak een afspraak</a>&nbsp;of neem bij verdere vragen contact met ons op via het<a rel="" href="https://lavis-detailing.nl/contact/">&nbsp;contactformulier</a>. Ook kun je altijd een belletje doen naar: 06-10282906

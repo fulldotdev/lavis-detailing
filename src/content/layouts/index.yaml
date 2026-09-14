@@ -73,7 +73,7 @@ footers:
           - text: Alle diensten
             href: /diensten/
           - text: Interieur detailing
-            href: /diensten/interieur-detailing/
+            href: /diensten/interieur-reiniging/
           - text: Exterieur detailing
             href: /diensten/exterieur-detailing/
           - text: Coating
@@ -87,19 +87,19 @@ footers:
       - text: Overige diensten
         links:
           - text: Wassen
-            href: /diensten/wassen/
+            href: /diensten/onderhouds-wasbeurt/
           - text: Reinigen
-            href: /diensten/reinigen/
+            href: /diensten/interieur-reiniging/
           - text: Velgreparatie
             href: /diensten/velgreparatie/
           - text: Schadeherstel
             href: /diensten/schadeherstel/
           - text: Koplamp restauratie
-            href: /diensten/koplamprestauratie/
+            href: /diensten/koplamp-restauratie/
           - text: PPF
             href: /diensten/ppf/
           - text: Wrapping
-            href: /diensten/wrapping/
+            href: /diensten/wrapping-en-bestickering/
       - text: Bedrijf
         links:
           - text: Over ons

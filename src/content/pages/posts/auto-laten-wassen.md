@@ -41,13 +41,13 @@ Hoewel de<a rel="" href="https://supershineonline.nl/auto-wassen-in-de-wassstraa
 - Gebruik een andere spons of doek bij het schoonmaken van je velgen;
 - Werk niet in de volle zon;
 - Laat je auto eerst goed drogen voor je hem in bijvoorbeeld de garage zet of ermee gaat rijden;
-- Gebruik geen hardnekkige reinigingsmiddelen, maar een<a rel="" href="https://lavis-detailing.nl/product-categorie/exterieur/">&nbsp;hoogwaardig reinigingsmiddel</a>;
+- Gebruik geen hardnekkige reinigingsmiddelen, maar een&nbsp;hoogwaardig reinigingsmiddel;
 - Was niet met heet water, maar met lauw water.
 
 ## Exterieur detailing
 
-Je auto zelf wassen is leuk, maar je zult waarschijnlijk niet hetzelfde gevoel bereiken toen je jouw auto uit de garage had opgehaald. Wil je jouw auto weer als nieuw? Dan is&nbsp;<a rel="" href="https://lavis-detailing.nl/exterieur-detailing/">exterieur detailing</a>&nbsp;dé manier. Hierbij reinigen, poetsen en perfectioneren wij jouw auto tot in de kleinste details. Wij nemen de tijd voor een uitgebreide reiniging en gebruiken uitsluitend de juiste machines en producten om de kwaliteit te waarborgen.&nbsp;
+Je auto zelf wassen is leuk, maar je zult waarschijnlijk niet hetzelfde gevoel bereiken toen je jouw auto uit de garage had opgehaald. Wil je jouw auto weer als nieuw? Dan is&nbsp;<a rel="" href="/diensten/exterieur-detailing/">exterieur detailing</a>&nbsp;dé manier. Hierbij reinigen, poetsen en perfectioneren wij jouw auto tot in de kleinste details. Wij nemen de tijd voor een uitgebreide reiniging en gebruiken uitsluitend de juiste machines en producten om de kwaliteit te waarborgen.&nbsp;
 
 ## Ja, dat lijkt mij wel wat!&nbsp;
 
-Lijkt exterieur detailing jou wel wat? Dan ben je bij Lavis Detailing aan het juiste adres! Wij gaan voor het perfecte eindresultaat van iedere auto en kunnen niet wachten om aan die van jou te beginnen. We bieden verschillende&nbsp;<a rel="" href="https://lavis-detailing.nl/exterieur-detailing/#:~:text=1%20STAPS%20POLIJSTEN,Maak%20een%20afspraak">pakketten aan.</a>&nbsp;Ben je benieuwd naar de mogelijkheden? Neem dan contact met ons op via het&nbsp;<a rel="" href="https://lavis-detailing.nl/contact/">formulier op onze website.&nbsp;</a>
+Lijkt exterieur detailing jou wel wat? Dan ben je bij Lavis Detailing aan het juiste adres! Wij gaan voor het perfecte eindresultaat van iedere auto en kunnen niet wachten om aan die van jou te beginnen. We bieden verschillende&nbsp;<a rel="" href="/diensten/exterieur-detailing/">pakketten aan.</a>&nbsp;Ben je benieuwd naar de mogelijkheden? Neem dan contact met ons op via het&nbsp;<a rel="" href="https://lavis-detailing.nl/contact/">formulier op onze website.&nbsp;</a>

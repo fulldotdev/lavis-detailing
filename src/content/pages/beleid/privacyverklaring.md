@@ -3,11 +3,11 @@ title: Privacyverklaring
 ---
 # Privacyverklaring Lavis Detailing
 
-Lavis-detaling.nl respecteert de privacy van de bezoekers van haar website, in het bijzonder de rechten van bezoekers met betrekking tot de geautomatiseerde verwerking van persoonsgegevens. Vanwege volledige transparantie met onze klanten hebben wij daarom een beleid geformuleerd en geïmplementeerd met betrekking tot deze verwerkingen zelf, het doel ervan alsook de mogelijkheden voor betrokkenen om hun de rechten zo goed mogelijk te kunnen uitoefenen. Voor alle aanvullende informatie over de bescherming van persoonsgegevens kunt u terecht op de website van de Autoriteit persoonsgegevens: [https://autoriteitpersoonsgegevens.nl/nl.Met](https://autoriteitpersoonsgegevens.nl/nl.Met) het voortzetten van het bezoek van deze website accepteert u de volgende gebruiksvoorwaarden. U accepteert het gebruik van cookies en andere tracking systems. Indien u dit gebruik wenst te weigeren dient u op de volgende link te klikken&nbsp;<a target="_blank" rel="noopener" href="https://lavis-detailing.nl/cookie-beleid">https://lavis-detailing.nl/cookie-beleid</a>EditEditRemoveRemovewww.lavis-detaling.nl/cookie-beleid. De huidige op de website beschikbare versie van de privacy policy is de enige versie die van toepassing is zolang u de website bezoekt, totdat een nieuwe versie de huidige versie vervangt.
+lavis-detailing.nl respecteert de privacy van de bezoekers van haar website, in het bijzonder de rechten van bezoekers met betrekking tot de geautomatiseerde verwerking van persoonsgegevens. Vanwege volledige transparantie met onze klanten hebben wij daarom een beleid geformuleerd en geïmplementeerd met betrekking tot deze verwerkingen zelf, het doel ervan alsook de mogelijkheden voor betrokkenen om hun de rechten zo goed mogelijk te kunnen uitoefenen. Voor alle aanvullende informatie over de bescherming van persoonsgegevens kunt u terecht op de website van de Autoriteit persoonsgegevens: [https://autoriteitpersoonsgegevens.nl/nl.Met](https://autoriteitpersoonsgegevens.nl/nl.Met) het voortzetten van het bezoek van deze website accepteert u de volgende gebruiksvoorwaarden. U accepteert het gebruik van cookies en andere tracking systems. Indien u dit gebruik wenst te weigeren dient u op de volgende link te klikken&nbsp;<a target="_blank" rel="noopener" href="https://lavis-detailing.nl/cookie-beleid">https://lavis-detailing.nl/cookie-beleid</a>EditEditRemoveRemovewww.lavis-detailing.nl/cookie-beleid. De huidige op de website beschikbare versie van de privacy policy is de enige versie die van toepassing is zolang u de website bezoekt, totdat een nieuwe versie de huidige versie vervangt.
 
 ## ****Artikel 1: Wettelijke bepalingen****
 
-1. Website (hierna ook “De website”): [www.Lavis-detaling.nl](https://www.Lavis-detaling.nl)
+1. Website (hierna ook “De website”): [www.lavis-detailing.nl](https://www.lavis-detailing.nl)
 2. Verantwoordelijke voor de verwerking van persoonsgegevens (Hierna ook: “De beheerder”): LaVis Services V.O.F., gevestigd te Kleine Hoorn 12, 9363 EW Marum, kvk-nummer: 75337231.
 
 ## ****Artikel 2: Toegang tot de website****
@@ -33,11 +33,11 @@ De beheerder is niet verantwoordelijk voor enige schade die u zelf oploopt, dan 
 
 ## ****Artikel 6:  Het verzamelen van gegevens****
 
-Uw gegevens worden verzameld door Lavis-detaling.nl en (een) externe verwerker(s). Onder persoonsgegevens worden verstaan: alle informatie over een geïdentificeerde of identificeerbare natuurlijke persoon; als identificeerbaar wordt beschouwd een natuurlijke persoon die direct of indirect kan worden geïdentificeerd, met name aan de hand van een identificator zoals een naam, een identificatienummer, locatiegegevens, een online identificator of een of meer elementen die kenmerkend zijn voor de fysieke, fysiologische, genetische, psychische, economische, culturele of sociale identiteit.De persoonsgegevens die op de website worden verzameld worden hoofdzakelijk gebruikt door de beheerder voor het onderhouden van relaties met u en indien aan de orde voor het verwerken van uw bestellingen.&nbsp;&nbsp;
+Uw gegevens worden verzameld door lavis-detailing.nl en (een) externe verwerker(s). Onder persoonsgegevens worden verstaan: alle informatie over een geïdentificeerde of identificeerbare natuurlijke persoon; als identificeerbaar wordt beschouwd een natuurlijke persoon die direct of indirect kan worden geïdentificeerd, met name aan de hand van een identificator zoals een naam, een identificatienummer, locatiegegevens, een online identificator of een of meer elementen die kenmerkend zijn voor de fysieke, fysiologische, genetische, psychische, economische, culturele of sociale identiteit.De persoonsgegevens die op de website worden verzameld worden hoofdzakelijk gebruikt door de beheerder voor het onderhouden van relaties met u en indien aan de orde voor het verwerken van uw bestellingen.&nbsp;&nbsp;
 
 ## ****Artikel 7:  Uw rechten met betrekking tot uw gegevens****
 
-Op grond van artikel 13 lid 2 sub b AVG heeft eenieder recht op inzage van en rectificatie of wissing van zijn persoonsgegevens of beperking van de hem betreffende verwerking, alsmede het recht tegen de verwerking bezwaar te maken en het recht op gegevensoverdraagbaarheid. U kunt deze rechten uitoefenen door contact met ons op te nemen via [info@dijs.media](mailto:info@dijs.media). Ieder verzoek daartoe dient te worden vergezeld van een kopie van een geldig identiteitsbewijs, waarop u uw handtekening heeft gezet en onder vermelding van het adres waarop er met u contact kan worden opgenomen. Binnen 1 maand na het ingediende verzoek, krijgt u antwoord op uw verzoek. Afhankelijk van de complexiteit van de verzoeken en het aantal van de verzoeken kan deze termijn indien nodig met 2 maanden worden verlengd.
+Op grond van artikel 13 lid 2 sub b AVG heeft eenieder recht op inzage van en rectificatie of wissing van zijn persoonsgegevens of beperking van de hem betreffende verwerking, alsmede het recht tegen de verwerking bezwaar te maken en het recht op gegevensoverdraagbaarheid. U kunt deze rechten uitoefenen door contact met ons op te nemen via [info@lavis-detailing.nl](mailto:info@lavis-detailing.nl). Ieder verzoek daartoe dient te worden vergezeld van een kopie van een geldig identiteitsbewijs, waarop u uw handtekening heeft gezet en onder vermelding van het adres waarop er met u contact kan worden opgenomen. Binnen 1 maand na het ingediende verzoek, krijgt u antwoord op uw verzoek. Afhankelijk van de complexiteit van de verzoeken en het aantal van de verzoeken kan deze termijn indien nodig met 2 maanden worden verlengd.
 
 ## ****Artikel 8:  Verwerking van persoonsgegevens****
 
@@ -45,7 +45,7 @@ In geval van schending van enige wet- of regelgeving, waarvan de bezoeker wordt 
 
 ## ****Artikel 9:  Commerciële aanbiedingen****
 
-U kunt commerciële aanbiedingen krijgen van de beheerder. Indien u deze niet (meer) wenst te ontvangen, stuurt u een mail naar het volgende adres: [info@Lavis-detaling.nl.Indien](mailto:info@Lavis-detaling.nl.Indien) u tijdens het bezoek van de website enige persoonsgegevens tegenkomt, dient u zich te onthouden van het verzamelen ervan of van enig ander ongeoorloofd gebruik alsook van iedere daad die een inbreuk op de persoonlijke levenssfeer van die perso(o)n(en) oplevert. De beheerder is in geen geval verantwoordelijk in bovengenoemde situaties.&nbsp;
+U kunt commerciële aanbiedingen krijgen van de beheerder. Indien u deze niet (meer) wenst te ontvangen, stuurt u een mail naar het volgende adres: [info@lavis-detailing.nl](mailto:info@lavis-detailing.nl). Indien u tijdens het bezoek van de website enige persoonsgegevens tegenkomt, dient u zich te onthouden van het verzamelen ervan of van enig ander ongeoorloofd gebruik alsook van iedere daad die een inbreuk op de persoonlijke levenssfeer van die perso(o)n(en) oplevert. De beheerder is in geen geval verantwoordelijk in bovengenoemde situaties.&nbsp;
 
 ## ****Artikel 10:  Bewaartermijn gegevens****
 
@@ -69,4 +69,4 @@ Op deze voorwaarden is Nederlands Recht van toepassing. De rechtbank van de vest
 
 ## ****Artikel 14: Contact****
 
-Voor vragen, productinformatie of informatie over de website zelf, kunt u zich richten tot: A. Visser, [info@Lavis-detaling.nl](mailto:info@Lavis-detaling.nl)
+Voor vragen, productinformatie of informatie over de website zelf, kunt u zich richten tot: A. Visser, [info@lavis-detailing.nl](mailto:info@lavis-detailing.nl)

@@ -21,7 +21,7 @@ Als wij het interieur van je auto gaan reinigen, pakken we verschillende zaken a
 - Ledere stoelen reinigen;
 - Vloermatten reinigen.
 
-Voor welke zaken jij in aanmerking komt, hangt af van het&nbsp;<a rel="" href="https://lavis-detailing.nl/interieur-detailing/">pakket</a>&nbsp;dat je kiest. Lavis Detailing biedt een basis pakket aan, maar ook een uitgebreid pakket.&nbsp;
+Voor welke zaken jij in aanmerking komt, hangt af van het&nbsp;<a rel="" href="/diensten/interieur-reiniging/">pakket</a>&nbsp;dat je kiest. Lavis Detailing biedt een basis pakket aan, maar ook een uitgebreid pakket.&nbsp;
 
 ## Welk pakket heb ik nodig?
 
@@ -43,4 +43,4 @@ Rijden wordt weer als vanouds. Je krijgt weer het gevoel alsof je in een gloedni
 
 **Ben jij klaar met je vieze interieur?**&nbsp;Wil jij weer met een prettig gevoel achter het stuur kruipen en op een normale manier mensen vervoeren? Dan is het tijd om je auto interieur te reinigen!&nbsp;
 
-Wij van Lavis Detailing helpen je daar graag bij. Ben je benieuwd naar de mogelijkheden? Neem dan snel contact met ons op via het&nbsp;<a rel="" href="https://lavis-detailing.nl/contact/">contactformulier.</a>&nbsp;Onze verschillende pakketten&nbsp;<a rel="" href="https://lavis-detailing.nl/interieur-detailing/">kun je hier bekijken.</a>&nbsp;
+Wij van Lavis Detailing helpen je daar graag bij. Ben je benieuwd naar de mogelijkheden? Neem dan snel contact met ons op via het&nbsp;<a rel="" href="https://lavis-detailing.nl/contact/">contactformulier.</a>&nbsp;Onze verschillende pakketten&nbsp;<a rel="" href="/diensten/interieur-reiniging/">kun je hier bekijken.</a>&nbsp;
